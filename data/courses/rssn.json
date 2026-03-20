@@ -1,0 +1,130 @@
+{
+  "department": "RSSN",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary Russian 1",
+      "credits": 4.0,
+      "description": "Explores the essentials of grammar, practice in pronunciation, acquisition of basic vocabulary, and idiomatic expressions of everyday Russian.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary Russian 2",
+      "credits": 4.0,
+      "description": "Continues RSSN 1101. Studies grammar and spoken and written forms of the language. Covers more advanced features of the language.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "RSSN 1101"
+          },
+          {
+            "course": "RSSN 1301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2101",
+      "title": "Intermediate Russian 1",
+      "credits": 4.0,
+      "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "RSSN 1102"
+          },
+          {
+            "course": "RSSN 1302"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2102",
+      "title": "Intermediate Russian 2",
+      "credits": 4.0,
+      "description": "Builds on RSSN 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Russian materials.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "RSSN 2101"
+          },
+          {
+            "course": "RSSN 2301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3101",
+      "title": "Advanced Russian 1",
+      "credits": 4.0,
+      "description": "Builds on RSSN 2102. Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "RSSN 2102"
+          },
+          {
+            "course": "RSSN 2302"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3102",
+      "title": "Advanced Russian 2",
+      "credits": 4.0,
+      "description": "Builds on RSSN 3101 and continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "RSSN 3101"
+          },
+          {
+            "course": "RSSN 3301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major or minor requirements in certain situations. Priority is given to language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": 1.0,
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

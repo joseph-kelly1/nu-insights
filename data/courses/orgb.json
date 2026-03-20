@@ -1,0 +1,118 @@
+{
+  "department": "ORGB",
+  "courses": [
+    {
+      "number": "3201",
+      "title": "Organizational Behavior",
+      "credits": 4.0,
+      "description": "Provides an overview of the actions and behaviors of people in organizations. Uses case studies, videos, experiential exercises, lectures, and discussions to explore the effects of individual, interpersonal, group, organizational, and cross-cultural factors on human behavior. Topics include groups and teams, motivation, leadership, organizational change, organizational culture, structure, conflict resolution, and communication. Both the underlying theories and principles of these topics, as well as their practical applications and implications for organizations, are covered.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "COOP 3945"
+              },
+              {
+                "course": "COOP 3946"
+              },
+              {
+                "course": "COOP 3947"
+              },
+              {
+                "course": "COOP 3948"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 1102"
+              },
+              {
+                "course": "ENGL 1111"
+              },
+              {
+                "course": "ENGW 1102"
+              },
+              {
+                "course": "ENGW 1111"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "3203",
+      "title": "Behavioral Aspects of Digital Transformation",
+      "credits": 4.0,
+      "description": "Examines the relationship between digital technologies and human behavior through the lens of foundational organizational behavior frameworks. Covers issues related to the impact of digital technologies on behavior and the impact of human behavior on the development of these technologies and the process of digital transformation. Analyzes the behavioral implications of current developments in digitalization and digital transformation. Topics include algorithmic management, bias in training large language models, AI-driven inﬂuence, behavioral responses to disruptive change, and leadership of transformation.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "COOP 3945"
+              },
+              {
+                "course": "COOP 3946"
+              },
+              {
+                "course": "COOP 3947"
+              },
+              {
+                "course": "COOP 3948"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGW 1102"
+              },
+              {
+                "course": "ENGW 1111"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "3209",
+      "title": "Organizational Behavior",
+      "credits": 4.0,
+      "description": "Does not count as credit for business majors. Counts as ORGB 3201 for business minors only.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of faculty members of the department on a chosen topic. Course content depends on instructor. May be repeated up to four times for a maximum of 8 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

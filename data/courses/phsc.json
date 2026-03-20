@@ -1,0 +1,1254 @@
+{
+  "department": "PHSC",
+  "courses": [
+    {
+      "number": "1001",
+      "title": "Introduction to Contemporary Pharmaceutical Sciences",
+      "credits": 1.0,
+      "description": "Introduces multiple aspects of the contemporary pharmaceutical sciences. Explores how these disciplines are used to solve real-world medical problems. Offers students an opportunity to learn about foundational concepts in pharmacology; drug development and translational medicine; and the nexus of biotechnology, engineering, industry, entrepreneurship, and the career landscape for scientists. Discussion-based classes that introduce fundamental concepts are followed by student-driven classes that explore the real-world application and societal context of the material. Seeks to help students interested in pharmaceutical sciences to identify and interact with like-minded students and faculty researchers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2000",
+      "title": "Professional Development for Pharmaceutical Sciences Co-op",
+      "credits": 1.0,
+      "description": "Introduces students to the pharmaceutical sciences cooperative education program and professionalism in the field. Students assess their workplace skills, interests, and values and discuss how these impact personal career decisions. Offers students an opportunity to develop effective job search and career management skills, prepare a professional resumé, learn proper interviewing techniques, develop a strong online professional profile, and learn how to use the Northeastern job database and referral process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2100",
+      "title": "Lab Research Rotation",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to conduct laboratory research under the direct supervision of a laboratory mentor, generally a faculty member or laboratory director, gain experience in research techniques, and develop good laboratory practices as they learn about research topics under investigation in the laboratory of their choice. Students attend seminars, departmental events, and other activities relevant to the mentor’s laboratory. The time commitment is at least eight hours a week. Mentor expectations and grading criteria are decided upon between the student and the mentor prior to the start of the rotation and must be approved by the course director. Students prepare a presentation that encompasses the research performed by the student that includes description, experimental design, data generated, data interpretation, and discussion of their research project. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2301",
+      "title": "Human Physiology 1",
+      "credits": 3.0,
+      "description": "Provides students with an understanding of the principles of physiology. Discusses physiological information mostly related to cardiovascular, respiratory, digestive, urinary, and endocrine systems. Focuses on the physiological mechanisms of the major organ systems. Physiological information is related to the specific areas of pharmacology.",
+      "prerequisites": {
+        "course": "BIOL 1113"
+      },
+      "corequisites": [
+        "PHSC 2302"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2302",
+      "title": "Human Anatomy Lab",
+      "credits": 1.0,
+      "description": "Accompanies PHSC 2301. Focuses on the anatomy of the major organ systems. Digital images allow each student to study the structure of each organ system in-depth.",
+      "prerequisites": {
+        "course": "BIOL 1113"
+      },
+      "corequisites": [
+        "PHSC 2301"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2303",
+      "title": "Human Physiology 2",
+      "credits": 3.0,
+      "description": "Continues PHSC 2301. Provides students with an understanding of the principles of physiology. Discusses physiological information mostly related to cell physiology, muscle physiology, and physiology of the nervous system. Focuses on the physiological mechanisms of the major organ systems. Physiological information is related to the specific areas of pharmacology.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "PHSC 2301"
+          },
+          {
+            "course": "PHSC 2302"
+          }
+        ]
+      },
+      "corequisites": [
+        "PHSC 2304"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2304",
+      "title": "Human Physiology Lab",
+      "credits": 1.0,
+      "description": "Accompanies PHSC 2303. Covers topics from the course through various experiments.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "PHSC 2301"
+          },
+          {
+            "course": "PHSC 2302"
+          }
+        ]
+      },
+      "corequisites": [
+        "PHSC 2303"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2320",
+      "title": "Biochemistry",
+      "credits": 4.0,
+      "description": "Introduces the structures, functions, and metabolism of amino acids, proteins, carbohydrates, lipids, and nucleic acids. Discusses the mechanisms of enzyme reactions, enzyme kinetics, vitamins, biological oxidation-reduction reactions, and bioenergetics, as well as various inborn errors of metabolism.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2330",
+      "title": "Immunology",
+      "credits": 3.0,
+      "description": "Provides students with an understanding of the principles, mechanisms, organs, cells, and molecules of the innate and adaptive immunity. Monoclonal antibodies, organ transplant immunity, hypersensitivity, tolerance, tumor immunity, autoimmunity, and immunodeficiencies are discussed in light of potential therapeutic interventions. Weekly journal club-style presentation of related assigned topic is required.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "BIOL 2219"
+                  },
+                  {
+                    "course": "PHSC 2320"
+                  }
+                ]
+              },
+              {
+                "course": "BIOL 3611"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2400",
+      "title": "Research Ethics for Beginning Health Scientists",
+      "credits": 4.0,
+      "description": "Explores various dimensions of ethical research. Introduces ethical foundations and controversies that are central to understanding and developing appropriate ethical frameworks for engaging in research. Requires students to work collaboratively to carefully develop essential skills for ethical analysis and evaluation of professional code of conduct concerns.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Ethical Reasoning"
+      ]
+    },
+    {
+      "number": "2650",
+      "title": "Introduction to Health Science Research",
+      "credits": 4.0,
+      "description": "Surveys research methods and topics relevant to health science research with the goal of engaging undergraduate students to commit to research training throughout at least one semester and possibly continuing throughout their undergraduate program. Exposes students to lectures addressing the benefits of a research experience and readings of original literature. Health science faculty from across the university present their lines of research focusing on projects that would be available to students. Seeks to familiarize students with use of the scientific method in addressing unsolved problems and to prepare them to select the most appropriate research laboratory to engage in research.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "BIOL 1111"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CHEM 1161"
+              },
+              {
+                "course": "CHEM 1211"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1241"
+              },
+              {
+                "course": "MATH 1245"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2991",
+      "title": "Research in Pharmaceutical Science",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct introductory-level research or creative endeavors under faculty supervision. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3411",
+      "title": "Pharmaceutics 1",
+      "credits": 4.0,
+      "description": "Develops an understanding of pharmaceutical dosage forms, with emphasis on solids, liquids, semisolids, parenterals, inhalation, and novel drug delivery systems. Combines the discussion of pharmaceutical products developed in industry and those compounded in local pharmacies. Focuses on application of mathematical principles and problem-solving skills in pharmaceutical compounding.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 1241"
+                  },
+                  {
+                    "course": "MATH 1245"
+                  },
+                  {
+                    "course": "MATH 1341"
+                  }
+                ]
+              },
+              {
+                "course": "CHEM 2313"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "PHYS 1145"
+                  },
+                  {
+                    "course": "PHYS 1149"
+                  },
+                  {
+                    "course": "PHYS 1161"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3412",
+      "title": "Pharmaceutics 2",
+      "credits": 4.0,
+      "description": "Continues PHSC 3411. Examines the physical and chemical properties of the drug as it relates to pharmaceutical product development. Covers concepts of thermodynamics, colligative properties, ionic equilibriums and buffers, solubility, complexation and protein binding, reaction kinetics, mass transport, interfacial phenomena and dispersion, and rheology.",
+      "prerequisites": {
+        "course": "PHSC 3411"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3419",
+      "title": "Pharmaceutics Laboratory",
+      "credits": 1.0,
+      "description": "Formulates pharmaceutical dosage forms such as powders, capsules, solutions, suspensions, emulsions, ointments, gels, creams, lotions, and suppositories, and tests the quality of the products in the lab using approved methods of analysis. Also provides an understanding of the physical and chemical properties of drugs as they relate to formulation development through experimental observation of dissolution, stability, and effects of pH and co-solvent on solubility of drugs.",
+      "prerequisites": {
+        "course": "PHSC 3411"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3430",
+      "title": "Pharmacokinetics and Biopharmaceutics",
+      "credits": 3.0,
+      "description": "Focuses on the basic principles and methods of biopharmaceutics and pharmacokinetics. Covers the kinetics of drug absorption, distribution, metabolism, and excretion; linear and nonlinear pharmacokinetics; general concept of one- and two-compartment models with instantaneous (i.v. bolus), zero order (i.v. infusion), or first order (oral administration or i.m. injection) input; evaluation of bioavailability and investigation of the factors affecting drug availability; influence of the route of administration, dosage form, and regimen on bioavailability of drugs; bioequivalence study; multiple dosing kinetics; general approaches to dosage adjustment in renal disease; noncompartmental analysis; and pharmacokinetic-pharmacodynamic modeling.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ]
+    },
+    {
+      "number": "3510",
+      "title": "Medicinal Cannabis and Translational Cannabinoid Research",
+      "credits": 4.0,
+      "description": "Introduces fundamentals of medical cannabis and cannabinoid research. Includes foundational concepts of medicinal and psychoactive ingredients of marijuana, the human endocannabinoid system (ECS), cannabinoid receptors, and endocannabinoids. Reviews the growing nationwide acceptance of cannabis; the federal and state laws/policies regulating cannabis supply chain; research and product development along with effectiveness, safety, and side effects of cannabis for various ailments; and advances in the discovery/development of ECS-targeting drugs. Promotes the preparedness for conducting research, providing patient consultation, and working with healthcare providers and policymakers in this field. Alumni and external guests are invited to share clinical and industrial insights.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CHEM 2311"
+              },
+              {
+                "course": "CHEM 1104"
+              },
+              {
+                "course": "CHM 2110"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOL 1111"
+              },
+              {
+                "course": "BIOL 1113"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3801",
+      "title": "Principles of Pharmacology and Medicinal Chemistry 1",
+      "credits": 4.0,
+      "description": "Introduces the principles and basic concepts of pharmacology and medicinal chemistry and the general mechanisms of drug action, including drug receptor interactions. Discusses the major functional groups and their contributions to receptor interactions, metabolism, and toxicity. Covers drug classes affecting the peripheral autonomic and central nervous systems. Considers therapeutic uses, mechanisms of drug action, and undesirable actions, including side effects and adverse reactions.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "BIOL 2219"
+          },
+          {
+            "course": "CHEM 2313"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3802",
+      "title": "Principles of Pharmacology and Medicinal Chemistry 2",
+      "credits": 4.0,
+      "description": "Continues PHSC 3801 and covers the principles and basic concepts of pharmacology and medicinal chemistry and the general mechanisms of drug action, including drug receptor interactions. Discusses the major functional groups and their contributions to receptor interactions, metabolism, and toxicity. Considers therapeutic uses, mechanisms of drug action, and undesirable actions, including side effects and adverse reactions.",
+      "prerequisites": {
+        "course": "PHSC 3801"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4501",
+      "title": "Pharmacology/Medicinal Chemistry 1",
+      "credits": 5.0,
+      "description": "Introduces the principles and basic concepts of pharmacology and the general mechanisms of drug action including drug receptor interactions. Discusses the major drug classes affecting the peripheral autonomic and central nervous systems including anxiolytics, sedative-hypnotics, anesthetics, anticonvulsants, neuroleptics, antidepressants, and antimanic agents. Considers therapeutic uses, mechanisms of drug action, and undesirable actions including side effects and adverse reactions.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "PHSC 2303"
+                  },
+                  {
+                    "course": "BIOL 2219"
+                  }
+                ]
+              },
+              {
+                "course": "CHEM 2313"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4502",
+      "title": "Pharmacology/Medicinal Chemistry 2",
+      "credits": 5.0,
+      "description": "Continues PHSC 4501. Covers the mechanisms of action, structure-activity relationships, therapeutic uses, and adverse effects of drugs including cardiovascular agents, hormones, anticancer drugs, antibiotics, and antiinflammatory agents.",
+      "prerequisites": {
+        "course": "PHSC 4501"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "description": "Focuses on in-depth project in which a student conducts research or produces a product related to the student’s major field. Combined with Junior/Senior Project 2 or college-defined equivalent for 8-credit honors project. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student’s major field. May be repeated without limit.",
+      "prerequisites": {
+        "course": "PHSC 4970"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4995",
+      "title": "Practicum",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers eligible students an opportunity for practical experience. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4997",
+      "title": "Senior Thesis",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to prepare an undergraduate thesis under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "4998",
+      "title": "Senior Thesis Continuation",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to execute a project as described in PHSC 4997, which involves laboratory work; skill development; and the ability to generate, analyze, and report valid and reproducible data with the highest level of honesty and integrity. Students write and defend a thesis project to a public audience that describes the scientific background and context of the research, the hypothesis tested, methods utilized, and experimental results obtained. The thesis also includes interpretation of data, its contribution to the field, and future directions for the research. Students are expected to demonstrate motivation and initiative and to develop skills necessary to work cooperatively with a faculty mentor and other lab personnel.",
+      "prerequisites": {
+        "course": "PHSC 4997"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "5100",
+      "title": "Concepts in Pharmaceutical Science",
+      "credits": 2.0,
+      "description": "Introduces new students in the Pharmaceutical Science Graduate Program to important concepts in medicinal and combinatorial chemistry as they relate to drug discovery, and a brief overview of pharmacology, drug metabolism, pharmacokinetics, and toxicology. Also introduces the major drug receptor families and their signaling pathways.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5102",
+      "title": "Concepts in Pharmaceutical Science 2",
+      "credits": 2.0,
+      "description": "Presents key concepts and challenges of drug design, development, and evaluation. Integrates the principles of drug design, development, and delivery in a discussion of both small-molecule formulations and biologics. Contextualizes the hallmarks along the path of preclinical drug design to clinical translation. Components of the course include Team-Based Learning (TBL) and professionalism. The TBL sessions offer students an opportunity to work on course-related team applications and include graded peer evaluations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5110",
+      "title": "Integrated Science and Therapeutics 1",
+      "credits": 4.0,
+      "description": "Integrates foundational concepts of pharmacology, medicinal chemistry, pathophysiology, and pharmacotherapeutics to treat patients with hypertension, diabetes, and hyperlipidemia. Studies knowledge, skills, and attitudes pertaining to drug action, drug-receptor interactions, structure-activity relationships, dose-response relationships, drug mechanisms of action, therapeutic uses, and adverse effects. Offers students an opportunity to develop patient evaluation skills using the Pharmacists' Patient Care Process and identification of drug therapy problems. Emphasizes self-care, patient education, assessment, medication administration, management and monitoring, and preventative health and population-based health outcomes. .",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "PHSC 2303"
+              },
+              {
+                "course": "PHSC 2304"
+              },
+              {
+                "course": "ENGW 3306"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5130",
+      "title": "Foundations of Pharmaceutical Sciences 1",
+      "credits": 4.0,
+      "description": "Examines physical and chemical properties of drugs and discusses pharmaceutical products developed in industry and compounded in pharmacies. Focuses on application of mathematical principles and problem-solving skills in pharmaceutical compounding of dosage forms including solids, liquids, parenterals, inhalation, and novel drug delivery systems. Discusses thermodynamics, colligative properties, ionic equilibriums and buffers, solubility, protein binding, and reaction kinetics.  .",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 1241"
+                  },
+                  {
+                    "course": "MATH 1245"
+                  },
+                  {
+                    "course": "MATH 1341"
+                  }
+                ]
+              },
+              {
+                "course": "CHEM 2313"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5181",
+      "title": "Integrated Learning Lab 1",
+      "credits": 1.0,
+      "description": "Offers students an opportunity to develop and assimilate knowledge, skills, and attitudes related to the pharmaceutical care of patients to supplement and augment pharmacy curricular topics within an immersive learning experience. Includes pharmaceutics, healthcare systems, professional communication skills, research methods, drug information, jurisprudence, patient counseling, and aseptic technique/compounding. Uses innovative digital tools, environments, equipment, learning materials, and pedagogical methods that promote the development and refinement of problem-solving skills, adaptability/resilience, and a team mindset that can be applied during experiential activities (co-op/introductory pharmacy practice experience/advanced pharmacy practice experience), as well as future careers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5205",
+      "title": "Integrated Science and Therapeutics 3",
+      "credits": 4.0,
+      "description": "Integrates foundational concepts of pharmacology, medicinal chemistry, pathophysiology, immunology, and pharmacotherapeutics to treat patients with acute and chronic rheumatologic, immune-mediated, dermatologic, and oncologic diseases. Offers students an opportunity to develop knowledge, skills, and attitudes pertaining to drug action, drug-receptor interactions, structure-activity relationships, dose-response relationships, drug mechanisms of action, therapeutic uses, and adverse effects. Focuses on developing patient evaluation skills using the Pharmacists' Patient Care Process and identification of drug therapy problems. Emphasizes self-care, patient education, assessment, medication administration, management, and monitoring, as well as preventative health and population-based health outcomes.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "PHMD 5115"
+              },
+              {
+                "course": "PHMD 5182"
+              },
+              {
+                "course": "PHMD 5192"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5212",
+      "title": "Research Skills and Ethics",
+      "credits": 2.0,
+      "description": "Covers the basics of laboratory safety, safekeeping laboratory data, and the process of writing a grant proposal. Explores the concepts of data distortion or fabrication, conflicts of interest, confidentiality, ethical aspects of peer review, and the attribution of credit in science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5230",
+      "title": "Foundations of Pharmaceutical Sciences 2",
+      "credits": 4.0,
+      "description": "Introduces fundamental concepts and applications of biopharmaceutics and pharmacokinetics. Offers students an opportunity to integrate knowledge, skills, and concepts to clinically treat patients. Discusses pharmacokinetic analysis and modeling; one-compartment, two-compartment, and three-compartment models; multiple dosing kinetics; methods of calculation; dosage adjustment in renal impairment; and noncompartmental analysis.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "PHSC 5130"
+              },
+              {
+                "course": "PHSC 5181"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5290",
+      "title": "Foundational Biochemistry for Pharmaceutical Engineering",
+      "credits": 2.0,
+      "description": "Introduces the fundamental principles of biochemistry, emphasizing the chemical and molecular basis of life. Covers the structure, function, and interactions of biological macromolecules such as proteins, nucleic acids, lipids, and carbohydrates. Studies key biochemical processes, including enzyme catalysis, metabolism, and energy transfer, as well as the role of biochemical principles in cellular functions. Provides the opportunity to integrate basic chemistry concepts such as thermodynamics, acid-base equilibrium, and molecular bonding to establish a solid foundation for understanding complex biological systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5300",
+      "title": "Pharmaceutical Biochemistry",
+      "credits": 2.0,
+      "description": "Offers students an opportunity to obtain an understanding of the principles of physiological chemistry. Focuses in-depth on the major topics of physiological chemistry, including general chemistry and biomolecules, peptide synthesis and protein structure, carbohydrates and nucleic acids, thermodynamics and kinetics of molecular interactions, and colloids and micelles. Relates biochemical information to the specific areas of pharmacology, pharmaceutics, and drug discovery/development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5305",
+      "title": "Professional Development for Pharmaceutical Sciences",
+      "credits": 1.0,
+      "description": "Introduces and examines the goals, expectations, policies, and procedures of the Masters’ in Pharmaceutical Sciences internship program and professionalism in the field. Discusses the role and involvement of internship employers. Offers students an opportunity to develop job search and career management skills; assess their workplace skills, interests, and values; discuss how those qualities impact career decisions; prepare a professional resumé; and learn proper interviewing techniques. Issues of ethics and professionalism are designed to inform students of issues they will face in the pharmaceutical field. Content of this course is geared to students’ participation in the internship program and overall professional development in pharmaceutical sciences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5310",
+      "title": "Cellular Physiology",
+      "credits": 2.0,
+      "description": "Focuses in-depth on the major cellular physiological mechanisms, including physiology of the cell membrane, ion channels and transport phenomena, energy production, signal transduction, synapses, and physiological processes in the cytosol. Relates physiological information on the specific areas of pharmacology, pharmaceutics, and drug discovery/development. Offers students an opportunity to obtain an understanding of the principles of cellular physiology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5360",
+      "title": "Anti-Infectives",
+      "credits": 4.0,
+      "description": "Reviews the structure and physiology of bacteria, fungi, and viruses and surveys significant organisms of medical importance. Introduces specific antibiotic, antifungal, and antiviral agents and classes of agents once a foundation of knowledge of the microorganisms that cause disease is established. Discusses concepts of pharmacology, pharmacokinetics, antimicrobial resistance, pharmacodynamics of antimicrobial agents, and spectra of activity.",
+      "prerequisites": {
+        "course": "PHSC 4502"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5400",
+      "title": "Principles of Drug Design",
+      "credits": 3.0,
+      "description": "Studies important aspects of drug discovery and development with a focus on drug design. Covers basic organic medicinal chemistry concepts and seeks to build students’ skills in lead compound discovery, structure-activity relationship studies, and lead optimization strategies. Topics include the fundamentals of pharmacology, pharmacokinetics, and pharmacodynamics of therapeutic agents relevant to the drug-structure optimization. These skills often help develop a strong foundation in the concepts that govern the multidisciplinary process of drug discovery. Uses lectures and peer-reviewed seminar presentations to help students to incrementally increase their knowledge required to identify new, marketable therapeutic agents. Requires organic or medicinal chemistry at the undergraduate level.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5450",
+      "title": "Contemporary Approaches to Drug Design",
+      "credits": 3.0,
+      "description": "Introduces current and emerging trends and concepts in drug discovery in the context of targeted disease therapy and structure-based drug design. Reviews and discusses topics on target selection and validation, computational drug design tools, kinase inhibitors, proteolysis targeting chimeras and molecular glues, covalent drugs, cannabinoid receptors, RNA-targeting small molecule agents, and protein-protein interaction modulators. Exemplifies the applications of general medicinal chemistry and pharmacology principles to real-world drug discovery and development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5500",
+      "title": "Repurposing Drugs for Cancer Immunotherapies",
+      "credits": 2.0,
+      "description": "Offers a multidisciplinary course targeted to students interested in recent advances in biomedical research, clinical practice, and personalized medicine as related to cancer immunotherapies. Describes current promises and disappointments with cancer immunotherapies and recent FDA drug approvals for personalized cancer therapies. Explains the role of immunological and physiological negative regulators of antitumor and tumor biology as needed. Explains underlying principles of immunology, biochemistry, genetics, and preclinical and clinical studies when introducing new concepts. Assigned detailed study of specific areas and discussion of assigned papers are designed to complement classroom material.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5555",
+      "title": "Pharmaceutical Toxicology",
+      "credits": 3.0,
+      "description": "Covers fundamental concepts of toxicology and technical methods in toxicology along with comprehensive analysis of both in-vitro and in-vivo toxicity in drug discovery and development. Through lectures given by experts in various fields in toxicology on several topics required for specialized work in research, industrial, and clinical settings, offers students an opportunity to become familiar with methods and analyses including in-vitro and in-vivo toxicity assessments and toxicokinetic-toxicodynamic models and analyses. Includes mechanistic basis of toxicity, methods of toxicological analysis, and case studies pertinent to topics. Requires undergraduate physiology or biochemistry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5560",
+      "title": "Nanotoxicity",
+      "credits": 3.0,
+      "description": "Studies nanotoxicity, the adverse health effects of nanoparticles. Due to their small size, nanoparticles easily cross biological barriers, entering body fluids and cells. Nanoparticles toxicity may cause chronic and acute pathologies. Offers students an opportunity to develop and understand the principles of nanotoxicity. Focuses on mechanisms of cellular and organ damage by nanoparticles. Discusses ports of nanoparticle entry and detrimental effects upon blood, CNS, lungs, and GI system. Stresses mechanisms of intracellular degradation of nanoparticles and toxic effects of nanoparticles upon human cells and major organ systems. Reviews mechanisms of cellular and organ damage including oxidative stress, inflammation, and DNA, as well as toxic effects on nonmammalian cells.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5900",
+      "title": "AI in Drug Discovery and Development",
+      "credits": 4.0,
+      "description": "Explores key ideas in artificial intelligence (AI) while delving into trending developments in drug discovery and development. Develops the knowledge, skills and attitudes necessary to confidently navigate the ever-evolving landscape of artificial intelligence. Examines AI tools and frameworks to enable effective collaboration across stakeholders in the pharmaceutical industry space. Technical background in AI/computer science not required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5905",
+      "title": "Artificial Intelligence and Machine Learning in Drug Discovery: Concepts and Applications",
+      "credits": 4.0,
+      "description": "Provides hands-on opportunities to explore the intersection of artificial intelligence (AI) and drug discovery. Presents real-world drug discovery challenges supported by faculty mentorship, applying artificial intelligence and machine learning (ML) techniques to a drug discovery program. Includes industry experts discussing the latest advancements in the pharmaceutical sector, and their use of AI/ML tools to drive innovation. Investigates key AI tools and frameworks that facilitate rapid progress in the pharmaceutical sector. Develops practical skills in data analysis, model building, and algorithm selection to drive innovation in drug discovery.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CHEM 2311"
+              },
+              {
+                "course": "CHEM 2311"
+              },
+              {
+                "course": "CHEM 2311"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5910",
+      "title": "Applied Sciences for the Cannabis Industry",
+      "credits": 4.0,
+      "description": "Explores fundamentals of cannabis and cannabinoid analysis, i.e., to choose and interpret a method of analysis based upon the molecule (e.g., CBD and THC), sample origin (human, plant, etc.), and application. Discusses medicinal cannabinoids, psychoactive cannabinoids, and endocannabinoids, as well as cannabinoid biology, on-target and off-target effects, toxicity and pharmacokinetics. Reviews the legal and regulatory framework concerning key cannabinoids. Integrates the topics above into three areas: “targeted” analytical methods for quantification of key cannabinoids in plant, product, and human preparations; “discovery” analytical methods for profiling multiple cannabinoids and their metabolites; and application of analytical methods to law enforcement, product potency testing and quality control, toxicology, and clinical trial monitoring.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BIOC 1000"
+                  },
+                  {
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "course": "BIOT 5120"
+                  },
+                  {
+                    "course": "BIOT 5120"
+                  },
+                  {
+                    "course": "BIOT 5120"
+                  },
+                  {
+                    "course": "PHSC 2320"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2315"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5920",
+      "title": "Clinical Application of Cannabis and Cannabinoids",
+      "credits": 4.0,
+      "description": "Focuses on the application of (pre)clinical research results from experimental and human cannabis and cannabinoid research to therapeutics invention. Develops foundational knowledge of the drug-approval process and its oversight/regulatory processes, drug-target identification/validation, the human endocannabinoid system, ECS drug targets for drug-like small molecules, and addresses unsolved medical problems by advancing ECS modulators as potential drug treatments for various diseases. Reviews relevant literature on these topics relating to the medical applications of cannabis and new chemical entities that modulate the ECS. Discusses the design and outcomes of natural and synthetic ECS-targeting agents for indications including overweight/obesity, pain management, and substance-use disorders. Promotes the preparedness for conducting research, consultation and working with healthcare providers and policy makers. External guests are invited to share clinical/industrial insights.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "course": "BIOL 1111"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "PHSC 3801"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5930",
+      "title": "Advanced Translational Research on Medical Cannabis and Cannabinoids",
+      "credits": 4.0,
+      "description": "Reviews medicinal and psychoactive constituents of cannabis, the components of human endocannabinoid system (ECS, e.g., endocannabinoids and cannabinoid receptors) and the therapeutic intervention of ECS. Discusses historical and ongoing debates on marijuana as well as the growing nationwide acceptance of marijuana for medical and recreational applications. Introduces federal and state laws/policies regulating cannabis/marijuana, and the effectiveness, safety and side effects of cannabis products for various indications. Reviews the latest methodology and advances in the discovery of ECS-targeting new chemical entities. Promotes preparedness for conducting research, providing consultation and working with healthcare providers and policy makers in the field of cannabis and cannabinoids. External experts are invited to share clinical and industrial insights.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "course": "BIOL 1111"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "course": "CHEM 2311"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5940",
+      "title": "Cannabis Laws, Standards, and Politics",
+      "credits": 4.0,
+      "description": "Examines the evolution of cannabis laws, standards, and politics from ancient times to the present through an interdisciplinary lens. Explores historical state and federal conflicts surrounding medical and adult-use cannabis and analyzes their public health impacts. Discusses current cannabis research, various cannabis strains, cannabinoids, and cannabis-based pharmaceuticals and builds a strong foundation in the legal, regulatory, and operational aspects of cannabis and hemp businesses, focusing on three key considerations: state and local laws, scientific information, and science-based policy. Discusses the public health consequences of unregulated products while identifying distinctions between legal and illegal cannabis products and their abuse potential.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHSC 5100"
+          },
+          {
+            "course": "PHSC 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5984",
+      "title": "Research",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students an opportunity to conduct research under faculty supervision. May be repeated up to nine times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6213",
+      "title": "Ethical Problems in Health Sciences Research",
+      "credits": 2.0,
+      "description": "Focuses on a series of cases that raise ethical and professional code of conduct concerns and engages with them collaboratively and carefully to develop essential skills for ethical analysis and evaluation. Scientific practice presents researchers and citizens with myriad ethical challenges. Engaging with those ethical challenges in ways that help yield the benefits of research while respecting ethical boundaries is furthered by not only understanding ethical frameworks but by carefully analyzing and evaluating ethical concerns in context.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHSC 6212"
+          },
+          {
+            "course": "PHSC 5212"
+          },
+          {
+            "course": "PHSC 2400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6214",
+      "title": "Experimental Design and Biostatistics",
+      "credits": 2.0,
+      "description": "Discusses fundamental principles of experimental design and statistical analysis, with emphasis on clinical research. Topics include descriptive statistics, hypothesis testing, analysis of variance, correlation, regression, chi-square test, and nonparametric methods.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6216",
+      "title": "Human Physiology and Pathophysiology",
+      "credits": 2.0,
+      "description": "Introduces major topics in human physiology, emphasizing knowledge essential to health-related laboratory research. Topics include neurophysiology, immunology, cardiovascular, respiratory, renal, and gastrointestinal physiology and endocrinology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6222",
+      "title": "The Chemistry and Biology of Drugs of Abuse",
+      "credits": 2.0,
+      "description": "Provides an interdisciplinary introduction to substance abuse, including the medicinal chemistry and neurobiology of drugs that act through the opioid, dopamine, acetylcholine, and cannabinoid systems.  Compares and contrasts neurochemical mechanisms that are common to many addictive agents and those that are specific to individual drug classes.  Highlights the involvement of the brain dopamine system and differences and discusses similarities between the pharmacology of abused and therapeutic drugs, together with the development of medications for treating drug dependence.  Includes lectures by experts on particular topics of their own recent research.  Introduces students to key aspects of biological and chemical research as they pertain to drug abuse and its treatment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6224",
+      "title": "Behavioral Pharmacology and Drug Discovery",
+      "credits": 2.0,
+      "description": "Designed to prepare students to understand the advantages, shortcomings, and pitfalls of the use of live, behaving animals in drug discovery.  Covers an in-depth analysis of ethical issues in animal research, as well as aspects of animal behavioral models, behavior and brain biochemistry, and methods of behavioral analysis.  Specific topics include psychopharmacology; fear and anxiety; pain and stress; depression and reward; general arousal and tolerance; drug abuse and habitual behaviors.  The ways in which animal behaviors can be described in a quantitative manner and the effects of medications and abused drugs quantified and related to human diseases and drug responses are an important component of the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6235",
+      "title": "Magnetic Resonance Imaging in Drug Discovery 1",
+      "credits": 4.0,
+      "description": "Integrates physics, mathematics, and neuroscience with the cutting-edge technology of magnetic resonance imaging (MRI) to address drug discovery in the treatment of CNS disorders. Students design their own experiments guided by knowledge of the literature and technical and statistical limitations. Offers students an opportunity to run a state-of-the-art 7.0 Tesla MR animal scanner housed in the Center for Translational NeuroImaging (CTNI) at Northeastern and set parameters for anatomical and functional imaging protocols. Original imaging data is collected and analyzed. This is a discovery-based research course that encourages critical thinking and transdisciplinary learning skills involving an original research project in magnetic resonance imaging related to early drug discovery.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHSC 5100"
+          },
+          {
+            "course": "PHSC 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6237",
+      "title": "Magnetic Resonance Imaging in Drug Discovery 2",
+      "credits": 2.0,
+      "description": "Continues PHSC 6235. Offers students an opportunity to continue their research work in early drug discovery using original imaging data that was previously analyzed. Focuses on manuscript preparation and submission to a peer-reviewed journal.",
+      "prerequisites": {
+        "course": "PHSC 6235"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6290",
+      "title": "Biophysical Methods in Drug Discovery",
+      "credits": 2.0,
+      "description": "Provides an interdisciplinary introduction to biophysical methods used in modern drug discovery, including hit generation and lead optimization. Emphasizes key experimental methods, including nuclear magnetic resonance (NMR) spectroscopy and X-ray crystallography, as well as computer modeling as applied to ligand- and structure-based drug design. Includes lectures by experts on related topics from their recent drug-discovery research. Presented under the auspices of the Center for Drug Discovery. Requires permission of instructor for students of junior or senior standing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6300",
+      "title": "Pharmaceutical Science Seminar",
+      "credits": 1.0,
+      "description": "Teaches students to evaluate critically the scientific literature in a journal club format. Several sections may be offered each semester to accommodate different specializations or interest groups. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6401",
+      "title": "Pharmaceutical Science Internship",
+      "credits": 1.0,
+      "description": "Offers an experiential component of the graduate curriculum that fosters professional development through internship in drug discovery, development, and/or regulatory affairs in a pharmaceutical or biotechnology company. Requires students to work in a company for a minimum of twenty hours per week. Offers students an opportunity to engage in pharmaceutical science research or to work in an environment outside the University but under the supervision of a faculty instructor. May be repeated up to three times.",
+      "prerequisites": {
+        "course": "PHSC 5305"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6760",
+      "title": "Doctoral Pharmaceutical Science Research 1",
+      "credits": 2.0,
+      "description": "Offers PhD research in preparation for thesis proposal.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6810",
+      "title": "Pharmaceutical Science Colloquium",
+      "credits": 1.0,
+      "description": "Requires students to present one formal seminar on their research. This presentation is open to all those interested.",
+      "prerequisites": {
+        "course": "PHSC 9681"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6964",
+      "title": "Co-op Work Experience",
+      "credits": 0.0,
+      "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6984",
+      "title": "Pharmaceutical Science Research",
+      "credits": 2.0,
+      "description": "Offers students laboratory research under the guidance of an adviser. May be repeated once for up to 4 total credits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6990",
+      "title": "Thesis",
+      "credits": 2.0,
+      "description": "Offers research/experimental work for master’s thesis. Students may register twice. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6996",
+      "title": "Thesis Continuation",
+      "credits": 0.0,
+      "description": "Offers continued registration while student completes master’s thesis or other research project to meet the research requirement in pharmaceutical science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7010",
+      "title": "Pharmaceutical Sciences Laboratory",
+      "credits": 4.0,
+      "description": "Offers a hands-on graduate laboratory course that introduces students to the investigative approaches and laboratory methods used in contemporary pharmaceutical sciences research. Laboratory exercises have a practical relationship to essential techniques in modern drug discovery, drug targeting and delivery, and determining mechanisms of drug action. These exercises cover basic laboratory skills, the rationale for and application of standard laboratory methods, training in the use of equipment and techniques central to pharmaceutical sciences research, how to maintain a laboratory notebook, statistical analysis and interpretation of data, and how to present research results in technical laboratory reports.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7020",
+      "title": "Scientific Writing: Thesis Proposal",
+      "credits": 2.0,
+      "description": "Presents the principles of writing a proposal based on the NIH R01 grant proposal template used by the department. Participants develop their own proposal in collaboration with their faculty advisor or the immediate project supervisor designated by their faculty advisor (the project principle investigator). Offers students an opportunity to meet with their own project principle investigators to develop content and map out the project aims and experimental design and to produce a revised draft of their thesis proposal. Each student must have initiated MS or PhD thesis research and have some preliminary data; PhD students must have passed their qualifying exam; MS students must petition the graduate committee in writing for permission to enroll.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7986",
+      "title": "Research",
+      "credits": 0.0,
+      "description": "Offers students an opportunity to conduct full-time research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8940",
+      "title": "Doctoral Training and Research",
+      "credits": 1.0,
+      "description": "Intended to show full-time status for pharmaceutical science PhD students in the semester in which they are taking the comprehensive exam. In addition to successfully completing the comprehensive exam, students are expected to perform research in preparation for the doctoral proposal; the grade for this course documents successful performance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8984",
+      "title": "Research",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated up to four times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8986",
+      "title": "Doctoral Full-Time Research",
+      "credits": 0.0,
+      "description": "Expects student to conduct full-time research in an adviser’s laboratory. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9000",
+      "title": "Comprehensive Exam",
+      "credits": 0.0,
+      "description": "Indicates successful completion of the doctoral comprehensive exam.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9681",
+      "title": "Doctoral Proposal",
+      "credits": 2.0,
+      "description": "Offers preparation of PhD dissertation proposal and proposal defense before dissertation committee. Requires passing of comprehensive exam. May be repeated without limit.",
+      "prerequisites": {
+        "course": "PHSC 8940"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9990",
+      "title": "Dissertation Term 1",
+      "credits": 0.0,
+      "description": "Offers research/experimental work for PhD thesis.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "PHSC 9681"
+          },
+          {
+            "course": "PHSC 9000"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9991",
+      "title": "Dissertation Term 2",
+      "credits": 0.0,
+      "description": "Offers dissertation supervision by members of the department.",
+      "prerequisites": {
+        "course": "PHSC 9990"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9996",
+      "title": "Dissertation Continuation",
+      "credits": 0.0,
+      "description": "Offers continuation of PhD dissertation research.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHSC 9991"
+          },
+          {
+            "admission_requirement": "Dissertation Check with a score of REQ"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

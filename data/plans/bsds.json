@@ -1,0 +1,142 @@
+{
+  "major": "BSDS",
+  "major_name": "Data Science",
+  "college": "Khoury College of Computer Sciences",
+  "plans": [
+    {
+      "plan_name": "Four Years, Two Co-ops Summer Second Half/Fall",
+      "semesters": [
+        {
+          "year": 1, "term": "Fall",
+          "courses": ["CS 1200", "CS 1800", "CS 1802", "CS 2000", "CS 2001", "ENGW 1111", "MATH 1341"]
+        },
+        {
+          "year": 1, "term": "Spring",
+          "courses": ["DS 2500", "DS 2501", "MATH 1342", "MATH 2331", "PHIL 1145"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 1, "term": "Summer 1",
+          "courses": ["CS 3200", "MATH 3081"]
+        },
+        {
+          "year": 1, "term": "Summer 2",
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 2, "term": "Fall",
+          "courses": ["CS 3520", "DS 3000"],
+          "notes": ["Presentation Requirement", "General Elective"]
+        },
+        {
+          "year": 2, "term": "Spring",
+          "courses": ["CS 1210", "DS 4200", "DS 3500", "DS 4300"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 2, "term": "Summer 1",
+          "courses": ["CS 3000"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 2, "term": "Summer 2",
+          "is_coop": true
+        },
+        {
+          "year": 3, "term": "Fall",
+          "is_coop": true
+        },
+        {
+          "year": 3, "term": "Spring",
+          "courses": ["DS 4400"],
+          "notes": ["Data Science Elective 1", "Data Science Elective 2", "General Elective"]
+        },
+        {
+          "year": 3, "term": "Summer 1",
+          "courses": ["ENGW 3302"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 3, "term": "Summer 2",
+          "is_coop": true
+        },
+        {
+          "year": 4, "term": "Fall",
+          "is_coop": true
+        },
+        {
+          "year": 4, "term": "Spring",
+          "courses": ["DS 4420"],
+          "notes": ["Data Science Related Elective", "Data Science Elective 3", "Khoury Elective"]
+        }
+      ]
+    },
+    {
+      "plan_name": "Four Years, Two Co-ops Spring/Summer First Half",
+      "semesters": [
+        {
+          "year": 1, "term": "Fall",
+          "courses": ["CS 1200", "CS 1800", "CS 1802", "CS 2000", "CS 2001", "ENGW 1111", "MATH 1341"]
+        },
+        {
+          "year": 1, "term": "Spring",
+          "courses": ["DS 2500", "DS 2501", "MATH 1342", "MATH 2331", "PHIL 1145"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 1, "term": "Summer 1",
+          "courses": ["CS 3200", "MATH 3081"]
+        },
+        {
+          "year": 1, "term": "Summer 2",
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 2, "term": "Fall",
+          "courses": ["CS 1210", "CS 3520", "DS 3000", "DS 3500"],
+          "notes": ["Presentation Requirement"]
+        },
+        {
+          "year": 2, "term": "Spring",
+          "is_coop": true
+        },
+        {
+          "year": 2, "term": "Summer 1",
+          "is_coop": true
+        },
+        {
+          "year": 2, "term": "Summer 2",
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 3, "term": "Fall",
+          "courses": ["DS 4200", "DS 4300", "CS 3000"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 3, "term": "Spring",
+          "is_coop": true
+        },
+        {
+          "year": 3, "term": "Summer 1",
+          "is_coop": true
+        },
+        {
+          "year": 3, "term": "Summer 2",
+          "courses": ["ENGW 3302"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 4, "term": "Fall",
+          "courses": ["DS 4400"],
+          "notes": ["Data Science Elective 1", "Data Science Elective 2", "General Elective"]
+        },
+        {
+          "year": 4, "term": "Spring",
+          "courses": ["DS 4420"],
+          "notes": ["Data Science Related Elective", "Data Science Elective 3", "Khoury Elective"]
+        }
+      ]
+    }
+  ]
+}

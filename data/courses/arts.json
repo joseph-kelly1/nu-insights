@@ -1,0 +1,88 @@
+{
+  "department": "ARTS",
+  "courses": [
+    {
+      "number": "2340",
+      "title": "Painting Basics",
+      "credits": 4.0,
+      "description": "Presents an introductory studio course in the fundamental techniques of painting. Formal problems in the study of color, light, space systems, form, and composition establish the foundation for more individual creative expression. Uses critiques and slide lectures as needed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2341",
+      "title": "Figure Drawing",
+      "credits": 4.0,
+      "description": "Focuses on developing the student’s awareness of the structure of the figure as well as the emotive qualities of  “figuration.” Students draw from a model in each class. They also develop drawings based on the political and social concerns of contemporary culture and the role of gender as seen through “image.”",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "3000",
+      "title": "Topics in Studio Arts",
+      "credits": 4.0,
+      "description": "Explores studio arts topics, supporting work in all studio arts disciplines. Examines current discourse in the field and draws on instructor expertise. Students develop original creative projects in response to the topic, informed by critical readings, instructor and guest lectures, examination of other artists' works, and class discussions. Emphasizes skill development and strategies for self-directed studio arts production including experimentation, planning, iteration, revision, and critique of creative work. May be repeated up to five times.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTF 1120"
+          },
+          {
+            "course": "ARTF 1121"
+          },
+          {
+            "course": "ARTF 1122"
+          },
+          {
+            "course": "ARTF 1200"
+          },
+          {
+            "course": "ARTF 1210"
+          },
+          {
+            "course": "ARTF 1220"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3449",
+      "title": "Drawing in Mixed Media",
+      "credits": 4.0,
+      "description": "Offers an upper-level course designed for students who want to explore the ever-changing discipline of drawing, which has now become a medium that stands on its own. Explores a range of media for generating drawings, including traditional techniques and computer-based media. Emphasizes open-ended application and interpretation of drawing as a medium. Requires students to attend lectures and exhibitions and keep a journal.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5200",
+      "title": "Drawing from Object to Concept",
+      "credits": 4.0,
+      "description": "Covers the practice of drawing as a fundamental mode of communication and tool for ideation. Teaches drawing through observation of real-world objects and conceptualization of abstract ideas related to personal interests. Develops practical skills to construct two-dimensional images, become familiar with a range of traditional drawing materials, and integrate digital techniques. Focuses on process, perception, critical dialogue, and self-directed research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

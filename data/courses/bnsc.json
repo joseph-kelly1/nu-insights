@@ -1,0 +1,127 @@
+{
+  "department": "BNSC",
+  "courses": [
+    {
+      "number": "1000",
+      "title": "Behavioral Neuroscience at Northeastern",
+      "credits": 1.0,
+      "description": "Introduces first-year and new transfer students to the major and the field of behavioral neuroscience and to the professional and academic resources available to students at Northeastern University. Acquaints students with their faculty, advisors, and fellow students; provides an initial orientation to undergraduate research, cooperative education, study abroad, and other experiential learning options; familiarizes students with academic support resources and leadership opportunities; provides grounding in the culture and values of the university community —in short, familiarizes students with all skills needed to become a successful university student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4900",
+      "title": "Behavioral Neuroscience Capstone",
+      "credits": 1.0,
+      "description": "Designed as an integrative capstone experience for behavioral neuroscience students who are also enrolled in approved research courses where they conduct original research under the direction of an approved mentor. Students gain experience in writing a research proposal, conducting the proposed research, producing a research report, and presenting their work. Students engage in solving novel problems while reflecting on and integrating their prior learning in the discipline. Requires writing with revision and oral presentation. Offers students an opportunity to refine reflection and communication skills through formal and informal presentations, discussions, and critique.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOL 4991"
+              },
+              {
+                "course": "BNSC 4991"
+              },
+              {
+                "course": "BNSC 4994"
+              },
+              {
+                "course": "PSYC 4991"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGW 3307"
+              },
+              {
+                "course": "ENGW 3315"
+              },
+              {
+                "course": "ENGW 3302"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "4950",
+      "title": "Seminar",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an in-depth study of selected topics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "description": "Focuses on in-depth project in which a student conducts research or produces a product related to the student’s major field. Combined with Junior/Senior Project 2 or college-defined equivalent for 8-credit honors project. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student’s major field. Requires a 3.500 GPA. May be repeated without limit.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BNSC 4970"
+          },
+          {
+            "course": "BNSC 4991"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Integration Experience",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": 4.0,
+      "description": "Offers an opportunity to conduct research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4994",
+      "title": "Internship",
+      "credits": 4.0,
+      "description": "Offers students an opportunity for internship work. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    }
+  ]
+}

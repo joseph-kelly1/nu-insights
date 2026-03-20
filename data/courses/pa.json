@@ -1,0 +1,312 @@
+{
+  "department": "PA",
+  "courses": [
+    {
+      "number": "6200",
+      "title": "Anatomy and Physiology 1",
+      "credits": 3.0,
+      "description": "Emphasizes the structure and function of the human body including cells, tissues, and organs. Highlights interrelationships among systems and regulation of physiological functions involved in maintaining homeostasis. Focuses on features of clinical importance. Covers musculoskeletal, neurologic, cardiovascular, respiratory, gastrointestinal, endocrine, immunologic, and renal systems. Requires cadaver laboratory sessions. This course is the first in a two-course sequence.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6201",
+      "title": "Anatomy and Physiology 2",
+      "credits": 3.0,
+      "description": "Emphasizes the structure and function of the human body including cells, tissues, and organs. Highlights interrelationships among systems and regulation of physiological functions involved in maintaining homeostasis. Focuses on features of clinical importance. Covers musculoskeletal, neurologic, cardiovascular, respiratory, gastrointestinal, endocrine, immunologic, and renal systems. Requires cadaver laboratory sessions. This is the second of a two-course sequence.",
+      "prerequisites": {
+        "course": "PA 6200"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6203",
+      "title": "Physical Diagnosis and Patient Evaluation 1",
+      "credits": 3.0,
+      "description": "Presents the techniques for eliciting an accurate history, performing an appropriate physical examination, making case presentations, and documenting patient information. Includes issues such as effective communication, confidentiality, cultural competence, and dealing with patients who are terminally ill or disabled. Emphasizes skill development. Students participate in all aspects of the clinical encounter.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6204",
+      "title": "Physical Diagnosis and Patient Evaluation 2",
+      "credits": 3.0,
+      "description": "Presents the techniques for eliciting an accurate history, performing an appropriate physical examination, making case presentations, and documenting patients' information. Includes issues such as effective communication, confidentiality, cultural competence, and dealing with patients who are terminally ill or disabled. Emphasizes the correlation of pertinent physical findings with their respective clinical conditions. Students participate in all aspects of the clinical encounter.",
+      "prerequisites": {
+        "course": "PA 6203"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6205",
+      "title": "Pharmacology 1",
+      "credits": 2.0,
+      "description": "Examines the classification, mechanisms of action, and use of a broad spectrum of therapeutic agents. Focuses on dose response, side effects, adverse reactions, and the role of patient concordance in medication effectiveness.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6206",
+      "title": "Pharmacology 2",
+      "credits": 2.0,
+      "description": "Continues PA 6205. Examines the classification, mechanisms of action, and use of a broad spectrum of therapeutic agents. Focuses on dose response, side effects, adverse reactions, and the role of patient concordance in medication effectiveness.",
+      "prerequisites": {
+        "course": "PA 6205"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6207",
+      "title": "Clinical Laboratory and Diagnostic Methods",
+      "credits": 4.0,
+      "description": "Covers a variety of diagnostic and therapeutic evaluations including clinical laboratory methods, radiologic studies, and electrocardiography. Includes basic principles of diagnostic and therapeutic patient evaluation, radiology, indications and interpretation of clinical laboratory studies, demonstration and practice of various diagnostic methods, and electrocardiography theory and interpretation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6208",
+      "title": "Professional Issues for Physician Assistants",
+      "credits": 2.0,
+      "description": "Offers students the opportunity to understand their professional environment, community resources, legal parameters, and ethical situations they may face. Also addresses interpersonal dynamics in working with physicians and other healthcare providers. Some material is covered in problem-based learning sessions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6209",
+      "title": "Clinical Laboratory and Diagnostic Methods 1",
+      "credits": 3.0,
+      "description": "Covers a variety of diagnostic and therapeutic evaluations including clinical laboratory methods of hematology, transfusion medicine, clinical chemistry, urinalysis and body fluids, radiologic studies inclusive of chest x-ray, and introduction to electrocardiography. Includes basic principles of diagnostic and therapeutic patient evaluation, radiology, indications and interpretation of clinical laboratory studies, demonstration and practice of various diagnostic methods, and electrocardiography theory and interpretation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6210",
+      "title": "Clinical Laboratory and Diagnostic Methods 2",
+      "credits": 1.0,
+      "description": "Covers a variety of diagnostic and therapeutic evaluations including hematology; microbiology; general chemistry and serology; radiologic studies including CT, MRI, and ultrasound; and advanced electrocardiography. Includes principles of diagnostic and therapeutic patient evaluation, radiology, indications and interpretation of clinical laboratory studies, demonstration and practice of various diagnostic methods, and electrocardiography theory and interpretation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6311",
+      "title": "Principles of Medicine 1",
+      "credits": 4.0,
+      "description": "Presents a systems approach to the principles of disease processes and includes such topics as physiology, pathophysiology, the natural history of disease, diagnostic procedures, and therapeutic measures. This course is the first of a three-semester series covering core medical concepts and knowledge grounded in scientific principles and evidence-based medicine on the diseases and conditions commonly encountered in clinical practice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6312",
+      "title": "Principles of Medicine 2",
+      "credits": 4.0,
+      "description": "Continues PA 6311. Presents a systems approach to the principles of disease processes and includes such topics as physiology, pathophysiology, the natural history of disease, diagnostic procedures, and therapeutics measures. This course is the second of a three-semester series covering core medical concepts and knowledge grounded in scientific principles and evidence-based medicine on the diseases and conditions commonly encountered in clinical practice.",
+      "prerequisites": {
+        "course": "PA 6311"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6313",
+      "title": "Principles of Medicine 3",
+      "credits": 4.0,
+      "description": "Continues PA 6312. Presents a systems approach to the principles of disease processes and includes such topics as physiology, pathophysiology, the natural history of disease, diagnostic procedures, and therapeutics measures. This course is the third of a three-semester series covering core medical concepts and knowledge grounded in scientific principles and evidence-based medicine on the diseases and conditions commonly encountered in clinical practice.",
+      "prerequisites": {
+        "course": "PA 6312"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6320",
+      "title": "Principles of Obstetrics and Gynecology",
+      "credits": 2.0,
+      "description": "Focuses on the management of women and fetuses from prepregnancy to term as, during much of that time, care is provided to both patients simultaneously. Gynecology attends to women’s reproductive issues from prepuberty through senescence. Uses a variety of presentations, clinical case scenarios, and related readings as the basis for students’ learning and development of critical thinking skills related to assessment and management of a woman’s health. Students may be expected to read, discuss, acquire, and briefly write about women’s health issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6321",
+      "title": "Principles of Surgery",
+      "credits": 2.0,
+      "description": "Offers students an opportunity to explore the surgical environment, approach to the surgical patient, and management of surgical conditions with an emphasis on clinical presentation, operative and nonoperative intervention, and perioperative management. Students participate in clinical skills sessions on a variety of surgical techniques including suturing, knot tying, sterile technique, and other minor surgical procedures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6322",
+      "title": "Principles of Orthopedics",
+      "credits": 2.0,
+      "description": "Discusses common orthopedic problems, including those of the hand, knee, shoulder, and back. Examines special problems of acute trauma and managing uncomplicated orthopedic cases. Also considers such topics as how to complete an adequate patient medical history and perform a physical examination of an orthopedic patient.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6323",
+      "title": "Clinical Neurology",
+      "credits": 2.0,
+      "description": "Presents the clinical application of neuroanatomy and neurophysiology. Offers the opportunity to develop an understanding of the nervous system’s normal functioning as well as a clinical approach to assessing and managing nervous system disorders and disease states, and their effects on patients and their families.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6324",
+      "title": "Principles of Pediatrics",
+      "credits": 2.0,
+      "description": "Presents the physiological and psychological fundamentals of child development. Focuses on the major common pediatric illnesses, including their signs, symptoms, and treatment regimens; various immunizations and medications used in pediatrics and their indication and dosage in relation to specific disorders; and management of pediatric emergencies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6325",
+      "title": "Principles of Psychiatry",
+      "credits": 2.0,
+      "description": "Provides an opportunity to understand how to work with patients and families exhibiting psychiatric problems. Includes such topics as psychological growth and development, psychiatric diagnoses, and the effect of social milieu on behavior, the psychological bases of drug and alcohol abuse, the dynamics of psychosomatic problems, the role of culture in self-concepts, and family attitudes toward mental illness as well as appropriate psychotropic medications.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6326",
+      "title": "Aspects of Primary Care",
+      "credits": 4.0,
+      "description": "Studies approaches to and management of the patient in a primary care setting. Discusses specific diseases and medical conditions common to primary care, including HIV/AIDS. Considers psychosocial aspects of disease as well as aspects of prevention.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6327",
+      "title": "Emergency Medicine and Critical Care",
+      "credits": 2.0,
+      "description": "Presents the principles of life-support techniques. Focuses on the initial management of acute medical and traumatic conditions in hospital and prehospital situations. Instructs students in basic cardiopulmonary resuscitation techniques including BLS and ACLS. Includes such topics as airway management, hemodynamic monitoring and management, dysrhythmia recognition and treatment, cardiac arrest, hypovolemic states and management, invasive procedures, multiorgan system failure, nutritional support, and metabolic management of the ICU patient.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6328",
+      "title": "Aging and Rehabilitation Medicine",
+      "credits": 2.0,
+      "description": "Studies techniques of effective planning and decision making for patients with significant acute and chronic problems. Discusses the purposes, techniques, and potential of rehabilitation medicine. Also focuses on biological changes of aging and appropriate theories of management.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6329",
+      "title": "Healthcare Delivery",
+      "credits": 2.0,
+      "description": "Explores the principal components of the healthcare delivery system, emphasizing its social, political, and economic evolution and development. Discusses trends and their implications.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6330",
+      "title": "Research Design",
+      "credits": 2.0,
+      "description": "Considers research methods and designs used in varied professional settings. Emphasizes development of research techniques, including the ability to define research problems; write hypotheses; review and interpret literature; apply research designs; organize, analyze, and present data; and draw relevant conclusions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6400",
+      "title": "Applied Clinical Study in Medicine",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience that is designed to foster students' growth regarding general medical knowledge and clinical reasoning skills. Students may have the opportunity to review historical information, interview patients, perform physical exams, order and interpret studies, perform procedures, present assessments, develop differentials, educate patients, coordinate interdisciplinary communication, document encounters, develop professionalism skills, and improve the ability to triage and manage tasks efficiently.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6401",
+      "title": "Applied Clinical Study in Ambulatory Medicine",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Allows students to further hone their content knowledge and clinical skills either in the area of primary care or in a selected subspecialty area of medicine. Offers students an opportunity to develop skills related to both the initial assessment, as well as the ongoing management of patients with established diagnoses, while working to develop their clinical reasoning skills given initial presentations. Emphasizes assessing and managing both acute and chronic medical problems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6402",
+      "title": "Applied Clinical Study in Family Practice",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Offers students an opportunity to evaluate and treat patients while emphasizing the patient as an individual and family member. Clinical rotation experience may include exposure to preventative medicine, patient education, integration of community services, and medical diagnosis and management for both acute and chronic conditions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6403",
+      "title": "Applied Clinical Study in Emergency Medicine",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Offers students an opportunity to gain experience triaging, evaluating, and managing patients in an emergency medicine setting. Clinical skills honed may include the ability to diagnose and manage patients who present with urgent and emergent complaints, ranging from acute illnesses and traumatic injuries to life-threatening issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6404",
+      "title": "Applied Clinical Study in Women's Health",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Offers students exposure to clinical medicine as it relates to typical women’s health issues. May include common gynecologic disorders, obstetrical complaints, and/or family planning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6405",
+      "title": "Applied Clinical Study in Pediatrics",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Offers students an opportunity to manage care of pediatric patients. Common components of this rotation may include exposure to both well child and urgent care visits, offering students an opportunity to develop interview and physical examination skills with children of all ages.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6406",
+      "title": "Applied Clinical Study in Surgery",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Designed to allow students to gain experience in a surgical setting. Experiences may include preoperative, intraoperative, as well as postoperative patient care. Offers students an opportunity to hone their procedural and assessment skills, distinguish between surgical vs. nonsurgical presentations, and differentiate acute from elective complaints.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6407",
+      "title": "Applied Clinical Study in Mental Health",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Exposes students to a variety of behavioral medicine patient care experiences. Emphasizes recognizing various types of mental health disorders that may require referral to a specialist and managing problems that can be handled by the nonspecialist. Offers students an opportunity to further their understanding of effective patient interactions and the mental health components of health, disease, and disability.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6408",
+      "title": "Applied Clinical Study Elective",
+      "credits": 5.0,
+      "description": "Offers supervised clinical practice experience. Exposes students to a medical, surgical, or subspecialty of either field for further study. Offers students an opportunity to hone their ability to recognize and treat conditions within these fields of medicine to foster utilization or support of related specialists. Select students may participate in an elective that focuses on global health or on a clinical support role, such as administration, leadership, public health, or technology as it relates to healthcare.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

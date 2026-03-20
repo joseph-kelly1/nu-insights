@@ -1,0 +1,26 @@
+{
+  "department": "ABRH",
+  "courses": [
+    {
+      "number": "5001",
+      "title": "International Study—University of Amsterdam",
+      "credits": 20.0,
+      "description": "Offers students an opportunity to study at the University of Amsterdam. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6000",
+      "title": "Study Abroad",
+      "credits": {
+        "min": 1.0,
+        "max": 12.0
+      },
+      "description": "Offers students an opportunity to study abroad at a partner university. May be repeated up to 11 times for up to 12 total credits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

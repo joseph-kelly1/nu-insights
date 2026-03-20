@@ -1,0 +1,83 @@
+{
+  "department": "HBRW",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary Hebrew 1",
+      "credits": 4.0,
+      "description": "Designed for students with little or no prior knowledge of Hebrew. Presents a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Uses practical vocabulary drawn from realistic situations, and aims at good pronunciation and ease in response.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary Hebrew 2",
+      "credits": 4.0,
+      "description": "Continues HBRW 1101. Includes continued focus on oral expression, listening comprehension, and elementary reading and writing. Expands functional and practical vocabulary base drawn from realistic situations and focuses on grammatical accuracy. Continues to focus on good pronunciation and ease of response.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "HBRW 1101"
+          },
+          {
+            "course": "HBRW 1301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2101",
+      "title": "Intermediate Hebrew 1",
+      "credits": 4.0,
+      "description": "Emphasizes further vocabulary building. Offers students an opportunity to master the fine points of grammar through written composition, prepared oral reports, and reading and discussion from contemporary Hebrew materials.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "HBRW 1102"
+          },
+          {
+            "course": "HBRW 1302"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2102",
+      "title": "Intermediate Hebrew 2",
+      "credits": 4.0,
+      "description": "Builds on HBRW 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Hebrew materials.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "HBRW 2101"
+          },
+          {
+            "course": "HBRW 2301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major or minor requirements in certain situations. Priority is given to language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "department": "KORE",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary Korean 1",
+      "credits": 4.0,
+      "description": "Begins the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of daily life, social norms, and family structure in Korea. Designed for students with little or no knowledge of Korean.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary Korean 2",
+      "credits": 4.0,
+      "description": "Builds on KORE 1101 and continues the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of the linguistic, cultural, and geographic diversity of the Korean peninsula.",
+      "prerequisites": {
+        "course": "KORE 1101"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1800",
+      "title": "Introduction to Korean Pop Culture",
+      "credits": 4.0,
+      "description": "Introduces students to Korean popular culture with texts ranging from comics, films, K-drama, pop music, and popular novellas in translation. Explores how \"Hallyu\" (the Korean wave) reverberated through different Asian regions and the rest of the globe in the 1990s and 2000s and continues into the present through global fandoms and streaming platforms. Critically examines the rising popularity of Korean popular cultural genres and influences in various global contexts in relation to race, class, gender, ethnicity, social media, and youth culture. Conducted in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Interpreting Culture"
+      ]
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": 1.0,
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated up to three times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

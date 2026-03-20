@@ -1,0 +1,75 @@
+{
+  "major": "BSCY",
+  "major_name": "Cybersecurity",
+  "college": "Khoury College of Computer Sciences",
+  "plans": [
+    {
+      "plan_name": "Four Years, Two Co-ops in Summer Second Half/Fall",
+      "semesters": [
+        {
+          "year": 1, "term": "Fall",
+          "courses": ["CS 1200", "CS 1800", "CS 1802", "CS 2000", "CS 2001", "ENGW 1111"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 1, "term": "Spring",
+          "courses": ["CS 2100", "CS 2101", "MATH 1341"],
+          "notes": ["Presentation Requirement", "General Elective"]
+        },
+        {
+          "year": 1, "term": "Summer 1",
+          "courses": ["MATH 1342", "CS 3100", "CS 3101"]
+        },
+        {
+          "year": 1, "term": "Summer 2",
+          "notes": ["General Elective", "General Elective"]
+        },
+        {
+          "year": 2, "term": "Fall",
+          "courses": ["CS 3000", "CS 3650", "CY 2550"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 2, "term": "Spring",
+          "courses": ["CS 1210", "CS 4700", "CY 3740"],
+          "notes": ["Cybersecurity Elective", "General Elective"]
+        },
+        {
+          "year": 2, "term": "Summer 1",
+          "courses": ["MATH 3081"],
+          "notes": ["General Elective"]
+        },
+        {
+          "year": 2, "term": "Summer 2",
+          "is_coop": true
+        },
+        {
+          "year": 3, "term": "Fall",
+          "is_coop": true
+        },
+        {
+          "year": 3, "term": "Spring",
+          "courses": ["CS 3800", "CY 4740", "CY 5240"],
+          "notes": ["Cybersecurity Elective"]
+        },
+        {
+          "year": 3, "term": "Summer 1",
+          "courses": ["ENGW 3302", "EECE 2310", "EECE 2311"]
+        },
+        {
+          "year": 3, "term": "Summer 2",
+          "is_coop": true
+        },
+        {
+          "year": 4, "term": "Fall",
+          "is_coop": true
+        },
+        {
+          "year": 4, "term": "Spring",
+          "courses": ["CY 4770", "CY 4930"],
+          "notes": ["Cybersecurity and Social Issues", "Cybersecurity Elective"]
+        }
+      ]
+    }
+  ]
+}

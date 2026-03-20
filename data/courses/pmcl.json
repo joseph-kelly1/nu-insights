@@ -1,0 +1,61 @@
+{
+  "department": "PMCL",
+  "courses": [
+    {
+      "number": "6250",
+      "title": "Ion Channel Physiology and Pharmacology",
+      "credits": 3.0,
+      "description": "Focuses on ion channel proteins, their structure and function, as well as pharmacology. Drug action is pursued based on mechanisms used to control the gating/trafficking of ion channels that modulate their activity and cell surface localization.Introduces students to molecular modeling and dynamic simulations that can capture the gating process and ion permeation of ion channels and provide a mechanistic guide of structure-based drug design. Reviews ion channels and the drugs that target them that apply to a wide variety of medical conditions, such as arrhythmias, hypertension, epilepsy, pain, local anesthesia, cystic fibrosis, and depression. Offers students an opportunity to perform simulations on ion channels with known drugs to establish models for future lead design and development studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6252",
+      "title": "Small-Molecule Target and Ligand Pharmacology",
+      "credits": 4.0,
+      "description": "Focuses on ligand-gated ion channel proteins, G-protein coupled receptors and enzymes, their structure and function, as well as pharmacology. Drug action is pursued based on mechanisms used to control cell signaling and gene expression. Offers students an opportunity to apply physiologic systems and drugs used to treat related pathologies, as well as in silico modeling, to study these effects.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6261",
+      "title": "Pharmacology 2",
+      "credits": 2.0,
+      "description": "Continues PMCL 6260, although in a format that is not contingent that PMCL 6260 precedes this course.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHSC 5100"
+          },
+          {
+            "course": "PHSC 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6262",
+      "title": "Receptor Pharmacology",
+      "credits": 2.0,
+      "description": "Reviews receptors for drug substances and for endogenous ligands in a format that combines lecture presentations and discussion. Focuses on the evaluation of current literature. Covers techniques available to study receptors, various models for receptor-ligand interactions, stereochemical aspects of receptor interactions, receptor-mediated coupling mechanisms, and evaluation of several specific receptor systems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHSC 5100"
+          },
+          {
+            "course": "PHSC 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

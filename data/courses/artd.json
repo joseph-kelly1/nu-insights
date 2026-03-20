@@ -1,0 +1,404 @@
+{
+  "department": "ARTD",
+  "courses": [
+    {
+      "number": "1001",
+      "title": "Media Art, Culture, and Social Justice",
+      "credits": 2.0,
+      "description": "Introduces a wide range of perspectives on and practices of media art and social justice. Exposes students to key concepts, lineages, controversies, and consequences of media practices that expose injustice and seek to build a more equitable and sustainable world. Positions media arts as an intersectional and interdisciplinary practice connecting racial, gender, technological, and spatial/environmental justice. Also serves as an introduction to this dynamic and growing field of professional practice, with illustrative case studies that include interdisciplinary creative work by CAMD faculty as well as leading international practitioners.",
+      "prerequisites": [],
+      "corequisites": [
+        "ARTD 1002"
+      ],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Ethical Reasoning"
+      ]
+    },
+    {
+      "number": "1002",
+      "title": "Seminar for ARTD 1001",
+      "credits": 2.0,
+      "description": "Accompanies ARTD 1001. Discusses and directly applies ideas and practices. Offers students an opportunity to articulate their own positions on critical issues by participating in a range of engaging in-class and research activities.",
+      "prerequisites": [],
+      "corequisites": [
+        "ARTD 1001"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2000",
+      "title": "Introduction to Immersive Media",
+      "credits": 4.0,
+      "description": "Introduces three forms of immersive media—augmented reality, 360 video, and virtual reality—through engagement in content creation, the fundamentals of software tools, development methodologies, and production techniques. Offers students an opportunity to produce basic immersive sequences, read literature, play games, and experience contemporary projects that highlight the uniqueness of immersive media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2100",
+      "title": "Narrative Basics",
+      "credits": 4.0,
+      "description": "Explores narrative sequence and story development in a variety of story architectures and media combinations, including text, video, music, audio, and design. Uses lectures, in-class workshops, and collaborative projects to expose students to the critical role of narrative in society and interactive media, including games. Offers students an opportunity to develop an interactive media design document over the second half of the semester.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENGW 1111"
+          },
+          {
+            "course": "ENGW 1102"
+          },
+          {
+            "course": "ENGL 1111"
+          },
+          {
+            "course": "ENGL 1102"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "2340",
+      "title": "Introduction to Computational Creative Practice",
+      "credits": 4.0,
+      "description": "Examines concepts of computational creative practices, focusing on the use of computational processes for the creation of interactive and generative experiences. Includes computational procedures and concepts for creative purposes such as automation, recursion, and data processing. Students use data and mathematical procedures to generate images, express ideas, and create meaning. Offers students an opportunity to gain practice-based experience with the benefits and limitations of using computational processes; make creative computational projects using code and/or other media such as photography, video, performance installation, etc.; and reflect on what computers can and cannot do well.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2360",
+      "title": "Introduction to Photography",
+      "credits": 4.0,
+      "description": "Introduces creative photography, exploring techniques and processes starting with the basic principles of camera controls, lens and lens functions, digital image presentation basics, as well as photographic seeing and visual thinking. Evaluates and expands technical and conceptual knowledge of the medium. Beyond the technical foundation of digital image making, analyzes various theories and understanding of ways of seeing photographically. Culminates in a final project and presentation designed to demonstrate the importance of technical expertise, editing, sequence, layout, and presentation of ideas.",
+      "prerequisites": [],
+      "corequisites": [
+        "ARTD 2361"
+      ],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2361",
+      "title": "Photo Tools",
+      "credits": 1.0,
+      "description": "Introduces students to the creative possibilities of photographic image editing and management with Adobe Bridge, Camera Raw, and Photoshop. Offers students an opportunity to establish a professional digital workflow, acquire industry-standard creative techniques for photographic image editing, and gain an understanding of the importance of high-quality postproduction output.",
+      "prerequisites": [],
+      "corequisites": [
+        "ARTD 2360"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2370",
+      "title": "Animation Basics",
+      "credits": 4.0,
+      "description": "Offers an introductory studio course that explores the creative potential of animation. Exposes students to a variety of traditional animation processes and techniques through lectures, demonstrations, and hands-on assignments. Provides an historical survey of animation art through the twentieth century. Emphasizes using the computer to develop concepts creatively while learning the fundamental skills of constructing animated images and forms.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTF 1240"
+          },
+          {
+            "course": "ARTF 2220"
+          }
+        ]
+      },
+      "corequisites": [
+        "ARTD 2371"
+      ],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2371",
+      "title": "Animation Tools",
+      "credits": 1.0,
+      "description": "Introduces intermediate skills and software used in creating 3D animation. Explores modeling, surfacing, lighting, key framing, and rigging in this technology workshop.",
+      "prerequisites": [],
+      "corequisites": [
+        "ARTD 2370"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2380",
+      "title": "Video Basics",
+      "credits": 4.0,
+      "description": "Offers an introductory exploration into the moving image as an art form. Covers the fundamental technical and aesthetic aspects of contemporary video production. Emphasizes personal, experimental works from an individual point of view. Analysis of projects is directed toward the development of a personal voice.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTF 1240"
+          },
+          {
+            "course": "ARTF 2220"
+          }
+        ]
+      },
+      "corequisites": [
+        "ARTD 2381"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "2381",
+      "title": "Video Tools",
+      "credits": 1.0,
+      "description": "Introduces intermediate skills and software used in capturing, manipulating, and editing video and audio in this technology workshop.",
+      "prerequisites": [],
+      "corequisites": [
+        "ARTD 2380"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "3000",
+      "title": "Topics in Media Arts",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Explores a variety of intermediate-level thematic topics in media arts, including photography, video arts, animation, immersive media, and computational media. Taught by faculty according to their research interests and expertise. Students who do not meet course restrictions may seek permission of instructor or program coordinator. May be repeated three times for a maximum of 16 semester hours.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTD 2000"
+          },
+          {
+            "course": "ARTD 2360"
+          },
+          {
+            "course": "ARTD 2370"
+          },
+          {
+            "course": "ARTD 2380"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3460",
+      "title": "Photography: Concept + Process",
+      "credits": 4.0,
+      "description": "Explores how process informs concept and vice versa, with a focus on making and photographic practice. Emphasizes creative projects, readings on contemporary photography, and the responses and presentations on the ideas brought forth by our investigations. Constructive critiques, which include investigation of the nuances of the medium and its uses, encourage confidence of creative abilities, vision, and independent thinking. Students use photographic concepts and creative techniques for the development, coordination, and completion of a final photographic body of work. Considers the politics of representation and contextual references and seeks to answer: Who is it of? Who is it for? What does it do? Who does it serve? This is an intermediate photography seminar.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTD 2350"
+          },
+          {
+            "course": "ARTD 2360"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "3470",
+      "title": "Animation 1",
+      "credits": 4.0,
+      "description": "Introduces the fundamentals of three-dimensional computer animation. Class lectures and demonstrations are followed by substantial hands-on exploration. Students gain fundamental skills for modeling, surfacing, and animating. Projects progress from creating simple geometric objects to realistic organic characters. Basic systems for animating are introduced and explored.",
+      "prerequisites": {
+        "course": "ARTD 2370"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3471",
+      "title": "Virtual Environment Design",
+      "credits": 4.0,
+      "description": "Utilizes elements of story and game play in the design of both 2D and 3D environments, integrating architecture, landscape, and set dressing. Introduces real-time procedurally generated terrain and flora, asset optimization, and nonlinear path finding. Explores content ranging from historically accurate and contemporary hyperrealistic to stylized and fanciful.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ARTF 1120"
+          },
+          {
+            "course": "ARTD 2370"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3472",
+      "title": "Character Design for Animation",
+      "credits": 4.0,
+      "description": "Focuses on the development of characters as they relate to game design and animation. Explores, through treatments and synopsis, theme-based character back story, rationale, and visual design. Integrates learning objectives of both 2D and 3D, optimized rigging, movement study, and accessory and prop design.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ARTF 1120"
+          },
+          {
+            "course": "ARTD 2370"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3473",
+      "title": "Animation for Games",
+      "credits": 4.0,
+      "description": "Explores all areas of 3D game asset creation—animation, modeling, shading, effects, and their integration. Working in small groups, students have an opportunity to learn how to construct animated assets that work efficiently within a game programming environment. Encourages students to specialize in at least one area of asset creation.",
+      "prerequisites": {
+        "course": "ARTD 3470"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3480",
+      "title": "Video: Sound and Image",
+      "credits": 4.0,
+      "description": "Continues the study of video as an art form. Focuses on the dynamic relationship between sound and the moving image. Begins with audio exercises exploring various aspects of sound design that are integrated into an in-depth video production. Emphasizes the production of innovative video art with powerful visual imagery, complex editing rhythms, and creative sound design.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTD 2380"
+          },
+          {
+            "course": "MSCR 1230"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3485",
+      "title": "Experimental Video",
+      "credits": 4.0,
+      "description": "Constitutes an advanced video production and analysis course. Emphasizes the development of personal vision and building a working knowledge of contemporary experimental video art techniques. Offers students an opportunity to expand conceptual ideas and visual language skills by interrogating concepts of time, movement, light, and space within their exploratory working process. Visual research and discussion supplement the studio work.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTD 2380"
+          },
+          {
+            "course": "MSCR 1230"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3490",
+      "title": "Data Art and Hacktivism",
+      "credits": 4.0,
+      "description": "Explores the practices and politics of data collection and processing for creative and critical output. Studies how to collect online data with and without APIs and how to process textual data using Natural Language Processing techniques. Examines the practices currently used in social web technologies by making creative projects. Addresses the ethical issues of data collection and privacy, as well as the practical, technical, and social problems that can arise during the processing of social data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4530",
+      "title": "Media Arts Degree Project",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to develop a refined, process-driven media art project that combines personal vision, research, and scholarship. Centers on the creation of a comprehensive capstone project that highlights a specific area of interest and supplements a body of work that has been accumulated through the media arts curriculum. The course structure is based on weekly goals and reviews that are partially determined by the specific and unique aesthetic and technical demands of an individual student’s capstone project. A well-planned project statement serves as the method for contextualizing and articulating the unique goals of the capstone project. This advanced studio course provides preparation for graduating students in their careers as professional artists and creative practitioners.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience"
+      ]
+    },
+    {
+      "number": "4565",
+      "title": "Photography: Visual Strategies + Context",
+      "credits": 4.0,
+      "description": "Emphasizes combining students’ personal aesthetic choices with refined technical skills in this advanced photography seminar. Students integrate personal vision, historical research, and well-defined concepts in their work. Through lectures on contemporary topics and artist studio and museum visits, students situate their own ideas and processes to historical and cultural forces. Focuses on the relevance of contemporary models in which the still image is used, specifically interdisciplinary approaches.",
+      "prerequisites": {
+        "course": "ARTD 3460"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4570",
+      "title": "Animation 2",
+      "credits": 4.0,
+      "description": "Continues ARTD 3470. Focuses on seamless integration of animated three-dimensional models with digital photographic backgrounds. Continued emphasis on building comprehensive modeling, surfacing, and animation skills. Students develop original content based on course objectives. Complex systems for creating realistic movement are introduced. Exposes students to compositing and animation processes through lectures, demonstrations, and hands-on assignments.",
+      "prerequisites": {
+        "course": "ARTD 3470"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4575",
+      "title": "Animation 3",
+      "credits": 4.0,
+      "description": "Continues ARTD 4570. Focuses on building comprehensive modeling, animation, and compositing skills in this advanced studio course. Students explore creating special effects through seamless mixture of computer-generated imagery and digital video footage. Advanced compositing and lighting techniques are introduced and explored. Students create original characters using organic modeling and surfacing techniques. Exposes students to animation and compositing processes through lectures, demonstrations, and hands-on assignments.",
+      "prerequisites": {
+        "course": "ARTD 4570"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4660",
+      "title": "Studio Photography",
+      "credits": 4.0,
+      "description": "Examines studio practices and lighting techniques. Offers students an opportunity to obtain a thorough understanding and working knowledge of contemporary practice in the photography studio. Includes comprehensive exercises and assignments with various types of lighting equipment.",
+      "prerequisites": {
+        "course": "ARTD 2360"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4661",
+      "title": "Photography: Experimental Processes",
+      "credits": 4.0,
+      "description": "Offers a studio/lab course in which students study the history of photographic processes and contemporary approaches of the medium while creating their own photographs in the darkroom. Explores 19-century techniques such as camera obscura, photograms, cyanotypes, tintypes, kalli-types, cliché verre, and others. Investigates the use of analog film photography and digital photography in combination with alternative processes. The structure of the course is designed to present exciting ways of thinking about technical questions, materials, subject matter, and aesthetic approaches through experimentation.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTD 2350"
+          },
+          {
+            "course": "ARTD 2360"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6490",
+      "title": "Advanced Data Art and Hacktivism",
+      "credits": 4.0,
+      "description": "Explores the practices and politics of data collection and processing for creative and critical output. Practices how to collect online data with and without APIs and how to process textual data using natural language processing techniques. Engages students in self-directed research using the current social web data collection technologies and application of that research to a creative output. Examines the legal and ethical issues involved in data collection, in addition to the practical, technical, and social problems that can arise during the processing of social data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+{
+  "department": "INFO",
+  "courses": [
+    {
+      "number": "5001",
+      "title": "Application Modeling and Design",
+      "credits": 4.0,
+      "description": "Practices social-technical software engineering methods and tools to solve real-world problems. Explores innovative design and programming techniques to build significant business applications quickly. Studies the process of systematically combining UX techniques, business processes, and complex data models to assemble applications that are user-friendly and meet business requirements. Employs the object-oriented paradigm, visual user interface design principles, and programming languages such as Java, as well as productivity tools, to put together complicated, powerful business applications with ease. Explores the art of how to systematically write software programs to solve any business problem, through practicing simple and smart ways of making software programming enjoyable.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5002",
+      "title": "Introduction to Python for Information Systems",
+      "credits": 4.0,
+      "description": "Studies the Python programming language for application engineering. This hands-on course offers students an opportunity to obtain proficiency in the core concepts of Python and the skills and knowledge for building applications using any of the hundreds of thousands of task-specific Python libraries. Covers the important concepts such as reading and writing to standard IO, using operators, controlling the flow of execution, using functions, reading and writing files, and basic object-oriented programming concepts. Applies tools and techniques to classical software engineering and Python-specific facilities such as code introspection, reuse, built-in sequence types, and iteration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5100",
+      "title": "Application Engineering and Development",
+      "credits": 4.0,
+      "description": "Takes students in a step-by-step manner through the process of systematically combining UX techniques, business processes, and complex data models to assemble applications that are user-friendly and meet business requirements. Employs the object-oriented paradigm, visual user experience, and system design principles to put together complicated, powerful, real-world applications. The primary objective of this course is to practice social-technical software engineering methods and tools to solve real-world problems. Offers students an opportunity to learn innovative design and programming techniques to build significant business applications quickly; to practice simple and smart ways of making software construction enjoyable; and to master the art of how to systematically write software programs to solve any business problem.",
+      "prerequisites": [],
+      "corequisites": [
+        "INFO 5101"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "5101",
+      "title": "Lab for INFO 5100",
+      "credits": 0.0,
+      "description": "Accompanies INFO 5100. Provides additional instruction in Java programming.",
+      "prerequisites": [],
+      "corequisites": [
+        "INFO 5100"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "5260",
+      "title": "Introduction to Business Process Engineering",
+      "credits": 4.0,
+      "description": "Examines modern trends and innovative techniques for improving organizational productivity, operational efficiency, and project performance through process engineering. Analyzes the origins and evolution of business processes, their impact on strategic objectives, and methods for identifying inefficiencies and opportunities for improvement. Covers frameworks for diagnosing process issues, redesigning workflows, and implementing reengineered solutions. Emphasizes strategies for communicating process changes effectively to technical and nontechnical stakeholders and securing organizational support.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5374",
+      "title": "Special Topics in Information Systems",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in information systems. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers theoretical or experimental work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated seven times for up to 8 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6105",
+      "title": "Data Science Engineering Methods and Tools",
+      "credits": 4.0,
+      "description": "Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines, kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous real-world case studies.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6106",
+      "title": "Neural Modeling Methods and Tools",
+      "credits": 4.0,
+      "description": "Uses a graph theoretic approach to build models representing dependencies of model components instead of using analytical functions in statistics to interpolate observations, build data models, and estimate model parameters. The interpolation is still parametric, but the parameters are graph related and do not involve analytic functions. Discusses how to explain neural models and not fear them; when it is appropriate to use neural models; and how to interact with machines that use neural models in the same way one would trust a friend, so that trust between humans and machines is enhanced rather than diminished. These so-called neural models mirror in some regard how biological brains build models to make sense of the world and do predictions.",
+      "prerequisites": {
+        "course": "INFO 6105"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6150",
+      "title": "Web Design and User Experience Engineering",
+      "credits": 4.0,
+      "description": "Focuses on advanced user interface engineering, with a strong emphasis on utility and personalized user experiences development. Through the use of tools like React and Flutter, explores how to engineer highly personalized web applications tailored to individual user needs and preferences. Topics include responsive layouts, interactive elements, animation integration, and performance tuning. Offers students an opportunity to gain hands-on experience in building interfaces that dynamically adapt to user behavior, preferences, and context, ensuring a unique and engaging experience for each user.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6205",
+      "title": "Program Structure and Algorithms",
+      "credits": 4.0,
+      "description": "Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables, and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores external storage structures, time permitting.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6215",
+      "title": "Business Analysis and Information Engineering",
+      "credits": 4.0,
+      "description": "Covers computer information systems and the decision-making process, determination of information requirements, system development life cycle, and system modeling and analysis. Uses a hands-on approach to introduce the student to software engineering methodologies and practices, business requirements specification, business process design, model-driven object-oriented design, software development, and maintenance. Emphasizes the effective leverage of the Unified Modeling Language (UML) to transform business issues and objectives to concrete software solutions that meet business needs and usability and user interface design as critical elements of a successful software engineering engagement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6245",
+      "title": "Planning and Managing Information Systems Development",
+      "credits": 4.0,
+      "description": "Provides an overview of the most popular information systems needs’ assessment methodologies including portfolio analysis, stage assessment, business systems planning, and the Alloway survey technique. Topics include utilities IS strategic plan prioritization techniques of business goal alignment, architectural compatibility, and cost/benefit and risk analysis to demonstrate how businesses match needs to budgetary constraints. Describes and evaluates options for the placement of the IS function within the organization and a variety of methods to manage the function. Introduces a generic application development and project planning methodology used as a model to facilitate the development of a four-stage project plan for a prototype project. Uses the Project Management Institute’s PMBOK and Harvard Business School case studies extensively.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6250",
+      "title": "Web Development Tools and Methods",
+      "credits": 4.0,
+      "description": "Explores advanced server-side technologies and tools necessary to design and engineer complete web-based enterprise applications quickly. Designed to build on previous experience to cover the life cycle of a web-based application. Focuses on MVC web development frameworks to build server-side, data-intensive, and multitier web applications. Additionally, discusses designing rich internet applications (RIA) using AJAX and service-oriented architecture (SOA) using REST.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          }
+        ]
+      },
+      "corequisites": [
+        "INFO 6251"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "6251",
+      "title": "Lab for INFO 6250",
+      "credits": 0.0,
+      "description": "Accompanies INFO 6250. Offers additional instruction in Web tools discussed in class.",
+      "prerequisites": [],
+      "corequisites": [
+        "INFO 6250"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "6255",
+      "title": "Software Quality Control and Management",
+      "credits": 4.0,
+      "description": "Examines techniques for the management and evolution of software systems. Topics include managing software as an asset; life cycle development and rapid development technologies; maintainability; quality assurance of software systems including testing strategies and problem analysis; software risk analysis; analysis of software project failures; process models, such as CMM and ISO 9001; configuration management; and the impact of new development technologies on software management.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6320",
+      "title": "Large Language Models in Healthcare: Foundations and Applications",
+      "credits": 4.0,
+      "description": "Examines fundamentals and applications of large language models in healthcare. Covers core architectures such as recurrent neural networks and transformers, attention mechanisms, and self-supervised learning techniques. Investigates the role of LLMs in clinical applications including chatbots, question answering systems, sentiment analysis, and retrieval-augmented generation. Highlights the integration of LLMs with medical imaging, healthcare systems, and drug discovery workflows. Emphasizes practical methods for developing, fine-tuning, and evaluating LLM-based solutions using real-world healthcare datasets.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6350",
+      "title": "Smartphones-Based Web Development",
+      "credits": 4.0,
+      "description": "Covers application development for mobile devices using advanced development platforms. Focuses on how to write mobile applications using cross-platform development tools and processes. Topics include user interfaces, the software life cycle, persistent storage, networking using HTTP and other REST interfaces, and mobile/handheld data applications. Requires a final project.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6374",
+      "title": "Special Topics in Information Systems",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in information systems. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6500",
+      "title": "Managing Operational Risk for Engineering",
+      "credits": 4.0,
+      "description": "Presents an in-depth study of risk management in engineering and technical environments, focusing on identifying, assessing, and mitigating risks. Covers strategies for monitoring and response planning while examining the impact of organizational factors, such as communication and culture, on risk practices. Emphasizes real-world applications through case studies and emerging risk assessments. Explores approaches to implementing security controls, developing incident response plans, and ensuring compliance with industry standards.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6660",
+      "title": "Business Ethics and Intellectual Property for Engineers",
+      "credits": 4.0,
+      "description": "Seeks to support successful engineering careers by offering students an applied understanding of ethical principles in the workplace and fundamentals of intellectual property and the American legal system. Seeks to increase students’ awareness of the ethical implications of their work and to influence colleagues to think and act in a socially cognizant manner. Introduces ethical principles and codes of professional ethics; types of intellectual property (patents, trade secrets, trademarks, copyrights); and fundamentals of the American legal system (sources of American law, contracts, torts, intellectual property, antitrust). Offers students an opportunity to practice verbal communication and presentation skills; develop an applied understanding of the relationship and differences between legal liability and ethical behavior; and develop applied critical thinking, communication, and presentation skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7110",
+      "title": "High-Performance Coding for Fintech",
+      "credits": 4.0,
+      "description": "Distills the programming challenges constantly faced by quantitative developers in the fintech space. Presents high-performance computing challenges as well as their solutions for investment banks, market-making firms, capital management funds, and loan-financing institutions. Covers the art of high-performance computing using object-oriented structure of five prevailing programming languages widely adopted in the fintech industry: Java, C++, MATLAB, R, and Python. In particular, the course offers students an opportunity to obtain capabilities to successfully complete high-performance computing tasks in the following five application areas: global-macro arbitrage, quantitative equity portfolio management, option pricing and trading, fixed-income securities, and market making.",
+      "prerequisites": {
+        "course": "INFO 6205"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7205",
+      "title": "Advanced Application Engineering Project",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to master advanced software design and programming techniques for building complex software applications quickly. The engineering issues addressed assume the business problems are difficult to understand and manage in a practical manner—the system capacity must support thousands or even millions of users in a multitude of roles. Addresses high-performance computing requirements such as concurrency and control, scalability, replication, and failover.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7225",
+      "title": "Accounting and Budgetary Systems for Engineers",
+      "credits": 4.0,
+      "description": "Covers the latest engineering principles necessary for building complex software systems that comply with recognized standards in the financial industry. With automated business processes today, risk and responsibility are shifting to information technology (IT) systems. Offers students an opportunity to learn how to incorporate information-based controls related to the financial industry that signal trouble, detect violations, and provide accountability, as well as a working approval process. Emphasizes software design. Seeks to help engineers construct complex software from a sophisticated engineering perspective. Examines how to put together cutting-edge organizational systems that people in the financial world can put to good use. Designed to prepare students for jobs in the building, maintaining, and employment of such information systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7245",
+      "title": "Agile Software Development",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to achieve a high level of practical understanding of software development life cycle (SDLC) with emphasis on agile and adaptive incremental methodologies. Examines techniques for the management and evolution of software systems, including project planning from requirements gathering, analysis, estimation, and releasing using a hands-on approach to implement agile methodologies. Also covers maintainability, including software risk analysis, project retrospectives, and process models such as capability maturity model, configuration management, and their practical implementation.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7250",
+      "title": "Engineering of Big-Data Systems",
+      "credits": 4.0,
+      "description": "Introduces a general framework for thinking about big data. Services such as Web analytics and intelligent e-commerce have promoted a rapid increase in the volume of data generated, analyzed, and archived. In order to solve the problems related to big data, a newer type of database product has emerged. Covers how to apply technologies like Hadoop, Accumulo, MongoDB, and various NoSQL databases to build simple, robust, and efficient systems to manage and analyze big data. Also describes an easy approach to big data systems that can be built and run by a small team of students. Guides students through the theory of big data systems, how to implement them in practice, and how to deploy and operate them once they are built.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 6205"
+          },
+          {
+            "course": "INFO 6250"
+          },
+          {
+            "course": "INFO 7390"
+          },
+          {
+            "course": "CSYE 6220"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7255",
+      "title": "Advanced Big-Data Applications and Indexing Techniques",
+      "credits": 4.0,
+      "description": "Studies advanced indexing techniques and algorithms for big-data platforms such as Hadoop and NoSQL databases. Covers big-data design and indexing patterns to organize, aggregate, manipulate, and analyze huge amounts of data beyond human scale. Offers students an opportunity to learn advanced techniques to improve the performance and robustness of the advanced big-data programming models. Additional areas of focus include scalable graph databases, advanced indexing, and full-text searching in graph databases.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CSYE 6220"
+          },
+          {
+            "course": "INFO 6205"
+          },
+          {
+            "course": "INFO 6250"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7260",
+      "title": "Business Process Engineering",
+      "credits": 4.0,
+      "description": "Addresses the question of how to understand and specify the flow of work responsibility and movement of information throughout the enterprise. For businesses to maximize the benefits of technology, they must transform their ad-hoc and often poorly defined ways of doing things to formal business processes. Analyzes the specification and implementation of complex information systems that integrate well into core business operations. Offers students an opportunity to learn how to use agile process specification techniques, dynamic process execution, and real-time measurement and reporting to support continuous business improvement and change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7285",
+      "title": "Organizational Change and IT",
+      "credits": 4.0,
+      "description": "Focuses on the change effort needed to integrate a project into the firm’s organizational structure, culture, business, and process metrics. Geared for students undertaking enterprise resource planning systems, or those involved in small or large organizational reengineering projects designed to make IT a primary focus of the firm’s business strategy. Topics include management theories and organizational design principles; strategy and critical success factor formulation; methods to reach information systems maturity; business process modeling techniques; quality, the mindset, and the problem-solving tools; human resource, cultural, and technical change enablers; how to plan a business reengineering project; and implementation of major organizational change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7330",
+      "title": "Information Systems for Healthcare Services Delivery",
+      "credits": 4.0,
+      "description": "Addresses the important information systems questions facing the delivery and assessment of healthcare services from administrative, financial, and clinical perspectives. Includes the use of electronic medical records; health information exchanges; and performance evaluation of providers, patients, and payers. Introduces how healthcare is delivered. Focuses on various information management tools being implemented as well as those needed to move care delivery and quality forward.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7374",
+      "title": "Special Topics in Information Systems",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Covers state-of-the-art material of current interest. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7375",
+      "title": "Special Topics in Artificial Intelligence Engineering and Applications",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Covers recent advances in neural nets and deep learning techniques with applications to large-scale engineering problems. May be repeated up to five times for a maximum of 24 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7380",
+      "title": "User Experience Design for Healthcare Applications",
+      "credits": 4.0,
+      "description": "Introduces the unique challenges of user experience research, design, and evaluation in a complex safety-critical domain with a systems engineering perspective. Covers regulations, standards, development processes, implementation, and adoption considerations for health technology. Designed to prepare students for the challenges UX professionals need to tackle when working on healthcare applications. Offers students an opportunity to build the necessary skill sets to enter the competitive and highly specialized industry of healthcare IT.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CSYE 7280"
+          },
+          {
+            "course": "INFO 6150"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7385",
+      "title": "Managerial Communications for Engineers",
+      "credits": 4.0,
+      "description": "Focuses on communication strategies and tactics for engineers at the interpersonal, team, and organizational level. Course topics include forms (oral and written), styles, and differences in communication; coaching and giving feedback to staff; and building teams, managing conflict, and special topics in organizational communication. The primary goal is to strengthen the students’ social and emotional intelligence skills to help them progress along their engineering career path. Combines academic content with practical skill-building activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7390",
+      "title": "Advances in Data Sciences and Architecture",
+      "credits": 4.0,
+      "description": "Covers a wide range of skills and responsibilities that are necessary for managing complex business performance and operational data. Such data tend to be fragmented, poorly organized, and often flawed. Offers students an opportunity to learn how a more up-to-date mapping of complex data works and to be alerted to the care and attention they must give to such a task as well as the implications of the results. Covers best practices for managing all aspects of the data transformation life cycle, covering broad areas such as requirements gathering, meta-model design, data integration and transformation, as well as implementation and ongoing operations. Discusses tools for mapping fragmented data into business intelligence solutions that guide successful strategies.",
+      "prerequisites": {
+        "course": "INFO 6105"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7405",
+      "title": "Advances in Engineering Medical Information Systems",
+      "credits": 4.0,
+      "description": "Focuses on the fundamentals of engineering patient medical records as timelines of medical encounters that capture critical clinical decisions made in various contexts such as assessments, diagnoses, treatments, etc. Record systems typically focus on data recording for legal purposes, ignoring the critical needs of patients and caregivers. Introduces innovative software design and architecture techniques that recognize the complex interaction between patients and caregivers, provide immediately available detailed information for both, and thus invigorate clinical workplaces. Emphasizes semantically rich clinical information models to support predictive analysis in order to recognize patterns of disease early. Covers techniques for engineering medical applications as sociotechnical systems that promote the safety, effectiveness, and efficiency of core clinical operations.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7410",
+      "title": "Advanced Medical Device Software Engineering",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to achieve an advanced level of practical knowledge and understanding of the medical device software development process and the skills needed to develop software for medical devices according to the FDA and IEC 62304 standards. Aiming to bridge the gap between theory and practice, this comprehensive and hands-on course combines lectures, case studies, and a capstone project to help students gain the necessary expertise to develop safe and effective medical device software.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CSYE 6200"
+          },
+          {
+            "course": "INFO 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7500",
+      "title": "Cryptocurrency and Smart Contract Engineering",
+      "credits": 4.0,
+      "description": "Seeks to provide a detailed understanding of the function and deployment of smart contracts using the Solidity language. Digs deep into the technical design and operation of blockchain platforms and specifically the implementation of smart contracts for operationalizing business processes. Offers students an opportunity to practice the development of decentralized autonomous organization applications using blockchain scripting languages.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "INFO 5100"
+          },
+          {
+            "course": "CSYE 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7510",
+      "title": "Smart Contract Application Engineering and Development",
+      "credits": 4.0,
+      "description": "Emphasizes the essential coding skills for implementing self-enforcing, multiparty, mutually beneficial, contractual rights and obligations on top of blockchain technologies. Offers students an opportunity to learn how to leverage the principles and mechanisms of “decentralized autonomous organization” to programmatically coordinate the interaction between participating parties at a global scale without the need for trusting a third party and how to build blockchain-type applications that automate the interaction of a network of participating entities such as buyers, sellers, suppliers, insurance, and finance.",
+      "prerequisites": {
+        "course": "INFO 7500"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7520",
+      "title": "Engineering of Advanced Cryptocurrency Systems",
+      "credits": 4.0,
+      "description": "Addresses programming and information systems aspects of bitcoin and other cryptocurrencies. Topics covered include fundamentals of bitcoin mining, the theory of distributed consensus, principles of strong anonymity and untraceability, smart contract security, and peer-to-peer networking. Offers students an opportunity to learn about current developments in, and challenges facing, the use of cryptocurrencies in terms of the computing platform and systems integration. Students also have an opportunity to gain practical experience through challenging programming projects.",
+      "prerequisites": {
+        "course": "INFO 7500"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7525",
+      "title": "Regulatory Aspects of Smart Contract Automation",
+      "credits": 2.0,
+      "description": "Addresses the legal implication of using the blockchain to transfer and exchange money, perform trade transactions, maintain ownership of property, and enforce contractual obligations in secure and cost-effective ways. These applications present significant legal challenges in finance, property rights, and general commercial contracts in all industries. Offers students an opportunity to acquire the tools to engineer systems that adhere to existing and evolving regulatory frameworks. Highlights challenges around the issues of taxation, financial crimes, and money laundering, since blockchain technologies were designed to facilitate cross-border transactions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7535",
+      "title": "Digital Smart Contracts Product Innovations",
+      "credits": 2.0,
+      "description": "Addresses the issue of how blockchain technology creates new ways of doing business. Blockchain technology uses bitcoin cryptocurrency to create value in a virtual setting. By linking the blockchain with real currency and the financial system, data, as well as business processes, a new breed of products and services can be realized. Explores innovative and disruptive applications of the blockchain.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7610",
+      "title": "Special Topics in Natural Language Engineering Methods and Tools",
+      "credits": 4.0,
+      "description": "Covers the latest techniques in natural language processing with applications to unstructured data.",
+      "prerequisites": {
+        "course": "INFO 6205"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7750",
+      "title": "Engineering Advanced Healthcare Information Exchange Platforms",
+      "credits": 4.0,
+      "description": "Offers a deep dive into the realm of health information exchange systems, emphasizing their advantages, overcoming engineering challenges, and understanding the diverse HIE models. Addresses important safety concepts, eco-scale challenges, and systems and software engineering approaches to ensure robust, secure, and sustainable HIE implementations. Aims to develop a solid understanding of HIE's intricacies.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CSYE 6200"
+          },
+          {
+            "course": "INFO 5100"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7945",
+      "title": "Master's Project",
+      "credits": 4.0,
+      "description": "Delves deeply into advanced concepts and methodologies within information systems. Emphasizes the development of critical thinking skills and the application of theoretical knowledge to practical challenges in the field. Through individual efforts, including laboratory work and/or literature review, students conduct a thorough investigation and analysis of various aspects of information systems. With guidance from their faculty advisor, students focus on a project tailored to their interests and goals. Students produce a detailed report outlining their findings, methodologies, and conclusions. Offers students an opportunity to present their work to peers and faculty, fostering scholarly discussion and collaboration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7976",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers theoretical or experimental work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated seven times for up to 8 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7986",
+      "title": "Research",
+      "credits": 0.0,
+      "description": "Offers students an opportunity to conduct full-time research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7990",
+      "title": "Thesis",
+      "credits": 4.0,
+      "description": "Offers theoretical and experimental work conducted under the supervision of a departmental faculty.",
+      "prerequisites": {
+        "course": "INFO 7945"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7996",
+      "title": "Thesis Continuation - Half-Time",
+      "credits": 0.0,
+      "description": "Continues theoretical and experimental work conducted under departmental faculty supervision.",
+      "prerequisites": {
+        "course": "INFO 7990"
+      },
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

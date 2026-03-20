@@ -1,0 +1,151 @@
+{
+  "department": "PORT",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary Portuguese 1",
+      "credits": 4.0,
+      "description": "Begins the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of daily life, social norms, and family structure in Portuguese-speaking countries.Designed for students with very little or no prior knowledge of Portuguese.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary Portuguese 2",
+      "credits": 4.0,
+      "description": "Builds on PORT 1101 and continues the integrated development of elementary language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of the linguistic, cultural, and geographic diversity of the Portuguese-speaking world.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PORT 1101"
+          },
+          {
+            "course": "PORT 1301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1501",
+      "title": "Accelerated Elementary Portuguese 1",
+      "credits": 4.0,
+      "description": "Introduces Portuguese to native/heritage speakers of Spanish, beginner-level heritage speakers of Portuguese, and students who have completed at least two levels of intermediate Spanish. Focuses on fundamental communication skills—speaking, aural comprehension, reading, and writing. Also explores cultural elements of the Portuguese-speaking countries. Students who do not have the preparation described may seek permission of instructor. This course is the equivalent of completing two semesters of elementary Portuguese.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2101",
+      "title": "Intermediate Portuguese 1",
+      "credits": 4.0,
+      "description": "Builds on PORT 1102 and begins the integrated development of intermediate language skills through cultural exploration. Includes class discussion and project-based learning. Offers students an opportunity to gain a deeper understanding of the changes to modern life in Portuguese-speaking countries and efforts to face societal challenges.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PORT 1102"
+          },
+          {
+            "course": "PORT 1302"
+          },
+          {
+            "course": "PORT 1501"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2102",
+      "title": "Intermediate Portuguese 2",
+      "credits": 4.0,
+      "description": "Builds on PORT 2101 and focuses on further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through written composition, prepared oral reports, and reading and discussion from contemporary Portuguese materials.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PORT 2101"
+          },
+          {
+            "course": "PORT 2301"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2900",
+      "title": "Specialized Instruction in Portuguese",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on developing students’ language proficiency and cultural competence within a specific context. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "PORT 1102"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3101",
+      "title": "Advanced Portuguese 1",
+      "credits": 4.0,
+      "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PORT 2102"
+          },
+          {
+            "course": "PORT 2302"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3900",
+      "title": "Specialized Instruction in Portuguese",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on developing students’ language proficiency and cultural competence within a specific context. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "PORT 2102"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major or minor requirements in certain situations. Priority is given to language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": 1.0,
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

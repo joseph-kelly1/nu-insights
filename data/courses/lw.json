@@ -1,0 +1,834 @@
+{
+  "department": "LW",
+  "courses": [
+    {
+      "number": "6101",
+      "title": "Introduction to Legal Studies 1: Law and Legal Reasoning",
+      "credits": 3.0,
+      "description": "This course will provide students with an introduction to the American legal system and legal reasoning. The course materials will cover rights and obligations created by contracts, fundamental principles of property law, accident law, the regulation of criminal conduct, and the laws associated with business formation and relationships. Students will also complete writing exercises to enable them to synthesize their understanding, and to find and use legal sources in support of their work.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6102",
+      "title": "Introduction to Legal Studies 2",
+      "credits": 3.0,
+      "description": "This course builds on LW 6101 with its emphasis on common law by introducing students to statutes and regulations. The setting involves federal administrative agencies governing employment, consumer protection, environment, labor, cyberlaw, intellectual property, and international trade. Exercises and discussions require finding, summarizing, applying and arguing about the applicability of statutes and regulations in concrete situations. The capstone of the course allows students to create a project to illustrate the lessons learned in the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6110",
+      "title": "Law of Information and Records",
+      "credits": 3.0,
+      "description": "This course will present a comprehensive survey of procedural and evidentiary rules in the context of recordkeeping, document production, due diligence, and investigations. It will include an exploration of rights to privacy, issues of confidentiality and conflicts of interest, contractual and legal liability, evidentiary consequences in administrative and court settings resulting from work-place disputes, and other related areas.",
+      "prerequisites": {
+        "course": "LW 6102"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6120",
+      "title": "Law and Strategy",
+      "credits": 3.0,
+      "description": "Introduces students to the implications and impact of law on strategy, with attention to applying legal knowledge and resources to strategic planning and strategy implementation. Uses several examples of readily understood strategies to provide opportunities for students to identify the legal environment, consider the legal rights and requirements implicated by relevant law or regulation (e.g., intellectual property, contracts, administrative law) and their potential impact on management, incorporating law as a resource on the resource based view of the firm. Range of examples include considering law and strategy implementation in multiple contexts. Focuses on developing an appreciation of the legal environment and making effective use of legal resources and lawyers as advisors in strategic management aimed at attaining sustainable competitive advantage over rivals.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6400"
+          },
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6130",
+      "title": "Negotiation and Advocacy",
+      "credits": 3.0,
+      "description": "Offers students an opportunity to learn core elements of negotiations that are the precursors to any final agreement or resolutions of informal disputes: negotiation planning from opposing sides and counseling; analysis of the bargaining range and opponent’s needs; principled concession patterns; problem-solving strategies to avoid deadlock; information bargaining and authority clarification; principles of drafting; settlement; and ethics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6140",
+      "title": "Data Regulation and Compliance",
+      "credits": 3.0,
+      "description": "Covers the challenges facing organizations in building programs that ensure adherence with legal obligations, especially regarding data. Institutions increasingly face a host of regulatory compliance issues. Explores statutes covering a broad range of areas, especially when it involves data protection and privacy.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6150",
+      "title": "Law and Organizational Management",
+      "credits": 3.0,
+      "description": "Students will learn the rules governing organizations, including corporations, partnerships, governmental organizations, and non-profits. The focus will include relationships within the organizations and powers of members of organizations. In addition, the course will cover employment issues relevant to relationships in organizations. Topics will include rights of workers to be free of discrimination in the workplace, the importance of workplace rules, and policies governing the workplace.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6155",
+      "title": "Legal Foundations of Public Policy",
+      "credits": 3.0,
+      "description": "Examines the legal framework for public policymaking at all levels of government. Topics include the role of law within the legislative, executive, and judicial branches of government and the contributions of local, state, and federal governments in crafting and implementing public policy. Explores the history of regulation and the rise of the administrative state. Reviews the landscape of current agency activities, including investigations and the imposition of sanctions. Introduces students to legislative and regulatory drafting processes. Offers students an opportunity to draft model legislation and participate in “notice and comment” rulemaking.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6160",
+      "title": "Regulation and Global Business Strategies",
+      "credits": 3.0,
+      "description": "This course provides an introduction to the international legal concepts, principles and institutions that define and shape international business relations. Globalization has increased the number of economic interactions across national borders. The globalization of production and consumption takes place in the background of an international monetary system and an international legal infrastructure facilitating and regulating transnational trade, international finance and global intellectual property and investment protection. The course specifically examines case studies of global governance based on codes of practice, certification and other regulatory initiatives.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6170",
+      "title": "Financial Transactions",
+      "credits": 3.0,
+      "description": "In this course students will explore various aspects of corporate financial transactions, including vendor and supplier contracts, early stage financing, commercial loans, initial public offerings, mergers, and the sale of assets. Issues involving valuation of assets will be covered, and students will learn basic securities laws related to the transactions covered.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6180",
+      "title": "Health Law Survey",
+      "credits": 3.0,
+      "description": "Examines legal regulations governing the provision of healthcare services. Topics include access to health insurance and healthcare, healthcare financing, the organization and responsibility of healthcare institutions (especially hospitals), healthcare cost containment policies, public and private insurance programs, and the formulation of health policy. Provides an introductory overview of the major statutes, regulations, and case law related to health law, including an introduction to the Patient Protection and Affordable Care Act, otherwise known as Obamacare.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6181",
+      "title": "Healthcare Regulation and Compliance",
+      "credits": 3.0,
+      "description": "This course covers major regulatory issues related to the healthcare field, providing an in-depth regulatory overview of health programs. Statutory schemes covered will include HIPAA/HITECH, Stark/fraud and abuse. In addition, students will learn about compliance programs, including compliance operations, and the code of conduct for particular fields.",
+      "prerequisites": {
+        "course": "LW 6102"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6182",
+      "title": "Patient Records, Privacy, and Security",
+      "credits": 3.0,
+      "description": "This course explores the ethical and legal obligations respecting patient records, particularly electronic records. In addition to reviewing HIPAA's privacy and security rules, the course will cover professional ethics regarding confidentiality, common law and state protections for confidentiality, GINA, and the HiTech Act.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6184",
+      "title": "Healthcare Compliance 1",
+      "credits": 2.0,
+      "description": "This course is the first of a two-course series that explores the basics of healthcare compliance. This course focuses on the relationships between various participants in the healthcare system and the compliance concerns and programs that exist because of these relationships. At the end of the course students should be able to identify basic compliance issues, consult relevant sources of guidance on achieving compliance, and propose initial resolutions to compliance issues that appropriately weigh business goals and legal risks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6190",
+      "title": "Introduction to Healthcare Compliance",
+      "credits": 1.0,
+      "description": "This course introduces students to the compliance function in health-related settings. Through preparatory work and on-the-ground sessions with faculty, students will have an opportunity to learn about the health care industry and familiarize themselves with vocabulary and concepts that are commonly used in connection with compliance programs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6192",
+      "title": "Healthcare Compliance 2",
+      "credits": 2.0,
+      "description": "This course will provide students with insights into the evolution of healthcare compliance programs and lessons learned by regulators and compliance officers. The course materials will provide an in-depth review of industry best practices for each of the 7 elements of effective compliance programs and risk assessment. Additionally, it will help students build the confidence needed to establish and maintain a business culture of ethics and compliance within a healthcare environment. Students will complete practical research assignments providing them with experiences expected of compliance professionals.",
+      "prerequisites": {
+        "course": "LW 6191"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6193",
+      "title": "Healthcare Compliance Capstone",
+      "credits": 1.0,
+      "description": "In this course, students will have the opportunity to deepen their knowledge of healthcare compliance through online exercises, a capstone project, and in-person class sessions that will introduce students to individuals with significant experience in the compliance field.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6210",
+      "title": "Special Topics in Employee Rights and Employer Obligations",
+      "credits": 3.0,
+      "description": "Examines the legal relationship between employer and employee. Addresses issues and topics such as discrimination, affirmative action, the Americans with Disabilities Act, sexual harassment, health and safety, AIDS in the workplace, compliance issues, and legal issues related to downsizing and terminations. Today’s HR manager works in a highly complex environment with constantly changing laws and legislation that govern employee rights and employer obligations. Course content may vary from term to term.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6211",
+      "title": "Antidiscrimination Law",
+      "credits": 3.0,
+      "description": "Provides an overview of antidiscrimination laws governing the workplace. Focuses on discrimination based on race and sex, but some attention will also be given to discrimination based on other characteristics, including age, sexual orientation, and disability. In addition to general issues of discrimination, also focuses on the specific topics of retaliation, harassment, and bullying in the workplace.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6212",
+      "title": "Wages and Benefits",
+      "credits": 3.0,
+      "description": "This course will cover topics related to wage and hour laws (federal and state), ERISA (pensions), health insurance benefits, the Affordable Care Act, and disability insurance.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6230",
+      "title": "Intellectual Property Survey",
+      "credits": 3.0,
+      "description": "Introduces the classic principles of copyright, patent, trademark, and trade secret law and explores the ways in which those principles are shifting and adapting in response to new technology. In our modern-day “information economy,” the law of intellectual property (IP) has taken on enormous importance to both creators and users of creative works. Such IP law is the way we provide legal protection to encourage invention and creativity, by guaranteeing an opportunity for financial return to the originator of novel work.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6231",
+      "title": "Identifying and Securing Intellectual Property Rights",
+      "credits": 3.0,
+      "description": "Focuses on intellectual property issues in employment, collaborative environments, and business transactions. Covers common issues for founders and startups, employers, and contractors; including non-compete agreements, crowd-sourcing, and open innovation practices.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6232",
+      "title": "Intellectual Property and Media",
+      "credits": 3.0,
+      "description": "This course will cover copyrights, trademarks, and unfair competition, with a focus on media, advertising, user-generated content, and other online activities.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6235",
+      "title": "Current Issues in Law and Public Policy",
+      "credits": 3.0,
+      "description": "Examines the evolving roles of courts, agencies, legislatures, citizen movements, and nonprofit organizations in policymaking through case studies of current debates in law and policy. Explores how businesses and advocacy groups combine the use of legal tools and other activities to achieve policy goals. Considers how law can be used to right past wrongs and how grassroots activities and individual actions can contribute to a fight against injustice. Focuses on a range of policy issues; possible topics include but are not limited to healthcare reform, criminal justice reform, racial justice, reproductive rights, marriage equality, and environmental justice.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 6101"
+          },
+          {
+            "course": "LW 6102"
+          },
+          {
+            "course": "LW 6400"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6400",
+      "title": "Law, Policy and Legal Argument",
+      "credits": 4.0,
+      "description": "This course explores the legal levers that drive policy change.  Advocates often intend to alter public policy in support of an organization or a cause.  But influencing policy requires understanding who sets policy in the first instance.  Is the issue governed by federal, state or local law?  Are key decision makers elected or appointed?  Who is it most important to persuade and what sorts of arguments are likely to convince the key audience?  This course will introduce students to the mechanisms of government that drive key policy debates across a wide range of issues, which may include health care, market regulation, environmental policy,  housing, education, the internet, privacy, and social policy.  Emphasis will be placed on tailoring arguments to different constituencies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6407",
+      "title": "Introduction to U.S. Law and Legal System",
+      "credits": 3.0,
+      "description": "Introduces principles and structures of the legal system in the United States. Covers the U.S. system of government, the U.S. judicial systems at the federal and state levels, U.S. sources of law, common law methodology, and the roles of legal professionals. Designed to familiarize the student with the relevant and governing legal principles that are used in American jurisprudence, including substantive and procedural law. Emphasizes legal terminology in our contemporary legal system.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7329",
+      "title": "Environmental Law",
+      "credits": 3.0,
+      "description": "This course focuses on federal and state environmental laws. Topics include pollution control, waste management, and cleanup of contaminated land and water. The course explores legislative policy and regulatory decisions as well as enforcement issues. We will give attention to questions of environmental justice and to the strategic use of legal tools in working to ensure safe and healthy surroundings for diverse groups of people.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7333",
+      "title": "Family Law",
+      "credits": 3.0,
+      "description": "This is a basic course in family law and family policy. The first half of the course explores state regulation of intimate relationships, asking what purposes marriage serves, and looking at the law of incest, polygamy and same sex marriage. The second half of the course examines practical problems in family law: cohabitants’ rights; common law marriage; and the many issues relating to divorce, with a particular focus on money and children.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7335",
+      "title": "Health Law",
+      "credits": 3.0,
+      "description": "This course examines the legal regulation of the provision of healthcare services. Much of the focus is on the relationship between law and healthcare policy. Topics include access to health insurance and healthcare, healthcare financing, malpractice liability, the organization and responsibility of healthcare institutions, especially hospitals, the regulation of the quality of care and the formulation of health policy. This course is highly recommended for all students enrolled in the JD/MPH dual degree program, but is open to others as well.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7358",
+      "title": "Social Welfare Law",
+      "credits": 3.0,
+      "description": "This course examines American public assistance as a legal institution. After reviewing the historical, sociological and juridical roots of the welfare system, students examine the laws governing major assistance programs, especially eligibility requirements, rules governing grant determination, work and family rules, and procedural rights. Primary emphasis is on statutory and regulatory construction. The course explores methods by which lawyers can deal with the system: advocacy in the administrative process, litigation, legislative reform and representation of recipient organizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7369",
+      "title": "Intellectual Property",
+      "credits": 3.0,
+      "description": "In our modern day information economy, the law of intellectual property has taken on enormous importance to both creators and users of intellectual creations. Introduces students to the classic principles of copyright, patent, trademark, and trade secret law and explores the ways in which those principles are shifting and adapting in response to new technology.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7394",
+      "title": "Land Use",
+      "credits": 3.0,
+      "description": "A survey of legal doctrines, techniques and institutions relating to regulation of the use of real property. Topics covered include constitutional questions of takings by public agencies, the scope of the police power as it affects land use and the basic techniques of zoning and subdivision control. Students study, among other issues, recent cases on exclusion of low income housing, current techniques to encourage housing development (inclusionary or “linkage” regulations) and First Amendment questions arising from land use controls.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7424",
+      "title": "Labor Law 1",
+      "credits": 4.0,
+      "description": "A general introduction to the law of labor relations through an examination of the National Labor Relations Act and leading cases, in conjunction with historical, social and economic materials. Topics include organization, union recognition, unfair labor practices and collective bargaining.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7469",
+      "title": "Disability Law",
+      "credits": 3.0,
+      "description": "This course explores how the law treats individuals with disabilities. We will analyze what is meant by the term “disability” and consider constitutional review of state actions discriminating against individuals with disabilities. Particular attention will be given to the the rights and obligations created by the Rehabilitation Act, the Americans with Disabilities Act and the Individuals with Disabilities Education Act. The rights of individuals with disabilities to be educated, work, receive healthcare, and enjoy public accommodations will be considered in depth. This course is designed for students wishing to represent individuals with disabilities as well as students who may represent employers and public accommodations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7475",
+      "title": "First Amendment",
+      "credits": 3.0,
+      "description": "This course examines several rights protected by the First Amendment to the Constitution. The focus is on the principles and processes developed by the judiciary to protect various forms of speech, expression and association. The course does NOT deal with the free exercise of religion or the establishment clause. The course also focuses on integrating doctrine with the core values of the First Amendment as well as emphasizing the need for students to develop their own preferred approach to protecting free expression. The course does not, except tangentially, deal with other parts of the Bill of Rights.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7488",
+      "title": "Sexuality, Gender and the Law",
+      "credits": 3.0,
+      "description": "This course uses case law and theory to address doctrinal problems and justice concerns associated with gender and sexuality. The syllabus is organized around notions such as privacy, identity and consent, all of which are conceptual pillars upon which arguments in the domain of sexuality and gender typically rely. Doctrinal topics include same-sex marriage, sodomy, sexual harassment, discrimination, among others, but the course is not a doctrinal survey; it is a critical inquiry into key concepts that cut across doctrinal areas. Students should expect to write a paper and share some of what they have learned with the class.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7491",
+      "title": "International Human Rights and the Global Economy",
+      "credits": 3.0,
+      "description": "This course surveys the international human rights legal system. It includes the promotion and protection of economic, social, and cultural rights (such as rights to health, food, water, and education) and civil and political rights (such as equality and non-discrimination, the right to human security, the prohibition on torture, and rights to religious and cultural expression). We begin by examining the history and theoretical origins of human rights law. We then engage the legal framework under international and regional human rights treaties and interpretations of them by international, regional and domestic courts and other actors. We examine international, regional and domestic mechanisms for monitoring compliance. Finally, we grapple with tensions among cultural and religious imperatives and traditional human rights.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7494",
+      "title": "Bioethics and the Law",
+      "credits": 3.0,
+      "description": "Explores the intersection of law, medicine, and ethics in diverse contexts that call for the evaluation of policies and practices implicating individual or public health. Topics may include but are not limited to end-of-life care, reproductive technologies, vaccines and the management of public health emergencies, professional and research ethics, confidentiality in health information, and equitable access to health care.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7512",
+      "title": "Problems in Public Health Law",
+      "credits": 3.0,
+      "description": "Explores the rationales for using law to protect and preserve the public’s health, the legal tools that may be used to achieve that end, and the conflicts and problems that may result from legal interventions. Topics discussed include the use of law to reduce the spread of HIV and other infectious diseases, control of tobacco and other hazardous products, bioterrorism, and the threats to civil liberties and minority groups engendered by all such legal efforts. Students who do not meet course prerequisites may seek permission of instructor.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7514",
+      "title": "Natural Resources Law",
+      "credits": 3.0,
+      "description": "This course addresses legal requirements and institutions dealing with animal and plant species, biological resources, habitats, and ecosystems. Major themes include biological diversity, endangered and threatened species, public and private rights in migratory resources, public trust doctrine, the allocation of power among federal, state, and local governments, and the roles of administrative agencies in ecosystem management. The course provides opportunities to explore specific topics of interest such as environmental ethics, wetlands protection, fisheries law, Native American hunting rights and fishing rights, and management of national parks, forests, and grazing lands.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7525",
+      "title": "Law and Economic Development",
+      "credits": 3.0,
+      "description": "Examines the prevailing economic theories of and strategies for economic development since World War II and the legal and institutional frameworks devised to implement these strategies. Questions we will explore will include: What kinds of legal and institutional arrangements best facilitate economic growth? How does law structure and shape markets? What is development; and how can it best be measured? Can legal instruments be used effectively to address underdevelopment in a structural way? While the focus is on development in the so-called “developing world”; we will also explore some strategies for addressing development in a local community context. Course concludes by applying what we have learned to address several development case studies posing particular problems in particular regions and contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7526",
+      "title": "Juvenile Courts: Delinquency, Abuse, Neglect",
+      "credits": 3.0,
+      "description": "Examines the evolution of the juvenile court system and issues related to juvenile justice and child welfare. Includes the study of procedural and substantive principles related to court subject matter, including delinquency, youthful offender, status offense, and abuse and neglect jurisdiction. In attempting to focus on connecting theory to practice, the class employs a contextual lens by considering the larger communities and systems that affect children, families, and public safety. This entails consideration of the consequences of decisions and policies in and out of courtrooms. Related topics include adolescent development; racial, ethnic, and gender equity; access to educational and mental health services; and public health.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7530",
+      "title": "Education Law",
+      "credits": 3.0,
+      "description": "Surveys current issues in U.S. education law. Topics may include high-stakes testing, school choice and the charter school movement, resegregation, special education, the school-to-prison pipeline, and school funding.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7539",
+      "title": "Employment Law—Job Security and Rights",
+      "credits": 3.0,
+      "description": "This course surveys legal and policy issues concerning job security, focusing primarily on law governing the termination of private sector employment. Students develop an understanding of the history and scope of the underlying employment-at-will doctrine and the primary ways in which the at-will doctrine has been modified through common law and statute.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7550",
+      "title": "Refugee and Asylum Law",
+      "credits": 3.0,
+      "description": "This course will explore the law of asylum and refugees. The primary focus will be on U.S. law as it has evolved since passage of the Refugee Act of 1980. This will include legislation and case law—both administrative and federal court cases. It will also look at relevant international law and standards utilized in other countries by way of comparison with U.S. Law. We will also examine the process of asylum adjudications to analyze issues of due process, credibility, cross cultural communication and integrity of the various legal procedures. We will explore new and emerging theories of asylum eligibility and policy developments which impact asylum seekers in the United States.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7588",
+      "title": "Reproductive Rights and Health",
+      "credits": 3.0,
+      "description": "Examines how sexual and reproductive health laws impede or increase access to sexual and reproductive healthcare and shape how we understand what constitutes sexual and reproductive health. Attention is paid to understanding legal doctrine, public health research, and critically assessing issues arising from sexual and reproductive health law. Draws on various tools of analysis including critical race theory, critical legal theory, human rights, and a range of public health methods. Topics covered include, amongst others, sexual and reproductive health law as it pertains to abortion, sexuality, pregnancy, marriage, healthcare in prisons, immigrants, HIV/AIDS, and sex education.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7597",
+      "title": "Civil Rights and Restorative Justice Clinic",
+      "credits": {
+        "min": 1.0,
+        "max": 6.0
+      },
+      "description": "The CRRJ (Civil Rights and Restorative Justice) Clinic engages students in legal research, litigation and legislative initiatives relating to anti-civil rights violence in the United States. CRRJ clinic students assist law enforcement agencies considering criminal investigation and pursue civil litigation against government entities. One of CRRJ’s projects, Reconstructing Cases of Racial Violence, involves researching cases where criminal prosecution may not be an option. Students reconstruct legal proceedings and conduct factual investigations. The project focuses on practical legal research skills and helps students integrate the law of torts, civil procedure, federal courts, criminal law, and constitutional law. Faculty will provide individual supervision of each student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7606",
+      "title": "Drug Law and Policy",
+      "credits": 3.0,
+      "description": "The field of Drug Law is vast, spanning the discovery, manufacture, distribution, and consumption of chemical agents designed to alter the human condition. This course focuses on three domains of the broader subject: the evolution and current state of the Federal Food, Drug, and Cosmetic Act; the architecture of the drug regulation system in the U.S., including the distinct space occupied by the Food and Drug Administration, the Department of Agriculture, and the Drug Enforcement Agency; and the role of regulation and tort litigation in harmonizing drug policy with science. Designed around legal and policy case studies, this course is intended for students expecting to become involved in clinical practice involving pharmaceuticals as well those generally interested in the interplay of law and public health.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7612",
+      "title": "Wrongful Convictions and Post-Conviction Remedies",
+      "credits": 3.0,
+      "description": "The emergence of DNA testing has not only assisted law enforcement in solving crimes, but it has also helped to expose a problem that many observers of the criminal justice system have long suspected: that a number of actually innocent prisoners have been convicted in the United States. Given that biological evidence suitable for post-conviction DNA testing is available in only a smattering of cases, the exonerations generated by DNA represent only the tip of the innocence iceberg, so to speak. This class will explore (1) the primary factors that contribute to the phenomenon of wrongful convictions, (2) the state and federal procedures through which post-conviction claims are litigated and (3) potential reforms to protect against the conviction of the innocent.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7620",
+      "title": "Human Behavior, Legal Doctrine, and Policy Design",
+      "credits": 3.0,
+      "description": "This course will compare accounts of human behavior, including the Utilitarian/Law and Economics view of man as a rational calculator of his self-interest, with classical and contemporary alternatives to that description, including Behavioral Economics. We will evaluate the reasons for doubting or crediting these competing accounts, and will then consider their implications for determining appropriate legal doctrines and regulatory approaches. For example, we may consider whether the views of human behavior which shape consumer protection case law and the Supreme Court’s commercial speech doctrine are justified, and whether – and in what circumstances—regulations are appropriate which seek to help people by prescribing, proscribing, or “nudging” their behavior. Students are expected to participate in class and write a research paper which may satisfy the writing requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7634",
+      "title": "Energy Law and Policy",
+      "credits": 3.0,
+      "description": "Climate change and carbon emissions are the most important issues shaping energy law and policy in the United States today. This course will provide an introduction to U.S. energy law and policy in that context and will be organized around the regulated electricity sector which alone produces about 40% of all U.S. greenhouse gas emissions. We will explore the dynamics of natural monopoly markets, public utilities and their regulation, and the interplay of state and federal power in the energy space. We examine coal, natural gas, nuclear power, hydropower, renewables, storage, and efficiency for their impacts and potential as electrical energy sources in a carbon-constrained world. We conclude by investigating the legal potential to proactively foster and sustain a transition to a carbon-sustainable energy economy.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7635",
+      "title": "Laboratory Seminar in Applied and Critical Legal Design",
+      "credits": 4.0,
+      "description": "Offers students the opportunity to critically engage with design methods and principles in the development of new solutions and ideas for our legal systems, institutions, and problems. Examines methodologies derived from the fields of product, service, and critical design and emphasizes hands-on student engagement with structured creative processes, field observations, prototyping or other methods derived from a diversity of creative disciplines. Students apply these methodologies and skills in the formulation of a response to a timely design question. Students’ exploration of critical design fosters a vision of a future world where everyone is empowered to use the law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7651",
+      "title": "Human Rights in the United States",
+      "credits": 3.0,
+      "description": "Explores the role of international human rights frameworks and strategies in social justice lawyering in the United States. On a range of issues, lawyers are bringing human rights home. They are using human rights mechanisms of the United Nations and Inter-American Human Rights system, drawing on international human rights and comparative foreign law in litigation before U.S. courts, and engaging in other human rights-based advocacy such as documentation, organizing, and human rights education. Advocates find that a human rights approach provides important strategic leverage and highlights the interdependence of economic, social, cultural, civil, and political rights. Uses skills exercises, assignments and real-world problems to develop practical skills to address policies on local, state and national levels, and to support social movements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7666",
+      "title": "Human Rights, the Environment, Development and Community Resilience",
+      "credits": 3.0,
+      "description": "This course explores the interlinkages between human rights and the environment within the context of how unsustainable development, especially by businesses, is driving environmental degradation and global human rights violations. We will appraise how communities are responding with innovative lawyering utilizing emerging jurisprudence in comparative law and judicial, quasi-judicial, and non-judicial grievance mechanisms, with special attention to African examples. The course will emphasize practical approaches to environmental protection using human rights instruments. The power of corporations and financial institutions, the ways in which corporate activities often connect to abuses of human rights and the environment, and legal advances in the regulation of transnational corporate activity will be explored while also discussing corporate accountability, the global justice movement, and strategies being used to address these trends.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7667",
+      "title": "Law and Ethics of Advocacy",
+      "credits": 3.0,
+      "description": "What limits are there on actions aimed at influencing public officials or public opinion?  What limits should there be?  Clearly, it is unlawful to offer a bribe to a public official to produce a desirable outcome.  But what constitutes a bribe?  Can a lobbyist send a wedding gift to a favorite legislator?  Are the rules different when advocacy efforts reach beyond United States borders?  Are there limits on what an advocate can say to promote a product or service?  Where is the line between conduct that is legally permissible and conduct that is not?  To what extent are legal boundaries and ethical boundaries aligned?  This course will explore the ethical and legal issues that arise in connection with advocacy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7669",
+      "title": "Law and Technology",
+      "credits": 3.0,
+      "description": "Examines law and technology as both processes and artifacts endemic to human groups, who have been toolmakers and lawmakers since human history has been recorded. Yet, in recent times, development of technological things has outpaced development in the law, bringing about what we might describe as new “design challenges” within the law. Considers several disputes around ownership and property, and safety and risk, and offers students a conceptual framework from the social study of science and technology by which to understand technology and the law. Focuses on the regulation of “digital labor” and algorithmically convened labor markets, such as Uber.",
+      "prerequisites": {
+        "course": "LW 6400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7687",
+      "title": "First Amendment Seminar: The Religion Clauses",
+      "credits": 3.0,
+      "description": "Examines the religion clauses of the First Amendment and related statutory regimes, emphasizing the U.S. Supreme Court's free exercise and establishment clause jurisprudence. Evaluates individual and institutional claims of religious liberty. Explores the implications of government funding of religious institutions and activities. Discusses government expression or endorsement of religious messages.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7688",
+      "title": "Social Policy and the Tax Code",
+      "credits": 3.0,
+      "description": "Offers students an opportunity to obtain an understanding of how tax laws shape and are a major driver of social policy. Emphasizes the redistributive qualities and potentials of such policies and examines their design, implementation, and administration. Draws on legal methodologies as well as those from allied social sciences. May include such topics as healthcare, housing, and income support.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7692",
+      "title": "Collaborative Businesses",
+      "credits": {
+        "min": 2.0,
+        "max": 3.0
+      },
+      "description": "Examines the fundamental principles, structures, finance, management and governance associated with collaborative businesses (with a focus on co-operatives).",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7695",
+      "title": "Drug and Device Innovation: Law and Policy",
+      "credits": 3.0,
+      "description": "Introduces students to innovation law and policy in the context of drugs and devices regulated by the Food  Drug Administration (FDA). Surveys the suite of incentives policymakers can use, purposefully or inadvertently, to shape drug and device development. Combines analysis from law, economics, and health policy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7697",
+      "title": "Issues in Human Rights and Humanitarian Law",
+      "credits": 3.0,
+      "description": "Examines cutting-edge issues in human rights and humanitarian law through presentations by leading scholars in the field and in-depth seminar discussions. Emphasizes both core concepts and sophisticated critiques of human rights in a range of areas including conflict and war, accountability and justice, race and racism, and colonialism and inequality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7699",
+      "title": "Efforts in Criminal Law Minimalism",
+      "credits": 3.0,
+      "description": "Examines several recent efforts in criminal legal reform. Introduces the recent abolition movement, emphasizing an understanding of critiques of policing and mass incarceration. Presents several efforts to change the criminal system including efforts to halt racialized policing; remove police from particular settings; reform pretrial detention; implement change within the trial process, such as Batson reform; and reform sentencing. These reform efforts include legislative reform, judicial challenges, community organization, and public media campaigns. Offers students an opportunity to develop their knowledge of advanced criminal procedure in the context of ongoing efforts to change a deeply flawed system.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7700",
+      "title": "Intellectual Property and Social Justice",
+      "credits": 3.0,
+      "description": "Examines the social justice aspects of different forms of intellectual property. Combines a study of contemporary issues in law and society with appropriate readings that provide theoretical, doctrinal, and social context for the use of and resistance to intellectual property.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LW 7369"
+          },
+          {
+            "course": "LW 7501"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7703",
+      "title": "Spatial Justice, Legal Ethnography, and the Lawscape",
+      "credits": 2.0,
+      "description": "Surveys the intersections of law, space, and society through the lenses of spatial justice and legal ethnography. Focuses on critical analysis of the concepts of spatial justice, alongside contemporary perspectives on reparative spatial futures and intersectionality. Examines the lawscape; the role of the body; and the atmosphere in shaping how legal frameworks and spatial arrangements influence social justice issues, power dynamics, and access to resources. Offers students an opportunity to engage with creative methods in presenting their site-based ethnographic research, integrating experiential with legal analysis. Designed to prepare students to advocate for fair and inclusive policies in areas such as housing disparities, environmental justice, and urban planning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7705",
+      "title": "Law and Global Technology",
+      "credits": 3.0,
+      "description": "Investigates the interaction between law and technology through an infrastructural lens. Provides technical introductions to digital infrastructures—including ad-tech, the internet, and AI—and discusses the legal issues surrounding those infrastructures. Explores the difficulties in applying long-standing regulatory theories to emerging technology though the study of recent legislation, litigation, and scholarship. No prior technical experience is required or expected.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7706",
+      "title": "State Constitutions and the Protection of Individual Rights",
+      "credits": 3.0,
+      "description": "Introduces students to the unique role that state constitutions play in our federal system. Surveys the historic development of state constitutions, and the connections between state constitutions and national constitutional developments. Emphasizes the role of state constitutions in protecting individual rights.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7976",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 6.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated two times for a maximum of six semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7983",
+      "title": "Special Topics in Law",
+      "credits": {
+        "min": 1.0,
+        "max": 8.0
+      },
+      "description": "Covers special topics in law. May be repeated up to nine times for a maximum of 30 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}
