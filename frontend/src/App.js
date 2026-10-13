@@ -1,8 +1,9 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
+import Landing, { Wordmark } from './components/Landing';
 import SearchPanel from './components/SearchPanel';
-import ChatPanel from './components/ChatPanel';
-import AISettings, { PROVIDERS } from './components/AISettings';
-import './App.css';
+import CourseDetail from './components/CourseDetail';
+import Breakdowns from './components/Breakdowns';
+import AISettings, { PROVIDERS, aiLabel } from './components/AISettings';
 
 const PREFS_KEY = 'aiPrefs';
 
@@ -18,11 +19,18 @@ function loadAIPrefs() {
 }
 
 function App() {
-  const [view, setView] = useState('loading'); // 'loading' | 'landing' | 'app'
-  const [messages, setMessages] = useState([]);
-  const [selectedCourse, setSelectedCourse] = useState(null);
+  const [view, setView] = useState('landing'); // 'landing' | 'app'
+  const [pane, setPane] = useState('results'); // the left window shows results or one course
+  const [initialQuery, setInitialQuery] = useState('');
+  const [detail, setDetail] = useState({ status: 'idle' });
+  const [breakdowns, setBreakdowns] = useState([]); // newest first
   const [ai, setAI] = useState(loadAIPrefs);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const detailRequest = useRef(0);
+  const nextBreakdown = useRef(0);
+  const breakdownsRef = useRef(null);
+  const settingsButton = useRef(null);
+  const pending = breakdowns.some((b) => b.status === 'loading');
 
   useEffect(() => {
     try {
@@ -32,32 +40,56 @@ function App() {
     }
   }, [ai.mode, ai.provider, ai.model]);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setView('landing'), 2000);
-    return () => clearTimeout(timer);
+  const closeSettings = () => {
+    setSettingsOpen(false);
+    settingsButton.current?.focus(); // don't strand keyboard focus when the panel unmounts
+  };
+
+  const go = (next) => {
+    setView(next);
+    window.scrollTo(0, 0);
+  };
+
+  // Only the latest request may fill the detail view, so a slow response never shows under a newer selection.
+  const selectCourse = useCallback(async (dept, number) => {
+    const id = ++detailRequest.current;
+    const base = { dept, number, code: `${dept.toUpperCase()} ${number}` };
+    setDetail({ ...base, status: 'loading' });
+    setPane('course');
+    let next = { ...base, status: 'error' };
+    try {
+      const res = await fetch(`/api/course/${dept}/${number}`);
+      if (res.ok) next = { ...base, status: 'ready', course: await res.json() };
+      else if (res.status === 404) next.status = 'missing';
+    } catch {
+      // network failure: keep the error state
+    }
+    if (id === detailRequest.current) setDetail(next);
   }, []);
 
-  const addMessage = useCallback((message) => {
-    setMessages((prev) => [...prev, message]);
-  }, []);
-
-  // Both analysis entry points route through here, and `ai` is captured per call,
+  // Both breakdown entry points route through here, and `ai` is captured per call,
   // so settings changed mid-request only affect later requests.
-  const analyzeCourse = useCallback(async (dept, number) => {
+  const analyze = useCallback(async (dept, number) => {
+    const id = ++nextBreakdown.current;
+    const code = `${dept.toUpperCase()} ${number}`;
     const custom = ai.mode === 'custom';
     const missing = custom && (!ai.apiKey ? 'an API key' : !ai.model && 'a model');
+    const section = breakdownsRef.current; // newest entry is at the top, so bring the top into view
+    if (section) {
+      section.scrollTop = 0;
+      section.scrollIntoView({ block: 'start' });
+    }
     if (missing) {
       setSettingsOpen(true);
-      addMessage({
-        role: 'system',
-        content: `Add ${missing} in AI settings to use ${PROVIDERS[ai.provider].name}, or switch to App default.`,
-      });
+      setBreakdowns((list) => [{
+        id, code, status: 'error',
+        text: `Add ${missing} in Model settings to use ${PROVIDERS[ai.provider].name}, or switch to App default.`,
+      }, ...list]);
       return;
     }
 
-    addMessage({ role: 'system', content: 'Thinking...' });
-    let reply = { role: 'system', content: 'Failed to get AI analysis. Is the backend running?' };
-
+    setBreakdowns((list) => [{ id, code, status: 'loading' }, ...list]);
+    let result = { status: 'error', text: 'Could not reach the server for a breakdown. Check that the API is running, then try again.' };
     try {
       const res = await fetch('/api/analyze', {
         method: 'POST',
@@ -68,169 +100,80 @@ function App() {
           : { dept, number }),
       });
       const data = await res.json();
-      if (res.ok) {
-        reply = { role: 'assistant', content: data.analysis, provider: custom ? ai.provider : 'openrouter', model: data.model };
-      } else if (data.error) reply.content = data.error;
+      if (res.ok) result = { status: 'ready', text: data.analysis, provider: custom ? ai.provider : 'openrouter', model: data.model };
+      else if (data.error) result.text = data.error;
     } catch {
       // network failure or non-JSON response: keep the generic message
     }
+    setBreakdowns((list) => list.map((b) => (b.id === id ? { ...b, ...result } : b)));
+  }, [ai]);
 
-    setMessages((prev) => [...prev.filter((m) => !(m.role === 'system' && m.content === 'Thinking...')), reply]);
-  }, [addMessage, ai]);
-
-  const handleCourseClick = useCallback(async (course) => {
-    try {
-      const res = await fetch(`/api/course/${course.department_code}/${course.number}`);
-      if (res.ok) {
-        setSelectedCourse(await res.json());
-      }
-    } catch {
-      // silently fail on detail fetch
-    }
-
-    const code = `${course.department_code.toUpperCase()} ${course.number}`;
-    addMessage({ role: 'user', content: `Analyze ${code}` });
-    analyzeCourse(course.department_code, course.number);
-  }, [addMessage, analyzeCourse]);
-
-  const handleSendMessage = useCallback(async (text) => {
-    addMessage({ role: 'user', content: text });
-
-    const match = text.match(/^([a-zA-Z]{2,4})\s*(\d{4})$/);
-    if (match) {
-      analyzeCourse(match[1], match[2]);
-
-      try {
-        const courseRes = await fetch(`/api/course/${match[1]}/${match[2]}`);
-        if (courseRes.ok) setSelectedCourse(await courseRes.json());
-      } catch {
-        // ignore
-      }
-    } else {
-      addMessage({
-        role: 'system',
-        content: 'Type a course code like "CS 3000" to analyze it, or click a course from the search results.',
-      });
-    }
-  }, [addMessage, analyzeCourse]);
-
-  const handleNewChat = useCallback(() => {
-    setMessages([]);
-  }, []);
-
-  if (view === 'loading') {
-    return (
-      <div className="loading-screen">
-        <div className="loading-logo">N</div>
-        <div className="loading-bar">
-          <div className="loading-bar-fill" />
-        </div>
-      </div>
-    );
-  }
+  const analyzeCode = useCallback((dept, number) => {
+    selectCourse(dept, number);
+    analyze(dept, number);
+  }, [selectCourse, analyze]);
 
   if (view === 'landing') {
-    return (
-      <div className="landing antialiased flex flex-col bg-[#1A1A2E]">
-        {/* TopNavBar */}
-        <nav className="fixed top-0 w-full z-50 bg-[#1A1A2E]/80 backdrop-blur-xl border-b border-white/5">
-          <div className="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
-            <div className="text-xl font-bold tracking-tighter text-[#F3F4F6]">NEU Insights</div>
-            <div className="flex items-center space-x-6">
-              <button
-                className="primary-cta px-6 py-2.5 rounded-lg text-sm font-semibold text-white shadow-lg active:scale-90 transition-transform"
-                onClick={() => setView('app')}
-              >
-                Get Started
-              </button>
-            </div>
-          </div>
-        </nav>
-
-        <main className="flex-grow flex items-center relative px-12 pt-12">
-          <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Hero Content */}
-            <div className="lg:col-span-7 space-y-6">
-              <h1 className="text-6xl md:text-7xl font-extrabold tracking-tighter text-[#F3F4F6] leading-[1.1]">
-                <span className="text-[#FF3B30]">AI-Powered</span> NEU Course Insight.
-              </h1>
-              <p className="text-xl text-[#6B7280] max-w-lg leading-relaxed">
-                Cut through course descriptions. Get instant, student-focused breakdowns of every Northeastern course, prerequisites, and career connections.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button
-                  className="primary-cta px-10 py-4 rounded-lg text-lg font-bold text-white shadow-2xl hover:brightness-110 transition-all flex items-center justify-center gap-2"
-                  onClick={() => setView('app')}
-                >
-                  Get Started
-                  <span className="material-symbols-outlined">arrow_forward</span>
-                </button>
-              </div>
-            </div>
-
-            {/* Hero Graphic (Glass Card Dashboard) */}
-            <div className="lg:col-span-5 relative hidden lg:block">
-              <div className="aspect-square hero-glass-card rounded-3xl ghost-border p-10 flex flex-col justify-center items-center relative z-10">
-                <div className="absolute inset-0 hero-gradient-anim rounded-3xl"></div>
-                <div className="w-full space-y-8 relative z-20">
-                  <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-xl bg-[#FF3B30] flex items-center justify-center">
-                      <span className="material-symbols-outlined text-white">psychology</span>
-                    </div>
-                    <div>
-                      <div className="h-2 w-24 bg-[#FF3B30] rounded-full mb-2"></div>
-                      <div className="h-1.5 w-16 bg-white/20 rounded-full"></div>
-                    </div>
-                  </div>
-                  <div className="space-y-4">
-                    <div className="h-4 w-full bg-white/10 rounded-full"></div>
-                    <div className="h-4 w-5/6 bg-white/10 rounded-full"></div>
-                    <div className="h-4 w-4/6 bg-white/10 rounded-full"></div>
-                  </div>
-                  <div className="grid grid-cols-2 gap-4 pt-4">
-                    <div className="h-20 rounded-2xl bg-white/5 border border-white/5 flex flex-col justify-center px-4">
-                      <div className="h-1.5 w-1/2 bg-[#FF3B30]/50 rounded-full mb-2"></div>
-                      <div className="h-3 w-3/4 bg-white/20 rounded-full"></div>
-                    </div>
-                    <div className="h-20 rounded-2xl bg-white/5 border border-white/5 flex flex-col justify-center px-4">
-                      <div className="h-1.5 w-1/2 bg-[#FF3B30]/50 rounded-full mb-2"></div>
-                      <div className="h-3 w-3/4 bg-white/20 rounded-full"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main>
-      </div>
-    );
+    return <Landing onEnter={(query) => { setInitialQuery(query); setPane('results'); go('app'); }} />;
   }
 
   return (
-    <main className="flex h-screen w-full bg-[#1A1A2E] text-[#e2e0fc] font-body overflow-hidden">
-      <SearchPanel
-        onCourseClick={handleCourseClick}
-        selectedCourse={selectedCourse}
-        onBackToResults={() => setSelectedCourse(null)}
-      />
-      <ChatPanel
-        messages={messages}
-        onSend={handleSendMessage}
-        onNewChat={handleNewChat}
-        aiSettings={
+    <div className="workspace">
+      <header className="ws-header">
+        <button type="button" className="wordmark-button" onClick={() => go('landing')} aria-label="NU Insights home">
+          <Wordmark />
+        </button>
+        <button
+          ref={settingsButton}
+          type="button"
+          className="btn btn-quiet"
+          aria-expanded={settingsOpen}
+          aria-controls="ai-settings"
+          onClick={() => setSettingsOpen((open) => !open)}
+        >
+          Model settings
+        </button>
+        {settingsOpen && (
           <AISettings
             ai={ai}
-            open={settingsOpen}
-            onToggle={() => setSettingsOpen((open) => !open)}
             onApply={(next) => {
               setAI(next);
-              setSettingsOpen(false);
+              closeSettings();
             }}
+            onCancel={closeSettings}
             onClearKey={() => setAI((current) => (current.mode === 'custom' ? { ...current, apiKey: '' } : current))}
           />
-        }
-      />
-    </main>
+        )}
+      </header>
+
+      <main className="ws-body">
+        <div className="pane">
+          <SearchPanel
+            hidden={pane === 'course'}
+            initialQuery={initialQuery}
+            selectedCode={detail.code}
+            onSelect={(c) => selectCourse(c.department_code, c.number)}
+          />
+          {pane === 'course' && (
+            <CourseDetail
+              detail={detail}
+              pending={pending}
+              onBack={() => setPane('results')}
+              onRetry={() => selectCourse(detail.dept, detail.number)}
+              onBreakdown={() => analyze(detail.dept, detail.number)}
+            />
+          )}
+        </div>
+        <Breakdowns
+          ref={breakdownsRef}
+          breakdowns={breakdowns}
+          pending={pending}
+          source={aiLabel(ai)}
+          onCode={analyzeCode}
+          onClear={() => setBreakdowns([])}
+        />
+      </main>
+    </div>
   );
 }
 

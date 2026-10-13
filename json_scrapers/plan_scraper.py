@@ -245,7 +245,7 @@ def main(argv=None):
     if args.delay < 0 or (args.catalog_year and (not YEAR.fullmatch(args.catalog_year) or int(args.catalog_year[5:]) != int(args.catalog_year[:4]) + 1)):
         parser.error('Use a nonnegative delay and a consecutive catalog year such as 2026-2027')
     session = requests.Session()
-    session.headers['User-Agent'] = 'NEUInsightsPlanScraper/1.0'
+    session.headers['User-Agent'] = 'NUInsightsPlanScraper/1.0'
     session.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504], respect_retry_after_header=True)))
     current_year = edition(BeautifulSoup(fetch(session, BASE_URL + 'undergraduate/'), 'html.parser'))
     catalog_year = args.catalog_year or current_year

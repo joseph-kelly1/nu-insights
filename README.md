@@ -1,6 +1,6 @@
 <div align="center">
 
-# NEU Insights: AI Course Advisor
+# NU Insights: AI Course Advisor
 
 **Plain-English, student-focused breakdowns of every Northeastern University course.**
 
@@ -22,7 +22,7 @@ Northeastern's course catalog tells you a course's title, credits, and a dry par
 
 ## The solution
 
-NEU Insights pulls together everything the catalog knows about a course: its description, prerequisite tree, corequisites, NUpath attributes, and where it sits in the official sample plans of study. It hands all of that to an LLM, which explains the course the way an upperclassman would:
+NU Insights pulls together everything the catalog knows about a course: its description, prerequisite tree, corequisites, NUpath attributes, and where it sits in the official sample plans of study. It hands all of that to an LLM, which explains the course the way an upperclassman would:
 
 - **What it covers**: a 2–3 sentence summary in plain English
 - **Who should take it**: the typical year and semester, taken from real sample plans rather than guessed
@@ -33,7 +33,7 @@ NEU Insights pulls together everything the catalog knows about a course: its des
 
 - 🔎 **Search 5,900+ courses** across 160 departments by code (`cs`, `cs 3000`) or by title
 - 📋 **Course detail view** with credits, prerequisite AND/OR trees, corequisites, NUpath tags, and sample-plan placement
-- 🤖 **Chat-style AI breakdowns**: click a course or type a code like `CS 3000`
+- 🤖 **Course breakdowns on request**: open a course and choose **Get course breakdown**, or type a code like `CS 3000`
 - 🗓️ **Published sample plans of study**, when available, with catalog-year coverage tracked across undergraduate majors
 - 🔑 **Bring your own API key** for OpenAI, Anthropic, Google Gemini, or OpenRouter, with a live model list
 
@@ -51,7 +51,7 @@ flowchart LR
 1. **Scraping**: custom BeautifulSoup scrapers crawl the public catalog and parse each course, including turning free-text prerequisites into a nested AND/OR tree.
 2. **Storage**: a loader normalizes the JSON into SQLite tables for courses, corequisites, NUpath attributes, and sample-plan entries.
 3. **Prompting**: for each request, the API builds a prompt from the course's metadata and every sample plan it appears in, so the model works from facts instead of guessing.
-4. **Frontend**: a React app with a search panel, a course detail view, and a chat panel that renders the AI's Markdown response.
+4. **Frontend**: a React app with a scrollable landing page and a course-first workspace: a search rail, a course detail view, and a breakdown reading area that renders the model's Markdown response.
 
 ## Engineering highlights
 
@@ -64,7 +64,7 @@ flowchart LR
 
 ## Using your own API key
 
-The app uses free OpenRouter models by default, and those requests are capped at $0. To use a different model, open **AI settings** above the chat, choose **Use my API key**, pick a provider (OpenAI, Anthropic, Google Gemini, or OpenRouter), paste your key, and choose a model. The list loads by itself, with the 10 newest models first and every model after them. OpenRouter's list loads before you enter a key. You can also type any model ID.
+The app uses free OpenRouter models by default, and those requests are capped at $0. To use a different model, open **Model settings** in the workspace header, choose **Use my API key**, pick a provider (OpenAI, Anthropic, Google Gemini, or OpenRouter), paste your key, and choose a model. The list loads by itself, with the 10 newest models first and every model after them. OpenRouter's list loads before you enter a key. You can also type any model ID.
 
 - Your key is kept only in the page's memory, so reloading clears it. The app remembers your provider and model choice but never the key. The key passes through this app's server to the provider you chose and is never stored or logged.
 - Requests made with your key are billed to your provider account, and that includes paid OpenRouter models. There's no fallback: if your key or model fails, the app shows the error instead of retrying with another model or with the server's key.
@@ -75,7 +75,7 @@ The app uses free OpenRouter models by default, and those requests are capped at
 
 | Layer | Tools |
 | --- | --- |
-| Frontend | React 19, Tailwind CSS, react-markdown |
+| Frontend | React 19, plain CSS design tokens (`src/index.css`), Sofia Sans, react-markdown |
 | Backend | Python, Flask, SQLite |
 | AI | OpenRouter (free models) via the OpenAI SDK; user keys for OpenAI, Anthropic, Gemini, OpenRouter over HTTPX |
 | Data | requests, BeautifulSoup |

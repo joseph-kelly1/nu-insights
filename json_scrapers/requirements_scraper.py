@@ -29,7 +29,7 @@ if __package__:
 else:
     from plan_scraper import BASE_URL, DATA_DIR, DEGREE, YEAR, clean, edition, write_json
 
-USER_AGENT = 'NEUInsightsRequirementsScraper/1.0'
+USER_AGENT = 'NUInsightsRequirementsScraper/1.0'
 SHARED_PATHS = {
     '/undergraduate/university-academics/university-wide-requirements/',
     '/undergraduate/university-academics/general-education-requirements/',
