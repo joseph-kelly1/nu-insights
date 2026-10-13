@@ -21,16 +21,29 @@ export function PrereqTree({ node }) {
 
 const hasPrereqs = (p) => (Array.isArray(p) ? p.length > 0 : Boolean(p));
 
-function PlanPlacement({ entries }) {
-  const rows = [...new Set(entries.map((e) => `Year ${e.year}, ${e.term} · ${[e.major_name || e.major, e.plan_name].filter(Boolean).join(', ')}`))];
+function PlanPlacement({ entries, dataset }) {
+  const year = dataset?.catalog_year;
+  const label = year ? year.replace('-', '–') : null;
+  const emptyDataset = dataset && dataset.plan_count === 0;
+  const rows = [...new Set(entries.map((e) => {
+    const program = [e.degree, e.campus].filter(Boolean).join(', ');
+    const major = e.program_title || `${e.major_name || e.major}${program ? ` (${program})` : ''}`;
+    return `${e.year != null ? `Year ${e.year}, ` : ''}${e.term} · ${[major, e.plan_name].filter(Boolean).join(', ')}`;
+  }))];
   return (
     <section className="course-section">
-      <h3>Sample plan placement</h3>
-      <p className="hint">From published sample plans of study. Not live sections or a check of your eligibility.</p>
+      <h3>{label ? `${label} sample plan placement` : 'Sample plan placement'}</h3>
+      {!emptyDataset && (
+        <p className="hint">{dataset?.historical
+          ? 'Historical sample plans. Requirements and course codes may have changed. These do not confirm current course offerings or your eligibility.'
+          : 'From published sample plans of study. These do not confirm live sections or your eligibility.'}</p>
+      )}
       {rows.length ? (
         <ul className="plan-list">{rows.map((r) => <li key={r}>{r}</li>)}</ul>
       ) : (
-        <p>No published sample plan in this dataset includes this course.</p>
+        <p>{emptyDataset
+          ? `No published sample plans are available in the ${label ? `${label} ` : ''}dataset.`
+          : `No sample-plan placement is available for this course in the collected${label ? ` ${label}` : ''} plans.`}</p>
       )}
     </section>
   );
@@ -92,7 +105,7 @@ function CourseDetail({ detail, pending, onBack, onRetry, onBreakdown }) {
             : <p>None listed in the catalog.</p>}
         </section>
 
-        <PlanPlacement entries={course.schedule_context || []} />
+        <PlanPlacement entries={course.schedule_context || []} dataset={course.plan_dataset} />
       </>
     );
   }

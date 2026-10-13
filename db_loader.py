@@ -47,6 +47,7 @@ def create_tables(cur: sqlite3.Cursor):
         DROP TABLE IF EXISTS course_corequisites;
         DROP TABLE IF EXISTS course_attributes;
         DROP TABLE IF EXISTS plan_entries;
+        DROP TABLE IF EXISTS plan_catalog;
 
         CREATE TABLE departments (
             code        TEXT PRIMARY KEY,
@@ -83,11 +84,22 @@ def create_tables(cur: sqlite3.Cursor):
             major           TEXT NOT NULL,
             major_name      TEXT NOT NULL,
             plan_name       TEXT NOT NULL,
-            year            INTEGER NOT NULL,
+            year            INTEGER,
             term            TEXT NOT NULL,
             course_code     TEXT,
             is_coop         INTEGER DEFAULT 0,
-            note            TEXT
+            note            TEXT,
+            catalog_year    TEXT,
+            source_url      TEXT,
+            degree          TEXT,
+            campus          TEXT,
+            program_title   TEXT
+        );
+
+        CREATE TABLE plan_catalog (
+            catalog_year         TEXT,
+            current_catalog_year TEXT,
+            plan_count           INTEGER NOT NULL
         );
 
         CREATE INDEX idx_courses_dept ON courses(department_code);
@@ -204,6 +216,10 @@ def load_plans(cur: sqlite3.Cursor):
         expected_dir = (Path(plans_dir) / catalog_year).resolve()
         if any(path.resolve().parent != expected_dir for path in files):
             raise ValueError("Plan file is outside the selected catalog directory")
+        cur.execute(
+            "INSERT INTO plan_catalog (catalog_year, current_catalog_year, plan_count) VALUES (?, ?, ?)",
+            (catalog_year, catalog.get("current_catalog_year"), catalog.get("plan_count", 0)),
+        )
         print(f"  Using {catalog_year} plan catalog; {catalog['programs_without_plans']} programs have no published plan")
     else:
         if not os.path.exists(plans_dir):
@@ -257,6 +273,10 @@ def load_plans(cur: sqlite3.Cursor):
                     )
                     total += 1
 
+        cur.execute(
+            "UPDATE plan_entries SET catalog_year = ?, source_url = ?, degree = ?, campus = ?, program_title = ? WHERE major = ?",
+            (data.get("catalog_year"), data.get("source_url"), data.get("degree"), data.get("campus"), data.get("program_title"), major),
+        )
         print(f"  {filepath.name}: {major_name} ({len(data['plans'])} plan(s))")
 
     print(f"  Total: {total} plan entries loaded")

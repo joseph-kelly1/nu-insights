@@ -172,7 +172,7 @@ def lookup_schedule_context(dept: str, number: str) -> list[dict]:
     cur = conn.cursor()
     course_code = f"{dept.upper()} {number}"
     cur.execute(
-        """SELECT major, major_name, plan_name, year, term
+        """SELECT major, major_name, plan_name, year, term, catalog_year, source_url, degree, campus, program_title
            FROM plan_entries WHERE course_code = ?
            ORDER BY major, plan_name, year, term""",
         (course_code,),
@@ -180,6 +180,23 @@ def lookup_schedule_context(dept: str, number: str) -> list[dict]:
     results = [dict(r) for r in cur.fetchall()]
     conn.close()
     return results
+
+
+def lookup_plan_dataset() -> dict:
+    """Read provenance from the loaded database, not a potentially newer JSON crawl."""
+    conn = get_connection()
+    try:
+        row = conn.execute("SELECT catalog_year, current_catalog_year, plan_count FROM plan_catalog LIMIT 1").fetchone()
+        if row:
+            dataset = dict(row)
+        else:
+            count = conn.execute("SELECT COUNT(DISTINCT major || ':' || plan_name) FROM plan_entries").fetchone()[0]
+            dataset = {"catalog_year": None, "current_catalog_year": None, "plan_count": count}
+        dataset["historical"] = bool(dataset["catalog_year"] and dataset["current_catalog_year"]
+                                     and dataset["catalog_year"] != dataset["current_catalog_year"])
+        return dataset
+    finally:
+        conn.close()
 
 
 # --- Formatting helpers ---
@@ -210,9 +227,13 @@ def format_schedule_context(entries: list[dict]) -> str:
         return "No sample plan data available for this course."
     lines = []
     for e in entries:
+        placement = f"Year {e['year']}, {e['term']}" if e['year'] is not None else e['term']
+        program = ', '.join(value for value in (e.get('degree'), e.get('campus')) if value) or e['major']
+        title = e.get('program_title') or f"{e['major_name']} ({program})"
         lines.append(
-            f"- {e['major_name']} ({e['major']}), "
-            f"\"{e['plan_name']}\": Year {e['year']}, {e['term']}"
+            f"- {title}, "
+            f"\"{e['plan_name']}\": {placement}"
+            + (f" (sample plan catalog: {e['catalog_year']})" if e.get("catalog_year") else "")
         )
     return "\n".join(list(dict.fromkeys(lines)))
 
@@ -222,6 +243,7 @@ def build_prompt(course: dict) -> str:
     prerequisite info, NUpath attributes, and sample plan schedule context."""
     code = f"{course['department_code'].upper()} {course['number']}"
     schedule = lookup_schedule_context(course["department_code"], course["number"])
+    dataset = lookup_plan_dataset()
 
     prompt = f"Course: {code} — {course['title']}\n\n"
     prompt += "=== NORTHEASTERN-SPECIFIC CONTEXT ===\n"
@@ -230,6 +252,11 @@ def build_prompt(course: dict) -> str:
     prompt += f"Corequisites: {', '.join(course['corequisites']) or 'None'}\n"
     prompt += f"NUpath attributes: {', '.join(course['attributes']) or 'None'}\n"
     prompt += f"\nTypical semester (from sample plans of study):\n"
+    if dataset["catalog_year"]:
+        prompt += f"Sample plan catalog: {dataset['catalog_year']}.\n"
+    if dataset["historical"]:
+        prompt += (f"These are historical plans; the current catalog is {dataset['current_catalog_year']}. "
+                   "Describe placement as historical, not current degree requirements or eligibility.\n")
     prompt += format_schedule_context(schedule) + "\n"
     prompt += "=====================================\n\n"
     prompt += f"Catalog description: {course['description']}"
@@ -248,7 +275,8 @@ SYSTEM_INSTRUCTION = (
     "about prerequisites or when students take the course — use the sample plan "
     "data provided. If the course appears in multiple plans or majors, mention that. "
     "Sample plans illustrate typical timing; they do not prove the course is offered "
-    "in a given term. If no sample plan data is provided, say so instead of inventing "
+    "in a given term. If sample plans are historical, identify their catalog year and "
+    "do not present them as current degree requirements. If no sample plan data is provided, say so instead of inventing "
     "a year or semester.\n\n"
     "Provide a concise breakdown (roughly 250-400 words) with:\n"
     "1. A plain-English summary of what the course actually covers (2-3 sentences)\n"
@@ -359,6 +387,7 @@ def api_course(dept, number):
 
     schedule = lookup_schedule_context(dept, number)
     course["schedule_context"] = schedule
+    course["plan_dataset"] = lookup_plan_dataset()
     course["prerequisites_text"] = format_prereqs(course["prerequisites"])
 
     return jsonify(course)

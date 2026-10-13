@@ -126,7 +126,7 @@ python json_scrapers/plan_scraper.py
 python db_loader.py
 ```
 
-The plan scraper detects the live catalog edition and discovers bachelor programs from the catalog A-Z index. It includes combined majors and campus variants under the undergraduate catalog; College of Professional Studies programs, minors, and graduate programs are outside this scraper's scope.
+The plan scraper discovers bachelor programs from the catalog A-Z index. It retains the edition selected in the active manifest; a new dataset defaults to the live edition. Use `--catalog-year` to select another edition or `--current-catalog` to switch back to the live edition. It includes combined majors and campus variants under the undergraduate catalog; College of Professional Studies programs, minors, and graduate programs are outside this scraper's scope.
 
 Published plans are saved to `data/plans/<catalog-year>/<program-id>.json`. Each file preserves source URL, degree, campus, college, plan variants, original entry text, credits, course bundles, alternatives, electives, co-op periods, and notes. Only definite course entries enter the semester's `courses` list; alternatives and choice groups remain structured entries and notes, so the advisor does not treat every option as mandatory. Course bundles retain their combined credit value rather than assigning those credits to each course.
 
@@ -134,7 +134,9 @@ Published plans are saved to `data/plans/<catalog-year>/<program-id>.json`. Each
 
 The October 13, 2026 run checked all 395 discovered undergraduate bachelor program variants in the **2026–2027** catalog. None published sample-plan grids, so this edition contains **zero schedules**. Missing plans are recorded explicitly; the scraper does not invent schedules from degree requirements or silently import older plans. Run it again if Northeastern publishes plans later.
 
-To explicitly select an archived edition that publishes plans:
+The active dataset uses **2025–2026 historical sample plans**, as explicitly selected. Course details label their catalog year, degree, and campus; AI prompts identify them as historical context rather than current requirements. The current course-description dataset remains 2026–2027. Programs without published plans and courses without a definite placement have distinct messages. Numbered transfer-track semesters remain ordinal labels without guessed calendar years.
+
+To populate or refresh the archived edition:
 
 ```sh
 python json_scrapers/plan_scraper.py --catalog-year 2025-2026

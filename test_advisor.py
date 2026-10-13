@@ -57,6 +57,7 @@ class ApiTest(unittest.TestCase):
             ("FALLBACK_MODELS", ["openrouter/free"]),
             ("lookup_course", lambda d, n: dict(COURSE) if (d.lower(), n) == ("cs", "3000") else None),
             ("lookup_schedule_context", lambda d, n: PLANS),
+            ("lookup_plan_dataset", lambda: {"catalog_year": None, "current_catalog_year": None, "plan_count": 2, "historical": False}),
         ]:
             patcher = mock.patch.object(advisor, name, value)
             patcher.start()
@@ -538,6 +539,44 @@ class ConfigTest(unittest.TestCase):
                            ("OPENROUTER_FALLBACK_MODELS", "not a model")]:
             with self.subTest(**{key: value}):
                 self.assertNotEqual(self.load(**{key: value}).returncode, 0)
+
+
+class HistoricalPlansTest(ApiTest):
+    def test_api_and_ai_prompt_expose_historical_catalog_year(self):
+        dataset = {"catalog_year": "2025-2026", "current_catalog_year": "2026-2027", "plan_count": 622, "historical": True}
+        entry = {**PLANS[0], "catalog_year": "2025-2026", "source_url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/cs/"}
+        with mock.patch.object(advisor, "lookup_plan_dataset", return_value=dataset), mock.patch.object(advisor, "lookup_schedule_context", return_value=[entry]):
+            response = self.http.get("/api/course/cs/3000")
+            self.assertEqual(response.json["plan_dataset"], dataset)
+            self.assertEqual(response.json["schedule_context"][0]["catalog_year"], "2025-2026")
+            prompt = advisor.build_prompt(COURSE)
+            self.assertIn("These are historical plans; the current catalog is 2026-2027", prompt)
+            self.assertIn("sample plan catalog: 2025-2026", prompt)
+
+    def test_ordinal_semesters_do_not_invent_calendar_year(self):
+        text = advisor.format_schedule_context([{**PLANS[0], "year": None, "term": "Semester 1", "catalog_year": "2025-2026"}])
+        self.assertIn("Semester 1", text)
+        self.assertNotIn("Year None", text)
+
+
+class PlanProvenanceDatabaseTest(unittest.TestCase):
+    def test_dataset_provenance_comes_from_loaded_database(self):
+        import contextlib
+        import sqlite3
+        import tempfile
+        from pathlib import Path
+        import db_loader
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'courses.db'
+            with contextlib.closing(sqlite3.connect(path)) as conn:
+                db_loader.create_tables(conn.cursor())
+                conn.execute('INSERT INTO plan_catalog VALUES (?, ?, ?)', ('2025-2026', '2026-2027', 622))
+                conn.commit()
+            with mock.patch.object(advisor, 'DB_FILE', str(path)):
+                self.assertEqual(advisor.lookup_plan_dataset(), {
+                    'catalog_year': '2025-2026', 'current_catalog_year': '2026-2027',
+                    'plan_count': 622, 'historical': True,
+                })
 
 
 if __name__ == "__main__":

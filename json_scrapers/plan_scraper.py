@@ -1,6 +1,6 @@
 """Scrape published undergraduate sample plans from Northeastern's catalog.
 
-Defaults to the edition currently published by the catalog. Missing plans are
+Defaults to the selected edition, or the live edition for a new dataset. Missing plans are
 reported explicitly; requirements are never converted into invented schedules.
 Run: python json_scrapers/plan_scraper.py
 """
@@ -97,6 +97,30 @@ def cell_text(cell):
     return clean(cell.get_text(' ', strip=True)) if cell else ''
 
 
+def is_indented(cell):
+    # A lab indented inside a course bundle does not make the whole bundle optional.
+    return any(cell_text(node) == cell_text(cell)
+               for node in cell.select('[style*="margin-left"], .indent'))
+
+
+def finish_semesters(semesters):
+    semesters = [semester for semester in semesters if semester['entries']]
+    if not semesters:
+        raise PlanParseError('Published plan has no entries')
+    for semester in semesters:
+        semester['courses'] = []
+        semester['notes'] = []
+        for entry in semester['entries']:
+            if entry['kind'] == 'course':
+                semester['courses'].extend(code for code in entry['courses'] if code not in semester['courses'])
+            elif entry['kind'] != 'coop':
+                note = entry['text']
+                if entry.get('options'):
+                    note += ' ' + '; '.join(option['text'] for option in entry['options'])
+                semester['notes'].append(note)
+    return semesters
+
+
 def parse_grid(table):
     semesters = []
     current = []
@@ -145,7 +169,7 @@ def parse_grid(table):
                 raise PlanParseError('Plan entry has no semester header')
             credits = cell_text(cells[position * 2 + 1])
             codes = course_codes(text)
-            indented = bool(cell.select('[style*="margin-left"], .indent'))
+            indented = is_indented(cell)
             if indented and position in groups:
                 groups[position]['options'].append({'text': text, 'courses': codes, 'credits': credits})
                 continue
@@ -160,19 +184,45 @@ def parse_grid(table):
                 entry['options'] = []
                 groups[position] = entry
             semester['entries'].append(entry)
-            if kind == 'course':
-                semester['courses'].extend(code for code in codes if code not in semester['courses'])
-    semesters = [semester for semester in semesters if semester['entries']]
-    if not semesters:
-        raise PlanParseError('Published plan grid has no entries')
-    for semester in semesters:
-        for entry in semester['entries']:
-            if entry['kind'] not in ('course', 'coop'):
-                note = entry['text']
-                if entry.get('options'):
-                    note += ' ' + '; '.join(option['text'] for option in entry['options'])
-                semester['notes'].append(note)
-    return semesters
+    return finish_semesters(semesters)
+
+
+def parse_semester_list(table):
+    """Parse ordinal semesters without inventing academic years or calendar terms."""
+    semesters = []
+    semester = None
+    for row in table.select('tbody > tr'):
+        cells = expanded_cells(row)
+        classes = row.get('class', [])
+        if 'areaheader' in classes:
+            label = cell_text(cells[0])
+            match = re.fullmatch(r'SEMESTER\s+(\d+)', label, re.I)
+            if not match:
+                raise PlanParseError(f'Unrecognized semester heading: {label}')
+            semester = {'year': None, 'term': f'Semester {match.group(1)}', 'entries': []}
+            semesters.append(semester)
+            continue
+        if 'listsum' in classes:
+            continue
+        if semester is None or len(cells) != 3:
+            raise PlanParseError('Invalid semester course-list row')
+        text = cell_text(cells[0])
+        codes = course_codes(text)
+        entry = {'text': text, 'credits': cell_text(cells[2]), 'courses': codes,
+                 'kind': 'course' if codes else 'note', 'title': cell_text(cells[1])}
+        if 'orclass' in classes:
+            if not semester['entries']:
+                raise PlanParseError('Alternative course has no preceding entry')
+            previous = semester['entries'][-1]
+            if previous['kind'] != 'choice':
+                option = {k: v for k, v in previous.items() if k != 'kind'}
+                previous.update(kind='choice', courses=[], options=[option], text='Choose one:')
+            previous['options'].append({k: v for k, v in entry.items() if k != 'kind'})
+        else:
+            if re.search(r'\b(or|select|choose)\b', text, re.I):
+                entry.update(kind='choice', options=[])
+            semester['entries'].append(entry)
+    return finish_semesters(semesters)
 
 
 def parse_program(html, url, catalog_year):
@@ -189,14 +239,18 @@ def parse_program(html, url, catalog_year):
     college = clean(crumbs[2].get_text(' ', strip=True)).rstrip('›').strip() if len(crumbs) > 2 else ''
     program_id = urlparse(url).path.rstrip('/').split('/')[-1][:100] + '-' + hashlib.sha256(urlparse(url).path.encode()).hexdigest()[:8]
     record = {
-        'major': program_id, 'major_name': title[:degree.start()].strip(),
+        'major': program_id, 'major_name': title[:degree.start()].strip(), 'program_title': title,
         'degree': degree.group(1), 'campus': campus_match.group(1) if campus_match else '',
         'college': college, 'catalog_year': catalog_year, 'source_url': url, 'plans': [],
     }
     container = soup.select_one('#planofstudytextcontainer')
     record['notes'] = [clean(p.get_text(' ', strip=True)) for p in container.select('p')
                        if p.find_parent('table') is None] if container else []
-    tables = container.select('table.sc_plangrid') if container else soup.select('table.sc_plangrid')
+    candidates = container.select('table.sc_plangrid, table.sc_courselist') if container else soup.select('table.sc_plangrid')
+    tables = [table for table in candidates if 'sc_plangrid' in table.get('class', [])
+              or any(re.fullmatch(r'SEMESTER\s+\d+', clean(row.get_text(' ', strip=True)), re.I)
+                     for row in table.select('tr.areaheader'))]
+    record['notes'].extend(clean(table.get_text(' ', strip=True)) for table in candidates if table not in tables)
     if not tables:
         if container is not None or soup.select_one('#planofstudytexttab') is not None:
             raise PlanParseError('Plan section exists but contains no supported plan grids')
@@ -211,7 +265,8 @@ def parse_program(html, url, catalog_year):
                 break
             if getattr(sibling, 'name', None) == 'p':
                 notes.append(clean(sibling.get_text(' ', strip=True)))
-        record['plans'].append({'plan_name': name, 'notes': list(reversed(notes)), 'semesters': parse_grid(table)})
+        parse = parse_grid if 'sc_plangrid' in table.get('class', []) else parse_semester_list
+        record['plans'].append({'plan_name': name, 'notes': list(reversed(notes)), 'semesters': parse(table)})
     record['status'] = 'available'
     return record
 
@@ -238,7 +293,9 @@ def fetch(session, url):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--catalog-year', help='Catalog edition, e.g. 2026-2027; defaults to current live edition')
+    selection = parser.add_mutually_exclusive_group()
+    selection.add_argument('--catalog-year', help='Select an edition, e.g. 2025-2026; future refreshes retain this choice')
+    selection.add_argument('--current-catalog', action='store_true', help='Select the live edition instead of retaining the active edition')
     parser.add_argument('--output-dir', type=Path, default=DATA_DIR, help='Data directory for JSON and coverage manifest')
     parser.add_argument('--delay', type=float, default=0.1, help='Seconds between program requests')
     args = parser.parse_args(argv)
@@ -248,7 +305,13 @@ def main(argv=None):
     session.headers['User-Agent'] = 'NUInsightsPlanScraper/1.0'
     session.mount('https://', HTTPAdapter(max_retries=Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504], respect_retry_after_header=True)))
     current_year = edition(BeautifulSoup(fetch(session, BASE_URL + 'undergraduate/'), 'html.parser'))
-    catalog_year = args.catalog_year or current_year
+    catalog_file = args.output_dir / 'plan_catalog.json'
+    selected_year = None
+    if catalog_file.exists() and not args.current_catalog:
+        selected_year = json.loads(catalog_file.read_text()).get('catalog_year')
+    catalog_year = args.catalog_year or selected_year or current_year
+    if not YEAR.fullmatch(catalog_year) or int(catalog_year[5:]) != int(catalog_year[:4]) + 1:
+        raise PlanParseError('Invalid selected catalog year')
     root = BASE_URL if catalog_year == current_year else urljoin(BASE_URL, f'archive/{catalog_year}/')
     index = BeautifulSoup(fetch(session, urljoin(root, 'azindex/')), 'html.parser')
     if edition(index) != catalog_year:
@@ -269,7 +332,8 @@ def main(argv=None):
         if position % 25 == 0 or position == len(programs):
             print(f'Checked {position}/{len(programs)}; {sum(bool(r["plans"]) for r in records)} with plans; {len(errors)} errors', flush=True)
     report = {
-        'catalog_year': catalog_year, 'scraped_at': datetime.now(timezone.utc).isoformat(),
+        'catalog_year': catalog_year, 'current_catalog_year': current_year,
+        'scraped_at': datetime.now(timezone.utc).isoformat(),
         'scope': 'undergraduate bachelor programs; includes combined majors and campus variants; excludes CPS',
         'complete': not errors, 'program_count': len(programs),
         'programs_with_plans': sum(bool(r['plans']) for r in records),

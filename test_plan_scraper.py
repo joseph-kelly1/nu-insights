@@ -96,6 +96,40 @@ class ParserTest(unittest.TestCase):
         self.assertEqual([p['plan_name'] for p in plans], ['Spring Co-op', 'Fall Co-op'])
         self.assertEqual(len(plans[0]['semesters']), 1)
 
+    def test_indented_lab_inside_course_bundle_is_mandatory(self):
+        html = plans_page('<tr><td>CS 2100<span style="margin-left:20px">and CS 2101</span></td><td>5</td><td colspan="2"></td></tr>')
+        semester = scraper.parse_program(html, URL, '2026-2027')['plans'][0]['semesters'][0]
+        self.assertEqual(semester['courses'], ['CS 2100', 'CS 2101'])
+        self.assertEqual(semester['entries'][0]['kind'], 'course')
+
+    def test_numbered_semester_lists_preserve_bundles_and_or_rows(self):
+        html = page('''<div id="planofstudytextcontainer"><h2>Sample Plan of Study</h2>
+          <table class="sc_courselist"><tbody>
+            <tr class="areaheader"><td colspan="2">SEMESTER 1</td><td></td></tr>
+            <tr><td>NRSG 2222<span style="margin-left:20px">and NRSG 2221</span></td><td>Course and lab</td><td>5</td></tr>
+            <tr class="areaheader"><td colspan="2">SEMESTER 2</td><td></td></tr>
+            <tr><td>ENGW 3306</td><td>Advanced Writing</td><td>4</td></tr>
+            <tr class="orclass"><td>or ENGW 3315</td><td colspan="2">Interdisciplinary Writing</td></tr>
+            <tr><td>NRSG 3320 and NRSG 3321</td><td>Course and clinical</td><td>6</td></tr>
+            <tr class="listsum"><td colspan="2">Total Hours</td><td>15</td></tr>
+          </tbody></table></div>''')
+        first, second = scraper.parse_program(html, URL, '2026-2027')['plans'][0]['semesters']
+        self.assertIsNone(first['year'])
+        self.assertEqual(first['term'], 'Semester 1')
+        self.assertEqual(first['courses'], ['NRSG 2222', 'NRSG 2221'])
+        self.assertEqual(second['courses'], ['NRSG 3320', 'NRSG 3321'])
+        self.assertEqual([option['courses'] for option in second['entries'][0]['options']], [['ENGW 3306'], ['ENGW 3315']])
+        self.assertIn('ENGW 3315', second['notes'][0])
+
+    def test_supplementary_course_tables_are_preserved_without_extra_placements(self):
+        html = plans_page('<tr><td>PHYS 2303</td><td>4</td><td colspan="2"></td></tr>')
+        reference = '<h3>Additional course options</h3><table class="sc_courselist"><tbody><tr><td>BIOL 2301</td><td>Genetics</td><td>4</td></tr></tbody></table>'
+        html = html.replace('</div>', reference + '</div>')
+        record = scraper.parse_program(html, URL, '2026-2027')
+        self.assertEqual(len(record['plans']), 1)
+        self.assertEqual(record['plans'][0]['semesters'][0]['courses'], ['PHYS 2303'])
+        self.assertIn('BIOL 2301', record['notes'][0])
+
     def test_missing_plan_is_explicit_and_wrong_year_is_failure(self):
         record = scraper.parse_program(page(), URL, '2026-2027')
         self.assertEqual(record['status'], 'no_published_plan')
@@ -129,6 +163,22 @@ class RefreshTest(unittest.TestCase):
             report = json.loads((Path(directory) / 'plan_scrape_report.json').read_text())
             self.assertFalse(report['complete'])
             self.assertEqual(len(report['errors']), 1)
+
+    def test_refresh_retains_selected_edition_until_current_catalog_is_requested(self):
+        with tempfile.TemporaryDirectory() as directory:
+            active = Path(directory) / 'plan_catalog.json'
+            active.write_text(json.dumps({'catalog_year': '2025-2026'}))
+            def fetch(session, url):
+                year = '2025-2026' if '/archive/' in url else '2026-2027'
+                root = scraper.BASE_URL + ('archive/2025-2026/' if '/archive/' in url else '')
+                if url.endswith('azindex/'):
+                    return page(f'<div id="atozindex"><a href="{root}undergraduate/cs/">CS, BS (Boston)</a></div>', year=year)
+                return page(year=year)
+            with patch.object(scraper, 'fetch', side_effect=fetch), contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(scraper.main(['--output-dir', directory, '--delay', '0']), 0)
+                self.assertEqual(json.loads(active.read_text())['catalog_year'], '2025-2026')
+                self.assertEqual(scraper.main(['--output-dir', directory, '--delay', '0', '--current-catalog']), 0)
+                self.assertEqual(json.loads(active.read_text())['catalog_year'], '2026-2027')
 
     def test_current_empty_catalog_excludes_legacy_plans_from_database(self):
         with tempfile.TemporaryDirectory() as directory:
