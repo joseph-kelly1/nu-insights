@@ -1,0 +1,1632 @@
+{
+  "document_id": "artificial-intelligence-linguistics-bs-bos-a32931af",
+  "kind": "program",
+  "title": "Artificial Intelligence and Linguistics, BS (Boston)",
+  "catalog_year": "2026-2027",
+  "source_url": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-information-science-combined-majors/artificial-intelligence-linguistics-bs-bos/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Artificial Intelligence Requirements",
+      "heading_path": [
+        "Artificial Intelligence Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete the following in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or INPR 1000 First-Year Interdisciplinary Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INPR 1000"
+              ],
+              "code_text": "or INPR 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INPR 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or INSC 1000 Science at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INSC 1000"
+              ],
+              "code_text": "or INSC 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INSC 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or EESC 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESC 2000"
+              ],
+              "code_text": "or EESC 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESC 2000"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "All students can take a self-assessment to attempt to place out of CS 2000 and CS 2001 . Students who place out of CS 2000 and CS 2001 will instead substitute 4-5 semester hour of CS, CY, or DS coursework at the 3000 level or higher not otherwise required in the degree.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2000 and CS 2001 Introduction to Program Design and Implementation and Lab for CS 2000",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2000",
+                "CS 2001"
+              ],
+              "code_text": "CS 2000 and CS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 2100 and CS 2101 Program Design and Implementation 1 and Lab for CS 2100",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2100",
+                "CS 2101"
+              ],
+              "code_text": "CS 2100 and CS 2101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2100"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2101"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3200 Introduction to Databases",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "DS 3500 Advanced Programming with Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3500"
+              ],
+              "code_text": "DS 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3500"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "MATH 1365 Introduction to Mathematical Reasoning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1365"
+              ],
+              "code_text": "MATH 1365",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1365"
+              },
+              "alternative_group": 13
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "or MATH 1465 Intensive Mathematical Reasoning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1465"
+              ],
+              "code_text": "or MATH 1465",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1465"
+              },
+              "alternative_group": 13
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Artificial Intelligence Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "DS 3000 Mathematical Foundations of Artificial Intelligence",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "DS 4420 Advanced Machine Learning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4420"
+              ],
+              "code_text": "DS 4420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4420"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "header",
+              "text": "Khoury Approved Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 22,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 23,
+              "kind": "instruction",
+              "text": "Complete 4 semester hours from within the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 24,
+              "kind": "elective_filter",
+              "text": "CS 2300 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2300",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 25,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 26,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "EECE 2160 Embedded Design: Enabling Robotics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2160"
+              ],
+              "code_text": "EECE 2160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2160"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "EECE 2322 and EECE 2323 Fundamentals of Digital Design and Computer Organization and Lab for EECE 2322",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2322",
+                "EECE 2323"
+              ],
+              "code_text": "EECE 2322 and EECE 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "MKTG 4606 Digital, Analytics, Technology, and Automation Research Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 4606"
+              ],
+              "code_text": "MKTG 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 4606"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Linguistics Requirements",
+      "heading_path": [
+        "Linguistics Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Linguistics Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "LING 1150 Introduction to Linguistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LING 1150"
+              ],
+              "code_text": "LING 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 1150"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "LING 2350 Linguistic Analysis",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LING 2350"
+              ],
+              "code_text": "LING 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 2350"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "LING 3412 Language and Culture",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LING 3412"
+              ],
+              "code_text": "LING 3412",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3412"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Linguistic Structure",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete four of the following:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "LING 3420 Phonetics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3420"
+              ],
+              "code_text": "LING 3420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3420"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "LING 3422 Phonology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3422"
+              ],
+              "code_text": "LING 3422",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3422"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "LING 3424 Morphology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3424"
+              ],
+              "code_text": "LING 3424",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3424"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "LING 3450 Syntax",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3450"
+              ],
+              "code_text": "LING 3450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3450"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "LING 3452 Semantics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3452"
+              ],
+              "code_text": "LING 3452",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3452"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "header",
+              "text": "Laboratory/Directed Study",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 12,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "LING 4891 Research Seminar in Linguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 4891"
+              ],
+              "code_text": "LING 4891",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 4891"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "LING 4991 Directed Study Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 4991"
+              ],
+              "code_text": "LING 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 4991"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "PSYC 4610 Laboratory in Psycholinguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4610"
+              ],
+              "code_text": "PSYC 4610",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4610"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Seminar Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "LING 4654 Seminar in Linguistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LING 4654"
+              ],
+              "code_text": "LING 4654",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 4654"
+              },
+              "alternative_group": 17
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "or PSYC 4658 Seminar in Psycholinguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4658"
+              ],
+              "code_text": "or PSYC 4658",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4658"
+              },
+              "alternative_group": 17
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Linguistics Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "instruction",
+              "text": "Complete two courses not used to fulfill other degree requirements from the following options:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 2
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "DEAF 2700 ASL Linguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DEAF 2700"
+              ],
+              "code_text": "DEAF 2700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DEAF 2700"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "elective_filter",
+              "text": "LING 3000 to LING 4999 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "LING",
+                "minimum_number": "3000",
+                "maximum_number": "4999"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "1 Please visit the Linguistics Courses page within this catalog to review the list of courses in the LING 3000-LING 4999 range.",
+          "links": [
+            {
+              "text": "Linguistics Courses page",
+              "url": "https://catalog.northeastern.edu/course-descriptions/ling/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "PSYC 1101 Foundations of Psychology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1101"
+              ],
+              "code_text": "PSYC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1101"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PSYC 2320 Statistics in Psychological Research",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 2320"
+              ],
+              "code_text": "PSYC 2320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 2320"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirement",
+      "heading_path": [
+        "Integrative Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Integrative Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 4120 Natural Language Processing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4120"
+              ],
+              "code_text": "CS 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4120"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirement",
+      "heading_path": [
+        "Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or ENGW 3307 Advanced Writing in the Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3307"
+              ],
+              "code_text": "or ENGW 3307",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3307"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 4
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 16 semester hours of general electives.",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 16.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Science GPA Requirement (Linguistics)",
+      "heading_path": [
+        "Science GPA Requirement (Linguistics)"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A minimum 2.000 GPA in LING courses is required.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Advanced Writing in the Disciplines Analyzing and Using Data Conducting Formal and Quantitative Reasoning Demonstrating Thought and Action in a Capstone Engaging Differences and Diversity Engaging with the Natural and Designed World Interpreting Culture Understanding Societies and Institutions Writing in the First Year Writing-Intensive in the Major",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Advanced Writing in the Disciplines",
+            "Analyzing and Using Data",
+            "Conducting Formal and Quantitative Reasoning",
+            "Demonstrating Thought and Action in a Capstone",
+            "Engaging Differences and Diversity",
+            "Engaging with the Natural and Designed World",
+            "Interpreting Culture",
+            "Understanding Societies and Institutions",
+            "Writing in the First Year",
+            "Writing-Intensive in the Major"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "artificial-intelligence-linguistics-bs-bos-a32931af",
+  "major_name": "Artificial Intelligence and Linguistics",
+  "degree": "BS",
+  "campus": "Boston",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The artificial intelligence and linguistics combined major provides students with extensive background in the formal structures of natural (human) languages and in the collection, manipulation, storage, retrieval, and computational analysis of data in its various forms. The program covers the methods and applications of linguistic and psycholinguistic analyses of human language data combined with skills in Big Data analysis, machine learning, and data analytics. The major provides excellent preparation for work or more advanced degrees focusing on computational linguistics, natural language processing, machine learning, and a wide array of related fields.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nArtificial Intelligence Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nComplete the following in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nINPR 1000\nFirst-Year Interdisciplinary Seminar\nor\nINSC 1000\nScience at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESC 2000\nProfessional Development for Co-op\nFundamental Courses\nAll students can take a self-assessment to attempt to place out of\nCS 2000\nand\nCS 2001\n. Students who place out of\nCS 2000\nand\nCS 2001\nwill instead substitute 4-5 semester hour of CS, CY, or DS coursework at the 3000 level or higher not otherwise required in the degree.\nCS 2000\nand\nCS 2001\nIntroduction to Program Design and Implementation\nand Lab for CS 2000\n5\nCS 2100\nand\nCS 2101\nProgram Design and Implementation 1\nand Lab for CS 2100\n5\nCS 3200\nIntroduction to Databases\n4\nDS 3500\nAdvanced Programming with Data\n4\nMATH 1365\nIntroduction to Mathematical Reasoning\n4\nor\nMATH 1465\nIntensive Mathematical Reasoning\nArtificial Intelligence Foundations\nDS 3000\nMathematical Foundations of Artificial Intelligence\n4\nDS 4200\nInformation Presentation and Visualization\n4\nDS 4300\nLarge-Scale Information Storage and Retrieval\n4\nDS 4400\nMachine Learning\n4\nDS 4420\nAdvanced Machine Learning\n4\nKhoury Approved Electives\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 4 semester hours from within the following ranges:\n4\nCS 2300 or higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500 or higher, except DS 4900\nEECE 2160\nEmbedded Design: Enabling Robotics\nEECE 2322\nand\nEECE 2323\nFundamentals of Digital Design and Computer Organization\nand Lab for EECE 2322\nMKTG 4606\nDigital, Analytics, Technology, and Automation Research Practicum\nLinguistics Requirements\nCourse List\nCode\nTitle\nHours\nLinguistics Foundations\nLING 1150\nIntroduction to Linguistics\n4\nLING 2350\nLinguistic Analysis\n4\nLING 3412\nLanguage and Culture\n4\nLinguistic Structure\nComplete four of the following:\n16\nLING 3420\nPhonetics\nLING 3422\nPhonology\nLING 3424\nMorphology\nLING 3450\nSyntax\nLING 3452\nSemantics\nLaboratory/Directed Study\nComplete one of the following:\n4\nLING 4891\nResearch Seminar in Linguistics\nLING 4991\nDirected Study Research\nPSYC 4610\nLaboratory in Psycholinguistics\nSeminar Requirement\nLING 4654\nSeminar in Linguistics\n4\nor\nPSYC 4658\nSeminar in Psycholinguistics\nLinguistics Electives\nComplete two courses not used to fulfill other degree requirements from the following options:\n8\nDEAF 2700\nASL Linguistics\nLING 3000 to LING 4999\n1\n1\nPlease visit the\nLinguistics Courses page\nwithin this catalog to review the list of courses in the LING 3000-LING 4999 range.\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics Requirement\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nPSYC 1101\nFoundations of Psychology\n4\nPSYC 2320\nStatistics in Psychological Research\n4\nIntegrative Requirement\nCourse List\nCode\nTitle\nHours\nIntegrative Course\nCS 4120\nNatural Language Processing\n4\nWriting Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3307\nAdvanced Writing in the Sciences\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 16 semester hours of general electives.\n16\nScience GPA Requirement (Linguistics)\nA minimum 2.000 GPA in LING courses is required.\nNUpath Requirements Satisfied\nAdvanced Writing in the Disciplines\nAnalyzing and Using Data\nConducting Formal and Quantitative Reasoning\nDemonstrating Thought and Action in a Capstone\nEngaging Differences and Diversity\nEngaging with the Natural and Designed World\nInterpreting Culture\nUnderstanding Societies and Institutions\nWriting in the First Year\nWriting-Intensive in the Major\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n130 total semester hours required",
+  "referenced_courses": [
+    "CS 1200",
+    "CS 1210",
+    "CS 2000",
+    "CS 2001",
+    "CS 2100",
+    "CS 2101",
+    "CS 3200",
+    "CS 4120",
+    "CS 5010",
+    "CY 4930",
+    "DEAF 2700",
+    "DS 3000",
+    "DS 3500",
+    "DS 4200",
+    "DS 4300",
+    "DS 4400",
+    "DS 4420",
+    "EECE 2160",
+    "EECE 2322",
+    "EECE 2323",
+    "EESC 2000",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3307",
+    "ENGW 3315",
+    "INPR 1000",
+    "INSC 1000",
+    "LING 1150",
+    "LING 2350",
+    "LING 3412",
+    "LING 3420",
+    "LING 3422",
+    "LING 3424",
+    "LING 3450",
+    "LING 3452",
+    "LING 4654",
+    "LING 4891",
+    "LING 4991",
+    "MATH 1341",
+    "MATH 1365",
+    "MATH 1465",
+    "MKTG 4606",
+    "PSYC 1101",
+    "PSYC 2320",
+    "PSYC 4610",
+    "PSYC 4658"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+    },
+    {
+      "text": "Linguistics Courses page",
+      "url": "https://catalog.northeastern.edu/course-descriptions/ling/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": "nupathtext"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

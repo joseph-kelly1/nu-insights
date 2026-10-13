@@ -1,0 +1,2620 @@
+{
+  "document_id": "electrical-engineering-bsee-d312efaa",
+  "kind": "program",
+  "title": "Electrical Engineering, BSEE (Boston)",
+  "catalog_year": "2026-2027",
+  "source_url": "https://catalog.northeastern.edu/undergraduate/engineering/electrical-computer/electrical-engineering-bsee/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements Interpreting Culture (IC), Understanding Societies and Institutions (SI), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering Requirements",
+      "heading_path": [
+        "Engineering Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "EECE 2140 Computing Fundamentals for Engineers",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2140"
+              ],
+              "code_text": "EECE 2140",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2140"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "EECE 2150 Circuits and Signals: Biomedical Applications",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2150"
+              ],
+              "code_text": "EECE 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2150"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "EECE 2160 Embedded Design: Enabling Robotics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2160"
+              ],
+              "code_text": "EECE 2160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2160"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Electrical Engineering Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "EECE 2412 and EECE 2413 Fundamentals of Electronics and Lab for EECE 2412",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2412",
+                "EECE 2413"
+              ],
+              "code_text": "EECE 2412 and EECE 2413",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2412"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2413"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "EECE 2520 Fundamentals of Linear Systems",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2520"
+              ],
+              "code_text": "EECE 2520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2520"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "EECE 2530 and EECE 2531 Fundamentals of Electromagnetics and Lab for EECE 2530",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2530",
+                "EECE 2531"
+              ],
+              "code_text": "EECE 2530 and EECE 2531",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2530"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2531"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "header",
+              "text": "Computer Engineering Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 9,
+              "kind": "note",
+              "text": "If more than one computer engineering fundamentals course is taken, it can count as a technical elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "EECE 2322 and EECE 2323 Fundamentals of Digital Design and Computer Organization and Lab for EECE 2322",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2322",
+                "EECE 2323"
+              ],
+              "code_text": "EECE 2322 and EECE 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "EECE 2540 Fundamentals of Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2540"
+              ],
+              "code_text": "EECE 2540",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2540"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "EECE 2560 Fundamentals of Engineering Algorithms",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2560"
+              ],
+              "code_text": "EECE 2560",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2560"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "header",
+              "text": "Electrical Engineering Capstone Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 15,
+              "kind": "note",
+              "text": "If taking EECE 4791 in First-Half Summer, EECE 4792 must be taken in Spring. If taking EECE 4791 in Second-Half Summer, EECE 4792 must be taken in Fall.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "EECE 4791 Electrical and Computer Engineering Capstone 1",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4791"
+              ],
+              "code_text": "EECE 4791",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4791"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "EECE 4792 Electrical and Computer Engineering Capstone 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4792"
+              ],
+              "code_text": "EECE 4792",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4792"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "header",
+              "text": "Electrical Engineering Technical Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 19,
+              "kind": "note",
+              "text": "Students can register for EECE 4991 / EECE 4992 more than once. For these courses combined, a maximum of 8 semester hours will be allowed to satisfy the requirement of technical electives. An additional 4 semester hours will be allowed as a general elective. At most, one of these courses (4 semester hours) can be taken in a semester.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 20,
+              "kind": "note",
+              "text": "Though students may register for EECE 2750 more than once, only 4 semester hours will be allowed to satisfy the requirements of technical electives. An additional 4 semester hours will be allowed as a general elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "EECE 2310 is not an approved course option for ECE majors to select for a technical elective. It is only for Khoury students.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 22,
+              "kind": "instruction",
+              "text": "Students who choose to complete the optional concentration in semiconductor engineering may fulfill this requirement with concentration coursework.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 23,
+              "kind": "instruction",
+              "text": "Complete four of the following:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "EECE 2322 and EECE 2323 Fundamentals of Digital Design and Computer Organization and Lab for EECE 2322",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2322",
+                "EECE 2323"
+              ],
+              "code_text": "EECE 2322 and EECE 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 25,
+              "kind": "elective_filter",
+              "text": "EECE 2540 to EECE 2750",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "EECE",
+                "minimum_number": "2540",
+                "maximum_number": "2750"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "elective_filter",
+              "text": "EECE 3324 to EECE 3410",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "EECE",
+                "minimum_number": "3324",
+                "maximum_number": "3410"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "elective_filter",
+              "text": "EECE 4512 to EECE 4698",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "EECE",
+                "minimum_number": "4512",
+                "maximum_number": "4698"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "EECE 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4991"
+              ],
+              "code_text": "EECE 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4991"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "EECE 4992 Directed Study",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4992"
+              ],
+              "code_text": "EECE 4992",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4992"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "elective_filter",
+              "text": "EECE 5115 to EECE 5699",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "EECE",
+                "minimum_number": "5115",
+                "maximum_number": "5699"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "EECE 5670 Sustainable Energy: Materials, Conversion, Storage, and Usage",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5670"
+              ],
+              "code_text": "EECE 5670",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5670"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 33,
+              "kind": "note",
+              "text": "2 semester hours from the following counts toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "EECE 3468 Analysis of Random Phenomena in Electrical and Computer Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 3468"
+              ],
+              "code_text": "EECE 3468",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 3468"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "note",
+              "text": "2 semester hours from the following counts toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all mathematics/science courses with a minimum of 30 semester hours.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "note",
+              "text": "2 semester hours from the following counts toward the mathematics/science requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "EECE 3468 Analysis of Random Phenomena in Electrical and Computer Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 3468"
+              ],
+              "code_text": "EECE 3468",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 3468"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "note",
+              "text": "1 semester hour from the following counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Professional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "1 semester hour from the following counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade of C or higher is required:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 semester hours of academic, nonremedial, nonrepetitive courses. Students who choose to complete the optional concentration in semiconductor engineering may apply concentration coursework to this requirement.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 28.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute Engineering Design ( GE 1110 ) and Engineering Problem Solving and Computation ( GE 1111 ) for Cornerstone of Engineering 1 ( GE 1501 ) and Cornerstone of Engineering 2 ( GE 1502 ) .",
+          "links": [
+            {
+              "text": "GE 1110",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201110"
+            },
+            {
+              "text": "GE 1111",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201111"
+            },
+            {
+              "text": "GE 1501",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201501"
+            },
+            {
+              "text": "GE 1502",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201502"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Optional Concentration",
+      "heading_path": [
+        "Optional Concentration"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Students may complete an optional concentration. Courses completed in the optional concentration may be applied toward this program's technical elective requirement course ranges or toward this program's general elective requirements. Students interested in declaring this concentration should discuss course selection with an ECE advisor.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Semiconductor Engineering",
+          "links": [
+            {
+              "text": "Semiconductor Engineering",
+              "url": "https://catalog.northeastern.edu/undergraduate/engineering/electrical-computer/electrical-engineering-bsee/#BSEE-semiconductor-engineering-conc"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Semiconductor Engineering"
+          ]
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Major GPA Requirement",
+      "heading_path": [
+        "Major GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in EECE courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "133 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Semiconductor Engineering Concentration",
+      "heading_path": [
+        "Semiconductor Engineering Concentration"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "EECE Core",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete four of the following (other courses outside of this list may fulfill this requirement if approved by COE Undergraduate Advising):",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "EECE 3392 Electronic Materials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 3392"
+              ],
+              "code_text": "EECE 3392",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 3392"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "EECE 3410 Electronic Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 3410"
+              ],
+              "code_text": "EECE 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 3410"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "EECE 4534 Microprocessor-Based Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4534"
+              ],
+              "code_text": "EECE 4534",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4534"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "EECE 4574 Wireless Communication Circuits",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4574"
+              ],
+              "code_text": "EECE 4574",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4574"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "EECE 4604 Integrated Circuit Devices",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4604"
+              ],
+              "code_text": "EECE 4604",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4604"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "EECE 4632 Hardware-Software Codesign for FPGA-Based Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4632"
+              ],
+              "code_text": "EECE 4632",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4632"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "EECE 4646 Optics for Engineers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4646"
+              ],
+              "code_text": "EECE 4646",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 4646"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "EECE 5161 Thin Film Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5161"
+              ],
+              "code_text": "EECE 5161",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5161"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "EECE 5170 Introduction to Multiferroics Materials and Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5170"
+              ],
+              "code_text": "EECE 5170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5170"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "EECE 5606 Micro- and Nanofabrication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5606"
+              ],
+              "code_text": "EECE 5606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5606"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "EECE 5608 Magnetic Materials for Next-Generation Electronics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5608"
+              ],
+              "code_text": "EECE 5608",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5608"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "EECE 5647 Nanophotonics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5647"
+              ],
+              "code_text": "EECE 5647",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5647"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "EECE 5649 Design of Analog Integrated Circuits with Complementary Metal-Oxide-Semiconductor Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5649"
+              ],
+              "code_text": "EECE 5649",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5649"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "EECE 5651 Introduction to Photonic Devices",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5651"
+              ],
+              "code_text": "EECE 5651",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5651"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "EECE 5653 Introduction to Quantum Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5653"
+              ],
+              "code_text": "EECE 5653",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5653"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Engineering and Science Breadth",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CHME 2310 Transport Processes 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 2310"
+              ],
+              "code_text": "CHME 2310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 2310"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CHME 2320 Engineering Thermodynamics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 2320"
+              ],
+              "code_text": "CHME 2320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 2320"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "CHME 3312 Transport Processes 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 3312"
+              ],
+              "code_text": "CHME 3312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 3312"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CHME 3322 Chemical Thermodynamics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 3322"
+              ],
+              "code_text": "CHME 3322",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 3322"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "CHME 4512 Chemical Engineering Process Control",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 4512"
+              ],
+              "code_text": "CHME 4512",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 4512"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "CHME 5105 Materials Characterization Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5105"
+              ],
+              "code_text": "CHME 5105",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5105"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "IE 4530 Manufacturing Systems and Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IE 4530"
+              ],
+              "code_text": "IE 4530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IE 4530"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "IE 5617 Lean Concepts and Applications",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IE 5617"
+              ],
+              "code_text": "IE 5617",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IE 5617"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "ME 2340 Introduction to Material Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 2340"
+              ],
+              "code_text": "ME 2340",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 2340"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "ME 5600 Materials Processing and Process Selection",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5600"
+              ],
+              "code_text": "ME 5600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5600"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "ME 5620 Fundamentals of Advanced Materials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5620"
+              ],
+              "code_text": "ME 5620",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5620"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "PHYS 4305 Thermodynamics and Statistical Mechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4305"
+              ],
+              "code_text": "PHYS 4305",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4305"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "PHYS 4623 Medical Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4623"
+              ],
+              "code_text": "PHYS 4623",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4623"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "PHYS 5114 Physics and Applications of Quantum Materials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5114"
+              ],
+              "code_text": "PHYS 5114",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5114"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "PHYS 5260 Introduction to Nanoscience and Nanotechnology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5260"
+              ],
+              "code_text": "PHYS 5260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5260"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "PHYS 5318 Principles of Experimental Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5318"
+              ],
+              "code_text": "PHYS 5318",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5318"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "PHYS 5352 Quantum Computation and Information",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5352"
+              ],
+              "code_text": "PHYS 5352",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5352"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "header",
+              "text": "Project Management, Product Development, and Entrepreneurship",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 37,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "ENTR 3330 Design Thinking for Startups",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENTR 3330"
+              ],
+              "code_text": "ENTR 3330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENTR 3330"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "GE 5010 Customer-Driven Technical Innovation for Engineers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GE 5010"
+              ],
+              "code_text": "GE 5010",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 5010"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "GE 5020 Engineering Product Design Methodology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GE 5020"
+              ],
+              "code_text": "GE 5020",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 5020"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "GE 5030 Iterative Product Prototyping for Engineers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GE 5030"
+              ],
+              "code_text": "GE 5030",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 5030"
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "GE 5100 Product Development for Engineers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GE 5100"
+              ],
+              "code_text": "GE 5100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 5100"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "IE 2310 Introduction to Industrial Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IE 2310"
+              ],
+              "code_text": "IE 2310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IE 2310"
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "MISM 2301 Introduction to Information Systems and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2301"
+              ],
+              "code_text": "MISM 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2301"
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "MISM 2420 Foundations of Business Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2420"
+              ],
+              "code_text": "MISM 2420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2420"
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "MKTG 4510 New Product Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 4510"
+              ],
+              "code_text": "MKTG 4510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 4510"
+              }
+            },
+            {
+              "index": 47,
+              "kind": "course",
+              "text": "SCHM 2301 Supply Chain and Operations Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SCHM 2301"
+              ],
+              "code_text": "SCHM 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SCHM 2301"
+              }
+            },
+            {
+              "index": 48,
+              "kind": "course",
+              "text": "SCHM 3301 Global Supply Chain Strategy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SCHM 3301"
+              ],
+              "code_text": "SCHM 3301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SCHM 3301"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "electrical-engineering-bsee-d312efaa",
+  "major_name": "Electrical Engineering",
+  "degree": "BSEE",
+  "campus": "Boston",
+  "college": "College of Engineering",
+  "overview_text": "The components of the information age—global communication systems; computers and computer chips and the software that runs them; as well as pacemakers, magnetic resonance imaging, and interplanetary space missions—are possible because of the efforts of electrical engineers. Today, electrical engineers are developing concepts and working to translate these ideas into the next generation of products: from computers and safe, energy-efficient vehicles, to radar that can detect unexploded land mines from the air, to microrobots that diagnose disease from inside the body. Many electrical engineers work in the traditional areas of communications, computation, and control and components required to realize such systems. They are involved in design and product development, testing and quality control, sales and marketing, and manufacturing. Others use their problem-solving skills in diverse areas such as bioengineering, healthcare, electronic music, meteorology, and experimental psychology. Some graduates draw on their electrical engineering backgrounds to launch successful careers as physicians, financial analysts, attorneys, and entrepreneurs. The BSEE degree requires a sequence of core courses and advanced study in one or more technical elective areas: electronic circuits and devices; signals and systems; fields, waves, and optics; power engineering; or computer engineering. General electives and electives in the arts and humanities and social sciences are also required. Visit the department website for educational program objectives.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements Interpreting Culture (IC), Understanding Societies and Institutions (SI), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.\nEngineering Requirements\nCourse List\nCode\nTitle\nHours\nRequired Courses\nEECE 2140\nComputing Fundamentals for Engineers\n4\nEECE 2150\nCircuits and Signals: Biomedical Applications\n5\nEECE 2160\nEmbedded Design: Enabling Robotics\n4\nElectrical Engineering Fundamentals\nEECE 2412\nand\nEECE 2413\nFundamentals of Electronics\nand Lab for EECE 2412\n5\nEECE 2520\nFundamentals of Linear Systems\n4\nEECE 2530\nand\nEECE 2531\nFundamentals of Electromagnetics\nand Lab for EECE 2530\n5\nComputer Engineering Fundamentals\nIf more than one computer engineering fundamentals course is taken, it can count as a technical elective.\nComplete one of the following:\n4-5\nEECE 2322\nand\nEECE 2323\nFundamentals of Digital Design and Computer Organization\nand Lab for EECE 2322\nEECE 2540\nFundamentals of Networks\nEECE 2560\nFundamentals of Engineering Algorithms\nElectrical Engineering Capstone Courses\nIf taking\nEECE 4791\nin First-Half Summer,\nEECE 4792\nmust be taken in Spring. If taking\nEECE 4791\nin Second-Half Summer,\nEECE 4792\nmust be taken in Fall.\nEECE 4791\nElectrical and Computer Engineering Capstone 1\n1\nEECE 4792\nElectrical and Computer Engineering Capstone 2\n4\nElectrical Engineering Technical Electives\nStudents can register for\nEECE 4991\n/\nEECE 4992\nmore than once. For these courses combined, a maximum of 8 semester hours will be allowed to satisfy the requirement of technical electives. An additional 4 semester hours will be allowed as a general elective. At most, one of these courses (4 semester hours) can be taken in a semester.\nThough students may register for\nEECE 2750\nmore than once, only 4 semester hours will be allowed to satisfy the requirements of technical electives. An additional 4 semester hours will be allowed as a general elective.\nEECE 2310\nis not an approved course option for ECE majors to select for a technical elective. It is only for Khoury students.\nStudents who choose to complete the optional concentration in semiconductor engineering may fulfill this requirement with concentration coursework.\nComplete four of the following:\n16\nEECE 2322\nand\nEECE 2323\nFundamentals of Digital Design and Computer Organization\nand Lab for EECE 2322\nEECE 2540\nto\nEECE 2750\nEECE 3324\nto\nEECE 3410\nEECE 4512 to EECE 4698\nEECE 4991\nResearch\nEECE 4992\nDirected Study\nEECE 5115\nto\nEECE 5699\nEECE 5670\nSustainable Energy: Materials, Conversion, Storage, and Usage\nSupplemental Credit\n2 semester hours from the following counts toward the engineering requirement:\n2\nEECE 3468\nAnalysis of Random Phenomena in Electrical and Computer Engineering\n2 semester hours from the following counts toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following course count toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nSupporting Courses: Mathematics/Science\nComplete all mathematics/science courses with a minimum of 30 semester hours.\nCourse List\nCode\nTitle\nHours\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\n5\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\n5\nSupplemental Credit\n2 semester hours from the following counts toward the mathematics/science requirement:\n2\nEECE 3468\nAnalysis of Random Phenomena in Electrical and Computer Engineering\n1 semester hour from the following counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nProfessional Development\nCourse List\nCode\nTitle\nHours\nProfessional Development\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nGE 1000\nFirst-Year Seminar\n1\nAdditional Required Courses\n1 semester hour from the following counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade of C or higher is required:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 semester hours of academic, nonremedial, nonrepetitive courses. Students who choose to complete the optional concentration in semiconductor engineering may apply concentration coursework to this requirement.\n28\n1\nStudents can substitute Engineering Design (\nGE 1110\n) and Engineering Problem Solving and Computation (\nGE 1111\n) for Cornerstone of Engineering 1 (\nGE 1501\n) and Cornerstone of Engineering 2 (\nGE 1502\n) .\nOptional Concentration\nStudents may complete an optional concentration. Courses completed in the optional concentration may be applied toward this program's technical elective requirement course ranges or toward this program's general elective requirements.\nStudents interested in declaring this concentration should discuss course selection with an ECE advisor.\nSemiconductor Engineering\nMajor GPA Requirement\nMinimum 2.000 GPA required in EECE courses\nProgram Requirement\n133 total semester hours required\nSemiconductor Engineering Concentration\nCourse List\nCode\nTitle\nHours\nEECE Core\nComplete four of the following (other courses outside of this list may fulfill this requirement if approved by COE Undergraduate Advising):\n16\nEECE 3392\nElectronic Materials\nEECE 3410\nElectronic Design\nEECE 4534\nMicroprocessor-Based Design\nEECE 4574\nWireless Communication Circuits\nEECE 4604\nIntegrated Circuit Devices\nEECE 4632\nHardware-Software Codesign for FPGA-Based Systems\nEECE 4646\nOptics for Engineers\nEECE 5161\nThin Film Technologies\nEECE 5170\nIntroduction to Multiferroics Materials and Systems\nEECE 5606\nMicro- and Nanofabrication\nEECE 5608\nMagnetic Materials for Next-Generation Electronics\nEECE 5647\nNanophotonics\nEECE 5649\nDesign of Analog Integrated Circuits with Complementary Metal-Oxide-Semiconductor Technology\nEECE 5651\nIntroduction to Photonic Devices\nEECE 5653\nIntroduction to Quantum Engineering\nEngineering and Science Breadth\nComplete one of the following:\n4\nCHME 2310\nTransport Processes 1\nCHME 2320\nEngineering Thermodynamics\nCHME 3312\nTransport Processes 2\nCHME 3322\nChemical Thermodynamics\nCHME 4512\nChemical Engineering Process Control\nCHME 5105\nMaterials Characterization Techniques\nIE 4530\nManufacturing Systems and Techniques\nIE 5617\nLean Concepts and Applications\nME 2340\nIntroduction to Material Science\nME 5600\nMaterials Processing and Process Selection\nME 5620\nFundamentals of Advanced Materials\nPHYS 4305\nThermodynamics and Statistical Mechanics\nPHYS 4623\nMedical Physics\nPHYS 5114\nPhysics and Applications of Quantum Materials\nPHYS 5260\nIntroduction to Nanoscience and Nanotechnology\nPHYS 5318\nPrinciples of Experimental Physics\nPHYS 5352\nQuantum Computation and Information\nProject Management, Product Development, and Entrepreneurship\nComplete one of the following:\n4\nENTR 3330\nDesign Thinking for Startups\nGE 5010\nCustomer-Driven Technical Innovation for Engineers\nGE 5020\nEngineering Product Design Methodology\nGE 5030\nIterative Product Prototyping for Engineers\nGE 5100\nProduct Development for Engineers\nIE 2310\nIntroduction to Industrial Engineering\nMISM 2301\nIntroduction to Information Systems and Digital Technologies\nMISM 2420\nFoundations of Business Analysis\nMKTG 4510\nNew Product Development\nSCHM 2301\nSupply Chain and Operations Management\nSCHM 3301\nGlobal Supply Chain Strategy",
+  "referenced_courses": [
+    "CHEM 1151",
+    "CHEM 1153",
+    "CHME 2310",
+    "CHME 2320",
+    "CHME 3312",
+    "CHME 3322",
+    "CHME 4512",
+    "CHME 5105",
+    "EECE 2140",
+    "EECE 2150",
+    "EECE 2160",
+    "EECE 2310",
+    "EECE 2322",
+    "EECE 2323",
+    "EECE 2412",
+    "EECE 2413",
+    "EECE 2520",
+    "EECE 2530",
+    "EECE 2531",
+    "EECE 2540",
+    "EECE 2560",
+    "EECE 2750",
+    "EECE 3324",
+    "EECE 3392",
+    "EECE 3410",
+    "EECE 3468",
+    "EECE 4534",
+    "EECE 4574",
+    "EECE 4604",
+    "EECE 4632",
+    "EECE 4646",
+    "EECE 4791",
+    "EECE 4792",
+    "EECE 4991",
+    "EECE 4992",
+    "EECE 5115",
+    "EECE 5161",
+    "EECE 5170",
+    "EECE 5606",
+    "EECE 5608",
+    "EECE 5647",
+    "EECE 5649",
+    "EECE 5651",
+    "EECE 5653",
+    "EECE 5670",
+    "EECE 5699",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "ENTR 3330",
+    "GE 1000",
+    "GE 1501",
+    "GE 1502",
+    "GE 5010",
+    "GE 5020",
+    "GE 5030",
+    "GE 5100",
+    "IE 2310",
+    "IE 4530",
+    "IE 5617",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "ME 2340",
+    "ME 5600",
+    "ME 5620",
+    "MISM 2301",
+    "MISM 2420",
+    "MKTG 4510",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 4305",
+    "PHYS 4623",
+    "PHYS 5114",
+    "PHYS 5260",
+    "PHYS 5318",
+    "PHYS 5352",
+    "SCHM 2301",
+    "SCHM 3301"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+    },
+    {
+      "text": "GE 1110",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201110"
+    },
+    {
+      "text": "GE 1111",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201111"
+    },
+    {
+      "text": "GE 1501",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201501"
+    },
+    {
+      "text": "GE 1502",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201502"
+    },
+    {
+      "text": "Semiconductor Engineering",
+      "url": "https://catalog.northeastern.edu/undergraduate/engineering/electrical-computer/electrical-engineering-bsee/#BSEE-semiconductor-engineering-conc"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": "nupathtext"
+    },
+    {
+      "text": "Semiconductor Engineering",
+      "url": "https://catalog.northeastern.edu/undergraduate/engineering/electrical-computer/electrical-engineering-bsee/#BSEE-semiconductor-engineering-conc",
+      "document_id": "electrical-engineering-bsee-d312efaa",
+      "kind": "program",
+      "fragment": "BSEE-semiconductor-engineering-conc"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

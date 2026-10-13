@@ -1,0 +1,1673 @@
+{
+  "document_id": "computer-science-game-development-bs-b888f2c8",
+  "kind": "program",
+  "title": "Computer Science and Game Development, BS (Boston)",
+  "catalog_year": "2026-2027",
+  "source_url": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-game-development-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Courses",
+      "heading_path": [
+        "Computer Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ARTF 1000 Art and Design at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1000"
+              ],
+              "code_text": "or ARTF 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ARTF 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or INPR 1000 First-Year Interdisciplinary Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INPR 1000"
+              ],
+              "code_text": "or INPR 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INPR 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or EEAM 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EEAM 2000"
+              ],
+              "code_text": "or EEAM 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EEAM 2000"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "All students can take a self-assessment to attempt to place out of CS 2000 and CS 2001 . Students who place out of CS 2000 and CS 2001 will instead substitute 4-5 semester hours of CS, CY, or DS coursework at the 3000 level or higher not otherwise required in the degree.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 1800 Discrete Structures",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800"
+              ],
+              "code_text": "CS 1800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1800"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 2000 and CS 2001 Introduction to Program Design and Implementation and Lab for CS 2000",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2000",
+                "CS 2001"
+              ],
+              "code_text": "CS 2000 and CS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 2100 and CS 2101 Program Design and Implementation 1 and Lab for CS 2100",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2100",
+                "CS 2101"
+              ],
+              "code_text": "CS 2100 and CS 2101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2100"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2101"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CS 2386 Game Programming 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 2386"
+              ],
+              "code_text": "CS 2386",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2386"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CS 2700 and CS 2701 Data Structures and Analysis and Lab for CS 2700",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2700",
+                "CS 2701"
+              ],
+              "code_text": "CS 2700 and CS 2701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2700"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2701"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CS 3100 and CS 3101 Program Design and Implementation 2 and Lab for CS 3100",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3100",
+                "CS 3101"
+              ],
+              "code_text": "CS 3100 and CS 3101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3100"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3101"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CS 3386 Game Programming 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3386"
+              ],
+              "code_text": "CS 3386",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3386"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CS 3520 Programming in C++ (Integrative course)",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3520"
+              ],
+              "code_text": "CS 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3520"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CS 3650 Computer Systems",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3650"
+              ],
+              "code_text": "CS 3650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3650"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CS 4300 Computer Graphics (Integrative course)",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4300"
+              ],
+              "code_text": "CS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4300"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CS 4530 Fundamentals of Software Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4530"
+              ],
+              "code_text": "CS 4530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4530"
+              },
+              "alternative_group": 20
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "or CS 4535 Professional Practicum Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4535"
+              ],
+              "code_text": "or CS 4535",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4535"
+              },
+              "alternative_group": 20
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              },
+              "alternative_group": 22
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "or CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "or CS 4730",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              },
+              "alternative_group": 22
+            },
+            {
+              "index": 24,
+              "kind": "header",
+              "text": "Khoury Approved Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "CS 4150 Game Artificial Intelligence (Integrative course)",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4150"
+              ],
+              "code_text": "CS 4150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4150"
+              },
+              "alternative_group": 25
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "or CS 2484 Principles of Human-Computer Interaction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 2484"
+              ],
+              "code_text": "or CS 2484",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2484"
+              },
+              "alternative_group": 25
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "or CS 4097 Mixed Reality",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4097"
+              ],
+              "code_text": "or CS 4097",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4097"
+              },
+              "alternative_group": 25
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Game Design Courses",
+      "heading_path": [
+        "Game Design Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Game Design Required",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "GAME 1110 Games and Society",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 1110"
+              ],
+              "code_text": "GAME 1110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 1110"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "GAME 2500 Foundations of Game Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 2500"
+              ],
+              "code_text": "GAME 2500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 2500"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "GAME 2950 Game Studio",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 2950"
+              ],
+              "code_text": "GAME 2950",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 2950"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "GAME 3400 Level Design and Game Architecture",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 3400"
+              ],
+              "code_text": "GAME 3400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 3400"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "GAME 3700 Rapid Idea Prototyping for Games",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 3700"
+              ],
+              "code_text": "GAME 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 3700"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GAME 3800 Game Concept Development",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 3800"
+              ],
+              "code_text": "GAME 3800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 3800"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "GAME 4700 Game Design Capstone",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GAME 4700"
+              ],
+              "code_text": "GAME 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 4700"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "header",
+              "text": "Game Design Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 9,
+              "kind": "instruction",
+              "text": "Complete 4 semester hours of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "GAME 1850 Experimental Game Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GAME 1850"
+              ],
+              "code_text": "GAME 1850",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 1850"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "GAME 3300 Game Interface Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GAME 3300"
+              ],
+              "code_text": "GAME 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 3300"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "GAME 4000 Topics in Game Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GAME 4000"
+              ],
+              "code_text": "GAME 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 4000"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "header",
+              "text": "Khoury/Game-Related Approved Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 14,
+              "kind": "instruction",
+              "text": "Complete 12 semester hours from within the following options:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 12.0
+              }
+            },
+            {
+              "index": 15,
+              "kind": "note",
+              "text": "Any course in ARTD, ARTE, ARTF, ARTG, ARTH, or EXRE ( EXRE 5011 and 5010 , EXRE 5020 , EXRE 5030 ), or GAME subject areas as long as prerequisites have been met.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "If GAME 4000 (or any other topics course in the subjects listed above) is completed more than once, the additional completions may be allowed toward the Game Design electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "elective_filter",
+              "text": "CS 2300 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2300",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 18,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "EECE 2160 Embedded Design: Enabling Robotics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2160"
+              ],
+              "code_text": "EECE 2160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2160"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "EECE 2322 and EECE 2323 Fundamentals of Digital Design and Computer Organization and Lab for EECE 2322",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2322",
+                "EECE 2323"
+              ],
+              "code_text": "EECE 2322 and EECE 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "MATH 2331 Linear Algebra",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2331"
+              ],
+              "code_text": "MATH 2331",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2331"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "MKTG 4606 Digital, Analytics, Technology, and Automation Research Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 4606"
+              ],
+              "code_text": "MKTG 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 4606"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "ECON 2350 Statistics for Economists",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              },
+              "alternative_group": 25
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "or PSYC 2320 Statistics in Psychological Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 2320"
+              ],
+              "code_text": "or PSYC 2320",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 2320"
+              },
+              "alternative_group": 25
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "PSYC 1101 Foundations of Psychology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1101"
+              ],
+              "code_text": "PSYC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1101"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1260 Math Fundamentals for Games (Integrative course)",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1260"
+              ],
+              "code_text": "MATH 1260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1260"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one course from the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "elective_filter",
+              "text": "MATH 1342 or higher",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "MATH",
+                "minimum_number": "1342"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3314 Advanced Writing in the Arts, Media, and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3314"
+              ],
+              "code_text": "or ENGW 3314",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3314"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 3
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 12 semester hours of general electives.",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 12.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Advanced Writing in the Disciplines Analyzing and Using Data Conducting Formal and Quantitative Reasoning Demonstrating Thought and Action in a Capstone Engaging with the Natural and Designed World Exploring Creative Expression and Innovation Understanding Societies and Institutions Writing in the First Year Writing-Intensive in the Major",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Advanced Writing in the Disciplines",
+            "Analyzing and Using Data",
+            "Conducting Formal and Quantitative Reasoning",
+            "Demonstrating Thought and Action in a Capstone",
+            "Engaging with the Natural and Designed World",
+            "Exploring Creative Expression and Innovation",
+            "Understanding Societies and Institutions",
+            "Writing in the First Year",
+            "Writing-Intensive in the Major"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "133 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computer-science-game-development-bs-b888f2c8",
+  "major_name": "Computer Science and Game Development",
+  "degree": "BS",
+  "campus": "Boston",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The computer science and game development combined major focuses on the specific skills needed to succeed in the highly competitive game industry. Students will engage in building and developing games and playable media experiences while completing courses in computer science and specialized game technology and design. Interdisciplinary courses enable students to develop their creative and entrepreneurial abilities, as well as create a strong portfolio of game pieces.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Courses\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nARTF 1000\nArt and Design at Northeastern\nor\nINPR 1000\nFirst-Year Interdisciplinary Seminar\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEEAM 2000\nProfessional Development for Co-op\nComputer Science Fundamental Courses\nAll students can take a self-assessment to attempt to place out of\nCS 2000\nand\nCS 2001\n. Students who place out of\nCS 2000\nand\nCS 2001\nwill instead substitute 4-5 semester hours of CS, CY, or DS coursework at the 3000 level or higher not otherwise required in the degree.\nCS 1800\nDiscrete Structures\n4\nCS 2000\nand\nCS 2001\nIntroduction to Program Design and Implementation\nand Lab for CS 2000\n5\nCS 2100\nand\nCS 2101\nProgram Design and Implementation 1\nand Lab for CS 2100\n5\nComputer Science Required Courses\nCS 2386\nGame Programming 1\n4\nCS 2700\nand\nCS 2701\nData Structures and Analysis\nand Lab for CS 2700\n5\nCS 3100\nand\nCS 3101\nProgram Design and Implementation 2\nand Lab for CS 3100\n5\nCS 3386\nGame Programming 2\n4\nCS 3520\nProgramming in C++ (Integrative course)\n4\nCS 3650\nComputer Systems\n4\nCS 4300\nComputer Graphics (Integrative course)\n4\nCS 4530\nFundamentals of Software Engineering\n4\nor\nCS 4535\nProfessional Practicum Capstone\nCS 4700\nNetwork Fundamentals\n4\nor\nCS 4730\nDistributed Systems\nKhoury Approved Electives\nCS 4150\nGame Artificial Intelligence (Integrative course)\n4\nor\nCS 2484\nPrinciples of Human-Computer Interaction\nor\nCS 4097\nMixed Reality\nGame Design Courses\nCourse List\nCode\nTitle\nHours\nGame Design Required\nGAME 1110\nGames and Society\n4\nGAME 2500\nFoundations of Game Design\n4\nGAME 2950\nGame Studio\n4\nGAME 3400\nLevel Design and Game Architecture\n4\nGAME 3700\nRapid Idea Prototyping for Games\n4\nGAME 3800\nGame Concept Development\n4\nGAME 4700\nGame Design Capstone\n4\nGame Design Elective\nComplete 4 semester hours of the following:\n4\nGAME 1850\nExperimental Game Design\nGAME 3300\nGame Interface Design\nGAME 4000\nTopics in Game Design\nKhoury/Game-Related Approved Electives\nComplete 12 semester hours from within the following options:\n12\nAny course in ARTD, ARTE, ARTF, ARTG, ARTH,  or EXRE (\nEXRE 5011\nand\n5010\n,\nEXRE 5020\n,\nEXRE 5030\n), or GAME subject areas as long as prerequisites have been met.\nIf\nGAME 4000\n(or any other topics course in the subjects listed above) is completed more than once, the additional completions may be allowed toward the Game Design electives.\nCS 2300 or higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500 or higher, except DS 4900\nEECE 2160\nEmbedded Design: Enabling Robotics\nEECE 2322\nand\nEECE 2323\nFundamentals of Digital Design and Computer Organization\nand Lab for EECE 2322\nMATH 1342\nCalculus 2 for Science and Engineering\nMATH 2331\nLinear Algebra\nMKTG 4606\nDigital, Analytics, Technology, and Automation Research Practicum\nECON 2350\nStatistics for Economists\nor\nPSYC 2320\nStatistics in Psychological Research\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nPsychology\nPSYC 1101\nFoundations of Psychology\n4\nMathematics\nMATH 1260\nMath Fundamentals for Games (Integrative course)\n4\nComplete one course from the following:\n4\nMATH 1341\nCalculus 1 for Science and Engineering\nMATH 1342\nor higher\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nAdvanced Writing in the Disciplines\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3314\nAdvanced Writing in the Arts, Media, and Design\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 12 semester hours of general electives.\n12\nNUpath Requirements Satisfied\nAdvanced Writing in the Disciplines\nAnalyzing and Using Data\nConducting Formal and Quantitative Reasoning\nDemonstrating Thought and Action in a Capstone\nEngaging with the Natural and Designed World\nExploring Creative Expression and Innovation\nUnderstanding Societies and Institutions\nWriting in the First Year\nWriting-Intensive in the Major\nIntegrating Knowledge and Skills through Experience is satisfied through co-op.\nProgram Requirement\n133 total semester hours required",
+  "referenced_courses": [
+    "ARTF 1000",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 2000",
+    "CS 2001",
+    "CS 2100",
+    "CS 2101",
+    "CS 2386",
+    "CS 2484",
+    "CS 2700",
+    "CS 2701",
+    "CS 3100",
+    "CS 3101",
+    "CS 3386",
+    "CS 3520",
+    "CS 3650",
+    "CS 4097",
+    "CS 4150",
+    "CS 4300",
+    "CS 4530",
+    "CS 4535",
+    "CS 4700",
+    "CS 4730",
+    "CS 5010",
+    "CY 4930",
+    "ECON 2350",
+    "EEAM 2000",
+    "EECE 2160",
+    "EECE 2322",
+    "EECE 2323",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3314",
+    "ENGW 3315",
+    "EXRE 5010",
+    "EXRE 5011",
+    "EXRE 5020",
+    "EXRE 5030",
+    "GAME 1110",
+    "GAME 1850",
+    "GAME 2500",
+    "GAME 2950",
+    "GAME 3300",
+    "GAME 3400",
+    "GAME 3700",
+    "GAME 3800",
+    "GAME 4000",
+    "GAME 4700",
+    "INPR 1000",
+    "MATH 1260",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2331",
+    "MKTG 4606",
+    "PSYC 1101",
+    "PSYC 2320"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": "nupathtext"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

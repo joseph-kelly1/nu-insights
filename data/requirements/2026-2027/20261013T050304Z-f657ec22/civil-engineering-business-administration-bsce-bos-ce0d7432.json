@@ -1,0 +1,2652 @@
+{
+  "document_id": "civil-engineering-business-administration-bsce-bos-ce0d7432",
+  "kind": "program",
+  "title": "Civil Engineering and Business Administration, BSCE (Boston)",
+  "catalog_year": "2026-2027",
+  "source_url": "https://catalog.northeastern.edu/undergraduate/engineering/civil-environmental/civil-engineering-business-administration-bsce-bos/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements: Interpreting Culture (IC), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering Requirements",
+      "heading_path": [
+        "Engineering Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CIVE 2221 and CIVE 2222 Statics and Solid Mechanics and Recitation for CIVE 2221",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2221",
+                "CIVE 2222"
+              ],
+              "code_text": "CIVE 2221 and CIVE 2222",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2221"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2222"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CIVE 2260 and CIVE 2261 Materials for the Built Environment and Lab for CIVE 2260",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2260",
+                "CIVE 2261"
+              ],
+              "code_text": "CIVE 2260 and CIVE 2261",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2260"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2261"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CIVE 2320 and CIVE 2321 Structural Analysis and Recitation for CIVE 2320",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2320",
+                "CIVE 2321"
+              ],
+              "code_text": "CIVE 2320 and CIVE 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2320"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2321"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CIVE 2324 Concrete Structure Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2324"
+              ],
+              "code_text": "CIVE 2324",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2324"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or CIVE 3425 Steel Structure Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3425"
+              ],
+              "code_text": "or CIVE 3425",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3425"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CIVE 2331 Fluid Mechanics and Hydraulics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2331"
+              ],
+              "code_text": "CIVE 2331",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2331"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CIVE 2334 Environmental Engineering: Principles, Technology, and Sustainability",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2334"
+              ],
+              "code_text": "CIVE 2334",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2334"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CIVE 2340 and CIVE 2341 Geotechnical Engineering and Lab for CIVE 2340",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2340",
+                "CIVE 2341"
+              ],
+              "code_text": "CIVE 2340 and CIVE 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2340"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2341"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "GE 3300 Energy Systems: Science, Technology, and Sustainability",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 3300"
+              ],
+              "code_text": "GE 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 3300"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Civil Engineering Project Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CIVE 4534 and CIVE 4535 Water Treatment Systems Design and Lab for CIVE 4534",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4534",
+                "CIVE 4535"
+              ],
+              "code_text": "CIVE 4534 and CIVE 4535",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 4534"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 4535"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CIVE 4542 Foundation Engineering and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4542"
+              ],
+              "code_text": "CIVE 4542",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4542"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CIVE 4554 Highway Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4554"
+              ],
+              "code_text": "CIVE 4554",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4554"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CIVE 5536 Hydrologic and Hydraulic Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5536"
+              ],
+              "code_text": "CIVE 5536",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5536"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Senior Design Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CIVE 4765 Senior Design Project—Environmental",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4765"
+              ],
+              "code_text": "CIVE 4765",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4765"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CIVE 4767 Senior Design Project—Structural",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4767"
+              ],
+              "code_text": "CIVE 4767",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4767"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CIVE 4768 Senior Design Project—Transportation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4768"
+              ],
+              "code_text": "CIVE 4768",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4768"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 22,
+              "kind": "note",
+              "text": "2 semester hours from the following counts toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "3 semester hours from the following counts toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business Requirements",
+      "heading_path": [
+        "Business Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Business Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ACCT 1201 Financial Accounting and Reporting",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ACCT 1201"
+              ],
+              "code_text": "ACCT 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ACCT 1201"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ECON 1115 Principles of Macroeconomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1115"
+              ],
+              "code_text": "ECON 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1115"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ECON 1116 Principles of Microeconomics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1116"
+              ],
+              "code_text": "or ECON 1116",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1116"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Required Business Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ACCT 2301 Profit Analysis for Managers and Advisors",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ACCT 2301"
+              ],
+              "code_text": "ACCT 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ACCT 2301"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "FINA 2201 Financial Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 2201"
+              ],
+              "code_text": "FINA 2201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 2201"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "INNO 2301 Innovation!",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INNO 2301"
+              ],
+              "code_text": "INNO 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INNO 2301"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "INTB 1203 International Business and Global Social Responsibility",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INTB 1203"
+              ],
+              "code_text": "INTB 1203",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INTB 1203"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "MISM 2301 Introduction to Information Systems and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2301"
+              ],
+              "code_text": "MISM 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2301"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "MKTG 2201 Introduction to Marketing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 2201"
+              ],
+              "code_text": "MKTG 2201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 2201"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ORGB 3201 Organizational Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ORGB 3201"
+              ],
+              "code_text": "ORGB 3201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ORGB 3201"
+              },
+              "alternative_group": 12
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "or ORGB 3203 Behavioral Aspects of Digital Transformation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ORGB 3203"
+              ],
+              "code_text": "or ORGB 3203",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ORGB 3203"
+              },
+              "alternative_group": 12
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "SCHM 2301 Supply Chain and Operations Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SCHM 2301"
+              ],
+              "code_text": "SCHM 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SCHM 2301"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "STRT 4501 Strategy in Action",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "STRT 4501"
+              ],
+              "code_text": "STRT 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "STRT 4501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all mathematics/science courses with a minimum of 30 semester hours.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Mathematics/Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "MGSC 2301 Business Statistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MGSC 2301"
+              ],
+              "code_text": "MGSC 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MGSC 2301"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 and PHYS 1163 Physics 1 and Lab for PHYS 1161 and Recitation for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162",
+                "PHYS 1163"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162 and PHYS 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "BIOL 1111 and BIOL 1112 General Biology 1 and Lab for BIOL 1111",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111",
+                "BIOL 1112"
+              ],
+              "code_text": "BIOL 1111 and BIOL 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1112"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "BIOL 1141 Microbes and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1141"
+              ],
+              "code_text": "BIOL 1141",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 1141"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "BIOL 1143 Biology and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1143"
+              ],
+              "code_text": "BIOL 1143",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 1143"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CHEM 2311 and CHEM 2312 Organic Chemistry 1 and Lab for CHEM 2311",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2311",
+                "CHEM 2312"
+              ],
+              "code_text": "CHEM 2311 and CHEM 2312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2312"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CHEM 3410 Environmental Geochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3410"
+              ],
+              "code_text": "CHEM 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 3410"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "EEMB 1101 and EEMB 1102 Foundations in Ecology and Evolutionary Biology and Lab for EEMB 1101",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 1101",
+                "EEMB 1102"
+              ],
+              "code_text": "EEMB 1101 and EEMB 1102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1101"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1102"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "EEMB 2302 and EEMB 2303 Ecology and Lab for EEMB 2302",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2302",
+                "EEMB 2303"
+              ],
+              "code_text": "EEMB 2302 and EEMB 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2302"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2303"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "ENVR 1200 Dynamic Earth",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1200"
+              ],
+              "code_text": "ENVR 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1200"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "ENVR 2200 Earth's Changing Cycles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2200"
+              ],
+              "code_text": "ENVR 2200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2200"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "ENVR 2515 Sustainable Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2515"
+              ],
+              "code_text": "ENVR 2515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2515"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "ENVR 3125 Global Oceanic Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3125"
+              ],
+              "code_text": "ENVR 3125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3125"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "ENVR 3200 Water Resources",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3200"
+              ],
+              "code_text": "ENVR 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3200"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "ENVR 3600 Oceanography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3600"
+              ],
+              "code_text": "ENVR 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3600"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "ENVR 5350 Sustainable Energy and Climate Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5350"
+              ],
+              "code_text": "ENVR 5350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5350"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "PHYS 1111 Introduction to Astronomy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1111"
+              ],
+              "code_text": "PHYS 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1111"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "PHYS 1125 Introduction to Network Science: From the Human Cell to Facebook",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1125"
+              ],
+              "code_text": "PHYS 1125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1125"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "PHYS 1132 Energy, Environment, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1132"
+              ],
+              "code_text": "PHYS 1132",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1132"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "PHYS 4623 Medical Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4623"
+              ],
+              "code_text": "PHYS 4623",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4623"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 32,
+              "kind": "note",
+              "text": "1 semester hour from the following counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business Concentration Requirement",
+      "heading_path": [
+        "Business Concentration Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete one of the following:",
+          "links": [],
+          "constraints": {
+            "selection_count": 1
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Accounting Accounting and Advisory Services Brand Management Business Analytics Corporate Innovation Entrepreneurial Startups Finance Fintech Healthcare Management and Consulting Management Management Information Systems Marketing Marketing Analytics Social Innovation and Entrepreneurship Supply Chain Management",
+          "links": [
+            {
+              "text": "Accounting",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/accounting"
+            },
+            {
+              "text": "Accounting and Advisory Services",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/accounting-advisory-services/index.html"
+            },
+            {
+              "text": "Brand Management",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/brand-management/"
+            },
+            {
+              "text": "Business Analytics",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/business-analytics/"
+            },
+            {
+              "text": "Corporate Innovation",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/corporate-innovation/"
+            },
+            {
+              "text": "Entrepreneurial Startups",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/entrepreneurial-startups/"
+            },
+            {
+              "text": "Finance",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/finance"
+            },
+            {
+              "text": "Fintech",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/fintech/"
+            },
+            {
+              "text": "Healthcare Management and Consulting",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/healthcare-management-consulting/"
+            },
+            {
+              "text": "Management",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/management"
+            },
+            {
+              "text": "Management Information Systems",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/management-information-systems"
+            },
+            {
+              "text": "Marketing",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/marketing"
+            },
+            {
+              "text": "Marketing Analytics",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/marketing-analytics/"
+            },
+            {
+              "text": "Social Innovation and Entrepreneurship",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/social-innovation-entrepreneurship/"
+            },
+            {
+              "text": "Supply Chain Management",
+              "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/supply-chain-management"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Accounting",
+            "Accounting and Advisory Services",
+            "Brand Management",
+            "Business Analytics",
+            "Corporate Innovation",
+            "Entrepreneurial Startups",
+            "Finance",
+            "Fintech",
+            "Healthcare Management and Consulting",
+            "Management",
+            "Management Information Systems",
+            "Marketing",
+            "Marketing Analytics",
+            "Social Innovation and Entrepreneurship",
+            "Supply Chain Management"
+          ]
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Professional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "1 semester hour from the following counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "1 semester hour from the following counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute Engineering Design ( GE 1110 ) and Engineering Problem Solving and Computation ( GE 1111 ) for Cornerstone of Engineering 1 ( GE 1501 ) and Cornerstone of Engineering 2 ( GE 1502 ).",
+          "links": [
+            {
+              "text": "GE 1110",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201110"
+            },
+            {
+              "text": "GE 1111",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201111"
+            },
+            {
+              "text": "GE 1501",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201501"
+            },
+            {
+              "text": "GE 1502",
+              "url": "https://catalog.northeastern.edu/search/?P=GE%201502"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade C or higher is required:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3304 Advanced Writing in the Business Administration Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3304"
+              ],
+              "code_text": "or ENGW 3304",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3304"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 4 semester hours of academic, nonremedial, nonrepetitive courses. This class must complete the DD and IC NUpath requirements.",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Courses",
+      "heading_path": [
+        "Integrative Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "The courses below fulfill the Integrative Courses requirement. Students complete one of these courses as part of the Engineering Requirements.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CIVE 4765 Senior Design Project—Environmental",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4765"
+              ],
+              "code_text": "CIVE 4765",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4765"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CIVE 4767 Senior Design Project—Structural",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4767"
+              ],
+              "code_text": "CIVE 4767",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4767"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CIVE 4768 Senior Design Project—Transportation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4768"
+              ],
+              "code_text": "CIVE 4768",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4768"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business GPA Requirement",
+      "heading_path": [
+        "Business GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in business courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Major GPA Requirement",
+      "heading_path": [
+        "Major GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "2.000 minimum GPA required in CIVE and business coursework",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "135 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "civil-engineering-business-administration-bsce-bos-ce0d7432",
+  "major_name": "Civil Engineering and Business Administration",
+  "degree": "BSCE",
+  "campus": "Boston",
+  "college": "College of Engineering",
+  "overview_text": "The combined major in civil engineering and business is designed to educate students in topics of both disciplines and the interface between them. Civil engineering deals with designing, constructing, and operating systems that include structures, infrastructure, facilities for hazardous materials and their remediation, the environment, people, and the management of associated large-scale projects. A combined degree with the D’Amore-McKim School of Business enables students to develop the skills needed to lead in today’s technologically driven world and integrate entrepreneurial skills into their practice. The curriculum combines knowledge in both civil engineering fundamentals and business management principles, offering students an opportunity to develop the critical thinking, creativity, and business perspective required to become leaders in a profession addressing increasingly complex societal problems.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements: Interpreting Culture (IC), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.\nEngineering Requirements\nCourse List\nCode\nTitle\nHours\nRequired Engineering\nCIVE 2221\nand\nCIVE 2222\nStatics and Solid Mechanics\nand Recitation for CIVE 2221\n4\nCIVE 2260\nand\nCIVE 2261\nMaterials for the Built Environment\nand Lab for CIVE 2260\n5\nCIVE 2320\nand\nCIVE 2321\nStructural Analysis\nand Recitation for CIVE 2320\n4\nCIVE 2324\nConcrete Structure Design\n4\nor\nCIVE 3425\nSteel Structure Design\nCIVE 2331\nFluid Mechanics and Hydraulics\n4\nCIVE 2334\nEnvironmental Engineering: Principles, Technology, and Sustainability\n4\nCIVE 2340\nand\nCIVE 2341\nGeotechnical Engineering\nand Lab for CIVE 2340\n5\nGE 3300\nEnergy Systems: Science, Technology, and Sustainability\n4\nCivil Engineering Project Elective\nComplete one of the following:\n4\nCIVE 4534\nand\nCIVE 4535\nWater Treatment Systems Design\nand Lab for CIVE 4534\nCIVE 4542\nFoundation Engineering and Design\nCIVE 4554\nHighway Design\nCIVE 5536\nHydrologic and Hydraulic Design\nSenior Design Project\nComplete one of the following:\n5\nCIVE 4765\nSenior Design Project—Environmental\nCIVE 4767\nSenior Design Project—Structural\nCIVE 4768\nSenior Design Project—Transportation\nSupplemental Credit\n2 semester hours from the following counts toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following counts toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nBusiness Requirements\nCourse List\nCode\nTitle\nHours\nRequired Business Courses\nACCT 1201\nFinancial Accounting and Reporting\n4\nECON 1115\nPrinciples of Macroeconomics\n4\nor\nECON 1116\nPrinciples of Microeconomics\nRequired Business Electives\nComplete three of the following:\n12\nACCT 2301\nProfit Analysis for Managers and Advisors\nFINA 2201\nFinancial Management\nINNO 2301\nInnovation!\nINTB 1203\nInternational Business and Global Social Responsibility\nMISM 2301\nIntroduction to Information Systems and Digital Technologies\nMKTG 2201\nIntroduction to Marketing\nORGB 3201\nOrganizational Behavior\nor\nORGB 3203\nBehavioral Aspects of Digital Transformation\nSCHM 2301\nSupply Chain and Operations Management\nSTRT 4501\nStrategy in Action\nSupporting Courses: Mathematics/Science\nComplete all mathematics/science courses with a minimum of 30 semester hours.\nCourse List\nCode\nTitle\nHours\nRequired Mathematics/Science\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nMGSC 2301\nBusiness Statistics\n4\nComplete one of the following:\n5\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPHYS 1161\nand\nPHYS 1162\nand\nPHYS 1163\nPhysics 1\nand Lab for PHYS 1161\nand Recitation for PHYS 1161\nScience Elective\nComplete one of the following:\n4-5\nBIOL 1111\nand\nBIOL 1112\nGeneral Biology 1\nand Lab for BIOL 1111\nBIOL 1141\nMicrobes and Society\nBIOL 1143\nBiology and Society\nCHEM 2311\nand\nCHEM 2312\nOrganic Chemistry 1\nand Lab for CHEM 2311\nCHEM 3410\nEnvironmental Geochemistry\nEEMB 1101\nand\nEEMB 1102\nFoundations in Ecology and Evolutionary Biology\nand Lab for EEMB 1101\nEEMB 2302\nand\nEEMB 2303\nEcology\nand Lab for EEMB 2302\nENVR 1200\nDynamic Earth\nENVR 2200\nEarth's Changing Cycles\nENVR 2515\nSustainable Development\nENVR 3125\nGlobal Oceanic Change\nENVR 3200\nWater Resources\nENVR 3600\nOceanography\nENVR 5350\nSustainable Energy and Climate Solutions\nPHYS 1111\nIntroduction to Astronomy\nPHYS 1125\nIntroduction to Network Science: From the Human Cell to Facebook\nPHYS 1132\nEnergy, Environment, and Society\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nPHYS 4623\nMedical Physics\nSupplemental Credit\n1 semester hour from the following counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nBusiness Concentration Requirement\nComplete one of the following:\nAccounting\nAccounting and Advisory Services\nBrand Management\nBusiness Analytics\nCorporate Innovation\nEntrepreneurial Startups\nFinance\nFintech\nHealthcare Management and Consulting\nManagement\nManagement Information Systems\nMarketing\nMarketing Analytics\nSocial Innovation and Entrepreneurship\nSupply Chain Management\nProfessional Development\nCourse List\nCode\nTitle\nHours\nProfessional Development\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nGE 1000\nFirst-Year Seminar\n1\nAdditional Required Courses\n1 semester hour from the following counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\n1\nStudents can substitute Engineering Design (\nGE 1110\n) and Engineering Problem Solving and Computation (\nGE 1111\n) for Cornerstone of Engineering 1 (\nGE 1501\n) and Cornerstone of Engineering 2 (\nGE 1502\n).\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade C or higher is required:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nor\nENGW 3304\nAdvanced Writing in the Business Administration Professions\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 4 semester hours of academic, nonremedial, nonrepetitive courses. This class must complete the DD and IC NUpath requirements.\n4\nIntegrative Courses\nCourse List\nCode\nTitle\nHours\nThe courses below fulfill the Integrative Courses requirement. Students complete one of these courses as part of the Engineering Requirements.\nCIVE 4765\nSenior Design Project—Environmental\nCIVE 4767\nSenior Design Project—Structural\nCIVE 4768\nSenior Design Project—Transportation\nBusiness GPA Requirement\nMinimum 2.000 GPA required in business courses\nMajor GPA Requirement\n2.000 minimum GPA required in CIVE and business coursework\nProgram Requirement\n135 total semester hours required",
+  "referenced_courses": [
+    "ACCT 1201",
+    "ACCT 2301",
+    "BIOL 1111",
+    "BIOL 1112",
+    "BIOL 1141",
+    "BIOL 1143",
+    "CHEM 1151",
+    "CHEM 1153",
+    "CHEM 2311",
+    "CHEM 2312",
+    "CHEM 3410",
+    "CIVE 2221",
+    "CIVE 2222",
+    "CIVE 2260",
+    "CIVE 2261",
+    "CIVE 2320",
+    "CIVE 2321",
+    "CIVE 2324",
+    "CIVE 2331",
+    "CIVE 2334",
+    "CIVE 2340",
+    "CIVE 2341",
+    "CIVE 3425",
+    "CIVE 4534",
+    "CIVE 4535",
+    "CIVE 4542",
+    "CIVE 4554",
+    "CIVE 4765",
+    "CIVE 4767",
+    "CIVE 4768",
+    "CIVE 5536",
+    "ECON 1115",
+    "ECON 1116",
+    "EEMB 1101",
+    "EEMB 1102",
+    "EEMB 2302",
+    "EEMB 2303",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3304",
+    "ENGW 3315",
+    "ENVR 1200",
+    "ENVR 2200",
+    "ENVR 2515",
+    "ENVR 3125",
+    "ENVR 3200",
+    "ENVR 3600",
+    "ENVR 5350",
+    "FINA 2201",
+    "GE 1000",
+    "GE 1501",
+    "GE 1502",
+    "GE 3300",
+    "INNO 2301",
+    "INTB 1203",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "MGSC 2301",
+    "MISM 2301",
+    "MKTG 2201",
+    "ORGB 3201",
+    "ORGB 3203",
+    "PHYS 1111",
+    "PHYS 1125",
+    "PHYS 1132",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1163",
+    "PHYS 4623",
+    "SCHM 2301",
+    "STRT 4501"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext"
+    },
+    {
+      "text": "Accounting",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/accounting"
+    },
+    {
+      "text": "Accounting and Advisory Services",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/accounting-advisory-services/index.html"
+    },
+    {
+      "text": "Brand Management",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/brand-management/"
+    },
+    {
+      "text": "Business Analytics",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/business-analytics/"
+    },
+    {
+      "text": "Corporate Innovation",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/corporate-innovation/"
+    },
+    {
+      "text": "Entrepreneurial Startups",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/entrepreneurial-startups/"
+    },
+    {
+      "text": "Finance",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/finance"
+    },
+    {
+      "text": "Fintech",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/fintech/"
+    },
+    {
+      "text": "Healthcare Management and Consulting",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/healthcare-management-consulting/"
+    },
+    {
+      "text": "Management",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/management"
+    },
+    {
+      "text": "Management Information Systems",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/management-information-systems"
+    },
+    {
+      "text": "Marketing",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/marketing"
+    },
+    {
+      "text": "Marketing Analytics",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/marketing-analytics/"
+    },
+    {
+      "text": "Social Innovation and Entrepreneurship",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/social-innovation-entrepreneurship/"
+    },
+    {
+      "text": "Supply Chain Management",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/supply-chain-management"
+    },
+    {
+      "text": "GE 1110",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201110"
+    },
+    {
+      "text": "GE 1111",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201111"
+    },
+    {
+      "text": "GE 1501",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201501"
+    },
+    {
+      "text": "GE 1502",
+      "url": "https://catalog.northeastern.edu/search/?P=GE%201502"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/undergraduate/university-academics/general-education-requirements/#nupathtext",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": "nupathtext"
+    },
+    {
+      "text": "Accounting",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/accounting",
+      "document_id": "accounting-6105c251",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Accounting and Advisory Services",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/accounting-advisory-services/index.html",
+      "document_id": "accounting-advisory-services-01c06c07",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Brand Management",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/brand-management/",
+      "document_id": "brand-management-6cb1036d",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Business Analytics",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/business-analytics/",
+      "document_id": "business-analytics-cdf5677b",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Corporate Innovation",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/corporate-innovation/",
+      "document_id": "corporate-innovation-8e9783cd",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Entrepreneurial Startups",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/entrepreneurial-startups/",
+      "document_id": "entrepreneurial-startups-7b47c4f6",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Finance",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/finance",
+      "document_id": "finance-38c1f98d",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Fintech",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/fintech/",
+      "document_id": "fintech-61f29dbf",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Healthcare Management and Consulting",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/healthcare-management-consulting/",
+      "document_id": "healthcare-management-consulting-3bf6f239",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Management",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/management",
+      "document_id": "management-86bb4b70",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Management Information Systems",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/management-information-systems",
+      "document_id": "management-information-systems-98e37866",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Marketing",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/marketing",
+      "document_id": "marketing-494f33ad",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Marketing Analytics",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/marketing-analytics/",
+      "document_id": "marketing-analytics-550ecbd3",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Social Innovation and Entrepreneurship",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/social-innovation-entrepreneurship/",
+      "document_id": "social-innovation-entrepreneurship-ae97b55e",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Supply Chain Management",
+      "url": "https://catalog.northeastern.edu/undergraduate/business/concentrations/supply-chain-management",
+      "document_id": "supply-chain-management-f0501c81",
+      "kind": "concentration",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}
