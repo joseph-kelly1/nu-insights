@@ -1,6 +1,25 @@
+# Secrets
 .env
-.DS_Store
+.env.*
+
+# Python
 __pycache__/
-*.pyc
-courses.db
+*.py[cod]
 .venv/
+venv/
+
+# Generated database (rebuild with: python3 db_loader.py)
+courses.db
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

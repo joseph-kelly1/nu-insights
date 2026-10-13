@@ -4,7 +4,8 @@ Course Advisor — Flask API Backend
 Serves REST endpoints for the React frontend to search, browse, and get
 AI-powered analysis of Northeastern University courses. Course data is
 read from a local SQLite database (courses.db) populated by db_loader.py.
-AI analysis uses free OpenRouter models with per-request fallback.
+AI analysis uses free OpenRouter models with per-request fallback by default, or the
+user's own provider key and model for a single request (see ai_providers.py).
 
 Setup: see README.md (pip install -r requirements.txt, OPENROUTER_API_KEY in .env).
 
@@ -12,6 +13,7 @@ Endpoints:
   GET  /api/search?q=<query>        Search courses by dept code, number, or title
   GET  /api/course/<dept>/<number>   Get full course details (prereqs, coreqs, attributes, schedule context)
   POST /api/analyze                  AI-generated course breakdown (summary, audience, skills, career relevance)
+  POST /api/ai/models                List models for a provider (newest 10 + all); OpenRouter needs no key
   GET  /api/health                   Health check; returns configured primary model and whether AI is configured
 """
 
@@ -23,8 +25,10 @@ import sqlite3
 import time
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify
-from flask_cors import CORS
 import openai
+
+import ai_providers
+from ai_providers import AIError
 
 load_dotenv()
 
@@ -57,7 +61,16 @@ TIMEOUT_SECONDS = _positive_env("OPENROUTER_TIMEOUT_SECONDS", "35", float)
 DB_FILE = "courses.db"
 
 app = Flask(__name__)
-CORS(app)  # allows React dev server to call the API
+app.config["MAX_CONTENT_LENGTH"] = 16 * 1024  # request bodies are tiny; this caps key/config payloads
+# No CORS: the React dev server proxies /api, so the browser only ever talks to one origin.
+
+
+@app.after_request
+def no_store(response):
+    # POST routes may carry a user's API key or a response produced with it.
+    if request.method == "POST":
+        response.headers["Cache-Control"] = "no-store"
+    return response
 
 
 # --- Database helpers ---
@@ -242,17 +255,6 @@ SYSTEM_INSTRUCTION = (
 )
 
 
-class AIError(Exception):
-    """AI failure with a safe HTTP status and JSON error envelope for the browser."""
-
-    def __init__(self, status: int, code: str, message: str, retry_after: int | None = None):
-        super().__init__(code)
-        self.status = status
-        self.body = {"error": message, "code": code}
-        if retry_after:
-            self.body["retry_after_seconds"] = retry_after
-
-
 def _upstream_error(status, retry_after: int | None = None) -> AIError:
     """Map an OpenRouter HTTP status or embedded error code to a safe AIError."""
     if status == 429:
@@ -367,22 +369,46 @@ def api_analyze():
             and re.fullmatch(r"[A-Za-z]{2,4} \d{4}", f"{dept} {number}")):
         return jsonify({"error": 'Send JSON like {"dept": "cs", "number": "3000"}.', "code": "invalid_request"}), 400
 
+    try:  # only a missing "ai" field means app default; anything malformed is rejected
+        config = ai_providers.parse_ai_config(data["ai"]) if "ai" in data else None
+    except AIError as e:
+        return jsonify(e.body), e.status
+
     course = lookup_course(dept, number)
     if not course:
         return jsonify({"error": "Course not found", "code": "course_not_found"}), 404
 
+    source = config[0] if config else "default"
     try:
-        result = generate_analysis(build_prompt(course))
+        prompt = build_prompt(course)
+        result = ai_providers.generate(*config, SYSTEM_INSTRUCTION, prompt) if config else generate_analysis(prompt)
     except AIError as e:
-        app.logger.warning("analysis failed course=%s %s code=%s", dept, number, e.body["code"])
+        app.logger.warning("analysis failed course=%s %s source=%s code=%s", dept, number, source, e.body["code"])
         return jsonify(e.body), e.status
     except Exception as e:
-        app.logger.error("analysis crashed course=%s %s error=%s", dept, number, type(e).__name__)
+        app.logger.error("analysis crashed course=%s %s source=%s error=%s", dept, number, source, type(e).__name__)
         return jsonify({"error": "Something went wrong. Try again later.", "code": "internal_error"}), 500
 
-    app.logger.info("analysis ok course=%s %s model=%s id=%s ms=%d usage=%s", dept, number,
+    app.logger.info("analysis ok course=%s %s source=%s model=%s id=%s ms=%d usage=%s", dept, number, source,
                     result["model"], result["id"], result["elapsed_ms"], result["usage"])
-    return jsonify({"analysis": result["analysis"], "model": result["model"]})
+    body = {"analysis": result["analysis"], "model": result["model"]}
+    if config:
+        body["provider"] = result["provider"]
+    return jsonify(body)
+
+
+@app.route("/api/ai/models", methods=["POST"])
+def api_models():
+    try:
+        provider, key = ai_providers.parse_discovery(request.get_json(silent=True))
+        catalog = ai_providers.list_models(provider, key)
+    except AIError as e:
+        app.logger.warning("model discovery failed code=%s", e.body["code"])
+        return jsonify(e.body), e.status
+    except Exception as e:
+        app.logger.error("model discovery crashed error=%s", type(e).__name__)
+        return jsonify({"error": "Something went wrong. Try again later.", "code": "internal_error"}), 500
+    return jsonify({"provider": provider, **catalog})
 
 
 @app.route("/api/health")
@@ -396,4 +422,4 @@ if __name__ == "__main__":
     print(f"AI configured: {bool(API_KEY)}")
     print(f"Database: {DB_FILE}")
     print(f"http://localhost:8000")
-    app.run(debug=True, port=8000)
+    app.run(port=8000)  # debug off: its traceback page could expose request data. Opt in with FLASK_DEBUG=1.

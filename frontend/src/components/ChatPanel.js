@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { PROVIDERS } from './AISettings';
 
-function ChatPanel({ messages, onSend, onNewChat }) {
+function ChatPanel({ messages, onSend, onNewChat, aiSettings }) {
   const [input, setInput] = useState('');
   const messagesEndRef = useRef(null);
   const isThinking = messages.some((m) => m.role === 'system' && m.content === 'Thinking...');
@@ -35,6 +36,7 @@ function ChatPanel({ messages, onSend, onNewChat }) {
           New Chat
         </button>
       </div>
+      {aiSettings}
 
       {/* Chat Messages */}
       <div className="flex-1 overflow-y-auto custom-scrollbar p-8 space-y-8 pb-32">
@@ -105,6 +107,9 @@ function ChatPanel({ messages, onSend, onNewChat }) {
                       {msg.content}
                     </ReactMarkdown>
                   </div>
+                  {msg.provider && (
+                    <p className="mt-4 text-[11px] text-gray-500">{`via ${PROVIDERS[msg.provider].name} · ${msg.model}`}</p>
+                  )}
                 </div>
               </div>
             );

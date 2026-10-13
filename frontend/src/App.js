@@ -1,12 +1,36 @@
 import React, { useState, useCallback, useEffect } from 'react';
 import SearchPanel from './components/SearchPanel';
 import ChatPanel from './components/ChatPanel';
+import AISettings, { PROVIDERS } from './components/AISettings';
 import './App.css';
+
+const PREFS_KEY = 'aiPrefs';
+
+// Only non-secret preferences survive a reload; the API key must be entered again.
+function loadAIPrefs() {
+  try {
+    const { mode, provider, model } = JSON.parse(localStorage.getItem(PREFS_KEY)) || {};
+    if (mode === 'custom' && PROVIDERS[provider]) return { mode, provider, model: model || '', apiKey: '' };
+  } catch {
+    // unavailable or corrupt storage: use the app default
+  }
+  return { mode: 'default' };
+}
 
 function App() {
   const [view, setView] = useState('loading'); // 'loading' | 'landing' | 'app'
   const [messages, setMessages] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState(null);
+  const [ai, setAI] = useState(loadAIPrefs);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(PREFS_KEY, JSON.stringify({ mode: ai.mode, provider: ai.provider, model: ai.model }));
+    } catch {
+      // storage unavailable: preferences just won't persist
+    }
+  }, [ai.mode, ai.provider, ai.model]);
 
   useEffect(() => {
     const timer = setTimeout(() => setView('landing'), 2000);
@@ -17,25 +41,42 @@ function App() {
     setMessages((prev) => [...prev, message]);
   }, []);
 
+  // Both analysis entry points route through here, and `ai` is captured per call,
+  // so settings changed mid-request only affect later requests.
   const analyzeCourse = useCallback(async (dept, number) => {
+    const custom = ai.mode === 'custom';
+    const missing = custom && (!ai.apiKey ? 'an API key' : !ai.model && 'a model');
+    if (missing) {
+      setSettingsOpen(true);
+      addMessage({
+        role: 'system',
+        content: `Add ${missing} in AI settings to use ${PROVIDERS[ai.provider].name}, or switch to App default.`,
+      });
+      return;
+    }
+
     addMessage({ role: 'system', content: 'Thinking...' });
     let reply = { role: 'system', content: 'Failed to get AI analysis. Is the backend running?' };
 
     try {
       const res = await fetch('/api/analyze', {
         method: 'POST',
+        cache: 'no-store',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ dept, number }),
+        body: JSON.stringify(custom
+          ? { dept, number, ai: { mode: 'custom', provider: ai.provider, api_key: ai.apiKey, model: ai.model } }
+          : { dept, number }),
       });
       const data = await res.json();
-      if (res.ok) reply = { role: 'assistant', content: data.analysis };
-      else if (data.error) reply.content = data.error;
+      if (res.ok) {
+        reply = { role: 'assistant', content: data.analysis, provider: custom ? ai.provider : 'openrouter', model: data.model };
+      } else if (data.error) reply.content = data.error;
     } catch {
       // network failure or non-JSON response: keep the generic message
     }
 
     setMessages((prev) => [...prev.filter((m) => !(m.role === 'system' && m.content === 'Thinking...')), reply]);
-  }, [addMessage]);
+  }, [addMessage, ai]);
 
   const handleCourseClick = useCallback(async (course) => {
     try {
@@ -176,6 +217,18 @@ function App() {
         messages={messages}
         onSend={handleSendMessage}
         onNewChat={handleNewChat}
+        aiSettings={
+          <AISettings
+            ai={ai}
+            open={settingsOpen}
+            onToggle={() => setSettingsOpen((open) => !open)}
+            onApply={(next) => {
+              setAI(next);
+              setSettingsOpen(false);
+            }}
+            onClearKey={() => setAI((current) => (current.mode === 'custom' ? { ...current, apiKey: '' } : current))}
+          />
+        }
       />
     </main>
   );
