@@ -1,14 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
+import RequirementCourseList, { CourseRow } from './RequirementCourseList';
+import { courseCode } from './courseDisplay';
+export { courseCode, credits } from './courseDisplay';
 
 const EXAMPLES = ['cs 3000', 'marketing', 'PHIL', 'design'];
 const IDLE = { status: 'idle', results: [] };
 const LIMIT = 20; // the API returns at most 20 matches per request
 
-export const courseCode = (c) => `${c.department_code.toUpperCase()} ${c.number}`;
-export const credits = (n) => `${Number(n)} ${Number(n) === 1 ? 'credit' : 'credits'}`;
 export const catalogLabel = (year) => (year ? year.replace('-', '–') : null);
 
-const programUrl = (id, q, offset, concentrations) => `/api/programs/${encodeURIComponent(id)}/courses?q=${encodeURIComponent(q)}&offset=${offset}`
+const programUrl = (id, q, offset, concentrations) => `/api/programs/${encodeURIComponent(id)}/courses?q=${encodeURIComponent(q)}&offset=${offset}&view=sections`
   + (concentrations ? `&concentrations=${encodeURIComponent(concentrations)}` : '');
 
 function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations = [], onSelect }) {
@@ -40,10 +41,10 @@ function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations
       return undefined;
     }
     // Keep old rows while typing, but never show one major's courses under another.
-    const key = filtered ? `${majorId}|${inConcentrations ? concentrationKey : 'plans'}` : '';
+    const key = filtered ? `${majorId}|${inConcentrations ? concentrationKey : 'major'}` : '';
     const keep = key === lastKey.current;
     lastKey.current = key;
-    setSearch((s) => ({ ...s, results: keep ? s.results : [], status: 'loading' }));
+    setSearch((s) => ({ ...s, results: keep ? s.results : [], sections: keep ? s.sections : undefined, status: 'loading' }));
     const timer = setTimeout(async () => {
       let next = { status: 'error', results: [] };
       try {
@@ -51,7 +52,10 @@ function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations
         if (res.ok) {
           const data = await res.json();
           next = filtered
-            ? { status: 'ready', results: data.results, total: data.total, dataset: data.concentration_dataset || data.plan_dataset }
+            ? { status: 'ready', results: data.results, total: data.total,
+              sections: data.requirement_sections,
+              dataset: data.concentration_dataset || data.requirement_dataset || data.plan_dataset,
+              requirements: Boolean(data.requirement_dataset) }
             : { status: 'ready', results: data };
         } else if (filtered && res.status === 404) next.status = 'unknown';
       } catch {
@@ -81,18 +85,21 @@ function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations
     });
   };
 
-  const { status, results, total } = search;
+  const { status, results, total, sections } = search;
   const count = results.length;
   const year = catalogLabel(search.dataset?.catalog_year);
   const noPlan = major?.status && major.status !== 'available';
+  const currentRequirements = inMajor && search.requirements;
 
   let message = '';
   if (status === 'loading') message = filtered && !q ? `Loading courses for ${major.label}…` : 'Searching…';
   else if (status === 'error') message = 'Search is unavailable. Check that the API is running, then try again.';
   else if (status === 'unknown') message = 'This major isn’t in the loaded data. Choose your major again or clear it.';
   else if (filtered && (status === 'ready' || status === 'more')) {
-    message = count ? `Showing ${count} of ${total} ${total === 1 ? 'course' : 'courses'}`
+    message = sections?.length ? `${count} ${count === 1 ? 'course' : 'courses'} in ${sections.length} requirement ${sections.length === 1 ? 'section' : 'sections'}${q ? ' · matching choices shown in full' : ''}`
+      : count ? `Showing ${count} of ${total} ${total === 1 ? 'course' : 'courses'}`
       : inConcentrations ? 'No explicit course rows match your selected concentration choices. Check the catalog requirements for elective ranges and other options.'
+      : currentRequirements ? `No explicit courses in the ${major.label} requirements match${q ? ` “${q}”` : ' this search'}. Check your concentration choices and catalog elective ranges.`
       : noPlan ? `${major.label} has no published sample plan in this dataset, so there are no plan courses to list.`
       : q ? `No courses in the ${major.label} sample plans match “${q}”. Try a shorter word, or switch to All courses.`
       : `No catalog courses were found in the ${major.label} sample plans.`;
@@ -113,15 +120,21 @@ function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations
             onChange={() => setScope('concentrations')} /> My concentrations</label>}
         </fieldset>
       )}
-      {inMajor && (
+      {inMajor && (status === 'ready' || status === 'more') && (
         <p className="hint scope-hint">
-          {`Courses that appear in the collected ${year ? `${year} ` : ''}sample plans for ${major.label}. `}
-          This is not a complete or current requirements list, and electives the plans leave open aren’t included.
+          {currentRequirements ? <>
+            {`Courses listed in the ${year ? `${year} ` : ''}major requirements for ${major.label}, including “or” alternatives and elective options. `}
+            Follow the choice instructions; you do not need every option. Concentration choices appear under My concentrations.
+            {' '}<a href={search.dataset.source_url} target="_blank" rel="noreferrer">View full catalog requirements</a>
+          </> : <>
+            {`Courses that appear in the collected ${year ? `${year} ` : ''}sample plans for ${major.label}. `}
+            Current requirements are not loaded for this major. This historical list can omit alternatives and electives.
+          </>}
         </p>
       )}
       {inConcentrations && <p className="hint scope-hint">
         {`Explicit course rows in your selected ${year ? `${year} ` : ''}concentration requirements, including alternatives and electives. `}
-        These are course options, not a list of courses you must take. Elective ranges are shown in the catalog requirements above.
+        Includes “or” alternatives. Follow the choice instructions; you do not need every option. Elective ranges are shown in the catalog requirements above.
       </p>}
 
       <label htmlFor="course-search" className="field-label">Search courses</label>
@@ -149,29 +162,25 @@ function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations
 
       <p className="rail-status" role="status">{message}</p>
 
-      {status !== 'error' && count > 0 && (
+      {status !== 'error' && sections?.length > 0 && (
+        <div className="requirement-course-list" ref={list}>
+          <RequirementCourseList sections={sections} selectedCode={selectedCode} onSelect={onSelect} />
+        </div>
+      )}
+      {status !== 'error' && !sections && count > 0 && (
         <ul className="results" ref={list}>
           {results.map((course) => {
             const code = courseCode(course);
             return (
               <li key={code}>
-                <button
-                  type="button"
-                  className="result"
-                  aria-current={code === selectedCode ? 'true' : undefined}
-                  onClick={() => onSelect(course)}
-                >
-                  <span className="result-code">{code}</span>
-                  <span className="result-title">{course.title}</span>
-                  <span className="result-credits">{credits(course.credits)}</span>
-                </button>
+                <CourseRow course={course} selectedCode={selectedCode} onSelect={onSelect} />
               </li>
             );
           })}
         </ul>
       )}
 
-      {filtered && count > 0 && count < total && (
+      {filtered && !sections && count > 0 && count < total && (
         <button type="button" className="btn btn-outline more" disabled={status !== 'ready'} onClick={showMore}>
           {status === 'more' ? 'Loading…' : `Show ${Math.min(LIMIT, total - count)} more`}
         </button>

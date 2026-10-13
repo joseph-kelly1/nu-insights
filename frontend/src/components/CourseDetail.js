@@ -76,7 +76,7 @@ function PlanPlacement({ code, entries, dataset, major }) {
   );
 }
 
-function CourseDetail({ detail, pending, major, concentrations = [], onBack, onRetry, onBreakdown }) {
+function CourseDetail({ detail, pending, major, concentrations = [], onBack, onRetry, onBreakdown, backLabel = '← Back to results' }) {
   const { status, code, course } = detail;
   let body;
 
@@ -100,9 +100,9 @@ function CourseDetail({ detail, pending, major, concentrations = [], onBack, onR
         <header className="course-head">
           <p className="course-code">{code} · {credits(course.credits)}</p>
           <h2 id="course-heading">{course.title}</h2>
-          <button type="button" className="btn btn-ink" disabled={pending} onClick={onBreakdown}>
+          {onBreakdown && <button type="button" className="btn btn-ink" disabled={pending} onClick={onBreakdown}>
             {pending ? 'Writing breakdown…' : 'Get course breakdown'}
-          </button>
+          </button>}
         </header>
 
         <section className="course-section">
@@ -159,7 +159,7 @@ function CourseDetail({ detail, pending, major, concentrations = [], onBack, onR
   return (
     <section className="course" aria-labelledby="course-heading">
       {/* eslint-disable-next-line jsx-a11y/no-autofocus -- the result that had focus just disappeared */}
-      <button type="button" className="back" onClick={onBack} autoFocus>← Back to results</button>
+      <button type="button" className="back" onClick={onBack} autoFocus>{backLabel}</button>
       {body}
     </section>
   );

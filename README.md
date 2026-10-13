@@ -36,6 +36,7 @@ NU Insights pulls together everything the catalog knows about a course: its desc
 - 🤖 **Course breakdowns on request**: open a course and choose **Get course breakdown**, or type a code like `CS 3000`
 - 🗓️ **Published sample plans of study**, when available, with catalog-year coverage tracked across undergraduate majors
 - 🔑 **Bring your own API key** for OpenAI, Anthropic, Google Gemini, or OpenRouter, with a live model list
+- 🧭 **Course Builder** (`#/builder`): enter completed and current courses, AP/IB/transfer credit, co-ops, skipped terms, and pinned courses, then fill the remaining terms with a checked proposal you can apply or discard
 
 ## How it works
 
@@ -86,6 +87,9 @@ The app uses free OpenRouter models by default, and those requests are capped at
 ├── advisor.py          # Flask API, prompt building, and OpenRouter integration
 ├── ai_providers.py     # Bring-your-own-key providers: validation, model lists, generation
 ├── db_loader.py        # Builds the SQLite database from data/
+├── planner_rules.py    # Compiles catalog requirement rows into executable rules + reviewed profiles
+├── planner.py          # Course Builder: plan validation, CP-SAT generation, AI ranking parsing
+├── test_planner.py     # Offline planner tests, including the BSCS pilot
 ├── test_advisor.py     # Offline backend tests
 ├── data/               # Scraped catalog: departments, courses, sample plans
 ├── docs/               # Design notes (bring-your-own-key plan)
@@ -136,7 +140,7 @@ The October 13, 2026 run checked all 395 discovered undergraduate bachelor progr
 
 The active dataset uses **2025–2026 historical sample plans**, as explicitly selected. Course details label their catalog year, degree, and campus; AI prompts identify them as historical context rather than current requirements. The current course-description dataset remains 2026–2027. Programs without published plans and courses without a definite placement have distinct messages.
 
-With a major selected, course details and AI breakdowns use only that major's placements, and **My major** browsing lists courses that appear in its collected sample plans. That list is not a full requirements list: plan slots such as "Elective" or "One of …" are not definite courses, and a few plan codes are missing from the course catalog. Concentration choices use current requirements independently of these historical plans. Numbered transfer-track semesters remain ordinal labels without guessed calendar years.
+With a major selected, course details and AI breakdowns use only that major's historical placements. **My major** browsing uses current published requirement rows, including both sides of “or” choices such as ENGW 3302 or ENGW 3315. Courses appear under their catalog section and subsection headings. Each alternative is a clickable course row; “or” choices share an outline with “or” separators, and “and” bundles stay together. Search keeps whole matching choices visible. Subject/level elective ranges are not expanded, and selectable concentration/curriculum blocks appear under **My concentrations**. Programs without collected current requirements retain a clearly labeled historical-plan fallback. Numbered transfer-track semesters remain ordinal labels without guessed calendar years.
 
 To populate or refresh the archived edition:
 
@@ -178,7 +182,7 @@ Links to collected requirement documents resolve to document IDs, including cata
 
 The October 13, 2026 dataset inspected all 746 current undergraduate sitemap pages and collected **395 bachelor program variants, 22 concentration pages, and 2 shared requirement documents** from the 2026–2027 edition, with zero fetch or parsing errors. Six referenced course codes were absent from the existing local course dataset. One Family Business concentration link did not resolve to a collected requirements document (the public URL redirects to the concentration index); these discrepancies are recorded for review.
 
-`requirements_scrape_report.json` records coverage and failures from the latest run. A fetch or parsing failure returns a nonzero exit code and leaves the active manifest and its snapshot unchanged. New files are written into a separate generation, then the requirements manifest is published. A derived concentration export is published afterward; the loader always derives its concentration rows from the selected requirements snapshot, so a stale export cannot change app behavior. General major requirements remain an extraction dataset; selected concentration requirements are now supplied to the API and AI prompt.
+`requirements_scrape_report.json` records coverage and failures from the latest run. A fetch or parsing failure returns a nonzero exit code and leaves the active manifest and its snapshot unchanged. New files are written into a separate generation, then the requirements manifest is published. A derived concentration export is published afterward; the loader derives major and concentration course indexes from the selected requirements snapshot, so a stale export cannot change app behavior. Requirements remain source extraction rather than a validated degree audit. Major browsing uses explicit core requirement rows; selected concentration requirements are supplied to the API and AI prompt.
 
 Run the offline scraper tests with:
 
@@ -186,11 +190,33 @@ Run the offline scraper tests with:
 python -m unittest -v test_requirements_scraper
 ```
 
+### Course Builder
+
+Open **Course Builder** from course browsing once a major is selected. Plans live only in this browser (one draft per major, requirements catalog year, and concentration choice), with JSON export/import and a print view. API keys are never saved or exported.
+
+- **Timeline:** four academic years by default (fall → spring → Summer 1/Session A → Summer 2/Session B); add or remove terms and years, mark terms off, fully fixed, or co-op (one experience spanning consecutive terms). Shortening a plan never discards entries without asking.
+- **Adding courses:** each term lists courses its year and semester commonly hold in your major's sample plans (lecture + lab add together; sample plans are 2025–26 history, so retired codes show but can't be added). Type codes or names ("fundies 1, discrete math"): codes resolve directly, names are matched by the AI against your program's sample-plan and requirement courses plus title matches, and you tick which guesses to add. Title search updates as you type.
+- **Check my plan** (no AI): prerequisites in chronological order (minimum grades and "may be taken concurrently" when the course data records them), corequisites in the same term, exact credit choices, term limits, repeats, AWD timing, and requirement progress. A course counts toward one major/concentration rule; NUpath allows a course to meet two of the first eight competencies, and transfer credit at most five of them.
+- **Fill remaining courses:** OR-Tools CP-SAT places courses only into open future terms. Completed, current, pinned, fixed, off, and co-op terms are constants. Elective pools become "choose a course" placeholders unless the AI ranked a specific option. The AI only ranks server-supplied course codes by your interests; any unknown code rejects the ranking, and **Fill without AI** is always available. Every proposal is re-checked by the validator, shown as a diff, and applied only if your plan hasn't changed since.
+- **Honest coverage:** results say "all modeled requirements covered", never "cleared to graduate". Rules the planner can't evaluate (GPA, "hours in the major", approvals, most prose notes) are listed under **Needs review** with their source text. Sample plans are 2025–26 timing hints only, and term offerings are unverified.
+
+**Supported coverage (October 13, 2026):**
+
+| Scope | Status |
+| --- | --- |
+| Computer Science, BSCS (Boston) + Artificial Intelligence concentration, 2026–27 | Rules **reviewed** against the catalog (pilot). Open items: 72 hours in the major, GPA, WI/capstone "in the major". |
+| NUpath and Universitywide requirements, 2026–27 | Reviewed |
+| All other 2026–27 programs and concentrations | Rules **extracted automatically, not reviewed**; generation works but every result is labeled as needing review. Ambiguous rows become review items instead of guesses. |
+| Requirements catalog years other than 2026–27 | Not loaded. You can still build a timeline and check prerequisites and credits. |
+| CPS, minors, double majors, graduate programs | Not supported |
+
+Reviews are pinned to a fingerprint of each source document in `planner_rules.py`; a catalog change automatically drops that program back to "not reviewed". The current `data/courses` snapshot predates raw prerequisite text, minimum grades, and exact credit options; re-run `json_scrapers/course_scraper.py` and `db_loader.py` to record them (until then, variable-credit courses are flagged as unverified). Rebuild `courses.db` with `python3 db_loader.py` after pulling this change; the builder needs the new planning tables.
+
 ### Concentrations
 
 Choose a major, then its concentration choices. The picker follows that program's campus-specific catalog list and retains the published selection policy, including required or optional choices, second-concentration restrictions, and electives/no-concentration alternatives. Some named degrees already include a fixed concentration. Requirements can be expanded in place and link back to the catalog.
 
-**My concentrations** browses explicit course rows in selected requirement blocks, including alternatives and elective options. It does not mark every listed course as mandatory or expand subject/level elective ranges. Course details distinguish an explicit course mention from possible range-based electives or approved substitutions. AI breakdowns receive the selected blocks and policy text, with their catalog year, independently of historical sample-plan timing. This is not a validated degree audit.
+**My concentrations** browses explicit course rows in selected requirement blocks, including all “or” alternatives and elective options. Both views preserve catalog section headings and selection instructions. Outlined “or” groups contain individually clickable courses, with “and” bundles intact within each alternative. Neither view marks every listed course as mandatory or expands subject/level elective ranges. Course details distinguish an explicit course mention from possible range-based electives or approved substitutions. AI breakdowns receive the selected concentration blocks and policy text, with their catalog year, independently of historical sample-plan timing. This is not a validated degree audit.
 
 The current 2026–2027 snapshot resolves **739 program-specific concentration/curriculum options across 99 program variants**. These include repeated concentrations offered by multiple majors and electives alternatives, not 739 unique concentrations. The stale Family Business reference remains reported separately. Inline requirements use anchor IDs when available; older snapshots fall back only to a unique matching heading.
 
@@ -233,7 +259,7 @@ Free OpenRouter models are usually limited to 20 requests per minute and 50 per 
 | `GET /api/search?q=` | Search by department, course code, or title |
 | `GET /api/course/<dept>/<number>` | Course details, prerequisites, and sample-plan placement for every major (the UI filters to the selected major) |
 | `GET /api/programs` | Every catalog program: `[{"id", "label", "major_name", "degree", "campus", "college", "status"}]`, A-Z by label. `id` matches `plan_entries.major`; `label` is unique (repeated titles add the college); `status` is `available` or `no_published_plan`. Empty if the database predates the `programs` table. |
-| `GET /api/programs/<id>/courses?q=&offset=` | Courses that appear in that exact program's collected sample plans, 20 per page: `{"program", "plan_dataset", "results", "total"}`. `q` is optional and uses the same rules as `/api/search`; the program filter runs before the limit, and each course appears once. Unknown id: 404 `unknown_major`; bad offset: 400. |
+| `GET /api/programs/<id>/courses?q=&offset=` | Explicit current major requirement rows, including alternatives, 20 per page: `{"program", "requirement_dataset", "results", "total"}`. Each flat result includes `requirement_contexts` with choice expressions and selection instructions. Add `view=sections` for ordered `requirement_sections` containing clickable course summaries and preserved AND/OR trees. Section browsing has no pagination; search retains whole matching choices so alternatives are never split or hidden. Add `concentrations=<id>,<id>` for selected concentration requirements and `concentration_dataset` provenance instead. Older datasets without current requirements return historical `plan_dataset` context. Filters run before pagination and each course appears once. Unknown id: 404 `unknown_major`; bad offset: 400. |
 | `POST /api/analyze` | `{"dept": "cs", "number": "3000"}` uses the free default. Add `"ai": {"mode": "custom", "provider": "openai", "api_key": "...", "model": "..."}` to use your own key. The provider is `openai`, `anthropic`, `gemini`, or `openrouter`. Add `"major": "<program id>"` to tailor the breakdown to that major; the prompt then carries the canonical label and only that major's placements. An unknown or non-string major returns 400 `unknown_major`; omit the field for no major. |
 | `POST /api/ai/models` | `{"provider", "api_key"}` returns `{"top": [...10 newest], "models": [...all, A-Z]}`. OpenRouter needs only `{"provider": "openrouter"}`. |
 | `GET /api/health` | Status and whether the free default mode is configured |

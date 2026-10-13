@@ -14,10 +14,14 @@ Endpoints:
   GET  /api/course/<dept>/<number>   Get full course details (prereqs, coreqs, attributes, schedule context)
   GET  /api/programs                 List majors/programs (stable id, display label, sample-plan status)
   GET  /api/programs/<id>/concentrations Current concentration choices and source requirements
-  GET  /api/programs/<id>/courses?q=&offset=  Courses in that program's sample plans, optionally narrowed by q
+  GET  /api/programs/<id>/courses?q=&offset=  Current requirement courses and alternatives, optionally narrowed by q
   POST /api/analyze                  AI-generated course breakdown (summary, audience, skills, career relevance);
                                      optional "major" and "concentrations" tailor catalog context to selected choices
   POST /api/ai/models                List models for a provider (newest 10 + all); OpenRouter needs no key
+  GET  /api/programs/<id>/planning-context?catalog_year=&concentrations=  Course Builder rules, sources, sample plans
+  POST /api/planner/validate         Check a course plan: prerequisites, credits, requirement progress (no AI)
+  POST /api/planner/generate         Propose courses for open terms; mode "ai" ranks electives, "deterministic" doesn't
+  POST /api/planner/identify         AI best guesses for course names a student typed (suggestions only)
   GET  /api/health                   Health check; returns configured primary model and whether AI is configured
 """
 
@@ -26,13 +30,17 @@ import json
 import os
 import re
 import sqlite3
+import threading
 import time
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 import openai
+from werkzeug.exceptions import RequestEntityTooLarge
 
 import ai_providers
 from ai_providers import AIError
+import planner
+from planner import PlanError
 
 load_dotenv()
 
@@ -125,8 +133,53 @@ def lookup_course(dept: str, number: str) -> dict | None:
     else:
         course["prerequisites"] = []
 
+    try:  # exact credit choices, when the loaded dataset records them
+        row = cur.execute("SELECT credit_options FROM courses WHERE id = ?", (course["id"],)).fetchone()
+        course["credit_options"] = json.loads(row[0]) if row and row[0] else None
+    except sqlite3.OperationalError:
+        pass
     conn.close()
     return course
+
+
+COMPANION_TITLE = re.compile(r'^(?:Lab|Laboratory|Recitation|Seminar|Interactive Learning Seminar|Studio|Discussion)'
+                             r' for ([A-Z]{2,5} \d{4})$')
+
+
+def course_companions(code: str) -> list[dict]:
+    """Courses taken in the same term as `code`: listed corequisites in either direction, plus courses
+    whose catalog title names it ("Lab for PHYS 1151"), which the catalog doesn't always mark as
+    corequisites. Followed transitively, so a lab also brings its lecture's seminar."""
+    conn = get_connection()
+    try:
+        def row(c):
+            dept, number = c.split(' ')
+            return conn.execute('SELECT id, title, credits FROM courses WHERE department_code = ? AND number = ?',
+                                (dept.lower(), number)).fetchone()
+        found, queue = {}, [code]
+        while queue and len(found) < 10:
+            current = queue.pop(0)
+            course = row(current)
+            if not course:
+                continue
+            linked = {(r[0], 'corequisite') for r in conn.execute(
+                'SELECT corequisite FROM course_corequisites WHERE course_id = ?', (course['id'],))}
+            linked |= {(f"{r[0].upper()} {r[1]}", 'corequisite') for r in conn.execute(
+                'SELECT c.department_code, c.number FROM course_corequisites q JOIN courses c ON c.id = q.course_id '
+                'WHERE q.corequisite = ?', (current,))}
+            linked |= {(f"{r[0].upper()} {r[1]}", f'{r[2]}') for r in conn.execute(
+                "SELECT department_code, number, title FROM courses WHERE title LIKE ?", (f'% for {current}',))
+                if COMPANION_TITLE.match(r[2])}
+            if m := COMPANION_TITLE.match(course['title']):
+                linked.add((m[1], f"{current} is its {course['title'].split(' for ')[0].lower()}"))
+            for other, why in sorted(linked, key=lambda pair: (pair[0], pair[1] != 'corequisite')):
+                if other != code and other not in found and (match := row(other)):
+                    found[other] = {'code': other, 'title': match['title'], 'credits': match['credits'],
+                                    'why': 'listed corequisite' if why == 'corequisite' else why}
+                    queue.append(other)
+        return list(found.values())
+    finally:
+        conn.close()
 
 
 SEARCH_LIMIT = 20
@@ -145,9 +198,12 @@ def _search_clause(query: str) -> tuple[str, tuple]:
 
 
 def search_courses(query: str, major: str | None = None, offset: int = 0, concentrations: list[str] | None = None) -> dict:
-    """Search courses, optionally only those in one program's sample plans. The program filter
-    runs in SQL before LIMIT, so a page never mixes in or drops courses. Returns up to 20 rows
-    with basic info (dept, number, title, credits) and the total number of matches."""
+    """Browse explicit current requirement rows, including OR alternatives.
+
+    Databases lacking requirements retain their labeled historical-plan fallback.
+    Filtering happens before pagination and each course appears once.
+    """
+    dataset = lookup_requirement_dataset(major) if major and concentrations is None else None
     where, params = _search_clause(query)
     if concentrations is not None:
         placeholders = ','.join('?' for _ in concentrations)
@@ -155,9 +211,9 @@ def search_courses(query: str, major: str | None = None, offset: int = 0, concen
                   f" (SELECT course_code FROM concentration_courses WHERE concentration_id IN ({placeholders}))")
         params += tuple(concentrations)
     elif major:
-        # Exact program id; IN also collapses a course that appears in several terms or plans.
+        table = 'program_courses' if dataset['available'] else 'plan_entries'
         where += (" AND upper(department_code) || ' ' || number IN"
-                  " (SELECT course_code FROM plan_entries WHERE major = ?)")
+                  f" (SELECT course_code FROM {table} WHERE {'program_id' if dataset['available'] else 'major'} = ?)")
         params += (major,)
     conn = get_connection()
     try:
@@ -167,9 +223,89 @@ def search_courses(query: str, major: str | None = None, offset: int = 0, concen
                 ORDER BY department_code, number LIMIT ? OFFSET ?""",
             (*params, SEARCH_LIMIT, offset),
         ).fetchall()
+        contexts = {}
+        if dataset and dataset['available']:
+            contexts = {r['course_code']: json.loads(r['contexts_json']) for r in conn.execute(
+                'SELECT course_code, contexts_json FROM program_courses WHERE program_id = ?', (major,))}
+        elif concentrations:
+            from json_scrapers.requirement_courses import course_contexts
+            placeholders = ','.join('?' for _ in concentrations)
+            for option in conn.execute(f'SELECT data_json FROM concentrations WHERE id IN ({placeholders})', concentrations):
+                data = json.loads(option['data_json'])
+                for code, mentions in course_contexts(data['sections']).items():
+                    contexts.setdefault(code, []).extend(mentions)
     finally:
         conn.close()
-    return {"results": [dict(r) for r in rows], "total": total}
+    results = []
+    for row in rows:
+        course = dict(row)
+        code = f"{row['department_code'].upper()} {row['number']}"
+        if code in contexts:
+            course['requirement_contexts'] = contexts[code]
+        results.append(course)
+    return {"results": results, "total": total}
+
+
+def lookup_requirement_dataset(program_id):
+    conn = get_connection()
+    try:
+        row = conn.execute('SELECT catalog_year, source_url FROM program_requirements WHERE program_id = ?',
+                           (program_id,)).fetchone()
+        if row:
+            return {'available': True, **dict(row), 'semantics_validated': False}
+    except sqlite3.OperationalError:
+        pass
+    finally:
+        conn.close()
+    return {'available': False, 'catalog_year': None}
+
+
+def browse_requirement_sections(program_id, query, options=None):
+    """Return whole requirement units in source order, without splitting choices across pages."""
+    from json_scrapers.requirement_courses import browse_sections, course_contexts
+    conn = get_connection()
+    try:
+        if options is None:
+            try:
+                row = conn.execute('SELECT sections_json FROM program_requirements WHERE program_id = ?',
+                                   (program_id,)).fetchone()
+            except sqlite3.OperationalError:
+                return None  # Older databases retain the historical flat-list fallback.
+            if not row:
+                return None
+            sources = [('', json.loads(row['sections_json']))]
+        else:
+            sources = [(o['name'], o['sections']) for o in options]
+        codes = {code for _, sections in sources for code in course_contexts(sections)}
+        summaries = {}
+        matches = None
+        if codes:
+            placeholders = ','.join('?' for _ in codes)
+            clause = f"upper(department_code) || ' ' || number IN ({placeholders})"
+            for row in conn.execute(f'SELECT department_code, number, title, credits FROM courses WHERE {clause}', tuple(codes)):
+                summaries[f"{row['department_code'].upper()} {row['number']}"] = dict(row)
+            if query.strip():
+                where, params = _search_clause(query)
+                matches = {f"{r['department_code'].upper()} {r['number']}" for r in conn.execute(
+                    f'SELECT department_code, number FROM courses WHERE {clause} AND {where}', (*codes, *params))}
+        elif query.strip():
+            matches = set()
+        sections = []
+        for owner, source in sources:
+            for section in browse_sections(source, summaries, matches):
+                sections.append({**section, 'owner': owner})
+        visible = {}
+        def collect(node):
+            if node['kind'] == 'course' and node['course']:
+                visible[node['code']] = node['course']
+            for child in node.get('children', []):
+                collect(child)
+        for section in sections:
+            for node in section['entries']:
+                collect(node)
+        return {'requirement_sections': sections, 'results': list(visible.values()), 'total': len(visible)}
+    finally:
+        conn.close()
 
 
 def list_programs() -> list[dict]:
@@ -407,8 +543,8 @@ def _client() -> openai.OpenAI:
                          timeout=TIMEOUT_SECONDS, max_retries=0)
 
 
-def generate_analysis(course_prompt: str) -> dict:
-    """Run one OpenRouter completion, free-only, and return the validated Markdown analysis."""
+def generate_analysis(course_prompt: str, system: str = SYSTEM_INSTRUCTION) -> dict:
+    """Run one OpenRouter completion, free-only, and return the validated text (Markdown for breakdowns)."""
     if not API_KEY:
         raise AIError(503, "ai_not_configured", "AI analysis is not configured on the server.")
 
@@ -428,7 +564,7 @@ def generate_analysis(course_prompt: str) -> dict:
         completion = _client().chat.completions.create(
             model=PRIMARY_MODEL,
             messages=[
-                {"role": "system", "content": SYSTEM_INSTRUCTION},
+                {"role": "system", "content": system},
                 {"role": "user", "content": course_prompt},
             ],
             temperature=0.3,
@@ -497,11 +633,18 @@ def api_program_courses(program_id):
             selected = [o['id'] for o in options]
         except ValueError as error:
             return jsonify({'error': str(error), 'code': 'invalid_concentration'}), 400
-    found = search_courses(request.args.get("q", ""), program_id, int(offset), concentrations=selected)
+    query = request.args.get('q', '')
+    found = browse_requirement_sections(program_id, query, options if selected is not None else None) \
+        if request.args.get('view') == 'sections' else None
+    if found is None:
+        found = search_courses(query, program_id, int(offset), concentrations=selected)
     if selected is not None:
         catalog = lookup_concentration_catalog(program_id)
         return jsonify({'program': program, 'concentration_dataset': {'catalog_year': catalog['catalog_year'],
                         'semantics_validated': False}, **found})
+    dataset = lookup_requirement_dataset(program_id)
+    if dataset['available']:
+        return jsonify({'program': program, 'requirement_dataset': dataset, **found})
     return jsonify({"program": program, "plan_dataset": lookup_plan_dataset(), **found})
 
 
@@ -523,6 +666,7 @@ def api_course(dept, number):
     course["schedule_context"] = schedule
     course["plan_dataset"] = lookup_plan_dataset()
     course["prerequisites_text"] = format_prereqs(course["prerequisites"])
+    course["companions"] = course_companions(f"{dept.upper()} {number}")
 
     return jsonify(course)
 
@@ -590,6 +734,157 @@ def api_models():
         app.logger.error("model discovery crashed error=%s", type(e).__name__)
         return jsonify({"error": "Something went wrong. Try again later.", "code": "internal_error"}), 500
     return jsonify({"provider": provider, **catalog})
+
+
+# --- Course Builder ---
+
+PLANNER_BODY_LIMIT = 128 * 1024  # 40 terms and 300 records fit well inside; other routes keep 16 KiB
+_generations = threading.BoundedSemaphore(2)  # solver runs are CPU-bound; ponytail: a queue if latency demands
+
+
+def planner_context(program_id, catalog_year, concentration_ids):
+    program = lookup_program(program_id) if isinstance(program_id, str) and len(program_id) <= 200 else None
+    if not program:
+        raise PlanError(404, 'unknown_major', 'Unknown major. Choose it again from the major list.')
+    try:
+        options = resolve_concentrations(program, concentration_ids)
+    except ValueError as error:
+        raise PlanError(400, 'invalid_concentration', str(error))
+    groups = lookup_concentration_catalog(program_id)['groups']
+    conn = get_connection()
+    try:
+        return planner.planning_context(conn, DB_FILE, program, catalog_year if isinstance(catalog_year, str) else '',
+                                        options, groups)
+    finally:
+        conn.close()
+
+
+@app.route('/api/programs/<program_id>/planning-context')
+def api_planning_context(program_id):
+    ids = request.args.get('concentrations', '')
+    try:
+        context = planner_context(program_id, request.args.get('catalog_year', ''), ids.split(',') if ids else [])
+    except PlanError as e:
+        return jsonify(e.body), e.status
+    return jsonify(planner.public_context(context))
+
+
+def _plan_request():
+    """Parse a planner body with its own size limit, then build the server-side context."""
+    request.max_content_length = PLANNER_BODY_LIMIT
+    try:
+        data = request.get_json(silent=True)
+    except RequestEntityTooLarge:
+        raise PlanError(413, 'plan_too_large', 'This plan is too large to check.')
+    plan = data.get('plan') if isinstance(data, dict) else None
+    if not isinstance(plan, dict):
+        raise PlanError(400, 'invalid_plan', 'Send JSON like {"plan": {...}}.')
+    context = planner_context(plan.get('program_id'), plan.get('catalog_year'), plan.get('concentration_ids', []))
+    if data.get('dataset') and data['dataset'] != context['fingerprint']:
+        raise PlanError(409, 'stale_snapshot', 'Course data was reloaded since this page opened. Reload the builder.')
+    return data, planner.normalize(plan, context['catalog']), context
+
+
+@app.route('/api/planner/validate', methods=['POST'])
+def api_planner_validate():
+    try:
+        _, plan, context = _plan_request()
+        return jsonify(planner.validate(plan, context))
+    except PlanError as e:
+        return jsonify(e.body), e.status
+
+
+@app.route('/api/planner/generate', methods=['POST'])
+def api_planner_generate():
+    try:
+        data, plan, context = _plan_request()
+        if context['capability'] in ('unavailable', 'needs_selection'):
+            raise PlanError(422, 'requirements_unavailable', context.get('unavailable_reason')
+                            or ' '.join(context['selection_errors']))
+        mode = data.get('mode')
+        if mode not in ('ai', 'deterministic'):
+            raise PlanError(400, 'invalid_request', 'mode must be "ai" or "deterministic".')
+        config = ai_providers.parse_ai_config(data['ai']) if 'ai' in data else None
+    except PlanError as e:
+        return jsonify(e.body), e.status
+    except AIError as e:
+        return jsonify(e.body), e.status
+    if not _generations.acquire(blocking=False):
+        return jsonify({'error': 'The planner is busy. Try again in a moment.', 'code': 'planner_busy'}), 503
+    try:
+        ranking, model = None, None
+        if mode == 'ai':
+            candidates = planner.ranking_candidates(context)
+            prompt = planner.ranking_prompt(candidates, plan['interests'])
+            source = config[0] if config else 'default'
+            try:
+                result = ai_providers.generate(*config, planner.RANKING_SYSTEM, prompt) if config \
+                    else generate_analysis(prompt, planner.RANKING_SYSTEM)
+                ranking = planner.parse_ranking(result['analysis'], {c['code'] for c in candidates})
+            except (AIError, PlanError) as e:
+                app.logger.warning('planner ranking failed source=%s code=%s', source, e.body['code'])
+                return jsonify({**e.body, 'deterministic_available': True}), e.status
+            model = {'model': result['model'], 'provider': config[0] if config else 'openrouter'}
+            app.logger.info('planner ranking ok source=%s model=%s ms=%d', source, result['model'], result['elapsed_ms'])
+        started = time.monotonic()
+        body = planner.generate(plan, context, ranking)
+        app.logger.info('planner generate status=%s solver=%s ms=%d', body['status'], body['coverage']['solver'],
+                        round((time.monotonic() - started) * 1000))
+        return jsonify({**body, 'generation': {'mode': mode, **(model or {})}})
+    except PlanError as e:
+        return jsonify(e.body), e.status
+    except Exception as e:
+        app.logger.error('planner crashed error=%s', type(e).__name__)
+        return jsonify({'error': 'Something went wrong. Try again later.', 'code': 'internal_error'}), 500
+    finally:
+        _generations.release()
+
+
+@app.route('/api/planner/identify', methods=['POST'])
+def api_planner_identify():
+    """Best-guess course codes for course names a student typed. Suggestions only; nothing is added."""
+    data = request.get_json(silent=True)
+    data = data if isinstance(data, dict) else {}
+    phrases = data.get('phrases')
+    if not (isinstance(phrases, list) and 1 <= len(phrases) <= planner.MAX_PHRASES
+            and all(isinstance(p, str) and 0 < len(p.strip()) <= 120 for p in phrases)):
+        return jsonify({'error': f'Send 1 to {planner.MAX_PHRASES} course names.', 'code': 'invalid_request'}), 400
+    phrases = [p.strip() for p in phrases]
+    program_id, term = data.get('program_id'), data.get('term')
+    program = lookup_program(program_id) if isinstance(program_id, str) and len(program_id) <= 200 else None
+    if not program:
+        return jsonify({'error': 'Unknown major. Choose it again from the major list.', 'code': 'unknown_major'}), 400
+    try:
+        config = ai_providers.parse_ai_config(data['ai']) if 'ai' in data else None
+    except AIError as e:
+        return jsonify(e.body), e.status
+    conn = get_connection()
+    try:
+        catalog = planner._catalog(DB_FILE, planner.dataset_fingerprint(conn))
+        candidates = planner.identify_candidates(conn, catalog, program['id'], phrases)
+    except sqlite3.OperationalError:
+        return jsonify({'error': 'Planning data is not loaded. Rebuild the database with python3 db_loader.py.',
+                        'code': 'planner_data_missing'}), 503
+    finally:
+        conn.close()
+    prompt = planner.identify_prompt(program, phrases, candidates, term if isinstance(term, str) else '')
+    source = config[0] if config else 'default'
+    try:
+        result = ai_providers.generate(*config, planner.IDENTIFY_SYSTEM, prompt) if config \
+            else generate_analysis(prompt, planner.IDENTIFY_SYSTEM)
+        matches = planner.parse_matches(result['analysis'], phrases, {c['code'] for c in candidates})
+    except (AIError, PlanError) as e:
+        app.logger.warning('course identify failed source=%s code=%s', source, e.body['code'])
+        return jsonify(e.body), e.status
+    except Exception as e:
+        app.logger.error('course identify crashed error=%s', type(e).__name__)
+        return jsonify({'error': 'Something went wrong. Try again later.', 'code': 'internal_error'}), 500
+    app.logger.info('course identify ok source=%s model=%s ms=%d', source, result['model'], result['elapsed_ms'])
+    for m in matches:
+        course = catalog.get(m['code']) if m['code'] else None
+        m.update(title=course['title'] if course else None,
+                 credits=planner.min_credits(course) / planner.SCALE if course else None)
+    return jsonify({'matches': matches, 'model': result['model']})
 
 
 @app.route("/api/health")

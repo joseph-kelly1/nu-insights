@@ -29,9 +29,13 @@ Tables created:
   concentration_programs — current program-specific choice groups and selection policies
   concentrations       — selected source requirement blocks, including alternatives
   concentration_courses — explicit candidate course rows (not a mandatory-course list)
+  plan_variants        — each sample plan exactly as published (entries, choices, co-op, credits)
+  requirement_documents — shared requirement sources (NUpath, universitywide) with fingerprints
+  dataset_meta         — fingerprint of the loaded inputs, so planner reports can detect a reload
 """
 
 from collections import Counter
+import hashlib
 import json
 import os
 import re
@@ -58,6 +62,11 @@ def create_tables(cur: sqlite3.Cursor):
         DROP TABLE IF EXISTS concentration_programs;
         DROP TABLE IF EXISTS concentration_courses;
         DROP TABLE IF EXISTS concentrations;
+        DROP TABLE IF EXISTS program_requirements;
+        DROP TABLE IF EXISTS program_courses;
+        DROP TABLE IF EXISTS plan_variants;
+        DROP TABLE IF EXISTS requirement_documents;
+        DROP TABLE IF EXISTS dataset_meta;
 
         CREATE TABLE departments (
             code        TEXT PRIMARY KEY,
@@ -69,9 +78,13 @@ def create_tables(cur: sqlite3.Cursor):
             department_code TEXT NOT NULL,
             number          TEXT NOT NULL,
             title           TEXT NOT NULL,
-            credits         REAL,
+            credits         REAL,  -- browsing display only; planning uses credit_options
+            credit_options  TEXT,  -- JSON {"values": [...]} or {"min", "max"}; NULL when unknown
             description     TEXT,
             prerequisites   TEXT,  -- stored as JSON (preserves AND/OR tree)
+            prerequisites_text TEXT,  -- catalog wording, NULL in datasets scraped before it was kept
+            corequisites_text  TEXT,
+            catalog_year    TEXT,
             FOREIGN KEY (department_code) REFERENCES departments(code),
             UNIQUE(department_code, number)
         );
@@ -147,7 +160,49 @@ def create_tables(cur: sqlite3.Cursor):
             course_code TEXT NOT NULL,
             PRIMARY KEY (concentration_id, course_code)
         );
+        CREATE TABLE program_requirements (
+            program_id TEXT PRIMARY KEY,
+            catalog_year TEXT NOT NULL,
+            source_url TEXT NOT NULL,
+            sections_json TEXT NOT NULL,
+            linked_json TEXT NOT NULL DEFAULT '[]'  -- shared requirement document ids
+        );
+        CREATE TABLE program_courses (
+            program_id TEXT NOT NULL,
+            course_code TEXT NOT NULL,
+            contexts_json TEXT NOT NULL,
+            PRIMARY KEY (program_id, course_code)
+        );
+        CREATE TABLE plan_variants (
+            id TEXT PRIMARY KEY,
+            program_id TEXT NOT NULL,
+            name TEXT NOT NULL,
+            catalog_year TEXT,
+            source_url TEXT,
+            plan_json TEXT NOT NULL
+        );
+        CREATE TABLE requirement_documents (
+            document_id TEXT PRIMARY KEY,
+            kind TEXT NOT NULL,
+            title TEXT NOT NULL,
+            catalog_year TEXT NOT NULL,
+            source_url TEXT NOT NULL,
+            sections_json TEXT NOT NULL
+        );
+        CREATE TABLE dataset_meta (
+            key TEXT PRIMARY KEY,
+            value TEXT NOT NULL
+        );
     """)
+
+
+def dataset_fingerprint(data_dir: Path) -> str:
+    """Hash every input file the loader reads, so a reload is detectable."""
+    digest = hashlib.sha256()
+    for path in sorted(p for p in data_dir.rglob('*.json') if 'report' not in p.name):
+        digest.update(str(path.relative_to(data_dir)).encode())
+        digest.update(path.read_bytes())
+    return digest.hexdigest()[:16]
 
 
 def load_departments(cur: sqlite3.Cursor):
@@ -197,20 +252,28 @@ def load_courses(cur: sqlite3.Cursor):
 
             # Handle credits that are a range like {"min": 1.0, "max": 4.0}
             credits = course.get("credits")
+            options = course.get("credit_options")
+            if options is None and isinstance(credits, (int, float)):
+                options = {"values": [float(credits)]}  # a single value is unambiguous
             if isinstance(credits, dict):
                 credits = credits.get("max", credits.get("min"))
 
             cur.execute(
                 """INSERT INTO courses
-                   (department_code, number, title, credits, description, prerequisites)
-                   VALUES (?, ?, ?, ?, ?, ?)""",
+                   (department_code, number, title, credits, credit_options, description, prerequisites,
+                    prerequisites_text, corequisites_text, catalog_year)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
                     dept_code,
                     course["number"],
                     course["title"],
                     credits,
+                    json.dumps(options) if options else None,
                     course.get("description"),
                     prereqs_json,
+                    course.get("prerequisites_text"),
+                    course.get("corequisites_text"),
+                    data.get("catalog_year") if isinstance(data, dict) else None,
                 ),
             )
 
@@ -310,8 +373,13 @@ def load_plans(cur: sqlite3.Cursor):
         major_name = data["major_name"]
         file_programs.append(data)
 
-        for plan in data["plans"]:
+        for index, plan in enumerate(data["plans"]):
             plan_name = plan["plan_name"]
+            # Some programs publish several plans under one name (e.g. per concentration); the
+            # source position keeps each one distinct instead of mixing them.
+            variant_id = hashlib.sha256(f"{major}|{data.get('catalog_year')}|{index}|{plan_name}".encode()).hexdigest()[:16]
+            cur.execute("INSERT INTO plan_variants VALUES (?, ?, ?, ?, ?, ?)",
+                        (variant_id, major, plan_name, data.get("catalog_year"), data.get("source_url"), json.dumps(plan)))
 
             for semester in plan["semesters"]:
                 year = semester["year"]
@@ -362,11 +430,13 @@ def load_concentrations(cur: sqlite3.Cursor):
     cannot leave a stale concentration file active. The JSON catalog is an export.
     """
     from json_scrapers.concentration_scraper import build_catalog, read_requirements
+    from json_scrapers.requirement_courses import course_contexts, major_sections
     data_dir = Path(DEPARTMENTS_FILE).resolve().parent
     if not (data_dir / 'requirements_catalog.json').exists():
         return
     manifest, records = read_requirements(data_dir)
     catalog = build_catalog(records, manifest['catalog_year'], manifest['generation'])
+    records_by_id = {r['document_id']: r for r in records}
     # Archived plans hash their archived URL. Match the exact catalog path, not
     # the degree title, so saved majors and historical placements keep their ID.
     def current_source(url):
@@ -388,12 +458,26 @@ def load_concentrations(cur: sqlite3.Cursor):
         }
         cur.execute('INSERT INTO concentration_programs VALUES (?, ?, ?, ?)',
                     (program_id, catalog['catalog_year'], program['source_url'], json.dumps(program['groups'])))
+        record = records_by_id[program['program_id']]
+        sections = major_sections(record, program)
+        linked = [link['document_id'] for link in record.get('linked_requirements', []) if link.get('kind') == 'shared']
+        cur.execute('INSERT INTO program_requirements VALUES (?, ?, ?, ?, ?)',
+                    (program_id, catalog['catalog_year'], program['source_url'], json.dumps(sections),
+                     json.dumps(linked)))
+        contexts = course_contexts(sections)
+        cur.executemany('INSERT INTO program_courses VALUES (?, ?, ?)',
+                        [(program_id, code, json.dumps(context)) for code, context in contexts.items()])
         for group in program['groups']:
             for option in group['options']:
                 cur.execute('INSERT INTO concentrations VALUES (?, ?, ?, ?, ?)',
                             (option['id'], program_id, group['id'], catalog['catalog_year'], json.dumps(option)))
                 cur.executemany('INSERT INTO concentration_courses VALUES (?, ?)',
                                 [(option['id'], code) for code in option['courses']])
+    for record in records:
+        if record['kind'] == 'shared':
+            cur.execute('INSERT INTO requirement_documents VALUES (?, ?, ?, ?, ?, ?)',
+                        (record['document_id'], record['kind'], record['title'], record['catalog_year'],
+                         record['source_url'], json.dumps(record['sections'])))
     cur.execute('DELETE FROM programs')
     load_programs(cur, list(existing.values()))
     print(f"  Loaded {catalog['option_count']} concentration/program options in {catalog['program_count']} programs "
@@ -452,6 +536,8 @@ if __name__ == "__main__":
     load_courses(cur)
     load_plans(cur)
     load_concentrations(cur)
+    cur.execute("INSERT INTO dataset_meta VALUES ('fingerprint', ?)",
+                (dataset_fingerprint(Path(DEPARTMENTS_FILE).parent),))
     conn.commit()
 
     verify(cur)

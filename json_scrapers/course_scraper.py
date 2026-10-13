@@ -11,7 +11,11 @@ Usage:
 
 Output:
   data/courses/<dept>.json for each department, e.g.:
-    {"department": "cs", "courses": [{"number": "2500", "title": "...", ...}, ...]}
+    {"department": "cs", "catalog_year": "2026-2027", "source_url": "...",
+     "courses": [{"number": "2500", "title": "...", ...}, ...]}
+
+Each course keeps the catalog's raw prerequisite/corequisite wording and its exact
+credit options next to the parsed fields, so unsupported clauses stay visible.
 """
 
 import requests
@@ -20,6 +24,13 @@ import re
 import os
 import json
 from tqdm import tqdm
+
+try:
+    from .plan_scraper import edition
+except ImportError:  # run as a script
+    from plan_scraper import edition
+
+TIMEOUT = (10, 45)
 
 def clean_text(text):
     """Replace non-breaking spaces with regular spaces and strip whitespace."""
@@ -38,8 +49,13 @@ def scrape_department(url, failed_courses):
     """Scrape all courses from a single department page. Returns a dict with
     'department' code and 'courses' list, or None for CPS departments.
     Courses that fail to parse are appended to failed_courses."""
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
+    response = requests.get(url, timeout=TIMEOUT)
+    response.raise_for_status()
+    return parse_department(response.text, url, failed_courses)
+
+
+def parse_department(html, url, failed_courses):
+    soup = BeautifulSoup(html, 'html.parser')
 
     department = clean_text(soup.find('h1').text)
 
@@ -54,6 +70,8 @@ def scrape_department(url, failed_courses):
 
     course_data = {
         "department": department_code,
+        "catalog_year": edition(soup),
+        "source_url": url,
         "courses": []
     }
 
@@ -95,17 +113,20 @@ def scrape_department(url, failed_courses):
         prerequisites = []
         corequisites = []
         attributes = []
+        raw = {}
 
         block_extra = block.find_all('p', class_='courseblockextra')
         for block in block_extra:
             block_text = clean_text(block.get_text())
 
             if 'Prerequisite(s):' in block_text:
+                raw['prerequisites_text'] = re.sub(r'\s+', ' ', block_text.split('Prerequisite(s):', 1)[1]).strip()
                 parsed = format_prerequisites(block_text)
                 if parsed:
                     prerequisites = parsed
 
             elif 'Corequisite(s):' in block_text:
+                raw['corequisites_text'] = re.sub(r'\s+', ' ', block_text.split('Corequisite(s):', 1)[1]).strip()
                 formatted_corequisites = format_corequisites(block_text)
                 corequisites.extend(formatted_corequisites)
 
@@ -117,15 +138,26 @@ def scrape_department(url, failed_courses):
             "number": number,
             "title": title,
             "credits": credits,
+            "credits_text": credits_text,
+            "credit_options": credit_options(credits_text),
             "description": description,
             "prerequisites": prerequisites,
             "corequisites": corequisites,
-            "attributes": attributes
+            "attributes": attributes,
+            **raw,
         })
 
     return course_data
 
-import re
+def credit_options(text):
+    """Exact credit choices: "4,8" allows 4 or 8 (not 5-7), "1-4" is a true range.
+    Mixed forms stay None so a planner must ask rather than guess."""
+    if ',' in text and '-' in text:
+        return None
+    if '-' in text:
+        low, high = (float(v) for v in text.split('-'))
+        return {"min": low, "max": high}
+    return {"values": sorted({float(v) for v in text.split(',')})}
 
 
 def format_prerequisites(prerequisite):
@@ -162,10 +194,17 @@ def parse_logic(expression):
                 "courses": [parse_logic(part) for part in parts]
             }
 
-    # Leaf node: course or requirement
-    course_match = re.search(r'([A-Z]{2,4})\s+(\d{4})', expression)
+    # Leaf node: course or requirement. Minimum grades and concurrent timing are
+    # kept; any other wording stays an admission requirement for review.
+    course_match = re.fullmatch(r'([A-Z]{2,4})\s+(\d{4})(\s*\(may be taken concurrently\))?'
+                                r'(?:\s+with a minimum grade of ([A-Z][+-]?))?', expression)
     if course_match:
-        return {"course": f"{course_match.group(1)} {course_match.group(2)}"}
+        leaf = {"course": f"{course_match.group(1)} {course_match.group(2)}"}
+        if course_match.group(4):
+            leaf["min_grade"] = course_match.group(4)
+        if course_match.group(3):
+            leaf["concurrent"] = True
+        return leaf
 
     return {"admission_requirement": expression.strip()}
 
@@ -231,7 +270,8 @@ def save_to_json(data, department_code):
 def get_department_urls():
     """Fetch the catalog index page and return a list of full URLs for each department page."""
     url = "https://catalog.northeastern.edu/course-descriptions/"
-    response = requests.get(url)
+    response = requests.get(url, timeout=TIMEOUT)
+    response.raise_for_status()
 
     soup = BeautifulSoup(response.text, 'html.parser')
     index = soup.find(id='atozindex')

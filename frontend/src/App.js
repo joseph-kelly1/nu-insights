@@ -6,10 +6,14 @@ import Breakdowns from './components/Breakdowns';
 import AISettings, { PROVIDERS, aiLabel } from './components/AISettings';
 import MajorPicker from './components/MajorPicker';
 import ConcentrationPicker from './components/ConcentrationPicker';
+import CourseBuilder from './components/CourseBuilder';
 
 const PREFS_KEY = 'aiPrefs';
 const MAJOR_KEY = 'major';
 const CONCENTRATIONS_KEY = 'concentrations';
+// A tiny hash route so refresh and back/forward keep the builder open, without a router package.
+const ROUTES = { landing: '', app: '#/browse', builder: '#/builder' };
+const routeView = () => Object.keys(ROUTES).find((view) => ROUTES[view] && ROUTES[view] === window.location.hash) || 'landing';
 
 function loadConcentrations() {
   try {
@@ -42,7 +46,8 @@ function loadMajor() {
 }
 
 function App() {
-  const [view, setView] = useState('landing'); // 'landing' | 'app'
+  // Refresh restores the builder; browsing state isn't kept across reloads, so it starts at the landing page.
+  const [view, setView] = useState(() => (routeView() === 'builder' ? 'builder' : 'landing')); // 'landing' | 'app' | 'builder'
   const [pane, setPane] = useState('results'); // the left window shows results or one course
   const [initialQuery, setInitialQuery] = useState('');
   const [detail, setDetail] = useState({ status: 'idle' });
@@ -68,7 +73,13 @@ function App() {
   const concentrationIds = useMemo(() => concentrations.map((o) => o.id), [concentrations]);
 
   useEffect(() => {
-    if (view !== 'app' || !major?.id) return undefined;
+    const follow = () => setView(routeView());
+    window.addEventListener('hashchange', follow);
+    return () => window.removeEventListener('hashchange', follow);
+  }, []);
+
+  useEffect(() => {
+    if (view === 'landing' || !major?.id) return undefined;
     const majorId = major.id;
     let cancelled = false;
     setConcentrationCatalog({ status: 'loading', majorId });
@@ -95,7 +106,7 @@ function App() {
       }
     })();
     return () => { cancelled = true; };
-  }, [view, major?.id, concentrationRefresh]);
+  }, [view === 'landing', major?.id, concentrationRefresh]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!catalogReady || concentrationSelection.majorId !== major?.id) return;
@@ -132,7 +143,7 @@ function App() {
   }, [major]);
 
   useEffect(() => {
-    if (view !== 'app' || programs.status !== 'idle') return;
+    if (view === 'landing' || programs.status !== 'idle') return;
     setPrograms({ status: 'loading', list: [] });
     (async () => {
       try {
@@ -155,6 +166,8 @@ function App() {
 
   const go = (next) => {
     setView(next);
+    if (window.location.hash !== ROUTES[next]) window.location.hash = ROUTES[next];
+    setPane('results');
     window.scrollTo(0, 0);
   };
 
@@ -230,34 +243,71 @@ function App() {
     return <Landing onEnter={(query) => { setInitialQuery(query); setPane('results'); go('app'); }} />;
   }
 
-  return (
-    <div className="workspace">
-      <header className="ws-header">
-        <button type="button" className="wordmark-button" onClick={() => go('landing')} aria-label="NU Insights home">
-          <Wordmark />
-        </button>
-        <button
-          ref={settingsButton}
-          type="button"
-          className="btn btn-quiet"
-          aria-expanded={settingsOpen}
-          aria-controls="ai-settings"
-          onClick={() => setSettingsOpen((open) => !open)}
-        >
-          Model settings
-        </button>
-        {settingsOpen && (
-          <AISettings
+  const missingChoice = catalogReady && concentrationCatalog.data.groups.some((g) => !g.fixed && g.policy.required
+    && !concentrations.some((o) => !o.secondary_only && g.options.some((option) => option.id === o.id)));
+  const header = (
+    <header className="ws-header">
+      <button type="button" className="wordmark-button" onClick={() => go('landing')} aria-label="NU Insights home">
+        <Wordmark />
+      </button>
+      <button
+        ref={settingsButton}
+        type="button"
+        className="btn btn-quiet"
+        aria-expanded={settingsOpen}
+        aria-controls="ai-settings"
+        onClick={() => setSettingsOpen((open) => !open)}
+      >
+        Model settings
+      </button>
+      {settingsOpen && (
+        <AISettings
+          ai={ai}
+          onApply={(next) => {
+            setAI(next);
+            closeSettings();
+          }}
+          onCancel={closeSettings}
+          onClearKey={() => setAI((current) => (current.mode === 'custom' ? { ...current, apiKey: '' } : current))}
+        />
+      )}
+    </header>
+  );
+
+  if (view === 'builder') {
+    const choicesReady = !major || catalogReady || concentrationCatalog.status === 'error';
+    return (
+      <div className="workspace workspace-builder">
+        {header}
+        {!major ? (
+          <main className="builder">
+            <button type="button" className="back" onClick={() => go('app')}>← Back to course browsing</button>
+            <h1>Course Builder</h1>
+            <p>Choose your major in course browsing first, then come back to build your plan.</p>
+          </main>
+        ) : !choicesReady ? <main className="builder"><p className="pending">Loading your program…</p></main> : (
+          <CourseBuilder
+            key={`${major.id}|${concentrationIds.join(',')}`}
+            major={major}
+            concentrations={concentrations}
             ai={ai}
-            onApply={(next) => {
-              setAI(next);
-              closeSettings();
-            }}
-            onCancel={closeSettings}
-            onClearKey={() => setAI((current) => (current.mode === 'custom' ? { ...current, apiKey: '' } : current))}
+            aiLabel={aiLabel(ai)}
+            onBack={() => go('app')}
+            onOpenCourse={selectCourse}
+            onCloseCourse={() => setPane('results')}
+            detail={pane === 'course' ? (
+              <CourseDetail detail={detail} major={major} concentrations={concentrations} backLabel="← Back to plan"
+                onBack={() => setPane('results')} onRetry={() => selectCourse(detail.dept, detail.number)} />
+            ) : null}
           />
         )}
-      </header>
+      </div>
+    );
+  }
+
+  return (
+    <div className="workspace">
+      {header}
 
       <main className="ws-body">
         <div className="pane">
@@ -267,6 +317,12 @@ function App() {
             catalog={concentrationCatalog.majorId === major.id ? concentrationCatalog : { status: 'loading' }}
             selected={concentrations} onChange={changeConcentrations}
             onRetry={() => setConcentrationRefresh((n) => n + 1)} />}
+          {major && <div className="builder-entry">
+            <button type="button" className="btn btn-outline btn-sm" onClick={() => go('builder')}>Open Course Builder</button>
+            <p className="hint">{missingChoice
+              ? 'Plan your semesters. Choose a concentration above to fill your plan automatically.'
+              : 'Plan your semesters, co-ops, and remaining requirements.'}</p>
+          </div>}
           </div>
           <SearchPanel
             hidden={pane === 'course'}

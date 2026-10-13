@@ -12,6 +12,7 @@ from unittest.mock import patch
 import advisor
 import db_loader
 from json_scrapers import concentration_scraper as scraper, requirements_scraper
+from json_scrapers.requirement_courses import browse_sections, course_contexts
 from test_requirements_scraper import page, table, course, URL
 
 
@@ -79,6 +80,14 @@ class ConcentrationCatalogTest(unittest.TestCase):
         self.assertEqual(option['match_method'], 'anchor')
         self.assertEqual(option['courses'], ['CS 4100', 'CS 4120'])
 
+    def test_or_bundles_remain_complete_choices(self):
+        body = table(course('CS 2000 and CS 2001') + course('CS 2100 and CS 2101', alternative=True))
+        record = requirements_scraper.parse_document(page(body), URL, '2026-2027')
+        contexts = course_contexts(record['sections'])
+        self.assertEqual(set(contexts), {'CS 2000', 'CS 2001', 'CS 2100', 'CS 2101'})
+        self.assertEqual(contexts['CS 2001'][0]['choice_text'],
+                         'Choose one: CS 2000 and CS 2001 or CS 2100 and CS 2101')
+
 
 class ConcentrationApiTest(unittest.TestCase):
     @classmethod
@@ -92,7 +101,9 @@ class ConcentrationApiTest(unittest.TestCase):
             db_loader.load_concentrations(conn.cursor())
             conn.executemany('INSERT INTO courses (department_code, number, title, credits) VALUES (?, ?, ?, 4)',
                              [('cs', '4100', 'AI'), ('cs', '4120', 'NLP'), ('cs', '4700', 'Networks'),
-                              ('ds', '4400', 'Machine Learning'), ('cs', '4991', 'Research')])
+                              ('cs', '4730', 'Distributed Systems'), ('ds', '4400', 'Machine Learning'),
+                              ('cs', '4991', 'Research'), ('engw', '3302', 'Technical Writing'),
+                              ('engw', '3315', 'Interdisciplinary Writing')])
             conn.commit()
 
     def setUp(self):
@@ -120,6 +131,67 @@ class ConcentrationApiTest(unittest.TestCase):
         self.assertEqual(self.cs['id'], saved_id)
         self.assertEqual(len([p for p in advisor.list_programs() if p['label'] == self.cs['label']]), 1)
         self.assertTrue(self.http.get(f"/api/programs/{saved_id}/concentrations").json['groups'])
+
+    def test_major_writing_alternatives_come_from_current_requirements(self):
+        response = self.http.get(f"/api/programs/{self.cs['id']}/courses?q=engw%2033")
+        self.assertEqual(response.json['requirement_dataset']['catalog_year'], '2026-2027')
+        self.assertEqual({r['number'] for r in response.json['results']}, {'3302', '3315'})
+        for row in response.json['results']:
+            self.assertEqual(row['requirement_contexts'][0]['choice_text'], 'Choose one: ENGW 3302 or ENGW 3315')
+        # An unselected concentration's courses must not become major-wide requirements.
+        response = self.http.get(f"/api/programs/{self.cs['id']}/courses?q=cs%204700")
+        self.assertEqual(response.json['total'], 0)
+
+    def test_concentration_or_rows_are_both_browsable_and_labeled(self):
+        software = next(o for o in self.catalog['groups'][0]['options'] if o['name'] == 'Software')
+        response = self.http.get(f"/api/programs/{self.cs['id']}/courses?q=cs%2047&concentrations={software['id']}")
+        self.assertEqual({r['number'] for r in response.json['results']}, {'4700', '4730'})
+        for row in response.json['results']:
+            self.assertTrue(any(c['choice_text'] == 'Choose one: CS 4700 or CS 4730' for c in row['requirement_contexts']))
+
+    def test_major_filter_paginates_alternatives_without_duplicates(self):
+        with patch.object(advisor, 'SEARCH_LIMIT', 1):
+            first = advisor.search_courses('engw 33', self.cs['id'])
+            second = advisor.search_courses('engw 33', self.cs['id'], offset=1)
+        self.assertEqual(first['total'], 2)
+        self.assertEqual(first['results'][0]['number'], '3302')
+        self.assertEqual(second['results'][0]['number'], '3315')
+
+    def test_section_browse_keeps_matching_choice_whole_and_retains_its_header(self):
+        with patch.object(advisor, 'SEARCH_LIMIT', 1):
+            response = self.http.get(f"/api/programs/{self.cs['id']}/courses?view=sections&q=engw%203302")
+        self.assertEqual({r['number'] for r in response.json['results']}, {'3302', '3315'})
+        sections = response.json['requirement_sections']
+        self.assertEqual(len(sections), 1)
+        self.assertEqual(sections[0]['title'], 'Computer Science Writing Requirement')
+        self.assertEqual(sections[0]['entries'][0], {'kind': 'header', 'text': 'Advanced Writing in the Disciplines'})
+        choice = sections[0]['entries'][1]
+        self.assertEqual(choice['kind'], 'any_of')
+        self.assertEqual([c['code'] for c in choice['children']], ['ENGW 3302', 'ENGW 3315'])
+        self.assertTrue(all(c['course']['title'] for c in choice['children']))
+
+    def test_selected_concentration_sections_keep_alternative_courses_clickable(self):
+        software = next(o for o in self.catalog['groups'][0]['options'] if o['name'] == 'Software')
+        response = self.http.get(f"/api/programs/{self.cs['id']}/courses?view=sections&q=cs%204700&concentrations={software['id']}")
+        self.assertEqual({r['number'] for r in response.json['results']}, {'4700', '4730'})
+        choice = next(node for section in response.json['requirement_sections'] for node in section['entries']
+                      if node['kind'] == 'any_of')
+        self.assertEqual([c['code'] for c in choice['children']], ['CS 4700', 'CS 4730'])
+        self.assertTrue(all(c['course'] for c in choice['children']))
+
+    def test_section_builder_preserves_bundles_and_does_not_guess_ambiguous_operators(self):
+        parsed = requirements_scraper.parse_document(page('<h2>Supporting Courses</h2>' + table(
+            course('CS 2000 and CS 2001') + course('CS 2100 and CS 2101', alternative=True)
+            + course('CS 3000 and CS 3001 or CS 4000'))), URL, '2026-2027')
+        sections = browse_sections(parsed['sections'], {}, {'CS 2000'})
+        choice = sections[0]['entries'][0]
+        self.assertEqual(choice['kind'], 'any_of')
+        self.assertEqual([c['kind'] for c in choice['children']], ['all_of', 'all_of'])
+        self.assertEqual([c['code'] for c in choice['children'][1]['children']], ['CS 2100', 'CS 2101'])
+        self.assertIsNone(choice['children'][0]['children'][0]['course'])
+        ambiguous = browse_sections(parsed['sections'], {}, {'CS 3000'})[0]['entries'][0]
+        self.assertEqual(ambiguous['kind'], 'unparsed')
+        self.assertEqual(len(ambiguous['children']), 3)
 
     def test_wrong_campus_malformed_and_unknown_choices_are_rejected_before_ai(self):
         oakland = self.programs['Computer Science, BSCS (Oakland)']

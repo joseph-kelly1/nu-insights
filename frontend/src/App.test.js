@@ -1,4 +1,4 @@
-import { render, screen, act, fireEvent, waitFor, cleanup } from '@testing-library/react';
+import { render, screen, act, fireEvent, waitFor, cleanup, within } from '@testing-library/react';
 import App from './App';
 
 // react-markdown is ESM-only, which CRA's Jest does not transform.
@@ -38,6 +38,7 @@ const pending = () => {
 let routes;
 beforeEach(() => {
   localStorage.clear();
+  window.history.replaceState(null, '', '/'); // the builder route lives in the hash
   routes = {};
 });
 
@@ -312,7 +313,7 @@ const PROGRAM_LIST = [
   { id: 'film-4', label: 'Film and Creative Media, BA (Boston)', status: 'no_published_plan' },
 ];
 const [CS_BOS, , DS] = PROGRAM_LIST;
-const programCourses = (id, q = '', offset = 0) => `/api/programs/${id}/courses?q=${q}&offset=${offset}`;
+const programCourses = (id, q = '', offset = 0) => `/api/programs/${id}/courses?q=${q}&offset=${offset}&view=sections`;
 const page = (results, total, program = CS_BOS) => json({ program, plan_dataset: { catalog_year: '2025-2026' }, results, total });
 const majorInput = () => screen.getByLabelText('Your major');
 const savedMajor = () => JSON.parse(localStorage.getItem('major'));
@@ -375,7 +376,7 @@ test('My major browses without a query, pages to the rest, narrows with search, 
   wait(300);
   expect(await screen.findByText('Showing 20 of 23 courses')).toBeInTheDocument();
   expect(screen.getByText(/Courses that appear in the collected 2025–2026 sample plans for Computer Science, BSCS \(Boston\)/)).toBeInTheDocument();
-  expect(screen.getByText(/not a complete or current requirements list/)).toBeInTheDocument();
+  expect(screen.getByText(/Current requirements are not loaded for this major/)).toBeInTheDocument();
 
   await act(async () => fireEvent.click(screen.getByRole('button', { name: 'Show 3 more' })));
   expect(screen.getByText('Showing 23 of 23 courses')).toBeInTheDocument(); // the repeated row was not added twice
@@ -557,4 +558,70 @@ test('second-only options require primary selection and keep their slot when sou
   change('Concentration', '');
   expect(screen.getByLabelText('Concentration')).toHaveValue('');
   expect(screen.queryByRole('radio', { name: 'My concentrations' })).not.toBeInTheDocument();
+});
+
+const leaf = (course) => ({ kind: 'course', code: `${course.department_code.toUpperCase()} ${course.number}`, course });
+
+test('My major groups writing alternatives under requirement headings and opens either description', async () => {
+  const technical = { ...course('3302', 'Advanced Writing in the Technical Professions'), department_code: 'engw' };
+  const interdisciplinary = { ...course('3315', 'Interdisciplinary Advanced Writing in the Disciplines'), department_code: 'engw' };
+  routes[programCourses(CS_BOS.id, 'writing')] = () => json({
+    program: CS_BOS, requirement_dataset: { available: true, catalog_year: '2026-2027' },
+    results: [technical, interdisciplinary], total: 2,
+    requirement_sections: [{ title: 'Computer Science Writing Requirement', entries: [
+      { kind: 'header', text: 'Advanced Writing in the Disciplines' },
+      { kind: 'any_of', children: [leaf(technical), leaf(interdisciplinary)] }] }] });
+  routes['/api/course/engw/3302'] = () => json(technical);
+  routes['/api/course/engw/3315'] = () => json(interdisciplinary);
+  await startWithPrograms();
+  chooseMajor(CS_BOS);
+  fireEvent.click(screen.getByRole('radio', { name: 'My major' }));
+  change('Search courses', 'writing');
+  wait(300);
+  expect(await screen.findByRole('heading', { name: 'Computer Science Writing Requirement' })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Advanced Writing in the Disciplines' })).toBeInTheDocument();
+  const group = screen.getByRole('group', { name: 'Choose one alternative' });
+  expect(group).toHaveClass('requirement-choice');
+  expect(within(group).getByText('or')).toBeInTheDocument();
+  expect(within(group).getAllByRole('button')).toHaveLength(2);
+  expect(screen.queryByText(/Choose one: ENGW/)).not.toBeInTheDocument();
+  expect(screen.getByText(/2026–2027 major requirements/)).toBeInTheDocument();
+  for (const c of [technical, interdisciplinary]) {
+    fireEvent.click(screen.getByRole('button', { name: new RegExp(c.title) }));
+    expect(await screen.findByText(c.description)).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /Back to results/ }));
+    expect(screen.getByRole('button', { name: new RegExp(c.title) })).toHaveFocus();
+  }
+});
+
+test('My concentrations preserves section headings and AND bundles inside outlined OR choices', async () => {
+  routes[concentrationUrl(CS_BOS)] = () => json(concentrationData([SYSTEMS]));
+  const network = course('4700', 'Network Fundamentals');
+  const lab = course('4701', 'Network Lab');
+  const distributed = course('4730', 'Distributed Systems');
+  routes[`${programCourses(CS_BOS.id)}&concentrations=systems-option`] = () => json({
+    results: [network, lab, distributed], total: 3,
+    requirement_sections: [{ title: 'Security Required Courses', owner: 'Systems', entries: [
+      { kind: 'instruction', text: 'Complete one of the following:' },
+      { kind: 'any_of', children: [{ kind: 'all_of', children: [leaf(network), leaf(lab)] }, leaf(distributed)] }] },
+    { title: 'Supporting Courses', entries: [{ kind: 'text', text: 'Complete 4 credits of electives.' }] }],
+    concentration_dataset: { catalog_year: '2026-2027' } });
+  routes['/api/course/cs/4730'] = () => json(distributed);
+  await startWithPrograms();
+  chooseMajor(CS_BOS);
+  await screen.findByLabelText('Concentration');
+  change('Concentration', SYSTEMS.id);
+  fireEvent.click(screen.getByRole('radio', { name: 'My concentrations' }));
+  wait(300);
+  expect(await screen.findByRole('heading', { name: 'Security Required Courses' })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Supporting Courses' })).toBeInTheDocument();
+  expect(screen.getByText('Complete one of the following:')).toBeInTheDocument();
+  const group = screen.getByRole('group', { name: 'Choose one alternative' });
+  expect(within(group).getAllByRole('button')).toHaveLength(3);
+  expect(within(group).getByText('or')).toBeInTheDocument();
+  const bundle = within(group).getByRole('group', { name: 'Complete all courses in this option' });
+  expect(within(bundle).getAllByRole('button')).toHaveLength(2);
+  expect(within(bundle).getByText('and')).toBeInTheDocument();
+  fireEvent.click(within(group).getByRole('button', { name: /Distributed Systems/ }));
+  expect(await screen.findByText(distributed.description)).toBeInTheDocument();
 });

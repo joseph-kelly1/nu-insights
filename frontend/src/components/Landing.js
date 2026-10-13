@@ -3,7 +3,7 @@ import React from 'react';
 const FEATURES = [
   ['Search 6,000+ courses', 'Look up any course by department, code, or title word, with its description, credits, and NUpath attributes.'],
   ['Read prerequisites clearly', 'Prerequisite rules appear as “All of” and “One of” groups, so required courses stand apart from alternatives.'],
-  ['See where a course fits', 'Choose your major to see where its 2025–26 sample plans place a course, and browse the courses those plans name.'],
+  ['See where a course fits', 'Choose your major to browse current requirements and course alternatives, with historical sample plans for timing context.'],
   ['Get a plain-English breakdown', 'Ask for a short take on what a course covers, who usually takes it, and how it connects to co-op, written from catalog data.'],
 ];
 
