@@ -28,7 +28,18 @@
       "credits": 4.0,
       "description": "Demonstrates practices and techniques employed in the field including organization of events and functions. Studies campaign planning, research, and media relationships.",
       "prerequisites": {
-        "course": "JRNL 3425"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "JRNL 3425"
+          },
+          {
+            "course": "PREL 1425"
+          },
+          {
+            "admission_requirement": "COMM 218M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -44,6 +55,15 @@
         "NUpath Societies/Institutions",
         "NUpath Writing Intensive"
       ]
+    },
+    {
+      "number": "5311",
+      "title": "Design for Public Relations",
+      "credits": 4.0,
+      "description": "Explores the role of design techniques and processes in public relations. Examines basic design principles to offer students an opportunity to learn how to work effectively with designers and how to utilize design and graphics in strategic communications. Covers designing materials to convey and amplify client messages, storytelling, and communications with key audiences and the public.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
     }
   ]
 }

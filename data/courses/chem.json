@@ -180,7 +180,9 @@
       "title": "Lab for CHEM 1214",
       "credits": 1.0,
       "description": "Accompanies CHEM 1214. Covers a range of topics from the course, such as measurements of heat transfer, rate and equilibrium constants, and the effects of temperature and catalysts. Particular attention is paid to aqueous acid-base reactions and to the properties and uses of buffer systems. Quantitative analysis of chemical and physical systems is emphasized throughout.",
-      "prerequisites": [],
+      "prerequisites": {
+        "course": "CHEM 1212"
+      },
       "corequisites": [
         "CHEM 1214",
         "CHEM 1216"
@@ -200,6 +202,18 @@
       "attributes": []
     },
     {
+      "number": "1991",
+      "title": "General, Organic, and Biological Chemistry Elective",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Offers elective credit for accelerated introductory-level general, organic, and biological chemistry courses taken at other academic institutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "2117",
       "title": "Chemistry in Culture",
       "credits": 4.0,
@@ -208,7 +222,15 @@
         "type": "OR",
         "courses": [
           {
-            "course": "CHEM 1151"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CHEM 1151"
+              },
+              {
+                "admission_requirement": "CHEM 233M with a minimum grade of C-"
+              }
+            ]
           },
           {
             "type": "AND",
@@ -289,6 +311,9 @@
             "course": "CHEM 1151"
           },
           {
+            "admission_requirement": "CHEM 233M with a minimum grade of D"
+          },
+          {
             "course": "CHEM 1214"
           },
           {
@@ -341,7 +366,17 @@
       "title": "Lab for CHEM 2313",
       "credits": 1.0,
       "description": "Accompanies CHEM 2313. Basic laboratory techniques from CHEM 2312 are applied to chemical reactions of alcohols, ethers, carbonyl compounds, carbohydrates, and amines. Introduces basic laboratory techniques including infrared (IR) spectroscopy and nuclear magnetic resonance (NMR) spectronomy as analytical methods for characterization of organic molecules.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 2312"
+          },
+          {
+            "course": "CHEM 2316"
+          }
+        ]
+      },
       "corequisites": [
         "CHEM 2313"
       ],
@@ -413,7 +448,17 @@
       "title": "Lab for CHEM 2317",
       "credits": 2.0,
       "description": "Accompanies CHEM 2317. Introduces basic laboratory techniques including infrared (IR) spectroscopy and nuclear magnetic resonance (NMR) spectronomy as analytical methods for characterization of organic molecules. These methods serve as the basis for characterization of products from microscale syntheses.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 2312"
+          },
+          {
+            "course": "CHEM 2316"
+          }
+        ]
+      },
       "corequisites": [
         "CHEM 2317",
         "CHEM 2325"
@@ -433,6 +478,9 @@
             "courses": [
               {
                 "course": "CHEM 1151"
+              },
+              {
+                "admission_requirement": "CHEM 233M with a minimum grade of C-"
               },
               {
                 "course": "CHEM 1214"
@@ -528,6 +576,9 @@
             "courses": [
               {
                 "course": "CHEM 1151"
+              },
+              {
+                "admission_requirement": "CHEM 233M with a minimum grade of C-"
               },
               {
                 "course": "CHEM 1161"
@@ -631,6 +682,9 @@
                 "course": "CHEM 1151"
               },
               {
+                "admission_requirement": "CHEM 233M with a minimum grade of C-"
+              },
+              {
                 "course": "CHEM 1161"
               },
               {
@@ -679,6 +733,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1113"
               },
               {
@@ -723,6 +780,9 @@
               },
               {
                 "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of C-"
               }
             ]
           },
@@ -736,9 +796,15 @@
                 "course": "CHEM 1151"
               },
               {
+                "admission_requirement": "CHEM 233M with a minimum grade of C-"
+              },
+              {
                 "course": "CHEM 1161"
               }
             ]
+          },
+          {
+            "course": "CHEM 2161"
           },
           {
             "type": "OR",
@@ -795,7 +861,15 @@
             ]
           },
           {
-            "course": "MATH 1342"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of C-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -836,6 +910,9 @@
         "courses": [
           {
             "course": "CHEM 1151"
+          },
+          {
+            "admission_requirement": "CHEM 233M with a minimum grade of D-"
           },
           {
             "course": "CHEM 1161"
@@ -880,6 +957,9 @@
                     "course": "CHEM 1151"
                   },
                   {
+                    "admission_requirement": "CHEM 233M with a minimum grade of C-"
+                  },
+                  {
                     "course": "CHEM 1161"
                   }
                 ]
@@ -893,7 +973,15 @@
                 "course": "MATH 1252"
               },
               {
-                "course": "MATH 1342"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 1342"
+                  },
+                  {
+                    "admission_requirement": "MATH 211M with a minimum grade of C-"
+                  }
+                ]
               }
             ]
           },
@@ -1244,6 +1332,58 @@
       ]
     },
     {
+      "number": "5100",
+      "title": "The Ethical and Responsible Conduct of Chemical Research",
+      "credits": 3.0,
+      "description": "Covers the ethical norms, practices, and standards of conduct that researchers must abide by to ensure the public’s continued trust and support for research. Students analyze and evaluate the ethical dimensions of typical research situations individually and with their peers. Discusses how to engage in ethical decision making when the stakes are high, personal, and when the issues are not clear-cut. Addresses laboratory safety throughout as it relates to the relevant concepts of research ethics. Intended for advanced chemistry, biochemistry, and allied undergraduate majors and master’s students interested in pursuing a research career.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CHEM 2321"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ENGW 3307"
+                  },
+                  {
+                    "course": "ENGW 3315"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EESC 2000"
+                  },
+                  {
+                    "course": "CHEM 4750"
+                  },
+                  {
+                    "course": "CHEM 4901"
+                  },
+                  {
+                    "course": "CHEM 4992"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5501",
       "title": "Chemical Safety in the Research Laboratory",
       "credits": 1.0,
@@ -1508,6 +1648,9 @@
                     "course": "ENGW 1111"
                   },
                   {
+                    "admission_requirement": "WRIT 201M with a minimum grade of C"
+                  },
+                  {
                     "course": "ENGW 1102"
                   },
                   {
@@ -1529,6 +1672,25 @@
       "attributes": [
         "NUpath Writing Intensive"
       ]
+    },
+    {
+      "number": "5624",
+      "title": "Soft Materials Laboratory",
+      "credits": 1.0,
+      "description": "Explores the synthesis, characterization, and application of soft materials. Encompasses the synthesis and post-functionalization of polymers, as well as their characterization using diverse techniques such as nuclear magnetic resonance spectroscopy, rheology, mechanical testing, size exclusion chromatography, among others. Explores the application of the synthesized materials in drug delivery, sustainability, and pollution remediation. Offers students interested in the synthesis and characterization of soft materials an opportunity to obtain hands-on experience.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 2313"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "5625",
@@ -1701,6 +1863,9 @@
                 "course": "CHEM 1151"
               },
               {
+                "admission_requirement": "CHEM 233M with a minimum grade of D-"
+              },
+              {
                 "course": "CHEM 1161"
               }
             ]
@@ -1718,7 +1883,25 @@
       "title": "Plastics Sustainability and Circular Economy: A Chemical Perspective",
       "credits": 3.0,
       "description": "Explores the measures taken by both academia and industry to address plastic pollution and to integrate these materials into circular economy systems. Examines plastic pollution from a chemical perspective by delving into the properties of polymers and their composites at the molecular level, aiming to understand the root causes of this pervasive problem. Offers students an opportunity to obtain a deeper understanding of the challenges posed by plastic pollution and the innovative solutions being developed to combat it.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CHEM 2313"
+              },
+              {
+                "course": "CHEM 2317"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },
@@ -1746,10 +1929,26 @@
                 "type": "AND",
                 "courses": [
                   {
-                    "course": "MATH 1341"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 1341"
+                      },
+                      {
+                        "admission_requirement": "MATH 21EM with a minimum grade of D-"
+                      }
+                    ]
                   },
                   {
-                    "course": "MATH 1342"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 1342"
+                      },
+                      {
+                        "admission_requirement": "MATH 211M with a minimum grade of D-"
+                      }
+                    ]
                   }
                 ]
               },
@@ -1757,10 +1956,26 @@
                 "type": "AND",
                 "courses": [
                   {
-                    "course": "MATH 2321"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 2321"
+                      },
+                      {
+                        "admission_requirement": "MATH 316M with a minimum grade of D-"
+                      }
+                    ]
                   },
                   {
-                    "course": "MATH 2341"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 2341"
+                      },
+                      {
+                        "admission_requirement": "MATH 315M with a minimum grade of D-"
+                      }
+                    ]
                   }
                 ]
               }
@@ -1965,6 +2180,15 @@
       "attributes": []
     },
     {
+      "number": "5700",
+      "title": "Topics in Organic Chemistry",
+      "credits": 3.0,
+      "description": "Offers various topics within the breadth of organic chemistry. Intended to meet the needs and interests of students. Topics could range from the physical and material aspects of organic chemistry to the biochemical and biomedical aspects of organic chemistry. Undergraduate students who have completed a second semester of organic chemistry with a grade of at least C– may be admitted with permission of instructor. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5904",
       "title": "Seminar",
       "credits": 1.0,
@@ -1993,6 +2217,15 @@
         "max": 6.0
       },
       "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated up to three times for up to 6 total credits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6420",
+      "title": "Engineering for Chemical Sustainability",
+      "credits": 2.0,
+      "description": "Discusses the rationale and approaches for integrating sustainability into the design of chemical products and processes. Emphasizes technical and design practice and measuring the impacts of products and processes in business, environmental, and social contexts. Introduces students to methods used in green chemical engineering, particularly as applied to reaction engineering, management of the nitrogen and carbon cycles, and decarbonization.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

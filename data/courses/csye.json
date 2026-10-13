@@ -121,17 +121,7 @@
       "title": "Software Testing for Engineers",
       "credits": 4.0,
       "description": "Covers the principles and processes of validation, verification, and integration for software and software-intensive systems, including cyberphysical systems. Topics include test automation, testing metrics, test coverage, integration testing, state space exploration for cyberphysical systems, software assurance, and software reliability. Explores the principles, tools, applications, and processes that efficiently integrate software elements to meet customer requirements and needs.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "CSYE 6200"
-          },
-          {
-            "course": "INFO 5100"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -300,17 +290,6 @@
       "attributes": []
     },
     {
-      "number": "7235",
-      "title": "Model-Driven Architecture",
-      "credits": 4.0,
-      "description": "Develops the skills to utilize new software modeling and management techniques in each state of the life cycle of component-based software systems. Applies and extends a basic knowledge of the Unified Modeling Language (UML). Introduces and applies metamodel management concepts using the OMG metaobject facility as a technology baseline. Develops a component-based software project throughout the course using C++ or Java; grading primarily based on the software project and its public presentation.",
-      "prerequisites": {
-        "course": "INFO 6205"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7270",
       "title": "Building Virtual Environments",
       "credits": 4.0,
@@ -324,20 +303,7 @@
       "title": "User Experience Design and Testing",
       "credits": 4.0,
       "description": "Introduces user experience concepts while working on Web design projects. Offers students an opportunity to build the necessary skill sets to make better decisions when designing contemporary websites that cater to customer needs. Students practice interview techniques to understand user requirements while keeping user experience central to the effort. Uses wireframes and user scenarios to drive the creative design process. Various case studies are introduced and discussed in team settings to emphasize user perspectives. Uses quality assurance and usability testing to drive validation and user-acceptance testing and approvals.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "CSYE 6200"
-          },
-          {
-            "course": "INFO 5100"
-          },
-          {
-            "course": "INFO 5100"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -385,8 +351,11 @@
     {
       "number": "7374",
       "title": "Special Topics in Computer Systems Engineering",
-      "credits": 4.0,
-      "description": "Offers topics of current interest in computer systems engineering. May be repeated without limit.",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in computer systems engineering. May be repeated up to three times for a maximum of 16 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -429,25 +398,6 @@
       "description": "Explores the use of deep learning for the automated creation and analysis of game metrics. Uses convolutional neural networks (CNNs) to segment and identify anything on a game screen in real-time, which is used as input to AI systems. The second part of the course analyzes the importance of the metrics. Covers surrogate models, Shannon entropy, Individual Conditional Expectation (ICE), leave-one-covariate-out (LOCO), local feature importance, partial dependency plots, tree-based feature importance, standardized coefficient importance, accumulated local effects (ALE) plots, and Shapley values. Lastly, covers building predictive models with game data using the following techniques: supervised learning, generative/discriminative learning, parametric/nonparametric learning, neural networks, unsupervised learning reinforcement learning, and adaptive control.",
       "prerequisites": {
         "course": "INFO 6105"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7550",
-      "title": "Distributed Intelligent Agents in the Metaverse",
-      "credits": 4.0,
-      "description": "Introduces the field of agent-based computing as enablers of metaverse social avatar systems. Focuses on important aspects that shape the agent’s experience within the challenging virtual-reality design and engineering landscape. Covers personal space, personified locomotion, agent aesthetics, agent social interactions, and agent’s relation to blockchain decentralized virtual identity. Students engage in projects to deliver VR platforms applicable to engineering fields such as mechanical, civil, chemical, and bioengineering. Considers distributed learning applications and certification of credentials, as well. Offers students an opportunity to learn how to configure various agent types to construct virtual worlds bursting with lively agent interactive experiences that go far beyond the constraints of the physical reality.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "CSYE 7270"
-          },
-          {
-            "course": "INFO 6205"
-          }
-        ]
       },
       "corequisites": [],
       "attributes": []

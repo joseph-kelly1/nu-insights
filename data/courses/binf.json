@@ -32,15 +32,6 @@
       "attributes": []
     },
     {
-      "number": "6201",
-      "title": "Introduction to Bioinformatics Using RNA Sequencing",
-      "credits": 4.0,
-      "description": "Introduces RNA-Seq, a commonly used method for analyzing gene expression. Offers students an opportunity to obtain hands-on experience processing and analyzing high-throughput sequencing data, as well as exposure to NGS and RNA-Seq processes, applications, and terminology.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6250",
       "title": "Algorithmic Foundations in Bioinformatics",
       "credits": 3.0,
@@ -53,6 +44,15 @@
           },
           {
             "course": "BINF 6200"
+          },
+          {
+            "course": "CS 5001"
+          },
+          {
+            "course": "CS 5001"
+          },
+          {
+            "course": "CS 5001"
           }
         ]
       },
@@ -60,34 +60,33 @@
       "attributes": []
     },
     {
-      "number": "6308",
-      "title": "Bioinformatics Computational Methods 1",
-      "credits": 4.0,
-      "description": "Offers the first semester of a two-semester sequence on the use of computers in bioinformatics research. Offers students an opportunity to work with current methods and computational algorithms used in contemporary sequence analysis. Teaches practical skills necessary to manage and mine the vast biological information being generated and housed in public databases. Emphasizes the use of Python as the primary computer language and requires students to learn and understand basic computer logic and syntax, including an introduction to scalars, arrays, hashes, decision statements, loops, subroutines, references, and regular expressions. A focus on fundamental skills, including the command line interface found in the Linux operating system, is designed to prepare students for second-semester applications.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6309",
-      "title": "Bioinformatics Computational Methods 2",
-      "credits": 4.0,
-      "description": "Designed to build upon the core topics covered in BINF 6308, i.e., use of the computer as a tool for bioinformatics research. Builds upon the Python language fundamentals covered during the first semester but requires students to apply these fundamentals to a semester-long project. The project includes protein family analysis, multiple sequence analysis, phylogeny, and protein structure analysis. Additionally, students have an opportunity to learn to build, load, connect, and query custom MySQL databases, and parse command line flags.",
+      "number": "6251",
+      "title": "Lab for BINF 6250",
+      "credits": 1.0,
+      "description": "Accompanies BINF 6250. Students participate in an experiential learning project that implements an algorithm studied in BINF 6250 and that uses and processes real-world data.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "BINF 6308"
+            "course": "BINF 6200"
           },
           {
-            "course": "BINF 6308"
+            "course": "BINF 6200"
           },
           {
-            "course": "BIOL 6308"
+            "course": "CS 5001"
+          },
+          {
+            "course": "CS 5001"
+          },
+          {
+            "course": "CS 5001"
           }
         ]
       },
-      "corequisites": [],
+      "corequisites": [
+        "BINF 6250"
+      ],
       "attributes": []
     },
     {
@@ -148,29 +147,37 @@
             ]
           },
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
-                "type": "OR",
+                "type": "AND",
                 "courses": [
                   {
-                    "course": "BINF 6308"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "BINF 6308"
+                      },
+                      {
+                        "course": "BINF 6308"
+                      }
+                    ]
                   },
                   {
-                    "course": "BINF 6308"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "BINF 6309"
+                      },
+                      {
+                        "course": "BINF 6309"
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "BINF 6309"
-                  },
-                  {
-                    "course": "BINF 6309"
-                  }
-                ]
+                "course": "CS 5130"
               }
             ]
           }
@@ -240,6 +247,9 @@
                 ]
               }
             ]
+          },
+          {
+            "course": "CS 5130"
           }
         ]
       },
@@ -307,6 +317,9 @@
                 ]
               }
             ]
+          },
+          {
+            "course": "CS 5130"
           }
         ]
       },
@@ -328,6 +341,28 @@
       "credits": 3.0,
       "description": "Examines methodologies for analyzing observational health, viromics, and genetics datasets. Covers data structuring, collection methods, ethical considerations, statistical analysis techniques, and data visualization approaches in bioinformatics and biotechnology research. Offers experience with current bioinformatic tools and programs to address complex biological questions, from basic coding principles to advanced algorithmic applications. Analyzes large-scale health and genomic datasets, explore viral mutation patterns, and evaluate biopharmaceutical research applications.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6610",
+      "title": "Scientific Computing in Bioinformatics",
+      "credits": 3.0,
+      "description": "Explores advanced scientific computing practices for building scalable and reproducible bioinformatics workflows. Offers students an opportunity to develop analysis pipelines using Bash, Slurm, Docker, Singularity, Nextflow, and Snakemake and to deploy them on high-performance computing clusters and AWS cloud platforms. Examines cloud-based genomics services, including AWS Batch and HealthOmics, and presents DevOps techniques for automating testing and deployment using GitHub Actions. Covers lightweight database design for managing analysis metadata and introduces interactive visualization using R Shiny and Dash. Concludes with a team-based project using agile methodology, Jira, and Confluence to design and implement a complete, cloud-ready bioinformatics workflow.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BINF 6200"
+          },
+          {
+            "course": "BINF 6200"
+          },
+          {
+            "course": "BINF 6200"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },

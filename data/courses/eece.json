@@ -26,11 +26,22 @@
               },
               {
                 "course": "GE 1502"
+              },
+              {
+                "admission_requirement": "ENGR 155M with a minimum grade of D-"
               }
             ]
           },
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M (may be taken concurrently) with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -81,7 +92,15 @@
       "credits": 4.0,
       "description": "Introduces the basic concepts related to circuits and circuit elements; current, voltage, and power; models for resistors, capacitors, and inductors; and circuit analysis using Kirchhoff’s laws. Discusses selected topics that illustrate a variety of applications of electrical engineering, such as AC circuits and electric power, the basics of semiconductor devices with applications to transistor amplifier models, transients in circuits with energy storage, mechanical controls and mechatronics, digital signals, logic circuits, and some basic concepts of computer operations, specifically, number coding, arithmetic operations, and memory circuits.",
       "prerequisites": {
-        "course": "MATH 1342"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 1342"
+          },
+          {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [
         "EECE 2211"
@@ -105,7 +124,15 @@
       "credits": 4.0,
       "description": "Covers the fundamentals of digital design topics including digital data representations and operations as well as combinational and sequential circuits design. Introduces various topics of computer organization, architecture, and microarchitecture applicable to modern computer engineering systems. Discusses principles of computer memory addressing. Applies the concept of hardware and software interface through programming in assembly language.",
       "prerequisites": {
-        "course": "CS 1800"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 1800"
+          },
+          {
+            "admission_requirement": "MATH 209M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [
         "EECE 2311"
@@ -215,7 +242,15 @@
             ]
           },
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -245,7 +280,15 @@
             ]
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -291,7 +334,15 @@
             ]
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -327,6 +378,9 @@
           },
           {
             "course": "CS 2100"
+          },
+          {
+            "admission_requirement": "CIS 201M (may be taken concurrently) with a minimum grade of D-"
           }
         ]
       },
@@ -419,7 +473,15 @@
             "course": "EECE 2150"
           },
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -449,29 +511,15 @@
             "course": "EECE 2150"
           },
           {
-            "course": "MATH 2341"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4512",
-      "title": "Healthcare Technologies: Sensors, Systems, and Analysis",
-      "credits": 4.0,
-      "description": "Examines healthcare technologies using both theory and hands-on approaches. Testing, imaging, and data collection are essential tools medical specialists use to treat patients and the primary contribution of engineers to healthcare.Covers the physics and physiology behind the newly defined concept of digital biomarkers; the electronics needed to collect these biomarkers; analysis techniques for processing and interpreting the data; and invasive (swallowable/implantable), on-body (wearable), and contactless systems for data collection. Examines safety issues, ethics, and regulatory hurdles from both an industry and research perspective. In the hands-on labs, offers students an opportunity to follow the steps of creating a startup or conducting new research and assembling a microcontroller-based sensor system for collecting digital biomarkers.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "EECE 2210"
-          },
-          {
-            "course": "EECE 2412"
-          },
-          {
-            "course": "BIOE 3210"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -582,15 +630,6 @@
       "attributes": []
     },
     {
-      "number": "4638",
-      "title": "Special Topics in Computer Engineering",
-      "credits": 4.0,
-      "description": "Focuses on advanced topics related to computer engineering technology to be selected by instructor. May be repeated without limit.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "4646",
       "title": "Optics for Engineers",
       "credits": 4.0,
@@ -631,6 +670,9 @@
               },
               {
                 "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
               }
             ]
           },
@@ -642,6 +684,9 @@
               },
               {
                 "course": "PHYS 1151"
+              },
+              {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
               },
               {
                 "course": "PHYS 1171"
@@ -662,7 +707,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -814,6 +867,9 @@
             "course": "MATH 2341"
           },
           {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
+          },
+          {
             "admission_requirement": "graduate program admission"
           }
         ]
@@ -855,7 +911,15 @@
             "type": "AND",
             "courses": [
               {
-                "course": "MATH 1342"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 1342"
+                  },
+                  {
+                    "admission_requirement": "MATH 211M with a minimum grade of D-"
+                  }
+                ]
               },
               {
                 "course": "PHYS 1155"
@@ -882,7 +946,15 @@
             "type": "AND",
             "courses": [
               {
-                "course": "MATH 2321"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2321"
+                  },
+                  {
+                    "admission_requirement": "MATH 316M with a minimum grade of D-"
+                  }
+                ]
               },
               {
                 "course": "PHYS 1155"
@@ -895,6 +967,9 @@
                   },
                   {
                     "course": "CHEM 1211"
+                  },
+                  {
+                    "admission_requirement": "CHEM 233M with a minimum grade of D-"
                   }
                 ]
               }
@@ -912,7 +987,7 @@
       "number": "5360",
       "title": "Combinatorial Optimization",
       "credits": 4.0,
-      "description": "Introduces combinatorial optimization, an emerging field that combines techniques from applied mathematics, operations research, and computer science to solve optimization problems over discrete structures. Emphasizes problems that arise in the areas of electrical and computer engineering, including VLSI, computer-aided design, parallel computing, computer architecture, and high-performance compiling. Covers the foundations of algorithm analysis, including asymptotic notation and complexity theory, and a range of optimization techniques, including divide and conquer, local optimization, dynamic programming, branch and bound, simulated annealing, genetic algorithms, approximation algorithms, integer and linear programming, matroid theory, and greedy algorithms. Considers the efficient generation of optimal solutions, the development and evaluation of heuristics, and the computation of tight upper and lower bounds.",
+      "description": "Introduces combinatorial optimization, an emerging field that combines techniques from applied mathematics, operations research, and computer science to solve optimization problems over discrete structures. Emphasizes problems that arise in the areas of electrical and computer engineering including VLSI, computer-aided design, parallel computing, computer architecture, and high-performance compiling. Covers the foundations of algorithm analysis, including asymptotic notation and complexity theory, and a range of optimization techniques including divide and conquer, local optimization, dynamic programming, branch and bound, simulated annealing, genetic algorithms, approximation algorithms, integer and linear programming, matroid theory, and greedy algorithms. Considers the efficient generation of optimal solutions, the development and evaluation of heuristics, and the computation of tight upper and lower bounds.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -1162,7 +1237,15 @@
             "type": "AND",
             "courses": [
               {
-                "course": "MATH 2321"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2321"
+                  },
+                  {
+                    "admission_requirement": "MATH 316M with a minimum grade of D-"
+                  }
+                ]
               },
               {
                 "type": "OR",
@@ -1486,6 +1569,9 @@
             "course": "MGSC 2301"
           },
           {
+            "admission_requirement": "BUSM 224M with a minimum grade of D-"
+          },
+          {
             "admission_requirement": "graduate program admission"
           }
         ]
@@ -1601,7 +1687,15 @@
                 "course": "EECE 2530"
               },
               {
-                "course": "MATH 2341"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2341"
+                  },
+                  {
+                    "admission_requirement": "MATH 315M with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -1661,6 +1755,9 @@
         "courses": [
           {
             "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -1745,7 +1842,15 @@
                 "course": "EECE 2520"
               },
               {
-                "course": "MATH 2341"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2341"
+                  },
+                  {
+                    "admission_requirement": "MATH 315M with a minimum grade of C-"
+                  }
+                ]
               },
               {
                 "type": "OR",
@@ -1961,25 +2066,6 @@
       "corequisites": [
         "EECE 5684"
       ],
-      "attributes": []
-    },
-    {
-      "number": "5686",
-      "title": "Electrical Machines",
-      "credits": 4.0,
-      "description": "Reviews phasor diagrams and three-phase circuits; the magnetic aspects including magnetic circuits and permanent magnets; transformers, their equivalent circuits, and performance; principles of electromechanical energy conversion; elementary concepts of rotating machines including rotating magnetic fields; and steady-state theory and performance of induction machines, synchronous machines, and direct current machines.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "EECE 2530"
-          },
-          {
-            "admission_requirement": "graduate program admission"
-          }
-        ]
-      },
-      "corequisites": [],
       "attributes": []
     },
     {
@@ -2223,7 +2309,7 @@
       "number": "7213",
       "title": "System Identification and Adaptive Control",
       "credits": 4.0,
-      "description": "Discusses fundamental issues of adaptive identification and control, such as stability of adaptive systems, convergence, persistent excitation, and robustness. Identification is the process of mathematically modeling a system based on measurement data that may be limited or uncertain. Adaptive control, then, is the means by which a system that is poorly modeled is controlled adequately. Enhances the underlying basic ideas that are essential for adaptive control. Emphasizes recursive approaches, such as recursive least squares algorithm, where parameter estimates are updated in real time. Covers simple adaptive systems, adaptive observers, and adaptive control. Discusses in detail two major adaptive schemes, model reference adaptive control (MRAC) and self-tuning regulators (STR).",
+      "description": "Discusses fundamental issues of adaptive identification and control such as stability of adaptive systems, convergence, persistent excitation, and robustness. Identification is the process of mathematically modeling a system based on measurement data that may be limited or uncertain. Adaptive control is the means by which a system that is poorly modeled is controlled adequately. Enhances the underlying basic ideas that are essential for adaptive control. Emphasizes recursive approaches, such as the recursive least squares algorithm, where parameter estimates are updated in real time. Covers simple adaptive systems and adaptive observers in addition to adaptive control. Discusses in detail two major adaptive schemes: model reference adaptive control and self-tuning regulators.",
       "prerequisites": {
         "course": "EECE 7200"
       },
@@ -2296,6 +2382,25 @@
       "corequisites": [
         "EECE 7248"
       ],
+      "attributes": []
+    },
+    {
+      "number": "7242",
+      "title": "Integrated Circuits for Mixed Signals and Data Communication",
+      "credits": 4.0,
+      "description": "Covers analysis and design of ICs for high-speed communications and mixed-signal processing. Emphasizes performance of CMOS and BiCMOS implementations of building blocks for these systems. Covers passive R, L, C, and active devices for ICs; broadband amplifiers, TIAs, limiters, buffers/drivers, muxes, and demuxes; circuit noise modeling and analysis and methods for optimization of SNR and BER, with applications to optical communication; baseband and HF filters; design methods of L-C, OTA-C, MOSFET-C, and switched-C filters; data conversion and D-A and A-D characteristics, popular DAC architectures, serial and parallel ADCs, and high-resolution techniques; and clock generators and oscillators, L-C resonator-based designs, VCOs, PLLs and frequency synthesis, and CDR circuits. Requires verification review of a relevant publication. Students not meeting course prerequisites may seek permission of instructor.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 5649"
+          },
+          {
+            "course": "EECE 7240"
+          }
+        ]
+      },
+      "corequisites": [],
       "attributes": []
     },
     {
@@ -2446,19 +2551,26 @@
       "number": "7310",
       "title": "Modern Signal Processing",
       "credits": 4.0,
-      "description": "Covers theory and practice of modern signal processing techniques with emphasis on optimal filtering and multirate signal processing. Includes the principle of orthogonality, Wiener and Kalman filters, linear prediction, spectral factorization, the Yule-Walker equations, decimation and interpolation, Noble identities and polyphase representation, and maximally decimated filter banks.",
+      "description": "Covers theory and practice of modern signal processing techniques with emphasis on optimal filtering and multirate signal processing. Includes the principle of orthogonality, Wiener and Kalman filters, linear prediction, spectral factorization, the Yule-Walker equations, decimation and interpolation, noble identities and polyphase representation, and maximally decimated filter banks.",
       "prerequisites": {
-        "course": "EECE 7204"
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "EECE 5666"
+              },
+              {
+                "course": "EECE 5666"
+              }
+            ]
+          },
+          {
+            "course": "EECE 7204"
+          }
+        ]
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7311",
-      "title": "Two Dimensional Signal and Image Processing",
-      "credits": 4.0,
-      "description": "Examines the fundamentals of two-dimensional signal processing, with emphasis on image processing. Topics include signals, systems, and transforms in two dimensions; design and analysis of FIR and IIR filters; DFT and FFT algorithms; generation of digital image from the source; image digitizers and display devices; image transforms; techniques for point-wise, local, and global image enhancement; statistical image restoration techniques including recursive estimation; image coding techniques in spatial and transform domain including coding for facsimile transmission; and feature analysis. Requires a good understanding of linear systems, transform techniques, linear algebra, and random processes.",
-      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -2599,6 +2711,28 @@
       "attributes": []
     },
     {
+      "number": "7371",
+      "title": "Lab for EECE 7364",
+      "credits": 0.0,
+      "description": "Accompanies EECE 7364. Covers topics from the course through various experiments.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 7364"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "7373",
+      "title": "Machine Learning with Small Data",
+      "credits": 4.0,
+      "description": "Addresses machine learning in small-data regimes, focusing on methods that enable learning with limited supervision and scarce labeled data. Topics include formal learning theory, transfer learning, domain adaptation, weak supervision, zero- and few-shot learning, multitask learning, and meta-learning. Further explores data augmentation through data-driven and physics-based simulation. Introduces modern generative approaches for data-efficient representation learning.",
+      "prerequisites": {
+        "course": "EECE 5644"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7374",
       "title": "Fundamentals of Computer Networks",
       "credits": 4.0,
@@ -2639,15 +2773,6 @@
       "attributes": []
     },
     {
-      "number": "7393",
-      "title": "Analysis and Design of Data Networks",
-      "credits": 4.0,
-      "description": "Introduces fundamental concepts and approaches for the analysis and design of data networks. Covers delay models, multi-access communication, scheduling, routing, congestion control, and network coding. Presents analytical techniques such as basic queuing theory, queuing networks, optimization, stochastic control, and distributed algorithms. Requires knowledge of basic probability.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7397",
       "title": "Advanced Machine Learning",
       "credits": 4.0,
@@ -2677,6 +2802,15 @@
       "title": "Advanced Special Topics in Electrical and Computer Engineering",
       "credits": 4.0,
       "description": "Covers topics of interest to the faculty member conducting this class for advanced study. May be repeated up to four times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7399",
+      "title": "Effective Communications to Broad Audiences",
+      "credits": 4.0,
+      "description": "Provides instruction and experience in effective communication of technical material to broad audiences. Centers on the fundamental question of \"So What-Who Cares?\" (SWWC), which guides all choices about what to present and how to present it. The SWWC approach uses a 3-level method applied through a learn-by-doing format, covering presentations in multiple formats, responses to critique, seminar analysis, and professional development including CV preparation and interview practice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2723,15 +2857,6 @@
       "attributes": []
     },
     {
-      "number": "7986",
-      "title": "Research",
-      "credits": 0.0,
-      "description": "Offers students an opportunity to conduct full-time research under faculty supervision.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7990",
       "title": "Thesis",
       "credits": 4.0,
@@ -2747,15 +2872,6 @@
       "title": "Thesis Continuation - Half-Time",
       "credits": 0.0,
       "description": "Offers analytical and/or experimental work conducted under the auspices of the department.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "8986",
-      "title": "Research",
-      "credits": 0.0,
-      "description": "Offers students an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

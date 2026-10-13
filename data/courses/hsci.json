@@ -37,6 +37,12 @@
             "course": "BIOL 2217"
           },
           {
+            "admission_requirement": "BIOL 136M (may be taken concurrently) with a minimum grade of C-"
+          },
+          {
+            "admission_requirement": "BIOL 234M (may be taken concurrently) with a minimum grade of C-"
+          },
+          {
             "course": "CHEM 1101"
           },
           {
@@ -125,10 +131,68 @@
       "attributes": []
     },
     {
+      "number": "4684",
+      "title": "Seminar in Stress Psychology",
+      "credits": 4.0,
+      "description": "Examines the lifelong impact of stress on physical and mental health, with particular attention to the role of cortisol from the prenatal period through adulthood. Considers how stress during different life stages influences health and development, the distinction between adaptive and harmful stress responses, and the consequences of chronic stress. Explores current research alongside public health perspectives to highlight biological, psychological, and social dimensions of stress. Analyzes interventions aimed at reducing or managing stress and considers how scientific findings are represented in media and policy. Provides an integrative framework for understanding stress as both a biological process and a public health challenge.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 1101"
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "PSYC 101M with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "PSYC 102M with a minimum grade of D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENVR 2500"
+              },
+              {
+                "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
+                "course": "PHTH 2210"
+              },
+              {
+                "course": "PSYC 2315"
+              },
+              {
+                "course": "PSYC 2320"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
       "number": "4700",
-      "title": "Health Science Capstone Introduction",
+      "title": "Capstone Project Design and Planning",
       "credits": 0.0,
-      "description": "Offers students an opportunity to integrate their coursework, knowledge, and experiences into a proposal for a spring semester capstone experience. Students propose their health science culminating experience from options in the form of developing and implementing their own project with faculty mentor support or participating in a faculty-led seminar.",
+      "description": "Offers students an opportunity to integrate their coursework, knowledge, and experiences into a proposal for a spring semester capstone experience by developing and implementing their own project with faculty mentor support.",
       "prerequisites": {
         "type": "AND",
         "courses": [
@@ -151,6 +215,9 @@
             "courses": [
               {
                 "course": "PHTH 2350"
+              },
+              {
+                "admission_requirement": "PBH 110M with a minimum grade of C"
               },
               {
                 "course": "PHTH 2351"
@@ -458,44 +525,6 @@
           },
           {
             "course": "HSCI 5180"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6120",
-      "title": "Advanced Population Estimation",
-      "credits": 3.0,
-      "description": "Introduces students to the design principles of causal inference studies (population-level effect estimation) at scale, emphasizing the use of common data models and shared analytical approaches to implement reproducible, repeatable research. Covers a framework for study diagnostics including empirical equipoise, covariate balance, negative control calibration, empirical null distribution, and power.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "HSCI 5150"
-          },
-          {
-            "course": "HSCI 5150"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6130",
-      "title": "Advanced Patient Prediction",
-      "credits": 3.0,
-      "description": "Introduces students to the design principles of patient-level prediction studies at scale, emphasizing the use of common data models and shared analytical approaches to implement reproducible, repeatable research. Covers frameworks for evaluating internal and external validity of machine learning models constructed using real-world data.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "HSCI 5150"
-          },
-          {
-            "course": "HSCI 5150"
           }
         ]
       },

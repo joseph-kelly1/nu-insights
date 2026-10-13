@@ -31,10 +31,13 @@
             "course": "ACCT 1201"
           },
           {
-            "course": "ACCT 1209"
+            "admission_requirement": "ACCT 215M with a minimum grade of D-"
           },
           {
             "course": "ACCT 1202"
+          },
+          {
+            "course": "ACCT 1209"
           }
         ]
       },
@@ -53,6 +56,9 @@
         "courses": [
           {
             "course": "ACCT 2301"
+          },
+          {
+            "admission_requirement": "ACCT 217M with a minimum grade of D-"
           },
           {
             "course": "ACCT 2302"
@@ -74,6 +80,9 @@
             "course": "ACCT 2301"
           },
           {
+            "admission_requirement": "ACCT 217M with a minimum grade of D-"
+          },
+          {
             "course": "ACCT 2302"
           }
         ]
@@ -91,6 +100,9 @@
         "courses": [
           {
             "course": "ACCT 2301"
+          },
+          {
+            "admission_requirement": "ACCT 217M with a minimum grade of D-"
           },
           {
             "course": "ACCT 2302"
@@ -112,6 +124,9 @@
             "course": "ACCT 2301"
           },
           {
+            "admission_requirement": "ACCT 217M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "ACCT 2302"
           }
         ]
@@ -131,6 +146,9 @@
             "course": "ACCT 2301"
           },
           {
+            "admission_requirement": "ACCT 217M with a minimum grade of D-"
+          },
+          {
             "course": "ACCT 2302"
           }
         ]
@@ -144,7 +162,15 @@
       "credits": 4.0,
       "description": "Develops understanding of the critical role of cost measurement and management in business decisions and in managing a firm’s profitability. Focuses on the strategic use of cost information for planning and control, as well as costing products, services, and customers. Emphasizes the role of management accountants as integral members of decision-making teams and as consultants to senior management. Studies alternate ways of measuring costs to meet different management objectives, the role of budgeting as a planning and management tool, the use of cost analysis as a control tool to help management meet short- and long-term profit objectives, and the importance of ethics in achieving all of these objectives. In addition to accounting majors, this course is ideal for students who wish to pursue a career in finance, general management, operations management, supply chain management, or entrepreneurship.",
       "prerequisites": {
-        "course": "ACCT 2301"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ACCT 2301"
+          },
+          {
+            "admission_requirement": "ACCT 217M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -166,7 +192,15 @@
       "credits": 4.0,
       "description": "Provides a basic understanding of the structure of the federal income tax system. Taxes can have a significant impact on the viability of a number of personal finance and business decisions. Focuses on the individual taxpayer but also considers the implications for other entities. Tax return projects, research cases, and planning projects help demonstrate the potential impact of taxes on decision making.",
       "prerequisites": {
-        "course": "ACCT 2301"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ACCT 2301"
+          },
+          {
+            "admission_requirement": "ACCT 217M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -233,37 +267,6 @@
       "attributes": []
     },
     {
-      "number": "5230",
-      "title": "Federal Tax Issues and Analysis",
-      "credits": 3.0,
-      "description": "Gives a broad examination of tax authority as it guides action on tax issues including personal and business decisions. Examines the tax structure with a specific focus on the income and expenses for individual taxpayers. Emphasizes property transactions (including the calculation of basis, gain/loss, and the resulting tax treatment). Also incorporates tax planning and research related to these issues. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5232",
-      "title": "Estate and Gift Taxation",
-      "credits": 3.0,
-      "description": "Focuses on the study of the taxes common to the transfer of property and wealth. Topics include gift tax deductions and exclusions, estate valuation, state tax deductions and exemptions, and tax rates. Also explores planning opportunities for these wealth transfer taxes. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ACCT 5230"
-          },
-          {
-            "course": "ACCT 5230"
-          },
-          {
-            "course": "ACCT 6230"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5255",
       "title": "Forensic Accounting",
       "credits": 3.0,
@@ -278,6 +281,63 @@
       "credits": 3.0,
       "description": "Offers an overview of the internal audit function and explores the duties and responsibilities of the internal auditor. Offers students an opportunity to learn about the planning and organizing of an internal audit department and its coordination with an outside auditor as well as to learn to analyze how the design of an internal control auditing process can reduce risk exposure and enhance internal controls. Students who do not meet course prerequisites or restrictions may seek permission of instructor.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5404",
+      "title": "Financial Reporting for Integrated Multinational Enterprises",
+      "credits": 4.0,
+      "description": "Presents an in-depth analysis of financial reporting practices for diversified, international business entities. In today’s global business environment, many corporations operate diverse economic activities and often conduct those activities across geographic boundaries. Examines accounting and disclosure standards in the United States that are relevant to presenting consolidated financial statements and analyzes the impact of intercompany transactions. Other topics include hedging, translation, and remeasurement of a foreign subsidiary’s financial statements.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ACCT 4501"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5453",
+      "title": "Ethics and Public Interest in the Accounting Professions",
+      "credits": 2.0,
+      "description": "Focuses on the roles and responsibilities of ethics and the public interest in the accounting, auditing, and tax professions. Emphasizes the importance of serving the public interest and meeting professional obligations by educating future accounting professionals on what is the right thing to do and, most importantly, how to go about doing it.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ACCT 4501"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5973",
+      "title": "Special Topics in Accounting",
+      "credits": 1.0,
+      "description": "Provides an in-depth look at important trends and current issues in the field of accounting. Topics can include developments in the field of auditing, financial accounting, managerial accounting, accounting systems, taxation or corporate governance. May be repeated once.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ACCT 4501"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },
@@ -509,66 +569,6 @@
       "attributes": []
     },
     {
-      "number": "6239",
-      "title": "State and Local Taxation",
-      "credits": 3.0,
-      "description": "Addresses the most common types of taxes imposed by state and local governments. Examines state and local income, sales, excise, property, and city taxes. Emphasis is on the underlying principles governing the application of each type of tax and the interrelationships where they exist.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ACCT 6230"
-          },
-          {
-            "course": "ACCT 5230"
-          },
-          {
-            "course": "ACCT 5230"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6240",
-      "title": "International Taxation: Inbound Transactions",
-      "credits": 3.0,
-      "description": "Addresses the taxation of foreign individuals or corporations receiving income from sources, or conducting business, in the United States. With the globalization of the economy, a greater number of taxpayers must consider the impact of international taxation. Topics include the sourcing of income, taxation of passive income, taxation of income connected to a U.S. trade or business, branch-level taxes, issues of foreign-owned U.S. corporations, income tax treaties, and transfer pricing.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "ACCT 6231"
-          },
-          {
-            "course": "ACCT 6235"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6241",
-      "title": "International Taxation: Outbound Transactions",
-      "credits": 3.0,
-      "description": "Examines the federal taxation of U.S. individuals receiving income from sources or conducting business in foreign jurisdictions. An increase in the number of U.S. individuals and corporations operating in other countries has enhanced the importance of an understanding of international transactions for tax professionals. Examines sourcing of income, allocation and apportionment of deductions, foreign tax credits, taxation of U.S. citizens and residents abroad, controlled federal corporations, passive foreign investment companies, foreign currency translations and transactions, and special entities.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "ACCT 6231"
-          },
-          {
-            "course": "ACCT 6235"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6243",
       "title": "Advanced Flow-Through Entities",
       "credits": 3.0,
@@ -583,28 +583,6 @@
             "course": "ACCT 6235"
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6248",
-      "title": "Income Taxation of Trusts and Estates",
-      "credits": 3.0,
-      "description": "Examines the general rules for the taxation of estates and trusts. Topics include trusts that distribute current income only, grantor trusts, irrevocable trusts, charitable vehicles, income in respect of a decedent, estates and trusts that may accumulate income or may distribute corpus, and treatments of excess distributions and beneficiaries.",
-      "prerequisites": {
-        "course": "ACCT 6232"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6250",
-      "title": "Financial Planning for Insurance",
-      "credits": 3.0,
-      "description": "Surveys insurance products used for financial planning. Topics include life, accident, health, disability, long-term care, homeowner, auto, and personal liability, with emphasis on personal risk management and the use of insurance products in the financial planning process.",
-      "prerequisites": {
-        "course": "ACCT 5232"
       },
       "corequisites": [],
       "attributes": []
@@ -628,15 +606,6 @@
       "attributes": []
     },
     {
-      "number": "6264",
-      "title": "Planning for Estate Tax Issues",
-      "credits": 3.0,
-      "description": "Examines advanced strategies for maximizing personal goals (including probate avoidance, tax minimization, and asset protection) related to property passed from one generation to another. Emphasizes trust vs. will planning and other vehicles for estate planning; the principles of estate taxation; the impact of employee benefits, trusts, and their taxations; and life insurance policies and associated annuities.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6265",
       "title": "Tax Accounting for Income Taxes",
       "credits": 3.0,
@@ -655,19 +624,37 @@
       "attributes": []
     },
     {
-      "number": "6318",
-      "title": "Analyzing Accounting Data for Strategic Decision Making",
-      "credits": 2.0,
-      "description": "Highlights managerial decisions affecting a company’s performance in generating revenues, controlling costs, and producing profits. Begins with a brief review of financial accounting, then focuses on the development and use of information, especially financial information, for managerial decisions related to the firm’s planning—operations—control cycle.",
+      "number": "6345",
+      "title": "Financial Accounting and Report Framework and Concepts",
+      "credits": 3.0,
+      "description": "Reviews essential financial reporting concepts as they apply to for-profit organizations, not-for-profit entities, and state and local governments. Explores key components of the balance sheet and related transactions including receivables; property, plant, and equipment; intangible assets; payables; long-term debt; and equity transactions. Examines the financial accounting implications of advanced topics such as accounting changes and error corrections, contingencies, revenue recognition, income tax accounting, and lease accounting. Introduces the fundamental fund structures used to account for the financial activities of state and local governments.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "6345",
-      "title": "Financial Accounting and Report Framework and Concepts",
-      "credits": 3.0,
-      "description": "Reviews essential financial reporting concepts as they apply to for-profit organizations, not-for-profit entities, and state and local governments. Explores key components of the balance sheet and related transactions including receivables; property, plant, and equipment; intangible assets; payables; long-term debt; and equity transactions. Examines the financial accounting implications of advanced topics such as accounting changes and error corrections, contingencies, revenue recognition, income tax accounting, and lease accounting. Introduces the fundamental fund structures used to account for the financial activities of state and local governments.",
+      "number": "6418",
+      "title": "Analyzing Accounting Data for Strategic Decision Making",
+      "credits": 2.0,
+      "description": "Highlights managerial decisions affecting a company’s performance in generating revenues, controlling costs, and producing profits. Begins with a brief review of financial accounting. Focuses on the development and use of information, especially financial information, for managerial decisions related to the firm’s planning, operations, and control cycle.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6440",
+      "title": "Accounting Analytics and Financial Accounting",
+      "credits": 4.0,
+      "description": "Introduces students to data analytics thinking, terminology, and tools to enhance financial accounting practices. Uses SQL, databases, and visualization tools to organize and analyze financial data. Covers different types of data analysis (descriptive, diagnostic, predictive, and prescriptive) and the use of artificial intelligence and machine learning to address business challenges such as forecasting and fraud detection.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6441",
+      "title": "Management Control Systems",
+      "credits": 4.0,
+      "description": "Emphasizes analysis and application of control practices in a management control system and the effects on the financial statements that measure the organization as a whole. Focuses on how the design and the implementation of the management control system affects lower management and employees.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

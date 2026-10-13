@@ -42,6 +42,24 @@
       "attributes": []
     },
     {
+      "number": "5150",
+      "title": "Introduction to Web Design and User Experience Engineering",
+      "credits": 4.0,
+      "description": "Exposes students to both conceptual and technical aspects of web design. User experience design is the discipline of creating a useful and usable website or application that is easily navigated and meets the needs of both the site owner and its users. Covers web standards and best practices. Studies the fundamental concepts, techniques, practices, workflows, and tools associated with the practice of user-experience design in web interfaces. Includes typography, color theory and composition, responsive design, CSS3 concepts, basic scripting, and JavaScript libraries to create functional, effective, and visually appealing websites.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5200",
+      "title": "Medical Application Engineering and Development",
+      "credits": 4.0,
+      "description": "Presents a structured approach to developing clinical applications for nurses, physicians, and interdisciplinary care teams working in safety-critical healthcare environments. Explores programming through integration of user interaction design, clinical workflows, and healthcare domain models to create intuitive, real-world software solutions. Uses medical case studies to illustrate practical problem solving in healthcare scenarios allowing for a translation of domain knowledge into formal models that shape application logic, user interactions, and access control mechanisms. Covers rapid implementation of patient-centric applications through systems engineering principles, object-oriented programming, and user interaction design techniques. Emphasizes translation of clinical requirements into functional code, with a strong focus on functionality, patient safety, and usability.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5260",
       "title": "Introduction to Business Process Engineering",
       "credits": 4.0,
@@ -58,6 +76,15 @@
         "max": 4.0
       },
       "description": "Offers topics of current interest in information systems. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5500",
+      "title": "Prompt Engineering for Generative AI",
+      "credits": 4.0,
+      "description": "Introduces core concepts and methodologies for working with large language models. Emphasizes prompt engineering and fine-tuning strategies. Explores how prompt design influences model outputs and how LLMs can be adapted for specific tasks through configuration and tuning techniques. Focuses on approaches that enhance the usability of generative AI systems across creative, analytical, and problem-solving domains. Highlights low-code and no-code methods that extend accessibility and broaden applications of LLM-based tools.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -112,20 +139,7 @@
       "title": "Web Design and User Experience Engineering",
       "credits": 4.0,
       "description": "Focuses on advanced user interface engineering, with a strong emphasis on utility and personalized user experiences development. Through the use of tools like React and Flutter, explores how to engineer highly personalized web applications tailored to individual user needs and preferences. Topics include responsive layouts, interactive elements, animation integration, and performance tuning. Offers students an opportunity to gain hands-on experience in building interfaces that dynamically adapt to user behavior, preferences, and context, ensuring a unique and engaging experience for each user.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "INFO 5100"
-          },
-          {
-            "course": "INFO 5100"
-          },
-          {
-            "course": "CSYE 6200"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -206,17 +220,16 @@
       "title": "Software Quality Control and Management",
       "credits": 4.0,
       "description": "Examines techniques for the management and evolution of software systems. Topics include managing software as an asset; life cycle development and rapid development technologies; maintainability; quality assurance of software systems including testing strategies and problem analysis; software risk analysis; analysis of software project failures; process models, such as CMM and ISO 9001; configuration management; and the impact of new development technologies on software management.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "INFO 5100"
-          },
-          {
-            "course": "CSYE 6200"
-          }
-        ]
-      },
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6310",
+      "title": "Frontiers in Generative AI for Medical Imaging and Healthcare",
+      "credits": 4.0,
+      "description": "Explores state-of-the-art generative AI techniques for healthcare applications. Emphasizes medical imaging and biomedical data synthesis. Covers advanced models such as latent diffusion models for conditional synthetic image generation, along with foundational concepts in large language models and natural language processing. Examines diffusion-based methods, including latent-space and conditional diffusion, for generating structured and unstructured medical data. Addresses text-to-image and image-to-text conversions, as well as retrieval-augmented generation for intelligent systems like clinical chatbots. Highlights applications in medical imaging, drug discovery, and clinical decision support.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -252,6 +265,18 @@
       "attributes": []
     },
     {
+      "number": "6372",
+      "title": "Special Topics in AI Enterprise Integration",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in AI enterprise integration. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6374",
       "title": "Special Topics in Information Systems",
       "credits": {
@@ -259,6 +284,42 @@
         "max": 4.0
       },
       "description": "Offers topics of current interest in information systems. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6375",
+      "title": "Special Topics in AI Medical Software Engineering",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in AI medical software engineering. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6376",
+      "title": "Special Topics in AI Application Engineering",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in AI application engineering. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6378",
+      "title": "Special Topics in AI Imaging Systems",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in AI imaging systems. May be repeated up to three times for a maximum of 16 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -285,7 +346,7 @@
       "number": "7110",
       "title": "High-Performance Coding for Fintech",
       "credits": 4.0,
-      "description": "Distills the programming challenges constantly faced by quantitative developers in the fintech space. Presents high-performance computing challenges as well as their solutions for investment banks, market-making firms, capital management funds, and loan-financing institutions. Covers the art of high-performance computing using object-oriented structure of five prevailing programming languages widely adopted in the fintech industry: Java, C++, MATLAB, R, and Python. In particular, the course offers students an opportunity to obtain capabilities to successfully complete high-performance computing tasks in the following five application areas: global-macro arbitrage, quantitative equity portfolio management, option pricing and trading, fixed-income securities, and market making.",
+      "description": "Distills the programming challenges constantly faced by quantitative developers in the fintech space. Presents high-performance computing challenges as well as their solutions for investment banks, market-making firms, capital management funds, and loan-financing institutions. Covers the art of high-performance computing using object-oriented structure of five prevailing programming languages widely adopted in the fintech industry: Java, C++, MATLAB, R, and Python. Offers students an opportunity to obtain capabilities to successfully complete high-performance computing tasks in the following five application areas: global macro arbitrage, quantitative equity portfolio management, option pricing and trading, fixed-income securities, and market making.",
       "prerequisites": {
         "course": "INFO 6205"
       },
@@ -328,20 +389,7 @@
       "title": "Agile Software Development",
       "credits": 4.0,
       "description": "Offers students an opportunity to achieve a high level of practical understanding of software development life cycle (SDLC) with emphasis on agile and adaptive incremental methodologies. Examines techniques for the management and evolution of software systems, including project planning from requirements gathering, analysis, estimation, and releasing using a hands-on approach to implement agile methodologies. Also covers maintainability, including software risk analysis, project retrospectives, and process models such as capability maturity model, configuration management, and their practical implementation.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "INFO 5100"
-          },
-          {
-            "course": "INFO 5100"
-          },
-          {
-            "course": "CSYE 6200"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -521,6 +569,15 @@
       "attributes": []
     },
     {
+      "number": "7420",
+      "title": "Drug Development Processes and Information Systems Compliance",
+      "credits": 4.0,
+      "description": "Explores many of today’s most pressing and challenging IT questions facing the pharmaceutical/biotechnology industry and the FDA regarding the use of electronic records, databases, and information management systems that have become an integral part of development programs and regulatory submissions. Begins with the recognition that information technology has transformed the way that new drugs are developed today. From preclinical studies to small phase 1 clinical trials, all the way up to large global phase 3 pivotal trials, virtually every aspect of drug development is evolving due to technological advances. Each of these advances carries with it technological, procedural, and regulatory challenges and uncertainties.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7500",
       "title": "Cryptocurrency and Smart Contract Engineering",
       "credits": 4.0,
@@ -557,7 +614,7 @@
       "number": "7520",
       "title": "Engineering of Advanced Cryptocurrency Systems",
       "credits": 4.0,
-      "description": "Addresses programming and information systems aspects of bitcoin and other cryptocurrencies. Topics covered include fundamentals of bitcoin mining, the theory of distributed consensus, principles of strong anonymity and untraceability, smart contract security, and peer-to-peer networking. Offers students an opportunity to learn about current developments in, and challenges facing, the use of cryptocurrencies in terms of the computing platform and systems integration. Students also have an opportunity to gain practical experience through challenging programming projects.",
+      "description": "Addresses programming and information systems aspects of bitcoin and other cryptocurrencies. Covers fundamentals of bitcoin mining, the theory of distributed consensus, principles of strong anonymity and untraceability, smart contract security, and peer-to-peer networking. Offers students an opportunity to learn about current developments in, and challenges facing, the use of cryptocurrencies in terms of the computing platform and systems integration and to gain practical experience through challenging programming projects.",
       "prerequisites": {
         "course": "INFO 7500"
       },

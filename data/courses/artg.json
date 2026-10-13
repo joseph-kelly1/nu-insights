@@ -27,17 +27,6 @@
       "attributes": []
     },
     {
-      "number": "1250",
-      "title": "Design Process Context and Systems",
-      "credits": 4.0,
-      "description": "Explores common design practices, principles, and vocabularies, introducing the design process as a method of inquiry and problem solving through studio projects. Emphasizes the importance of an awareness of audience and context in the creation of meaningful communications and experiences. Explores the practice of design as an iterative process, offering students an opportunity to obtain an understanding of the value of systems thinking and the importance of feedback and exchange as a means for assessing the quality of design’s effectiveness in helping users achieve their goals.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Creative Express/Innov"
-      ]
-    },
-    {
       "number": "1270",
       "title": "Design: Process + Practices",
       "credits": 2.0,
@@ -65,13 +54,41 @@
       "credits": 2.0,
       "description": "Covers typography as a core element of graphic design. Examines typography's history, development, and contemporary state. Studies typography principles and how to apply them in different contexts and formats. Introduces the cultural meaning of and diversity of typography and the importance of research while engaging with it. Through appreciation, curiosity, engagement, and discipline, initiates an intellectual investigation and practice of what it means to work with typography and apply typography in different disciplines.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "course": "ARTF 1122"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ARTF 1200"
+              },
+              {
+                "course": "ARTF 1210"
+              },
+              {
+                "course": "ARTF 1230"
+              },
+              {
+                "course": "ARTF 1240"
+              },
+              {
+                "admission_requirement": "COMM 112M with a minimum grade of D-"
+              },
+              {
+                "course": "ARTF 1250"
+              }
+            ]
           },
           {
-            "course": "ARTF 1220"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ARTF 1220"
+              },
+              {
+                "admission_requirement": "ARTM 116M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -97,13 +114,67 @@
       "credits": 4.0,
       "description": "Introduces foundational concepts, methods, and procedures for the creation of data-rich information graphics. Investigates and implements visual systems and information structures such as maps, graphs, infographics, charts, and diagrams. Explores conceptual and visual solutions, and the creative process of organizing, visualizing, and communicating information. Examines design solutions that make complex information easier to understand and use. Course experiences include: analysis of design case studies and other critical readings, lectures, class discussions, and individual in-studio design work.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "course": "ARTF 1122"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "course": "ARTG 1271"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 119M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 11SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 1250"
+              }
+            ]
           },
           {
-            "course": "ARTF 1220"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "course": "ARTG 1291"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 234M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 2250"
+              }
+            ]
           }
         ]
       },
@@ -123,6 +194,9 @@
           },
           {
             "course": "ARTF 1220"
+          },
+          {
+            "admission_requirement": "ARTM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -134,29 +208,72 @@
       ]
     },
     {
-      "number": "2251",
-      "title": "Type Tools",
-      "credits": 1.0,
-      "description": "Offers students an opportunity to acquire technical software skills used in typesetting, such as Adobe InDesign, in this introductory lab.",
-      "prerequisites": [],
-      "corequisites": [
-        "ARTG 2250"
-      ],
-      "attributes": []
-    },
-    {
       "number": "2252",
       "title": "Graphic Design Principles",
       "credits": 4.0,
       "description": "Introduces foundational graphic design principles, processes, and methods for creating meaning within function, content, and context. Covers graphic form and vocabulary. Uses typography; language; image; symbolism; and visual principles of composition, hierarchy, rhythm, balance, scale, texture, pattern, grid, value, and color to create effective visual communication. Analyzes design case studies and offers critical readings, lectures, class discussions, and individual in-studio design work.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "course": "ARTF 1122"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "course": "ARTG 1271"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 119M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 11SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 1250"
+              }
+            ]
           },
           {
-            "course": "ARTF 1220"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "course": "ARTG 1291"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 234M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 2250"
+              }
+            ]
           }
         ]
       },
@@ -201,7 +318,71 @@
       "title": "Fashion and Wearable Technologies",
       "credits": 4.0,
       "description": "Introduces key social, environmental, and technical challenges underpinning sustainable innovation in the fashion, wearable technology, and smart textiles industries. Examines inclusive design and circular economy principles and uses them as a framework within which to analyze complex socio-technical networks of production, use and disposal of fashion, wearable technology, and smart textile products, and their impacts on health and wellbeing, society and the planet. Presents the opportunity to gain firsthand experience of the complex nature of today's open, dynamic, and networked problems through a site visit, case studies, and a series of practical activities. Instills understanding of creative intelligence and innovation as a field of practice.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "course": "ARTG 1271"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 119M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 11SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 1250"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "course": "ARTG 1291"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 234M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 2250"
+              }
+            ]
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": [
         "NUpath Interpreting Culture",
@@ -214,13 +395,67 @@
       "credits": 4.0,
       "description": "Introduces foundational interaction design principles, processes, and tools for creating physical and screen-based interfaces. Uses design research methods, stakeholder identification, problem framing, information structuring, low- to high-fidelity prototyping techniques, iterative development, assessment strategies, and usability testing to construct design proposals for interactive artifacts. Analyzes design case studies and offers critical readings, instructor and guest lectures, class discussions, and individual and collaborative in-studio design work.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "course": "ARTF 2223"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "course": "ARTG 1271"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 119M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 11SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 1250"
+              }
+            ]
           },
           {
-            "course": "ARTF 1250"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "course": "ARTG 1291"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 234M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 2250"
+              }
+            ]
           }
         ]
       },
@@ -247,10 +482,64 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ARTG 1270"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "course": "ARTG 1271"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 119M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 11SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 1250"
+              }
+            ]
           },
           {
-            "course": "ARTG 1271"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "course": "ARTG 1291"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 234M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 2250"
+              }
+            ]
           }
         ]
       },
@@ -269,10 +558,13 @@
             "course": "ARCH 2260"
           },
           {
-            "course": "ARTD 2000"
+            "course": "CS 2510"
           },
           {
-            "course": "ARTF 1124"
+            "course": "GE 1502"
+          },
+          {
+            "admission_requirement": "ENGR 155M with a minimum grade of D-"
           },
           {
             "type": "AND",
@@ -281,29 +573,35 @@
                 "course": "ARTF 1230"
               },
               {
-                "course": "ARTF 1231"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ARTF 1124"
+                  },
+                  {
+                    "course": "ARTF 1200"
+                  },
+                  {
+                    "course": "ARTF 1210"
+                  },
+                  {
+                    "course": "ARTF 1220"
+                  },
+                  {
+                    "admission_requirement": "ARTM 116M with a minimum grade of D-"
+                  },
+                  {
+                    "course": "ARTF 1240"
+                  },
+                  {
+                    "admission_requirement": "COMM 112M with a minimum grade of D-"
+                  },
+                  {
+                    "course": "ARTF 1250"
+                  }
+                ]
               }
             ]
-          },
-          {
-            "course": "ARTG 2260"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "ARTG 2262"
-              },
-              {
-                "course": "ARTG 2263"
-              }
-            ]
-          },
-          {
-            "course": "CS 2510"
-          },
-          {
-            "course": "GE 1502"
           }
         ]
       },
@@ -316,7 +614,15 @@
       "credits": 4.0,
       "description": "Explores the communication between the physical world and the interactive, computer-based interface. Examines the potential of reactive analog and digital devices embedded within the physical realm. Offers students an opportunity to use simple kit sensors and indicators designed to enable student teams to create interfaces triggered by gesture, bodily movement, physical forces, and other tangible actions. Concludes with discussions of more complex interactive devices, the relationship between physical computing and robotics, and possible future directions.",
       "prerequisites": {
-        "course": "ARTG 2400"
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ARTG 2262"
+          },
+          {
+            "course": "ARTG 2263"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -336,10 +642,26 @@
             "type": "AND",
             "courses": [
               {
-                "course": "ARTG 1290"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "admission_requirement": "ARTM 234M with a minimum grade of D-"
+                  }
+                ]
               },
               {
-                "course": "ARTG 1291"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ARTG 1291"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -365,39 +687,29 @@
       ]
     },
     {
-      "number": "3352",
-      "title": "Interaction Design Basics",
-      "credits": 4.0,
-      "description": "Introduces basic principles of interactive design, such as orientation, navigation, hierarchy, categorization, user expectation, usability, and responsiveness. Explores these concepts through the creation of Web-based user interfaces.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ARTF 1250"
-              },
-              {
-                "course": "ARTF 2223"
-              }
-            ]
-          },
-          {
-            "course": "ARTG 2250"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "3400",
       "title": "Topics In Interaction Design Inquiry",
       "credits": 4.0,
-      "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of interaction design. May be repeated up to two times for a maximum of 12 semester hours. Topics vary each semester.",
+      "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of interaction design. May be repeated twice. Topics vary each semester.",
       "prerequisites": {
-        "course": "ARTG 2400"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 2242"
+          },
+          {
+            "course": "ARTG 2252"
+          },
+          {
+            "course": "ARTG 2400"
+          },
+          {
+            "course": "ARTG 2810"
+          },
+          {
+            "course": "ARTG 3462"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -406,33 +718,26 @@
       "number": "3444",
       "title": "Topics in Information Design Inquiry",
       "credits": 4.0,
-      "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of information design. May be repeated up to two times for a maximum of 12 SH.",
+      "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of information design. May be repeated twice.",
       "prerequisites": {
-        "course": "ARTG 2242"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "3450",
-      "title": "Graphic Design 2",
-      "credits": 4.0,
-      "description": "Explores the conceptual potential inherent in the merging of words/text with images/symbols to achieve a level of communication that exceeds the sum of visual and verbal components. Examining how the relationship of verbal and visual content can enhance meaning and comprehension, students identify a social issue of personal relevance and create a visual campaign targeting a core audience. Through a process including projects, readings, and lectures/discussions, students research, frame concepts, explore visual decisions, and determine appropriate deliverables.",
-      "prerequisites": {
-        "course": "ARTG 2252"
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Creative Express/Innov"
-      ]
-    },
-    {
-      "number": "3451",
-      "title": "Information Design 1",
-      "credits": 4.0,
-      "description": "Introduces basic concepts, methods, and procedures of information design with a focus on mapping information. Students investigate visual systems and information structures such as maps, graphs, charts, and diagrams. Emphasizes the creative process of organizing, visualizing, and communicating data by making complex information easier to understand and use.",
-      "prerequisites": {
-        "course": "ARTG 3350"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 2242"
+          },
+          {
+            "course": "ARTG 2252"
+          },
+          {
+            "course": "ARTG 2400"
+          },
+          {
+            "course": "ARTG 2810"
+          },
+          {
+            "course": "ARTG 3462"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -441,9 +746,26 @@
       "number": "3452",
       "title": "Topics In Graphic Design Inquiry",
       "credits": 4.0,
-      "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of graphic design. May be repeated up to two times for a maximum of 12 semester hours.",
+      "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of graphic design. May be repeated twice.",
       "prerequisites": {
-        "course": "ARTG 2252"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 2242"
+          },
+          {
+            "course": "ARTG 2252"
+          },
+          {
+            "course": "ARTG 2400"
+          },
+          {
+            "course": "ARTG 2810"
+          },
+          {
+            "course": "ARTG 3462"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -460,10 +782,26 @@
             "type": "AND",
             "courses": [
               {
-                "course": "ARTG 1290"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "admission_requirement": "ARTM 234M with a minimum grade of D-"
+                  }
+                ]
               },
               {
-                "course": "ARTG 1291"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ARTG 1291"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -477,9 +815,6 @@
                 "course": "ARTG 1291"
               }
             ]
-          },
-          {
-            "course": "ARTG 2250"
           }
         ]
       },
@@ -492,46 +827,67 @@
       "credits": 4.0,
       "description": "Introduces foundational experience design principles, processes, and methods for understanding and creating conditions and interventions that impact people’s experiences. Uses design research methods, stakeholder identification, visual synthesis of research findings, and problem framing as means to understand the motivations, behaviors, and values of audiences and participants. Develops scenarios and prototypes to construct design proposals informing people’s relationships and experiences with products, environments, and services. Analyzes design case studies and offers critical readings, lectures, class discussions, and individual in-studio design work.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "course": "ARTF 1250"
-          },
-          {
-            "course": "ARTF 2223"
-          },
-          {
-            "course": "ARTG 1250"
-          },
-          {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
-                "course": "ARTG 1270"
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "course": "ARTG 1271"
+                  }
+                ]
               },
               {
-                "course": "ARTG 1271"
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 119M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 11SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 1250"
               }
             ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "3463",
-      "title": "Experience Design 2",
-      "credits": 4.0,
-      "description": "Continues ARTG 3462 processes and strategies for creating compelling human-centered experiences. Offers students an opportunity to use design processes from multiple disciplines to develop real-world solutions.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ARTG 3462"
           },
           {
-            "course": "ARTG 3465"
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "course": "ARTG 1291"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "ARTM 234M (may be taken concurrently) with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "ARTM 23SM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "course": "ARTG 2250"
+              }
+            ]
           }
         ]
       },
@@ -544,7 +900,24 @@
       "credits": 4.0,
       "description": "Focuses on a specific intermediate-level topic of timely relevance to the domain of experience design. May be repeated up to two times for a maximum of 12 semester hours.",
       "prerequisites": {
-        "course": "ARTG 3462"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 2242"
+          },
+          {
+            "course": "ARTG 2252"
+          },
+          {
+            "course": "ARTG 2400"
+          },
+          {
+            "course": "ARTG 2810"
+          },
+          {
+            "course": "ARTG 3462"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -582,42 +955,31 @@
       "credits": 4.0,
       "description": "Builds upon basic typographic skills and knowledge to extend, expand, and deepen the student’s understanding of the full range of possibilities for typographic expression as text, image, and experience of a reader. Challenges students to engage with letterform across historical and cultural practices of writing in a wide range of media. Examines how to identify the derivation and significance of writing styles by analyzing typographic form, composition, and presentation to the reader in a variety of contexts. Requires students to experiment with alphabets, fonts, and letterform as systems of signs with semiotic, semantic, logical, grammatical, and syntactical possibilities. Employs conceptual thinking, observation, analysis, and synthesis to devise and implement original ideas in various media.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
                 "course": "ARTG 1290"
               },
               {
-                "course": "ARTG 1291"
+                "admission_requirement": "ARTM 234M with a minimum grade of D-"
               }
             ]
           },
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
-                "course": "ARTG 2250"
+                "course": "ARTG 1291"
               },
               {
-                "course": "ARTG 2251"
+                "admission_requirement": "ARTM 23SM with a minimum grade of D-"
               }
             ]
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "3700",
-      "title": "Interaction Design 2: Mobile",
-      "credits": 4.0,
-      "description": "Explores user-centered interface design for information exchanges using handheld and mobile devices. Studies the potentials for leveraging both the social and locative possibilities of mobile devices through research, discussions, and project assignments.",
-      "prerequisites": {
-        "course": "ARTG 2400"
       },
       "corequisites": [],
       "attributes": []
@@ -631,26 +993,19 @@
         "type": "OR",
         "courses": [
           {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "ARTF 1124"
-              },
-              {
-                "course": "ARTF 1125"
-              }
-            ]
+            "course": "ARTG 2242"
           },
           {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "ARTF 1230"
-              },
-              {
-                "course": "ARTF 1231"
-              }
-            ]
+            "course": "ARTG 2252"
+          },
+          {
+            "course": "ARTG 2400"
+          },
+          {
+            "course": "ARTG 2810"
+          },
+          {
+            "course": "ARTG 3462"
           }
         ]
       },
@@ -660,11 +1015,85 @@
       ]
     },
     {
+      "number": "4120",
+      "title": "Design and Mental Health",
+      "credits": 4.0,
+      "description": "Explores the critical role of design in promoting mental health. Utilizes a combination of critical readings, case studies, and an independent project to present an in-depth look at the nature of mental disorders. Covers concrete principles and tools for using design to promote better mental health.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 2242"
+          },
+          {
+            "course": "ARTG 2252"
+          },
+          {
+            "course": "ARTG 2400"
+          },
+          {
+            "course": "ARTG 3462"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Natural/Designed World"
+      ]
+    },
+    {
+      "number": "4222",
+      "title": "Techniques for Data Visualization",
+      "credits": 4.0,
+      "description": "Presents computational methods for creating intricate data visualizations through ludic simulations. Implements computational simulations of bodies, particle systems, and natural systems inspired by the behavior of natural systems such as ant colonies, flocking birds, and slime mold behavior. Employs a hands-on learning approach in which students build visualizations from the ground up using these techniques. Introduces fundamental principles of data visualization and applies those principles to specific datasets. Covers essential programming concepts including functions, class instantiation, and the use of arrays and array lists.",
+      "prerequisites": {
+        "course": "ARTG 2242"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4480",
+      "title": "Interspecies Interfaces",
+      "credits": 4.0,
+      "description": "Explores how the design and use of technology can serve the needs, desires, and behaviors of animals. Demonstrates how interspecies design, a framework that positions design as a service for interconnected systems rather than solely for human users, helps students improve research, observation, and prototyping skills. Through research, discussion, and engagement with speculative and alternative design practices, develops interface-based project work that envisions unique human or animal behaviors and interactions, emphasizing direct benefits to a species other than humans.",
+      "prerequisites": {
+        "course": "ARTG 2400"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov",
+        "NUpath Natural/Designed World"
+      ]
+    },
+    {
       "number": "4550",
       "title": "Design Degree Project",
       "credits": 4.0,
       "description": "Encompasses the proposal and execution of a comprehensive project in graphic, interaction, or experience design. Guides students in practical, hands-on implementation of contemporary design methods, as individuals or small interdisciplinary teams. Offers students an opportunity to develop an actionable design proposal and complete a polished project using appropriate design methods, as well as the opportunity to deepen understanding of the ways of knowing through design practice. Serves as a culmination to the undergraduate program.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 3400"
+          },
+          {
+            "course": "ARTG 3444"
+          },
+          {
+            "course": "ARTG 3452"
+          },
+          {
+            "course": "ARTG 3464"
+          },
+          {
+            "course": "ARTG 3810"
+          },
+          {
+            "course": "ARTG 5000"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": [
         "NUpath Capstone Experience",
@@ -673,11 +1102,19 @@
     },
     {
       "number": "4554",
-      "title": "Typography 3",
+      "title": "Type Design",
       "credits": 4.0,
-      "description": "Offers an advanced course exploring a variety of typographical solutions, including expressive formal and complex content-based projects.",
+      "description": "Explores the tools, techniques, and principles used in creating professional typefaces. Focuses on research, experimentation, and practical application. Requires students to design and produce their own typefaces, considering their intended purpose. Emphasizes theoretical aspects of letterform creation, drawing from historical and contemporary sources. Examines insights into language support for both Latin and non–Latin scripts. Offers students an opportunity to develop compound, non–Latin, and specialty characters.",
       "prerequisites": {
-        "course": "ARTG 3350"
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ARTG 1290"
+          },
+          {
+            "course": "ARTG 1291"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -690,26 +1127,40 @@
       "credits": 4.0,
       "description": "Offers students experience in the design of identity, information, persuasive messaging, and publication projects. Focuses on cross-platform (print, digital, and three-dimensional) manifestations—all based on a single area of content.",
       "prerequisites": {
-        "type": "AND",
+        "course": "ARTG 2252"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4810",
+      "title": "Design and Disability: Investigating Normal",
+      "credits": 4.0,
+      "description": "Brings together critical perspectives from disability studies with design across scales—assistive technology, inclusive and adaptive design, and critical and speculative designs from disability-led cultural production. Subjects include tech and design for mobility and wayfinding in the built environment, sensory capacity, aging and end of life, and cognition and neurodiversity.",
+      "prerequisites": {
+        "type": "OR",
         "courses": [
           {
-            "course": "ARTG 3350"
+            "course": "ARTG 3400"
           },
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ARTG 3450"
-              },
-              {
-                "course": "ARTG 3452"
-              }
-            ]
+            "course": "ARTG 3444"
+          },
+          {
+            "course": "ARTG 3452"
+          },
+          {
+            "course": "ARTG 3464"
+          },
+          {
+            "course": "ARTG 3810"
           }
         ]
       },
       "corequisites": [],
-      "attributes": []
+      "attributes": [
+        "NUpath Difference/Diversity"
+      ]
     },
     {
       "number": "5000",
@@ -834,6 +1285,15 @@
       "attributes": []
     },
     {
+      "number": "5460",
+      "title": "UX Design for Visual Interfaces",
+      "credits": 4.0,
+      "description": "Introduces key strategies, methodologies, and frameworks in user experience design for designing visual interfaces on the web. Discusses UX design principles for visual interfaces, including devices with graphical user interfaces such as laptops, smartphones, and tablets. Focuses on key considerations in usability such as navigation and information architecture; user research methods like personas, wireframes, and design specifications; and usability evaluation. Introduces fundamentals of programming for building interfaces in a web browser, using input interactivity, adapting for responsive design, and meeting web accessibility standards. Examines the use of UX design to iteratively ideate, sketch, wireframe, prototype, and evaluate the usability of visual interfaces to generate user-centered and data-driven designs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5540",
       "title": "Design and Product Management",
       "credits": 1.0,
@@ -888,10 +1348,28 @@
       "attributes": []
     },
     {
+      "number": "5800",
+      "title": "Interaction Design Studio 1",
+      "credits": 4.0,
+      "description": "Explores concepts in interaction design, such as the multifaceted nature of human-to-object and human-to-human interactions. Studies critical perspectives through hands-on example analysis, critiques, readings, seminar discussions, and assignments. Investigates interaction paradigms while examining principles and techniques for designing and evaluating interactive experiences including how users gain agency through interfaces, how systems respond to human input, and how designers create meaningful exchanges between people and technology. Emphasizes applying these insights to experimental and novel interactions and encouraging iterative design and critical reflection that combine theory, creativity, and hands-on practice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5910",
       "title": "Human-Centered Design",
       "credits": 4.0,
       "description": "Introduces human-centered design and associated ways of thinking and working. Human-centered design places people at the center and can be used to develop many types of interventions. Aims to foster understanding of people’s lived experiences and identify their needs and pain points through extensive user research, iterative testing, and close interaction with the intended audience and relevant stakeholders. That understanding informs and gives direction to the design process and decisions made along the way to ensure that the final intervention benefits its intended users.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5920",
+      "title": "Complexity in Systems",
+      "credits": 4.0,
+      "description": "Introduces students to systems thinking and future-oriented mindsets as tools for addressing today’s sustainability challenges. Explores complex problems through a systems-based perspective by applying the practical application of mindset tools such as loop analysis, anticipatory thinking, identifying leverage points,and preparing for change and uncertainty. Emphasizes project work, case studies, and in-class activities for students to develop strategic, interpersonal, and values-driven skills while learning to navigate complexity with creativity and care. Recognizes the interconnected frameworks of complex challenges within planetary boundaries, and applies systems, future, and values thinking to propose innovative and sustainable interventions in complex real-world settings.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -909,6 +1387,12 @@
           },
           {
             "course": "ARTG 5100"
+          },
+          {
+            "course": "ARTG 5600"
+          },
+          {
+            "course": "ARTG 5600"
           }
         ]
       },
@@ -922,6 +1406,25 @@
       "description": "Examines various theoretical models of information visualization and delivery systems. Evaluates the concepts and effectiveness of the models through discussions and writing activities. Students who do not meet course prerequisites or restrictions may seek permission of program coordinator or instructor.",
       "prerequisites": {
         "course": "ARTG 5100"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6120",
+      "title": "Advanced Design and Mental Health",
+      "credits": 4.0,
+      "description": "Explores in-depth the critical role of design in promoting mental health. Covers the scope of mental health challenges society faces that require innovative and comprehensive approaches that touch on every aspect of human environments, technologies, and information. Considers design as having the power to both exacerbate and alleviate mental health challenges, underscoring the need for designers to develop mental health literacy. Utilizes a combination of critical readings, advanced case studies, and an independent project to present an in-depth look at the nature of mental disorders. Covers concrete principles and tools for using design to promote better mental health.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 5100"
+          },
+          {
+            "course": "ARTG 5600"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -954,6 +1457,25 @@
       "attributes": []
     },
     {
+      "number": "6480",
+      "title": "Advanced Interspecies Interfaces",
+      "credits": 4.0,
+      "description": "Investigates advanced interface design as a means of connecting humans, non-human organisms, artificial agents, and environmental systems. Covers both simple and complex systems, from manual controls to autonomous networks, and emphasizes emergent, speculative, and experimental approaches. Integrates research, critical discourse, and iterative design practice to examine how interfaces shape perception, interaction, and behavior. Includes the conceptualization, prototyping, and evaluation of interfaces that operate across ecological, cultural, and technological contexts. Encourages in-depth inquiry into novel interaction paradigms and advanced techniques, combining theoretical frameworks with hands-on design experimentation to produce critically engaged, research-informed work that addresses complex questions in interaction and experience design.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 5100"
+          },
+          {
+            "course": "ARTG 5600"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6555",
       "title": "Graphic Design Synthesis",
       "credits": 4.0,
@@ -968,7 +1490,21 @@
       "credits": 4.0,
       "description": "Offers students an opportunity to learn a human-centered design perspective and to develop experience design competency in the complex context of interpersonal and group interactions. Experience design is a holistic approach that investigates the human experience in specific situations in order to improve its quality. Students study the person-to-person aspect of human-centered design through readings and in-class activities, as well as practice applying its perspectives, models, and theories to the project process. Students are asked to participate in class discussions and create compelling experience design projects to address the needs, desires, fears, and aspirations of their audience.",
       "prerequisites": {
-        "course": "ARTG 5600"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTG 5100"
+          },
+          {
+            "course": "ARTG 5100"
+          },
+          {
+            "course": "ARTG 5600"
+          },
+          {
+            "course": "ARTG 5600"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -989,6 +1525,26 @@
           }
         ]
       },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6800",
+      "title": "Interaction Design Studio 2",
+      "credits": 4.0,
+      "description": "Explores advanced interaction design principles through intensive project-based learning, along with seminars and discussions. Emphasizes the application of these principles and methodologies in complex, real-world scenarios. Examines user-centered design and emerging technologies to prepare students for diverse design challenges. Undertakes individual and team projects that are designed to develop skills in conceptualizing, prototyping, and refining interactive experiences. Conducts iterative design exercises and evaluation activities, encouraging critical analysis of existing products alongside the creation of new interaction concepts. Integrates theories, peer reviews, and case studies to highlight best practices and ensure students can translate insights into practical design solutions.",
+      "prerequisites": {
+        "course": "ARTG 5800"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6810",
+      "title": "Advanced Design and Disability: Investigating Normal",
+      "credits": 4.0,
+      "description": "Assembles critical perspectives from advanced disability studies with design across scales—assistive technology, inclusive and adaptive design, and critical and speculative designs from disability-led cultural production. Advanced subjects include tech and design for mobility and wayfinding in the built environment, sensory capacity, aging and end of life, and cognition and neurodiversity. Emphasizes readings in theoretical and historical scholarship, together with analysis of artifacts and material culture, comparing and contrasting design’s many symbolic and functional registers. Taught as a seminar augmented by lightweight design experiments.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -1024,7 +1580,7 @@
       "number": "7910",
       "title": "Design Project and Exhibition",
       "credits": 4.0,
-      "description": "Offers students an opportunity to focus on the design of pieces, artifacts, and experiences for the thesis exhibition. Includes planning and design of the exhibit. Situates the thesis contributions to design as project-based discipline. Discusses and reflects on the design process at the crossroads of methodological, systematic iteration, and creative exploration.",
+      "description": "Offers students an opportunity to focus on the design of pieces, artifacts, and experiences for the thesis exhibition. Includes planning and design of the exhibit. Situates the thesis contributions to design as project-based discipline. Discusses and reflects on the design process at the crossroads of methodological, systematic iteration, and creative exploration. May be repeated once.",
       "prerequisites": {
         "course": "ARTG 7990"
       },
@@ -1036,6 +1592,18 @@
       "title": "Research",
       "credits": 0.0,
       "description": "Offers students an opportunity to conduct full-time research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7990",
+      "title": "Thesis",
+      "credits": {
+        "min": 4.0,
+        "max": 8.0
+      },
+      "description": "Offers students support in developing and producing the written component of a design thesis that integrates and applies their accumulated knowledge. Encourages student participation within a practice and research community consisting of classmates, advisor(s), and external professionals. Restricted to students in experience design and Information design and visualization.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

@@ -13,6 +13,9 @@
             "course": "CS 2100"
           },
           {
+            "admission_requirement": "CIS 201M with a minimum grade of D-"
+          },
+          {
             "course": "CS 2500"
           },
           {
@@ -55,15 +58,7 @@
       "credits": 4.0,
       "description": "Studies adversarial attacks on artificial intelligence that impact the security and privacy of these systems. Discusses mitigations against security and privacy vulnerabilities in AI models, and the challenges in making AI trustworthy. Offers an opportunity to read and debate contemporary papers at the forefront of machine learning and cybersecurity. Students develop and implement a semester-long project.",
       "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "CS 4100"
-          },
-          {
-            "course": "DS 4400"
-          }
-        ]
+        "course": "DS 4400"
       },
       "corequisites": [],
       "attributes": []
@@ -220,6 +215,9 @@
             "courses": [
               {
                 "course": "CS 3100"
+              },
+              {
+                "admission_requirement": "CIS 310M with a minimum grade of D-"
               },
               {
                 "course": "CS 3500"

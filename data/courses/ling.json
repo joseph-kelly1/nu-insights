@@ -2,15 +2,6 @@
   "department": "LING",
   "courses": [
     {
-      "number": "1000",
-      "title": "Linguistics at Northeastern",
-      "credits": 1.0,
-      "description": "Introduces first-year linguistics majors to the discipline, the department, and the University as a whole; offers students an opportunity to familiarize themselves with the skills needed for success as a university student.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1150",
       "title": "Introduction to Linguistics",
       "credits": 4.0,
@@ -132,6 +123,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1113"
               },
               {
@@ -246,6 +240,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1113"
               },
               {
@@ -266,7 +263,7 @@
       "number": "3446",
       "title": "Language Endangerment and Vitality",
       "credits": 4.0,
-      "description": "Examines the sociolinguistics of endangered languages. Major topics include global language vitality, language endangerment, ethnography, language death and its relation to loss of cultural identity within communities, and language planning and policy. Discusses these topics theoretically and in cross-linguistic perspective by examining various case studies.",
+      "description": "Examines the sociolinguistics of endangered languages. Major topics include global language vitality, language endangerment, ethnography, language death and its relation to loss of cultural identity within communities, language planning and policy, and ethical issues in the practice of linguistic fieldwork. Discusses these topics theoretically and in cross-linguistic perspective by examining various case studies.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -279,7 +276,9 @@
         ]
       },
       "corequisites": [],
-      "attributes": []
+      "attributes": [
+        "NUpath Ethical Reasoning"
+      ]
     },
     {
       "number": "3450",
@@ -369,6 +368,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"

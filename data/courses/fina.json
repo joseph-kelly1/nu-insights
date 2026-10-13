@@ -22,6 +22,9 @@
             "course": "ACCT 1201"
           },
           {
+            "admission_requirement": "ACCT 215M with a minimum grade of D-"
+          },
+          {
             "course": "ACCT 1209"
           },
           {
@@ -42,6 +45,9 @@
         "courses": [
           {
             "course": "ACCT 1201"
+          },
+          {
+            "admission_requirement": "ACCT 215M with a minimum grade of D-"
           },
           {
             "course": "ACCT 1209"
@@ -72,7 +78,15 @@
         "type": "OR",
         "courses": [
           {
-            "course": "FINA 2201"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "FINA 2201"
+              },
+              {
+                "admission_requirement": "BUSM 309M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "FINA 2209"
@@ -100,6 +114,9 @@
             "course": "FINA 2201"
           },
           {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
+          },
+          {
             "course": "FINA 2202"
           },
           {
@@ -123,6 +140,9 @@
         "courses": [
           {
             "course": "FINA 2201"
+          },
+          {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
           },
           {
             "course": "FINA 2202"
@@ -150,6 +170,9 @@
             "course": "FINA 2201"
           },
           {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
+          },
+          {
             "course": "FINA 2202"
           },
           {
@@ -175,6 +198,9 @@
             "course": "FINA 2201"
           },
           {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
+          },
+          {
             "course": "FINA 2202"
           },
           {
@@ -189,40 +215,97 @@
       "attributes": []
     },
     {
-      "number": "4101",
-      "title": "Risk Arbitrage",
-      "credits": 1.0,
-      "description": "Introduces risk arbitrage, a strategy that profits from price gaps during mergers and acquisitions. Explores how to analyze deals, estimate success odds, and build portfolios with applications in a high-level programming language such as Python. Offers students an opportunity to test real-world strategies and weigh risks vs. rewards in alternative investments.",
+      "number": "3414",
+      "title": "Financial Markets and Institutions",
+      "credits": 4.0,
+      "description": "Presents an overview of how financial markets and institutions influence economic activity and corporate decision making. Examines the roles of money, banking systems, and central banks, as well as the structure and function of financial markets in allocating capital, pricing risk, and supporting investment. Introduces the interpretation of key economic and financial data used to assess market conditions and macroeconomic trends. Highlights the interaction between financial institutions, market forces, and the broader economy. Emphasizes applying economic and financial information to evaluate firm behavior, investment opportunities, and financial outcomes.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "CS 2000"
+            "course": "FINA 2201"
           },
           {
-            "course": "CS 2100"
+            "course": "FINA 2209"
           },
           {
-            "course": "DS 2000"
+            "course": "IE 4512"
           },
           {
-            "type": "AND",
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3740",
+      "title": "Fundamentals of Financial Math and Financial Markets",
+      "credits": 4.0,
+      "description": "Focuses on financial mathematics and financial markets, combining theoretical foundations with selected empirical and computational applications. Introduces core tools from linear algebra (matrix operations, vector spaces); calculus (differentiation and integration); optimization (Lagrange multipliers, inequality constraints, Kuhn-Tucker conditions, and basic convex analysis); and probability and stochastic processes (axioms of probability, random variables, joint distributions, and common stochastic models). Involves application of these methods to quantitative finance problems such as time-value-of-money- and regression-based market relationships, mean-variance portfolio optimization, simulation-based risk/return analysis, and introductory derivative-pricing models (e.g., Black–Scholes). Emphasizes implementation using modern computational tools to build quantitative and analytical skills for financial modeling and rigorous financial market analysis.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
             "courses": [
               {
-                "course": "FINA 4335"
+                "course": "MATH 1341"
               },
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "FINA 3301"
-                  },
-                  {
-                    "course": "FINA 3303"
-                  }
-                ]
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
               }
             ]
+          },
+          {
+            "course": "MATH 3081"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3750",
+      "title": "Discrete-Time Quantitative Finance",
+      "credits": 4.0,
+      "description": "Examines discrete-time derivative pricing through foundations in economics, probability theory, and stochastic processes. Covers fundamentals of probability theory and stochastic calculus theory essential for asset valuation. Explores asset classes, derivatives, interest rate instruments, and investor preferences. Emphasizes binomial tree methods for pricing derivatives under risk-neutral measures and extends concepts to continuous-time settings. Introduces equilibrium and no-arbitrage principles for asset pricing applications.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
+            "course": "MATH 3081"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4101",
+      "title": "Risk Arbitrage",
+      "credits": 1.0,
+      "description": "Introduces risk arbitrage, a strategy that profits from price gaps during mergers and acquisitions. Explores how to analyze deals, estimate success odds, and build portfolios. Offers students an opportunity to test real-world strategies and weigh risks vs. rewards in alternative investments.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 3301"
+          },
+          {
+            "course": "FINA 3303"
           }
         ]
       },
@@ -233,37 +316,15 @@
       "number": "4102",
       "title": "Futures Market Trading Strategies",
       "credits": 1.0,
-      "description": "Introduces futures market trading strategies with applications in a high-level programming language such as Python. These trading strategies are an alternative approach to security selection and portfolio construction that offer investors returns uncorrelated to traditional stock and bond portfolios. Covers global macro trading, trend following, and carry. Includes other topics such as constructing trading strategies, exploring the effects of leverage, and incorporating strategies into a traditional portfolio.",
+      "description": "Introduces futures market trading strategies. These trading strategies are an alternative approach to security selection and portfolio construction that offer investors returns uncorrelated to traditional stock and bond portfolios. Covers global macro trading, trend following, and carry. Includes other topics such as constructing trading strategies, exploring the effects of leverage, and incorporating strategies into a traditional portfolio.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "CS 2000"
+            "course": "FINA 3301"
           },
           {
-            "course": "CS 2100"
-          },
-          {
-            "course": "DS 2000"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "FINA 4335"
-              },
-              {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "FINA 3301"
-                  },
-                  {
-                    "course": "FINA 3303"
-                  }
-                ]
-              }
-            ]
+            "course": "FINA 3303"
           }
         ]
       },
@@ -274,37 +335,15 @@
       "number": "4103",
       "title": "Low-Volatility Equity Portfolios",
       "credits": 1.0,
-      "description": "Introduces low-volatility investing with applications in a high-level programming language such as Python. Low-volatility investing is an approach to security selection and portfolio construction that favors low-volatility securities and portfolios. Covers the capital asset pricing model, along with more current research, illustrating that low-volatility securities outperform their risk-adjusted benchmarks. Includes other topics such as identifying low-volatility securities, constructing low-volatility portfolios, and exploring the effects of leverage.",
+      "description": "Introduces low-volatility investing, an approach to security selection and portfolio construction that favors low-volatility securities and portfolios. Covers the capital asset pricing model, along with more current research, illustrating that low-volatility securities outperform their risk-adjusted benchmarks. Includes other topics such as identifying low-volatility securities, constructing low-volatility portfolios, and exploring the effects of leverage.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "CS 2000"
+            "course": "FINA 3301"
           },
           {
-            "course": "CS 2100"
-          },
-          {
-            "course": "DS 2500"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "FINA 4335"
-              },
-              {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "FINA 3301"
-                  },
-                  {
-                    "course": "FINA 3303"
-                  }
-                ]
-              }
-            ]
+            "course": "FINA 3303"
           }
         ]
       },
@@ -323,7 +362,13 @@
             "course": "CS 2000"
           },
           {
+            "admission_requirement": "CIS 200M with a minimum grade of D-"
+          },
+          {
             "course": "CS 2100"
+          },
+          {
+            "admission_requirement": "CIS 201M with a minimum grade of D-"
           },
           {
             "course": "DS 2000"
@@ -383,31 +428,6 @@
       "attributes": []
     },
     {
-      "number": "4310",
-      "title": "Working Capital Management",
-      "credits": 4.0,
-      "description": "Examines strategies and analytical approaches to managing current assets and current liabilities. Explores corporate cash management under changing money market conditions. Discusses the use of interest rate futures and working capital management in a multinational context. Provides a summary overview of entrepreneurial finance, with a focus on small businesses, corporate ventures, and intrapreneurship. Applies knowledge of corporate finance in the context of starting, acquiring, managing, and divesting a business or a business unit within a corporation. Topics include analyzing the financial needs of new ventures, exploring sources of financing, managing decline, determining valuation, and reviewing exit strategies.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 2201"
-          },
-          {
-            "course": "FINA 2202"
-          },
-          {
-            "course": "FINA 2209"
-          },
-          {
-            "course": "IE 4512"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "4320",
       "title": "International Financial Management",
       "credits": 4.0,
@@ -419,6 +439,9 @@
             "course": "FINA 2201"
           },
           {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
+          },
+          {
             "course": "FINA 2202"
           },
           {
@@ -426,25 +449,6 @@
           },
           {
             "course": "IE 4512"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4330",
-      "title": "Emerging Financial Markets",
-      "credits": 4.0,
-      "description": "Presents essential theoretical background and practical knowledge regarding investments in emerging financial markets. Covers how emerging markets are developed and how securities are valued and traded. Explores the major risk factors associated with investing in these markets as long as the basic institutional policy issues affect emerging markets. Finally, offers a practical approach to investing in emerging financial markets (including financial securities selections, analysis, and portfolio diversification).",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 3301"
-          },
-          {
-            "course": "FINA 3303"
           }
         ]
       },
@@ -488,7 +492,13 @@
                     "course": "CS 2000"
                   },
                   {
+                    "admission_requirement": "CIS 200M with a minimum grade of D-"
+                  },
+                  {
                     "course": "CS 2100"
+                  },
+                  {
+                    "admission_requirement": "CIS 201M with a minimum grade of D-"
                   },
                   {
                     "course": "CS 2500"
@@ -551,7 +561,13 @@
                     "course": "CS 2000"
                   },
                   {
+                    "admission_requirement": "CIS 200M with a minimum grade of D-"
+                  },
+                  {
                     "course": "CS 2100"
+                  },
+                  {
+                    "admission_requirement": "CIS 201M with a minimum grade of D-"
                   },
                   {
                     "course": "CS 2500"
@@ -633,7 +649,13 @@
                     "course": "CS 2000"
                   },
                   {
+                    "admission_requirement": "CIS 200M with a minimum grade of D-"
+                  },
+                  {
                     "course": "CS 2100"
+                  },
+                  {
+                    "admission_requirement": "CIS 201M with a minimum grade of D-"
                   },
                   {
                     "course": "CS 2500"
@@ -693,6 +715,9 @@
             "course": "FINA 2202"
           },
           {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
+          },
+          {
             "course": "FINA 2209"
           },
           {
@@ -713,6 +738,9 @@
         "courses": [
           {
             "course": "FINA 2201"
+          },
+          {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
           },
           {
             "course": "FINA 2202"
@@ -894,31 +922,6 @@
       "attributes": []
     },
     {
-      "number": "4602",
-      "title": "Turnaround Management",
-      "credits": 4.0,
-      "description": "Examines strategies for identifying companies likely to fail and selecting and implementing remedial actions. Topics include business turnarounds, troubled companies, workouts, bankruptcies, and liquidations, using case studies and readings. Students evaluate a turnaround plan.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 2201"
-          },
-          {
-            "course": "FINA 2202"
-          },
-          {
-            "course": "FINA 2209"
-          },
-          {
-            "course": "IE 4512"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "4604",
       "title": "Fixed-Income Securities",
       "credits": 4.0,
@@ -938,28 +941,6 @@
       "attributes": []
     },
     {
-      "number": "4605",
-      "title": "Fintech Experiential Project",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to integrate the skills developed through their previous fintech coursework to propose, design, and implement a technology solution, either individually or in teams, to address a business problem. Either students or industry partners identify and define the business problem. The main objective of this experiential course is to develop and enhance students’ problem-solving and hands-on skills, leading to a deliverable project that includes proof of concept, a prototype, and/or a final paper/presentation that demonstrates a deep understanding of the subject. Students formally present their project to the faculty member and/or industry partner with whom they are collaborating. Registration is contingent on a research proposal and approval by one of the supervising instructors.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 4340"
-          },
-          {
-            "course": "FINA 4350"
-          },
-          {
-            "course": "FINA 4390"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "4610",
       "title": "Entrepreneurial Finance and Private Equity",
       "credits": 4.0,
@@ -969,6 +950,9 @@
         "courses": [
           {
             "course": "FINA 2201"
+          },
+          {
+            "admission_requirement": "BUSM 309M with a minimum grade of D-"
           },
           {
             "course": "FINA 2202"
@@ -1044,15 +1028,6 @@
       "attributes": []
     },
     {
-      "number": "6202",
-      "title": "Analysis of Financial Institutions and Markets",
-      "credits": 3.0,
-      "description": "Introduces the domestic and international financial system and the institutions within it. Develops data and quantitative analysis tools utilized for economic and financial modeling and analysis. Emphasis is on regression analysis and its application, including how to build and interpret statistical models. Topics include the major types of financial institutions that operate within the global economy and the financial instruments employed by them; how exchange rates, interests rates, and security prices are determined and how they affect the global economy; and how governments and central banks impact economic and financial conditions.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6203",
       "title": "Investment Analysis",
       "credits": 3.0,
@@ -1122,115 +1097,10 @@
       "attributes": []
     },
     {
-      "number": "6205",
-      "title": "Financial Strategy",
-      "credits": 3.0,
-      "description": "Develops financial, analytical, and communication skills necessary to develop and implement a financial strategy consistent with firm value creation in a dynamic environment. Stresses the impact of ethical and legal considerations, global markets, and technological innovation on efficient economic outcomes. Emphasizes written and oral communication skills. Upon completion of this course, students should be able to identify and analyze a firm’s strategic opportunities and propose a suitable financial strategy that is consistent with firm value creation.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 6200"
-          },
-          {
-            "course": "FINA 6201"
-          },
-          {
-            "course": "FINA 6208"
-          },
-          {
-            "course": "FINA 6331"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "FINA 6318"
-              },
-              {
-                "course": "FINA 6320"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6206",
-      "title": "Finance Seminar",
-      "credits": 3.0,
-      "description": "Structures discussion of current topics in the finance literature. Students read and present the works of leading researchers. Topics are broad and may cover various areas of corporate finance, investments, and institutions. Students also complete an original project emphasizing current methodologies of analysis.",
-      "prerequisites": {
-        "course": "FINA 6203"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6207",
       "title": "Financial Modeling",
       "credits": 3.0,
-      "description": "Introduces financial modeling applications in the fields of risk management, statistics applied to finance, investments, and portfolio management. Financial modeling is used for performing financial analysis facilitating business decision making in virtually any business. Excel is the most widely used electronic spreadsheet program in the world. Offers students an opportunity to develop strong Excel proficiency needed to effectively and efficiently understand and implement the quantitative aspects of financial topics covered in the various financial courses taught in the MBA and MSF programs and to learn how to use a variety of spreadsheet tools and techniques to enhance their overall analytical skill set.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 6200"
-          },
-          {
-            "course": "FINA 6201"
-          },
-          {
-            "course": "FINA 6208"
-          },
-          {
-            "course": "FINA 6331"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "FINA 6318"
-              },
-              {
-                "course": "FINA 6320"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6211",
-      "title": "Financial Risk Management",
-      "credits": 3.0,
-      "description": "Provides an overview of all of the hedging markets and hedging instruments. Explores specific hedging use of options, forwards, futures, swaps, and options on futures. Focuses on advanced financial risk management of interest rates, currency rates, equity returns, and fixed income returns. Students use readings and case problems to study when and how to use hedging instruments to alter a portfolio’s risk exposure.",
-      "prerequisites": {
-        "course": "FINA 6203"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6212",
-      "title": "Fixed-Income Securities and Risk",
-      "credits": 3.0,
-      "description": "Exposes students to theory, applications, and evidence concerning highly sensitive interest rate products. Discusses recent developments in pension fund management, asset/liability management, duration matching, “gap” management, concurrent interest rate and exchange rate management, and other important issues now confronting domestic and international financial and corporate management. Studies how to customize a risk management program.",
-      "prerequisites": {
-        "course": "FINA 6203"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6213",
-      "title": "Investment Banking",
-      "credits": 3.0,
-      "description": "Discusses policy, strategy, and administration of financial services firms. Topics include issuance of securities, the service function within financial services, pricing a negotiated issue of common stock or competitive bid issue, and meeting capital requirements of a securities firm.",
+      "description": "Introduces financial modeling applications in the fields of risk management, statistics applied to finance, investments, and portfolio management. Financial modeling is used for performing financial analysis facilitating business decision making in virtually any business. Excel is the most widely used electronic spreadsheet program in the world. Offers students an opportunity to develop strong Excel proficiency needed to effectively and efficiently understand and implement the quantitative aspects of financial topics covered in the various financial courses taught in the MBA and MSF programs and to learn how to use a variety of spreadsheet tools and techniques to enhance their overall analytical skill set.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -1299,46 +1169,10 @@
       "attributes": []
     },
     {
-      "number": "6215",
-      "title": "Business Turnarounds",
-      "credits": 3.0,
-      "description": "Concentrates on the diagnosis, prescription, and implementation of actions pertinent to business turnarounds, troubled companies, workouts, bankruptcies, and liquidations. Case studies and readings guide the student through the maze of financial, ethical, legal, general business, and strategic aspects of turnarounds, culminating in the student evaluating and developing a turnaround plan.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 6200"
-          },
-          {
-            "course": "FINA 6201"
-          },
-          {
-            "course": "FINA 6208"
-          },
-          {
-            "course": "FINA 6331"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "FINA 6318"
-              },
-              {
-                "course": "FINA 6320"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6216",
       "title": "Valuation and Value Creation",
       "credits": 3.0,
-      "description": "Focuses on cash-flow oriented models of the valuation of the firm. Topics include enterprise value, free cash flow, economic value added, and risk/reward analysis. Explores recent developments in financial management and financial analysis through the use of modern finance theory to make capital allocation decisions that lead to long-run value maximization for the corporation. Focuses on applications and financial model building, risk analysis for valuation applications, and business strategies to measure and manage corporate value and value creation. Topics are relevant to value consultants, corporate managers, and securities analysts.",
+      "description": "Focuses on cash-flow oriented models of the valuation of the firm. Topics include enterprise value, free cash flow, economic value added, and risk/reward analysis. Explores recent developments in financial management and financial analysis through the use of modern finance theory to make capital allocation decisions that lead to long-run value maximization for the corporation. Focuses on applications and financial model building, risk analysis for valuation applications, and business strategies to measure and manage corporate value and value creation. Topics are relevant to value consultants, corporate managers, and securities analysts.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -1407,59 +1241,6 @@
       "attributes": []
     },
     {
-      "number": "6219",
-      "title": "Portfolio Management",
-      "credits": 3.0,
-      "description": "Develops portfolio construction, revision, and performance measurement. Highlights portfolio construction in an efficient capital market. Topics include risk-return analysis, the effects of diversification on risk reduction, and the costs of inflation, taxes, and transaction costs on fixed income and equity security portfolios. Examines financial models of capital asset pricing as the basis for the analysis of portfolios from the institutional investor’s viewpoint.",
-      "prerequisites": {
-        "course": "FINA 6203"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6220",
-      "title": "Healthcare Finance",
-      "credits": 3.0,
-      "description": "Implements financial management and economic principles to analyze real-world healthcare issues. Emphasizes and encourages problem solving and creative thinking through the use of texts, cases, and models of the healthcare industry. Students are exposed to financial, managerial, and risk management strategies unique to the healthcare industry.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 6200"
-          },
-          {
-            "course": "FINA 6201"
-          },
-          {
-            "course": "FINA 6208"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "FINA 6318"
-              },
-              {
-                "course": "FINA 6320"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6234",
-      "title": "Evaluating and Managing Financial Investments",
-      "credits": 3.0,
-      "description": "Introduces the menu of financial assets available to investors and how these assets can be combined into optimal portfolios to meet different objectives. Presents an overview of the primary asset classes, the markets in which these assets trade, and the investment companies that manage portfolios. Focuses on quantifying the rates of return and levels of risk associated with individual investments and diversified portfolios. Offers students an opportunity to develop models of asset valuation to calculate equilibrium prices for debt and equity securities. Studies how actively managed portfolios can exploit mispricing and how investors should evaluate the performance of a managed portfolio.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6235",
       "title": "Exploring and Understanding Value Creation, Maintenance, and Destruction",
       "credits": 3.0,
@@ -1469,19 +1250,10 @@
       "attributes": []
     },
     {
-      "number": "6236",
-      "title": "Risk Management with Technology",
-      "credits": 3.0,
-      "description": "Introduces and explores financial risk management using derivative instruments, which are contracts whose values derive from prices of underlying assets and goods such as equities, currencies, debt, and commodities. Focuses on the valuation and application of the principal derivative building blocks, including fixed-income securities, futures and forward contracts, options, and structured financial products. Covers market structure and how these products are specifically used by corporations and financial institutions for controlling financial market risks. Explores current global developments and new product innovations. Introduces some state-of-the-art technology such as large language models in financial markets.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6237",
       "title": "Fintech, Financial Innovation, and Blockchain",
       "credits": 3.0,
-      "description": "Offers a broad overview of the world of fintech from the perspectives of both large financial institutions and small startups. Explores the dynamic intersections of finance and technology with a deep understanding of financial innovation, fintech trends, and blockchain technology. Presents a comprehensive understanding of regulatory challenges, risks, and opportunities within the fintech landscape. Focuses on cutting-edge concepts that are shaping the financial industry. Analyzes the impact of blockchain technology, understanding its role in creating secure, transparent, and immutable financial ecosystems.",
+      "description": "Offers a broad overview of the world of fintech from the perspectives of both large financial institutions and small startups. Explores the dynamic intersections of finance and technology with a deep understanding of financial innovation, fintech trends, and blockchain technology. Presents a comprehensive understanding of regulatory challenges, risks, and opportunities within the fintech landscape. Focuses on cutting-edge concepts that are shaping the financial industry. Analyzes the impact of blockchain technology, understanding its role in creating secure, transparent, and immutable financial ecosystems.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "course": "FINA 6203"
       },
@@ -1489,113 +1261,22 @@
       "attributes": []
     },
     {
-      "number": "6238",
-      "title": "Risk Parity Investing",
-      "credits": 1.0,
-      "description": "Introduces risk parity investing with applications in a high-level programming language such as Python. Risk parity is an asset allocation approach that considers the risk contribution from each asset and overall portfolio risk, which can lead to more stable portfolio returns over time. Exposes students to risk parity, with and without reallocation and leverage, and offers them an opportunity to deepen their understanding of diversification, modern portfolio theory, and asset allocation.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "FINA 6203"
-          },
-          {
-            "course": "FINA 6333"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6239",
-      "title": "Low-Volatility Equity Portfolios",
-      "credits": 1.0,
-      "description": "Introduces low-volatility investing with applications in a high-level programming language. Low-volatility investing is an approach to security selection and portfolio construction that favors low-volatility securities and portfolios. Covers the capital asset pricing model, along with more current research, illustrating that low-volatility securities outperform their risk-adjusted benchmarks. Includes other topics such as identifying low-volatility securities, constructing low-volatility portfolios, and exploring the effects of leverage.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "FINA 6203"
-          },
-          {
-            "course": "FINA 6333"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6240",
-      "title": "Portfolio Construction and Management",
-      "credits": 1.0,
-      "description": "Introduces portfolio construction, management, and reporting with applications in a high-level programming language such as Python, focusing on low-volatility and risk parity investing styles. Students complete two miniprojects that involve position sizing, portfolio rebalancing, stress testing, risk limits, and portfolio reporting.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "FINA 6203"
-          },
-          {
-            "course": "FINA 6333"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6284",
-      "title": "Financing Innovation and Growth",
-      "credits": 3.0,
-      "description": "Offers an immersion in corporate finance with a specific focus on the financing of innovation and growth at firms. Topics include analyzing and applying finance from the perspective of intrapreneurship as well as entrepreneurship.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6292",
       "title": "Advanced Topics in Finance",
       "credits": 3.0,
-      "description": "Examines current, specialized, and advanced topics in the areas of corporate finance, investments, risk management, valuation, private equity, venture capital, and other areas as appropriate. Course content, pedagogy, and prerequisites vary by topic and instructor. May be repeated once.",
+      "description": "Examines current, specialized, and advanced topics in the areas of corporate finance, investments, risk management, valuation, private equity, venture capital, and other areas as appropriate. Course content, pedagogy, and prerequisites vary by topic and instructor. May be repeated once.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "6318",
-      "title": "Financial Management",
-      "credits": 2.0,
-      "description": "Introduces time value of money calculations and applications. Building upon a basis in accounting, offers students an opportunity to learn how to extract relevant information from the accounting statements for use in financial calculations and ratio analysis. Also examines capital planning, including determining relevant cash flows, calculating decision measures, and making the correct decisions.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6320",
-      "title": "Advanced Financial Management",
-      "credits": 3.0,
-      "description": "Builds upon FINA 6318. Focuses on capital allocation and both equity and fixed-income markets. Covers the fundamentals of stock and bond valuation, as well as a brief review of macroeconomic concepts including the role of the Federal Reserve, growth, and inflation. Culminates with coverage of firm capital structure and the weighted average cost of capital (WACC).",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 6318"
-          },
-          {
-            "course": "FINA 6200"
-          }
-        ]
+      "number": "6309",
+      "title": "Foundations of Accounting and Finance",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6331",
-      "title": "Corporate Finance",
-      "credits": 3.0,
-      "description": "Introduces the basic framework of corporate finance and financial decision making. Topics include capital budgeting; capital investment decisions; complex valuations; security issues; dividend policy; static and dynamic capital structure; real option analysis; restructuring; bankruptcy; corporate control and governance; and the legal, ethical, and regulatory environment of financial management.",
+      "description": "Explores key principles of accounting, as presented in the principal financial statements. Using those principles, explores a number of accounting practices and issues. Develops tools of financial analysis and financial planning and applies the information gained to business decision making. Utilizing the principle of time value of money to compare inflows and outflows of funds occurring at different times, develops basic decision tools for managers to make sound financial choices and to understand the context in which they are made. At the end of the course, the successful student should have a sound basic understanding of accounting and financial matters and the ability to understand business decisions in context and to evaluate the choices that management faces in the normal course of business development.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1604,25 +1285,7 @@
       "number": "6332",
       "title": "Fundamentals of Financial Math and Financial Markets",
       "credits": 3.0,
-      "description": "Introduces the essential fundamental mathematics needed for the study of modern finance: probability, stochastic processes, statistics, and regression analysis. Also focuses on theory and empirical evidence useful for investment decisions. Topics include financial risk factors, financial models, financial markets and equilibrium models of security prices, market efficiency, and the empirical behavior of security prices.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6333",
-      "title": "Data Analytics in Finance",
-      "credits": 3.0,
-      "description": "Introduces Python and its use as a financial data analytics tool. Python has become one of the most widely used open-source, cross-platform programming languages. Covers the basics of programming in Python and key libraries (NumPy, Pandas, Matplotlib, etc.) used in data analytics, then focuses on implementing various financial models in Python. Topics include single and multifactor portfolio models, portfolio theory and the efficient frontier, algorithmic trading, options and futures, and value at risk.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6334",
-      "title": "Empirical Methods in Finance",
-      "credits": 3.0,
-      "description": "Examines statistical methods used to analyze financial data and test financial theories. Offers students an opportunity to learn how to access various sources of financial data, design empirical tests, and apply basic programming skills to analyze the data and arrive at conclusions. Specific topics include regression analysis, time-series analysis, event study methodology, panel data analysis, and limited dependent variable models.",
+      "description": "Introduces the essential fundamental mathematics needed for the study of modern finance: probability, stochastic processes, statistics, and regression analysis. Also focuses on theory and empirical evidence useful for investment decisions. Topics include financial risk factors, financial models, financial markets and equilibrium models of security prices, market efficiency, and the empirical behavior of security prices.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1656,19 +1319,10 @@
       "attributes": []
     },
     {
-      "number": "6337",
-      "title": "Computational Methods in Finance",
-      "credits": 3.0,
-      "description": "Studies various computational methods in finance. Analyzes market data and build trading strategies. Uses interpolation, solver, and optimization methods to calibrate discount curve and volatility surfaces to market prices. Analyzes market data and applies dimension-reduction techniques such as principal component analysis (PCA). Applies time-series analysis and PCA to implement and back test trading strategies.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6338",
       "title": "Alternative Investments",
       "credits": 3.0,
-      "description": "Emphasizes assets and portfolios that fall into the category of alternative investments, which includes nontraditional assets—such as structured products and other types of derivatives—and managed portfolios—such as private equity, venture capital, and hedge funds. Offers students an opportunity to obtain a fundamental understanding of the securities and products that are traded in this space. Focuses on in-depth analyses of case studies, outside speakers, focused discussions, quantitative analyses, and current developments in the industry.",
+      "description": "Emphasizes assets and portfolios that fall into the category of alternative investments, which includes nontraditional assets—such as structured products and other types of derivatives—and managed portfolios—such as private equity, venture capital, and hedge funds. Offers students an opportunity to obtain a fundamental understanding of the securities and products that are traded in this space. Focuses on in-depth analyses of case studies, outside speakers, focused discussions, quantitative analyses, and current developments in the industry.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "course": "FINA 6203"
       },
@@ -1679,7 +1333,7 @@
       "number": "6339",
       "title": "Quantitative Portfolio Management",
       "credits": 3.0,
-      "description": "Offers an introduction to portfolio management with a focus on quantitative methods. Major topics include portfolio construction, revision, and performance measurement. Examines portfolio construction using constrained mean-variance optimization, as well as performance evaluation using factor models such as the Fama-French three-factor model. Additional topics include the effects of diversification on risk reduction and the costs of inflation, taxes, and transaction costs on management of fixed-income and equity security portfolios. Also covers quantitative approaches to manage specific sources of risk. Students employ historical data to construct backtests to assess the performance of various portfolio strategies.",
+      "description": "Offers an introduction to portfolio management with a focus on quantitative methods. Major topics include portfolio construction, revision, and performance measurement. Examines portfolio construction using constrained mean-variance optimization, as well as performance evaluation using factor models such as the Fama-French three-factor model. Additional topics include the effects of diversification on risk reduction and the costs of inflation, taxes, and transaction costs on management of fixed-income and equity security portfolios. Also covers quantitative approaches to manage specific sources of risk. Students employ historical data to construct backtests to assess the performance of various portfolio strategies.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "course": "FINA 6203"
       },
@@ -1701,7 +1355,7 @@
       "number": "6342",
       "title": "Financial Data and Fintech",
       "credits": 3.0,
-      "description": "Covers methods of managing data and extracting insights from real-world financial sources. Topics include extracting and organizing data from financial, geospatial and supply chain sources; financial aggregation; and reporting. Applications include current and emergent data sources employed in finance, risk-weighted assets, market and credit risk modeling, stress testing, and climate risk. Studies major sources of financial data, data visualization, and architecture. Offers hands-on instruction in tools used in the financial industry to process datasets.",
+      "description": "Covers methods of managing data and extracting insights from real-world financial sources. Topics include extracting and organizing data from financial, geospatial and supply chain sources; financial aggregation; and reporting. Applications include current and emergent data sources employed in finance, risk-weighted assets, market and credit risk modeling, stress testing, and climate risk. Studies major sources of financial data, data visualization, and architecture. Offers hands-on instruction in tools used in the financial industry to process datasets.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "course": "FINA 6203"
       },
@@ -1712,7 +1366,7 @@
       "number": "6343",
       "title": "Credit Risk Management",
       "credits": 3.0,
-      "description": "Introduces credit and counterparty risk-management practices in banking, corporate and commodity finance, commercial real estate, bonds, and credit derivative markets. Banking and corporate sectors face significant capital funding challenges as central banks respond to inflationary pressures. Presents a range of analytic methods used to assess risk exposures in credit portfolios, price credit products, and hedge credit risk exposure and interest-rate volatility. Covers factors driving corporate ratings and policies aimed at ensuring bank solvency. Models related to credit risk management are presented in class. Assignments employ a variety of technology tools.",
+      "description": "Introduces credit and counterparty risk-management practices in banking, corporate and commodity finance, commercial real estate, bonds, and credit derivative markets. Banking and corporate sectors face significant capital funding challenges as central banks respond to inflationary pressures. Presents a range of analytic methods used to assess risk exposures in credit portfolios, price credit products, and hedge credit risk exposure and interest-rate volatility. Covers factors driving corporate ratings and policies aimed at ensuring bank solvency. Models related to credit risk management are presented in class. Assignments employ a variety of technology tools.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": {
         "course": "FINA 6203"
       },
@@ -1756,6 +1410,15 @@
       "attributes": []
     },
     {
+      "number": "6402",
+      "title": "Introduction to Empirical Finance",
+      "credits": 2.0,
+      "description": "Offers students an opportunity to develop data and quantitative analysis tools to use for economic and financial modeling and analysis. Emphasizes regression analysis and its application, including how to build and interpret statistical models. Topics include sampling and estimation, data description and hypothesis testing, linear regression, multiple regression, and time-series analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6403",
       "title": "Investment Analytics",
       "credits": 4.0,
@@ -1784,9 +1447,53 @@
             ]
           },
           {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6318"
+              },
+              {
+                "course": "FINA 6320"
+              }
+            ]
+          },
+          {
             "course": "FINA 6431"
+          },
+          {
+            "course": "FINA 6200"
           }
         ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6405",
+      "title": "Financial Strategy",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to develop skills to identify and analyze a firm’s strategic opportunities and to propose a suitable financial strategy that is consistent with firm value creation. Stresses the impact of ethical and legal considerations, global markets, and technological innovation on efficient economic outcomes. Emphasizes written and oral communication skills.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "FINA 6418"
+          },
+          {
+            "course": "FINA 6420"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6406",
+      "title": "Finance Seminar",
+      "credits": 2.0,
+      "description": "Structures discussion of topics in the finance literature. Students read and present the works of leading researchers. Topics include corporate governance, mergers and acquisitions, and ESG. Applies agency theory and practice to the issues raised. Discusses legal and ethical considerations that are especially important in corporate-control issues. Utilizes data and software from the WRDS database to measure financial relationships.",
+      "prerequisites": {
+        "course": "FINA 6403"
       },
       "corequisites": [],
       "attributes": []
@@ -1830,7 +1537,21 @@
             ]
           },
           {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6318"
+              },
+              {
+                "course": "FINA 6320"
+              }
+            ]
+          },
+          {
             "course": "FINA 6432"
+          },
+          {
+            "course": "FINA 6200"
           }
         ]
       },
@@ -1875,7 +1596,62 @@
             ]
           },
           {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6318"
+              },
+              {
+                "course": "FINA 6320"
+              }
+            ]
+          },
+          {
             "course": "FINA 6431"
+          },
+          {
+            "course": "FINA 6200"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6415",
+      "title": "Business Turnarounds",
+      "credits": 2.0,
+      "description": "Discusses why companies fail, tools for identifying the root cause(s) of a company’s financial decline, and processes for maximizing value for its prioritized stakeholders. Covers corporate renewal and the turnaround management process, bankruptcy law and its application, evaluation and stabilization processes and tools, and building a high-performance organization while in crisis.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6418"
+              },
+              {
+                "course": "FINA 6420"
+              }
+            ]
+          },
+          {
+            "course": "FINA 6431"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6318"
+              },
+              {
+                "course": "FINA 6320"
+              }
+            ]
+          },
+          {
+            "course": "FINA 6200"
           }
         ]
       },
@@ -1929,9 +1705,54 @@
             ]
           },
           {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6318"
+              },
+              {
+                "course": "FINA 6320"
+              }
+            ]
+          },
+          {
             "course": "FINA 6432"
+          },
+          {
+            "course": "FINA 6200"
           }
         ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6418",
+      "title": "Financial Management",
+      "credits": 2.0,
+      "description": "Introduces time value of money calculations and applications. Builds upon a basis in accounting to offer students an opportunity to learn how to extract relevant information from the accounting statements for use in financial calculations and ratio analysis. Examines capital planning including determining relevant cash flows, calculating decision measures, and making the correct decisions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6419",
+      "title": "Portfolio Management",
+      "credits": 2.0,
+      "description": "Develops approaches to portfolio construction and performance measurement using quantitative models. Highlights the construction of efficient portfolios based on risk-return analysis, the effects of diversification on risk reduction, exposure to multiple systematic risk factors, and transaction costs for active equity portfolios. Motivates and examines multifactor financial models of capital asset pricing as the basis for characterizing portfolio style from the institutional investor’s viewpoint.",
+      "prerequisites": {
+        "course": "FINA 6403"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6420",
+      "title": "Advanced Financial Management",
+      "credits": 4.0,
+      "description": "Builds upon FINA 6418. Focuses on capital allocation and both equity and fixed-income markets. Covers the fundamentals of stock and bond valuation, as well as a brief review of macroeconomic concepts including the role of the Federal Reserve, growth, and inflation. Culminates with coverage of firm capital structure, weighted average cost of capital, forecasting, working capital management, and payout policy.",
+      "prerequisites": {
+        "course": "FINA 6418"
       },
       "corequisites": [],
       "attributes": []
@@ -1942,6 +1763,50 @@
       "credits": 2.0,
       "description": "Examines the financial econometric methods used to analyze financial data and test financial theories. Explores how to access various sources of financial data, design empirical tests, and apply basic programming skills to analyze the data and arrive at conclusions. Specific topics include regression analysis, time-series analysis, panel data analysis, and event study methodology.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6422",
+      "title": "Investment Banking",
+      "credits": 4.0,
+      "description": "Examines the investment banking business. Covers the major functions of large investment banks regarding their investment banking, market making, and asset management businesses. Exposes students to the processes used to determine the financing needs of domestic and international corporations, not-for-profit organizations, and government entities. Introduces the financing needs that are linked with products that are available in the capital markets, usually through the investment banking houses.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 6200"
+          },
+          {
+            "course": "FINA 6402"
+          },
+          {
+            "course": "FINA 6431"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6318"
+              },
+              {
+                "course": "FINA 6320"
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6418"
+              },
+              {
+                "course": "FINA 6420"
+              }
+            ]
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },
@@ -1962,6 +1827,15 @@
       "prerequisites": {
         "type": "OR",
         "courses": [
+          {
+            "course": "FINA 6200"
+          },
+          {
+            "course": "FINA 6320"
+          },
+          {
+            "course": "FINA 6331"
+          },
           {
             "course": "FINA 6420"
           },
@@ -1996,6 +1870,15 @@
       "title": "Fundamentals of Programming for Finance",
       "credits": 2.0,
       "description": "Introduces programming for finance and financial data analytics. Presents key concepts in programming, data structures, and data analysis with high-level programming language. Integrates data analytics libraries and tools with techniques for acquiring and combining data from different sources. Uses these tools and techniques to evaluate risk and return.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6434",
+      "title": "Evaluating and Managing Financial Investments",
+      "credits": 4.0,
+      "description": "Introduces the menu of financial assets available to investors and how these assets can be combined into optimal portfolios to meet different objectives. Presents an overview of the primary asset classes, the markets in which these assets trade, the investors that interact in each market, and the investment companies that manage portfolios. Focuses on quantifying the rates of return and levels of risk associated with individual investments and diversified portfolios. Studies the determination of government and corporate interest rates and models of asset valuation to calculate equilibrium prices for debt and equity securities. Examines how actively managed portfolios can exploit mispricing and how investors should evaluate the performance of a managed portfolio.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2064,7 +1947,15 @@
       "credits": 2.0,
       "description": "Covers methods of managing data and extracting insights from real-world financial sources. Topics include extracting and organizing data from financial, geospatial, and supply chain sources; financial aggregation; and reporting. Applications include current and emergent data sources employed in finance, risk-weighted assets, market and credit risk modeling, stress testing, and climate risk. Studies major sources of financial data, data visualization, and architecture. Offers hands-on instruction in tools used in the financial industry to process datasets. .",
       "prerequisites": {
-        "course": "FINA 6403"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 6203"
+          },
+          {
+            "course": "FINA 6403"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -2075,7 +1966,98 @@
       "credits": 2.0,
       "description": "Introduces credit and counterparty risk-management practices in banking, corporate and commodity finance, commercial real estate, bonds, and credit derivative markets. Banking and corporate sectors face significant capital funding challenges as central banks respond to inflationary pressures. Presents a range of analytic methods used to assess risk exposures in credit portfolios, price credit products, and hedge credit risk exposure and interest-rate volatility. Covers factors driving corporate ratings and policies aimed at ensuring bank solvency. Presents models related to credit risk management.",
       "prerequisites": {
-        "course": "FINA 6403"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 6203"
+          },
+          {
+            "course": "FINA 6403"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6444",
+      "title": "Discrete-Time Quantitative Finance",
+      "credits": 4.0,
+      "description": "Focuses on discrete-time derivative pricing and presents the necessary foundations in economics, probability theory, and stochastic processes to price assets. Focuses primarily on stochastic processes and stochastic calculus theory. Includes a general review of asset classes, derivatives, interest-rate instruments, preferences, and exposure to the fundamentals of probability theory necessary to understand stochastic processes. Emphasizes the use of binomial trees to price derivatives under the risk-neutral measure, generalizing the results to a continuous-time setting. Introduces the concept of equilibrium and no-arbitrage and their use for asset pricing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6446",
+      "title": "Risk Management with Technology",
+      "credits": 4.0,
+      "description": "Introduces and explores financial risk management using derivative instruments, which are contracts whose values derive from prices of underlying assets and goods such as equities, currencies, debt, and commodities. Focuses on the valuation and application of the principal derivative building blocks, which includes fixed-income securities, futures and forward contracts, options, and structured financial products. Covers market structure and how these products are specifically used by corporations and financial institutions to control financial market risks. Explores current global developments and new product innovations. Introduces some state-of-the-art technology, such as large language models, in financial markets.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6447",
+      "title": "Risk Parity Investing",
+      "credits": 1.0,
+      "description": "Introduces risk parity investing. Risk parity is an asset allocation approach that considers the risk contribution from each asset and overall portfolio risk, which can lead to more stable portfolio returns over time. Exposes students to risk parity, with and without reallocation and leverage, and offers them an opportunity to deepen their understanding of diversification, modern portfolio theory, and asset allocation.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 6203"
+          },
+          {
+            "course": "FINA 6403"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6448",
+      "title": "Low-Volatility Equity Portfolios",
+      "credits": 1.0,
+      "description": "Introduces low-volatility investing. Low-volatility investing is an approach to security selection and portfolio construction that favors low-volatility securities and portfolios. Covers the capital asset pricing model, along with more current research, illustrating that low-volatility securities outperform their risk-adjusted benchmarks. Includes other topics such as identifying low-volatility securities, constructing low-volatility portfolios, and exploring the effects of leverage. Uses a high-level programming language for examples and applications.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 6203"
+          },
+          {
+            "course": "FINA 6403"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6449",
+      "title": "Portfolio Construction and Management",
+      "credits": 1.0,
+      "description": "Introduces portfolio construction, management, and reporting, focusing on low-volatility and risk parity investing styles. Topics include position sizing, portfolio rebalancing, stress testing, risk limits, and portfolio reporting. Uses a high-level programming language for examples and applications.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FINA 6403"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "FINA 6203"
+              },
+              {
+                "course": "FINA 6333"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -2084,17 +2066,9 @@
       "number": "6450",
       "title": "Futures Market Trading Strategies",
       "credits": 1.0,
-      "description": "Introduces futures market trading strategies with applications in a high-level programming language such as Python. These trading strategies provide an alternative approach to security selection and portfolio construction, offering investors returns that are uncorrelated to traditional stock and bond portfolios. Covers global macro trading, trend following, and carry strategies. Includes other topics such as constructing trading strategies, exploring the effects of leverage, and incorporating strategies into a traditional portfolio.",
+      "description": "Introduces futures market trading strategies. These trading strategies provide an alternative approach to security selection and portfolio construction, offering investors returns that are uncorrelated to traditional stock and bond portfolios. Covers global macro trading, trend following, and carry strategies. Includes other topics such as constructing trading strategies, exploring the effects of leverage, and incorporating strategies into a traditional portfolio.",
       "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "FINA 6403"
-          },
-          {
-            "course": "FINA 6433"
-          }
-        ]
+        "course": "FINA 6403"
       },
       "corequisites": [],
       "attributes": []
@@ -2103,17 +2077,9 @@
       "number": "6451",
       "title": "Risk Arbitrage",
       "credits": 1.0,
-      "description": "Introduces risk arbitrage, a strategy that profits from price gaps during mergers and acquisitions. Explores how to analyze deals, estimate success odds, and build portfolios with applications in a high-level programming language such as Python. Offers students an opportunity to test real-world strategies and weigh risks vs. rewards in alternative investments.",
+      "description": "Introduces risk arbitrage, a strategy that profits from price gaps during mergers and acquisitions. Explores how to analyze deals, estimate success odds, and build portfolios. Offers students an opportunity to test real-world strategies and weigh risks vs. rewards in alternative investments.",
       "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "FINA 6203"
-          },
-          {
-            "course": "FINA 6433"
-          }
-        ]
+        "course": "FINA 6403"
       },
       "corequisites": [],
       "attributes": []
@@ -2142,7 +2108,18 @@
             "type": "OR",
             "courses": [
               {
+                "course": "FINA 6219"
+              },
+              {
                 "course": "FINA 6419"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "FINA 6360"
               },
               {
                 "course": "FINA 6439"
@@ -2151,6 +2128,18 @@
           }
         ]
       },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6492",
+      "title": "Advanced Topics in Finance",
+      "credits": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "description": "Examines current, specialized, and advanced topics in the areas of corporate finance, investments, risk management, valuation, private equity, venture capital, and other areas as appropriate. Course content, pedagogy, and prerequisites vary by topic and instructor.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },

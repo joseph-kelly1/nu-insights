@@ -2,6 +2,15 @@
   "department": "DAMG",
   "courses": [
     {
+      "number": "5105",
+      "title": "Introduction to Data Science Engineering with Python",
+      "credits": 4.0,
+      "description": "Introduces the fundamentals of machine learning and data science with Python for individuals who want to learn and apply state-of-the-art ML algorithms to real-world datasets using the Python programming language. Two unique and foundational pillars of this course are using real-world situational analogies to intuitively understand the algorithmic aspects of data science and ML and using real-world datasets and powerful machine learning libraries in Python to put these algorithms into practice. No prior programming experience required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5210",
       "title": "Introduction to Data Management and Database Design",
       "credits": 4.0,
@@ -53,6 +62,24 @@
       "attributes": []
     },
     {
+      "number": "6300",
+      "title": "Generative AI with Large Language Models in Data Engineering",
+      "credits": 4.0,
+      "description": "Explores the evolving relationship between data and artificial intelligence, explicitly emphasizing generative AI with large language models in the evolving data platform architecture landscape. Examines the data life cycle implementation from business problem formulation to solution delivery by studying real-world case studies to grasp practical trade-offs, challenges, and limitations. Offers students an opportunity for dynamic discussions and critical analyses of data challenges in LLM application development with a specific impact on the enterprise data platform and the ever-evolving role of data engineers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6310",
+      "title": "Knowledge Graphs with Generative AI and Graph Databases",
+      "credits": 4.0,
+      "description": "Examines the intersection of large language models and graph databases within the framework of knowledge graphs. Emphasizes their synergistic potential in modern data engineering and AI. Presents a foundational understanding of LLMs, graph theory, and graph database technologies, focusing on natural language processing, semantic search, and intelligent data systems. Covers graph modeling, graph analytics, and approaches to embedding unstructured and structured data in graph-based architectures. Incorporates current research, applied case studies, and project-based learning to support the design and implementation of advanced, graph-enabled AI solutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6374",
       "title": "Special Topics in Data Architecture and Management",
       "credits": {
@@ -60,6 +87,18 @@
         "max": 4.0
       },
       "description": "Offers topics of current interest in data architecture and management. May be repeated up to three times for a maximum of 16 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6376",
+      "title": "Special Topics in AI Metamodel Systems",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in AI metamodel systems. May be repeated up to three times for a maximum of 16 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -156,7 +195,7 @@
       "number": "7290",
       "title": "Data Warehousing and Business Intelligence",
       "credits": 4.0,
-      "description": "Examines the technical and management aspects of building a data warehouse. Explores the architecture, infrastructure, processes, data quality, database design, and data analysis involved in building the data warehouse for business analysis. Management issues include business goals, tool selection, project management, personnel skills, training, and user requirements. Topics include dimensional data modeling, extraction/transformation/load processes, data quality problems, datamarts, operational data stores (ODS), staging databases, and online analytic processing (OLAP).",
+      "description": "Examines the technical and management aspects of building a data warehouse. Explores the architecture, infrastructure, processes, data quality, database design, and data analysis involved in building the data warehouse for business analysis. Management issues include business goals, tool selection, project management, personnel skills, training, and user requirements. Topics include dimensional data modeling, extraction/transformation/load processes, data quality problems, data marts, operational data stores, staging databases, and online analytic processing.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -218,25 +257,7 @@
       "title": "Systems and Cybersecurity Fundamentals",
       "credits": 4.0,
       "description": "Presents the principles of data and technology that define systems and cybersecurity from a socio-technical perspective. Offers students an opportunity to gain insight into the importance of systems security within cybersecurity and the integral role that information systems analysts play in developing cybersecure systems that people use. Through hands-on dynamic learning, students explore foundational cybersecurity principles, security architecture, risk management, attacks and mitigation strategies using Kali Linux, cyber incident response, and emerging IT/IS technologies.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "DAMG 6105"
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "DAMG 6210"
-              },
-              {
-                "course": "INFO 6210"
-              }
-            ]
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },

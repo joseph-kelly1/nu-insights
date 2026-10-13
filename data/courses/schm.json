@@ -117,30 +117,6 @@
       "attributes": []
     },
     {
-      "number": "3320",
-      "title": "Forecasting and Sales and Operations Planning",
-      "credits": 4.0,
-      "description": "Offers a practical introduction to demand (sales) planning and forecasting for business students. Focuses on the organizational processes in managing demand as well as generating a forecast, regression analysis, exponential smoothing, time-series analysis, judgmental forecasting methods, and evaluation of forecast quality. Uses real-life data and various software packages to illustrate basic concepts.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SCHM 3301"
-          },
-          {
-            "course": "SCHM 3305"
-          },
-          {
-            "course": "SCHM 3310"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Analyzing/Using Data"
-      ]
-    },
-    {
       "number": "3330",
       "title": "Sustainable Supply Chain Management",
       "credits": 4.0,
@@ -193,39 +169,21 @@
       "attributes": []
     },
     {
-      "number": "6201",
-      "title": "Operations and Supply Chain Management",
-      "credits": 3.0,
-      "description": "Focuses on the integrative management of processes and activities involved in transformation and delivery of goods and services. Offers students an opportunity to obtain foundational knowledge on operations and supply chain management concepts, techniques, and functions. Topics covered include sourcing and procurement, manufacturing and service operations, process design and control, quality management, capacity planning, demand planning and forecasting, inventory management, transportation and distribution management, interfirm relationship management, and attendant information flows.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6211",
+      "number": "6411",
       "title": "Logistics and Transportation Management",
-      "credits": 3.0,
-      "description": "Examines the logistics and transportation operations, including the structure, challenges, and potential of the major modes of domestic transportation. Focuses on the interaction between logistics providers and shippers in the marketplace. Explores the major dynamics of the logistics marketplace and their impact on supply chain management. Offers students a managerial perspective on controlling what is typically the most expensive component of supply chain management, transportation expenditures.",
+      "credits": 4.0,
+      "description": "Examines the structure, operations, problems, and potential of the several major modes of transportation and focuses on the interaction between transportation service providers and shippers in the marketplace. Emphasizes the cost and service implications of transportation decisions within a broader logistics and supply chain management context. Presents a managerial perspective on controlling what is typically the most expensive component of supply chain management: transportation expenditure.",
       "prerequisites": {
         "type": "OR",
         "courses": [
-          {
-            "course": "SCHM 6201"
-          },
-          {
-            "course": "SCHM 6208"
-          },
-          {
-            "course": "SCHM 6210"
-          },
-          {
-            "course": "SCHM 6200"
-          },
           {
             "course": "IE 7200"
           },
           {
             "course": "SCHM 6318"
+          },
+          {
+            "course": "SCHM 6418"
           }
         ]
       },
@@ -233,72 +191,10 @@
       "attributes": []
     },
     {
-      "number": "6213",
-      "title": "Global Supply Chain Strategy",
-      "credits": 3.0,
-      "description": "Focuses on the managerial activities of those involved in supply chain management operations and planning for companies involved in international commerce. Analyzes contemporary issues that affect the design of international supply chain systems and strategies, including sourcing, logistics, transactions, risk, and ethical considerations. Examines the current status and future prospects of the modes of international logistics operations as well as international trade and development issues, not only from the corporate perspective but also in terms of government policy.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SCHM 6201"
-          },
-          {
-            "course": "SCHM 6208"
-          },
-          {
-            "course": "SCHM 6210"
-          },
-          {
-            "course": "SCHM 6200"
-          },
-          {
-            "course": "IE 7200"
-          },
-          {
-            "course": "SCHM 6318"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6214",
-      "title": "Sourcing and Procurement",
-      "credits": 3.0,
-      "description": "Addresses the strategic and operational role of sourcing and procurement and its impact on the supply chain as it relates to the entire organization. The selection, contracting, development, and monitoring/managing of the right supplier in the right location is more often a source of competitive advantage and a major contributor to a company’s bottom line. Focuses on a variety of aspects of this function—strategy development, organization, procedures, supplier selection, negotiations, buyer-supplier relationship management, quantity, quality, timeliness, and cost/price considerations for the purchase of goods and services. Emphasizes the perspective of the sourcing and procurement manager. The key questions addressed in this course are: What does the manager need to know to be effective? How do they apply key concepts?.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SCHM 6201"
-          },
-          {
-            "course": "SCHM 6208"
-          },
-          {
-            "course": "SCHM 6210"
-          },
-          {
-            "course": "SCHM 6200"
-          },
-          {
-            "course": "IE 7200"
-          },
-          {
-            "course": "SCHM 6318"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6215",
-      "title": "Supply Chain Analytics",
-      "credits": 3.0,
-      "description": "Designed to develop strategic decision-making skills using the latest analytics capabilities and enabler. Examines the state of the art in analytics capabilities and how these drive supply chains, from marketing to sourcing. Also examines how organizations use analytics to meet their strategic objectives, provide value to the business, and make decisions. Focuses on industry best practices, including studying some of the leading companies.",
+      "number": "6413",
+      "title": "Global Supply Chain Management",
+      "credits": 2.0,
+      "description": "Focuses on the managerial activities of those involved in supply chain management operations and planning for companies involved in international commerce. Analyzes contemporary issues that affect the design of international supply chain systems and strategies, including sourcing, logistics, and transactions. Examines the current status and future prospects of the modes of international logistics operations as well as international trade and development issues.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -309,16 +205,10 @@
             "course": "SCHM 6200"
           },
           {
-            "course": "SCHM 6201"
-          },
-          {
-            "course": "SCHM 6208"
-          },
-          {
-            "course": "SCHM 6210"
-          },
-          {
             "course": "SCHM 6318"
+          },
+          {
+            "course": "SCHM 6418"
           }
         ]
       },
@@ -326,29 +216,20 @@
       "attributes": []
     },
     {
-      "number": "6221",
-      "title": "Sustainability and Supply Chain Management",
-      "credits": 3.0,
-      "description": "Focuses on how to create sustainable supply chains that profitably yield high-quality, safe products without supply interruption while creating a net benefit for the employees, community, and the environment. Studies how companies measure environmental performance and use the data to motivate associates, suppliers, customers, policy makers, and the public. Also addresses the impacts of global sustainability frameworks and measures.",
+      "number": "6414",
+      "title": "Sourcing, Procurement, and Negotiations",
+      "credits": 4.0,
+      "description": "Explores the evolving landscape of strategic sourcing and advanced supplier management processes. Emphasizes cutting-edge technologies, sustainable practices, and ethical considerations. Examines modern strategic sourcing, blending theoretical and conceptual grounding with practical applications. Presents how to integrate sustainability into sourcing practices, focusing on minimizing environmental impact and promoting ethical supply chains. Analyzes supplier management processes including negotiation, contract management, relationship management, innovation sourcing, supplier development, supply risk management, corporate social responsibility, and international supplier considerations. Integrates both theoretical frameworks and practical applications to offer students an opportunity to obtain a deep understanding of how to effectively develop a sourcing strategy and manage suppliers in a dynamic environment.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "SCHM 6201"
-          },
-          {
-            "course": "SCHM 6208"
-          },
-          {
-            "course": "SCHM 6210"
+            "course": "IE 7200"
           },
           {
             "course": "SCHM 6200"
           },
           {
-            "course": "IE 7200"
-          },
-          {
             "course": "SCHM 6318"
           }
         ]
@@ -357,50 +238,62 @@
       "attributes": []
     },
     {
-      "number": "6223",
-      "title": "Managing Healthcare Supply Chain Operations",
-      "credits": 3.0,
-      "description": "Examines concepts and topics related to the design and management of supply chain operations in the healthcare sector. Focuses on activities and functions such as inventory control, order fulfillment, logistics, procurement, managing processes, relationship management, and information technology systems. Introduces various tools and techniques that enhance effective supply chain operations in healthcare organizations.",
+      "number": "6415",
+      "title": "Analytics in Supply Chain Management",
+      "credits": 2.0,
+      "description": "Explores the state-of-the-art in analytics and quantitative capabilities and their impact on supply chains – from planning to returning. Designed to develop strategic decision-making skills using the latest analytical tools and techniques in an end-to-end supply chain, from sourcing and supply to logistics and transportation. Provides insights into how leading companies leverage advanced analytics to create value, improve resilience, and maintain a sustainable competitive advantage. Prepares students to apply analytical methods and enablers in real-world supply chain scenarios. Offers topics in retrospective and prospective analytics in supply chain processes. Examines best practices and case studies across various industries to illustrate the application of analytics in supply chain management.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "IE 7200"
+          },
+          {
+            "course": "SCHM 6200"
+          },
+          {
+            "course": "SCHM 6318"
+          },
+          {
+            "course": "SCHM 6418"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6416",
+      "title": "AI and Technology in Supply Chain Management",
+      "credits": 2.0,
+      "description": "Examines current technology and analytics capabilities and how they drive supply chains, from marketing to sourcing. Focuses on disruptive and transformational technology in an end-to-end supply chain such as blockchains, 3D printing, autonomous vehicles, digital twins, etc. Studies generative AI, including how it is used and/or should be used. Examines how leading organizations employ these technologies to meet strategic objectives, provide value to the business, and make decisions across supply chains.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "6224",
-      "title": "Demand Planning and Forecasting",
-      "credits": 3.0,
-      "description": "Offers a practical introduction to demand (sales) forecasting for business students. Focuses on the organizational processes in generating a forecast, regression analysis, exponential smoothing, time-series analysis, judgmental forecasting methods, and evaluation of forecast quality. Uses real-life data and various software packages to illustrate basic concepts.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SCHM 6201"
-          },
-          {
-            "course": "SCHM 6208"
-          },
-          {
-            "course": "SCHM 6210"
-          },
-          {
-            "course": "SCHM 6200"
-          },
-          {
-            "course": "IE 7200"
-          },
-          {
-            "course": "SCHM 6318"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6318",
+      "number": "6418",
       "title": "Managing Operations and the Supply Chain",
       "credits": 2.0,
-      "description": "Focuses on the integrative management of processes and activities involved in transformation and delivery of goods and services. Emphasizes foundational knowledge on supply chain and operations management concepts, techniques, and functions. Topics covered include sourcing and procurement, manufacturing and service operations, logistics management, process design and control, inventory management, interfirm relationship management, and attendant information flows.",
+      "description": "Focuses on the integrative management of processes and activities involved in transformation and delivery of goods and services. Emphasizes foundational knowledge on supply chain and operations management concepts, techniques, and functions. Covers sourcing and procurement, manufacturing and service operations, logistics management, process design and control, inventory management, interfirm relationship management, and attendant information flows.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6422",
+      "title": "Risk Management and Business Continuity Planning",
+      "credits": 2.0,
+      "description": "Explores the area of risk management to offer students an opportunity to obtain tools to establish organizational agility and resilience. Emphasizes assessing threats in the supply chain, evaluating control alternatives, and strategy implementation approaches. Examines practical solutions that enable organizations to mitigate risk, manage a crisis, and recover after a disaster. Exposes students to different aspects of risk management with the goal of determining the most appropriate strategies and tactics to establish agile resiliency.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6423",
+      "title": "Managing Healthcare Supply Chain Operations",
+      "credits": 4.0,
+      "description": "Introduces various tools and techniques and examines concepts and topics that enhance the design and effective management of operations and supply chains in healthcare organizations. Focuses on activities and functions such as managing operations processes, demand and capacity planning, inventory management, logistics, procurement, relationship management, information technology systems and innovations, and emerging trends.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

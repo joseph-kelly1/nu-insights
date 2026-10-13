@@ -58,6 +58,17 @@
                   },
                   {
                     "course": "BIOL 2217"
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "admission_requirement": "BIOL 136M with a minimum grade of C"
+                      },
+                      {
+                        "admission_requirement": "BIOL 234M with a minimum grade of C"
+                      }
+                    ]
                   }
                 ]
               },
@@ -80,6 +91,9 @@
                   },
                   {
                     "course": "ENGW 1111"
+                  },
+                  {
+                    "admission_requirement": "WRIT 201M with a minimum grade of C"
                   }
                 ]
               }
@@ -126,6 +140,9 @@
                   },
                   {
                     "course": "BIOL 2219"
+                  },
+                  {
+                    "admission_requirement": "BIOL 234M with a minimum grade of C"
                   }
                 ]
               },
@@ -167,10 +184,16 @@
                     "course": "MATH 1231"
                   },
                   {
+                    "admission_requirement": "MATH 21BM with a minimum grade of C"
+                  },
+                  {
                     "course": "MATH 1241"
                   },
                   {
                     "course": "MATH 1341"
+                  },
+                  {
+                    "admission_requirement": "MATH 21EM with a minimum grade of C"
                   }
                 ]
               },
@@ -181,7 +204,29 @@
                     "course": "PSYC 1101"
                   },
                   {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "admission_requirement": "PSYC 101M with a minimum grade of C"
+                      },
+                      {
+                        "admission_requirement": "PSYC 102M with a minimum grade of C"
+                      }
+                    ]
+                  },
+                  {
                     "course": "PSYC 1101"
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "admission_requirement": "PSYC 101M with a minimum grade of C"
+                      },
+                      {
+                        "admission_requirement": "PSYC 102M with a minimum grade of C"
+                      }
+                    ]
                   }
                 ]
               }
@@ -221,21 +266,32 @@
                 "type": "AND",
                 "courses": [
                   {
-                    "course": "BIOL 2219"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "BIOL 2219"
+                      },
+                      {
+                        "admission_requirement": "BIOL 234M with a minimum grade of C"
+                      }
+                    ]
                   },
                   {
                     "course": "BIOL 2221"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "CHEM 1101"
                   },
                   {
-                    "course": "CHEM 1161"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "CHEM 1101"
+                      },
+                      {
+                        "course": "CHEM 1161"
+                      },
+                      {
+                        "course": "CHEM 1211"
+                      }
+                    ]
                   }
                 ]
               },
@@ -246,47 +302,68 @@
                     "course": "ENGW 1102"
                   },
                   {
-                    "course": "ENGW 1111"
-                  },
-                  {
-                    "course": "ENGW 1111"
-                  },
-                  {
-                    "course": "ENGW 1113"
-                  },
-                  {
-                    "course": "ENGW 1114"
-                  }
-                ]
-              },
-              {
-                "type": "OR",
-                "courses": [
-                  {
-                    "type": "AND",
+                    "type": "OR",
                     "courses": [
                       {
-                        "course": "HSCI 1105"
+                        "course": "ENGW 1111"
                       },
                       {
-                        "course": "MATH 1215"
+                        "admission_requirement": "WRIT 201M with a minimum grade of C"
                       }
                     ]
                   },
                   {
-                    "course": "MATH 1241"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "ENGW 1111"
+                      },
+                      {
+                        "admission_requirement": "WRIT 201M with a minimum grade of C"
+                      }
+                    ]
                   },
                   {
-                    "course": "MATH 1242"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "ENGW 1113"
+                      },
+                      {
+                        "course": "ENGW 1114"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "HSCI 1105"
                   },
                   {
-                    "course": "MATH 1251"
-                  },
-                  {
-                    "course": "MATH 1252"
-                  },
-                  {
-                    "course": "MATH 1341"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 1215"
+                      },
+                      {
+                        "course": "MATH 1241"
+                      },
+                      {
+                        "course": "MATH 1242"
+                      },
+                      {
+                        "course": "MATH 1251"
+                      },
+                      {
+                        "course": "MATH 1252"
+                      },
+                      {
+                        "course": "MATH 1341"
+                      }
+                    ]
                   }
                 ]
               },
@@ -300,6 +377,17 @@
                     "course": "PSYC 1101"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of C"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of C"
               }
             ]
           },
@@ -328,7 +416,15 @@
                 "type": "AND",
                 "courses": [
                   {
-                    "course": "BIOL 2219"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "BIOL 2219"
+                      },
+                      {
+                        "admission_requirement": "BIOL 234M with a minimum grade of C"
+                      }
+                    ]
                   },
                   {
                     "course": "BIOL 2221"
@@ -402,6 +498,9 @@
               },
               {
                 "course": "MATH 1341"
+              },
+              {
+                "admission_requirement": "MATH 21EM with a minimum grade of C"
               }
             ]
           },
@@ -762,6 +861,20 @@
             "type": "OR",
             "courses": [
               {
+                "course": "NRSG 3321"
+              },
+              {
+                "course": "NRSG 3321"
+              },
+              {
+                "course": "NRSG 3321"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
                 "course": "NRSG 3333"
               },
               {
@@ -810,52 +923,58 @@
       "credits": 3.0,
       "description": "Focuses on psychiatric mental health nursing, offering students an opportunity to obtain the knowledge and skills to promote adaptive responses and achieve health goals in individuals, families, and groups experiencing mental health challenges. Explores key concepts in personality development, therapeutic communication, identifying differential diagnoses, and psychiatric nursing care, with an emphasis on clinical judgment. Integrates evidence-based practices, critical thinking, and comprehensive mental health assessments to support holistic, patient-centered care. Examines self-concept, role functioning, and interdependence within group and community contexts. Emphasizes interprofessional collaboration, diverse intervention strategies, and the evaluation of therapeutic outcomes within psychiatric care frameworks.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "NRSG 2220"
-                  },
-                  {
-                    "course": "NRSG 2220"
-                  },
-                  {
-                    "course": "NRSG 2220"
-                  },
-                  {
-                    "course": "NRSG 2222"
-                  },
-                  {
-                    "course": "NRSG 2222"
-                  },
-                  {
-                    "course": "NRSG 2222"
-                  }
-                ]
+                "course": "NRSG 2220"
               },
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "NRSG 2221"
-                  },
-                  {
-                    "course": "NRSG 2221"
-                  },
-                  {
-                    "course": "NRSG 2221"
-                  }
-                ]
+                "course": "NRSG 2220"
+              },
+              {
+                "course": "NRSG 2220"
+              },
+              {
+                "course": "NRSG 2222"
+              },
+              {
+                "course": "NRSG 2222"
+              },
+              {
+                "course": "NRSG 2222"
               }
             ]
           },
           {
-            "admission_requirement": "graduate program admission"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 2221"
+              },
+              {
+                "course": "NRSG 2221"
+              },
+              {
+                "course": "NRSG 2221"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 2350"
+              },
+              {
+                "course": "NRSG 2350"
+              },
+              {
+                "course": "NRSG 2350"
+              }
+            ]
           }
         ]
       },
@@ -1055,6 +1174,20 @@
             "type": "OR",
             "courses": [
               {
+                "course": "NRSG 3321"
+              },
+              {
+                "course": "NRSG 3321"
+              },
+              {
+                "course": "NRSG 3321"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
                 "course": "NRSG 3333"
               },
               {
@@ -1076,6 +1209,17 @@
               },
               {
                 "course": "NRSG 3334"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 3404"
+              },
+              {
+                "course": "PSYC 3404"
               }
             ]
           }
@@ -1155,6 +1299,15 @@
             "type": "OR",
             "courses": [
               {
+                "course": "NRSG 3302"
+              },
+              {
+                "course": "NRSG 3302"
+              },
+              {
+                "course": "NRSG 3302"
+              },
+              {
                 "course": "NRSG 3344"
               },
               {
@@ -1168,6 +1321,15 @@
           {
             "type": "OR",
             "courses": [
+              {
+                "course": "NRSG 3303"
+              },
+              {
+                "course": "NRSG 3303"
+              },
+              {
+                "course": "NRSG 3303"
+              },
               {
                 "course": "NRSG 3345"
               },
@@ -1311,13 +1473,133 @@
             "type": "OR",
             "courses": [
               {
-                "course": "NRSG 3420"
+                "course": "NRSG 3401"
               },
+              {
+                "course": "NRSG 3401"
+              },
+              {
+                "course": "NRSG 3401"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
               {
                 "course": "NRSG 3420"
               },
               {
                 "course": "NRSG 3420"
+              },
+              {
+                "course": "NRSG 3420"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 3421"
+              },
+              {
+                "course": "NRSG 3421"
+              },
+              {
+                "course": "NRSG 3421"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 3344"
+              },
+              {
+                "course": "NRSG 3344"
+              },
+              {
+                "course": "NRSG 3344"
+              },
+              {
+                "course": "NRSG 3302"
+              },
+              {
+                "course": "NRSG 3302"
+              },
+              {
+                "course": "NRSG 3302"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 3345"
+              },
+              {
+                "course": "NRSG 3345"
+              },
+              {
+                "course": "NRSG 3345"
+              },
+              {
+                "course": "NRSG 3303"
+              },
+              {
+                "course": "NRSG 3303"
+              },
+              {
+                "course": "NRSG 3303"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 4502"
+              },
+              {
+                "course": "NRSG 4502"
+              },
+              {
+                "course": "NRSG 4502"
+              },
+              {
+                "course": "NRSG 4504"
+              },
+              {
+                "course": "NRSG 4504"
+              },
+              {
+                "course": "NRSG 4504"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "NRSG 4503"
+              },
+              {
+                "course": "NRSG 4503"
+              },
+              {
+                "course": "NRSG 4503"
+              },
+              {
+                "course": "NRSG 4505"
+              },
+              {
+                "course": "NRSG 4505"
+              },
+              {
+                "course": "NRSG 4505"
               }
             ]
           }
@@ -1938,19 +2220,11 @@
     },
     {
       "number": "6249",
-      "title": "Health Promotion of Adult/Older Adult",
+      "title": "Health Promotion and Disease Prevention Through the Adult Life Span",
       "credits": 3.0,
-      "description": "Focuses on the assessment, preventative, and health maintenance and promotion theories utilized by advanced practice nurses. Includes the impact of political, psychological, sociological, and physiological factors on the healthcare continua of the adolescent/adult/older adult. Explores self-modeling of health behaviors and institution of primary and secondary preventative strategies in the home, community, workplace, and primary care facility. Discusses and utilizes theoretical and strategic approaches to behavior change necessary for health promotion.",
+      "description": "Examines assessment, health maintenance, and health promotion theories relevant to advanced practice nursing. Explores the impact of political, psychological, sociological, and physiological factors on the healthcare experiences of adolescents, adults, and older adults. Offers students an opportunity to investigate health behavior theories and apply primary and secondary prevention strategies across diverse settings including homes, communities, workplaces, and primary care facilities. Introduces theoretical and strategic approaches to behavior change that support health promotion. Emphasizes holistic and culturally responsive care that integrates interprofessional collaboration and addresses health disparities.",
       "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "NRSG 6115"
-          },
-          {
-            "course": "NRSG 6115"
-          }
-        ]
+        "course": "NRSG 6115"
       },
       "corequisites": [
         "NRSG 6449"
@@ -1977,6 +2251,40 @@
         "course": "NRSG 6253"
       },
       "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6258",
+      "title": "Primary Care Conditions Through the Adult Life Span",
+      "credits": 4.0,
+      "description": "Covers knowledge and skills essential for primary healthcare provision to middle adolescents, adults, and older adults. Emphasizes assessment, diagnosis, and management of minor acute illnesses and stabilized chronic conditions in community and long-term care settings. Integrates pathophysiology and pharmacology principles with clinical decision-making frameworks. Offers students an opportunity to develop competencies in interdisciplinary collaboration, consultation, and appropriate referral and to apply evidence-based approaches to common primary care presentations while considering epidemiology, risk factors, and health equity. Supports transition toward independent clinical practice through case-based learning and clinical reasoning.",
+      "prerequisites": {
+        "course": "NRSG 6249"
+      },
+      "corequisites": [
+        "NRSG 6450"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "6259",
+      "title": "Complex Primary Care Conditions Through the Adult Life Span",
+      "credits": 4.0,
+      "description": "Covers clinical competencies in assessment and management of middle adolescents, adults, and older adults with complex multisystem health conditions across primary care and long-term care settings. Integrates pathophysiology, pharmacology, and psychosocial sciences to inform clinical decision making for patients with multiple comorbidities. Emphasizes comprehensive care coordination, interdisciplinary collaboration, and therapeutic relationships. Offers students an opportunity to develop expertise in managing polypharmacy, addressing social determinants of health, and navigating ethical considerations in complex cases. Explores health promotion and disease management strategies for vulnerable populations. Synthesizes advanced practice nursing competencies through case presentations, simulation experiences, and application of evidence-based guidelines.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "NRSG 6249"
+          },
+          {
+            "course": "NRSG 6258"
+          }
+        ]
+      },
+      "corequisites": [
+        "NRSG 6451"
+      ],
       "attributes": []
     },
     {
@@ -2117,15 +2425,6 @@
       "attributes": []
     },
     {
-      "number": "6288",
-      "title": "Geriatric and Aging Adult Psychopharmacology",
-      "credits": 2.0,
-      "description": "Offers a comprehensive overview of psychiatric disorders and the biopsychosocial issues associated with medication prescription, differential diagnosis, drug interactions, and safe monitoring with attention to side effects for geriatric and aging adult populations. Also offers a comprehensive overview of major classes of psychotropic medications and integration of medication management into a treatment regimen for geriatric and aging adult clients. Uses clinical cases to illustrate complex issues related to prescribing psychiatric medications for the geriatric population.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6300",
       "title": "Healthcare Finance and Marketing",
       "credits": 3.0,
@@ -2224,20 +2523,16 @@
       "prerequisites": {
         "course": "NRSG 6393"
       },
-      "corequisites": [
-        "NRSG 6396"
-      ],
+      "corequisites": [],
       "attributes": []
     },
     {
       "number": "6396",
-      "title": "Practicum for NRSG 6395",
+      "title": "Practicum for Women's Health",
       "credits": 4.0,
       "description": "Focuses on the assessment, diagnosis, and management of acute and chronic health conditions of women and families. Emphasizes the care of women during the perinatal and postpartum periods. Explores family health as the family structure changes across its life span. Emphasizes the role of the advanced-practice nurse practitioner as a member of collaborative teams, as a consultant, and as a model of health behaviors.",
       "prerequisites": [],
-      "corequisites": [
-        "NRSG 6395"
-      ],
+      "corequisites": [],
       "attributes": []
     },
     {
@@ -2346,19 +2641,11 @@
     },
     {
       "number": "6449",
-      "title": "Health Promotion of Adult/Older Adult Practicum",
+      "title": "Health Promotion and Disease Prevention Through the Adult Life Span Practicum",
       "credits": 1.0,
-      "description": "Applies knowledge acquired in NRSG 6249. Focuses on the assessment and health promotion of adults/older adults in the primary care settings. Utilizes selected clinical experiences to increase and apply health and risk-assessment skills with adult populations in the community. Also offers students an opportunity to acquire a beginning knowledge of the role of the adult/older adult nurse practitioner in primary care settings.",
+      "description": "Applies health promotion and disease prevention concepts through supervised clinical practice with middle adolescents, adults, and older adults in primary care settings. Emphasizes health assessment, screening, and risk identification across diverse populations. Offers students an opportunity to integrate health behavior theories and to develop culturally responsive approaches that address social determinants of health. Focuses on building beginning competencies in the adult nurse practitioner role through application of evidence-based strategies for health maintenance and disease prevention.",
       "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "NRSG 6115"
-          },
-          {
-            "course": "NRSG 6115"
-          }
-        ]
+        "course": "NRSG 6115"
       },
       "corequisites": [
         "NRSG 6249"
@@ -2367,9 +2654,9 @@
     },
     {
       "number": "6450",
-      "title": "Adult/Older Adult Practicum 1",
+      "title": "Primary Care Conditions Through the Adult Life Span Practicum",
       "credits": 5.0,
-      "description": "Provides a clinical learning experience that correlates with the content presented in NRSG 6250. Focuses on assessment of the adult life span within a holistic framework. Emphasizes identification of individuals at risk for premature morbidity and mortality, as well as focusing on advanced health assessment techniques and interpretation of abnormal findings on physical examination and developing a client/family health-promoting plan of care within the advanced practice role of the nurse practitioner. Requires students to practice in the clinical setting a minimum of sixteen hours per week.",
+      "description": "Provides supervised clinical experiences that integrate pathophysiology and pharmacology principles in assessment, diagnosis, and management of common acute and chronic conditions in primary care. Emphasizes clinical decision making for middle adolescents, adults, and older adults across community and long-term care settings. Offers students an opportunity to apply evidence-based approaches while developing competencies in interdisciplinary collaboration, consultation, and appropriate referral. Supports progressive development of independent clinical practice through direct patient care experiences.",
       "prerequisites": {
         "type": "AND",
         "courses": [
@@ -2381,18 +2668,22 @@
           }
         ]
       },
-      "corequisites": [],
+      "corequisites": [
+        "NRSG 6258"
+      ],
       "attributes": []
     },
     {
       "number": "6451",
-      "title": "Adult/Older Adult Practicum 2",
+      "title": "Complex Primary Care Conditions Through the Adult Life Span Practicum",
       "credits": 5.0,
-      "description": "Continues NRSG 6450. Focuses on providing the student with clinical learning experiences in the coordination and delivery of primary healthcare nursing services to adults and their families, with emphasis on underserved populations. Studies how to assess, diagnose, and manage acute and chronic conditions and illnesses commonly encountered in adult populations. Students build on a foundation of practice behaviors in health assessment, health promotion, and disease prevention. Requires students to practice in the clinical setting a minimum of sixteen hours per week.",
+      "description": "Designed to advance clinical competencies through supervised practice with middle adolescents, adults, and older adults experiencing complex multisystem health conditions across community-based settings. Integrates pathophysiology, pharmacology, and psychosocial sciences in comprehensive management of patients with multiple comorbidities. Emphasizes care coordination, interdisciplinary collaboration, and therapeutic relationships. Offers students an opportunity to develop expertise in managing polypharmacy, addressing social determinants of health, and navigating ethical considerations. Synthesizes advanced practice nursing competencies through direct patient care experiences.",
       "prerequisites": {
         "course": "NRSG 6450"
       },
-      "corequisites": [],
+      "corequisites": [
+        "NRSG 6259"
+      ],
       "attributes": []
     },
     {
@@ -2526,7 +2817,7 @@
       "number": "7104",
       "title": "Foundations in Nursing Research",
       "credits": 3.0,
-      "description": "Addresses the development of nursing science with specific emphasis on the importance of developing theory-based research. Includes a broad review of the various types of research studies (e.g., descriptive, causal, and relational); the steps of the research process; and the related analytic strategies and/or issues associated with each type of research study. Also reviews the guidelines for conducting critical literature reviews (i.e., systematic or meta-analyses) and how the results are used to determine the type of research study to employ. Discusses the scientific principles and integrity related to the conduct of responsible research and the means for assuring ethical integrity of research on human subjects.",
+      "description": "Addresses the development of nursing science with specific emphasis on the importance of developing theory-based research. Includes a broad review of the various types of research studies (e.g., descriptive, causal, and relational); the steps of the research process; and the related analytic strategies and/or issues associated with each type of research study. Reviews the guidelines for conducting critical literature reviews (i.e., systematic or meta-analyses) and how the results are used to determine the type of research study to employ. Discusses the scientific principles and integrity related to the conduct of responsible research and the means for assuring ethical integrity of research on human subjects.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -3023,7 +3314,7 @@
       "number": "7715",
       "title": "Measurement in Clinical Research",
       "credits": 3.0,
-      "description": "Examines the concepts of measurement, sources of measurement error, control, and instrumentation as they relate to variables in clinical research. Students have an opportunity to explore the procedural aspects of measurement, criterion-referenced and norm-referenced measures, as well as the reliability and validity of measurement techniques. Discusses methods and statistical procedures used in instrument design and testing, such as instrument blueprints, factor analysis, and item response theory. Emphasizes the measurement of variables to evaluate the effectiveness of clinical interventions.",
+      "description": "Examines the concepts of measurement, sources of measurement error, control, and instrumentation as they relate to variables in clinical research. Provides an opportunity to explore the procedural aspects of measurement, criterion-referenced and norm-referenced measures, as well as the reliability and validity of measurement techniques. Discusses methods and statistical procedures used in instrument design and testing, such as instrument blueprints, factor analysis, and item response theory. Emphasizes the measurement of variables to evaluate the effectiveness of clinical interventions.",
       "prerequisites": {
         "course": "NRSG 7700"
       },
@@ -3034,7 +3325,7 @@
       "number": "7750",
       "title": "Healthcare of Urban Populations",
       "credits": 3.0,
-      "description": "Offers students an opportunity to explore the body of urban health research to identify key themes, conceptual foundations, and contemporary research findings. Examines integration of cultural and community contextual factors that affect the health status of urban populations. These include racial, ethnic, and economic health disparities; influences of the urban physical environment and the urban social environment; and the availability of and access to health and social services. Studies the influence of concepts such as vulnerability, underserved, culture, ethnicity, poverty, discrimination, disparities in healthcare, urbanization, diversity, social determinants of health, environmental justice, and migration on health status.",
+      "description": "Offers an opportunity to explore the body of urban health research to identify key themes, conceptual foundations, and contemporary research findings. Examines integration of cultural and community contextual factors that affect the health status of urban populations. Includes racial, ethnic, and economic health disparities; influences of the urban physical environment and the urban social environment; and the availability of and access to health and social services. Studies the influence of concepts such as vulnerability, underserved, culture, ethnicity, poverty, discrimination, disparities in healthcare, urbanization, diversity, social determinants of health, environmental justice, and migration on health status.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -3043,7 +3334,7 @@
       "number": "7755",
       "title": "Intervention Research: Development, Implementation, and Evaluation",
       "credits": 3.0,
-      "description": "Examines theory-based intervention research for individuals, groups, populations, and systems. Offers an overview of the types of theory-based interventions across the health spectrum. Reviews the development and testing of theory-based interventions. Emphasizes understanding the strengths and challenges of integrating technology across the development, testing, and implementation of a theory-based intervention. Also emphasizes the selection of existing interventions, the process of adaption, and the valid and reliable execution of the selected theory-based intervention by examining such issues as treatment, fidelity, intervention duration, context, and interventionist expertise. Compares and contrasts intervention research developed for efficacy, effectiveness, and implementation. Restricted to students enrolled in a PhD program or with permission of instructor.",
+      "description": "Examines theory-based intervention research for individuals, groups, populations, and systems. Presents an overview of the types of theory-based interventions across the health spectrum. Reviews the development and testing of theory-based interventions. Emphasizes understanding the strengths and challenges of integrating technology across the development, testing, and implementation of a theory-based intervention. Emphasizes the selection of existing interventions, the process of adaption, and the valid and reliable execution of the selected theory-based intervention by examining such issues as treatment, fidelity, intervention duration, context, and interventionist expertise. Compares and contrasts intervention research developed for efficacy, effectiveness, and implementation.",
       "prerequisites": {
         "type": "AND",
         "courses": [
@@ -3062,7 +3353,7 @@
       "number": "7770",
       "title": "Research Colloquium",
       "credits": 1.0,
-      "description": "Offers doctoral students an opportunity to explore in-depth key concepts in nursing and healthcare research. Led by a faculty expert, offers students an opportunity to engage in meaningful dialogue and analysis to examine the concept from multiple perspectives. May be repeated up to four times.",
+      "description": "Offers an opportunity to explore in-depth key concepts in nursing and healthcare research. Engages students in meaningful dialogue and analysis to examine the concept from multiple perspectives. May be repeated up to four times.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -3243,7 +3534,7 @@
       "number": "9845",
       "title": "Dissertation Seminar 1",
       "credits": 3.0,
-      "description": "Guides students through the beginning of the research process as they prepare their dissertation proposals, including writing the literature review and outlining the research design for their projects. Students have an opportunity to work with their dissertation advisors both individually and in small groups.",
+      "description": "Supports students beginning the research process to prepare dissertation proposals, including writing the literature review and outlining the research design for projects. Offers the opportunity to work with dissertation advisors both individually and in small groups.",
       "prerequisites": {
         "course": "NRSG 7700"
       },
@@ -3254,7 +3545,7 @@
       "number": "9846",
       "title": "Dissertation Seminar 2",
       "credits": 3.0,
-      "description": "Provides students with an opportunity to finalize their dissertation proposals and make the necessary arrangements to begin their investigations by completing the design and methods and obtaining Investigative Review Board approval. Students have an opportunity to work with their dissertation advisors both individually and in small groups.",
+      "description": "Provides an opportunity to finalize the dissertation proposal for Institutional Review Board (IRB) review and approval. Students collaborate with dissertation advisors both individually and in small groups.",
       "prerequisites": {
         "course": "NRSG 9845"
       },

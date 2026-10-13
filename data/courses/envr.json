@@ -2,15 +2,6 @@
   "department": "ENVR",
   "courses": [
     {
-      "number": "1000",
-      "title": "Marine and Environmental Sciences at Northeastern",
-      "credits": 1.0,
-      "description": "Intended for first-year students in the College of Science. Introduces students to liberal arts; familiarizes them with their major; develops the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps to develop interpersonal skills—in short, familiarizes students with all skills needed to become a successful university student.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1101",
       "title": "Environmental Science",
       "credits": 4.0,
@@ -150,6 +141,9 @@
                 "course": "ENVR 1101"
               },
               {
+                "admission_requirement": "ENVM 115M with a minimum grade of D-"
+              },
+              {
                 "course": "ENVR 1200"
               },
               {
@@ -162,6 +156,9 @@
             "courses": [
               {
                 "course": "ENGL 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGL 1102"
@@ -236,8 +233,7 @@
       "description": "Presents an overview of key statistical concepts and approaches for analyzing biological data. Focuses on the mathematical foundations of statistics. Topics include probability, probability distributions, experimental design, as well as statistical inference via point or interval estimation and hypothesis testing. Discusses classic parametric and nonparametric statistical tests for one or more population(s). Emphasizes the appropriateness of each test based on its assumptions, statistical power, and the structure of the data.",
       "prerequisites": [],
       "corequisites": [
-        "ENVR 2501",
-        "ENVR 2502"
+        "ENVR 2501"
       ],
       "attributes": [
         "NUpath Analyzing/Using Data",
@@ -277,6 +273,9 @@
         "courses": [
           {
             "course": "ENVR 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M (may be taken concurrently) with a minimum grade of D-"
           },
           {
             "course": "ENVR 1400"
@@ -336,6 +335,9 @@
             "course": "ENVR 1101"
           },
           {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
+          },
+          {
             "course": "ENVR 1110"
           },
           {
@@ -377,6 +379,9 @@
         "courses": [
           {
             "course": "EEMB 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
           },
           {
             "course": "ENVR 1101"
@@ -423,6 +428,9 @@
             "course": "CHEM 1151"
           },
           {
+            "admission_requirement": "CHEM 233M with a minimum grade of D-"
+          },
+          {
             "course": "CHEM 1161"
           },
           {
@@ -437,28 +445,6 @@
       ]
     },
     {
-      "number": "3435",
-      "title": "Environmental Pollution: Fate and Transport",
-      "credits": 4.0,
-      "description": "Provides a systematic approach to analyzing the fate and transport of pollutants within natural systems. Equilibrium modeling and reactive transport modeling are used to assess the predominant processes that control the movement and persistence of pollutants in water, soil, and air. Topics include mass transfer across multiple phases; physical, chemical, and biological transformations of substances; transport processes (diffusion, dispersion, advection, interphase mass transport); eutrophication of lakes; conventional pollutants in rivers and estuaries; groundwater contamination; and atmospheric deposition.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "CHEM 1151"
-          },
-          {
-            "course": "CHEM 1161"
-          },
-          {
-            "course": "CHEM 1214"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "3540",
       "title": "Environmental Psychology",
       "credits": 4.0,
@@ -470,10 +456,27 @@
             "course": "ENVR 1101"
           },
           {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
+          },
+          {
+            "course": "ENVR 1200"
+          },
+          {
             "course": "ENVR 1400"
           },
           {
             "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -499,6 +502,9 @@
         "courses": [
           {
             "course": "EEMB 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
           },
           {
             "course": "ENVR 1101"
@@ -534,6 +540,9 @@
         "courses": [
           {
             "course": "EEMB 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
           },
           {
             "course": "ENVR 1101"
@@ -596,6 +605,9 @@
               },
               {
                 "course": "MATH 1341"
+              },
+              {
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
               }
             ]
           }
@@ -648,6 +660,9 @@
                 "course": "ENVR 1101"
               },
               {
+                "admission_requirement": "ENVM 115M with a minimum grade of D-"
+              },
+              {
                 "course": "ENVR 1200"
               },
               {
@@ -673,6 +688,12 @@
         "courses": [
           {
             "course": "EEMB 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
+          },
+          {
+            "course": "EEMB 2302"
           },
           {
             "course": "ENVR 1101"
@@ -801,16 +822,40 @@
             ]
           },
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
                 "course": "PHYS 1151"
               },
               {
-                "course": "PHYS 1152"
-              },
-              {
-                "course": "PHYS 1153"
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "PHYS 261M with a minimum grade of D-"
+                  },
+                  {
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "PHYS 1152"
+                      },
+                      {
+                        "admission_requirement": "PHYS 26LM with a minimum grade of D-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "PHYS 1153"
+                      },
+                      {
+                        "admission_requirement": "PHYS 26SM with a minimum grade of D-"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -834,6 +879,9 @@
             "course": "ENVR 1101"
           },
           {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
+          },
+          {
             "course": "ENVR 1200"
           },
           {
@@ -851,31 +899,6 @@
       "attributes": []
     },
     {
-      "number": "5201",
-      "title": "Geologic Field Seminar",
-      "credits": 4.0,
-      "description": "Studies aspects of geology/environmental science associated with a particular field setting, in the classroom, followed by an intensive field investigation. Examples include carbonate petrology and reef ecology, then field studies in the Bahamas; glacial geology and volcanology, followed by field studies in Iceland; or stratigraphy of the U.S. Southwest, with field studies in the Grand Canyon. Focuses on using field observations and field data to interpret modern and ancient geologic processes. May be repeated without limit.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Analyzing/Using Data",
-        "NUpath Integration Experience",
-        "NUpath Natural/Designed World"
-      ]
-    },
-    {
-      "number": "5202",
-      "title": "Environmental Science Field Seminar Abroad",
-      "credits": 4.0,
-      "description": "Offers an intensive environmental science field study experience associated with a particular off-campus geographic setting, such as Iceland, Newfoundland, Bahamas, etc. Offers students an opportunity to learn the principles of field study, to learn to recognize and record significant data, and to reach conclusions about a range of field-based problems being studied. May be repeated without limit.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Integration Experience",
-        "NUpath Natural/Designed World"
-      ]
-    },
-    {
       "number": "5210",
       "title": "Environmental Planning",
       "credits": 4.0,
@@ -885,6 +908,9 @@
         "courses": [
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1102"
@@ -975,6 +1001,15 @@
       ]
     },
     {
+      "number": "5550",
+      "title": "Climate Modeling, Adaptation, and Policy",
+      "credits": 4.0,
+      "description": "Examines the physical, biological, and chemical basis of climate change and provides context on how different components of the Earth system interact, with a focus on the carbon cycle. Provides opportunities for students to create simple climate models and build on this knowledge by analyzing the frameworks and models used by the Intergovernmental Panel on Climate Change to inform policymakers. Presents a holistic view of climate mitigation and adaptation strategies by discussing tools and concepts including integrated assessment models, model-data comparisons, and methods to evaluate the social cost of carbon.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5563",
       "title": "Advanced Spatial Analysis",
       "credits": 4.0,
@@ -1059,6 +1094,12 @@
             "course": "ENVR 1101"
           },
           {
+            "admission_requirement": "ENVM 115M with a minimum grade of C-"
+          },
+          {
+            "course": "ENVR 1200"
+          },
+          {
             "course": "ENVR 1400"
           },
           {
@@ -1078,15 +1119,19 @@
         "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ENVR 1101"
-              },
-              {
-                "course": "EEMB 2302"
-              }
-            ]
+            "course": "EEMB 2302"
+          },
+          {
+            "course": "ENVR 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of C-"
+          },
+          {
+            "course": "ENVR 1200"
+          },
+          {
+            "course": "ENVR 1400"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -1142,28 +1187,6 @@
       "description": "Focuses on the hydrologic cycle, including global and regional patterns of water movement; characteristics of surface and groundwater systems, including the linkage between streams, rivers, lakes, wetlands, groundwater, and the sea; water management issues and regulations that have been enacted to control the use of water as a resource; water quality measures for surface water and groundwater; and examples of water use conflicts and emerging water issues. Case studies of specific water challenges include examples from the United States, Asia, Africa, the Middle East, and Europe.",
       "prerequisites": [],
       "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6500",
-      "title": "Biostatistics",
-      "credits": 4.0,
-      "description": "Offers an in-depth overview of statistical methods used to analyze data, with a focus on the biological sciences as well as nonbiological applications. Covers probability theory, Bayes' theorem, hypothesis testing, derivations of statistical distributions, models used for inference with categorical and/or continuous data, linear models, model selection, information theory, and nonparametric methods in statistics. Offers students an opportunity to learn how to apply models to data in supervised lab sessions in the R programming environment.",
-      "prerequisites": [],
-      "corequisites": [
-        "ENVR 6501"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "6501",
-      "title": "Lab for ENVR 6500",
-      "credits": 1.0,
-      "description": "Accompanies ENVR 6500. Introduces the core principles for programming in R, key functions, and application to real datasets.",
-      "prerequisites": [],
-      "corequisites": [
-        "ENVR 6500"
-      ],
       "attributes": []
     },
     {

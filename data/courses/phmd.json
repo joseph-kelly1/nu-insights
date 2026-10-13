@@ -29,61 +29,6 @@
       "attributes": []
     },
     {
-      "number": "1201",
-      "title": "Introduction to Pharmacy Practice",
-      "credits": 2.5,
-      "description": "Seeks to prepare pharmacy students for their first introductory pharmacy practice experience (IPPE)/co-op. Introduces students to the policies, procedures, and expectations of the Cooperative Education Program. Offers students an opportunity to develop the skills needed to be successful in the preparation, activity, and reflection components of the pharmacy co-op program; to prepare their first résumés; and to learn proper interviewing techniques. Exposes students to the various co-op opportunities available to them as well as potential career paths within the pharmacy profession. Covers workplace issues including diversity, sexual harassment, ethics, and confidence of information. Introduces students to the technical knowledge and skills required for their first pharmacy experiences in both community and institutional pharmacy practice and to drug information resources. Offers students an opportunity to develop basic communication skills to aid them in successful completion of their first IPPE.",
-      "prerequisites": [],
-      "corequisites": [
-        "PHMD 1202"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "1202",
-      "title": "Lab for PHMD 1201",
-      "credits": 0.5,
-      "description": "Offers students an opportunity to learn several skills needed for future patient-care experiences. Supplements lecture content and provides practical reinforcement of concepts. Students apply knowledge learned in the classroom related to the appropriate and effective use of communication strategies and basic sterile techniques/manipulations. Labs related to the learning of communication skills support a patient-centered approach in assessing, adapting, and evaluating patient medication use needs.",
-      "prerequisites": [],
-      "corequisites": [
-        "PHMD 1201"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "2310",
-      "title": "Professional Communication in Pharmacy Practice",
-      "credits": 2.0,
-      "description": "Offers pharmacy students an opportunity to learn the principles for understanding, applying, evaluating, and creating successful verbal and nonverbal communication interactions in a variety of pharmacist and interprofessional settings. Through a patient-centered approach, reviews and builds on core communication skills learned in the foundational introduction to pharmacy practice courses. Topics include using effective communication approaches to detect and intervene to improve adherence, facilitate behavioral change, collaborate with other professionals, and tailor communication to special and culturally diverse patient populations.",
-      "prerequisites": [],
-      "corequisites": [
-        "PHMD 2311"
-      ],
-      "attributes": [
-        "NUpath Difference/Diversity"
-      ]
-    },
-    {
-      "number": "2311",
-      "title": "Lab for PHMD 2310",
-      "credits": 0.5,
-      "description": "Supplements lecture content from PHMD 2310. Designed to provide pharmacy students with several skills needed for future patient-care experiences and provide practical reinforcement of concepts. Students apply knowledge learned in the classroom related to the appropriate and effective use of communication strategies. Labs related to the learning of communication skills support a client-centered approach in assessing, adapting, and evaluating patient medication use needs. Specifically offers students an opportunity to learn and practice six core communication skills: listening, asking questions, providing empathy, understanding and managing confusion, understanding and managing conflict, and understanding and analyzing nonverbal behavior.",
-      "prerequisites": [],
-      "corequisites": [
-        "PHMD 2310"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "2350",
-      "title": "Healthcare Systems",
-      "credits": 3.0,
-      "description": "Examines the evolution of the American healthcare delivery system from the early forms of organized institutional healthcare through the dynamic, and increasingly integrated, delivery systems of the present. Explores the interactions of regulatory, economic, political, and social aspects of the healthcare system with particular emphasis on pharmacy practices. Compares current policies and proposals for health reform and pharmacy benefit coverage. Analyzes the impact and consequences of national and international actions in one era on the structure, function, and outcomes of healthcare and professional pharmacy practice in later years. Major emphases include factors affecting American population health, health disparities, and strategies, including pharmacy/pharmacists, to improve the nation’s health.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "2900",
       "title": "Global Self-Care Approaches and Strategies",
       "credits": 4.0,
@@ -128,6 +73,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -321,15 +269,6 @@
         "PHMD 4641",
         "PHMD 4642"
       ],
-      "attributes": []
-    },
-    {
-      "number": "4700",
-      "title": "Principles in General Medicine",
-      "credits": 2.0,
-      "description": "Offers students an opportunity to apply concepts learned in comprehensive-disease-management modules to patient cases, special projects, and other medication-related problems in an active-learning environment. Creates an environment similar to that of acute care advanced pharmacy practice experiences (APPEs) to enable students to gain familiarity and confidence in disease-state management, oral communication skills, and professional behavior and interactions. Focuses on oral presentations and communication skills, which is similar to how students are evaluated on clinically based rotations; students are also evaluated by quizzes and exams to measure mastery of content-specific objectives.",
-      "prerequisites": [],
-      "corequisites": [],
       "attributes": []
     },
     {
@@ -551,25 +490,6 @@
       ]
     },
     {
-      "number": "5225",
-      "title": "Medical Writing",
-      "credits": 2.0,
-      "description": "Introduces concepts and principles of effective scientific writing and communication of clinical information to health professionals and the scientific community. Examines a variety of scientific genres that provide context to common writing techniques and conventions employed. Emphasizes developing expertise in critical research, data evaluation and synthesis, audience analysis, peer review, revision, and evidence-based summaries and conclusions. Provides opportunity to develop necessary skills to effectively synthesize scientific evidence and write and communicate to a variety of scientific audiences. Designed for those who will encounter a spectrum of scientific writing throughout their careers.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ENGW 3306"
-          },
-          {
-            "admission_requirement": "graduate program admission"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5240",
       "title": "Integrated Social and Administrative Sciences 2",
       "credits": 4.0,
@@ -629,17 +549,6 @@
             "admission_requirement": "graduate program admission"
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5250",
-      "title": "Pharmacy Care Management",
-      "credits": 4.0,
-      "description": "Focuses on the managerial and administrative skills required by a contemporary pharmacist practicing in either a community or hospital setting. Covers classical management principles of planning, decision making, organizing, hiring, and controlling. Case study methods are used as an interactive teaching tool. Also covers pertinent current events.",
-      "prerequisites": {
-        "course": "PHMD 2350"
       },
       "corequisites": [],
       "attributes": []
@@ -744,7 +653,7 @@
     },
     {
       "number": "5320",
-      "title": "APPE Readiness",
+      "title": "Practice Readiness",
       "credits": 4.0,
       "description": "Designed to prepare students for Advanced Pharmacy Practice Experiences. Builds upon and assesses knowledge, skills, and attitudes developed during the first three years of the Doctor of Pharmacy curriculum. Offers learning activities and assessments that simulate student responsibilities during an APPE including interprofessional collaborations, caring for diverse patient populations in different settings, communicating with care team members, and assessing evidence to support informed recommendations and educational interventions for patients. Utilizes a continuous professional development and lifelong learning plan and reflection on skill development to set goals for APPE and postgraduation.",
       "prerequisites": [],
@@ -752,7 +661,8 @@
         "PHMD 5335"
       ],
       "attributes": [
-        "NUpath Capstone Experience"
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
       ]
     },
     {
@@ -862,6 +772,128 @@
       "attributes": []
     },
     {
+      "number": "5410",
+      "title": "Pharmacotherapy in the Adult Population",
+      "credits": 2.0,
+      "description": "Covers prescription, administration, and monitoring of medications for adults and older adults. Discusses the most common drugs and classes of drugs prescribed for adults/older adults, as well as the signs and symptoms of drug toxicity. Investigates the impact of race/ethnicity on prescribing practices as well as medication history guidelines, age-related considerations in prescribing for the older population, methods to support drug compliance and prevent inappropriate drug use, and adverse drug reactions. Emphasizes problems of polypharmacy and the prevention, recognition, and treatment of drug interactions in all ages of adults.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5415",
+      "title": "Drug and Device Development, Regulation, and Commercialization",
+      "credits": 4.0,
+      "description": "Presents an overview of the process of innovation and entrepreneurship within the drug and medical device development industry. Examines the perspectives of the pharmaceutical industry and medical device industry as well as regulatory agencies, with a specific focus on the United States. Offers students an opportunity to understand drug/device discovery, development, deployment, and life cycle as it pertains to business development and planning. Analyzes the role of healthcare providers across multiple career paths across the pharmaceutical industry. Explores the avenues for opportunities in healthcare and the roles of individuals in innovation and entrepreneurship across the industry. Utilizes a student-centric, case-based approach to tailor the educational experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5420",
+      "title": "Medical Writing in Healthcare",
+      "credits": 4.0,
+      "description": "Engages with concepts and principles of effective scientific writing and the communication of clinical information to health professionals and the scientific community. Examines a variety of scientific genres that provide context to common writing techniques and conventions employed. Emphasizes developing expertise in critical research, data evaluation and synthesis, audience analysis, peer review, revision, and evidence-based summaries and conclusions. Offers students an opportunity to develop the necessary skills to critically examine the scientific literature to effectively synthesize scientific evidence and write and communicate to a variety of scientific audiences. Designed for those whose careers will require a spectrum of scientific writing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5425",
+      "title": "Clinical Trials",
+      "credits": 4.0,
+      "description": "Engages learners in the concepts and principles of implementing and conducting clinical trials of drugs or devices. Examines the key components of good clinical practice when conducting and documenting clinical trials. Emphasizes the key roles of the research assistant/coordinator when engaging with research participants, the other members of the research team, the participants' clinical team, and other internal and external entities involved in clinical trial conduct. Offers learners an opportunity to develop necessary skills to apply ethical principles, implementation strategies, safety monitoring, and source documentation requirements when serving as a research assistant/coordinator for a clinical trial. Designed for healthcare professionals who are interested in participating on a research team conducting a clinical trial.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5430",
+      "title": "Contemporary Issues in Critical Care Pharmacy",
+      "credits": 4.0,
+      "description": "Engages learners with the concepts and principles of applying evidence-based drug therapy to critically ill patients admitted to an intensive care unit. Emphasizes developing expertise in critical care disease pathophysiology, pharmacology, pharmacokinetics, and pharmacogenomics. Examines the responsibilities of the critical care pharmacist as a part of the ICU interprofessional team and distinguishes the evidence supporting their current roles. Offers learners an opportunity to develop necessary skills to monitor drug therapy in the ICU, integrate critical care knowledge and concepts, apply practice guidelines, and communicate therapeutic recommendations to ICU nurses and physicians. Designed for those with an interest in providing comprehensive clinical pharmacy services to critically ill patients in the ICU.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHSC 5205"
+              },
+              {
+                "course": "PHSC 5205"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHSC 5230"
+              },
+              {
+                "course": "PHSC 5230"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHMD 5283"
+              },
+              {
+                "course": "PHMD 5283"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHMD 5240"
+              },
+              {
+                "course": "PHMD 5240"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHMD 5293"
+              },
+              {
+                "course": "PHMD 5293"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5435",
+      "title": "Medicine Across Media: Healthcare Representations and Reality",
+      "credits": 4.0,
+      "description": "Examines how medical professions, patients, illnesses, and the healthcare system are portrayed across diverse media including printed materials, film, television, and social media. Analyzes representations of different health professions and clinical scenarios in popular culture to interrogate social and personal attitudes toward health, disease, and patient care. Explores how media shapes public understanding of healthcare, what stereotypes persist about medical professions, how patients are depicted, and whose stories get told. Designed to develop critical medical literacy skills while examining real-world implications of these portrayals on the healthcare environment including patient expectations, professional identities, and health policy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5440",
+      "title": "The Other Side of the Chart: Patients as Teachers",
+      "credits": 4.0,
+      "description": "Explores the essential role of healthcare providers as patient advocates and communicators through the lens of real patient experiences. Examines the differences between patient and provider perspectives as students self-assess and evaluate their active listening and empathetic counseling skills and build collaborative care competencies. Explores themes of illness, resilience, and healthcare navigation. Offers learners an opportunity to develop strategies to address medication-related challenges including polypharmacy; drug interactions; risk-benefit assessments; and systemic barriers such as insurance complexities, practice policies, and specialty pharmacy logistics through analysis of patient narratives. Applies the healthcare provider’s unique role to support patients through their complex health journeys, from routine medication counseling to life-altering diagnoses, while honoring diverse patient values, belief systems, and support networks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5450",
       "title": "Advanced Pharmacy Practice Experience Preparatory Seminar",
       "credits": 1.0,
@@ -917,6 +949,18 @@
       "title": "Navigating Over-the-Counter Products and Self-Care Practices Inside and Outside the United States",
       "credits": 4.0,
       "description": "Offers health profession learners an opportunity to develop a basic understanding of health-delivery systems, specific to pharmacy practices, and key issues confronting healthcare inside and outside (e.g., Norway, Spain, Portugal, Australia, etc.) of the United States. Explores issues such as the delivery and affordability of medical care and pharmaceutical products, patient rights, health risks and behaviors, disease prevention, and quality and access to care. Compares and contrasts key healthcare issues inside and outside of the United States using literature resources, internet and contemporary media, observations in the study countries, discussions with guest speakers/cocurricular cultural events, and incorporation of self- and group-reflection activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5880",
+      "title": "Special Topics",
+      "credits": {
+        "min": 2.0,
+        "max": 3.0
+      },
+      "description": "Explores topics germane to medication and medication use, as established by the course instructor. May be repeated up to four times for a maximum of 15 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1193,6 +1237,24 @@
       "title": "Research 1 Advanced Pharmacy Practice Experience",
       "credits": 6.0,
       "description": "Offers students interested in gaining basic or clinical research experience an opportunity to work under the direction of an experienced researcher at an appropriate site. Students can elect either a basic science (lab-based) preceptor or a clinical (patient-based) preceptor. Students can expect to be an active participant in a variety of different research activities and experiences that are deemed appropriate by the preceptor. The research efforts of the student may result in a peer-reviewed research abstract and/or presentation. May be repeated up to two times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6473",
+      "title": "Radiopharmacy Advanced Pharmacy Practice Experience",
+      "credits": 6.0,
+      "description": "Offers students an opportunity to examine the application of radiopharmaceuticals in medical imaging methods. Includes but is not limited to computed tomography (CT), magnetic resonance imaging (MRI), positron emission tomography (PET), and single-photon tomography (SPECT). Students completing this course may cover aspects of product preparation, administration, and data interpretation. May be repeated up to two times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6500",
+      "title": "Licensure Preparation",
+      "credits": 0.0,
+      "description": "Provides comprehensive preparation for pharmacy licensure examinations (NAPLEX and MPJE) through self-directed study and structured review sessions. Integrates RxPrep materials with virtual learning sessions aligned to Advanced Pharmacy Practice Experience rotations and individual student needs. Emphasizes foundational pharmaceutical sciences, clinical calculations, patient assessment, and therapeutic decision-making skills essential for safe pharmacy practice. Develops lifelong learning habits through personalized study planning and self-assessment. Addresses federal and state pharmacy law requirements for licensure preparation. Utilizes discussions and collaborative learning approaches to reinforce complex concepts and identify knowledge gaps.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

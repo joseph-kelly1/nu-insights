@@ -14,32 +14,6 @@
       ]
     },
     {
-      "number": "2500",
-      "title": "Intermediate Programming with Data",
-      "credits": 4.0,
-      "description": "Offers intermediate to advanced Python programming for data science. Covers object-oriented design patterns using Python, including encapsulation, composition, and inheritance. Advanced programming skills cover software architecture, recursion, profiling, unit testing and debugging, lineage and data provenance, using advanced integrated development environments, and software control systems. Uses case studies to survey key concepts in data science with an emphasis on machine-learning (classification, clustering, deep learning); data visualization; and natural language processing. Additional assigned readings survey topics in ethics, model bias, and data privacy pertinent to today's big data world. Offers students an opportunity to prepare for more advanced courses in data science and to enable practical contributions to software development and data science projects in a commercial setting.",
-      "prerequisites": {
-        "course": "DS 2000"
-      },
-      "corequisites": [
-        "DS 2501"
-      ],
-      "attributes": [
-        "NUpath Analyzing/Using Data"
-      ]
-    },
-    {
-      "number": "2501",
-      "title": "Lab for DS 2500",
-      "credits": 1.0,
-      "description": "Practices the programming techniques discussed in DS 2500 through hands-on experimentation.",
-      "prerequisites": [],
-      "corequisites": [
-        "DS 2500"
-      ],
-      "attributes": []
-    },
-    {
       "number": "2991",
       "title": "Research in Data Science",
       "credits": {
@@ -53,14 +27,17 @@
     },
     {
       "number": "3000",
-      "title": "Foundations of Data Science",
+      "title": "Mathematical Foundations of Artificial Intelligence",
       "credits": 4.0,
-      "description": "Introduces methods and concepts from linear algebra and probability that form a basis for modern machine learning. Emphasizes computational aspects using the Python programming language (the course assumes familiarity with Python). Students work with tensors (in NumPy) and may be tasked with implementing from scratch algorithms central to numerical linear algebra and introductory machine learning.",
+      "description": "Introduces methods and concepts from linear algebra and probability that form a basis for modern artificial intelligence. Emphasizes mathematical foundations with written work and computational aspects using programming assignments. Students work with tensors and may be tasked with implementing from scratch algorithms central to numerical linear algebra, introductory machine learning, and artificial intelligence.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
             "course": "CS 2100"
+          },
+          {
+            "admission_requirement": "CIS 201M with a minimum grade of D-"
           },
           {
             "course": "CS 2510"
@@ -92,9 +69,17 @@
       "number": "3500",
       "title": "Advanced Programming with Data",
       "credits": 4.0,
-      "description": "Offers a deep dive into the design and implementation of enterprise-grade software systems with an emphasis on software architectures for more complex data-driven applications. Covers extensible architectures that support testing, data provenance, reuse, maintainability, scalability, and robustness and building software APIs and libraries for wide-scale adoption and ease of use. Students design, implement, and test complex loosely coupled service-oriented architectures using distributed processing, stream-based data processing, and interprocess communication via message passing. Explores the features, capabilities, and underlying design of popular data analysis and visualization frameworks.",
+      "description": "Presents a deep dive into the design and implementation of enterprise-grade software systems with an emphasis on software architectures for more complex data-driven applications. Covers extensible architectures that support testing, data provenance, reuse, maintainability, scalability, and robustness. Uses software APIs and libraries for wide-scale adoption and ease of use. Offers students an opportunity to design, implement, and test complex, data-centric pipelines using large, real-world datasets. Explores the features, capabilities, and underlying design of popular data analysis and visualization frameworks.",
       "prerequisites": {
-        "course": "DS 2500"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 2100"
+          },
+          {
+            "course": "DS 2500"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -109,6 +94,9 @@
         "courses": [
           {
             "course": "CS 2100"
+          },
+          {
+            "admission_requirement": "CIS 201M with a minimum grade of D-"
           },
           {
             "course": "CS 2510"
@@ -139,6 +127,9 @@
                 "course": "CS 3100"
               },
               {
+                "admission_requirement": "CIS 310M with a minimum grade of D-"
+              },
+              {
                 "course": "CS 3500"
               },
               {
@@ -158,34 +149,26 @@
     },
     {
       "number": "4400",
-      "title": "Machine Learning and Data Mining 1",
+      "title": "Machine Learning",
       "credits": 4.0,
-      "description": "Introduces supervised and unsupervised predictive modeling, data mining, and machine-learning concepts. Uses tools and libraries to analyze data sets, build predictive models, and evaluate the fit of the models. Covers common learning algorithms, including dimensionality reduction, classification, principal-component analysis, k-NN, k-means clustering, gradient descent, regression, logistic regression, regularization, multiclass data and algorithms, boosting, and decision trees. Studies computational aspects of probability, statistics, and linear algebra that support algorithms, including sampling theory and computational learning. Requires programming in R and Python. Applies concepts to common problem domains, including recommendation systems, fraud detection, or advertising.",
+      "description": "Introduces supervised and unsupervised predictions, modeling, and essential machine learning concepts. Uses tools and libraries to analyze datasets, build predictive models, and evaluate the fit of the models. Covers common learning algorithms such as regression; classification (including support vector machines and logistic regression); dimensionality reduction (including principal-component analysis); clustering, gradient descent, regularization techniques, multiclass data, and algorithms; boosting; and decision trees. Studies computational aspects of probability, statistics, and linear algebra that support algorithms, including sampling theory and computational learning. Applies concepts to common problem domains.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "CS 2810"
-              },
-              {
-                "course": "DS 3000"
-              }
-            ]
+            "course": "DS 3000"
           },
           {
-            "type": "OR",
+            "admission_requirement": "CIS 250M with a minimum grade of D-"
+          },
+          {
+            "type": "AND",
             "courses": [
               {
-                "course": "CS 3100"
+                "course": "MATH 2331"
               },
               {
-                "course": "CS 3500"
-              },
-              {
-                "course": "DS 3500"
+                "course": "MATH 3081"
               }
             ]
           }
@@ -200,9 +183,9 @@
     },
     {
       "number": "4420",
-      "title": "Machine Learning and Data Mining 2",
+      "title": "Advanced Machine Learning",
       "credits": 4.0,
-      "description": "Continues with supervised and unsupervised predictive modeling, data mining, and machine-learning concepts. Covers mathematical and computational aspects of learning algorithms, including kernels, time-series data, collaborative filtering, support vector machines, neural networks, Bayesian learning and Monte Carlo methods, multiple regression, and optimization. Uses mathematical proofs and empirical analysis to assess validity and performance of algorithms. Studies additional computational aspects of probability, statistics, and linear algebra that support algorithms. Requires programming in R and Python. Applies concepts to common problem domains, including spam filtering.",
+      "description": "Covers advanced supervised and unsupervised machine learning concepts. Focuses on mathematical and computational foundations of learning algorithms. Topics may include kernel methods and models appropriate for structured data, including time-series and other sequences. Covers parameter estimation techniques (including Bayesian learning); generative models; and sampling strategies like Markov Chain Monte Carlo methods. May include mathematical proofs and empirical analysis as methods to assess the validity and performance of algorithms. Applies concepts to common problem domains.",
       "prerequisites": {
         "course": "DS 4400"
       },
@@ -215,15 +198,28 @@
     },
     {
       "number": "4440",
-      "title": "Practical Neural Networks",
+      "title": "Modern Neural Networks",
       "credits": 4.0,
-      "description": "Offers a hands-on introduction to modern neural network (\"deep learning\") methods and tools. Covers fundamentals of neural networks and introduces standard and new architectures from simple feedforward networks to recurrent and “transformer” architectures. Also covers stochastic gradient descent and backpropagation, along with related parameter estimation techniques. Emphasizes using these technologies in practice, via modern toolkits. Reviews applications of these models to various types of data, including images and text.",
+      "description": "Presents a hands-on introduction to modern neural network (deep learning) methods and tools. Covers fundamentals of neural networks, including stochastic gradient descent and backpropagation. Introduces standard and new architectures from simple feedforward networks to generative recurrent and state-of-the-art transformer architectures. Emphasizes using these technologies in practice, via modern toolkits. Reviews applications of these models to various types of data, including images and text.",
       "prerequisites": {
         "course": "DS 4400"
       },
       "corequisites": [],
       "attributes": [
         "NUpath Analyzing/Using Data"
+      ]
+    },
+    {
+      "number": "4535",
+      "title": "Professional Practicum Capstone",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to expand skills in real-world machine learning, artificial intelligence, and data science applications and team collaboration within an experiential learning structure. Involves students in industry-specific projects designed to integrate into an industry partner’s intellectual property portfolio. Projects focus on machine learning and artificial intelligence and also include written components that align with the partner’s standards and reference relevant prior work. Students engage in a structured process of milestones and feedback cycles with peers; instructors; and, as appropriate, industry partners to refine project outcomes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Integration Experience",
+        "NUpath Writing Intensive"
       ]
     },
     {
@@ -262,6 +258,9 @@
             "courses": [
               {
                 "course": "CS 3100"
+              },
+              {
+                "admission_requirement": "CIS 310M with a minimum grade of D-"
               },
               {
                 "course": "CS 3500"
@@ -402,13 +401,35 @@
             ]
           },
           {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 6140"
+              },
+              {
+                "course": "DS 5220"
+              },
+              {
+                "course": "EECE 5644"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 6220"
+              },
+              {
+                "course": "DS 5230"
+              },
+              {
+                "course": "IE 7275"
+              }
+            ]
+          },
+          {
             "course": "DS 5110"
-          },
-          {
-            "course": "DS 5220"
-          },
-          {
-            "course": "DS 5230"
           }
         ]
       },

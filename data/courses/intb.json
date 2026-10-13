@@ -57,6 +57,9 @@
             "course": "INTB 1203"
           },
           {
+            "admission_requirement": "BUSM 351M with a minimum grade of D-"
+          },
+          {
             "course": "INTB 1205"
           },
           {
@@ -83,6 +86,9 @@
             "course": "INTB 1203"
           },
           {
+            "admission_requirement": "BUSM 351M with a minimum grade of D-"
+          },
+          {
             "course": "INTB 1205"
           },
           {
@@ -93,6 +99,33 @@
       "corequisites": [
         "INTB 2205"
       ],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "2207",
+      "title": "Decision Making in Developed and Emerging Markets",
+      "credits": 4.0,
+      "description": "Examines economic, institutional, and strategic foundations of international business across contrasting market contexts. Explores how firms operate in developed markets characterized by strong institutions vs. emerging markets defined by institutional volatility and rapid growth. Analyzes corporate governance, regulatory frameworks, global value chains, digital transformation, sustainability, and competition policy in developed and emerging markets. Integrates economic, cultural, financial, political, legal, technological, and social factors affecting international management decisions across diverse institutional environments. Offers students an opportunity to develop analytical frameworks for interpreting global trends while building professional writing and communication skills.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INTB 1203"
+          },
+          {
+            "admission_requirement": "BUSM 351M with a minimum grade of D-"
+          },
+          {
+            "course": "INTB 1205"
+          },
+          {
+            "course": "INTB 1209"
+          }
+        ]
+      },
+      "corequisites": [],
       "attributes": [
         "NUpath Writing Intensive"
       ]
@@ -111,7 +144,20 @@
       "title": "Understanding and Managing Cultural Differences",
       "credits": 4.0,
       "description": "Emphasizes the importance of cultural differences in international business. Describes the value of developing cultural agility in a global career, and discusses startups in diverse cultural contexts. Focuses on learning from international experiences and highlights the science behind what makes people successful in different countries and with people from different cultures. Discusses how to use this science to facilitate cultural agility development. Presents frameworks to understand cultural values; explains cultural curiosity and tolerance of ambiguity; emphasizes cultural responses such as adaptation, minimization, and integration; and studies living and working in a host country. Offers students an opportunity to develop self-management and relationship-management competencies in diverse cultural environments.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INTB 1203"
+          },
+          {
+            "course": "INTB 1205"
+          },
+          {
+            "course": "INTB 1209"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": [
         "NUpath Interpreting Culture"
@@ -127,6 +173,9 @@
         "courses": [
           {
             "course": "INTB 1203"
+          },
+          {
+            "admission_requirement": "BUSM 351M with a minimum grade of D-"
           },
           {
             "course": "INTB 1205"
@@ -158,18 +207,35 @@
       "attributes": []
     },
     {
+      "number": "3401",
+      "title": "The Business World of Biotechnology",
+      "credits": 4.0,
+      "description": "Explores the global healthcare industry from both scientific and business perspectives. Integrates concepts from health sciences, biotechnology, and business management to illustrate how healthcare systems operate across different countries; how medical technologies are developed and commercialized; and how global business dynamics affect healthcare innovation, regulation, and delivery.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "4202",
       "title": "Executing Global Strategy",
       "credits": 4.0,
       "description": "Emphasizes global strategy and the leadership requirements necessary to execute global strategy. Offers a capstone, “big picture” course that draws on and integrates all business fields and presents a global manager’s perspective. Uses the knowledge acquired in core courses—such as finance, accounting, operations, marketing, and organizational behavior—along with their international dimensions, to study how global managers reach strategic management decisions for the firm and its role in society. Offers students an opportunity to review and revise their professional development plans following their return from the expatriate experience and begin to develop post–Northeastern PDPs.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
-            "course": "INTB 2205"
+            "type": "AND",
+            "courses": [
+              {
+                "course": "INTB 2205"
+              },
+              {
+                "course": "INTB 2206"
+              }
+            ]
           },
           {
-            "course": "INTB 2206"
+            "course": "INTB 2207"
           }
         ]
       },
@@ -193,7 +259,28 @@
       "title": "Special Topics in International Business",
       "credits": 4.0,
       "description": "Examines areas of current interest and special topics in the field of international business. May be repeated once.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "INTB 2205"
+              },
+              {
+                "course": "INTB 2206"
+              }
+            ]
+          },
+          {
+            "course": "INTB 2207"
+          },
+          {
+            "course": "INTB 2501"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },
@@ -219,37 +306,10 @@
       "attributes": []
     },
     {
-      "number": "6200",
-      "title": "Managing the Global Enterprise",
-      "credits": 3.0,
-      "description": "Focuses on the international business environment, and examines the influence on global decision making of such areas as the international economy and trade issues, legal and political context differences, governmental actions, cultural and ethical system differences, exchange rates and international currency markets,  international institutions like the World Trade Organization and the International Monetary Fund, and regional agreements like the European Union, NAFTA, and Mercosur. Also analyzes why firms internationalize their operations, how they can internationalize, and key areas such as international manufacturing, marketing, human resource management, and strategy.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6212",
       "title": "Cultural Aspects of International Business",
       "credits": 3.0,
       "description": "Focuses on issues that arise when a firm operates in multiple countries with cultures that are different from its home country. Principally addresses the perspectives of U.S. firms operating overseas, but also explores other national firms operating in the United States and in third-country environments. A central issue is how corporate cultures evolve in the context of national cultures.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6224",
-      "title": "Competing to Win in Emerging Markets",
-      "credits": 3.0,
-      "description": "Offers students an opportunity to develop an understanding of emerging markets. Analyzes how U.S. firms enter emerging markets and compete with emerging market firms and how emerging market companies compete with developed market companies and with each other. Explores the future of emerging markets and the steps they need to take to ensure their future viability and success, as well as the threats they face.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6226",
-      "title": "Becoming a Global Leader",
-      "credits": 3.0,
-      "description": "Seeks to help students build the cross-cultural skills necessary to comfortably and effectively work in different cultures and with people from different cultures. Discusses the alignment between the firm’s business strategy and the leader’s responses in a multicultural environment along with the methods for leadership effectiveness in multicultural teams and virtual environments. Using online, experiential, and discussion-based methods, offers students an opportunity to gain the self-awareness needed to generate a plan for their own global leadership development.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -264,28 +324,46 @@
       "attributes": []
     },
     {
-      "number": "6238",
+      "number": "6400",
+      "title": "Managing the Global Enterprise",
+      "credits": 4.0,
+      "description": "Emphasizes the cultural, economic, strategic, and political aspects of national business environments and their impact on international business operations. Exposes students to a variety of key international business concepts ranging from strategic planning in the global arena to managing behavior and interpersonal relations. Additional topics include free trade agreements, national trade policies, foreign market analysis, and international strategic management.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6426",
+      "title": "Becoming a Global Leader",
+      "credits": 4.0,
+      "description": "Explores critical competencies for leading in diverse, global environments. Focuses on the skills needed to read and navigate cultural differences, build trust, and manage cross-border teams effectively. Offers students an opportunity to develop cultural agility, thereby enhancing abilities in negotiation, decision making, and conflict management. Examines strategies for fostering collaboration and leading in complex, multicultural settings, where understanding varied perspectives is essential. Studies how to build a foundation in global leadership that supports an individual's capacity to guide international teams and make culturally informed decisions. Cultivates an adaptable leadership style and establishing a professional brand, encouraging participants to gain skills that align with the demands of global organizations and international projects.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6438",
       "title": "Global Project",
-      "credits": 3.0,
-      "description": "Offers students an opportunity to work on faculty-led teams to address a current issue facing a global corporate partner organization. Students interact directly with organizational leaders and employees to scope the project and work as a consulting team, harnessing campus and corporate resources to solve a problem and/or make recommendations. Faculty travel with the students to an international site to continue research, interviews, etc., and report findings to local corporate representatives. Feedback on the project reports are incorporated, and the final project report takes place post-travel with the corporate/sponsoring organizations’ representatives.",
+      "credits": 4.0,
+      "description": "Offers graduate student teams an opportunity to work as consultants on projects within companies, analyze problems posed within the projects, and develop recommendations. Requires field study at international company sites, meeting with executives, researching the industry and environment, and presenting findings along with a written report to the company and its executives. Teams adopt a strategic and interdisciplinary perspective─considering challenges from the global environment, evolving technology, changing customer needs, competitive pressures, and macroeconomic development─and use quantitative and qualitative analysis to complete the project and offer solutions.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "6249",
+      "number": "6449",
       "title": "Digitization of International Business",
-      "credits": 3.0,
-      "description": "Exposes students to the opportunities and challenges that digitalization presents for the core tenets and managerial practices of international business. New digital technologies have given rise to digitally born companies that internationalize through online platforms at an exponential pace. Companies from unrelated industries that may have traditionally not competed against each other now co-create value on digital platform ecosystems. Countries are increasingly implementing policies that aim to bridge the digital divide and alleviate poverty. A darker side of digitalization has also emerged. While some countries push for a global and open internet infrastructure, others engage in digital protectionism. Artificial intelligence can further be abused for digital authoritarianism purposes. Data privacy breaches are also rising globally. Examines how companies, industries, and governments should respond.",
+      "credits": 4.0,
+      "description": "Exposes students to the opportunities and challenges that digitalization presents for the core tenets and managerial practices of international business. Examines how companies, industries, and governments should respond.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "6260",
+      "number": "6460",
       "title": "Advanced Topics in Global Management and Strategy",
-      "credits": 3.0,
-      "description": "Offers topics of current interest in the international business arena, emphasizing managing in emerging markets, analyzing global expansion, and developing analytical and quantitative modeling skills for the international business arena, often in the context of developing presentation and writing skills in a case competition format. Instructor interests will shape course format and meeting schedules. May be repeated without limit.",
+      "credits": 4.0,
+      "description": "Covers topics of current interest in the international business arena . Emphasizes reverse innovation,; investing in the pool of global talents; navigating global expansion; managing across the globe; and developing analytical modeling skills for the international business arena, often in the context of developing presentation and writing skills in a case-consulting format. May be repeated twice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

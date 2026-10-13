@@ -14,6 +14,9 @@
           },
           {
             "course": "MATH 1341"
+          },
+          {
+            "admission_requirement": "MATH 21EM with a minimum grade of D-"
           }
         ]
       },
@@ -41,7 +44,15 @@
       "credits": 4.0,
       "description": "Presents probability theory axiomatically, with emphasis on sample space presentation of continuous and discrete random variables. Covers descriptive statistics, expected value of random variables, covariance and correlation, sampling distribution, and point and interval estimations. Introduces hypothesis testing including tests for means, variances, and proportions.",
       "prerequisites": {
-        "course": "MATH 1342"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 1342"
+          },
+          {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -61,6 +72,9 @@
           },
           {
             "course": "GE 1502"
+          },
+          {
+            "admission_requirement": "ENGR 155M with a minimum grade of D-"
           }
         ]
       },
@@ -84,7 +98,7 @@
       "number": "3500",
       "title": "Introduction to Healthcare Systems Engineering",
       "credits": 4.0,
-      "description": "Introduces systems engineering methods in healthcare system applications for students who are not industrial engineering majors. Using principles drawn from operations research and industrial engineering, this course focuses on analysis, design, management, and control of health systems (e.g., hospitals, emergency departments, surgery departments, and outpatient clinics) and processes which are critical to the delivery of quality healthcare. Topics include an overview of queueing, simulation, data envelopment analysis, and spreadsheet modeling as applied to real-world healthcare problems such as staffing and scheduling, resource allocation, patient flow management, process improvement, and medical decision making.",
+      "description": "Introduces systems engineering methods in healthcare system applications for students who are not industrial engineering majors. Uses principles drawn from operations research and industrial engineering to focus on analysis, design, management, and control of health systems (e.g., hospitals, emergency departments, surgery departments, and outpatient clinics) and processes that are critical to the delivery of quality healthcare. Includes an overview of queueing, simulation, data envelopment analysis, and spreadsheet modeling as applied to real-world healthcare problems such as staffing and scheduling, resource allocation, patient flow management, process improvement, and medical decision making.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -95,10 +109,10 @@
             "course": "MATH 3081"
           },
           {
-            "course": "PHTH 2210"
+            "course": "MGSC 2301"
           },
           {
-            "course": "MGSC 2301"
+            "course": "PHTH 2210"
           }
         ]
       },
@@ -121,6 +135,9 @@
               },
               {
                 "course": "GE 1502"
+              },
+              {
+                "admission_requirement": "ENGR 155M with a minimum grade of D-"
               }
             ]
           },
@@ -155,7 +172,15 @@
       "credits": 4.0,
       "description": "Introduces deterministic models including linear programming; duality and postoptimality analysis; transportation and assignment problems; and network flow problems such as the shortest path, minimum spanning tree, and maximum flow.",
       "prerequisites": {
-        "course": "MATH 2341"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -230,6 +255,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1102"
               }
             ]
@@ -302,66 +330,6 @@
       "attributes": []
     },
     {
-      "number": "4535",
-      "title": "Human-Machine Systems in a Global Context",
-      "credits": 5.0,
-      "description": "Introduces human-machine systems in an international setting. Offers students an opportunity to travel to a foreign country to develop theoretical understanding while experiencing the issues and human factor considerations in a global environment. Topics include human performance, information processing, learning, memory; vision, visual performance, interface display design; audition, noise, hearing, and auditory signals; human anthropometric characteristics; and cognition, usability testing, and principles of human-machine interface design. Laboratory experiences include design of experiments, data collection, analysis, and laboratory reports generation. Includes a project that focuses on applications that allow students to delve into issues that affect engineering and technology development in their host country.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "IE 3412"
-              },
-              {
-                "course": "MATH 3081"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ENGL 1111"
-              },
-              {
-                "course": "ENGL 1102"
-              },
-              {
-                "course": "ENGW 1111"
-              },
-              {
-                "course": "ENGW 1102"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4625",
-      "title": "Facilities Planning and Material Handling",
-      "credits": 4.0,
-      "description": "Explores engineering tools, techniques, and concepts for the design of facilities. The term facility is defined broadly. Industrial plants, schools, hospitals, or places in which things are produced or services are provided to a customer are all considered facilities. Provide students with a broad but practical understanding of the facilities planning and design process. The critical nature of material handling is discussed and approaches to designing optimal handling systems are examined. The tools of operations, research, statistical methods, and software applications are the focus of the problem-solving activities.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "IE 3412"
-          },
-          {
-            "course": "MATH 3081"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "4699",
       "title": "Special Topics in Industrial Engineering",
       "credits": 4.0,
@@ -394,6 +362,9 @@
           },
           {
             "course": "GE 1502"
+          },
+          {
+            "admission_requirement": "ENGR 155M with a minimum grade of D-"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -567,9 +538,7 @@
       "credits": 4.0,
       "description": "Covers the fundamentals of lean thinking and how to apply this knowledge to practical problems. Lean thinking is imperative for organizations aspiring to stay competitive in global markets. It calls for process changes to eliminate waste, shorten product delivery time, improve product quality, and curtail costs, while improving customer satisfaction. Offers students an opportunity to learn concepts, a kit of process improvement tools, implementation methods, and best practices for lean workforce development. Makes extensive use of active learning exercises and simulations, and case studies from different disciplines, to help students learn how lean principles are applied in manufacturing and also in less traditional areas such as knowledge work and healthcare systems.",
       "prerequisites": [],
-      "corequisites": [
-        "IE 5618"
-      ],
+      "corequisites": [],
       "attributes": []
     },
     {
@@ -673,7 +642,15 @@
       "credits": 4.0,
       "description": "Covers various topics in data engineering in support of decision support systems, data analytics, data mining, machine learning, and artificial intelligence. Studies on-premises data warehouse architecture, dimensional modeling of data warehouses, extract-transform-load integration from source systems to data warehouse, online analytical processing systems, and the evolving world of data quality and data governance. Offers students an opportunity to design, develop, and maintain cloud-based data pipelines. Uses both on-premises and cloud-based platforms to illustrate and implement data engineering techniques using operational and analytical data warehouses.",
       "prerequisites": {
-        "course": "IE 6700"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "DADS 6400"
+          },
+          {
+            "course": "IE 6700"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -736,7 +713,7 @@
     },
     {
       "number": "7275",
-      "title": "Data Mining in Engineering",
+      "title": "Machine Learning and Data Analytics",
       "credits": 4.0,
       "description": "Covers the theory and applications of data mining in engineering. Reviews fundamentals and key concepts of data mining, discusses important data mining techniques, and presents algorithms for implementing these techniques. Specifically covers data mining techniques for data preprocessing, association rule extraction, classification, prediction, clustering, and complex data exploration. Discusses data mining applications in several areas, including manufacturing, healthcare, medicine, business, and other service sectors.",
       "prerequisites": {
@@ -877,6 +854,9 @@
         "type": "OR",
         "courses": [
           {
+            "course": "DADS 6400"
+          },
+          {
             "course": "IE 5200"
           },
           {
@@ -946,15 +926,6 @@
       "attributes": []
     },
     {
-      "number": "7440",
-      "title": "Industrial Engineering Leadership Challenge Project 1",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype with an industrial-engineering focus. Constitutes the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact while enhancing the student’s technological and engineering depth and fostering the student’s leadership development.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7442",
       "title": "Industrial Engineering Leadership Challenge Project 2",
       "credits": 4.0,
@@ -973,6 +944,9 @@
       "prerequisites": {
         "type": "OR",
         "courses": [
+          {
+            "course": "DADS 6400"
+          },
           {
             "course": "IE 5374"
           },
@@ -995,9 +969,9 @@
     },
     {
       "number": "7615",
-      "title": "Neural Networks and Deep Learning",
+      "title": "Deep Learning for AI",
       "credits": 4.0,
-      "description": "Covers the theory and applications of neural networks in engineering. Reviews basics of machine learning, discusses important neural network architectures, and presents neural network training methods and algorithms. The specific neural network models covered in this course include feedforward neural networks such as deep learning architectures, radial basis function networks, support vector machines, self-organizing feature maps, and recurrent networks. Discusses neural network applications in several areas including manufacturing, healthcare, medicine, business, and diagnostics and prognostics.",
+      "description": "Presents an in-depth exploration of modern deep learning architectures and methodologies that drive today’s AI systems. Examines both foundational and advanced models, with attention to theoretical understanding and practical implementation through programming assignments and projects. Topics include convolutional and recurrent networks, generative models, transformers, diffusion models, multimodal learning, and emerging approaches such as world models. Emphasizes mathematical rigor and real-world applications across computer vision, natural language processing, and generative AI.",
       "prerequisites": {
         "type": "AND",
         "courses": [

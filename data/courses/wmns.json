@@ -108,28 +108,6 @@
       ]
     },
     {
-      "number": "2302",
-      "title": "Gender and Sexuality: A Cross-Cultural Perspective",
-      "credits": 4.0,
-      "description": "Explores concepts of “sex” and “gender” in a cross-cultural framework as they pertain to social status, work, the body, intersexuality, third or alternative genders, and intersectionality. Problematizes normative assumptions about femininity and masculinity; the relations between men and women; and the meanings and implications of being a woman, man, or other-gendered person. Examines how social constructions of gender contribute and interact with other systems of categorization and structures of inequality such as race, class, and ethnicity.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ANTH 1101"
-          },
-          {
-            "course": "SOCL 1101"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Difference/Diversity",
-        "NUpath Societies/Institutions"
-      ]
-    },
-    {
       "number": "2303",
       "title": "Gender and Reproductive Justice",
       "credits": 4.0,
@@ -166,6 +144,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M (may be taken concurrently) with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -214,6 +195,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -248,6 +232,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -267,7 +254,15 @@
       "credits": 4.0,
       "description": "Introduces a variety of issues facing women across the globe. Focuses on the gender dynamics of key issues in international affairs. These could include economic policy, conflict and war, human rights/women’s rights, political power, and collective action. Draws on examples from various world regions since the twentieth century to analyze similarities and differences across cases around the globe. INTL 2480 and WMNS 2480 are cross-listed.",
       "prerequisites": {
-        "course": "INTL 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -358,17 +353,6 @@
       ]
     },
     {
-      "number": "3200",
-      "title": "Queer Theatre and Performance",
-      "credits": 4.0,
-      "description": "Explores significant dramatic texts that have shaped and expressed the changing nature of LGBTQ identity. Readings, viewings, lectures, and discussion focus on noteworthy queer plays as literature, history, cultural documents, and performance as seen through the lens of contemporary queer theories and knowledge. Analyzing these texts for their relevance to society and our lives, students evaluate and explore a range of topics including sexual identity, gender identity, religious and political views on queerness, the evolution of LGBTQ culture and communities, drag performance, homophobia, assimilation, appropriation, and coming out. Students who do not meet course restrictions may seek permission of instructor. THTR 3200 and WMNS 3200 are cross-listed.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Difference/Diversity"
-      ]
-    },
-    {
       "number": "3305",
       "title": "Beyond the Binary: Race, Sex, and Science",
       "credits": 4.0,
@@ -407,7 +391,7 @@
       "number": "3580",
       "title": "Sexual Violence: Counseling, Programs, and Policy",
       "credits": 4.0,
-      "description": "Offers an in-depth examination of sexual violence, its effects, and the resources available to assist survivors. Presents an overview of the criminal justice, medical, legal, and counseling systems and the impact these interweaving systems have on survivors. Offers students an opportunity to develop crisis counseling competency through group exercises and experiential activities. HUSV 3580 and WMNS 3580 are cross-listed.",
+      "description": "Offers an in-depth examination of sexual violence, its effects, and the resources available to assist survivors. Presents an overview of the criminal justice, medical, legal, and counseling systems and the impact these interweaving systems have on survivors. Offers students an opportunity to develop crisis counseling competency through group exercises and experiential activities.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -433,6 +417,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -442,6 +429,7 @@
       },
       "corequisites": [],
       "attributes": [
+        "NUpath Difference/Diversity",
         "NUpath Interpreting Culture"
       ]
     },
@@ -455,73 +443,6 @@
       "attributes": [
         "NUpath Difference/Diversity",
         "NUpath Interpreting Culture"
-      ]
-    },
-    {
-      "number": "4520",
-      "title": "Race, Class, and Gender",
-      "credits": 4.0,
-      "description": "Considers the intersection of race, class, and gender in social structure, institutions, and people’s lives. Utilizes an interdisciplinary approach to focus on the socially constructed nature of these concepts and how they shape and create meaning in individual lives. Difference with an emphasis on inequality and varying life chances is central for understanding our society and is central to our work. Requires a significant amount of reading. Class format is like a seminar; students are expected to participate, take responsibility, and write a paper. SOCL 4520 and WMNS 4520 are cross-listed.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "SOCL 1101"
-              },
-              {
-                "course": "ANTH 1101"
-              },
-              {
-                "course": "CRIM 1100"
-              },
-              {
-                "course": "HUSV 1101"
-              },
-              {
-                "course": "INTL 1101"
-              },
-              {
-                "course": "POLS 1140"
-              },
-              {
-                "course": "POLS 1160"
-              },
-              {
-                "course": "WMNS 1103"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ENGW 1111"
-              },
-              {
-                "course": "ENGW 1102"
-              },
-              {
-                "course": "ENGL 1111"
-              },
-              {
-                "course": "ENGL 1102"
-              },
-              {
-                "course": "ENGW 1113"
-              },
-              {
-                "course": "ENGW 1114"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Writing Intensive"
       ]
     },
     {

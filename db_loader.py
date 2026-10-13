@@ -29,6 +29,7 @@ Tables created:
 
 import json
 import os
+from pathlib import Path
 import sqlite3
 
 # --- Configuration: adjust these paths to match your repo ---
@@ -45,6 +46,7 @@ def create_tables(cur: sqlite3.Cursor):
         DROP TABLE IF EXISTS departments;
         DROP TABLE IF EXISTS course_corequisites;
         DROP TABLE IF EXISTS course_attributes;
+        DROP TABLE IF EXISTS plan_entries;
 
         CREATE TABLE departments (
             code        TEXT PRIMARY KEY,
@@ -189,20 +191,33 @@ def load_plans(cur: sqlite3.Cursor):
 
     plans_dir = os.path.join(os.path.dirname(DEPARTMENTS_FILE), "plans")
 
-    if not os.path.exists(plans_dir):
-        print("  No plans/ directory found, skipping.")
-        return
+    catalog_file = Path(DEPARTMENTS_FILE).parent / "plan_catalog.json"
+    catalog_year = None
+    if catalog_file.exists():
+        with catalog_file.open() as f:
+            catalog = json.load(f)
+        if not catalog.get("complete") or catalog.get("errors"):
+            raise ValueError("Plan catalog refresh is incomplete")
+        catalog_year = catalog["catalog_year"]
+        files = [catalog_file.parent / program["file"]
+                 for program in catalog["programs"] if program["status"] == "available"]
+        expected_dir = (Path(plans_dir) / catalog_year).resolve()
+        if any(path.resolve().parent != expected_dir for path in files):
+            raise ValueError("Plan file is outside the selected catalog directory")
+        print(f"  Using {catalog_year} plan catalog; {catalog['programs_without_plans']} programs have no published plan")
+    else:
+        if not os.path.exists(plans_dir):
+            print("  No plans/ directory found, skipping.")
+            return
+        files = sorted(Path(plans_dir).glob("*.json"))
 
     total = 0
 
-    for filename in sorted(os.listdir(plans_dir)):
-        if not filename.endswith(".json"):
-            continue
-
-        filepath = os.path.join(plans_dir, filename)
-
+    for filepath in files:
         with open(filepath, "r") as f:
             data = json.load(f)
+        if catalog_year and data.get("catalog_year") != catalog_year:
+            raise ValueError(f"Plan catalog year mismatch in {filepath}")
 
         major = data["major"]
         major_name = data["major_name"]
@@ -223,7 +238,6 @@ def load_plans(cur: sqlite3.Cursor):
                         (major, major_name, plan_name, year, term, 1),
                     )
                     total += 1
-                    continue
 
                 for course in semester.get("courses", []):
                     cur.execute(
@@ -243,7 +257,7 @@ def load_plans(cur: sqlite3.Cursor):
                     )
                     total += 1
 
-        print(f"  {filename}: {major_name} ({len(data['plans'])} plan(s))")
+        print(f"  {filepath.name}: {major_name} ({len(data['plans'])} plan(s))")
 
     print(f"  Total: {total} plan entries loaded")
 

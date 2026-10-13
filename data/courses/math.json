@@ -2,15 +2,6 @@
   "department": "MATH",
   "courses": [
     {
-      "number": "1000",
-      "title": "Mathematics at Northeastern",
-      "credits": 1.0,
-      "description": "Designed for freshman math majors to introduce them to one another, their major, their college, and the University. Students are introduced to our advising system, register for next semester’s courses, and learn more about co-op. Also helps students develop the academic and interpersonal skills necessary to succeed as a university student.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1120",
       "title": "Precalculus",
       "credits": 4.0,
@@ -42,15 +33,6 @@
         "NUpath Analyzing/Using Data",
         "NUpath Formal/Quant Reasoning"
       ]
-    },
-    {
-      "number": "1216",
-      "title": "Recitation for MATH 1215",
-      "credits": 0.0,
-      "description": "Provides small-group discussion format to cover material in MATH 1215.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
     },
     {
       "number": "1220",
@@ -98,10 +80,16 @@
             "course": "MATH 1231"
           },
           {
+            "admission_requirement": "MATH 21BM with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1241"
           },
           {
             "course": "MATH 1341"
+          },
+          {
+            "admission_requirement": "MATH 21EM with a minimum grade of D-"
           }
         ]
       },
@@ -116,30 +104,6 @@
       "credits": 4.0,
       "description": "Covers differential and integral calculus of one variable and an introduction to differential equations. Includes applications that show how calculus is used to solve problems in science. Also includes a group project related to a real-world problem in students' areas of study. The project involves a differential equation and compares the solution with experiment. Previous examples of projects include modeling of coral reefs, analysis of an epidemic using the data of the World Health Organization, analysis of a two-component kinetic model of drug concentration, and gate analysis of hip to knee experiment and comparison with the solution of the pendulum equation. Prior exposure to high-school-level calculus is recommended.",
       "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Formal/Quant Reasoning"
-      ]
-    },
-    {
-      "number": "1251",
-      "title": "Calculus and Differential Equations for Biology 1",
-      "credits": 4.0,
-      "description": "Begins with the fundamentals of differential calculus and proceeds to the specific type of differential equation problems encountered in biological research. Presents methods for the solutions of these equations and how the exact solutions are obtained from actual laboratory data. Topics include differential calculus: basics, the derivative, the rules of differentiation, curve plotting, exponentials and logarithms, and trigonometric functions; using technology to understand derivatives; biological kinetics: zero- and first-order processes, processes tending toward equilibrium, bi- and tri-exponential processes, and biological half-life; differential equations: particular and general solutions to homogeneous and nonhomogeneous linear equations with constant coefficients, systems of two linear differential equations; compartmental problems: nonzero initial concentration, two-compartment series dilution, diffusion between compartments, population dynamics; and introduction to integration.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Formal/Quant Reasoning"
-      ]
-    },
-    {
-      "number": "1252",
-      "title": "Calculus and Differential Equations for Biology 2",
-      "credits": 4.0,
-      "description": "Continues MATH 1251. Begins with the integral calculus and proceeds quickly to more advanced topics in differential equations. Introduces linear algebra and uses matrix methods to analyze functions of several variables and to solve larger systems of differential equations. Advanced topics in reaction kinetics are covered. The integral and differential calculus of functions of several variables is followed by the study of numerical methods in integration and solutions of differential equations. Provides a short introduction to probability. Covers Taylor polynomials and infinite series. Special topics include reaction kinetics: Michaelis-Menten processes, tracer experiments, and inflow and outflow through membranes.",
-      "prerequisites": {
-        "course": "MATH 1251"
-      },
       "corequisites": [],
       "attributes": [
         "NUpath Formal/Quant Reasoning"
@@ -262,6 +226,9 @@
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1242"
           },
           {
@@ -269,6 +236,9 @@
           },
           {
             "course": "CS 1800"
+          },
+          {
+            "admission_requirement": "MATH 209M with a minimum grade of D-"
           }
         ]
       },
@@ -326,6 +296,9 @@
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1252"
           },
           {
@@ -363,6 +336,9 @@
           },
           {
             "course": "MATH 1342"
+          },
+          {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
           }
         ]
       },
@@ -390,6 +366,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1102"
               }
             ]
@@ -399,6 +378,9 @@
             "courses": [
               {
                 "course": "MATH 1365"
+              },
+              {
+                "admission_requirement": "MATH 298M with a minimum grade of D-"
               },
               {
                 "type": "AND",
@@ -429,7 +411,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "MATH 2331"
@@ -459,7 +449,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 1365"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1365"
+              },
+              {
+                "admission_requirement": "MATH 298M with a minimum grade of B"
+              }
+            ]
           },
           {
             "course": "MATH 2331"
@@ -478,7 +476,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "MATH 2331"
@@ -494,7 +500,15 @@
       "credits": 4.0,
       "description": "Studies dynamical systems and their applications as they arise from differential equations. Solutions are obtained and analyzed as parameterized curves in the plane and used as a means of understanding the evolution of physical processes. Applications include conservative systems, predator-prey interactions, and cooperation and competition of species.",
       "prerequisites": {
-        "course": "MATH 2341"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -511,29 +525,13 @@
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1242"
           },
           {
             "course": "MATH 1252"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "3530",
-      "title": "Numerical Analysis",
-      "credits": 4.0,
-      "description": "Considers various problems including roots of nonlinear equations; simultaneous linear equations: direct and iterative methods of solution; eigenvalue problems; interpolation; and curve fitting. Emphasizes understanding issues rather than proving theorems or coming up with numerical recipes.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "MATH 2331"
-          },
-          {
-            "course": "MATH 2341"
           }
         ]
       },
@@ -552,6 +550,9 @@
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1242"
           },
           {
@@ -568,7 +569,15 @@
       "credits": 4.0,
       "description": "Covers numerical methods to solve ordinary differential equations that are otherwise not solvable using exact methods and that are useful in a variety of applications drawn from classical areas of science and engineering. Studies examples classified as initial and boundary value problems from fluid mechanics and heat transfer. The topics are of fundamental importance in many branches of applied mathematics, physical sciences, and engineering. Possible topics also include the finite element method, which is very useful in structural analysis involving complex geometry.",
       "prerequisites": {
-        "course": "MATH 2341"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of C-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -579,7 +588,15 @@
       "credits": 4.0,
       "description": "Introduces one-dimensional discrete real and complex dynamics, chaotic dynamics, and fractals, with an emphasis on computational and graphical exploration. Studies orbits and periodic iteration behavior of real and complex-valued function, attracting cycles, itineraries, symbolic dynamics, chaos, classical fractal constructions, Minkowski dimension, Julia sets, and the Mandelbrot set.",
       "prerequisites": {
-        "course": "MATH 1342"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 1342"
+          },
+          {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -596,6 +613,9 @@
             "course": "MATH 1365"
           },
           {
+            "admission_requirement": "MATH 298M with a minimum grade of C-"
+          },
+          {
             "course": "MATH 2310"
           },
           {
@@ -603,6 +623,9 @@
           },
           {
             "course": "CS 1800"
+          },
+          {
+            "admission_requirement": "MATH 209M with a minimum grade of C-"
           },
           {
             "course": "CS 3800"
@@ -625,6 +648,9 @@
           },
           {
             "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
           }
         ]
       },
@@ -707,6 +733,9 @@
           },
           {
             "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
           }
         ]
       },
@@ -719,7 +748,15 @@
       "credits": 4.0,
       "description": "Provides an introduction to the analysis of functions of a complex variable. Starting with the algebra and geometry of complex numbers, basic derivative and contour integral properties are developed for elementary algebraic and transcendental functions as well as for other analytic functions and functions with isolated singularities. Power and Laurent series representations are given. Classical integral theorems, residue theory, and conformal mapping properties are studied. Applications of harmonic functions are presented as time permits.",
       "prerequisites": {
-        "course": "MATH 2321"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2321"
+          },
+          {
+            "admission_requirement": "MATH 316M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -805,7 +842,15 @@
                 "course": "MATH 2331"
               },
               {
-                "course": "MATH 1365"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 1365"
+                  },
+                  {
+                    "admission_requirement": "MATH 298M with a minimum grade of C+"
+                  }
+                ]
               }
             ]
           },
@@ -851,13 +896,24 @@
             "course": "PHYS 2303"
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               },
               {
                 "course": "MATH 2351"
@@ -1102,12 +1158,44 @@
       "title": "Introduction to Mathematical Methods and Modeling",
       "credits": 4.0,
       "description": "Presents mathematical methods emphasizing applications. Uses ordinary and partial differential equations to model the evolution of real-world processes. Topics chosen illustrate the power and versatility of mathematical methods in a variety of applied fields and include population dynamics, drug assimilation, epidemics, spread of pollutants in environmental systems, competing and cooperating species, and heat conduction. Requires students to complete a math-modeling project. Requires undergraduate-level course work in ordinary and partial differential equations.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": [
         "NUpath Capstone Experience",
         "NUpath Writing Intensive"
       ]
+    },
+    {
+      "number": "5323",
+      "title": "Algebraic Curves",
+      "credits": 4.0,
+      "description": "Introduces basic notions in algebraic geometry, as applied to the study of algebraic curves. Topics include affine varieties and coordinate rings, projective space, projective varieties and homogeneous coordinates, regular and rational maps, dimension, singularities, and smoothness. Illustrates these ideas with examples of algebraic varieties including conics and plane cubics, quadric surfaces and their lines, and the Segre and Veronese embeddings. Concludes with a detailed discussion of algebraic curves including differentials, genus, linear systems and divisors, maps to projective space, and the Riemann-Roch theorem.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 4576"
+          },
+          {
+            "course": "MATH 4577"
+          },
+          {
+            "course": "MATH 5111"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "5352",
@@ -1162,7 +1250,7 @@
       "number": "6954",
       "title": "Co-op Work Experience - Half-Time",
       "credits": 0.0,
-      "description": "Provides eligible students with an opportunity for work experience. May be repeatedwithout limit.",
+      "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1202,6 +1290,15 @@
       "title": "Co-op Work Experience Abroad",
       "credits": 0.0,
       "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7001",
+      "title": "Mathematics Instruction Techniques",
+      "credits": 0.0,
+      "description": "Offers students teaching in the mathematics department practical training in mathematics instruction techniques. Discusses teaching effectiveness, lecturing mechanics, grading and rubric creation, inclusive teaching practices, and active learning, combined with supervised critiques and classroom visits.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1337,7 +1434,7 @@
       "number": "7301",
       "title": "Functional Analysis",
       "credits": 4.0,
-      "description": "Provides an introduction to essential results of functional analysis and some of its applications. The main abstract facts can be understood independently. Proof of some important basic theorems about Hilbert and Banach spaces (Hahn-Banach theorem, open mapping theorem) are omitted, in order to allow more time for applications of the abstract techniques, such as compact operators; Peter-Weyl theorem for compact groups; spectral theory; Gelfand’s theory of commutative C*-algebras; mean ergodic theorem; Fourier transforms and Sobolev embedding theorems; and distributions and elliptic operators.",
+      "description": "Introduces essential results of functional analysis and some of its applications. The main abstract facts can be understood independently. Omits proof of some important basic theorems about Hilbert and Banach spaces (Hahn-Banach theorem, open mapping theorem) to allow more time for applications of the abstract techniques such as compact operators, Peter-Weyl theorem for compact groups, spectral theory, Gelfand’s theory of commutative C*-algebras, mean ergodic theorem, Fourier transforms and Sobolev embedding theorems, and distributions and elliptic operators.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -1348,17 +1445,6 @@
             "course": "MATH 5102"
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7311",
-      "title": "Commutative Algebra",
-      "credits": 4.0,
-      "description": "Introduces some of the main tools of commutative algebra, particularly those tools related to algebraic geometry. Topics include prime ideals, localization, and integral extensions; primary decomposition; Krull dimension; chain conditions, and Noetherian and Artinian modules; and additional topics from ring and module theory as time permits.",
-      "prerequisites": {
-        "course": "MATH 5111"
       },
       "corequisites": [],
       "attributes": []
@@ -1391,7 +1477,15 @@
       "credits": 4.0,
       "description": "Covers rings of integers, Dedekind domains, factorization of ideals, ramification, and the decomposition and inertia subgroups; units in rings of integers, Minkowski’s geometry of numbers, and Dirichlet’s unit theorem; and class groups, zeta functions, and density sets of primes.",
       "prerequisites": {
-        "course": "MATH 5111"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 5111"
+          },
+          {
+            "course": "MATH 5112"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -1411,6 +1505,17 @@
             "course": "MATH 5112"
           }
         ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7319",
+      "title": "Algebraic Geometry 2",
+      "credits": 4.0,
+      "description": "Continues MATH 7314. Examines affine and projective schemes, their categories of quasi-coherent sheaves, and various classes of morphisms between schemes. Integrates general theory with examples from complex algebraic and arithmetic geometry. Covers reduced and integral schemes, normal and factorial schemes, coherent sheaves, morphisms of schemes and their images, finite morphisms, Cartier divisors, regular sequences, open and (locally) closed embeddings, fiber products of schemes, and base change.",
+      "prerequisites": {
+        "course": "MATH 7314"
       },
       "corequisites": [],
       "attributes": []
@@ -1485,6 +1590,9 @@
             "course": "EECE 5644"
           },
           {
+            "course": "MATH 6243"
+          },
+          {
             "course": "MATH 7243"
           }
         ]
@@ -1510,10 +1618,13 @@
         "type": "OR",
         "courses": [
           {
-            "course": "MATH 7241"
+            "course": "IE 6200"
           },
           {
-            "course": "IE 6200"
+            "course": "MATH 6241"
+          },
+          {
+            "course": "MATH 7241"
           }
         ]
       },
@@ -1611,6 +1722,25 @@
       "attributes": []
     },
     {
+      "number": "7360",
+      "title": "Number Theory in Function Fields",
+      "credits": 4.0,
+      "description": "Studies the robust analogies between number theory of the integers and of function fields in one variable over a finite field. Elementary topics include unique factorization, the prime number theorem, Dirichlet's theorem on primes in arithmetic progression, and the power reciprocity law. Additional topics include algebraic function fields, valuations, divisors, differentials, the Riemann-Roch theorem and its applications, zeta functions, Galois theory of function fields, the Weil conjectures, and the Riemann hypothesis for curves.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 5111"
+          },
+          {
+            "course": "MATH 5112"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7362",
       "title": "Topics in Algebra",
       "credits": 4.0,
@@ -1663,17 +1793,6 @@
             "course": "MATH 7301"
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7372",
-      "title": "Characteristic Classes",
-      "credits": 4.0,
-      "description": "Introduces fiber bundles and characteristic classes. Topics include construction of universal bundles, homotopy classification of principal bundles, bundles over spheres, cohomology of classifying spaces, Stiefel-Whitney classes, Gysin and Wang sequences, Thom isomorphism, Euler class, obstructions, Chern classes, Pontrjagin classes, vector fields on spheres, cobordism theory, Hirzebruch index formula, and exotic spheres.",
-      "prerequisites": {
-        "course": "MATH 7221"
       },
       "corequisites": [],
       "attributes": []
@@ -1778,6 +1897,31 @@
       "credits": 4.0,
       "description": "Offers topics in geometry that are beyond the ordinary undergraduate topics. Topics include the regular polytopes in dimensions greater than three, straight-edge and compass constructions in hyperbolic geometry, Penrose tilings, the geometry and algebra of the wallpaper, and three-dimensional Euclidean groups. May be repeated without limit.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7980",
+      "title": "Capstone: Applications of Statistics and Modeling",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students an opportunity to complete a project to attack real-world problems. Students may propose their own projects or select a project from industry sponsors. Starting from processing and analyzing actual raw data to applying machine learning, statistical learning, mathematical modeling, and computational methods, students produce an end-to-end solution to a complex real-world problem. Emphasizes practicing data processing, mathematical modeling, and applying statistical methods, as well as improving writing, oral presentation, problem-solving, collaboration, and communication skills. Project content determined in consultation with instructor.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 7243"
+          },
+          {
+            "course": "MATH 7343"
+          },
+          {
+            "course": "MATH 7339"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },

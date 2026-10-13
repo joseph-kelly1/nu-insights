@@ -2,6 +2,41 @@
   "department": "ARTS",
   "courses": [
     {
+      "number": "2000",
+      "title": "Topics in Studio Art",
+      "credits": 4.0,
+      "description": "Presents studio arts topics in an introductory undergraduate studio course supporting work in all studio arts disciplines. Covers current discourse in the field and draws upon instructor expertise. Informed by critical readings, instructor and guest lectures, examination of other artists' works, and class discussions, offers students an opportunity to develop original creative projects in response to the topic. Emphasizes developing skills and strategies for studio arts production including research, experimentation, planning, iteration, revision, and critique of conceptually driven creative work. Explores the media in-depth─focusing on the connection between form and content─through hands-on in-class work, demonstrations, homework, and long-term projects.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ARTF 1210"
+          },
+          {
+            "course": "ARTF 1220"
+          },
+          {
+            "admission_requirement": "ARTM 116M with a minimum grade of D-"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "ARTF 1230"
+              },
+              {
+                "course": "ARTF 1231"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
       "number": "2340",
       "title": "Painting Basics",
       "credits": 4.0,
@@ -48,6 +83,9 @@
           },
           {
             "course": "ARTF 1220"
+          },
+          {
+            "admission_requirement": "ARTM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -62,6 +100,48 @@
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "4540",
+      "title": "Art Degree Project 1",
+      "credits": 4.0,
+      "description": "Draws on a range of theoretical and critical texts that address current issues and methodologies in art. Offers students an opportunity to complete writing assignments and to visit local artist studios, galleries, and museums. Designed to lead students through writing assignments and discussions to identification of a focus for a project in a subsequent course.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENGL 1111"
+          },
+          {
+            "course": "ENGL 1102"
+          },
+          {
+            "course": "ENGW 1111"
+          },
+          {
+            "course": "ENGW 1102"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "4541",
+      "title": "Art Degree Project 2",
+      "credits": 4.0,
+      "description": "Introduces nontraditional art concepts in an intensive studio course. Includes categories of performance art, installation art, electronic art, multimedia, and kinetic art. Using their own frames of reference and experience, students contribute to a collaborative project and are responsible for keeping a journal that helps them formulate their ideas. Students reflect upon their art-related experiences in a written essay that accompanies their final product.",
+      "prerequisites": {
+        "course": "ARTS 4540"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov"
+      ]
     },
     {
       "number": "4992",

@@ -10,15 +10,14 @@
       "corequisites": [],
       "attributes": [
         "NUpath Difference/Diversity",
-        "NUpath Societies/Institutions",
-        "NUpath Writing Intensive"
+        "NUpath Societies/Institutions"
       ]
     },
     {
-      "number": "1100",
-      "title": "Problem Solving for a Sustainable Future",
+      "number": "1200",
+      "title": "Introduction to Global Urban Studies",
       "credits": 4.0,
-      "description": "Presents a skills-based, interdisciplinary introduction to sustainable problem solving. Explores foundational problem-solving competencies and applies them to real-world case studies that investigate the interconnectedness of social, economic, and environmental systems. Studies how to analyze complex problems and propose actionable solutions that promote resilience, well-being, justice, and balance across communities, institutions, and ecosystems.",
+      "description": "Introduces the social, cultural, economic, and political forces that shape urban environments. Explores how deindustrialization, privatization, urban planning, and globalization have influenced the economic, social, cultural, and political development of cities in the United States and globally. Analyzes urbanization in light of critical issues such as race, urban decline, globalization, and immigration. Addresses contemporary debates on gentrification, sustainability, environmental policy, and the role of data in shaping \"smart cities.”.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -64,14 +63,11 @@
       "title": "Theories of Race and Ethnicity",
       "credits": 4.0,
       "description": "Exposes students to the cutting edge of critical thinking around issues of race and ethnicity. Examines how to unpack “commonsense” ideas about race and inequality. Uses theory as a tool to offer students an opportunity to develop critical thinking, a new vocabulary, and a framework for understanding the history and contemporary impact of race within the United States and in a global context. Analyzes how race has been theorized by a range of thinkers, and explores new knowledge about the interactions between race, ethnicity, immigration, gender, class, and sexuality. As a final project, students articulate their own intellectual and activist calling and consider how theory can inform their academic, political, and personal futures.",
-      "prerequisites": {
-        "course": "INMI 1051"
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": [
         "NUpath Difference/Diversity",
-        "NUpath Societies/Institutions",
-        "NUpath Writing Intensive"
+        "NUpath Societies/Institutions"
       ]
     },
     {
@@ -150,7 +146,15 @@
       "credits": 4.0,
       "description": "Introduces students to the range of research methods used by sociologists. Covers experimental research, field research, survey research, and historical-comparative research. Discusses sampling, the rules of evidence in empirical research, research ethics, and the place of values.",
       "prerequisites": {
-        "course": "SOCL 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -167,28 +171,6 @@
       "attributes": [
         "NUpath Difference/Diversity",
         "NUpath Societies/Institutions"
-      ]
-    },
-    {
-      "number": "2510",
-      "title": "China, Globalization, and the Environment",
-      "credits": 4.0,
-      "description": "Explores the global impacts of China's reemergence as an economic, technological, and political leader. Takes a political ecology approach to examine chains of production and consumption connecting China with the rest of the global economic system. Discusses how global trade affects people and the environment where products are made, how U.S. and global trade policies shape international development, and how consumer choices can have wide-ranging environmental consequences.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Societies/Institutions"
-      ]
-    },
-    {
-      "number": "2550",
-      "title": "Sustainability in the Beauty Industry",
-      "credits": 4.0,
-      "description": "Offers an interdisciplinary introduction to sustainability within the beauty industry. Examines challenges and opportunities in creating and marketing products that are environmentally responsible, ethical, and socially conscious. Explores scientific principles underlying sustainable formulation, the environmental impact of ingredients and packaging, and the social implications of beauty industry practices. Emphasizes systems thinking and ethical reasoning as students analyze how scientific innovation, environmental stewardship, and social responsibility can converge to transform traditional beauty industry paradigms.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Ethical Reasoning"
       ]
     },
     {
@@ -215,63 +197,6 @@
       ]
     },
     {
-      "number": "2810",
-      "title": "Sustainability and Persuasion",
-      "credits": 4.0,
-      "description": "Presents research and theories on changing individual and institutional behavior related to environmental sustainability and personal well-being. Introduces research on attitude change, attitude-behavior relations, persuasion and compliance principles, and resistance and obstacles to behavior change in both individuals and society. Exposes students to scientific case studies of educational and behavior change programs in sustainability and well-being. Offers students an opportunity to develop programs and campaigns to improve sustainability and well-being.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "PHTH 1260"
-          },
-          {
-            "course": "PHTH 1261"
-          },
-          {
-            "course": "PSYC 1101"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Natural/Designed World"
-      ]
-    },
-    {
-      "number": "2820",
-      "title": "Climate Change, Health, and Resilience",
-      "credits": 4.0,
-      "description": "Examines how human behavior contributes to both climate change and chronic disease and how climate change exacerbates poor health trends and inequities, creating new health risks in the United States and around the globe. Considers the health impacts of environmental changes, such as changing temperatures, extreme events, and scarcity of resources. Presents strategies for building resilience and considers steps to adapt to and mitigate climate change that mutually enhance the health of individuals, communities, and the environment.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "AFCS 1270"
-          },
-          {
-            "course": "AFRS 1270"
-          },
-          {
-            "course": "PHTH 1260"
-          },
-          {
-            "course": "PHTH 1261"
-          },
-          {
-            "course": "PHTH 1270"
-          },
-          {
-            "course": "PSYC 1101"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Natural/Designed World"
-      ]
-    },
-    {
       "number": "3189",
       "title": "Research Methods in Communities of Color",
       "credits": 4.0,
@@ -280,33 +205,6 @@
       "corequisites": [],
       "attributes": [
         "NUpath Analyzing/Using Data"
-      ]
-    },
-    {
-      "number": "3461",
-      "title": "Quantitative Conservation Biology",
-      "credits": 4.0,
-      "description": "Explores the foundational principles of the interdisciplinary field of conservation biology. Focuses on population biology, population genetics, community ecology, biogeography, and animal behavior. Relies on quantitative tools to answer important questions about species persistence in a rapidly changing world. Emphasizes developing and critiquing conservation solutions based on ecology, biology, genetics, and behavior, as well as recognizing differing perspectives and values.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "EEMB 1101"
-          },
-          {
-            "course": "EEMB 2302"
-          },
-          {
-            "course": "EEMB 2400"
-          },
-          {
-            "course": "ENVR 1101"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Natural/Designed World"
       ]
     },
     {
@@ -328,6 +226,9 @@
           },
           {
             "course": "ENVR 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of C-"
           }
         ]
       },
@@ -347,27 +248,6 @@
       "corequisites": [
         "INMI 3650"
       ],
-      "attributes": [
-        "NUpath Natural/Designed World"
-      ]
-    },
-    {
-      "number": "3654",
-      "title": "Fire Ecology",
-      "credits": 4.0,
-      "description": "Introduces students to the ecology of fire, one of the most common and important disturbance events in terrestrial ecosystems. Examines how fire affects individual plants and animals (e.g., physiology, growth, reproduction, etc.), populations, ecological communities, ecosystem processes (e.g., nutrient and hydrologic cycling), and how the interplay between the abiotic and biotic worlds shape fire regimes. Explores how humans interact with fire, including European-American fire suppression and indigenous use of fire. Discusses how (prescribed) fire is used in restoration and ecosystem management and how climate change alters our ability to use this tool.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "EEMB 2302"
-          },
-          {
-            "course": "EEMB 2400"
-          }
-        ]
-      },
-      "corequisites": [],
       "attributes": [
         "NUpath Natural/Designed World"
       ]

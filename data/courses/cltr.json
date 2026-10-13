@@ -2,15 +2,6 @@
   "department": "CLTR",
   "courses": [
     {
-      "number": "1000",
-      "title": "Cultures, Societies, and Global Studies at Northeastern",
-      "credits": 1.0,
-      "description": "Introduces first-year students in the College of Social Sciences and Humanities to the liberal arts in general. Seeks to familiarize them with their major, to help them develop the academic skills necessary to succeed (analytical ability and critical thinking), to provide grounding in the culture and values of the university community, to help them develop interpersonal skills, and to familiarize them with all skills needed to become a successful university student.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1120",
       "title": "Introduction to Languages, Literature, and Culture",
       "credits": 4.0,
@@ -78,7 +69,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -98,34 +95,6 @@
       "attributes": [
         "NUpath Difference/Diversity",
         "NUpath Interpreting Culture"
-      ]
-    },
-    {
-      "number": "4655",
-      "title": "Latin American Literature",
-      "credits": 4.0,
-      "description": "Offers an overview of the major trends in Latin American narrative, poetry, drama, and essays, from Bernal Diaz through Borges and Bolaño. Studies broad cultural and political contexts, especially the Cold War period and the impact of neoliberalism. Conducted in Spanish.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SPNS 2101"
-          },
-          {
-            "course": "SPNS 2102"
-          },
-          {
-            "course": "SPNS 3101"
-          },
-          {
-            "course": "SPNS 3102"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Interpreting Culture",
-        "NUpath Writing Intensive"
       ]
     },
     {

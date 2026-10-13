@@ -51,15 +51,6 @@
       "attributes": []
     },
     {
-      "number": "1145",
-      "title": "Beginning Scuba",
-      "credits": 1.0,
-      "description": "Focuses on basic skin diving and scuba diving skills, with emphasis on safety. Requires lab fee. Requires ability to pass a swim test and basic comfort in the water.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "2302",
       "title": "Ecology",
       "credits": 4.0,
@@ -69,6 +60,9 @@
         "courses": [
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1102"
@@ -187,6 +181,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1102"
               }
             ]
@@ -213,12 +210,23 @@
       "attributes": []
     },
     {
-      "number": "3250",
-      "title": "Freshwater Ecology",
+      "number": "3451",
+      "title": "Avian Biology",
       "credits": 4.0,
-      "description": "Examines the abiotic characteristics of freshwater ecosystems, such as their formation, distribution, and physical/chemical characteristics. Freshwater habitats have long been used as model systems because of their convenient attributes (for example, lakes are largely contained ecosystems with clearly defined edges, and most organisms stay within these aquatic boundaries). Studies how these first principles influence biotic community assembly, drawing on foundational studies that have used freshwater habitats to illustrate dynamics such as seasonal succession, nutrient limitation, trophic cascades, and transitions between alternative states. Examines the linkages between freshwater ecosystems and other ecosystems and the relationship between freshwater systems and the human societies that rely on their ecosystem services.",
+      "description": "Presents a comparative survey of bird morphology, physiology, systematics, behavior, zoogeography, and paleontology. Emphasizes the relationships between morphological and physiological adaptations and organismal function across avian species. An evolutionary framework integrates molecular, morphological, and ecological data to position birds within the phylogenetic structure of Animalia, highlighting detailed comparisons with other animal clades. Offers students an opportunity to participate in field studies to apply observational techniques and data collection methods in analyzing species distribution patterns and ecological interactions. Synthesizes current ornithological research to illuminate how evolutionary processes shape avian diversity, migration patterns, reproductive strategies, and the conservation challenges facing modern bird populations worldwide.",
       "prerequisites": {
-        "course": "EEMB 2302"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BIOL 1113"
+          },
+          {
+            "course": "BIOL 2299"
+          },
+          {
+            "course": "EEMB 1101"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -281,7 +289,13 @@
             "course": "EEMB 1101"
           },
           {
+            "course": "EEMB 2302"
+          },
+          {
             "course": "ENVR 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
           },
           {
             "course": "ENVR 1400"
@@ -309,6 +323,9 @@
           },
           {
             "course": "ECON 2350"
+          },
+          {
+            "admission_requirement": "BUSM 22EM with a minimum grade of C-"
           },
           {
             "course": "EEMB 2400"
@@ -345,10 +362,7 @@
             "course": "EEMB 1101"
           },
           {
-            "course": "ENVR 1101"
-          },
-          {
-            "course": "ENVR 1400"
+            "course": "EEMB 2302"
           }
         ]
       },
@@ -395,27 +409,6 @@
       "attributes": []
     },
     {
-      "number": "3700",
-      "title": "Desert Ecology",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to obtain a basic understanding of fundamental ecological processes taking place in desert environments. Familiarizes students with how environmental and biological processes interact and influence the distribution and abundance of species in these arid biomes while recognizing the impact that human societies have on desert life and identifying sustainable solutions to ameliorate our ecological footprint. Introduces students to foundational concepts of fundamental importance to desert plant and animal life. Uses an ecological perspective to surround students with a rich social/cultural milieu including interactions with Israeli, Palestinian, and Bedouin communities.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "EEMB 2302"
-          },
-          {
-            "course": "EEMB 2303"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Difference/Diversity"
-      ]
-    },
-    {
       "number": "4000",
       "title": "Applied Conservation Biology",
       "credits": 4.0,
@@ -446,6 +439,9 @@
           },
           {
             "course": "ENVR 1101"
+          },
+          {
+            "admission_requirement": "ENVM 115M with a minimum grade of C"
           },
           {
             "course": "ENVR 1400"
@@ -491,6 +487,9 @@
                   },
                   {
                     "course": "MATH 1341"
+                  },
+                  {
+                    "admission_requirement": "MATH 21EM (may be taken concurrently) with a minimum grade of D-"
                   }
                 ]
               },
@@ -498,16 +497,19 @@
                 "type": "OR",
                 "courses": [
                   {
-                    "course": "ENGW 1111"
-                  },
-                  {
-                    "course": "ENGW 1102"
+                    "course": "ENGL 1102"
                   },
                   {
                     "course": "ENGL 1111"
                   },
                   {
-                    "course": "ENGL 1102"
+                    "course": "ENGW 1102"
+                  },
+                  {
+                    "course": "ENGW 1111"
+                  },
+                  {
+                    "admission_requirement": "WRIT 201M with a minimum grade of C"
                   }
                 ]
               }
@@ -528,15 +530,6 @@
       "title": "Marine Biology Careers Seminar",
       "credits": 1.0,
       "description": "Covers the information and tools needed to begin pursuing career opportunities in marine biology. Encourages students to explore a variety of career paths, construct résumés, contact potential employers for their internship and permanent positions. Presents invited speakers from state and federal agencies, and from private consulting firms, to talk about their work and career track.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5305",
-      "title": "Professional Development for Ocean Sciences",
-      "credits": 2.0,
-      "description": "Designed to assist Three Seas students in securing a graduate research internship. Seeks to provide students with the information needed to pursue diverse career opportunities in marine biology. Provides hands-on experience with an array of science communication tools, including resumés/CVs, cover letters, and social media. Speakers from academia, informal science education organizations, and the media present talks on their work and career tracks.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -759,28 +752,6 @@
       ]
     },
     {
-      "number": "5533",
-      "title": "Marine Invertebrate Zoology and Botany",
-      "credits": 2.0,
-      "description": "Explores major groups of marine macroalgae and marine invertebrates, their ecological roles, and interrelationships. Identifies defining features of these groups and the evolutionary and ecological drivers leading to adaptations. Emphasizes important groups in the Pacific Northwest habitats, including kelp forest and rocky intertidal habitats. Hands-on learning with corequisite lab includes field identification; visits to intertidal and subtidal marine environments; and specimen observation, dissection, preparation, and cataloging.",
-      "prerequisites": [],
-      "corequisites": [
-        "EEMB 5535"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "5535",
-      "title": "Lab for EEMB 5533",
-      "credits": 1.0,
-      "description": "Accompanies EEMB 5533. Covers topics from the course through various experiments.",
-      "prerequisites": [],
-      "corequisites": [
-        "EEMB 5533"
-      ],
-      "attributes": []
-    },
-    {
       "number": "5538",
       "title": "Conservation and Restoration of Marine Systems",
       "credits": 3.0,
@@ -913,7 +884,7 @@
       "number": "7102",
       "title": "Seminar in Ecology and Evolutionary Biology",
       "credits": 2.0,
-      "description": "Offers an overview of major concepts in the fields of ecology and evolution and how these concepts can be synthesized under a common framework. The first half of the course is organized according to major areas of evolutionary biology, from quantitative genetics to population genetics and phylogenetics and their synthesis. Quantitative genetics, population genetics, and phylogenetics have been historically separate fields and have only recently been synthesized through genomics. Note that quantitative genetics is a field that studies the evolution of phenotypes and requires no genetic information. The second half of the course introduces major concepts in ecology and is designed to introduce students to the major historical underpinnings of community ecology so as to understand the utility (or lack thereof) of these concepts for modern ecology.",
+      "description": "Presents an overview of major concepts in ecology and evolution with the goal of integrating them into a common synthetic framework. Examines major areas of evolution, focusing on how selection, phenotypic plasticity, speciation, mutation, and drift cause spatiotemporal changes in populations. Explores key concepts in ecology in the second half of the course. Emphasizes their historical underpinnings and utility for understanding modern ecology. Discusses different frameworks and their potential strengths and weaknesses for promoting integration between ecology and evolution.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

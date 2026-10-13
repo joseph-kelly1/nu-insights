@@ -16,6 +16,9 @@
                 "course": "CHEM 1151"
               },
               {
+                "admission_requirement": "CHEM 233M with a minimum grade of D-"
+              },
+              {
                 "course": "CHEM 1161"
               },
               {
@@ -37,6 +40,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -78,6 +84,9 @@
                 "course": "PHYS 1151"
               },
               {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
+              },
+              {
                 "course": "PHYS 1161"
               },
               {
@@ -86,7 +95,15 @@
             ]
           },
           {
-            "course": "MATH 1342"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -134,13 +151,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "PHYS 1151"
+              },
+              {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
               },
               {
                 "course": "PHYS 1161"
@@ -185,7 +213,15 @@
             ]
           },
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -217,10 +253,16 @@
             "course": "CS 3650"
           },
           {
+            "course": "DS 3000"
+          },
+          {
             "course": "MATH 2331"
           },
           {
             "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
           }
         ]
       },
@@ -236,13 +278,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "PHYS 1151"
+              },
+              {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
               },
               {
                 "course": "PHYS 1161"
@@ -277,7 +330,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "ME 2380"
@@ -296,7 +357,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "ME 2380"
@@ -358,7 +427,15 @@
                 "course": "ME 2355"
               },
               {
-                "course": "MATH 2341"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2341"
+                  },
+                  {
+                    "admission_requirement": "MATH 315M with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -376,29 +453,13 @@
                   },
                   {
                     "course": "MATH 2341"
+                  },
+                  {
+                    "admission_requirement": "MATH 315M with a minimum grade of D-"
                   }
                 ]
               }
             ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4520",
-      "title": "Mechanical Vibration",
-      "credits": 4.0,
-      "description": "Covers concepts in mechanical vibration analysis. Topics include basic concepts of vibrations, vibration problems vs.dynamic problems, linear vs. nonlinear vibrations, vibrational elements, harmonic motion; free vibration of undamped SDOF systems, stability, Rayleigh's energy method, free vibration of viscously damped SDOF systems, free vibration of damped SDOF systems with Coulomb and hysteretic damping; harmonically forced SDOF systems, harmonic motion of base and rotating unbalance, forced vibrations of Coulomb-damped and hysteresis-damped SDOF systems, general (nonperiodically) forced vibrations; free and forced vibrations of 2 DOF systems, damped vibrations, general eigenvalue problem, vibration measuring instruments; tuned vibration absorbers, passive and active vibration absorbers, vibration-control systems (passive, semiactive, and active), modal analysis software, and illustrative examples.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "MATH 2341"
-          },
-          {
-            "course": "ME 3455"
           }
         ]
       },
@@ -455,13 +516,13 @@
             "type": "OR",
             "courses": [
               {
+                "course": "BIOE 3310"
+              },
+              {
                 "course": "ME 3475"
               },
               {
                 "course": "ME 3480"
-              },
-              {
-                "course": "BIOE 3310"
               }
             ]
           },
@@ -469,10 +530,13 @@
             "type": "OR",
             "courses": [
               {
+                "course": "GE 2361"
+              },
+              {
                 "course": "MATH 2341"
               },
               {
-                "course": "GE 2361"
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               }
             ]
           }
@@ -509,26 +573,26 @@
       "attributes": []
     },
     {
-      "number": "4670",
-      "title": "Internal Combustion Engine",
+      "number": "4690",
+      "title": "Fundamentals of High-Performance Road Vehicle Dynamics",
       "credits": 4.0,
-      "description": "Presents the concepts and theories of operation of internal combustion engines based upon the fundamental engineering sciences of thermodynamics, gas dynamics, heat transfer, and mechanics. Discusses the design and operating characteristics of conventional spark-ignition, compression-ignition, Wankel, and stratified charge. Explores the relationship between vehicle load and engine load through differential and transmission gear-ratio selections. Includes laboratory experiments.",
+      "description": "Introduces fundamental principles of high-performance road vehicle dynamics, specifically cars and motorcycles, primarily through steady-state kinematic analysis of vehicle geometry, motions, and interactions with the road and surrounding air. Topics include tires, basic vehicle geometry, acceleration and braking, cornering stability, longitudinal and lateral weight transfer, suspension, aerodynamics, and some basic driving/riding racing fundamentals.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
-            "course": "ME 2380"
-          },
-          {
-            "type": "OR",
+            "type": "AND",
             "courses": [
               {
-                "course": "ME 3475"
+                "course": "ME 3455"
               },
               {
-                "course": "ME 3480"
+                "course": "ME 3475"
               }
             ]
+          },
+          {
+            "course": "ME 3480"
           }
         ]
       },
@@ -602,6 +666,9 @@
             "course": "GE 1501"
           },
           {
+            "admission_requirement": "ENGR 150M with a minimum grade of B"
+          },
+          {
             "admission_requirement": "graduate program admission"
           }
         ]
@@ -621,10 +688,7 @@
             "course": "ME 4555"
           },
           {
-            "course": "ME 5659"
-          },
-          {
-            "course": "ME 5659"
+            "admission_requirement": "graduate program admission"
           }
         ]
       },
@@ -1043,9 +1107,7 @@
       "title": "Mechanics of Soft Materials",
       "credits": 4.0,
       "description": "Covers the fundamental continuum mechanics theory of finite elastic deformation in soft materials formed by crosslinked polymer networks such as gels and elastomers, as well as the coupling effects from other physical fields (chemical, electrical, thermal, etc.) that enable novel functionalities. Emphasizes continuum mechanics, interfacing statistical mechanics, polymer physics, thermodynamics, and other chemical and physical disciplines. Lectures incorporate state-of-the-art research in mechanics of soft materials to offer students a broad and contemporary overview of the field.",
-      "prerequisites": {
-        "course": "ME 6200"
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -1073,33 +1135,6 @@
           },
           {
             "course": "ME 6200"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6360",
-      "title": "Boundary Value Problems in Linear Elasticity",
-      "credits": 4.0,
-      "description": "Introduces the governing equations of linear isotropic elasticity and solves the boundary value problems associated with two-dimensional (planar) and three-dimensional elasticity. In two-dimensional elasticity, presents the use of Airy stress function in Cartesian and polar coordinates; asymptotic fields at discontinuities; forces and dislocations; contact and crack problems; and rotating and accelerating bodies. In three-dimensional elasticity, presents Galerkin and Papkovich-Neuber solutions; singular solutions; spherical harmonics; thermoelasticity; axisymmetric contact and crack problems; and axisymmetric torsion.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "ME 6200"
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ME 5650"
-              },
-              {
-                "course": "ME 5654"
-              }
-            ]
           }
         ]
       },
@@ -1234,17 +1269,6 @@
       "attributes": []
     },
     {
-      "number": "7305",
-      "title": "Fundamentals of Combustion",
-      "credits": 4.0,
-      "description": "Provides an advanced course that is a comprehensive treatment of the problems involved in the combustion of liquid, gaseous, and solid fuels in both laminar and turbulent flow. Discusses the fundamentals of chemical kinetics. Examines the equations for the transport of mass, momentum, and energy with chemically reacting gases. Topics include diffusion and premixed flames, combustion of droplets and sprays, and gasification and combustion of coal.",
-      "prerequisites": {
-        "course": "ME 7270"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7310",
       "title": "Computational Fluid Dynamics with Heat Transfer",
       "credits": 4.0,
@@ -1320,7 +1344,15 @@
       "credits": 4.0,
       "description": "Offers analytical and/or experimental work conducted under the direction of the faculty in fulfillment of the requirements for the degree.",
       "prerequisites": {
-        "course": "ME 7945"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATL 7945"
+          },
+          {
+            "course": "ME 7945"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []

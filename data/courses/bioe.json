@@ -17,6 +17,9 @@
               },
               {
                 "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
               }
             ]
           },
@@ -25,6 +28,9 @@
             "courses": [
               {
                 "course": "PHYS 1151"
+              },
+              {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
               },
               {
                 "course": "PHYS 1161"
@@ -48,13 +54,27 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1252"
+              },
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M (may be taken concurrently) with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "CHEM 1151"
+              },
+              {
+                "admission_requirement": "CHEM 233M with a minimum grade of D-"
               },
               {
                 "course": "CHEM 1161"
@@ -78,6 +98,9 @@
               },
               {
                 "course": "PHYS 1175"
+              },
+              {
+                "course": "PHYS 1147"
               }
             ]
           }
@@ -119,6 +142,9 @@
               },
               {
                 "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
               }
             ]
           },
@@ -130,6 +156,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -161,15 +190,6 @@
       "attributes": []
     },
     {
-      "number": "2949",
-      "title": "Introductory Directed Research in Bioengineering",
-      "credits": 4.0,
-      "description": "Offers an opportunity to pursue project and other independent inquiry opportunities under faculty supervision for first- and second-year students. The course is initiated with a student-developed proposal, including expected learning outcomes and research products, which is approved by a faculty member in the department. Permission of instructor required.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "2992",
       "title": "Research",
       "credits": 0.0,
@@ -187,13 +207,24 @@
         "type": "AND",
         "courses": [
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
                 "course": "MATH 2321"
               },
               {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               }
             ]
           },
@@ -231,13 +262,24 @@
             "course": "BIOE 2355"
           },
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
                 "course": "MATH 2321"
               },
               {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               }
             ]
           }
@@ -255,13 +297,24 @@
         "type": "AND",
         "courses": [
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
                 "course": "MATH 2321"
               },
               {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               }
             ]
           },
@@ -373,6 +426,33 @@
       "attributes": []
     },
     {
+      "number": "5090",
+      "title": "Foundational Mathematics for Engineers",
+      "credits": 2.0,
+      "description": "Offers students an opportunity to enhance mathematical proficiency in preparation for more advanced courses in engineering. Focuses on key topics such as algebra, calculus, linear algebra, and ordinary and partial differential equations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5091",
+      "title": "Foundational Applied Mathematics for Bioengineers",
+      "credits": 2.0,
+      "description": "Covers and emphasizes practical applications of linear algebra and differential equations in the field of bioengineering. Explores analytical and numerical solution methods for solving differential equations and applies signal processing techniques for biomedical applications.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5092",
+      "title": "Computational Tools in Bioengineering",
+      "credits": 4.0,
+      "description": "Introduces programming and essential numerical methods with applications in bioengineering. Covers scripting, plotting, matrix operations, root-finding techniques, numerical integration, and solving ordinary differential equations. Focuses on developing practical problem-solving skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5115",
       "title": "Dynamical Systems in Biological Engineering",
       "credits": 4.0,
@@ -381,35 +461,15 @@
         "type": "OR",
         "courses": [
           {
-            "course": "MATH 2341"
-          },
-          {
-            "admission_requirement": "graduate program admission"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5150",
-      "title": "Foundational Mathematics of Bioengineering",
-      "credits": 4.0,
-      "description": "Covers two key mathematical topics: linear algebra and differential equations. Explores linear functions, matrices, and vector spaces in the first half, followed by linear ordinary differential equations and analytical and numerical solution methods in the second half. Emphasizes practical applications of these concepts in various contexts.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5151",
-      "title": "Computational Tools in Bioengineering",
-      "credits": 4.0,
-      "description": "Introduces programming and essential numerical methods with applications in bioengineering. Covers scripting, plotting, matrix operations, root-finding techniques, numerical integration, and solving ordinary differential equations. Focuses on developing practical problem-solving skills.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "BIOE 2365"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "admission_requirement": "graduate program admission"
@@ -473,7 +533,15 @@
                 ]
               },
               {
-                "course": "MATH 1342"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 1342"
+                  },
+                  {
+                    "admission_requirement": "MATH 211M with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -573,29 +641,19 @@
       "credits": 4.0,
       "description": "Covers engineering principles and approaches in stem cell research and their application in tissue engineering and regenerative medicine. Emphasizes recent technology and engineering tools used to understand and manipulate stem cells. Topics covered include embryonic and adult stem cell biology fundamentals; quantitative modeling of stem cell signaling; genetic/biochemical/biophysical/biomechanical/biomaterials tools to control stem cell fate and differentiation; epigenetic editing and cellular reprogramming; engineering biomimetic and bioreactor environments to develop stem-cell-based therapies; and various applications in tissue development, diseases, and regeneration.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "BIOE 5420"
-              },
-              {
-                "course": "BIOE 5420"
-              }
-            ]
+            "course": "BIOE 5420"
           },
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "BIOE 5430"
-              },
-              {
-                "course": "BIOE 5430"
-              }
-            ]
+            "course": "BIOE 5420"
+          },
+          {
+            "course": "BIOE 5430"
+          },
+          {
+            "course": "BIOE 5430"
           }
         ]
       },
@@ -612,7 +670,7 @@
       "attributes": []
     },
     {
-      "number": "5520",
+      "number": "5560",
       "title": "Bioengineering Design for Robotic Rehabilitation",
       "credits": 4.0,
       "description": "Covers the intersection of robotics, physical therapy, rehabilitation, and movement sciences. Students engage in hands-on projects derived from real-world challenges in collaboration with clinical experts. Follows a systematic design process, from conceptualization to prototype development, emphasizing the application of robotics to enhance therapeutic and rehabilitative outcomes. Key topics include biomechanics, motor control and learning, and sensor integration. Emphasizes collaborative teamwork with peers, faculty, and clinical professionals. Concludes with a project presentation demonstrating functional prototypes to address specific needs in rehabilitation.",
@@ -620,15 +678,7 @@
         "type": "OR",
         "courses": [
           {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "BIOE 3210"
-              },
-              {
-                "course": "BIOE 2350"
-              }
-            ]
+            "course": "BIOE 3210"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -714,7 +764,15 @@
                 "course": "BIOE 2355"
               },
               {
-                "course": "MATH 2341"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2341"
+                  },
+                  {
+                    "admission_requirement": "MATH 315M with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -837,10 +895,26 @@
                 "type": "AND",
                 "courses": [
                   {
-                    "course": "MATH 2321"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 2321"
+                      },
+                      {
+                        "admission_requirement": "MATH 316M with a minimum grade of D-"
+                      }
+                    ]
                   },
                   {
-                    "course": "MATH 2341"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "MATH 2341"
+                      },
+                      {
+                        "admission_requirement": "MATH 315M with a minimum grade of D-"
+                      }
+                    ]
                   }
                 ]
               },
@@ -910,7 +984,15 @@
         "type": "OR",
         "courses": [
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "admission_requirement": "graduate program admission"
@@ -962,6 +1044,9 @@
                 "course": "CHEM 1151"
               },
               {
+                "admission_requirement": "CHEM 233M with a minimum grade of D-"
+              },
+              {
                 "course": "CHEM 1161"
               },
               {
@@ -984,15 +1069,31 @@
       "number": "5850",
       "title": "Design of Implants",
       "credits": 4.0,
-      "description": "Uses an interdisciplinary approach to evaluate how a team designs medical implants to meet unmet clinical needs. Covers biomaterials, interfacial phenomena/surface science, phenomena/surface science, the lymphatic system, immune response, aging, mechanical factors, sterilization methods, and human factors. Presents exogenous factors, including intellectual property, regulatory requirements, affordability, product liability, and bioethics. The class is divided into teams that design proprietary medical devices using a unit processes/case study approach presented by experts with firsthand experience in meeting unmet market needs.",
+      "description": "Utilizes an interdisciplinary approach to evaluate how a team designs medical implants to meet unmet clinical needs. Covers bioelectronic medicine, optogenetics, lymphatic system, cardiovascular, neurodegenerative mitigation, tissue engineering, orthopedics, failed medical device implants case studies, ASTM medical device standards, and human factors. Presents exogenous factors, including intellectual property, regulatory requirements, affordability, and bioethics. The class is divided into teams that design proprietary implantable medical devices. Presents case studies by experts with firsthand experience in meeting unmet market needs.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "BIOE 5820"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOE 5820"
+              },
+              {
+                "course": "CHME 5631"
+              }
+            ]
           },
           {
-            "course": "BIOE 5820"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOE 5820"
+              },
+              {
+                "course": "CHME 5631"
+              }
+            ]
           }
         ]
       },
@@ -1008,26 +1109,23 @@
         "type": "OR",
         "courses": [
           {
-            "course": "MATH 2341"
-          },
-          {
-            "course": "MATH 2331"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
+              },
+              {
+                "course": "MATH 2331"
+              }
+            ]
           },
           {
             "admission_requirement": "graduate program admission"
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5870",
-      "title": "Engineering Approaches to Precision Medicine II",
-      "credits": 4.0,
-      "description": "Applies core knowledge of biomedical data science methods developed in BIOE 5860 to students' research projects under the mentorship of biomedical and engineering PIs. Research projects originate from clinical research and are designed to train students in understanding how to mathematically and computationally define and estimate a patient’s state of health and how to use modeling and machine learning methods to make personalized predictions. Successfully making predictions in advance allows physicians to intervene early to help the patient.",
-      "prerequisites": {
-        "course": "BIOE 5860"
       },
       "corequisites": [],
       "attributes": []
@@ -1109,7 +1207,7 @@
       "number": "7390",
       "title": "Seminar",
       "credits": 0.0,
-      "description": "Presents topics of an advanced nature by faculty, outside speakers, and students in the graduate program. May be repeated without limit.",
+      "description": "Presents topics of an advanced nature by faculty, outside speakers, and students in the graduate program. May be repeated for up to three times.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

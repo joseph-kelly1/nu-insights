@@ -2,15 +2,6 @@
   "department": "PHYS",
   "courses": [
     {
-      "number": "1000",
-      "title": "Physics at Northeastern",
-      "credits": 1.0,
-      "description": "Intended for freshmen in the College of Science. Introduces freshmen to the liberal arts in general; familiarizes them with their major; helps them develop the academic skills necessary to succeed (analytical ability and critical thinking); provides grounding in the culture and values of the University community; and helps them develop interpersonal skills—in short, familiarizes students with all skills needed to become a successful university student.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1111",
       "title": "Introduction to Astronomy",
       "credits": 4.0,
@@ -53,17 +44,6 @@
       "attributes": [
         "NUpath Natural/Designed World",
         "NUpath Societies/Institutions"
-      ]
-    },
-    {
-      "number": "1130",
-      "title": "Computing, Data, and Science",
-      "credits": 4.0,
-      "description": "Introduces how to deal with data and computation problems through the use of computer languages commonly used in the sciences. Focuses on manipulating data, but symbolic calculations are also covered. Intended for science majors during the first summer, when such a course can act as a foundation for later work.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Analyzing/Using Data"
       ]
     },
     {
@@ -133,6 +113,9 @@
             "course": "PHYS 1151"
           },
           {
+            "admission_requirement": "PHYS 261M with a minimum grade of D-"
+          },
+          {
             "course": "PHYS 1161"
           },
           {
@@ -161,32 +144,6 @@
       ]
     },
     {
-      "number": "1149",
-      "title": "Physics for Pharmacy",
-      "credits": 4.0,
-      "description": "Offers an integrated lecture and laboratory course for pharmacy students.",
-      "prerequisites": [],
-      "corequisites": [
-        "PHYS 1150"
-      ],
-      "attributes": [
-        "NUpath Natural/Designed World"
-      ]
-    },
-    {
-      "number": "1150",
-      "title": "Lab for PHYS 1149",
-      "credits": 1.0,
-      "description": "Accompanies PHYS 1149. Covers topics from the course through various experiments.",
-      "prerequisites": [],
-      "corequisites": [
-        "PHYS 1149"
-      ],
-      "attributes": [
-        "NUpath Analyzing/Using Data"
-      ]
-    },
-    {
       "number": "1151",
       "title": "Physics for Engineering 1",
       "credits": 3.0,
@@ -207,10 +164,19 @@
             "course": "MATH 1341"
           },
           {
+            "admission_requirement": "MATH 21EM with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "MATH 2321"
+          },
+          {
+            "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
           }
         ]
       },
@@ -256,6 +222,9 @@
                 "course": "PHYS 1151"
               },
               {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
+              },
+              {
                 "course": "PHYS 1161"
               },
               {
@@ -273,7 +242,13 @@
                 "course": "MATH 1342"
               },
               {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
               }
             ]
           }
@@ -326,10 +301,19 @@
             "course": "MATH 1341"
           },
           {
+            "admission_requirement": "MATH 21EM (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "MATH 2321"
+          },
+          {
+            "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
           }
         ]
       },
@@ -382,6 +366,9 @@
                 "course": "PHYS 1151"
               },
               {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
+              },
+              {
                 "course": "PHYS 1161"
               },
               {
@@ -399,7 +386,13 @@
                 "course": "MATH 1342"
               },
               {
+                "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
               }
             ]
           }
@@ -460,10 +453,19 @@
             "course": "MATH 1341"
           },
           {
+            "admission_requirement": "MATH 21EM (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "MATH 2321"
+          },
+          {
+            "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
           }
         ]
       },
@@ -507,6 +509,9 @@
                 "course": "PHYS 1151"
               },
               {
+                "admission_requirement": "PHYS 261M with a minimum grade of D-"
+              },
+              {
                 "course": "PHYS 1161"
               },
               {
@@ -524,7 +529,13 @@
                 "course": "MATH 1342"
               },
               {
+                "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
               }
             ]
           }
@@ -573,10 +584,19 @@
             "course": "MATH 1341"
           },
           {
+            "admission_requirement": "MATH 21EM with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1342"
           },
           {
+            "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "MATH 2321"
+          },
+          {
+            "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
           }
         ]
       },
@@ -644,7 +664,13 @@
                 "course": "MATH 1342"
               },
               {
+                "admission_requirement": "MATH 211M (may be taken concurrently) with a minimum grade of D"
+              },
+              {
                 "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D"
               }
             ]
           }
@@ -679,7 +705,15 @@
             ]
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M (may be taken concurrently) with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -782,6 +816,9 @@
               },
               {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of C-"
               }
             ]
           },
@@ -820,6 +857,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -867,6 +907,9 @@
                 "course": "MATH 2341"
               },
               {
+                "admission_requirement": "MATH 315M (may be taken concurrently) with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2351"
               }
             ]
@@ -901,13 +944,24 @@
             ]
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M (may be taken concurrently) with a minimum grade of D-"
               },
               {
                 "course": "MATH 2351"
@@ -1023,7 +1077,15 @@
             ]
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "PHYS 2303"
@@ -1047,13 +1109,24 @@
             "course": "PHYS 2303"
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               },
               {
                 "course": "MATH 2351"
@@ -1086,7 +1159,15 @@
       "credits": 4.0,
       "description": "Introduces the physical principles and basic mathematical methods underlying the various modalities of medical imaging. These include computed tomography (CT), magnetic resonance (MRI), positron emission tomography (PET), single-photon emission tomography (SPECT), and ultrasound. Covers nuclear physics and the interaction of radiation with biological matter with application to radiation therapy.",
       "prerequisites": {
-        "course": "MATH 2321"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2321"
+          },
+          {
+            "admission_requirement": "MATH 316M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -1374,6 +1455,9 @@
               },
               {
                 "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M with a minimum grade of C+"
               }
             ]
           },
@@ -1454,7 +1538,15 @@
             "type": "AND",
             "courses": [
               {
-                "course": "MATH 2321"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2321"
+                  },
+                  {
+                    "admission_requirement": "MATH 316M with a minimum grade of D-"
+                  }
+                ]
               },
               {
                 "type": "OR",
@@ -1471,6 +1563,25 @@
           },
           {
             "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7052",
+      "title": "Computational Methods for Network Science",
+      "credits": 4.0,
+      "description": "Introduces computational methods for analyzing and modeling complex networks across scientific domains. Emphasizes programming-based workflows for working with network data including data collection, cleaning, representation, and visualization. Covers foundational concepts in network analysis; random graph models; community detection; machine learning for network data; network dynamics such as diffusion, contagion, and random walks; network sampling and sparsification; temporal and spatial networks; and network comparison and reconstruction. Offers students a structured opportunity to implement algorithms with feedback, interpret results, and communicate network-based insights in technical and interdisciplinary contexts.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "NETS 5116"
+          },
+          {
+            "course": "PHYS 5116"
           }
         ]
       },
@@ -1727,6 +1838,17 @@
       },
       "description": "Undertakes a master’s thesis in a selected topic in experimental or theoretical physics. Written thesis required. May be repeated without limit.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7996",
+      "title": "Thesis Continuation",
+      "credits": 0.0,
+      "description": "Offers continued thesis work conducted under the supervision of a departmental faculty.",
+      "prerequisites": {
+        "course": "PHYS 7990"
+      },
       "corequisites": [],
       "attributes": []
     },

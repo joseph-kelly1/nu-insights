@@ -34,7 +34,7 @@ NEU Insights pulls together everything the catalog knows about a course: its des
 - 🔎 **Search 5,900+ courses** across 160 departments by code (`cs`, `cs 3000`) or by title
 - 📋 **Course detail view** with credits, prerequisite AND/OR trees, corequisites, NUpath tags, and sample-plan placement
 - 🤖 **Chat-style AI breakdowns**: click a course or type a code like `CS 3000`
-- 🗓️ **Grounded in real plans of study** for Computer Science, Cybersecurity, and Data Science
+- 🗓️ **Published sample plans of study**, when available, with catalog-year coverage tracked across undergraduate majors
 - 🔑 **Bring your own API key** for OpenAI, Anthropic, Google Gemini, or OpenRouter, with a live model list
 
 ## How it works
@@ -108,9 +108,40 @@ cd frontend && npm install && npm start      # API on :8000, app on :3000
 
 `npm start` runs the API with whichever `python3` is on your `PATH`, so keep the virtual environment active. Run only the API with `python3 advisor.py`.
 
-`courses.db` isn't tracked by git. The loader drops and recreates most tables, but not `plan_entries`, so running it again over an existing database fails. Delete `courses.db` before you rebuild.
+`courses.db` isn't tracked by git. The loader rebuilds it from the JSON data, including the selected plan catalog.
 
 Run `FLASK_DEBUG=1 npm start` to turn on Flask's reloader and debugger during development. Keep it off anywhere else, because the debugger can expose request data. Serve the app over HTTPS if you host it, since user keys travel through the API.
+
+</details>
+
+<details>
+<summary><b>Refreshing catalog data and sample plans</b></summary>
+
+With the virtual environment active and dependencies installed:
+
+```sh
+python json_scrapers/department_scraper.py
+python json_scrapers/course_scraper.py
+python json_scrapers/plan_scraper.py
+python db_loader.py
+```
+
+The plan scraper detects the live catalog edition and discovers bachelor programs from the catalog A-Z index. It includes combined majors and campus variants under the undergraduate catalog; College of Professional Studies programs, minors, and graduate programs are outside this scraper's scope.
+
+Published plans are saved to `data/plans/<catalog-year>/<program-id>.json`. Each file preserves source URL, degree, campus, college, plan variants, original entry text, credits, course bundles, alternatives, electives, co-op periods, and notes. Only definite course entries enter the semester's `courses` list; alternatives and choice groups remain structured entries and notes, so the advisor does not treat every option as mandatory. Course bundles retain their combined credit value rather than assigning those credits to each course.
+
+`data/plan_catalog.json` selects the active edition and lists every checked program as `available` or `no_published_plan`. The loader reads only plan files declared in this manifest. Existing unversioned sample files remain on disk for reference, but are excluded once a catalog manifest is present. Without a manifest, the loader retains support for the original unversioned files.
+
+The October 13, 2026 run checked all 395 discovered undergraduate bachelor program variants in the **2026–2027** catalog. None published sample-plan grids, so this edition contains **zero schedules**. Missing plans are recorded explicitly; the scraper does not invent schedules from degree requirements or silently import older plans. Run it again if Northeastern publishes plans later.
+
+To explicitly select an archived edition that publishes plans:
+
+```sh
+python json_scrapers/plan_scraper.py --catalog-year 2025-2026
+python db_loader.py
+```
+
+Use `--output-dir /path/to/data` for a separate dataset and `--delay 0.25` to adjust the pause between requests. Requests use timeouts and retries. A failed fetch, unexpected redirect, wrong edition, or unsupported plan section produces a nonzero exit code and leaves the active manifest unchanged. `data/plan_scrape_report.json` records the latest attempt, including any failures.
 
 </details>
 

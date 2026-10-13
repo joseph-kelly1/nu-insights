@@ -166,7 +166,15 @@
       "credits": 4.0,
       "description": "Offers students an opportunity to obtain knowledge and skills essential for understanding the theory and practice of social statistics commonly used in social research. Topics covered include the operationalization of abstract concepts; descriptive statistics; correlation; bivariate regression; central limit theorem; confidence intervals; hypothesis testing; and key concepts such as association, causation, and spurious relationships. Statistical software is used to complete assignments.",
       "prerequisites": {
-        "course": "SOCL 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -179,7 +187,15 @@
       "credits": 4.0,
       "description": "Introduces students to the range of research methods used by sociologists. Covers experimental research, field research, survey research, and historical-comparative research. Sampling, the rules of evidence in empirical research, research ethics, and the place of values are discussed.",
       "prerequisites": {
-        "course": "SOCL 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -198,7 +214,13 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           }
         ]
       },
@@ -221,6 +243,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M (may be taken concurrently) with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -292,13 +317,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -307,7 +344,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "SOCL 1246"
@@ -348,7 +391,7 @@
     },
     {
       "number": "3200",
-      "title": "Cities in Global Context",
+      "title": "Cities in a Global Context",
       "credits": 4.0,
       "description": "Examines the roots of the urbanization process, major ways of thinking about it, and the development of world cities and megacities. The twenty-first century will be a century in which urbanism is a central problem and opportunity. Considers the economic, political, cultural, and environmental dimensions of urbanism across the globe. Includes specific case studies from around the world. Encourages students to develop a knowledge of particular cities in order to examine the key themes of the course. INTL 3200, ANTH 3200, and SOCL 3200 are cross-listed.",
       "prerequisites": [],
@@ -375,7 +418,15 @@
         "type": "AND",
         "courses": [
           {
-            "course": "SOCL 1101"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "SOCL 1101"
+              },
+              {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -391,6 +442,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -419,25 +473,43 @@
             "course": "SOCL 1101"
           },
           {
-            "course": "ANTH 1101"
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
+            "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "INTL 1101"
           },
           {
-            "course": "WMNS 1103"
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
+            "course": "WMNS 1103"
           }
         ]
       },
@@ -491,33 +563,74 @@
         "type": "OR",
         "courses": [
           {
-            "course": "SOCL 1101"
+            "course": "ANTH 1101"
           },
           {
-            "course": "ANTH 1101"
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "INTL 1101"
           },
           {
-            "course": "WMNS 1103"
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
+            "course": "WMNS 1103"
           }
         ]
       },
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "4100",
+      "title": "Making Anthropology and Sociology Public",
+      "credits": 4.0,
+      "description": "Reflects on the social, economic, ecological, and cultural value of anthropology and sociology as a field, as well as an experiential learning space for transforming anthropological and sociological research into material understandable by the general public. Offers students an opportunity to learn methodologies across visual, collaborative, and engaged anthropologies and sociologies, as well as to study the ethical considerations and specific skills necessary to communicate effectively in a variety of modalities.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of B-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Integration Experience"
+      ]
     },
     {
       "number": "4485",
@@ -531,10 +644,19 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "HUSV 1101"
+          },
+          {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -543,7 +665,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           }
         ]
       },
@@ -558,64 +686,80 @@
       "credits": 4.0,
       "description": "Considers the intersection of race, class, and gender in social structure, institutions, and people’s lives. Utilizes an interdisciplinary approach to focus on the socially constructed nature of these concepts and how they shape and create meaning in individual lives. Difference with an emphasis on inequality and varying life chances is central for understanding our society and is central to our work. Requires a significant amount of reading. Class format is like a seminar; students are expected to participate, take responsibility, and write a paper. SOCL 4520 and WMNS 4520 are cross-listed.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
           {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "SOCL 1101"
-                  },
-                  {
-                    "course": "ANTH 1101"
-                  },
-                  {
-                    "course": "CRIM 1100"
-                  },
-                  {
-                    "course": "HUSV 1101"
-                  },
-                  {
-                    "course": "INTL 1101"
-                  },
-                  {
-                    "course": "POLS 1140"
-                  },
-                  {
-                    "course": "POLS 1160"
-                  },
-                  {
-                    "course": "WMNS 1103"
-                  }
-                ]
+                "course": "ANTH 1101"
               },
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "ENGW 1111"
-                  },
-                  {
-                    "course": "ENGW 1102"
-                  },
-                  {
-                    "course": "ENGL 1111"
-                  },
-                  {
-                    "course": "ENGL 1102"
-                  }
-                ]
+                "admission_requirement": "SOCM 103M with a minimum grade of D-"
+              },
+              {
+                "course": "CRIM 1100"
+              },
+              {
+                "admission_requirement": "PHR 107M with a minimum grade of D-"
+              },
+              {
+                "course": "HUSV 1101"
+              },
+              {
+                "admission_requirement": "SW 105M with a minimum grade of D-"
+              },
+              {
+                "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
+              },
+              {
+                "course": "POLS 1140"
+              },
+              {
+                "course": "POLS 1160"
+              },
+              {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
+              },
+              {
+                "course": "SOCL 1101"
+              },
+              {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
+              },
+              {
+                "course": "WMNS 1103"
               }
             ]
           },
           {
-            "course": "ENGW 1113"
-          },
-          {
-            "course": "ENGW 1114"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 1102"
+              },
+              {
+                "course": "ENGL 1111"
+              },
+              {
+                "course": "ENGW 1102"
+              },
+              {
+                "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
+                "course": "ENGW 1113"
+              },
+              {
+                "course": "ENGW 1114"
+              }
+            ]
           }
         ]
       },
@@ -630,77 +774,93 @@
       "credits": 4.0,
       "description": "Offers students an opportunity to engage in advanced social science research on topics relating to environmental justice, citizen science, and environmental health. Examines various environmental justice topics with the goal of producing a research project or paper. Case studies examined include the impacts of toxic waste dumping on human health and the environment, the role of global climate change in creating new waves of migration around the world, the rise of the Slow Food movement, and the relationship between environmental and data justice. Studies how to redesign research methods, tools, and processes to support environmental justice.",
       "prerequisites": {
-        "type": "OR",
+        "type": "AND",
         "courses": [
-          {
-            "course": "ANTH 1101"
-          },
-          {
-            "course": "CRIM 1100"
-          },
-          {
-            "course": "HUSV 1101"
-          },
-          {
-            "course": "HUSV 2400"
-          },
           {
             "type": "OR",
             "courses": [
+              {
+                "course": "ANTH 1101"
+              },
+              {
+                "admission_requirement": "SOCM 103M with a minimum grade of D-"
+              },
+              {
+                "course": "CRIM 1100"
+              },
+              {
+                "admission_requirement": "PHR 107M with a minimum grade of D-"
+              },
+              {
+                "course": "HUSV 1101"
+              },
+              {
+                "admission_requirement": "SW 105M with a minimum grade of D-"
+              },
+              {
+                "course": "HUSV 2400"
+              },
               {
                 "course": "HUSV 2401"
               },
               {
                 "course": "ENVR 2401"
+              },
+              {
+                "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
+              },
+              {
+                "course": "PHIL 1180"
+              },
+              {
+                "course": "POLS 1140"
+              },
+              {
+                "course": "POLS 1160"
+              },
+              {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
+              },
+              {
+                "course": "SOCL 1101"
+              },
+              {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
+              },
+              {
+                "course": "SOCL 1246"
+              },
+              {
+                "course": "WMNS 1103"
               }
             ]
           },
           {
-            "course": "INTL 1101"
-          },
-          {
-            "course": "PHIL 1180"
-          },
-          {
-            "course": "POLS 1140"
-          },
-          {
-            "course": "POLS 1160"
-          },
-          {
-            "course": "SOCL 1101"
-          },
-          {
-            "course": "SOCL 1246"
-          },
-          {
-            "type": "AND",
+            "type": "OR",
             "courses": [
               {
-                "course": "WMNS 1103"
+                "course": "ENGL 1102"
               },
               {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "ENGL 1102"
-                  },
-                  {
-                    "course": "ENGL 1111"
-                  },
-                  {
-                    "course": "ENGW 1102"
-                  },
-                  {
-                    "course": "ENGW 1111"
-                  },
-                  {
-                    "course": "ENGW 1113"
-                  },
-                  {
-                    "course": "ENGW 1114"
-                  }
-                ]
+                "course": "ENGL 1111"
+              },
+              {
+                "course": "ENGW 1102"
+              },
+              {
+                "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
+                "course": "ENGW 1113"
+              },
+              {
+                "course": "ENGW 1114"
               }
             ]
           }
@@ -721,25 +881,40 @@
         "type": "OR",
         "courses": [
           {
-            "course": "SOCL 1101"
+            "course": "ANTH 1101"
           },
           {
-            "course": "ANTH 1101"
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
           },
           {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "HUSV 1101"
           },
           {
-            "course": "WMNS 1103"
+            "admission_requirement": "SW 105M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
+            "course": "WMNS 1103"
           }
         ]
       },
@@ -765,7 +940,7 @@
       "number": "4600",
       "title": "Senior Seminar",
       "credits": 4.0,
-      "description": "Offers students an opportunity to integrate and apply knowledge of the discipline by building on completed course work and conducting original research on a topic of their choice. Requires students to produce a research paper due at the end of the semester. This seminar operates as an intellectual workshop in which students share the process, as well as the results, of their research with the group. The class comes together to inform, guide, critique, and support one another’s research efforts in a collaborative fashion. Students are expected to make constructive comments on the work of others and to freely exchange ideas.",
+      "description": "Offers students an opportunity to integrate and apply knowledge of the discipline by building on completed coursework and conducting original research on a topic of their choice. Requires students to produce a research paper due at the end of the semester. This seminar operates as an intellectual workshop in which students share the process, as well as the results, of their research with the group. The class comes together to inform, guide, critique, and support one another’s research efforts in a collaborative fashion. Expects students to make constructive comments on the work of others and to freely exchange ideas.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -807,13 +982,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -822,7 +1009,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -1004,19 +1197,10 @@
       "attributes": []
     },
     {
-      "number": "7263",
-      "title": "Social Psychology of Stratification",
-      "credits": 4.0,
-      "description": "Explores the social psychological dimensions of structured social inequality. Overviews the “social psychologies” embedded in the classical social theorists, then explores the literature on sociological social psychology (as opposed to its psychological cousin), identifying key theoretical frameworks and focusing on “social structure and personality” (or “social structure and attitudes”) research. Explores relevant literatures on various “subjective” responses to stratification including the self-concept, stratum (that is, race, class, or gender) identification and consciousness, the process of legitimation, stratification beliefs (or stratification ideology), racial attitudes, and links between these phenomena and various policy attitudes and preferences (support for affirmative action, wealth redistribution, and so on). Also explores the ways in which such responses may contribute to the maintenance and reproduction of the status quo (social reproduction), and social change.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7267",
       "title": "Environment, Health, and Society",
       "credits": 4.0,
-      "description": "Studies contested illnesses, which are diseases or conditions in which there is dispute over environmental causation. For many diseases and conditions attributed to environmental and occupational exposure, the disease or condition and/or its causes are discovered by laypeople in workplaces and communities, with considerable attention to chemical exposures. This seminar synthesizes a diverse set of fields, encompassing environmental sociology, medical sociology, medical anthropology, science studies, history of medicine, history of science, environmental health, community-based participatory research, environmental justice, and environmental public health. Emphasizes both political economic and ideological factors as determinants of contestation. Also examines issues of interdisciplinary collaboration between social scientists and environmental health scientists.",
+      "description": "Studies contested illnesses, which are diseases or conditions in which there is dispute over environmental causation. For many diseases and conditions attributed to environmental and occupational exposure, the disease or condition and/or its causes are discovered by laypeople in workplaces and communities, with considerable attention to chemical exposures. Synthesizes a diverse set of fields, encompassing environmental sociology, medical sociology, medical anthropology, science studies, history of medicine, history of science, environmental health, community-based participatory research, and environmental public health. Emphasizes both political economic and ideological factors as determinants of contestation. Examines issues of interdisciplinary collaboration between social scientists and environmental health scientists.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

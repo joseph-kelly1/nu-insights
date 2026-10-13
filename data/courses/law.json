@@ -5,7 +5,7 @@
       "number": "3101",
       "title": "Introduction to Legal Studies 1: Law and Legal Reasoning",
       "credits": 4.0,
-      "description": "Introduces the American legal system and legal reasoning. Covers rights and obligations created by contracts, fundamental principles of property law, accident law, the regulation of criminal conduct, and the laws associated with business formation and relationships. Requires students to complete writing exercises to enable them to synthesize their understanding and to find and use legal sources in support of their work.",
+      "description": "Introduces the American legal system and legal reasoning. Covers rights and obligations created by contracts, fundamental principles of property law, accident law, the regulation of criminal conduct, and the laws associated with business formation and relationships.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -14,7 +14,7 @@
       "number": "3102",
       "title": "Introduction to Legal Studies 2: Statutes and Regulations",
       "credits": 4.0,
-      "description": "Builds on LAW 3101 by introducing statutes and regulations. Covers federal administrative agencies governing employment, consumer protection, environment, labor, cyberlaw, intellectual property, and international trade. Uses exercises and discussions to require students to find, summarize, apply, and argue about the applicability of statutes and regulations in concrete situations. The capstone of the course offers students an opportunity to create a project to illustrate the lessons learned in the course.",
+      "description": "Introduces statutes and regulations. Covers federal administrative agencies governing employment, consumer protection, environment, labor, cyberlaw, intellectual property, and international trade. Requires students to find, summarize, apply, and argue about the applicability of statutes and regulations in concrete situations.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1252,7 +1252,7 @@
         "min": 1.0,
         "max": 4.0
       },
-      "description": "Covers special topics in law. May be repeated twice for a maximum of 6 semester hours.",
+      "description": "Covers special topics in law. May be repeated twice for a maximum of 12 semester hours.",
       "prerequisites": {
         "type": "AND",
         "courses": [
@@ -1260,23 +1260,55 @@
             "type": "OR",
             "courses": [
               {
+                "course": "BUSN 4945"
+              },
+              {
                 "course": "COOP 3945"
               },
               {
+                "course": "COOP 3946"
+              },
+              {
+                "course": "COOP 3947"
+              },
+              {
                 "course": "COOP 3948"
+              },
+              {
+                "course": "EEBA 2945"
+              },
+              {
+                "course": "EEBA 2948"
               }
             ]
           },
           {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "LAW 3101"
-              },
-              {
-                "course": "LAW 3102"
-              }
-            ]
+            "course": "LAW 3101"
+          },
+          {
+            "course": "LAW 3102"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work on a chosen topic under the direction of a faculty member. Course content depends on instructor. May be repeated once for a maximum of 8 semester hours.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "LAW 3101"
+          },
+          {
+            "course": "LAW 3102"
           }
         ]
       },
@@ -1287,7 +1319,7 @@
       "number": "6100",
       "title": "Civil Procedure",
       "credits": 5.0,
-      "description": "Introduces students to the procedural rules that courts in the United States use to handle noncriminal disputes. Designed to provide a working knowledge of the Federal Rules of Civil Procedure and typical state rules, along with an introduction to federalism, statutory analysis, advocacy, and methods of dispute resolution. Examines procedure within its historical context.",
+      "description": "Introduces the procedural rules that courts in the United States use to handle civil disputes. Focuses on the Federal Rules of Civil Procedure as well as federal statutes and constitutional provisions relating to the process of litigation. Covers topics such as federalism, processes of litigation, advocacy, and methods of dispute resolution.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1296,7 +1328,7 @@
       "number": "6101",
       "title": "Constitutional Law",
       "credits": 4.0,
-      "description": "Studies the techniques of constitutional interpretation and some of the principal themes of constitutional law: federalism, separation of powers, public vs. private spheres, equality theory and rights analysis. The first part of the course is about the powers of government. The second part is an in-depth analysis of the 14th Amendment.",
+      "description": "Studies the techniques of constitutional interpretation and some of the principal themes of constitutional law: federalism, separation of powers, public vs. private spheres, equality theory, and rights analysis.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -1334,7 +1366,7 @@
       "number": "6106",
       "title": "Torts",
       "credits": 4.0,
-      "description": "This course introduces students to theories of liability and the primary doctrines limiting liability, which are studied both doctrinally and in historical and social context. The course includes a brief consideration of civil remedies for intentional harms, but mainly focuses on the problem of accidental injury to persons and property. It also provides an introductory look at alternative systems for controlling risk and allocating the cost of accidents in advanced industrial societies.",
+      "description": "Presents an overview of the law of civil (meaning noncriminal) liability. Focuses on intentional torts such as assault and battery, the law of negligence, and strict liability regimes. Explores common law and common-law reasoning, and compares the common law as a tool for preventing injury and compensating for loss with public law (statutory and regulatory) approaches.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1426,7 +1458,7 @@
       "number": "6314",
       "title": "Introduction to U.S. Constitutional Law",
       "credits": 3.0,
-      "description": "Provides international LLM students with an introduction to U.S. constitutional law. The course is especially recommended for LLM students who wish to take a U.S. bar exam. Topics may include judicial review, separation of powers, federalism, equal protection, state action, due process and fundamental rights, and the First Amendment.",
+      "description": "Introduces international LLM students to U.S. constitutional law. Recommended for LLM students who wish to take a U.S. bar exam. Topics may include judicial review, separation of powers, federalism, equal protection, state action, due process and fundamental rights, and the First Amendment.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1446,7 +1478,7 @@
       "number": "6316",
       "title": "Introduction to Civil Procedure",
       "credits": 3.0,
-      "description": "This course is designed to provide international LLM students with an overall introduction to U.S. civil procedure. Topics will include personal and subject-matter jurisdiction, pleadings, discovery, choice of law (the Erie Doctrine), finality and preclusion, and class actions. The course is designed to emphasize the practical application of civil procedure law, and is especially recommended for LLM students who wish to take a U.S. bar exam. Not open to JD students.",
+      "description": "Introduces international LLM students to U.S. civil procedure. Topics include personal and subject-matter jurisdiction, pleadings, discovery, choice of law (the Erie doctrine), finality and preclusion, and class actions. Emphasizes the practical application of civil procedure law. Especially recommended for LLM students who wish to take a U.S. bar exam. Not open to JD students.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1455,7 +1487,7 @@
       "number": "6400",
       "title": "Introduction to U.S. Law and Legal System",
       "credits": 3.0,
-      "description": "Introduces principles and structures of the legal system in the United States. Covers the U.S. system of government, the U.S. judicial systems at the federal and state levels, U.S. sources of law, common law methodology, and the roles of legal professionals. Designed to familiarize the student with the relevant and governing legal principles that are used in American jurisprudence, including substantive and procedural law. Emphasizes legal terminology in our contemporary legal system.",
+      "description": "Introduces principles and structures of the legal system in the United States. Covers the U.S. system of government, the U.S. judicial systems at the federal and state levels, U.S. sources of law, common law methodology, and the roles of legal professionals. Designed to familiarize the student with the relevant and governing legal principles that are used in U.S. jurisprudence, including substantive and procedural law. Emphasizes legal terminology in our contemporary legal system.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1482,7 +1514,7 @@
       "number": "6403",
       "title": "Constitutional Law",
       "credits": 3.0,
-      "description": "Offers a broad overview of constitutional law. Emphasizes the subjects of federalism, judicial review, due process, and individual rights.",
+      "description": "Presents a broad overview of constitutional law. Emphasizes the subjects of federalism, judicial review, due process, and individual rights.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1500,7 +1532,7 @@
       "number": "6405",
       "title": "Professional Responsibility",
       "credits": 3.0,
-      "description": "Examines the rules that regulate the legal profession including the ABA Model Rules of Professional Conduct; the ABA Model Code of Judicial Conduct; the California Rules of Professional Conduct; relevant sections of the California Business and Professions Code; and leading case law, both federal and state, on the subject. Offers students an opportunity to gain a thorough understanding of the topics covered on the Multistate Professional Responsibility Examination, including lawyer advertising; solicitation of clients; specialization; conflicts of interest; competence; legal malpractice; fees; confidentiality; and obligations to clients, the court, and society. Students apply applicable ethics rules to identify and resolve ethical problems within the practice of law.",
+      "description": "Examines the rules that regulate the legal profession including the ABA Model Rules of Professional Conduct; the ABA Model Code of Judicial Conduct; the California Rules of Professional Conduct; relevant sections of the California Business and Professions Code; and leading case law, both federal and state, on the subject. Offers students an opportunity to gain a thorough understanding of the topics covered on the Multistate Professional Responsibility Examination including lawyer advertising; solicitation of clients; specialization; conflicts of interest; competence; legal malpractice; fees; confidentiality; and obligations to clients, the court, and society. Students apply applicable ethics rules to identify and resolve ethical problems within the practice of law.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1518,7 +1550,7 @@
       "number": "7000",
       "title": "Copyright",
       "credits": 3.0,
-      "description": "Surveys the domestic and international laws and policies of copyright law, with a secondary emphasis on related areas of law such as rights of publicity, unfair competition, and contractual protection of ideas in varying degrees. Topics covered include the subject matter of copyright; ownership and transfer of copyrights; the rights afforded to copyright owners in the United States and via international treaties and conventions; duration of protection; infringement; and the Digital Millennium Copyright Act and remedies. Includes guest speakers who are involved in cutting-edge issues in copyright, which will allow students to hear directly from and start networking with practitioners and others involved in copyright law.",
+      "description": "Surveys the domestic and international laws and policies of copyright law, with a secondary emphasis on related areas of law such as rights of publicity, unfair competition, and contractual protection of ideas in varying degrees. Covers copyright, ownership and transfer of copyrights, the rights afforded to copyright owners in the United States and via international treaties and conventions, duration of protection, infringement, and the Digital Millennium Copyright Act and remedies. Includes guest speakers who are involved in cutting-edge issues in copyright, which allows students to hear directly from and start networking with practitioners and others involved in copyright law.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1545,7 +1577,7 @@
       "number": "7005",
       "title": "Mergers and Acquisitions",
       "credits": 3.0,
-      "description": "Explores legal issues related to corporate mergers and acquisitions. Topics covered include acquisition structures and mechanics, shareholder voting and appraisal rights, board fiduciary duties, federal securities law requirements, anti-takeover defenses, accounting and tax issues, and antitrust considerations.",
+      "description": "Explores legal issues related to corporate mergers and acquisitions. Covers acquisition structures and mechanics, shareholder voting and appraisal rights, board fiduciary duties, federal securities law requirements, anti-takeover defenses, accounting and tax issues, and antitrust considerations.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1555,15 +1587,6 @@
       "title": "Secured Transactions",
       "credits": 3.0,
       "description": "Examines the rules governing transactions in which personal property and fixtures are used as collateral to secure an obligation. The primary source of authority is Article 9 of the Uniform Commercial Code but also introduces other applicable laws, including primarily the U.S. Bankruptcy Code. This body of law addresses not only the rights of the debtor and creditor inter se but also the rights of third parties with an interest in the collateral.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7007",
-      "title": "Securities Regulation",
-      "credits": 3.0,
-      "description": "Examines how the stock market and other securities markets are regulated in the United States. The primary focus is the Securities Act of 1933 and, to a lesser extent, the Securities Exchange Act of 1934. Covers how companies raise capital through IPOs and other offerings, including private placements, and the complicated regulatory framework that applies. In addition to discussing disclosure requirements for companies that decide to offer to sell their stock or debt to investors, the course takes an in-depth look at insider trading rules. Also touches on how corporate director elections are regulated as well as the rules that apply to tender offers.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1582,15 +1605,6 @@
       "title": "Insurance Law",
       "credits": 3.0,
       "description": "Introduces students to the principles governing the creation, sale, and enforcement of the most common forms of insurance in the United States. Explores personal liability, professional liability, commercial general liability, homeowner's, automobile, life and casualty, and health insurance. Discusses the peculiarities of each line as well as the problems common to all lines: moral hazard, adverse selection, and outright fraud. Covers the social function of insurance, as well as historical anomalies, in order to give students the broadest possible exposure to the issues lawyers confront regularly in this area of practice.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7011",
-      "title": "Personal Income Tax",
-      "credits": 3.0,
-      "description": "Introduces students to the basic concepts contained in the Internal Revenue Code. Emphasizes taxation of individuals but includes significant content applying concepts to business entities as well. Offers students an opportunity to learn to analyze statutes and regulations.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1616,7 +1630,25 @@
             "course": "LAW 7012"
           },
           {
+            "course": "LAW 7012"
+          },
+          {
             "course": "LAW 7323"
+          },
+          {
+            "course": "LAW 7323"
+          },
+          {
+            "course": "LAW 7693"
+          },
+          {
+            "course": "LAW 7693"
+          },
+          {
+            "course": "LAW 7693"
+          },
+          {
+            "course": "LAW 7693"
           }
         ]
       },
@@ -1645,7 +1677,7 @@
       "number": "7300",
       "title": "Administrative Law",
       "credits": 3.0,
-      "description": "This course provides an introduction to the legal doctrines designed to empower and constrain government agencies and officials in their daily practice of governance. Topics include the constitutional status of administrative agencies, due process, the Administrative Procedure Act and the availability and standards of judicial review of agency actions. The course emphasizes the historical evolution of the modern administrative state and the regulatory agency’s peculiar role in our system of governance.",
+      "description": "Introduces the legal doctrines designed to empower and constrain government agencies and officials in their daily practice of governance. Topics include the constitutional status of administrative agencies, due process, the Administrative Procedure Act, and the availability and standards of judicial review of agency actions. Emphasizes the historical evolution of the modern administrative state and the regulatory agency’s role in our system of governance.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1654,7 +1686,7 @@
       "number": "7301",
       "title": "Advanced Criminal Procedure: Adjudication",
       "credits": 3.0,
-      "description": "This course closely examines some of the constitutional complexities in the prosecution and defense of criminal cases in state and federal courts. Students investigate how the law fashions the adjudicatory process and how the law evaluates what is “fair” and what is “legitimate” in formally deciding on whom to impose punishment. The course covers, among other things, pretrial detention, right to counsel, plea bargaining, discovery, trial processes, and sentencing.",
+      "description": "Examines the procedural requirements and protections in the prosecution and defense of criminal cases in state and federal courts. Investigates how the law fashions the adjudicatory process and evaluates what is “fair” and “just” in the process. Covers right to counsel, pretrial detention, discovery, plea bargaining, trial processes, and sentencing, among other topics.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1672,16 +1704,7 @@
       "number": "7313",
       "title": "Secured Transactions",
       "credits": 3.0,
-      "description": "A survey of commercial lending transactions, with particular emphasis on Article 9 of the Uniform Commercial Code, consumer legislation, relationship to real estate mortgage transactions, relationship to bankruptcy problems, fraudulent conveyances, federal tax liens, etc.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7320",
-      "title": "Constitutional Litigation",
-      "credits": 3.0,
-      "description": "In the first phase of the course, the class considers strategic and tactical decision-making in constitutional litigation. In the second phase, students report on the process of litigating cases involving constitutional issues. Relying on briefs, court records and interviews with counsel, students report to the class and prepare a research paper setting out their findings. The paper is a major commitment of time and energy; only students with a significant interest in litigation of constitutional questions should apply. Papers are eligible to satisfy the writing requirement.",
+      "description": "Surveys commercial lending transactions, with particular emphasis on Article 9 of the Uniform Commercial Code, consumer legislation, relationship to real estate mortgage law, lawyer's relationship to bankruptcy problems, fraudulent conveyances, and federal tax liens. Examines the legal framework governing secured and unsecured lending. Explores creditor rights, debtor protections, and priority disputes in commercial lending contexts. Analyzes the role of legal counsel in structuring transactions, conducting due diligence, and addressing potential complications in lending arrangements.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1690,7 +1713,7 @@
       "number": "7323",
       "title": "Corporations",
       "credits": 4.0,
-      "description": "This course relates to the formation, financial structure, and governance of business enterprises, especially incorporated businesses. Partnerships, limited partnerships, limited liability companies and limited liability partnerships are also explored, principally as they compare to the corporate form. The topics studied include: rights of creditors to hold principals of the enterprise liable; distribution of control within the corporation; fiduciary duties of directors and officers; key aspects of the federal securities laws (including the regulation of insider trading and proxies); organic changes (such as mergers); shifts in control (such as takeovers and freeze-outs); and legal implications of the roles of corporations in society. The course introduces some of the specialized concepts explored in detail in courses on Securities Regulation and Corporate Finance.",
+      "description": "Studies the formation, financial structure, and governance of business enterprises, especially incorporated businesses. Explores partnerships, limited partnerships, limited liability companies, and limited liability partnerships, principally as they compare to the corporate form. Covers rights of creditors to hold principals of the enterprise liable; distribution of control within the corporation; fiduciary duties of directors and officers; key aspects of the federal securities laws (including the regulation of insider trading and proxies); organic changes (such as mergers); shifts in control (such as takeovers and freeze-outs); and legal implications of the roles of corporations in society. Introduces some of the specialized concepts explored in detail in courses on securities regulation and corporate finance.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1699,7 +1722,7 @@
       "number": "7324",
       "title": "Securities Regulation",
       "credits": 3.0,
-      "description": "Federal regulation of securities transactions originated in the New Deal investor protection legislation of the early 1930s and must now adapt to the changes and challenges of the 21st century. This course surveys major issues in the registration of initial public offerings (“IPOs”) under the Securities Act of 1933 and relevant provisions of the Securities Exchange Act of 1934, civil liability provisions, and the major exemptions from registration. Students will engage in detailed statutory analysis, as well as analysis of judicial and administrative decisions. The material covered in the course also raises important public policy issues such as “market democracy” and the role of regulation, disclosure policy with regard to corporate accountability and social responsibility, and the implications of internet disclosure.",
+      "description": "Surveys major issues in the registration of initial public offerings under the Securities Act of 1933 and relevant provisions of the Securities Exchange Act of 1934, civil liability provisions, and the major exemptions from registration. These regulations must now adapt to the changes and challenges of the 21st century. Engages students in detailed statutory analysis, as well as analysis of judicial and administrative decisions. Raises important public policy issues such as market democracy and the role of regulation, disclosure policy with regard to corporate accountability and social responsibility, and the implications of internet disclosure.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1708,7 +1731,7 @@
       "number": "7329",
       "title": "Environmental Law",
       "credits": 3.0,
-      "description": "This course focuses on federal and state environmental laws. Topics include pollution control, waste management, and cleanup of contaminated land and water. The course explores legislative policy and regulatory decisions as well as enforcement issues. We will give attention to questions of environmental justice and to the strategic use of legal tools in working to ensure safe and healthy surroundings for diverse groups of people.",
+      "description": "Focuses on federal and state environmental laws. Topics include pollution control, waste management, and cleanup of contaminated land and water. Explores legislative policy and regulatory decisions as well as enforcement issues. Emphasizes questions of environmental justice and the strategic use of legal tools in working to ensure safe and healthy surroundings for diverse groups of people.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1717,7 +1740,7 @@
       "number": "7331",
       "title": "Estate Planning",
       "credits": 3.0,
-      "description": "This basic upper-level course weaves together three strands that make up the discipline of estate planning. Strand 1 is an introduction to key elements of relevant law: property; creditor/debtor; wills, estates, and trusts; estate and gift tax; trust income taxation; and a touch of public benefits. Strand 2 introduces the tools and key components of an estate plan, such as Wills, Trusts, asset titling, and death beneficiary designations. Strand 3 weaves these together with and applies them to real-world frequently encountered situations using classroom hypotheticals to teach sound practice management, ethical considerations, blended family issues, and a mindset that plans for the knowable unknowns (e.g., not all potential beneficiaries may in the future be healthy, financially secure, still living, or even born yet).",
+      "description": "Presents the three strands that make up the discipline of estate planning. Introduces key elements of relevant law: property; creditor/debtor; wills, estates, and trusts; estate and gift tax; trust income taxation; and a touch of public benefits. Next, covers the tools and key components of an estate plan such as wills, trusts, asset titling, and death beneficiary designations. These strands are then woven together with and applied to real-world, frequently encountered situations using classroom hypotheticals to study sound practice management, ethical considerations, blended family issues, and a mindset that plans for the knowable unknowns (e.g., not all potential beneficiaries may be healthy in the future, financially secure, still living, or even born yet).",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1726,7 +1749,7 @@
       "number": "7332",
       "title": "Evidence",
       "credits": 4.0,
-      "description": "This course examines how courtroom lawyers use the evidence rules to present their cases—notably, rules regarding relevance, hearsay, impeachment, character, and experts. The approach to the study of evidence will be primarily through the “problem” method—that is, applying the provisions of the Federal Rules of Evidence to concrete courtroom situations. Theoretical issues will be explored as a way to deepen the student’s appreciation of how the evidence rules can and ought to be used in litigation.",
+      "description": "Examines how courtroom lawyers use the evidence rules to present their cases—notably, rules regarding relevance, hearsay, impeachment, character, and experts. Emphasizes the “problem” method—that is, applying the provisions of the Federal Rules of Evidence to concrete courtroom situations. Explores theoretical issues as a way to deepen the student’s appreciation of how the evidence rules can and ought to be used in litigation.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1735,7 +1758,19 @@
       "number": "7333",
       "title": "Family Law",
       "credits": 3.0,
-      "description": "This is a basic course in family law and family policy. The first half of the course explores state regulation of intimate relationships, asking what purposes marriage serves, and looking at the law of incest, polygamy and same sex marriage. The second half of the course examines practical problems in family law: cohabitants’ rights; common law marriage; and the many issues relating to divorce, with a particular focus on money and children.",
+      "description": "Studies the key legal doctrines of the family law system in the United States. Explores regulation of intimate relationships including marriage, divorce, and the economics of dissolution. Examines the legal concept of the family, parental rights and responsibilities, custody, support, dependency, and the best interests of the child. Considers variations in state laws regulating families and the intersection of family law with other areas of law such as tax, immigration, and administrative law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7335",
+      "title": "Health Law",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Examines the legal regulation of the provision of healthcare services. Focuses on the relationship between law and healthcare policy. Topics include access to health insurance and healthcare; healthcare financing; malpractice liability; the organization and responsibility of healthcare institutions, especially hospitals; the regulation of the quality of care; and the formulation of health policy. With permission of instructor, students may be able to take the course for an additional credit by completing a substantial paper or equivalent writing project (in addition to other course requirements) as required by the instructor.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1744,7 +1779,7 @@
       "number": "7336",
       "title": "Immigration Law",
       "credits": 3.0,
-      "description": "This course is designed to give the student an overview of U.S. immigration law. The focus is on the day-to-day practice of immigration law, including an examination of the substantive and procedural aspects of this practice, and a historical analysis of the changes in our immigration laws and policies. Topics covered include non-immigrant and immigrant classifications, the preference system for immigrants, grounds of inadmissibility and deportability, relief from removal, asylum, citizenship, administrative and judicial review, and the immigration consequences of crimes.",
+      "description": "Presents an overview of U.S. immigration law. Focuses on the day-to-day practice of immigration law, including the substantive and procedural aspects of this practice. Offers a historical perspective on changes in immigration laws and policies. Covers nonimmigrant and immigrant classifications, the preference system for immigrants, grounds of inadmissibility and deportability, relief from removal, asylum, citizenship, administrative and judicial review, and the immigration consequences of crimes.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1753,16 +1788,7 @@
       "number": "7338",
       "title": "International Law",
       "credits": 3.0,
-      "description": "This course introduces students to fundamental concepts and unresolved problems in international law. We discuss historical and contemporary theoretical debates about the roles and utility of international law. Students are introduced to the sources of international law and to methods of international dispute resolution in domestic and international fora. This course explores the part that international law has played (or failed to play) in the prevention or conduct of war, the promotion of human rights and international economic development.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7344",
-      "title": "Accounting/Finance for Lawyers",
-      "credits": 3.0,
-      "description": "Accounting is described as the language of business. This course may be of interest to students seeking to understand accounting, finance, auditing, financial reporting, taxation, or exempt organization management commonly encountered by attorneys. The course introduces objectives and mechanics of financial reporting and accounting. In addition to traditional textual and case materials, we examine financial statements of a local public company including the balance sheet, income statement, statement of shareholders’ equity, statement of cash flows, footnotes and management disclosure and analysis. We perform fundamental comparative financial analysis from an investor’s viewpoint to determine each company’s financial strengths and weaknesses. The course addresses the relationship between lawyer and auditor and reviews and analyzes recent financial reporting and financial scandals and audit failures.",
+      "description": "Introduces fundamental concepts and unresolved problems in international law. Discusses historical and contemporary theoretical debates about the roles and utility of international law. Covers the sources of international law and methods of international dispute resolution in domestic and international fora. Explores the part that international law has played (or failed to play) in the prevention or conduct of war, the promotion of human rights, and international economic development.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1771,7 +1797,7 @@
       "number": "7350",
       "title": "Negotiation",
       "credits": 3.0,
-      "description": "Negotiation is a course where students engage in simulated disputes and transactions, which are then debriefed in class. Through frequent in-class mini-negotiations and major simulations, the course focuses on: (1) negotiation planning, (2) case preparation and evaluation, (3) client counseling and informed client consent, (4) analysis of the bargaining range and principled concession patterns, (5) competitive, cooperative and problem-solving strategies, (6) information bargaining, (7) ethics and (8) critiques of negotiation patterns and institutions. Students are required to turn in preparation materials and to keep weekly journals, reviewed by the instructor, addressing their experiences in, and thoughts about, negotiations. Students are encouraged to internalize habits of analysis, prediction, preparation, and flexibility and to become more self-evaluative for their future negotiating experiences.",
+      "description": "Engages students in simulated disputes and transactions, which are then debriefed in class. Utilizing frequent in-class mini-negotiations and major simulations, focuses on negotiation planning; case preparation and evaluation; client counseling and informed client consent; analysis of the bargaining range and principled concession patterns; competitive, cooperative, and problem-solving strategies; information bargaining; ethics; and critiques of negotiation patterns and institutions. Requires students to turn in preparation materials and to keep weekly journals, reviewed by the instructor, addressing their experiences in, and thoughts about, negotiations. Encourages students to internalize habits of analysis, prediction, preparation, and flexibility and to become more self-evaluative for their future negotiating experiences.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1780,7 +1806,7 @@
       "number": "7351",
       "title": "Prisoners' Rights Clinic",
       "credits": 8.0,
-      "description": "Focuses on learning the law and procedures of parole and prisons in Massachusetts. Students handle a parole release hearing for a state prisoner serving a life sentence, with the possibility of parole, before all seven members of the parole board at a public hearing. In preparing one of these cases, students gain hands-on experience in criminal law and procedure, sentencing law, probation, prison classification and disciplinary systems, and often immigration law. Offers students an opportunity to develop and refine important advocacy skills including interviewing and counseling, case strategy development, thorough investigation techniques, witness preparation, and making strong opening and closing statements. The clinic is a mix of seminar class, individualized supervision meetings, and direct casework, which requires approximately a 25-hour weekly commitment.",
+      "description": "Focuses on the law and procedures of parole, commutation, and prisons in Massachusetts. Involves representation of incarcerated people who are serving life-with-parole sentences at their parole release hearings or life-without-parole sentences at commutation hearings. These are public hearings conducted before the seven-member Parole Board or, in the case of commutation hearings, the Advisory Board of Pardons. Provides hands-on experience in criminal law and procedure, sentencing law, probation, prison classification and disciplinary systems, and often immigration law. Offers students an opportunity to develop and refine important advocacy skills including interviewing and counseling, case strategy development, thorough investigation techniques, witness preparation, and making strong opening and closing statements. Includes a seminar class, individualized supervision meetings, and direct casework.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1789,7 +1815,19 @@
       "number": "7358",
       "title": "Social Welfare Law",
       "credits": 3.0,
-      "description": "This course examines American public assistance as a legal institution. After reviewing the historical, sociological and juridical roots of the welfare system, students examine the laws governing major assistance programs, especially eligibility requirements, rules governing grant determination, work and family rules, and procedural rights. Primary emphasis is on statutory and regulatory construction. The course explores methods by which lawyers can deal with the system: advocacy in the administrative process, litigation, legislative reform and representation of recipient organizations.",
+      "description": "Examines U.S. public assistance as a legal institution. Reviews the historical, sociological, and juridical roots of the welfare system. Examines the laws governing major assistance programs, especially eligibility requirements, rules governing grant determination, work and family rules, and procedural rights. Emphasizes statutory and regulatory construction. Explores methods by which lawyers can deal with the system: advocacy in the administrative process, litigation, legislative reform, and representation of recipient organizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7369",
+      "title": "Intellectual Property",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Introduces the classic principles of copyright, patent, trademark, and trade secret law and explores the ways in which those principles are shifting and adapting in response to new technology. In our modern-day \"information economy,\" the law of intellectual property has taken on enormous importance to both creators and users of intellectual creations. With permission of instructor, students may be able to take the course for an additional credit by completing a substantial paper or equivalent writing project (in addition to other course requirements) as required by the instructor.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1798,7 +1836,7 @@
       "number": "7377",
       "title": "Trusts and Estates",
       "credits": 4.0,
-      "description": "This basic course covers all aspects of inheritance, including intestacy, wills, common modern will substitutes, trusts, and future interests, with attention to rights of spouses and children, charitable interests, fiduciary duty, and other issues. The focus is practical, and students are required to write numerous short exercises—including analysis, planning advice, and formal drafting—to address realistic problems.",
+      "description": "Covers all aspects of inheritance─intestacy, wills, common modern will substitutes, trusts, and future interests─focusing on rights of spouses and children, charitable interests, fiduciary duty, and other issues. Emphasizes the practical. Requires students to write numerous short exercises—including analysis, planning advice, and formal drafting—to address realistic problems.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1807,7 +1845,7 @@
       "number": "7394",
       "title": "Land Use",
       "credits": 3.0,
-      "description": "A survey of legal doctrines, techniques and institutions relating to regulation of the use of real property. Topics covered include constitutional questions of takings by public agencies, the scope of the police power as it affects land use and the basic techniques of zoning and subdivision control. Students study, among other issues, recent cases on exclusion of low income housing, current techniques to encourage housing development (inclusionary or “linkage” regulations) and First Amendment questions arising from land use controls.",
+      "description": "Surveys legal doctrines, techniques, and institutions relating to regulation of the use of real property. Covers constitutional questions of takings by public agencies, the scope of the police power as it affects land use, and the basic techniques of zoning and subdivision control. Studies, among other issues, recent cases on exclusion of low-income housing, current techniques to encourage housing development (inclusionary or “linkage” regulations), and First Amendment questions arising from land use controls.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1816,7 +1854,7 @@
       "number": "7398",
       "title": "Federal Courts and the Federal System",
       "credits": 4.0,
-      "description": "The subject of this course is the distribution of power between the states and the federal government, and between the federal courts and other branches of the federal government as manifested in jurisdictional rules of the federal courts. The topics covered include the nature of the federal judicial function, the review of state court decisions by the United States Supreme Court, and the jurisdiction of federal district courts, with special emphasis on actions claiming constitutional protection against state official actions.",
+      "description": "Studies the distribution of power between the states and the federal government and between the federal courts and other branches of the federal government as manifested in jurisdictional rules of the federal courts. Covers the structure and operation of the U.S. federal courts and the structures and doctrines that control what the Constitution calls “the judicial power of the United States.” Emphasizes the procedures and remedies involved in federal court claims against government officials at the national, state, and local levels.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1825,9 +1863,17 @@
       "number": "7410",
       "title": "Domestic Violence Clinic",
       "credits": 8.0,
-      "description": "Offers students an opportunity to develop traditional lawyering skills—including interviewing and counseling clients and preparing and presenting cases in court—in the context of a busy community court that handles thousands of domestic abuse cases each year. The School of Law’s Domestic Violence Institute offers an upper-level clinic focused on violence prevention and criminal intervention at Dorchester District Court. The clinic seeks to train students to participate in a broader community-based response to domestic violence and to work collaboratively in interdisciplinary teams with battered women survivors, advocacy groups, and police and law enforcement personnel.",
+      "description": "Offers students an opportunity to represent survivors in family and domestic violence-based immigration law matters using a holistic, client-centered approach. Facilitates the development of traditional lawyering skills through interviewing and counseling clients and preparing and presenting cases in family and district courts in the Greater Boston area. Supports participation in a broader community-based response to domestic violence through training and advocacy with community organizations, medical providers, law enforcement, and court personnel.",
       "prerequisites": {
-        "course": "LAW 7332"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LAW 7332"
+          },
+          {
+            "course": "LAW 7332"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -1845,16 +1891,16 @@
       "number": "7424",
       "title": "Labor Law 1",
       "credits": 4.0,
-      "description": "A general introduction to the law of labor relations through an examination of the National Labor Relations Act and leading cases, in conjunction with historical, social and economic materials. Topics include organization, union recognition, unfair labor practices and collective bargaining.",
+      "description": "Introduces the law of labor relations by examining the National Labor Relations Act and leading cases, in conjunction with historical, social, and economic materials. Topics include employee organization, union recognition, unfair labor practices, and collective bargaining.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
       "number": "7428",
-      "title": "State & Local Government",
+      "title": "State and Local Government",
       "credits": 3.0,
-      "description": "This course offers an introduction to the workings of state and local governments, and to the roles of law and of lawyers in shaping and controlling their operation. Topics to be covered include: the sources and scope of state and of local lawmaking authority, intergovernmental relationships, modes of citizen participation in and control over the governing process, and state and municipal fiscal structure and operations. In exploring these topics, the course will focus both on the practical roles played by attorneys (employed inside or outside of government) in the governmental processes and on the place of decentralized governmental units within the vision of a democratic polity.",
+      "description": "Introduces the workings of state and local governments and the roles of law and of lawyers in shaping and controlling their operation. Covers the sources and scope of state and of local lawmaking authority, intergovernmental relationships, modes of citizen participation in and control over the governing process, and state and municipal fiscal structure and operations. Focuses on the practical roles played by attorneys (employed inside or outside of government) in the governmental processes and on the place of decentralized governmental units within the vision of a democratic polity.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1863,16 +1909,7 @@
       "number": "7429",
       "title": "Labor Law 2",
       "credits": 3.0,
-      "description": "An advanced labor law course focusing on the law of the collective bargaining agreement. The course compares collective bargaining rights to other workplace rights systems, such as individual statutory entitlement and public employee constitutional rights.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7434",
-      "title": "Secured Transactions",
-      "credits": 4.0,
-      "description": "This course has as its principal focus the way that most credit in America is extended. The transactions covered range from the purchase by consumers of automobiles or large household goods on credit to mega-loans by banks to large corporations. The primary law studied is Article 9 of the Uniform Commercial Code as well as certain sections of the federal Bankruptcy Code. The course also seeks to introduce students to commercial law generally and to further their facility with issues of statutory construction.",
+      "description": "Focuses on the law of the collective bargaining agreement. Compares collective bargaining rights to other workplace rights systems, such as individual statutory entitlement and public employee constitutional rights.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1881,7 +1918,7 @@
       "number": "7443",
       "title": "Professional Responsibility",
       "credits": 3.0,
-      "description": "This course focuses on the legal, ethical and professional dilemmas encountered by lawyers. Emphasis is on justice as a product of the quality of life that society provides to people rather than merely the process that the legal system provides once a crime or breach of duty has occurred. The course also provides students with a working knowledge of the American Bar Association’s Model Rules of Professional Conduct and the Code of Professional Responsibility as well as an understanding of the underlying issues and a perspective within which to evaluate them. In addition, the course examines the distribution of legal services to poor and non-poor clients.",
+      "description": "Focuses on the legal, ethical, and professional dilemmas encountered by lawyers. While not designed specifically to prepare students for the Model Professional Responsibility Examination, focuses on the American Bar Association’s Model Rules of Professional Conduct. Examines the social, economic, and political history of the profession and its current role in achieving social justice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1899,7 +1936,7 @@
       "number": "7449",
       "title": "Alternative Dispute Resolution",
       "credits": 3.0,
-      "description": "This course is designed to introduce the theory and practice of various dispute resolution mechanisms that are alternatives to the traditional litigation model for resolving disputes. Insofar as negotiation is the foundation of most ADR processes, the course begins there. We will analyze negotiation theory and strategy before adding mediation and collaborative law to the mix. We will look at how to represent clients in negotiation, mediation and collaborative law, how to prepare for these processes and how to develop effective strategies. The final weeks of the course will focus on understanding the essential attributes of arbitration.",
+      "description": "Introduces the theory and practice of various dispute resolution mechanisms that are alternatives to the traditional litigation model for resolving disputes. Begins with the foundation of most ADR processes: negotiation. Analyzes negotiation theory and strategy before adding mediation and collaborative law to the mix. Explores how to represent clients in negotiation, mediation, and collaborative law; how to prepare for these processes; and how to develop effective strategies. Focuses on understanding the essential attributes of arbitration during the final weeks of the course.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1908,16 +1945,7 @@
       "number": "7454",
       "title": "U.S. Legal Research",
       "credits": 2.0,
-      "description": "The course is designed to prepare law students for research in practice, clerkships, and legal scholarship. Students will evaluate legal research sources and use them effectively, expand skills in primary and secondary U.S. legal sources, become aware of non-legal information resources that could be useful to legal practice, and get an overview of public international law and foreign legal research. Since learning legal research requires a hands-on approach, students are required to complete assignments and in-class exercises. This course will emphasize cost-effective research, including print and Internet sources. The topics covered in this survey course will vary from year to year and may include immigration law, tax law, business law, environmental law and cultural property law among others.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7469",
-      "title": "Disability Law",
-      "credits": 3.0,
-      "description": "This course explores how the law treats individuals with disabilities. We will analyze what is meant by the term “disability” and consider constitutional review of state actions discriminating against individuals with disabilities. Particular attention will be given to the the rights and obligations created by the Rehabilitation Act, the Americans with Disabilities Act and the Individuals with Disabilities Education Act. The rights of individuals with disabilities to be educated, work, receive healthcare, and enjoy public accommodations will be considered in depth. This course is designed for students wishing to represent individuals with disabilities as well as students who may represent employers and public accommodations.",
+      "description": "Designed to prepare law students for research in practice, clerkships, and legal scholarship. Explores how to evaluate legal research sources and use them effectively, expand skills in primary and secondary U.S. legal sources, become aware of nonlegal information resources that could be useful to legal practice, and presents an overview of public international law and foreign legal research. Since learning legal research requires a hands-on approach, requires students to complete assignments and in-class exercises. Emphasizes cost-effective research, including print and internet sources. The topics covered in this survey course vary from year to year and may include immigration law, tax law, business law, environmental law, and cultural property law, among others.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1926,7 +1954,7 @@
       "number": "7475",
       "title": "First Amendment",
       "credits": 3.0,
-      "description": "This course examines several rights protected by the First Amendment to the Constitution. The focus is on the principles and processes developed by the judiciary to protect various forms of speech, expression and association. The course does NOT deal with the free exercise of religion or the establishment clause. The course also focuses on integrating doctrine with the core values of the First Amendment as well as emphasizing the need for students to develop their own preferred approach to protecting free expression. The course does not, except tangentially, deal with other parts of the Bill of Rights.",
+      "description": "Examines several rights protected by the First Amendment to the Constitution. Focuses on the principles and processes developed by the judiciary to protect various forms of speech, expression, and association. Emphasizes integrating doctrine with the core values of the First Amendment, as well as the need for students to develop their own preferred approach to protecting free expression. The course does not, except tangentially, deal with the establishment clause or other parts of the Bill of Rights, such as the free exercise of religion.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1935,7 +1963,7 @@
       "number": "7479",
       "title": "Basic Income Taxation",
       "credits": 4.0,
-      "description": "This introductory tax course covers the fundamental concepts and operations in income taxation. Tax issues are raised in the context of typical lawyer-client situations:  the employment contract (fringe benefits, employee business expenses), buying and selling a house and other property, personal injury expenses and recoveries, and running a small business. An important aspect in understanding the details covered will be comprehension of the economic policy objectives, and unintended results, of specific tax provisions such as capital gains taxation. The course is focused on the statute, cases and administrative law that define the income tax base. Tax rates are also examined and tax unit issues are covered for individual wage-earners, married couples, children living in the home, pensioners and small businesses organized as sole proprietorships.",
+      "description": "Covers the fundamental concepts and operations in income taxation. Raises tax issues in the context of typical lawyer-client situations: the employment contract (fringe benefits, employee business expenses), buying and selling a house and other property, personal injury expenses and recoveries, and running a small business. Emphasizes understanding the economic policy objectives and unintended results of specific tax provisions, such as capital gains taxation. Focuses on the statute, cases, and administrative law that define the income tax base. Examines tax rates and tax unit issues for individual wage earners, married couples, children living in the home, pensioners, and small businesses organized as sole proprietorships.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1944,7 +1972,7 @@
       "number": "7488",
       "title": "Sexuality, Gender, and the Law",
       "credits": 3.0,
-      "description": "This course uses case law and theory to address doctrinal problems and justice concerns associated with gender and sexuality. The syllabus is organized around notions such as privacy, identity and consent, all of which are conceptual pillars upon which arguments in the domain of sexuality and gender typically rely. Doctrinal topics include same-sex marriage, sodomy, sexual harassment, discrimination, among others, but the course is not a doctrinal survey; it is a critical inquiry into key concepts that cut across doctrinal areas. Students should expect to write a paper and share some of what they have learned with the class.",
+      "description": "Uses case law and theory to address doctrinal problems and justice concerns associated with gender and sexuality. The syllabus is organized around ideas such as privacy, identity, and consent, all of which are conceptual pillars upon which arguments in the domain of sexuality and gender typically rely. Doctrinal topics include same-sex marriage, sodomy, sexual harassment, discrimination, among others, but the course is not a doctrinal survey; it is a critical inquiry into key concepts that cut across doctrinal areas. Expects students to write a paper and share some of what they have learned with the class.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1953,7 +1981,7 @@
       "number": "7491",
       "title": "International Human Rights and the Global Economy",
       "credits": 3.0,
-      "description": "This course surveys the international human rights legal system. It includes the promotion and protection of economic, social, and cultural rights (such as rights to health, food,water, andeducation) and civil and political rights (such as equality and non-discrimination, the right to human security, the prohibition on torture, and rights to religious and cultural expression). We begin by examining the history and theoretical origins of human rights law. We then engage the legal framework under international and regional human rights treaties and interpretations of them by international, regional and domestic courts and other actors. We examine international, regional and domestic mechanisms for monitoring compliance. Finally, we grapple with tensions among cultural and religious imperatives and traditional human rights.",
+      "description": "Surveys the international human rights legal system. Includes the promotion and protection of economic, social, and cultural rights (such as rights to health, food, water, and education) and civil and political rights (such as equality and nondiscrimination, the right to human security, the prohibition on torture, and rights to religious and cultural expression). Examines the history and theoretical origins of human rights law. Then engages the legal framework under international and regional human rights treaties and interpretations of them by international, regional, and domestic courts and other actors. Explores international, regional, and domestic mechanisms for monitoring compliance. Grapples with tensions among cultural and religious imperatives and traditional human rights.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1962,7 +1990,7 @@
       "number": "7494",
       "title": "Bioethics and the Law",
       "credits": 3.0,
-      "description": "Explores the intersection of law, medicine, and ethics in diverse contexts that call for the evaluation of policies and practices implicating individual or public health. Topics may include but are not limited to end-of-life care, reproductive technologies, vaccines and the management of public health emergencies, professional and research ethics, confidentiality in health information, and equitable access to healthcare.",
+      "description": "Explores the intersection of law, medicine, and ethics in diverse contexts that call for the evaluation of policies and practices implicating individual or public health. Analyzes the tensions between legal and ethical frameworks and considers how to address them. Focuses on bioethical and legal approaches in areas that may include end-of-life care, gender-affirming care, reproductive care, race-based differential outcomes in healthcare, and care of disabled patients, among other areas.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1971,7 +1999,7 @@
       "number": "7495",
       "title": "Advanced Criminal Procedure: Investigation",
       "credits": 3.0,
-      "description": "During this course, students will examine the law of criminal investigation. The primary focus of the course will be to present and discuss leading Supreme Court decisions in the field of constitutional criminal procedure. Students will study decisions which apply the Fourth, Fifth and Sixth Amendments and the Due Process Clause to the criminal justice process and the procedures through which criminal laws are enforced.",
+      "description": "Examines the law governing police behavior, primarily by examining the constitutional doctrines of the Fourth, Fifth, and Sixth Amendments that regulate law enforcement action. Topics may include search and seizure, stop and frisk, electronic surveillance, probable cause, warrants and their exceptions, police use of force, custodial interrogation, eyewitness identification procedures, and exclusionary remedies. Considers policy questions about the regulation, democratic accountability, and scope of police activity in the United States today.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1980,7 +2008,7 @@
       "number": "7501",
       "title": "Patent Law",
       "credits": 3.0,
-      "description": "This course will provide an in-depth review of patent law and practice. The course will cover the administrative process for obtaining patents, including the requirements for patentability. The course will also cover enforcement of patent rights and the defense of patent infringement suits. The course will be presented in a simple, non-technical manner so that students of all disciplines can learn and understand the concepts.",
+      "description": "Offers an in-depth review of patent law and practice. Covers the administrative process for obtaining patents including the requirements for patentability, enforcement of patent rights, and the defense of patent infringement suits. Presented in a simple, nontechnical manner so that students of all disciplines have an opportunity to learn and understand the concepts.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1989,7 +2017,7 @@
       "number": "7503",
       "title": "Business Bankruptcy",
       "credits": 3.0,
-      "description": "This course deals with business reorganization under Chapter 11 of the Bankruptcy Code.  The objective of Chapter 11 bankruptcy is to allow the debtor to modify and restructure its debt so that it can continue to operate its business.  The course will cover matters that typically arise in a Chapter 11 case, such as the automatic stay, modification of debt, rejecting contracts, post-bankruptcy financing, creditors¿ claims, management of the debtor, and the plan of reorganization.  The course will also address topical issues such as employee rights, retiree benefits, and mass tort claims, including asbestos and environmental claims.",
+      "description": "Studies business reorganization under Chapter 11 of the Bankruptcy Code, the objective of which is to allow the debtor to modify and restructure its debt so that it can continue to operate its business. Covers matters that typically arise in a Chapter 11 case such as the automatic stay, modification of debt, rejecting contracts, postbankruptcy financing, creditors, claims, management of the debtor, and the plan of reorganization. Addresses topical issues such as employee rights, retiree benefits, and mass tort claims, including asbestos and environmental claims.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1998,7 +2026,7 @@
       "number": "7512",
       "title": "Problems in Public Health Law",
       "credits": 3.0,
-      "description": "This course will explore the rationales for using law to protect and preserve the public’s health, the legal tools that may be used to achieve that end, and the conflicts and problems that may result from legal interventions. Topics discussed will include the use of law to reduce the spread of HIV and other infectious diseases, control of tobacco and other hazardous products, bioterrorism, and the threats TO CIVIL LIBERTIES AND MINORITY GROUPS engendered by all such legal efforts. This course is highly recommended for all students enrolled in the J.D./M.P.H. dual degree program, but is open to other students as well.",
+      "description": "Explores the rationales for using law to protect and preserve the public’s health, the legal tools that may be used to achieve that end, and the conflicts and problems that may result from legal interventions. Discusses the use of law to reduce the spread of HIV and other infectious diseases, control of tobacco and other hazardous products, bioterrorism, and the threats to civil liberties and minority groups engendered by all such legal efforts. This course is highly recommended for all students enrolled in the JD/MPH dual degree program but is open to other students as well.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2007,7 +2035,7 @@
       "number": "7514",
       "title": "Natural Resources Law",
       "credits": 3.0,
-      "description": "This course addresses legal requirements and institutions dealing with animal and plant species, biological resources, habitats, and ecosystems. Major themes include biological diversity, endangered and threatened species, public and private rights in migratory resources, public trust doctrine, the allocation of power among federal, state, and local governments, and the roles of administrative agencies in ecosystem management. The course provides opportunities to explore specific topics of interest such as environmental ethics, wetlands protection, fisheries law, Native American hunting rights and fishing rights, and management of national parks, forests, and grazing lands.",
+      "description": "Addresses legal requirements and institutions dealing with animal and plant species, biological resources, habitats, and ecosystems. Major themes include biological diversity; endangered and threatened species; public and private rights in migratory resources; public trust doctrine; the allocation of power among federal, state, and local governments; and the roles of administrative agencies in ecosystem management. Offers students an opportunity to explore specific topics of interest such as environmental ethics; wetlands protection; fisheries law; Native American hunting rights and fishing rights; and management of national parks, forests, and grazing lands.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2022,10 +2050,22 @@
       "attributes": []
     },
     {
+      "number": "7525",
+      "title": "Law and Economic Development",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Examines prevailing economic theories of and strategies for economic development and the legal and institutional frameworks devised to implement these strategies. Considers what kinds of legal and institutional arrangements best facilitate economic growth, how law structures and shapes markets, what “development” is and how it can best be measured, and whether legal instruments can be used effectively to address underdevelopment in a structural way. Focuses on development in the so-called developing world while also exploring some strategies for addressing development in a local community context. Addresses several development case studies posing particular problems in specific regions and contexts. With permission of instructor, students may register for an additional credit by completing a substantial paper (in addition to other course requirements) as required by the instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7526",
       "title": "Juvenile Courts: Delinquency, Abuse, Neglect",
       "credits": 3.0,
-      "description": "Examines the evolution of the juvenile court system and issues related to juvenile justice and child welfare. Includes the study of procedural and substantive principles related to court subject matter, including delinquency, youthful offender, status offense, and abuse and neglect jurisdiction. In attempting to focus on connecting theory to practice, the class employs a contextual lens by considering the larger communities and systems that affect children, families, and public safety. This entails consideration of the consequences of decisions and policies in and out of courtrooms. Related topics include adolescent development; racial, ethnic, and gender equity; access to educational and mental health services; and public health.",
+      "description": "Examines the evolution of the juvenile court system and issues related to juvenile justice and child welfare. Includes the study of procedural and substantive principles related to court subject matter including delinquency, youthful offender, status offense, and abuse and neglect jurisdiction. Focusing on connecting theory to practice, employs a contextual lens to consider the larger communities and systems that affect children, families, and public safety and the consequences of decisions and policies in and out of courtrooms. Related topics include adolescent development; racial, ethnic, and gender equity; access to educational and mental health services; and public health.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2034,7 +2074,7 @@
       "number": "7527",
       "title": "Public Health Advocacy Clinic",
       "credits": 4.0,
-      "description": "Offers students an opportunity to gain experience in public interest law, health law, and litigation and to use innovative litigation or regulatory approaches to improve public health by working on real-world, clinical public health advocacy projects. Projects include demand letters, complaints, class actions, amicus briefs, legislative drafting, preparation of testimony, or submission of comments on issues ranging from tobacco products, e-cigarettes, sports betting, gun violence, occupational safety, unhealthy foods or beverages, and rapid responses to urgent public health developments. Serves clients including the Public Health Advocacy Institute; the Center for Public Health Litigation; and the Center for Health, Policy, and Law.",
+      "description": "Offers students an opportunity to gain experience in public interest law, health law, and litigation and to use innovative litigation or regulatory approaches to improve public health by working on real-world, clinical public health advocacy projects. Includes demand letters, complaints, class actions, amicus briefs, legislative drafting, preparation of testimony, or submission of comments on issues ranging from tobacco products, e-cigarettes, sports betting, gun violence, occupational safety, unhealthy foods or beverages, and rapid responses to urgent public health developments. Serves clients including the Public Health Advocacy Institute, Center for Public Health Litigation, and Center for Health Policy and Law.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2049,10 +2089,22 @@
       "attributes": []
     },
     {
+      "number": "7535",
+      "title": "Legal Interviewing and Counseling",
+      "credits": {
+        "min": 2.0,
+        "max": 3.0
+      },
+      "description": "Studies the principles of interviewing and counseling: how to interview clients to identify their legal problems and to gather information on which solutions to those problems can be based. Offers students an opportunity to learn how to counsel clients—a process by which, having determined what the client’s legal problems are, the lawyer helps clients make decisions by identifying potential strategies and solutions and their likely positive and negative consequences. Students practice interviewing witnesses, specific interviewing and counseling techniques, and receive feedback from classmates and the instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7539",
       "title": "Employment Law—Job Security and Rights",
       "credits": 3.0,
-      "description": "This course surveys legal and policy issues concerning job security, focusing primarily on law governing the termination of private sector employment. Students develop an understanding of the history and scope of the underlying employment-at-will doctrine and the primary ways in which the at-will doctrine has been modified through common law and statute.",
+      "description": "Surveys legal and policy issues concerning job security, focusing primarily on law governing the termination of private-sector employment. Offers students an opportunity to develop an understanding of the history and scope of the underlying employment-at-will doctrine and the primary ways in which the at-will doctrine has been modified through common law and statute.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2061,7 +2113,7 @@
       "number": "7540",
       "title": "Employment Law—Compensation, Benefits, and Retirement",
       "credits": 3.0,
-      "description": "This course surveys legal, economic, and social policy issues concerning wages and working time, leave, unemployment insurance, and retirement income.  The course provides detailed coverage of the Fair Labor Standards Act (FLSA), the Family  Medical Leave Act (FMLA), and the Unemployment Insurance program, and also provides introductions to retirement and survivor income under the Social Security Act and to pension regulation under the Employee Retirement Income Security Act (ERISA).  The problems of low-wage workers and women workers receive special emphasis, as well as tensions between the design of the older, statutory schemes and contemporary trends in business and work organization.",
+      "description": "Surveys legal, economic, and social policy issues concerning wages and working time, leave, unemployment insurance, and retirement income. Covers the Fair Labor Standards Act, the Family and Medical Leave Act, and the Unemployment Insurance program. Presents retirement and survivor income under the Social Security Act and pension regulation under the Employee Retirement Income Security Act. Examines problems faced by low-wage workers and women workers as well as tensions between the design of the older, statutory schemes and contemporary trends in business and work organization.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2070,7 +2122,7 @@
       "number": "7550",
       "title": "Refugee and Asylum Law",
       "credits": 3.0,
-      "description": "This course will explore the law of asylum and refugees. The primary focus will be on U.S. law as it has evolved since passage of the Refugee Act of 1980. This will include legislation and case law—both administrative and federal court cases. It will also look at relevant international law and standards utilized in other countries by way of comparison with U.S. Law. We will also examine the process of asylum adjudications to analyze issues of due process, credibility, cross cultural communication and integrity of the various legal procedures. We will explore new and emerging theories of asylum eligibility and policy developments which impact asylum seekers in the United States.",
+      "description": "Explores humanitarian relief under the Immigration and Nationality Act including refugee resettlement, asylum, withholding of removal, and relief under the Convention Against Torture. Focuses on U.S. law as it has evolved since passage of the Refugee Act of 1980. Analyzes administrative and judicial case law from the United States and compares relevant international law and standards in other countries. Examines the administrative adjudication system with attention to issues including due process, cross-cultural communication, and trauma-informed lawyering. Discusses policy developments that impact asylum seekers in the United States.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2085,10 +2137,19 @@
       "attributes": []
     },
     {
+      "number": "7553",
+      "title": "Basic Income Taxation",
+      "credits": 3.0,
+      "description": "Covers the fundamental concepts and operations in income taxation. Raises tax issues in the context of typical lawyer-client situations. Emphasizes understanding the economic policy objectives and unintended results of specific tax provisions. Focuses on the statute, cases, and administrative law that define the income tax base. Examines tax rates and tax unit issues for multiple types of taxpayers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7556",
       "title": "Corporate Finance",
       "credits": 3.0,
-      "description": "Corporate Finance considers sources of funding and capital structure of corporations, as well as decisions managers make to increase the value of a firm. This class is aimed at equipping lawyers with an ability to understand decision-making of business clients. The course introduces tools and methods used to evaluate projects and to allocate limited financial resources, as well as considerations regarding capital structure. We will cover valuation concepts, including present and future value computations, discount rates, net present value, the Efficient Capital Markets Hypothesis, relationship between risk and return, capital asset pricing model, as well as issues of leverage and capital structure. We will also examine the characteristics of financial instruments used by firms to raise capital, including common stock, preferred stock and debt instruments.",
+      "description": "Explores corporate finance, which considers sources of funding and capital structure of corporations, as well as decisions managers make to increase the value of a firm. Introduces tools and methods used to evaluate projects and to allocate limited financial resources, as well as considerations regarding capital structure. Covers valuation concepts including present and future value computations, discount rates, net present value, the efficient capital markets hypothesis, relationship between risk and return, capital asset pricing model, as well as issues of leverage and capital structure. Examines the characteristics of financial instruments used by firms to raise capital including common stock, preferred stock, and debt instruments. Offers lawyers an opportunity to obtain an ability to understand how business clients make decisions.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2097,7 +2158,7 @@
       "number": "7559",
       "title": "International Trade",
       "credits": 3.0,
-      "description": "This course provides a comprehensive introduction to the legal framework for U.S. and international regulation of international trade. The course will include a brief introduction to the economics of trade and trade restriction measures. It will then focus on the World Trade Organization agreements regulating international trade in goods, services and intellectual property; it will provide an overview of the North American Free Trade Agreement; and it will examine U.S. trade laws particularly relief from “unfairly” traded imports, boycotts and trade sanctions.",
+      "description": "Introduces the legal framework for U.S. and international regulation of international trade. Includes a brief introduction to the economics of trade and trade restriction measures. Focuses on the World Trade Organization agreements regulating international trade in goods, services, and intellectual property; presents an overview of selected other trade agreements; and examines U.S. trade laws, particularly relief from “unfairly” traded imports, boycotts, and trade sanctions.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2106,7 +2167,7 @@
       "number": "7569",
       "title": "International and Foreign Legal Research",
       "credits": 2.0,
-      "description": "This course is designed to teach students how to research international and foreign legal materials. The course uses a combination of lectures, hands-on research exercises, and homework assignments. Students will have opportunities: to increase the quality of research by attaining substantive knowledge on international legal topics and the legal system in which their issue arises; to attain practical skills to brainstorm search terms, formulate issues, and evaluate legal research resources by reiterative process; and to increase flexibility and confidence in researching international and foreign law topics. Topics include: U.S. and Non-U.S. treaties, international custom, jurisprudence, and documents of the United Nations, the European Union, and NGOs. The class also explores research in topical areas such as human rights, immigration and refugee laws, and foreign laws.",
+      "description": "Studies how to research international and foreign legal materials. Uses a combination of lectures, hands-on research exercises, and homework assignments. Offers students an opportunity to increase the quality of their research by attaining substantive knowledge on international legal topics and the legal system in which their issue arises; to attain practical skills to brainstorm search terms, formulate issues, and evaluate legal research resources by reiterative process; and to increase their flexibility and confidence in researching international and foreign law topics. Covers U.S. and non–U.S. treaties; international custom; jurisprudence; and documents of the United Nations, the European Union, and NGOs. Explores research in topical areas such as human rights, immigration and refugee laws, and foreign laws.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2115,7 +2176,7 @@
       "number": "7572",
       "title": "Transactional Drafting Seminar",
       "credits": 3.0,
-      "description": "This seminar will help students improve their writing in the context of transactional legal documents.  The seminar will help students: adopt tools to achieve clear and concise writing;  understand the purpose of each element of a contract and adopt the language that most clearly accomplishes that purpose; draft the operative provisions of a contract to express the agreement of the parties; and create an ¿architecture¿ for a contract to make individual provisions work together in a cohesive document.  The seminar will address concepts applicable to a wide range of transactional legal documents, with emphasis on drafting in the context of corporate transactions, including employment issues, shareholders¿ rights, and mergers and acquisitions.",
+      "description": "Focuses on writing improvement within the context of transactional legal documents. Provides tools to achieve clear and concise writing. Identifies the purpose of each element of a contract and helps students develop language to accomplish that purpose. Offers students an opportunity to draft the operative provisions of a contract to express the agreement of the parties and demonstrates how individual contract provisions work together in a cohesive document. Addresses concepts applicable to a wide range of transactional legal documents, with emphasis on drafting in the context of corporate transactions in areas that may include employment, shareholder rights, and mergers and acquisitions.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2124,16 +2185,7 @@
       "number": "7588",
       "title": "Reproductive Rights, Justice, and Health",
       "credits": 3.0,
-      "description": "Introduces topics in reproductive rights and justice and examines how laws and policy shape reproductive lives through an intersectional lens. Addresses legal doctrine, the science of reproduction, and public health research. Critically assesses issues arising from reproductive health law, with particular focus on a reproductive justice framework that centers social, racial, and economic justice. Topics covered may include sexual and reproductive health law as it pertains to forced sterilization, contraception, abortion, pregnancy discrimination, birth and maternal mortality, healthcare in prisons, fertility, social welfare programs, and gender-affirming care.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7590",
-      "title": "Copyright Law",
-      "credits": 3.0,
-      "description": "This course examines the law of copyright in the United States, with some reference to international aspects. We will discuss the scope of copyright protection, the formalities of securing copyright, the nature of the rights afforded by copyright law, the fair use doctrine, and copyright enforcement. The course will place copyright in historical perspective, and consider tensions created by emerging industries. The course is open to upper level students, without prerequisite.",
+      "description": "Introduces topics in reproductive rights and justice. Examines, through an intersectional lens, how laws and policy shape reproductive lives. Addresses legal doctrine, the science of reproduction, and public health research. Critically assesses issues arising from reproductive health law, focusing on a reproductive justice framework that centers social, racial, and economic justice. Topics may include sexual and reproductive health law as it pertains to forced sterilization, contraception, abortion, pregnancy discrimination, birth and maternal mortality, healthcare in prisons, fertility, social welfare programs, and gender-affirming care.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2142,16 +2194,7 @@
       "number": "7597",
       "title": "Civil Rights and Restorative Justice Clinic",
       "credits": 6.0,
-      "description": "The CRRJ (Civil Rights and Restorative Justice) Clinic engages students in legal research, litigation and legislative initiatives relating to anti-civil rights violence in the United States.  CRRJ clinic students assist law enforcement agencies considering criminal investigation and pursue civil litigation against government entities.  One of CRRJ’s projects, Reconstructing Cases of Racial Violence, involves researching cases where criminal prosecution may not be an option.  Students reconstruct legal proceedings and conduct factual investigations.  The project focuses on practical legal research skills and helps students integrate the law of torts, civil procedure, federal courts, criminal law, and constitutional law. Faculty will provide individual supervision of each student.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7599",
-      "title": "Pretrial Civil Practice and Advocacy",
-      "credits": 2.0,
-      "description": "This course provides the foundation to manage the pretrial phase of a civil action.  Each class will consist of a lecture concerning an aspect of pretrial practice, followed by student conducted pretrial advocacy.  Using model civil cases, the students will engage in most types of pretrial practice, including an initial client interview and basic legal analysis to evaluate and assert potential legal claims and defenses, witness selection and preparation, deposition and written discovery practice, dispositive motions, pretrial memoranda and settlement positions.",
+      "description": "Introduces investigative research and restorative justice approaches that have brought some measure of redress to families and communities affected by lynching and other forms of racialized violence in the Jim Crow era. Offers students an opportunity to conduct factual investigations by tracking down materials from government repositories, newspaper archives, and court proceedings; collaborating with practicing lawyers, professional archivists, and historians; conducting interviews; and, where feasible, visiting the region where the events took place. Focuses on practical legal research, investigation, and writing skills. Designed to help students integrate the law of torts, civil procedure, federal courts, criminal law, human rights law, and constitutional law.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2160,7 +2203,7 @@
       "number": "7603",
       "title": "International Business Transactions",
       "credits": 3.0,
-      "description": "This course deals with transnational commercial law.  It addresses the legal framework for international sales transactions, including the commercial terms of the sales agreement, shipping contracts, insurance, financing arrangements, and customs documentation.  It also examines foreign direct investment transactions, international franchise and distribution agreements, and contracts for the transfer of technology.  Bribery of foreign officials and liability under US and international rules are also included.  Dispute resolution will be considered briefly with emphasis on choice of law and forum, arbitration, and enforcement of arbitral awards and foreign judgments.",
+      "description": "Introduces transnational commercial law. Discusses the legal framework for international sales transactions including the commercial terms of sales agreements, shipping contracts, insurance, financing arrangements, and customs documentation. Examines foreign direct investment transactions, international franchise and distribution agreements, and contracts for the transfer of technology. Includes materials on bribery of foreign officials and liability under U.S. and international rules. Briefly surveys dispute resolution issues, emphasizing choice of law and forum and arbitration.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2169,16 +2212,7 @@
       "number": "7606",
       "title": "Drug Law and Policy",
       "credits": 3.0,
-      "description": "The field of Drug Law is vast, spanning the discovery, manufacture, distribution, and consumption of chemical agents designed to alter the human condition. This course focuses on three domains of the broader subject: the evolution and current state of the Federal Food, Drug, and Cosmetic Act; the architecture of the drug regulation system in the U.S., including the distinct space occupied by the Food and Drug Administration, the Department of Agriculture, and the Drug Enforcement Agency; and the role of regulation and tort litigation in harmonizing drug policy with science.  Designed around legal and policy case studies, this course is intended for students expecting to become involved in clinical practice involving pharmaceuticals as well those generally interested in the interplay of law and public health.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7607",
-      "title": "Consumer Law",
-      "credits": 3.0,
-      "description": "This course examines consumer transactions in formation, substance, and remedies. While the course will focus most on consumer credit, we will also examine consumer leasing, advertising; fraud; warranties; and product standards and safety.",
+      "description": "Focuses on three domains of the broader subject of drug law: the evolution and current state of the Federal Food, Drug, and Cosmetic Act; the architecture of the drug regulation system in the United States including the distinct space occupied by the Food and Drug Administration, the Department of Agriculture, and the Drug Enforcement Agency; and the role of regulation and tort litigation in harmonizing drug policy with science. Discusses legal and policy case studies.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2187,7 +2221,7 @@
       "number": "7608",
       "title": "American Legal Thought: Traditional and Critical",
       "credits": 3.0,
-      "description": "This course contrasts critical-theoretic approaches to law (e.g., legal realism, critical legal studies, identity-based jurisprudence, socio-legal studies, transformative jurisprudence) with mainstream legal thinking. In part the course is an intellectual history of American law, and in part it addresses contemporary jurisprudence and legal theory. Drawing on students’ personal experience, the course also examines American legal education and the professional socialization of law students.  A “big” question underlying the course is whether legal work is a medium in which one can pursue projects oriented toward political and social change. There is no prerequisite for this course, and no prior background in legal theory, history, or jurisprudence is needed. All students are expected to read the assigned texts very closely and participate in discussing them in class.",
+      "description": "Surveys the intellectual history of U.S. law and practice, focusing on antiformalist and legal realist criticism of Classical Legal Thought (circa 1880 to 1940) and the fallout of that debate up to the present. Draws on students’ personal experience to examine American legal education and professional socialization. Explores whether legal work is a medium in which one can pursue projects oriented toward political and social change.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2196,7 +2230,7 @@
       "number": "7610",
       "title": "Community Business Law Clinic",
       "credits": 8.0,
-      "description": "Offers a unique opportunity to develop lawyering skills through the real-world experience of helping low-income and underserved entrepreneurs achieve their transactional goals and supporting community-led growth. Students, prepared and supported by an intensive seminar and close faculty supervision, assume the role of lawyers for their clients and their clients’ community businesses on the often-complex legal issues that startups, entrepreneurs and small businesses face.",
+      "description": "Offers students an opportunity to develop lawyering skills through the real-world transactional representation of underserved community-based small businesses, entrepreneurs, and nonprofit organizations as they build strong legal foundations and create impact. Students take direct ownership of the legal representation and advise their clients on often-complex business legal issues. Includes an intensive seminar and close faculty supervision.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2205,7 +2239,7 @@
       "number": "7612",
       "title": "Wrongful Convictions and Post-Conviction Remedies",
       "credits": 3.0,
-      "description": "The emergence of DNA testing has not only assisted law enforcement in solving crimes, but it has also helped to expose a problem that many observers of the criminal justice system have long suspected: that a number of actually innocent prisoners have been convicted in the United States. Given that biological evidence suitable for post-conviction DNA testing is available in only a smattering of cases, the exonerations generated by DNA represent only the tip of the innocence iceberg, so to speak. This class will explore (1) the primary factors that contribute to the phenomenon of wrongful convictions, (2) the state and federal procedures through which post-conviction claims are litigated and (3) potential reforms to protect against the conviction of the innocent.",
+      "description": "Analyzes legal and procedural safeguards designed to prevent wrongful convictions. Examines how the emergence of DNA testing has assisted law enforcement in solving crimes while also helping to expose the scale of wrongful convictions in the United States. Explores the primary factors that contribute to the phenomenon of wrongful convictions, the state and federal procedures through which post-conviction claims are litigated, and potential reforms to protect against the conviction of the innocent. Addresses the role of biological evidence, eyewitness identification, false confessions, and forensic science in criminal justice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2214,7 +2248,7 @@
       "number": "7614",
       "title": "Law Practice Management: Access to Justice",
       "credits": 3.0,
-      "description": "This course challenges conventional law practice management by exploring means of methods of filling the market gap in the provision of legal services to middle class clients.  Students will investigate and document ways to use improved marketing techniques, staffing patterns, technological innovations and a variety of other tools to provide legal services to underserved portions of the market in a sustainable and economically viable fashion.  Students will conduct independent research to develop a law firm business plan; exploring a practice area of particular interest to them.  This course is not solely geared toward the entrepreneurial attorney, but rather will assist anyone in the development of skills to bridge-the-gap between their theoretical education and its practical application to the practice of law.",
+      "description": "Challenges conventional law practice management by exploring means and methods of filling the market gap in the provision of legal services to middle-class clients. Investigates and documents ways to use improved marketing techniques, staffing patterns, technological innovations, and a variety of other tools to provide legal services to underserved portions of the market in a sustainable and economically viable fashion. Requires students to conduct independent research to develop a law firm business plan, exploring a practice area of particular interest to them.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2223,7 +2257,7 @@
       "number": "7619",
       "title": "Healthcare Fraud and Abuse Law",
       "credits": 3.0,
-      "description": "This course provides an overview of the law relating to healthcare fraud. It will provide an overview of the healthcare fraud and abuse laws, emphasizing the role of whistleblowers, qui tam actions, criminal investigative techniques, trial issues inherent in white collar criminal prosecutions, innovative resolutions of corporate fraud including compliance programs, and sentencing. Topics will include an overview of the healthcare payment system, the frauds visited on that system, and the interplay of criminal prosecutions with the FDA regulation. This course is highly recommended for students in the JD/MPH program, LLM students specializing in health policy and law, and students interested in criminal law, but is open to others as well. Health Law is recommended but not required.",
+      "description": "Presents an overview of healthcare fraud and abuse laws. Emphasizes the role of whistleblowers, qui tam actions, criminal investigative techniques, trial issues inherent in white-collar criminal prosecutions, innovative resolutions of corporate fraud including compliance programs, and sentencing. Examines the healthcare payment system, the frauds visited on that system, and the interplay of criminal prosecutions with FDA regulation. Prior study of health law is recommended but not required.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2232,7 +2266,7 @@
       "number": "7620",
       "title": "Human Behavior, Legal Doctrine, and Policy Design",
       "credits": 3.0,
-      "description": "This course will compare accounts of human behavior, including the Utilitarian/Law and Economics view of man as a rational calculator of his self-interest, with classical and contemporary alternatives to that description, including Behavioral Economics. We will evaluate the reasons for doubting or crediting these competing accounts, and will then consider their implications for determining appropriate legal doctrines and regulatory approaches. For example, we may consider whether the views of human behavior which shape consumer protection case law and the Supreme Court’s commercial speech doctrine are justified, and whether – and in what circumstances—regulations are appropriate which seek to help people by prescribing, proscribing, or “nudging” their behavior. Students are expected to participate in class and write a research paper which may satisfy the writing requirement.",
+      "description": "Compares accounts of human behavior, including the utilitarian/law and economics view of man as a rational calculator of his self-interest, with classical and contemporary alternatives to that description, including behavioral economics. Evaluates the reasons for doubting or crediting these competing accounts and considers their implications for determining appropriate legal doctrines and regulatory approaches. Addresses issues such as whether the views of human behavior that shape consumer protection case law and the Supreme Court's commercial speech doctrine are justified and whether, and in what circumstances, regulations may appropriately seek to help people by prescribing, proscribing, or \"nudging\" their behavior.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2241,7 +2275,7 @@
       "number": "7622",
       "title": "Whistleblower Law",
       "credits": 2.0,
-      "description": "This course provides an introduction to the legal issues related to whistleblowing, a dynamic new area in employment, corporate compliance, and anti-fraud law.  It focuses on tort-like remedies and monetary rewards available to whistleblowers under the Dodd-Frank, Sarbanes-Oxley, Foreign Corrupt Practices and False Claims Acts, along with protections under tax law, the First Amendment, and common law. There will be a final exam and a short paper (approximately 2 pages in length).",
+      "description": "Introduces legal issues related to whistleblowing in areas such as employment, corporate compliance, and anti-fraud law. Focuses on tortlike remedies and monetary rewards available to whistleblowers under the Dodd-Frank, Sarbanes-Oxley, Foreign Corrupt Practices and False Claims Acts, along with protections under tax law, the First Amendment, and common law.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2250,7 +2284,7 @@
       "number": "7624",
       "title": "Advanced Legal and Interdisciplinary Research",
       "credits": 2.0,
-      "description": "Studies how to research specialized legal topics, highlighting both legal and nonlegal sources that reflect modern practice. Uses a combination of lectures, interactive hands-on sessions, real-life examples, and an in-depth final research and writing project. Students may explore state, federal, and international primary laws and regulations, as well as relevant nonlegal sources and how they interact with the law. Researches both print and electronic sources. Emphasizes different specialized topics such as health law, environmental law, etc.",
+      "description": "Studies how to research specialized legal topics, highlighting both legal and nonlegal sources in print and electronic resources. Explores state, federal, and international primary laws and regulations, as well as relevant nonlegal sources and how they interact with the law. Emphasizes different specialized topics such as health law and environmental law. Focuses on developing skills in identifying, accessing, and evaluating specialized legal materials. Uses a combination of lectures; interactive hands-on sessions; real-life examples; and an in-depth, final research and writing project.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2259,7 +2293,7 @@
       "number": "7629",
       "title": "Inside Counsel",
       "credits": 2.0,
-      "description": "The legal departments of corporations represent a significant practice opportunity for lawyers interested in corporate and regulatory law. These corporate departments operate on a different model than law firms and regulatory agencies and offer careers that combine legal disciplines with business management skills. This course will examine the roles of corporate counsel inside U.S.-based corporations and not-for-profits, specifically: the value proposition of corporate counsel, common responsibilities, unique ethical issues, the implications of the Sarbanes-Oxley and Dodd-Frank acts, corporate governance, risk management and litigation. Students will be graded on their responses to mid-term and final essay questions and the demonstration of their comprehension of the subject matter in the classroom. Prior study of Corporate Law is preferred but not required.",
+      "description": "Examines the role of corporate counsel inside U.S.-based corporations and not-for-profits─ specifically the value proposition of corporate counsel, common responsibilities, unique ethical issues, implications of the Sarbanes-Oxley and Dodd-Frank Acts, corporate governance, risk management, and litigation. Explores how legal departments of corporations represent a significant practice opportunity for lawyers interested in corporate and regulatory law, as these corporate departments operate on a different model than law firms and regulatory agencies and offer careers that combine legal disciplines with business management skills. Prior study of corporate law is preferred but not required.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2268,12 +2302,18 @@
       "number": "7633",
       "title": "Intellectual Property Law Clinic",
       "credits": 8.0,
-      "description": "Requires students to provide intellectual property-related legal services to students, ventures, and other participants in the university’s entrepreneurship and innovation ecosystem under the supervision of clinical faculty and staff. The clinic includes opportunities to address issues related to intellectual property rights, risks, and transactions for individuals and ventures in the university community; to collaborate with faculty and others on intellectual property learning modules, policies, presentations, or workshops for this community; to develop practice skills; and to participate in the organization and operation of a legal services office.",
+      "description": "Offers students an opportunity to provide intellectual property legal services to students, ventures, and other participants in the university’s entrepreneurship ecosystem, as well as to individuals and small businesses throughout New England. Students may address issues related to intellectual property rights, risks, and transactions; collaborate with faculty and others on intellectual property learning modules, policies, presentations, or workshops; develop practice skills; and participate in the organization and operation of a legal services office.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
             "course": "LAW 7369"
+          },
+          {
+            "course": "LAW 7369"
+          },
+          {
+            "course": "LAW 7638"
           },
           {
             "course": "LAW 7638"
@@ -2287,7 +2327,7 @@
       "number": "7634",
       "title": "Energy Law and Policy",
       "credits": 3.0,
-      "description": "Climate change and carbon emissions are the most important issues shaping energy law and policy in the United States today. This course will provide an introduction to U.S. energy law and policy in that context and will be organized around the regulated electricity sector which alone produces about 40% of all U.S. greenhouse gas emissions. We will explore the dynamics of natural monopoly markets, public utilities and their regulation, and the interplay of state and federal power in the energy space. We examine coal, natural gas, nuclear power, hydropower, renewables, storage, and efficiency for their impacts and potential as electrical energy sources in a carbon-constrained world. We conclude by investigating the legal potential to proactively foster and sustain a transition to a carbon-sustainable energy economy.",
+      "description": "Introduces U.S. energy law and policy with a specific focus on the regulated electricity sector. Explores the dynamics of natural monopoly markets, public utilities and their regulation, and the interplay of state and federal power in the energy space. Examines coal, natural gas, nuclear power, hydropower, renewables, storage, and efficiency for their impacts and potential as electrical energy sources in a carbon-constrained world. Concludes by investigating the legal potential to proactively foster and sustain a transition to a carbon-sustainable energy economy.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2305,7 +2345,7 @@
       "number": "7638",
       "title": "Trademark Law",
       "credits": 3.0,
-      "description": "This course is about the intellectual property right known as a “trademark,” a word or symbol that distinguishes source of goods or services from each other. Trademark law is part of unfair competition law, which protects against a variety of “deceptive” or “inequitable” business practices. The regulation of trademarks is considered a way to maintain a fair and efficient marketplace for businesses and consumers. This course will cover common and statutory law of trademark as well as deepening your legal analysis of intellectual property rights. The course will offer insight into how trademarks live and develop in culture so you can draw both on the black letter law and its nuances as well as on your experience as a consumer in order to advise clients.",
+      "description": "Examines the intellectual property right known as a trademark, a distinctive word or symbol that indicates the source of goods or services. Explores how trademark law is part of unfair competition law, which protects against a variety of \"deceptive\" or \"inequitable\" business practices. Considers the regulation of trademarks as a way to maintain a fair and efficient marketplace for businesses and consumers. Covers common and statutory law of trademark as well as deepening legal analysis of intellectual property rights. Analyzes how trademarks live and develop in culture so students can draw both on the black-letter law and its nuances, as well as on their experience as consumers, in order to advise clients.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2314,7 +2354,7 @@
       "number": "7640",
       "title": "Information Security Law",
       "credits": 3.0,
-      "description": "This seminar will conduct a bleeding edge discussion of the state of the legal art in information security law – what is known in DC policy circles as “cybersecurity.” While this field of law started in the 2000’s by focusing on data breach notification, today the stakes are much higher. Consumer products that rely on computer code can now kill us, and one appropriately targeted zero day exploit could potentially devastate our economy. We will discuss why data breaches continue to run rampant, what duties of data care and code safety are owed to consumers, and how various government agencies are tackling the consumer protection and national security issues implicated by vulnerable computer code. You will never look at your gadgets the same way again.",
+      "description": "Introduces information security law, also known as cybersecurity law. Examines data breach notification and the security risks from hackers in consumer products. Discusses why data breaches have proliferated, what duties of data care and code safety are owed to consumers, and how various government agencies are tackling the consumer protection and national security issues implicated by vulnerable computer code.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2323,9 +2363,17 @@
       "number": "7647",
       "title": "Trial Practice",
       "credits": 2.0,
-      "description": "An introduction to the tactical and strategic problems commonly encountered in the trial of civil and criminal cases is the main objective of this course. Attention is given to the forensic aspects of trial practice, techniques of direct and cross-examination, and opening and closing summations. Prior course work in Evidence is a prerequisite.",
+      "description": "Introduces the tactical and strategic problems commonly encountered in the trial of civil and criminal cases. Discusses forensic aspects of trial practice, techniques of direct and cross-examination, and opening and closing summations. Offers students an opportunity to develop their competency in persuasive oral advocacy and courtroom strategy.",
       "prerequisites": {
-        "course": "LAW 7332"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "LAW 7332"
+          },
+          {
+            "course": "LAW 7332"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -2334,7 +2382,7 @@
       "number": "7651",
       "title": "Human Rights in the United States",
       "credits": 3.0,
-      "description": "This seminar explores the role of international human rights frameworks and strategies in social justice lawyering in the United States. On a range of issues, lawyers are bringing human rights home. They are using human rights mechanisms of the United Nations and Inter-American Human Rights system, drawing on international human rights and comparative foreign law in litigation before U.S. courts, and engaging in other human rights-based advocacy such as documentation, organizing, and human rights education. Advocates find that a human rights approach provides important strategic leverage and highlights the interdependence of economic, social, cultural, civil, and political rights. We will use skills exercises, assignments and real-world problems to develop practical skills to address policies on local, state and national levels, and to support social movements.",
+      "description": "Explores the role of international human rights frameworks and strategies in social justice lawyering in the United States. Explores how lawyers are bringing human rights home on a range of issues by using human rights mechanisms of the United Nations and Inter-American Human Rights System; drawing on international human rights and comparative foreign law in litigation before U.S. courts; and engaging in other human rights-based advocacy such as documentation, organizing, and human rights education. Discusses how a human rights approach provides important strategic leverage and highlights the interdependence of economic, social, cultural, civil, and political rights. Through skills exercises, assignments, and real-world problems, offers students an opportunity to develop practical skills to address policies on local, state, and national levels and to support social movements.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2343,7 +2391,7 @@
       "number": "7652",
       "title": "Strategies for Bar Success",
       "credits": 3.0,
-      "description": "This course eases students into bar exam preparation by focusing on contextualized substantive review of the most heavily tested topics on the bar. It overlays skill instruction on reading comprehension, issue identification, rule mastery, critical thinking, legal analysis and recognition of distractor skills. Students gain a strong conceptual understanding and in-depth knowledge of highly tested doctrines across two MBE subjects and will be taught how to develop, use and apply a flexible but strong analytical framework to solve bar exam problems. Limited to third-year law students.",
+      "description": "Focuses on contextualized substantive review of the most heavily tested topics on the bar. Overlays skill instruction on reading comprehension, issue identification, rule mastery, critical thinking, legal analysis, and recognition of distractor skills. Offers students an opportunity to build a strong conceptual understanding and in-depth knowledge of highly tested doctrines across several multistate bar examination subjects and to obtain training on how to develop, use, and apply a flexible but strong analytics and reasoning framework to solve bar exam problems.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2358,19 +2406,13 @@
       "attributes": []
     },
     {
-      "number": "7657",
-      "title": "Immigrant Justice Clinic",
-      "credits": 8.0,
-      "description": "Offers students, under the supervision of clinical faculty and staff, an opportunity to provide legal services to noncitizen clients and to develop knowledge and skills in immigration law practice. Students interview, research, plan, investigate, write, counsel, negotiate, and advocate for their clients. Emphasizes client-centered lawyering, cross-cultural awareness, trauma-informed interviewing, and self-care.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7660",
-      "title": "Disrupt the Cradle-to-Prison Pipeline—Restorative Justice",
-      "credits": 3.0,
-      "description": "This course examines how we construct the cradle/school to prison pipeline while focusing on several pivotal points that channel largely poor Black and Brown students into it. With an eye toward practical application, students will learn about, critique, problem solve and create pipeline disrupting solutions looking to restorative justice as a time-honored justice paradigm alternative to our western constructions.",
+      "number": "7664",
+      "title": "Law and Inequality",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Explores inequality from a range of disciplinary perspectives and the difference that can make in a variety of legal, social, and economic contexts. Elaborates methodologies for mapping ways diverse legal regimes and concepts contribute to the production, recognition, reinforcement, and maintenance of hierarchies of privilege and disadvantage between individuals, groups, localities, regions, and nations. Identifies key legal drivers in the production of inequities and explores how they shift bargaining power, redistribute resources, or otherwise ameliorate inequities or their adverse consequences. Students research a circumstance of inequality and develop a legal map to engage it. With permission of instructor, students may register for an additional credit by completing a substantial paper or equivalent writing project (in addition to other course requirements) as required by the instructor.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2379,16 +2421,16 @@
       "number": "7669",
       "title": "Law and Technology",
       "credits": 3.0,
-      "description": "Examines law and technology as both processes and artifacts endemic to human groups, who have been toolmakers and lawmakers since human history has been recorded. Yet, in recent times, development of technological things has outpaced development in the law, bringing about what we might describe as new “design challenges” within the law. Considers several disputes around ownership and property, and safety and risk, and offers students a conceptual framework from the social study of science and technology by which to understand technology and the law. Focuses on the regulation of “digital labor” and algorithmically convened labor markets, such as Uber.",
+      "description": "Examines law and technology as both processes and artifacts endemic to human groups, who have been toolmakers and lawmakers since human history has been recorded. Yet, in recent times, development of technological things has outpaced development in the law, bringing about what we might describe as new “design challenges” within the law. Considers several disputes around ownership and property and safety and risk and presents a conceptual framework from the social study of science and technology by which to understand technology and the law. Focuses on the regulation of “digital labor” and algorithmically convened labor markets, such as Uber.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
       "number": "7672",
-      "title": "Data Privacy Compliance in the 21st Century",
+      "title": "Data Privacy Compliance",
       "credits": 3.0,
-      "description": "Introduces the tools needed to navigate the complex world of data privacy regulation. By following the growth of a hypothetical startup company as it confronts new data privacy and security issues, offers students an opportunity to evaluate the principles grounding data privacy regulations around the world; examine emerging data privacy legal regimes of various countries; and consider privacy laws, why they matter, and what compliance concerns they raise. Encompasses privacy and security issues involved in regulatory compliance, data breach response, government and internal investigations, litigation, and mergers and acquisitions. Also considers special circumstances of cross-border litigation and transactions, the special problems raised by supply chains and corporate social responsibility, and emerging concerns arising from big data and increasingly sophisticated artificial intelligence.",
+      "description": "Examines comprehensive frameworks governing data privacy and protection across federal, state, and international jurisdictions. Explores constitutional privacy rights; surveillance regulations; national security considerations; and sector-specific compliance requirements including healthcare, financial services, and workplace contexts. Addresses privacy theory foundations and their practical application in compliance strategies. Covers statutory guidance from federal agencies and emerging state privacy legislation. Investigates privacy torts, standing requirements, and data breach response protocols. Analyzes global data protection laws and cross-border compliance challenges. Introduces data broker regulations and workplace privacy considerations. Offers students an opportunity to prepare for professional compliance certification pathways while examining current trends and future developments in data privacy law and regulatory enforcement.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2406,7 +2448,7 @@
       "number": "7675",
       "title": "Information Privacy Law",
       "credits": 3.0,
-      "description": "Information privacy law concerns the collection, use, and disclosure of personal information. This course will address the interrelated web of torts, statutes, crimes, contracts, property rules, administrative regulations, procedural rules, and constitutional provisions that implicate information privacy. Topics covered in this course include: the difficulty in conceptualizing privacy, justifications for protecting privacy, privacy and the press, conflicts between privacy and free speech, wiretapping and government surveillance, national and international data protection frameworks, privacy and social media, anonymity, and the rules for cross-border data flows.",
+      "description": "Discusses the legal aspects of collection, use, and disclosure of personal information. Examines the interrelated web of torts, statutes, crimes, contracts, property rules, administrative regulations, procedural rules, and constitutional provisions that implicate information privacy. Covers the difficulty in conceptualizing privacy, justifications for protecting privacy, privacy and the press, conflicts between privacy and free speech, wiretapping and government surveillance, national and international data protection frameworks, privacy and social media, anonymity, and the rules for cross-border data flows.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2415,7 +2457,7 @@
       "number": "7678",
       "title": "Legal Research Workshop",
       "credits": 1.0,
-      "description": "Designed to assist students in developing and executing research plans for writing projects. Requires students to identify an appropriate project early in the course; the project may be one that the student creates specifically for the course, or it could be one undertaken for a law review note, a seminar, or an independent study in which the student is concurrently enrolled. Includes readings, lectures, demonstrations, and in-class and homework exercises, as well as peer and instructor feedback focused on research strategies. Requires students to periodically present their research strategies and results for their writing projects.",
+      "description": "Designed to assist students in developing and executing research plans for writing projects. Students identify an appropriate project early in the course, which may be one created specifically for the course or one undertaken for a law review note, a seminar, or an independent study in which the student is concurrently enrolled. Includes readings, lectures, demonstrations, and in-class and homework exercises, as well as peer and instructor feedback focused on research strategies. Requires students to periodically present their research strategies and results for their writing projects.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2424,16 +2466,16 @@
       "number": "7679",
       "title": "Race and the Law",
       "credits": 3.0,
-      "description": "This course examines the role of the law in perpetuating and alleviating racial inequality in the United States. We will interrogate historical and contemporary debates about the law and racial inequality. We will bear down on a question that is often asked by critical race scholars: why does inequality persist despite massive legal transformation especially following the civil rights movement? We will approach this question by examining how the law and legal institutions shape racial identity and how ideas about race shape legal institutions. The course will also consider tensions and debates within critical race theory and among race scholars. We will excavate the stakes of these debates and the consequences (intended and unintended) of various legal reform projects designed to address racial inequality.",
+      "description": "Examines the role of the law in creating, perpetuating, and reducing racial inequality in the United States. Interrogates historical and contemporary actions—legal, legislative, and political—and their racial impact. Uses an expansive theoretical lens to examine and critique the persistence of racial disparity and discrimination in structural systems in light of massive legal transformation, especially following the Civil Rights Movement. Explores how the law and legal institutions shape racial identity and how ideas about race shape legal institutions. Considers and critiques approaches used by race scholars to understand the consequences (intended and unintended) of various legal reform projects designed to address racial inequality.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "7682",
-      "title": "Historical Injustice and Reparation",
+      "number": "7681",
+      "title": "Law and Biotechnology",
       "credits": 3.0,
-      "description": "Examines historical injustice and reparation with a focus on the Afro-diasporic experience.Explores the genealogy of reparation as a tool of law and politics and associated debates in law, political theory, ethics, and history. Considers themes such as the effect of the passage of time on claims; determination of who owes and who is owed; the responsibility of state and nonstate actors, collectives, and “implicated subjects”; the mechanics of reparations; and the role of state apologies, truth projects, and memory sites. Looks at the global movement to address slavery's legacy. Explores gendered practices, land redistribution claims, and design and implementation challenges. Uses case studies to deepen discussion and examine current movements for redress and reparation.",
+      "description": "Seeks to identify and explore important ethical, legal, and policy issues associated with the challenges resulting from developments in biotechnology and the life sciences. Considers the ways in which existing legal approaches and instruments dealing with such critical issues as genetic discrimination, intellectual property rights in biotechnology, regulating new reproductive technologies, drug development, informed consent, responsible conduct of research, forensic uses of DNA, and privacy have been thrown into question. Examines how these developments are reconstituting concepts of legal rights and obligations of people in relation to their governing institutions. Focuses particularly on human genetics.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2444,44 +2486,6 @@
       "credits": 3.0,
       "description": "Examines what it means to be a person in the eyes of the law and the rhetorical framing that infuses our conception of living subjects, legal persons, nonpersons, and things. The line between human and subhuman, or person and thing, is given new urgency when limits of incarceration, torture, human trafficking, medical experimentation, and right to due process turn on new meanings of words like enemy combatant, IQ, underclass, market choice, race, terror, or illegal immigration. Who we consider a person, who we label less than fully endowed, are questions that inform some of the most urgent legal and political questions of our time. Explores legal opinions; historical documents; and texts in philosophy, anthropology, linguistics, literary criticism, and popular culture.",
       "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7687",
-      "title": "First Amendment Seminar: The Religion Clauses",
-      "credits": 3.0,
-      "description": "Examines the religion clauses of the First Amendment and related statutory regimes, emphasizing the U.S. Supreme Court’s free exercise and establishment clause jurisprudence. Evaluates individual and institutional claims of religious liberty. Explores the implications of government funding of religious institutions and activities. Discusses government expression or endorsement of religious messages.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7688",
-      "title": "Social Policy and the Tax Code",
-      "credits": 3.0,
-      "description": "Offers students an opportunity to obtain an understanding of how tax laws shape and are a major driver of social policy. Emphasizes the redistributive qualities and potentials of such policies and examines their design, implementation, and administration. Draws on legal methodologies as well as those from allied social sciences. May include such topics as healthcare, housing, and income support.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7690",
-      "title": "Introduction to Writing for Litigation",
-      "credits": 1.0,
-      "description": "Introduces students to litigation documents, including engagement and demand letters; complaints; answers; discovery requests (such as interrogatories, requests for the production of documents, and requests for admission); and motions. Considers audience, purpose, and components in drafting a document, taking into account relevant strategic considerations and general principles that apply to all litigation documents. Examines the protections associated with attorney-client privilege and attorney work product. Offers students an opportunity to review and draft a variety of litigation documents, to find and modify sample documents, and to find and apply the rules of the relevant jurisdiction.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7691",
-      "title": "Housing Rights Advocacy Clinic",
-      "credits": 8.0,
-      "description": "Offers students an opportunity to obtain hands-on experience in litigating housing-related matters, under the close supervision of clinical faculty. Students advise and represent clients facing housing insecurity, with opportunities to appear in court and before agency officials. Emphasizes ethical, client-centered representation; housing law and procedure; the practice of core litigation skills; and collaborative work with local community organizations advancing housing justice. Students attend weekly seminar and supervision meetings to develop their casework, as well as examine and think critically about the role of the lawyer, client, courts, and community in housing rights advocacy.",
-      "prerequisites": {
-        "course": "LAW 7332"
-      },
       "corequisites": [],
       "attributes": []
     },
@@ -2501,16 +2505,16 @@
       "number": "7693",
       "title": "Business Organizations",
       "credits": 4.0,
-      "description": "Exposes students to a broad range of fundamental entity, business, and planning concepts encountered when representing corporations, limited liability companies, and partnership entities. Includes choice of entity, agency law, ethical challenges, and corporate transition planning. Beyond core doctrinal issues, the course focuses on the practical and analytical challenges of the business planning and client counseling process. Additional topics may include oppression avoidance, controlling shareholder risks, hostile takeover bids, executive compensation, risk management, and more.",
+      "description": "Exposes students to a broad range of fundamental entity, business, and planning concepts encountered when representing corporations, limited liability companies, and partnership entities. Includes choice of entity, agency law, ethical challenges, and corporate transition planning. Beyond core doctrinal issues, focuses on the practical and analytical challenges of the business planning and client counseling process. Additional topics may include oppression avoidance, controlling shareholder risks, hostile takeover bids, executive compensation, risk management, and more.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "7695",
-      "title": "Drug and Device Innovation: Law and Policy",
+      "number": "7694",
+      "title": "Wills, Trusts, and Estates",
       "credits": 3.0,
-      "description": "Introduces students to innovation law and policy in the context of drugs and devices regulated by the Food  Drug Administration (FDA). Surveys the suite of incentives policymakers can use, purposefully or inadvertently, to shape drug and device development. Combines analysis from law, economics, and health policy.",
+      "description": "Covers aspects of inheritance such as intestacy, wills, trusts, and future interests. Focuses on rights of spouses and children, fiduciary duty, and other issues.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2546,7 +2550,7 @@
       "number": "7699",
       "title": "Efforts in Criminal Law Minimalism",
       "credits": 3.0,
-      "description": "Examines several recent efforts in criminal legal reform. Introduces the recent abolition movement, emphasizing an understanding of critiques of policing and mass incarceration. Presents several efforts to change the criminal system including efforts to halt racialized policing; remove police from particular settings; reform pretrial detention; implement change within the trial process, such as Batson reform; and reform sentencing. These reform efforts include legislative reform, judicial challenges, community organization, and public media campaigns. Offers students an opportunity to develop their knowledge of advanced criminal procedure in the context of ongoing efforts to change a deeply flawed system.",
+      "description": "Examines recent efforts in criminal legal reform including legislative reform, judicial challenges, community organization, and public media campaigns. Introduces modern abolitionist critiques of policing and mass incarceration and some responses. Presents several reforms to change the U.S. criminal legal system including efforts to remove police from particular settings, reforms to pretrial detention, changing the system of public defense, changing the jury selection process/Batson reform, eliminating felony murder,  and addressing draconian criminal sentencing.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2563,13 +2567,28 @@
             "course": "LAW 7369"
           },
           {
+            "course": "LAW 7369"
+          },
+          {
+            "course": "LAW 7501"
+          },
+          {
             "course": "LAW 7501"
           },
           {
             "course": "LAW 7590"
           },
           {
+            "course": "LAW 7590"
+          },
+          {
             "course": "LAW 7638"
+          },
+          {
+            "course": "LAW 7638"
+          },
+          {
+            "course": "LAW 7633"
           },
           {
             "course": "LAW 7633"
@@ -2583,7 +2602,7 @@
       "number": "7701",
       "title": "Strategies for Bar Success: Advanced Skills",
       "credits": 2.0,
-      "description": "Continues students’ bar exam preparation by focusing on contextualized substantive review of the most heavily tested topics on the bar exam. Overlays advanced skill instruction on reading comprehension, issue identification, rule mastery, critical thinking, legal analysis, and recognition of distractor skills. Offers students an opportunity to gain a conceptual understanding and in-depth knowledge of highly tested doctrines across multistate bar exam subjects and to develop, use, and apply a flexible but strong analytical framework to solve bar exam problems. Graded on a pass/fail basis.",
+      "description": "Continues students’ bar exam preparation by focusing on contextualized substantive review of the most heavily tested topics on the bar exam. Overlays advanced skill instruction on reading comprehension, issue identification, rule mastery, critical thinking, legal analysis, and recognition of distractor skills. Offers students an opportunity to gain a conceptual understanding and in-depth knowledge of highly tested doctrines across multistate bar exam subjects and to develop, use, and apply a flexible but strong analytical framework to solve bar exam problems. Graded on a credit/fail basis.",
       "prerequisites": {
         "course": "LAW 7652"
       },
@@ -2603,7 +2622,7 @@
       "number": "7703",
       "title": "Spatial Justice, Legal Ethnography, and the Lawscape",
       "credits": 2.0,
-      "description": "Surveys the intersections of law, space, and society through the lenses of spatial justice and legal ethnography. Focuses on critical analysis of the concepts of spatial justice, alongside contemporary perspectives on reparative spatial futures and intersectionality. Examines the lawscape; the role of the body; and the atmosphere in shaping how legal frameworks and spatial arrangements influence social justice issues, power dynamics, and access to resources. Offers students an opportunity to engage with creative methods in presenting their site-based ethnographic research, integrating experiential with legal analysis. Designed to prepare students to advocate for fair and inclusive policies in areas such as housing disparities, environmental justice, and urban planning.",
+      "description": "Examines the intersections of law, space, and society through the lenses of spatial justice and legal ethnography. Explores foundational and contemporary theories addressing how legal frameworks interact with spatial arrangements, social institutions, and power dynamics. Topics include the socio-spatial dialectic, the \"lawscape,\" intersectionality, reparative spatial futures, and participatory and ethnographic research methods. Incorporates site-based inquiry and socio-legal research practices that connect theoretical frameworks to lived environments. Offers students an opportunity to critically analyze spatial inequities in areas such as housing, environmental justice, and urban governance and to consider how legal systems both shape and respond to spatial injustice. Uses written presentations, oral presentations, and visual forms of analysis to explore the relationship between law and spatial experience.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2620,19 +2639,16 @@
             "course": "LAW 7336"
           },
           {
+            "course": "LAW 7336"
+          },
+          {
+            "course": "LAW 7550"
+          },
+          {
             "course": "LAW 7550"
           }
         ]
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7705",
-      "title": "Law and Global Technology",
-      "credits": 3.0,
-      "description": "Investigates the interaction between law and technology through an infrastructural lens. Offers technical introductions to digital infrastructures—including ad tech, the internet, and AI—and discusses the legal issues surrounding those infrastructures. Explores the difficulties in applying long-standing regulatory theories to emerging technology by studying recent legislation, litigation, and scholarship. No prior technical experience is required or expected.",
-      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -2648,6 +2664,12 @@
             "course": "LAW 6101"
           },
           {
+            "course": "LAW 6101"
+          },
+          {
+            "course": "LAW 6314"
+          },
+          {
             "course": "LAW 6314"
           }
         ]
@@ -2656,10 +2678,19 @@
       "attributes": []
     },
     {
-      "number": "7927",
-      "title": "Applied Learning Experience for JD/MPH",
+      "number": "7707",
+      "title": "Virtual Legal Advocacy Clinic",
+      "credits": 4.0,
+      "description": "Focuses on developing advocacy and representation skills in a practice environment that uses virtual platforms. Students obtain hands-on experience conducting legal research, investigations, interviews, analysis, document drafting, and counseling under the supervision of clinical faculty and staff. Offers students an opportunity to enhance substantive legal knowledge, strengthen practical lawyering skills, and form ethical professional identities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7708",
+      "title": "Liberation Lawyering",
       "credits": 3.0,
-      "description": "Work completed for this individualized instruction course fulfills the capstone requirement for the Master of Public Health (MPH) portion of the Dual JD/MPH Program with Tufts University. The requirement is known as the Applied Learning Experience and it earns 3 Northeastern University Law school credits. Students fulfilling this required course spend a minimum of 160 hours in a public health agency completing a project related to public health and law. It is both an academic and practice experience where students use their legal and public health knowledge and skills to undertake a discrete project in a public health agency. A final paper and presentation are required.",
+      "description": "Explores movement lawyering (understood as lawyering in support of left social movements) through case studies and perspectives of grassroots social movements, critical theory and radical traditions, and community lawyering. Topics include the changing nature of liberatory movements today, roles and responsibilities of movement lawyers, and legal mechanisms used to support both resistance and worldmaking movements.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2668,7 +2699,7 @@
       "number": "7928",
       "title": "LSSC Lawyering Fellow Seminar",
       "credits": 1.0,
-      "description": "Offers additional support and training for students serving as Lawyering Fellows for the social justice component of the Legal Skills in Social Context (LSSC) class for first-year law students. Explores social justice topics covered in LSSC in greater depth. Offers students an opportunity to obtain training in the skills necessary to facilitate discussions of those topics. Examines theories of effective collaboration and group development and introduces techniques for fostering successful team dynamics. Provides guidance on how to engage in effective critique and feedback and how to supervise students in their project work.",
+      "description": "Offers additional support and training for students serving as Lawyering Fellows for the social justice component of the Legal Skills in Social Context class for first-year law students. Explores social justice topics covered in LSSC in greater depth. Offers students an opportunity to obtain training in the skills necessary to facilitate discussions of those topics. Examines theories of effective collaboration and group development and introduces techniques for fostering successful team dynamics. Provides guidance on how to engage in effective critique and feedback and how to supervise students in their project work.",
       "prerequisites": [],
       "corequisites": [
         "LAW 7931"
@@ -2680,18 +2711,18 @@
       "title": "Moot Courts and Legal Competitions",
       "credits": {
         "min": 1.0,
-        "max": 4.0
+        "max": 3.0
       },
-      "description": "This individualized instruction program allows students to participate in a variety of professional competitions: moot court, mock trial, mediation, client counseling and writing competitions. Under the supervision of a faculty member, participants in these competitions devote substantial time and effort to researching, writing, and preparing for oral arguments or advocacy. In recognition of the effort required to participate in these competitions, participants are awarded up to three (3) credits for the experience, provided they satisfactorily (i) complete the required written submission, (ii) participate in a number of rounds of practice argument, and (iii) attend and participate in the competition. May be repeated up to five times for up to 6 total credits.",
+      "description": "Offers students an opportunity to participate in professional skills competitions such as moot court, mock trial, mediation, client counseling, and writing competitions. Requires students to complete a written submission; participate in practice argument rounds, if applicable; and attend and participate in the competition. May be repeated up to five times for up to 6 total credits.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
       "number": "7931",
-      "title": "LSSC Lawyering Fellow",
+      "title": "Legal Skills in Social Context: Lawyering Fellow",
       "credits": 3.0,
-      "description": "Assists LSSC faculty in all aspects of the first-year LSSC course. Working closely with a supervising faculty member, Lawyering Fellows provide critique and feedback on first-year students’ written and oral work, create legal research plans, identify areas for field research, communicate with representatives from the partner organizations, and help to foster strong team dynamics and development. May be repeated once.",
+      "description": "Assists lawyering fellows in all aspects of this first-year legal skills course. Working closely with a supervising faculty member, lawyering fellows critique and offer feedback on first-year students’ written and oral work, create legal research plans, identify areas for field research, communicate with representatives from the partner organizations, and help to foster strong team dynamics and development. May be repeated once.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2706,13 +2737,37 @@
       "attributes": []
     },
     {
+      "number": "7934",
+      "title": "Law Review - Senior Editor",
+      "credits": {
+        "min": 0.5,
+        "max": 1.0
+      },
+      "description": "Offers those who have completed one term of staff work as associate editor or who have otherwise been promoted at the discretion of the editorial board the position of senior editor at the Northeastern University Law Review. Senior editors work under the supervision of faculty advisors and editorial board members in support of the mission of the Law Review: to publish legal scholarship in its flagship print journal and online platforms. Tasks may include citation checking, editing, supervision of associate editors, assistance with the writing competition and new member selection, and other duties in support of publishing content. Students may take up to 1 credit in each of their second-year and third-year terms with permission of the instructor. Graded on a credit/fail basis. May be repeated three times for a maximum of two semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7935",
+      "title": "Law Review─Editorial Board Member",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Offers editorial board members of the Northeastern University Law Review an opportunity to work under supervision of the faculty advisors and executive editors to develop articles and content, facilitate events and the publication process, and work with staff and senior staff. Individual position descriptions define additional specific responsibilities for each position. This course is graded on a credit/fail basis. May be repeated two times for a maximum of 3 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7936",
-      "title": "Law Review - Executive Editor",
+      "title": "Law Review─Executive Editor",
       "credits": {
         "min": 1.0,
         "max": 3.0
       },
-      "description": "The Northeastern University Law Review publishes legal scholarship in its flagship print journal and on-line platforms. Operations are managed by an Editorial Board, led by three Executive Editors per rotation: Editor-in-Chief, Managing Editor, and Executive Articles Editor. Executive Editors work under supervision of the Faculty Advisors. In the broadest sense, they manage operations, production, and staff, make editorial choices, and ensure ethical operation that meets legal and financial obligations. Though their specific roles require different specific actions, as defined in their position descriptions, Executive Editors often share work and are ultimately responsible for doing what is necessary to ensure a successful Law Review. This course is graded on a credit/fail basis. May be repeated two times for a maximum of five semester hours.",
+      "description": "Offers executive editors of the Northeastern University Law Review an opportunity to work under supervision of the faculty advisors to manage operations, production, and staff; make editorial choices; and ensure ethical operation that meets legal and financial obligations. Though their specific roles require different actions, as defined in their position descriptions, executive editors often share work and are ultimately responsible for doing what is necessary to ensure a successful Law Review. This course is graded on a credit/fail basis. May be repeated two times for a maximum of 5 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2722,9 +2777,9 @@
       "title": "Teaching Assistant",
       "credits": {
         "min": 1.0,
-        "max": 3.0
+        "max": 2.0
       },
-      "description": "Working under the direct supervision of a full-time faculty member, an upper level student in good academic standing may serve as a teaching assistant for first year or upper level courses. Teaching assistants may be required to attend classes and complete all reading assignments. Other responsibilities may include, but are not limited to, conducting review sessions, classroom exercises or other forms of direct instruction; holding office hours or meetings with individual students taking the course; and assisting in the development of course materials and assessments. In addition, teaching assistants are expected to meet regularly with the professor. May be repeated three times for a maximum of six hours.",
+      "description": "Offers upper-level students in good academic standing an opportunity to serve as a teaching assistant for first-year or upper-level courses. Teaching assistants work under the direct supervision of a full-time faculty member and may be required to attend classes and complete all reading assignments. Other responsibilities may include, but are not limited to, conducting review sessions, classroom exercises, or other forms of direct instruction; holding office hours or meetings with individual students taking the course; and assisting in the development of course materials and assessments. Teaching assistants are expected to meet regularly with the professor. May be repeated once for a maximum of two hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2734,9 +2789,9 @@
       "title": "Research Assistant",
       "credits": {
         "min": 1.0,
-        "max": 3.0
+        "max": 2.0
       },
-      "description": "An upper level student in good standing may serve as a faculty Research Assistant. The student will work with a full-time faculty member on a supervised project relating to the faculty member's teaching or scholarly activities. The project will provide the student with supervised research and/or writing experience as well as an opportunity to engage in analytical discourse with the faculty member. May be repeated three times for a maximum of six hours.",
+      "description": "Offers upper-level students in good standing an opportunity to serve as a faculty research assistant. Students work with a full-time faculty member on a supervised project relating to the faculty member's teaching or scholarly activities. Offers supervised research and/or writing experience as well as an opportunity to engage in analytical discourse with the faculty member. May be repeated once for a maximum of 2 credit hours in total.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2754,9 +2809,9 @@
     },
     {
       "number": "7941",
-      "title": "Public Interest / Public Service Field Placement",
+      "title": "Field Placement (350 hours)",
       "credits": 7.0,
-      "description": "Offers students an opportunity to complete a field placement of at least 350 hours with a public interest organization, a government entity, or a judge. Fieldwork may assist students in expanding both their legal knowledge and their understanding of the legal profession, as well as an opportunity to develop their skills related to research and writing on legal and policy matters, preparation of written and oral presentations, client interviewing and advocacy, and/or litigation preparation.",
+      "description": "Provides a field placement of at least 350 hours under the supervision of an attorney. Fieldwork may assist students in expanding both their legal knowledge and their understanding of the legal profession. Offers students an opportunity to develop their skills related to research and writing on legal and policy matters, preparation of written and oral presentations, client interviewing and advocacy, and/or litigation preparation.",
       "prerequisites": [],
       "corequisites": [
         "LAW 7940"
@@ -2776,26 +2831,10 @@
     },
     {
       "number": "7946",
-      "title": "Field Placement",
+      "title": "Field Placement (300 hours)",
       "credits": 6.0,
-      "description": "Offers students an opportunity to complete a 300-hour field placement under the supervision of an attorney. Fieldwork may assist students in developing skills related to tasks such as researching and writing on legal and policy matters, preparation of written and oral presentations, client interviewing and advocacy, and litigation preparation.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "LAW 7954"
-          },
-          {
-            "course": "LAW 7955"
-          },
-          {
-            "course": "LAW 7956"
-          },
-          {
-            "course": "LAW 7957"
-          }
-        ]
-      },
+      "description": "Provides a 300-hour field placement under the supervision of an attorney. Fieldwork may assist students in expanding both their legal knowledge and their understanding of the legal profession. Offers students an opportunity to develop their skills related to researching and writing on legal and policy matters, preparation of written and oral presentations, client interviewing and advocacy, and litigation preparation.",
+      "prerequisites": [],
       "corequisites": [
         "LAW 7945"
       ],
@@ -2808,16 +2847,16 @@
         "min": 2.0,
         "max": 4.0
       },
-      "description": "Offers students fieldwork under the supervision of an attorney in the public or judicial sector. Students have an opportunity to obtain substantial lawyering experience that is reasonably similar to the experience of a lawyer advising or representing a client or engaging in other lawyering tasks. Includes regular reflection on their work with their faculty supervisor. Comprises 50 hours of fieldwork per credit; students may enroll in the field placement for 2, 3, or 4 credits. May be repeated twice for a maximum of 6 credits.",
+      "description": "Offers students fieldwork under the supervision of an attorney. Students have an opportunity to obtain substantial lawyering experience that is reasonably similar to the experience of a lawyer advising or representing a client or engaging in other lawyering tasks. Includes regular reflection on their work with their faculty supervisor. Comprises 50 hours of fieldwork per credit; students may enroll in the field placement for 2, 3, or 4 credits. May be repeated twice for a maximum of 6 credits.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
       "number": "7954",
-      "title": "Co-op Work Experience - Half-Time",
+      "title": "Co-op Work Experience─Half-Time",
       "credits": 0.0,
-      "description": "Provides eligible students with an opportunity for work experience. May be repeated once.",
+      "description": "Offers eligible students an opportunity for work experience. May be repeated once.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2826,7 +2865,7 @@
       "number": "7955",
       "title": "Co-op Work Experience Abroad - Half-Time",
       "credits": 0.0,
-      "description": "Offers eligible students an opportunity for work experience abroad.",
+      "description": "Offers eligible students an opportunity for work experience abroad. May be repeated once.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2835,7 +2874,7 @@
       "number": "7956",
       "title": "Public Interest and Government Co-op Work Experience - Half-Time",
       "credits": 0.0,
-      "description": "Offers eligible students an opportunity for work experience in a public interest or government setting.",
+      "description": "Offers eligible students an opportunity for work experience in a public interest or government setting. May be repeated once.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2844,7 +2883,7 @@
       "number": "7957",
       "title": "Public Interest and Government Co-op Work Experience Abroad - Half-Time",
       "credits": 0.0,
-      "description": "Offers eligible students and opportunity for work experience in a public interest or government setting abroad.",
+      "description": "Offers eligible students and opportunity for work experience in a public interest or government setting abroad. May be repeated once.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2853,7 +2892,7 @@
       "number": "7964",
       "title": "Co-op Work Experience",
       "credits": 0.0,
-      "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+      "description": "Provides eligible students with an opportunity for work experience. May be repeated twice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2862,7 +2901,7 @@
       "number": "7965",
       "title": "Co-op Work Experience Abroad",
       "credits": 0.0,
-      "description": "Offers eligible students an opportunity for work experience abroad. May be repeated without limit.",
+      "description": "Offers eligible students an opportunity for work experience abroad. May be repeated twice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2871,7 +2910,7 @@
       "number": "7966",
       "title": "Public Interest and Government Co-op Work Experience",
       "credits": 0.0,
-      "description": "Offers eligible students an opportunity for work experience in a public interest or government setting. May be repeated without limit.",
+      "description": "Offers eligible students an opportunity for work experience in a public interest or government setting. May be repeated twice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2880,7 +2919,7 @@
       "number": "7967",
       "title": "Public Interest and Government Co-op Work Experience Abroad",
       "credits": 0.0,
-      "description": "Offers eligible students an opportunity for work experience in a public interest or government setting abroad. May be repeated without limit.",
+      "description": "Offers eligible students an opportunity for work experience in a public interest or government setting abroad. May be repeated twice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -2892,16 +2931,7 @@
         "min": 1.0,
         "max": 6.0
       },
-      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7979",
-      "title": "Legal Technology and Legal Operations",
-      "credits": 1.0,
-      "description": "Examines legal technology concepts and approaches that are currently used in legal practice and will become increasingly important in the future. Legal technology is rapidly transforming both the nature and practice of law. Explores this transformation and its implications. Topics include legal informatics; students consider where legal information resides and how it is manipulated and transmitted.",
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated up to five times for a maximum of 6 credit hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

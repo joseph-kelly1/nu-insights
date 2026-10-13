@@ -2,6 +2,18 @@
   "department": "CHME",
   "courses": [
     {
+      "number": "1899",
+      "title": "Clean Water Design Through Chemical Engineering",
+      "credits": 4.0,
+      "description": "Discusses clean water sustainability, legal and historical regulations, ethics, and chemical engineering. Examines requirements and approaches to achieving clean water through a historical lens, considering the road to local government and institutional regulations. Emphasizes history leading to establishing the Clean Water Act and its impact and compares legal and societal standards in other locations. Addresses case studies including Charles River, Cuyahoga River, and Love Canal, and addresses current challenges including PFAS and desalinated water supplies. Discusses chemical engineering approaches enabling clean water (filtration, reverse osmosis, fluid mechanics), including how associated regulations are established. Includes design, build, and analysis of pilot-scale water treatment systems. Serves as an overall introduction to chemical engineering concepts grounded in societal needs and government and industrial standards.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Societies/Institutions"
+      ]
+    },
+    {
       "number": "1983",
       "title": "Special Topics in Chemical Engineering",
       "credits": {
@@ -34,6 +46,9 @@
             "course": "CHEM 1151"
           },
           {
+            "admission_requirement": "CHEM 233M with a minimum grade of D-"
+          },
+          {
             "course": "CHEM 1161"
           },
           {
@@ -53,13 +68,29 @@
         "type": "AND",
         "courses": [
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "course": "CHME 2308"
           },
           {
-            "course": "MATH 2341"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2341"
+              },
+              {
+                "admission_requirement": "MATH 315M (may be taken concurrently) with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -78,7 +109,15 @@
             "course": "CHME 2308"
           },
           {
-            "course": "MATH 2321"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 2321"
+              },
+              {
+                "admission_requirement": "MATH 316M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -91,13 +130,13 @@
       "credits": 4.0,
       "description": "Covers the first and second laws of thermodynamics and their application to batch and flow systems, heat effects in chemicals, and physical properties/real fluids. Applies basic principles and mathematical relations to the analysis and solution of engineering problems. Taught abroad.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
             "course": "MATH 2321"
           },
           {
-            "course": "CHME 2308"
+            "admission_requirement": "MATH 316M with a minimum grade of D-"
           }
         ]
       },
@@ -203,53 +242,19 @@
             "course": "CHME 2310"
           },
           {
-            "course": "MATH 2341"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "3315",
-      "title": "Chemical Engineering Experimental Design 1",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to obtain hands-on laboratory experience and to develop safety, teamwork, problem-solving, organizational, technical writing, and oral presentation skills. Focuses on fundamental momentum transport principles and skills to develop and design engineering solutions through experiments in the context of the current fields of chemical engineering. Emphasizes the hazards associated with those chemical engineering experiments.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "CHME 2310"
-          },
-          {
             "type": "OR",
             "courses": [
               {
-                "course": "ENGW 3302"
+                "course": "MATH 2341"
               },
               {
-                "course": "ENGW 3315"
+                "admission_requirement": "MATH 315M with a minimum grade of D-"
               }
             ]
           }
         ]
       },
-      "corequisites": [
-        "CHME 3316"
-      ],
-      "attributes": [
-        "NUpath Analyzing/Using Data"
-      ]
-    },
-    {
-      "number": "3316",
-      "title": "Recitation for CHME 3315",
-      "credits": 0.0,
-      "description": "Accompanies CHME 3315. Presents discussions related to laboratory safety, experimental design, data analysis, data presentation, and report writing strategies.",
-      "prerequisites": [],
-      "corequisites": [
-        "CHME 3315"
-      ],
+      "corequisites": [],
       "attributes": []
     },
     {
@@ -269,71 +274,6 @@
         ]
       },
       "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4315",
-      "title": "Chemical Engineering Experimental Design 2",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to obtain hands-on laboratory experience and to develop safety, teamwork, problem-solving, organizational, technical writing, and oral presentation skills. Focuses on the discovery of fundamental heat and mass transport principles. Those fundamentals are used to develop and design engineering solutions through experiments in the context of the current fields of chemical engineering. Focuses on the hazards associated with these chemical engineering experiments and the materials handled during laboratory.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "CHME 3312"
-              },
-              {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "CHME 3315"
-                  },
-                  {
-                    "course": "CS 2510"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ENGL 1102"
-              },
-              {
-                "course": "ENGL 1111"
-              },
-              {
-                "course": "ENGW 1101"
-              },
-              {
-                "course": "ENGW 1111"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [
-        "CHME 4316"
-      ],
-      "attributes": [
-        "NUpath Analyzing/Using Data",
-        "NUpath Writing Intensive"
-      ]
-    },
-    {
-      "number": "4316",
-      "title": "Recitation for CHME 4315",
-      "credits": 0.0,
-      "description": "Accompanies CHME 4315. Presents discussions related to laboratory safety, experimental design, data analysis, data presentation, and report writing strategies.",
-      "prerequisites": [],
-      "corequisites": [
-        "CHME 4315"
-      ],
       "attributes": []
     },
     {
@@ -529,6 +469,26 @@
       "attributes": []
     },
     {
+      "number": "5090",
+      "title": "Foundational Mathematics for Engineers",
+      "credits": 2.0,
+      "description": "Offers students an opportunity to enhance mathematical proficiency in preparation for more advanced courses in engineering. Focuses on key topics such as algebra, calculus, linear algebra, and ordinary and partial differential equations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5091",
+      "title": "Foundational Mathematics for Chemical Engineers",
+      "credits": 2.0,
+      "description": "Offers students an opportunity to enhance their applied mathematical proficiency. Focuses on the methods used in chemical engineering calculations including algebra, calculus, series and sequences, linear algebra, and ordinary and partial differential equations.",
+      "prerequisites": {
+        "course": "CHME 5090"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5100",
       "title": "Applied Mathematics for Chemical Engineers",
       "credits": 4.0,
@@ -549,6 +509,9 @@
             "course": "MATH 2341"
           },
           {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
+          },
+          {
             "admission_requirement": "graduate program admission"
           }
         ]
@@ -566,6 +529,9 @@
         "courses": [
           {
             "course": "MATH 2341"
+          },
+          {
+            "admission_requirement": "MATH 315M with a minimum grade of D-"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -631,9 +597,9 @@
     },
     {
       "number": "5185",
-      "title": "Design of Experiments and Ethical Research (DOEER)",
+      "title": "Design of Experiments and Ethical Research",
       "credits": 4.0,
-      "description": "Designed to provide a comprehensive approach to introducing interdisciplinary biochemical engineering research and design of experiments. Through immersion in a collaborative classroom, offers students an opportunity to develop the thought processes, skills, and strategies required for originating and performing high-impact research that broadens scientific knowledge. Emphasizes design of experiments, statistics, and considerations in conducting ethical research. Topics include case studies in conflict of interest, bioethics, laboratory safety, scientific misconduct, authorship and publication, literature and peer review, data visualization and integrity, statistical analysis, and contemporary issues. Students complete online and training modules in laboratory safety and apply their knowledge as they study applications for experiments, including power analysis and rigor, to design scientific aims with peer review. Meets NIH for RCR.",
+      "description": "Provides a comprehensive introduction to interdisciplinary biochemical engineering research and design of experiments. Through immersion in a collaborative classroom, offers students an opportunity to develop the thought processes, skills, and strategies required for originating and performing high-impact research that broadens scientific knowledge. Emphasizes design of experiments, statistics, and considerations in conducting ethical research. Topics include case studies in conflict of interest, bioethics, laboratory safety, scientific misconduct, authorship and publication, literature and peer review, data visualization and integrity, statistical analysis, and contemporary issues. Students complete training modules in laboratory safety and apply their knowledge as they study applications for experiments, including power analysis and rigor, to design scientific aims with peer review. Meets the National Institutes of Health (NIH) requirements for responsible conduct of research (RCR).",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -677,10 +643,26 @@
             "type": "AND",
             "courses": [
               {
-                "course": "MATH 2321"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2321"
+                  },
+                  {
+                    "admission_requirement": "MATH 316M with a minimum grade of C-"
+                  }
+                ]
               },
               {
-                "course": "MATH 2341"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 2341"
+                  },
+                  {
+                    "admission_requirement": "MATH 315M with a minimum grade of C-"
+                  }
+                ]
               }
             ]
           },
@@ -749,15 +731,13 @@
         "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "CHEM 1151"
-              },
-              {
-                "course": "CHEM 1161"
-              }
-            ]
+            "course": "CHEM 1151"
+          },
+          {
+            "admission_requirement": "CHEM 233M with a minimum grade of D-"
+          },
+          {
+            "course": "CHEM 1161"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -776,15 +756,13 @@
         "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "CHEM 1151"
-              },
-              {
-                "course": "CHEM 1161"
-              }
-            ]
+            "course": "CHEM 1151"
+          },
+          {
+            "admission_requirement": "CHEM 233M with a minimum grade of D-"
+          },
+          {
+            "course": "CHEM 1161"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -803,31 +781,7 @@
         "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "type": "AND",
-                "courses": [
-                  {
-                    "course": "MATH 1341"
-                  },
-                  {
-                    "course": "MATH 1342"
-                  }
-                ]
-              },
-              {
-                "type": "AND",
-                "courses": [
-                  {
-                    "course": "MATH 2321"
-                  },
-                  {
-                    "course": "MATH 2341"
-                  }
-                ]
-              }
-            ]
+            "course": "MATH 1341"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -964,24 +918,6 @@
           }
         ]
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6610",
-      "title": "Computational Programs in Process Safety for Relief and Scenario Modeling",
-      "credits": 4.0,
-      "description": "Focuses on the use of process safety software that is available to perform hazard analysis, relief and flare system evaluation, and scenario analysis. The software may include use of Process Safety Office (ioMosaic), Aspen Process Simulator (Aspen Technologies), and FLACS (Flame Acceleration Simulator by GexCon). These programs are dedicated to predicting relief sizing for vessels and processes; flare system sizing; chemical reactivity analysis; and dispersion modeling, should a release occur, and its damage potential either as an explosive or toxic cloud.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7262",
-      "title": "Special Topics in Process Safety",
-      "credits": 4.0,
-      "description": "Covers topics of interest to the staff member conducting this class for advanced study. Current topics relevant in process safety are considered, such as a focus on layers of protection analysis, qualitative risk analysis, and specific process safety challenges. Process safety challenges from industrial settings may also serve as problems tackled in the course. A student may not take more than one special topics course with any one instructor.",
-      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -1154,7 +1090,7 @@
       "number": "7395",
       "title": "Mentoring in Chemical Engineering",
       "credits": 1.0,
-      "description": "Offers graduate students an opportunity to connect theoretical concepts learned in the classroom to real-life innovations, identify the conceptual framework of existing technological innovations, identify the conceptual aspects of their own research activities, propose innovative strategies to connect them to real-life applications, and to learn the basics of mentoring to be able to transfer their knowledge and expertise to their peers or to undergraduate students. Students may attend workshops on effective teaching and mentoring and mentor undergraduate students under the supervision of experienced academic and/or industrial mentors.",
+      "description": "Connects theoretical concepts learned in the classroom to real-life innovations. Identifies the conceptual framework of existing technological innovations and the conceptual aspects of students' own research activities. Offers students an opportunity to propose innovative strategies to connect their research activities to real-life applications and to learn the basics of mentoring to be able to transfer their knowledge and expertise to their peers or to undergraduate students. Students attend workshops on effective teaching and mentoring and mentor undergraduate students under the supervision of experienced academic and/or industrial mentors.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

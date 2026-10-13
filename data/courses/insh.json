@@ -11,17 +11,6 @@
       "attributes": []
     },
     {
-      "number": "1102",
-      "title": "Food in Contemporary Context",
-      "credits": 4.0,
-      "description": "Offers a multidisciplinary set of perspectives on an intrinsic part of daily life—food. Food is not just about survival—it is about being human. Producing it, making it, eating it, obsessing about it is woven throughout our lives. It defines, and is defined by, culture. It is the basis of economies, has produced great fortunes, defines entire communities, and is the cause of conflicts. It is at once natural and artificial, grown and manufactured. It nourishes us and makes us sick. It is the source of sublime pleasure and no small anxiety. Food defines us, as much as we define it. With these considerations, this course uses food as a lens into contemporary life.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Societies/Institutions"
-      ]
-    },
-    {
       "number": "1300",
       "title": "Introduction to Health and Humanities",
       "credits": 4.0,
@@ -45,6 +34,15 @@
       ]
     },
     {
+      "number": "1983",
+      "title": "Topics in Interdisciplinary Social Sciences and Humanities",
+      "credits": 4.0,
+      "description": "Offers instruction in timely topics in the social sciences and humanities as determined by instructor. Topics and instructors vary by offering. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "2101",
       "title": "Love and Hate: Social, Psychological, and Literary Approaches",
       "credits": 4.0,
@@ -54,6 +52,9 @@
         "courses": [
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M (may be taken concurrently) with a minimum grade of C"
           },
           {
             "course": "ENGW 1102"
@@ -81,6 +82,60 @@
         "type": "OR",
         "courses": [
           {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CS 2000"
+                  },
+                  {
+                    "admission_requirement": "CIS 200M (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CS 2001"
+                  },
+                  {
+                    "admission_requirement": "CIS 20LM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CS 2100"
+                  },
+                  {
+                    "admission_requirement": "CIS 201M (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CS 2101"
+                  },
+                  {
+                    "admission_requirement": "CIS 21LM (may be taken concurrently) with a minimum grade of D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "course": "CS 2500"
           },
           {
@@ -103,7 +158,7 @@
       ]
     },
     {
-      "number": "2300",
+      "number": "2302",
       "title": "Culture, Technology, and the Future of Health",
       "credits": 4.0,
       "description": "Introduces the challenges posed by the data-heavy medicine of the future to privacy, the appropriate collection of medical data, and the ways that patients and healthcare workers alike think about health. Offers students an opportunity to learn how to use critical and ethical theories, analyze health narratives, and use historical and contemporary data about health disparities to forecast how new technologies might pose social and cultural challenges. Takes a humanities perspective to critically evaluate social and cultural aspects of a healthcare system shaped by emerging technologies and the data they produce.",
@@ -113,6 +168,18 @@
         "NUpath Difference/Diversity",
         "NUpath Societies/Institutions"
       ]
+    },
+    {
+      "number": "2963",
+      "title": "Topics",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Offers undergraduate students an opportunity to learn about timely issues, develop new skills, or explore areas of broad interest in an immersive, short-course format. Content and instructors vary by offering. May be repeated three times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "2964",
@@ -157,10 +224,114 @@
       ]
     },
     {
+      "number": "3983",
+      "title": "Topics in Interdisciplinary Social Sciences and Humanities",
+      "credits": 4.0,
+      "description": "Offers instruction in topics in the social sciences and humanities as determined by instructor. Topics vary. May be repeated twice.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENGW 1102"
+          },
+          {
+            "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
+            "course": "ENGW 1113"
+          },
+          {
+            "course": "ENGW 1114"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity for directed study on interdisciplinary topics within the College of Social Sciences and Humanities. May be repeated once.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENGW 1102"
+          },
+          {
+            "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
+            "course": "ENGW 1113"
+          },
+          {
+            "course": "ENGW 1114"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4995",
+      "title": "Interdisciplinary Practicum",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students in the College of Social Sciences and Humanities an opportunity to gain experience and apply skills in an internship, lab, center, or other practice setting. May be repeated once for a maximum of 8 semester hours.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENGW 1102"
+          },
+          {
+            "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
+            "course": "ENGW 1113"
+          },
+          {
+            "course": "ENGW 1114"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
       "number": "4998",
       "title": "Research",
       "credits": 0.0,
       "description": "Offers an opportunity to document student contributions to research projects or creative endeavors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5183",
+      "title": "Interdisciplinary Special Topics: Pop-up Course",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Addresses timely trends, issues, and events as they unfold. Offers students an opportunity to learn about and respond to issues of the day in an immersive, interdisciplinary, short-course format. Content and instructors vary by offering. May be repeated three times for a maximum of six semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -184,15 +355,6 @@
       "attributes": []
     },
     {
-      "number": "5304",
-      "title": "Social Network Analysis",
-      "credits": 4.0,
-      "description": "Offers an overview of the analytic methods and conceptual perspectives of a social network approach to social science and humanities research. Using the R statistical computing language, covers techniques for collecting, formatting, and visualizing network data, as well as tools for calculating the mathematical properties of social networks, such as centrality, clustering, transitivity, and structural equivalence. Introduces statistical methods for social network analysis, such as exponential random graph models and stochastic actor-oriented models.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5602",
       "title": "Archives and Ethnography",
       "credits": 4.0,
@@ -206,6 +368,18 @@
       "title": "Qualitative Methods",
       "credits": 4.0,
       "description": "Introduces the principles and use of common qualitative methods with a particular focus on their application in the social sciences. Students practice designing qualitative research. Offers students an opportunity to gain experience using diverse analytic and theory building techniques, conducting field observations and interviews, and analyzing content. Examines the foundation of core concepts in research. Topics include objectivity, bias, empiricism, validity, triangulation, and ethical issues surrounding human subjects—such as confidentiality, anonymity, and vulnerable populations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5963",
+      "title": "Topics",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Offers students an opportunity to learn about timely issues, develop new skills, or explore areas of broad interest in an immersive, short-course format. Content and instructors vary by offering. May be repeated three times.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -242,15 +416,6 @@
       "title": "Research Methods in the Social Sciences",
       "credits": 4.0,
       "description": "Surveys methods of social research, including field study and participant observation techniques, survey techniques, interviewing and questionnaire construction, sampling procedures, experimental design, content analysis, and use of available data.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6302",
-      "title": "Qualitative Methods",
-      "credits": 4.0,
-      "description": "Introduces the principles and use of common qualitative methods with a particular focus on their application in the social sciences. Offers students an opportunity to engage in primary data collection and to learn how to use a variety of analytic techniques, including transcription, field-note preparation, memos, development of coding schemes and conceptual frameworks, and data-verifying techniques.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -316,6 +481,15 @@
           }
         ]
       },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6900",
+      "title": "Internship",
+      "credits": 0.0,
+      "description": "Offers field placement in an agency involving administrative, research, teaching, and related activities. Provides students with an opportunity to apply theoretical concepts in a practical, applied fashion by observing and contributing to the daily activities of operating agencies and organizations. Expects all students to work on at least one specific project at their field placement, and the results of this project are submitted to the graduate director. May be repeated once.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },

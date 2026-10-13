@@ -47,6 +47,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1102"
           },
           {
@@ -107,6 +110,9 @@
             "course": "ARTF 1240"
           },
           {
+            "admission_requirement": "COMM 112M with a minimum grade of D-"
+          },
+          {
             "course": "ARTF 2220"
           }
         ]
@@ -139,6 +145,9 @@
         "courses": [
           {
             "course": "ARTF 1240"
+          },
+          {
+            "admission_requirement": "COMM 112M with a minimum grade of D-"
           },
           {
             "course": "ARTF 2220"
@@ -271,6 +280,17 @@
       "attributes": []
     },
     {
+      "number": "3474",
+      "title": "Animation Concept Development and Preproduction",
+      "credits": 4.0,
+      "description": "Examines current methodologies and practices to inform the initial concept and visual development for original, longer-form creative projects. Emphasizes developing skills and strategies for self-directed animation, game art, and interactive media production including ideation, experimentation, planning, iteration, revision, and critique of creative work.",
+      "prerequisites": {
+        "course": "ARTD 3470"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "3480",
       "title": "Video: Sound and Image",
       "credits": 4.0,
@@ -305,15 +325,6 @@
           }
         ]
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "3490",
-      "title": "Data Art and Hacktivism",
-      "credits": 4.0,
-      "description": "Explores the practices and politics of data collection and processing for creative and critical output. Studies how to collect online data with and without APIs and how to process textual data using Natural Language Processing techniques. Examines the practices currently used in social web technologies by making creative projects. Addresses the ethical issues of data collection and privacy, as well as the practical, technical, and social problems that can arise during the processing of social data.",
-      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -388,15 +399,6 @@
           }
         ]
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6490",
-      "title": "Advanced Data Art and Hacktivism",
-      "credits": 4.0,
-      "description": "Explores the practices and politics of data collection and processing for creative and critical output. Practices how to collect online data with and without APIs and how to process textual data using natural language processing techniques. Engages students in self-directed research using the current social web data collection technologies and application of that research to a creative output. Examines the legal and ethical issues involved in data collection, in addition to the practical, technical, and social problems that can arise during the processing of social data.",
-      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     }

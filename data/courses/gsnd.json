@@ -8,8 +8,7 @@
       "description": "Provides theoretical background and foundation for analyzing and designing games. Examines fundamental domains that are necessary to understand what games are and how they affect players, including but not limited to interface design, level design, narrative, learning, and culture. Presents relevant concepts and frameworks from a wide variety of disciplines—psychology, phenomenology, sociology, anthropology, media studies, affect theories, learning theories, and theories of motivation—for each domain. Explains the core elements of game design, introduces students to formal abstract design tools, explores several models of design process and iteration, and offers students an opportunity to practice game design in groups.",
       "prerequisites": [],
       "corequisites": [
-        "GSND 5111",
-        "GSND 5112"
+        "GSND 5111"
       ],
       "attributes": []
     },
@@ -25,21 +24,10 @@
       "attributes": []
     },
     {
-      "number": "5112",
-      "title": "Recitation for GSND 5110",
-      "credits": 0.0,
-      "description": "Requires students to familiarize themselves with industry-standard game development tools and to demonstrate their familiarity by developing a simple game. Participation in the recitation is integral to success in GSND 5110.",
-      "prerequisites": [],
-      "corequisites": [
-        "GSND 5110"
-      ],
-      "attributes": []
-    },
-    {
       "number": "5122",
-      "title": "Business Models in the Game Industry",
+      "title": "Business Models for Creative Media",
       "credits": 1.0,
-      "description": "Examines the underlying business structure of the interactive digital entertainment industry and the characteristics of the various participants, notably developers and publishers. Seeks to deliver insight into key business models within the game industry and how the economic challenges interact. Explores the game business landscape across the industry spectrum, ranging from AAA, mobile, casual to indie development. Examines market strategies currently in practice and how they are linked with game analytics. Topics range from retail vs. online, free-to-play modes vs. pay-to-play, as well as basic monetization and distribution channels. Designed to serve as an overview of the various stakeholders in the industry and how they interact.",
+      "description": "Examines the underlying business structure of the interactive digital entertainment and creative media industry and the characteristics of the various stakeholders─notably creators, developers, studios, and publishers─and how they interact. Seeks to deliver insight into key business models within the creative media industry and their economic challenges. Explores the business landscape across the industry spectrum, from independent creators and small studios to midsize companies and major corporations. Examines market strategies currently in practice and how they are linked with analytics. Topics range from retail vs. online as well as basic monetization and distribution channels.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -50,21 +38,19 @@
       "credits": 4.0,
       "description": "Focuses on methods and methodologies from human-computer interaction (HCI) and their use in different applications, including apps, web  applications, games, and virtual worlds. Covers the basics of user-oriented evaluation, associated topics, and usability methods. Introduces the design process, usability heuristics, HCI paradigms, task models, and cognitive models. Examines quantitative and qualitative analysis of data. Offers students an opportunity to delve into experimental design, institutional review board  approvals, ethics, research subject recruitment, and experiment implementations. Applies concepts through concrete projects, case examples, and exercises. Expects students to be running assignments continually and trying out different evaluation methods and methodologies.",
       "prerequisites": [],
-      "corequisites": [
-        "GSND 5131"
-      ],
+      "corequisites": [],
       "attributes": []
     },
     {
-      "number": "5131",
-      "title": "Recitation for GSND 5130",
-      "credits": 0.0,
-      "description": "Requires students to familiarize themselves with statistical analysis software and to demonstrate their ability to use the software and statistics by analyzing an existing data set retrieved from a game study. Participation in the recitation is integral to success in GSND 5130.",
+      "number": "5310",
+      "title": "Novel Input Devices",
+      "credits": 4.0,
+      "description": "Explores the design, development, and evaluation of novel input devices for gaming and extended reality through hands-on prototyping and rigorous analysis. Examines existing input technologies to understand their technical implementations and design trade-offs. Applies this knowledge by creating original prototypes in collaborative teams, progressing from ideation through working devices to formal user evaluation. Allows students to explore sensor integration, multimodal interaction, real-time systems, accessibility design, and software middleware while considering human factors like ergonomics and immersion. Engages with current research, industry practices, and specialized equipment including VR/AR platforms, motion tracking, and fabrication tools.",
       "prerequisites": [],
-      "corequisites": [
-        "GSND 5130"
-      ],
-      "attributes": []
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
     },
     {
       "number": "6000",
@@ -74,18 +60,6 @@
         "max": 4.0
       },
       "description": "Explores a variety of advanced topics in game design, including the multimedia, multidisciplinary nature of games. Taught by faculty according to their research interests and expertise.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6001",
-      "title": "Advanced Topics in Game Science",
-      "credits": {
-        "min": 1.0,
-        "max": 4.0
-      },
-      "description": "Explores a variety of advanced topics in game science, which includes game user research, game analytics, the psychology of play, and more generally scientific methods to study and understand players and games. Taught by faculty according to their research interests and expertise. May be repeated once for a maximum of eight semester credits.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -134,49 +108,6 @@
         ]
       },
       "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6330",
-      "title": "Player Experience",
-      "credits": 4.0,
-      "description": "Focuses on topics of player psychology—cognition; memory; emotions; attention; and game-focused theories such as engagement, fun, user experience, player-need-satisfaction model, and flow. The development cycle of any game relies on the understanding of the players, the target market of the game product. Covers game usability engineering and game-specific evaluation methods, such as play testing, rapid iterative testing and evaluation (RITE), play-heuristic evaluation, and retrospective play reviews. Offers students an opportunity to learn how to analyze qualitative and quantitative data and to apply parametric and nonparametric statistical evaluation methods, qualitative data coding and analysis, and descriptive statistics. Requires students to apply visualization techniques of data and reporting.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "GSND 5130"
-          },
-          {
-            "course": "GSND 5130"
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "CS 5340"
-              },
-              {
-                "course": "CS 6350"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [
-        "GSND 6331"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "6331",
-      "title": "Recitation for GSND 6330",
-      "credits": 0.0,
-      "description": "Requires students to familiarize themselves with survey instruments and data visualization techniques. Participation in the recitation is integral to success in GSND 6330.",
-      "prerequisites": [],
-      "corequisites": [
-        "GSND 6330"
-      ],
       "attributes": []
     },
     {
@@ -237,15 +168,6 @@
         "max": 4.0
       },
       "description": "Offers independent work under the direction of members of the department on chosen topics. May be repeated without limit.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7980",
-      "title": "Capstone",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to work collaboratively on a project that showcases their game design and research skills. Projects integrate both the “science” and “design” aspects of the discipline. Students define and scope a project through appropriate research questions or hypotheses, as well as discuss the project in consideration of the preexisting literature. Presents effective project management practices for a large-scale team project. Encourages students to present and demonstrate their work at festivals, conferences, exhibitions, etc. Requires a research proposal prior to registration.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

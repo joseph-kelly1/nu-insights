@@ -66,10 +66,76 @@
       "attributes": []
     },
     {
+      "number": "2105",
+      "title": "Sound Production for Digital Media",
+      "credits": 4.0,
+      "description": "Designed to prepare students to work with audio in modern media settings. Introduces the process of planning, preparing, producing, and evaluating audio production styles and techniques. Through a series of discussions, screenings, homework, and in-class exercises, offers students an opportunity to gain the skills needed to produce successful audio recordings. Exposes students to the elements and terminology of audio production as they record, mix, and produce their own original projects.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2111",
+      "title": "Television Field Production",
+      "credits": 4.0,
+      "description": "Offers advanced training in video production techniques, emphasizing remote location shooting. Covers the fundamentals of single-camera field production and the nonlinear editing process. Includes location scouting, production budgets, writing techniques, equipment location, postproduction editing, and content analysis. Offers students an opportunity to work in teams to produce and direct television using remote video equipment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2121",
+      "title": "Television Studio Production",
+      "credits": 4.0,
+      "description": "Introduces the process of planning, preparing, producing, and evaluating studio productions. Exposes students to the elements and terminology of studio production using multiple cameras, live switching, audio mixing, and studio lighting. Through a series of discussions, screenings, homework, and in-class exercises, offers students an opportunity to obtain skills in the basics of directing creative and technical talent and the skills needed to produce successful television studio productions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
       "number": "2160",
       "title": "Narrative Filmmaking",
       "credits": 4.0,
       "description": "Introduces narrative filmmaking without synch sound. Offers students an opportunity to create several short projects without dialogue. The successful student leaves the course with a portfolio of work, a basic knowledge of video cameras, and one editing software program (either Avid or Final Cut Pro). Focuses on storytelling through visuals.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2170",
+      "title": "Producing for the Entertainment Industry",
+      "credits": 4.0,
+      "description": "Investigates the role of the producer in the production of content for traditional and new media venues. Explores a variety of distribution systems including online channels, mobile video, terrestrial/satellite radio, documentary film, and independent films, among other platforms. Examines the producer’s role in story conceptualization, budget planning, preproduction, and marketing. Through a series of discussions, screenings, homework writing assignments, and in-class writing workshops, offers students an opportunity to gain the skills to produce commercially viable content.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2175",
+      "title": "The Business of Entertainment",
+      "credits": 4.0,
+      "description": "Examines business issues associated with the entertainment industry. One dozen award-winning media industry guest speakers deliver lectures on the vital topics reshaping the entertainment landscape. Through lectures and case studies, introduces students to financing contracts, intellectual property issues, licensing, product placement, marketing and publicity, ratings, the impact of piracy, understanding and leveraging new technologies, and distribution. Offers students an opportunity to master these concepts by organizing into teams and developing an original entertainment industry business product or services. Requires each team to develop a formal business plan that includes a market analysis, a budget, and a marketing plan.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2185",
+      "title": "Beyond Television",
+      "credits": 4.0,
+      "description": "Studies how to conceive, pitch, write an outline, and complete a script for a cutting-edge half-hour comedy pilot or drama that might appear on Netflix, Hulu, Amazon, and other emerging, nonlinear networks. Emphasizes the differences and similarities between writing content for streaming vs. broadcasting. Culminates in a final project, in which small groups of students complete an episodic show judged by a panel of professional television writers. Course objectives are achieved through reading professional scripts, critically viewing television content, and participating in group writing assignments and “table reads.”  .",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -82,7 +148,15 @@
       "credits": 4.0,
       "description": "Designed to give students a foundation in the theories and methods of analysis in cultural and media studies. Positioned between the introductory MSCR classes and the higher-level theory classes. Offers students an opportunity to learn the how and why of media and cultural studies, focusing on the foundational assumptions, theories, and methods of the discipline.",
       "prerequisites": {
-        "course": "MSCR 1220"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MSCR 1220"
+          },
+          {
+            "admission_requirement": "COMM 131M (may be taken concurrently) with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -93,7 +167,7 @@
       "number": "2255",
       "title": "New Media Workshop",
       "credits": 4.0,
-      "description": "In New Media Workshop, students learn foundational tools and techniques of new media production with a focus on the cultural and expressive implications of using new media forms, including hypertext, games, maps, augmented reality, and virtual reality. Students create a portfolio of projects to explore and refine the relationship of form and of content in new media. Topics include nonlinear storytelling, play and games, place-based storytelling, interactivity, and immersion.",
+      "description": "Offers students an opportunity to learn foundational tools and techniques of new media production. Focuses on the cultural and expressive implications of using new media forms including hypertext, games, maps, augmented reality, and virtual reality. Students create a portfolio of projects to explore and refine the relationship of form and of content in new media. Topics include nonlinear storytelling, play and games, place-based storytelling, interactivity, and immersion.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -103,6 +177,17 @@
       "title": "Television: Text and Context",
       "credits": 4.0,
       "description": "Introduces students to critical television studies. Topics include visual language (use of image, music, graphics, editing, and sound); narrative structure; and genre. Specific critical approaches include semiotics, narrative and genre analysis, feminist analysis, and ideological analysis of representation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Interpreting Culture"
+      ]
+    },
+    {
+      "number": "2302",
+      "title": "Advertising and Promotional Culture",
+      "credits": 4.0,
+      "description": "Investigates advertising and promotional culture by closely studying its history, industry, and means of communication. Examines print, television and internet advertisements, and campaigns.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -167,9 +252,9 @@
     },
     {
       "number": "2391",
-      "title": "Character, Conflict, and Dialogue",
+      "title": "Introduction to Screenwriting",
       "credits": 4.0,
-      "description": "Focuses on practical ways to write dimensional characters, drive story conflict, and craft authentic dialogue in screenwriting. Introduces techniques to shape characters by specifically exploring the internal world of the character wherein they may either face or resist conflict, deal with or deny unexpected change, and embrace or abandon meaningful relationships. Covers the creation of a detailed character biography, compelling backstory, and psychological profile for each major character in order to believably inform their conscious and unconscious actions and behavior. Explores various dialogue techniques with which a character may express themselves tied directly to the character's life experiences, personality, outlook, and behavior.",
+      "description": "Focuses on building an array of skills, tools, and techniques that are required to craft short and feature-length screenplays. Presents an overview of the process to create a story outline using basic screenplay structure, build dimensional characters, write unique and authentic dialogue, and drive thematic action within story. Offers students an opportunity to develop deeper insight about screenwriting by examining media content, screenplays, and other relevant documentation. Culminates in writing and presenting original scenes.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -223,6 +308,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -247,6 +335,17 @@
       ]
     },
     {
+      "number": "2941",
+      "title": "Topics in Media Criticism",
+      "credits": 4.0,
+      "description": "Explores a chosen theme, medium, or era as the focus for the study of media and media criticism. Topics are determined by faculty according to their interests and areas of expertise and engage with a range of case studies, themes, and media formats/technologies. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Interpreting Culture"
+      ]
+    },
+    {
       "number": "2991",
       "title": "Research in Media and Screen Studies",
       "credits": {
@@ -257,6 +356,40 @@
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "3130",
+      "title": "Inclusive Filmmaking",
+      "credits": 4.0,
+      "description": "Focuses on skills for making films accessible and reshaping narratives about disability. Explores methods to analyze and critique ableist representations in media, practical techniques for accessible filmmaking (such as captioning and audio descriptions), and approaches to create documentary films to challenge stereotypes and promote inclusive storytelling. Emphasizes how individuals can contribute to these efforts through the creation of accessible content in film and video industries.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "3150",
+      "title": "Digital Editing for TV",
+      "credits": 4.0,
+      "description": "Explores the technical and creative aspects of postproduction to establish proficiency in digital editing. Builds upon introductory-level postproduction techniques used for narrative structure and pacing, sound editing and mixing, effects design, and preparation for distribution. Students are expected to have prior knowledge of digital video equipment and nonlinear editing software.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "3155",
+      "title": "Special Effects and Postproduction for Television",
+      "credits": 4.0,
+      "description": "Explores a variety of approaches to making special effects for film, video, and the World Wide Web. Offers students an opportunity to utilize cutting-edge technology and to apply state-of-the-art techniques to design and produce innovative special effects. Explores historical, technical, and theoretical aspects of special effects including compositing, matte painting, multiplane animation, explosions, smoke, 3D lighting, particle emitters, chroma keying, motion graphics, video tracking, and more.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
     },
     {
       "number": "3330",
@@ -271,6 +404,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -288,9 +424,9 @@
     },
     {
       "number": "3389",
-      "title": "Screenwriting",
+      "title": "Screenwriting: Short Film",
       "credits": 4.0,
-      "description": "Approaches the unique narrative form of the dramatic short film, with the goal of having students produce a short film screenplay (under twenty minutes in length) which could eventually be shot. Takes students through the storytelling process, from conception to visualization, dramatization, characterization, and dialogue, ending in a project which should reflect the student’s own personal voice and unique vision. Offers students an opportunity to work on many writing exercises involving free association, visualizations, and character explorations, and to evaluate and critique each other’s work in a workshop setting.",
+      "description": "Approaches the unique narrative form of the dramatic short film, with the goal of having students produce a short film screenplay (under 20 minutes in length) that could eventually be shot. Takes students through the storytelling process─from conception to visualization, dramatization, characterization, and dialogue─ending in a project that should reflect the student’s own personal voice and unique vision. Offers students an opportunity to work on many writing exercises involving free association, visualizations, and character explorations and to evaluate and critique each other’s work in a workshop setting.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -329,6 +465,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1102"
           },
           {
@@ -359,6 +498,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -377,7 +519,15 @@
       "credits": 4.0,
       "description": "Examines representations of identity (race, gender, sexuality, and class) in the media, investigates their influences, and considers their repercussions. The class especially focuses on understanding identity as a construction, rather than as inherently “natural.” Broadly, we discuss the relationship between identity and media representations; more specifically, we look at cultural texts, sites, and practices where the existing racial categories mix, merge, and/or rub up against each other in ways that problematize the naturalness of essentialized identities. Students who do not meet course prerequisites may seek permission of instructor.",
       "prerequisites": {
-        "course": "MSCR 1220"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MSCR 1220"
+          },
+          {
+            "admission_requirement": "COMM 131M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -388,8 +538,10 @@
       "number": "3446",
       "title": "Documentary Production",
       "credits": 4.0,
-      "description": "Focuses on single-camera video production in service of crafting documentary stories. Offers students an opportunity to learn nonfiction storytelling by examining documentary history and theory as well as participating in screenings, workshops, and hands-on projects designed to prepare them to take an idea and develop it into a final five-to-seven-minute final documentary short. Requires supplemental technical assignments for students with no previous production experience.",
-      "prerequisites": [],
+      "description": "Investigates single-camera video production in crafting documentary stories. Offers students an opportunity to examine the history of documentary filmmaking, engage in the practice of nonfiction storytelling in workshops and projects, and apply previous filmmaking experience toward the development of a short documentary film. Students who do not meet prerequisite requirements, but have previous filmmaking experience, may contact the instructor to enroll.",
+      "prerequisites": {
+        "course": "MSCR 1230"
+      },
       "corequisites": [],
       "attributes": [
         "NUpath Creative Express/Innov"
@@ -399,7 +551,7 @@
       "number": "3450",
       "title": "Directing Video",
       "credits": 4.0,
-      "description": "Students will deconstruct existing fiction films and scripted television/web examples and, in their own pieces, study dramatic structure and implement tone across all technical departments. Students will practice the director’s role in communicating vision through casting, scene study, mise-en-scène and post-production, including picture editing, sound design, musical score, graphics and color correction.",
+      "description": "Offers students an opportunity to deconstruct existing fiction films and scripted television/web examples and, in their own pieces, study dramatic structure and implement tone across all technical departments. Students practice the director’s role in communicating vision through casting; scene study; mise-en-scène; and postproduction including picture editing, sound design, musical score, graphics, and color correction.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -417,6 +569,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -445,6 +600,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -493,6 +651,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -506,31 +667,6 @@
       ]
     },
     {
-      "number": "4602",
-      "title": "Media and Democracy",
-      "credits": 4.0,
-      "description": "Introduces the role of the media in democratic societies. Explores a number of important questions, including what is democracy? What types of information do citizens of a democracy need in order to participate in the governance of their lives? In our increasingly digital world, where do political discussions happen? Are the media responsible for keeping the public informed? Who constitutes the “public”? Are we citizens? Consumers? Producers? Who decides? In order to address these questions, students have the opportunity to become conversant in a variety of modern and contemporary theoretical and critical perspectives on the relationship between the media, democracy, and what has come to be known as the public sphere. Students who do not meet course prerequisites may seek permission of instructor.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "MSCR 3423"
-          },
-          {
-            "course": "MSCR 3435"
-          },
-          {
-            "course": "MSCR 3437"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Ethical Reasoning",
-        "NUpath Societies/Institutions"
-      ]
-    },
-    {
       "number": "4623",
       "title": "Media and Screen Studies Capstone",
       "credits": 4.0,
@@ -539,10 +675,13 @@
         "type": "OR",
         "courses": [
           {
+            "course": "COMM 1220"
+          },
+          {
             "course": "MSCR 1220"
           },
           {
-            "course": "COMM 1220"
+            "admission_requirement": "COMM 131M with a minimum grade of D-"
           }
         ]
       },

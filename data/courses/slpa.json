@@ -161,6 +161,26 @@
       "attributes": []
     },
     {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "description": "Focuses on in-depth project in which a student conducts research or produces a product related to the student’s major field. Combined with Junior/Senior Project 2 or college-defined equivalent for 8-credit honors project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student’s major field.",
+      "prerequisites": {
+        "course": "SLPA 4970"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "4991",
       "title": "Research",
       "credits": 4.0,
@@ -301,6 +321,15 @@
       "attributes": []
     },
     {
+      "number": "6120",
+      "title": "Autism and Neurodiversity in Practice",
+      "credits": 2.0,
+      "description": "Examines various neurotypes including attention-deficit hyperactivity disorder, autism, and intellectual disability. Contrasts the neurodiversity framework with the medical model when serving neurodivergent clients. Discusses autism, including theories of causation, developmental aspects, descriptive and diagnostic characteristics, an overview of assessment and intervention, and legal and social issues. Reviews current research findings and best practices needed to gain a clear understanding of neurodivergent clients and how to apply current research to treatment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6211",
       "title": "Research and Evidence-Based Practice",
       "credits": 3.0,
@@ -314,15 +343,6 @@
       "title": "Aural Rehabilitation",
       "credits": 3.0,
       "description": "Provides a detailed examination of various approaches to speech reading and auditory training as they apply to children and adults. Offers an integrated approach to management of hearing-impaired individuals.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6300",
-      "title": "Speech Science",
-      "credits": 2.0,
-      "description": "Focuses on the basics of acoustics and its relationship with speech production and speech perception. Highlights the relationship between physiological aspects of speech production and their influence on the resulting acoustics of speech. Considers both normative and disordered speech production and perception. Discusses acoustic analysis and clinical approaches to remediation.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -373,15 +393,6 @@
       "attributes": []
     },
     {
-      "number": "6311",
-      "title": "Counseling in SLP",
-      "credits": 3.0,
-      "description": "Provides students with a theoretical framework from which specific counseling strategies may be implemented for individuals and their families with various communication disorders. Stresses conversational interactive strategies.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6313",
       "title": "Counseling in Speech-Language Pathology",
       "credits": 2.0,
@@ -392,7 +403,7 @@
     },
     {
       "number": "6320",
-      "title": "Autism",
+      "title": "Advanced Topics in Autism",
       "credits": 1.0,
       "description": "Reviews the autism spectrum, including theories of causation, developmental aspects, descriptive and diagnostic characteristics, an overview of assessment and intervention, and legal and social issues as they relate to speech-language pathologists. Presents the most current research findings and best practices needed to gain a clear understanding of individuals diagnosed with autism and how to apply current research to treatment.",
       "prerequisites": [],
@@ -418,22 +429,13 @@
       "attributes": []
     },
     {
-      "number": "6329",
-      "title": "Diversity, Equity, and Inclusion in Speech-Language Pathology",
-      "credits": 2.0,
-      "description": "Introduces intersectional thinking and cultural responsiveness for speech-language pathologists through topics related to diversity, equity, and inclusion. Offers students an opportunity to gain comfort in engaging with these topics and to develop actionable steps toward more reflective and accountable practices. Facilitates engagement in culturally responsive care through participation in the process of unlearning and understanding the needs of diverse populations.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6332",
       "title": "Seminar in Communication Disorders",
       "credits": {
         "min": 1.0,
         "max": 3.0
       },
-      "description": "Allows for the advanced study of current diagnostic and intervention strategies, applications of theoretical and applied research, and exploration of current topics in speech-language pathology. Topics may range from the treatment of undeserved populations to the analysis of complex clinical cases requiring interdisciplinary management. May be repeated twice.",
+      "description": "Allows for the advanced study of current diagnostic and intervention strategies, applications of theoretical and applied research, and exploration of current topics in speech-language pathology. Topics may range from the treatment of undeserved populations to the analysis of complex clinical cases requiring interdisciplinary management. May be repeated up to five times for a maximum of 6 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -470,17 +472,7 @@
       "title": "Speech-Language Disorders In Adults 1",
       "credits": 3.0,
       "description": "Offers students an opportunity to obtain foundational skills needed to work with frequently referred adults with aphasia across clinical settings. Speech, language, and cognitive-communication disorders are typical consequences of acquired central and peripheral nervous system adult impairments. Emphasizes the anatomy, etiology, neurology, and physiology of different types of aphasia, characteristics of these, and intervention approaches (diagnostic and therapeutic). Addresses prevention, outcome, efficacy, and service-delivery considerations.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SLPA 5109"
-          },
-          {
-            "course": "SLPA 5109"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -489,17 +481,7 @@
       "title": "Speech-Language Disorders in Adults 2",
       "credits": 3.0,
       "description": "Offers students an opportunity to obtain foundational skills needed to work with frequently referred adults with acquired neurologic cognitive-communicative impairments across clinical settings. Speech, language, and cognitive-communication disorders are typical consequences of acquired central and peripheral nervous system adult impairments. Emphasizes the anatomy, etiology, neurology, and physiology of different types of cognitive-communicative impairments, characteristics of these, and intervention approaches (diagnostic and therapeutic). Addresses prevention, outcome, efficacy, and service-delivery considerations.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "SLPA 5109"
-          },
-          {
-            "course": "SLPA 5109"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -516,7 +498,7 @@
       "number": "6360",
       "title": "Diversity, Equity, and Inclusion in Speech-Language Pathology",
       "credits": 3.0,
-      "description": "Introduces intersectional thinking and cultural responsiveness for speech-language pathologists through topics related to diversity, equity, and inclusion (DEI). Offers an opportunity to build mastery with these topics and to develop actionable steps towards more reflective and accountable practices. Facilitates engagement in culturally responsive care through participating in the process of unlearning and applying the needs of diverse populations, while navigating implicit bias. Provides opportunities to apply theoretical knowledge to practical contexts to develop the skills needed to identify and analyze key challenges, explore possible solutions, and implement transformative, equity-driven practices in the field.",
+      "description": "Emphasizes intersectional thinking and cultural responsiveness for speech-language pathologists through topics related to diversity, equity, and inclusion that impact the provision of person and family centered care in practice. Offers students an opportunity to develop an orientation of cultural humility to engage with these topics and to develop actionable steps toward more reflective and accountable practices. Encourages students to engage in culturally responsive, gender-affirming, trauma-responsive care by participating in the process of unlearning and through understanding the needs of diverse populations, while navigating implicit bias as it relates to ASHA’s code of ethics corresponding to person-centered care. Requires students to engage in potentially vulnerable conversations to the best of their abilities through reflection and peer interactions.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -525,7 +507,7 @@
       "number": "6415",
       "title": "Speech-Language Pathology Advanced Clinical Practicum 1",
       "credits": 3.0,
-      "description": "Offers supervised clinical experience in speech-language pathology for beginning graduate students at Northeastern University on-campus clinics. Requires student to be available a minimum of twenty-five hours per week during the academic year. Requires attendance at on-campus seminar meetings held weekly. May be repeated twice.",
+      "description": "Offers supervised clinical experience in speech-language pathology for beginning graduate students at Northeastern University on-campus clinics. Requires student to be available a minimum of twenty-five hours per week during the academic year. Requires attendance at on-campus seminar meetings held weekly.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -544,7 +526,7 @@
       "number": "6416",
       "title": "Speech-Language Pathology Advanced Clinical Practicum 2",
       "credits": 2.0,
-      "description": "Offers supervised clinical experience in speech-language pathology for students at Northeastern University on-campus clinics and off-campus practicum sites. Uses practical experience to emphasize advanced diagnostic and therapeutic techniques, stressing the application of theory to practice. Requires student to be available a minimum of twenty-five hours per week during the academic year. Requires attendance at weekly on-campus seminar meetings. May be repeated once.",
+      "description": "Offers supervised clinical experience in speech-language pathology at on-campus clinics and/or off-campus practicum sites. Offers students an opportunity to implement advanced diagnostic and therapeutic techniques during practical experiences. Emphasizes applying theory to practice. Requires students to be available a minimum of 25 hours per week and to attend weekly on-campus seminar meetings.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -563,7 +545,7 @@
       "number": "6417",
       "title": "Speech-Language Pathology Advanced Clinical Practicum 3",
       "credits": 2.0,
-      "description": "Offers supervised clinical experience in speech-language pathology for advanced graduate students at Northeastern University on-campus clinics and off-campus practicum sites. Uses practical experience to emphasize advanced diagnostic and therapeutic techniques, stressing continued integration of theory to practice. Requires students to be available a minimum of twenty-five hours per week during the academic year. Requires attendance at weekly on-campus seminar meetings. May be repeated once.",
+      "description": "Offers supervised clinical experience in speech-language pathology at on-campus clinics and/or off-campus practicum sites. Offers students an opportunity to implement advanced diagnostic and therapeutic techniques during practical experiences. Emphasizes applying theory to practice. Requires students to be available a minimum of 25 hours per week and to attend weekly on-campus seminar meetings.",
       "prerequisites": {
         "course": "SLPA 6416"
       },
@@ -574,7 +556,7 @@
       "number": "6418",
       "title": "Speech-Language Pathology Advanced Clinical Practicum 4",
       "credits": 2.0,
-      "description": "Offers supervised clinical experience in speech-language pathology for advanced graduate students at the Northeastern University on-campus clinics and off-campus practicum sites. Uses practical experience to emphasize advanced diagnostic and therapeutic techniques, stressing continued application of theory to practice. Requires students to be available a minimum of twenty hours per week during the academic year. Requires attendance at weekly on-campus seminar meetings. May be repeated once.",
+      "description": "Offers supervised clinical experience in speech-language pathology at on-campus clinics and/or off-campus practicum sites. Offers students an opportunity to implement advanced diagnostic and therapeutic techniques during practical experiences. Emphasizes applying theory to practice. Requires students to be available a minimum of 25 hours per week and to attend weekly on-campus seminar meetings.",
       "prerequisites": {
         "course": "SLPA 6417"
       },
@@ -582,10 +564,10 @@
       "attributes": []
     },
     {
-      "number": "6420",
-      "title": "Practical Statistics for Speech-Language Pathology",
-      "credits": 3.0,
-      "description": "Introduces basic concepts in data collection, organization, and analysis using statistical methods with an overall focus on profession-specific application and interpretation.",
+      "number": "6500",
+      "title": "Certification and Licensure Preparation",
+      "credits": 0.0,
+      "description": "Offers students an opportunity to obtain comprehensive preparation for speech-language pathology certification and licensure through self-directed study, presentations, and discussions. Reviews program completion requirements related to professional practice, ASHA certification processes, praxis preparation, and state licensure procedures.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -604,9 +586,9 @@
       "title": "Thesis",
       "credits": {
         "min": 1.0,
-        "max": 3.0
+        "max": 2.0
       },
-      "description": "Offers a research activity that is the first of a two-course thesis sequence with the recommendation of the advisor. May be repeated twice for a maximum of 6 semester hours.",
+      "description": "Offers supervision and oversight of master's thesis in a selected topic under the direction of the faculty in fulfillment of the requirements for the degree. Requires students to submit a written thesis. May be repeated twice for a maximum of 3 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

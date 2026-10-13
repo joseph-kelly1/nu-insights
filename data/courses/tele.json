@@ -24,15 +24,6 @@
       "attributes": []
     },
     {
-      "number": "5340",
-      "title": "Telecommunications Public Policy and Business Management",
-      "credits": 4.0,
-      "description": "Introduces students to business management issues, such as basic accounting, finance, marketing, and operations in the telecommunications field, and also topics such as the time value of money and decision making. Also includes issues of human relations, organizational behavior, and business strategy. Provides an understanding of the regulatory environment of the telecommunications industry. Topics include universal service, service quality tariffs, the Modified Final Judgment and Telecom Act of 1996, market restrictions and segmentation, the current competitive environment in the United States and internationally, interconnection including unbundling, collocation, economic issues, and global trends in market reform.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5350",
       "title": "Telecom and Network Infrastructure",
       "credits": 4.0,
@@ -88,25 +79,6 @@
       },
       "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
       "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6100",
-      "title": "Mobile Wireless Communications and Networking",
-      "credits": 4.0,
-      "description": "Studies communications and networking issues in providing broadband wireless access to mobile applications. Discusses networking technologies required by converged IP-based applications. Covers converged network architectures and the interworking of different generations of access technologies with the Evolved Packet Core (EPC). Registration limited and by application only; it is expected that all students have prior knowledge of digital communications, radio propagation, cellular networks, and second-generation wireless standards.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "TELE 5330"
-          },
-          {
-            "course": "TELE 5330"
-          }
-        ]
-      },
       "corequisites": [],
       "attributes": []
     },
@@ -227,8 +199,11 @@
     {
       "number": "7374",
       "title": "Special Topics in the Internet of Things",
-      "credits": 4.0,
-      "description": "Offers topics of current interest in the Internet of Things. Topics vary from semester to semester. May be repeated without limit.",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers topics of current interest in the Internet of Things. Topics vary from semester to semester. May be repeated up to three times for a maximum of 16 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

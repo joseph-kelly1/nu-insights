@@ -23,31 +23,6 @@
       ]
     },
     {
-      "number": "6108",
-      "title": "Complex Network Analysis Capstone",
-      "credits": 2.0,
-      "description": "Offers students an opportunity to apply network analytic tools and network science concepts to a project that further develops skills and expands understanding of how to approach problems using network analytics and principles. Students may propose a topic or choose projects presented by a sponsoring organization or agency. Topics must be approved by the instructor, and students are expected to provide regular updates and present their final project. May be repeated once.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "INSH 5301"
-          },
-          {
-            "course": "NETS 5001"
-          },
-          {
-            "course": "NETS 5002"
-          },
-          {
-            "course": "NETS 5103"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "6116",
       "title": "Network Science 2",
       "credits": 4.0,
@@ -60,6 +35,25 @@
           },
           {
             "course": "NETS 5116"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7052",
+      "title": "Computational Methods for Network Science",
+      "credits": 4.0,
+      "description": "Introduces computational methods for analyzing and modeling complex networks across scientific domains. Emphasizes programming-based workflows for working with network data including data collection, cleaning, representation, and visualization. Covers foundational concepts in network analysis; random graph models; community detection; machine learning for network data; network dynamics such as diffusion, contagion, and random walks; network sampling and sparsification; temporal and spatial networks; and network comparison and reconstruction. Offers students a structured opportunity to implement algorithms with feedback, interpret results, and communicate network-based insights in technical and interdisciplinary contexts.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "NETS 5116"
+          },
+          {
+            "course": "PHYS 5116"
           }
         ]
       },
@@ -137,17 +131,23 @@
       "title": "Computational Urban Science",
       "credits": 4.0,
       "description": "Introduces the field of computational urban science, focusing on methods to collect and analyze urban data. Covers techniques such as geographic information systems, network science, machine learning, spatial models, and causal inference to examine city dynamics and inform urban planning, policy, and research. Explores the application of these methods to real-world urban datasets, including mobile phone data, social media, and transactional data, enabling critical insights into the complexities of urban systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7380",
+      "title": "Statistical Methods for Network Science",
+      "credits": 4.0,
+      "description": "Introduces statistical foundations for the analysis and inference of network data. Covers core principles of probability, sampling, statistical testing, regression, and causal inference. Focuses on the challenges posed by dependence, partial observation, and complex structure in networks. Emphasizes network measurement, data collection and sampling strategies, missing data, and statistical modeling of network processes. Presents a foundation for principled hypothesis testing and causal reasoning on networks and situates these methods within the broader landscape of advanced network models.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "INSH 5301"
+            "course": "PHYS 5116"
           },
           {
             "course": "NETS 5116"
-          },
-          {
-            "course": "PHYS 5116"
           }
         ]
       },
@@ -180,18 +180,6 @@
       "title": "Network Science Literature Review Seminar",
       "credits": 2.0,
       "description": "Critically evaluates recent articles in the academic literature surrounding topics and applied research in network science. May be repeated up to three times.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "8984",
-      "title": "Research",
-      "credits": {
-        "min": 1.0,
-        "max": 4.0
-      },
-      "description": "Offers advanced students an opportunity to work with an individual instructor on a topic related to current research. Instructor and student negotiate a written agreement as to what topic(s) are covered and what written or laboratory work forms the basis for the grade. Viewed as a lead-in to dissertation research. May be repeated without limit.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

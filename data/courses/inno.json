@@ -108,6 +108,9 @@
           },
           {
             "course": "INNO 2301"
+          },
+          {
+            "admission_requirement": "BUSM 207M with a minimum grade of D-"
           }
         ]
       },
@@ -136,34 +139,7 @@
       "number": "6200",
       "title": "Enterprise Growth and Innovation",
       "credits": 3.0,
-      "description": "Explores the challenges and processes for harnessing technological innovation for new-business development. Integrates technology strategy, innovation in marketing, product development, and organization design for the purpose of enterprise growth. Through readings, cases, and exercises, studies how firms from different industries gain competitive advantage through distinctive products and services, and leverage their technologies and skills into new emerging markets. Also focuses on processes for conceiving, financing, and organizing new ventures.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6217",
-      "title": "Lean Innovation",
-      "credits": 3.0,
-      "description": "Explores how corporate venturing and entrepreneurial teams can quickly and effectively bring new concepts to market. Demonstrates how small technical teams can quickly investigate opportunity spaces, develop and select concepts, and translate these into prototypes. Other topics include industrial design thinking, project teams, prototyping, and commercialization of design. Explores the challenges and solutions to managing a technology-based product within an established corporation and details frameworks on how innovative projects can be inexpensively tested and deployed within the organization.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6222",
-      "title": "Competing in Dynamic, Innovation-Driven Markets",
-      "credits": 3.0,
-      "description": "Reviews the key theories and tools needed to understand how technological change creates new markets and prompts new business models, how technology-based firms can outcompete rivals in fast-growing markets characterized by high uncertainty, and how the evolution of technology in an industry affects the type of firm capabilities needed to succeed over time.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6225",
-      "title": "Acquisitions, Alliances, and Growth",
-      "credits": 3.0,
-      "description": "Offers students an opportunity to analyze whether, why, and how multibusiness corporations expand their operations into new business areas by questioning decisions to grow globally through mechanisms such as acquisitions or alliances. Uses rigorous case-based discussions, expert readings, and major current events to discuss issues related to the choice of make, buy, or partner. Offers students an opportunity to evaluate how these different corporate entrepreneurial strategies are used to help firms be more competitive and innovative.",
+      "description": "Explores the challenges and processes for harnessing technological innovation for new-business development. Integrates technology strategy, innovation in marketing, product development, and organization design for the purpose of enterprise growth. Through readings, cases, and exercises, studies how firms from different industries gain competitive advantage through distinctive products and services, and leverage their technologies and skills into new emerging markets. Also focuses on processes for conceiving, financing, and organizing new ventures.This course is only available to students who matriculated in a Northeastern program prior to Fall 2026 that requires completion of this course.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -173,24 +149,6 @@
       "title": "Leading Digital Transformation in Organizations",
       "credits": 3.0,
       "description": "Examines how the global economy is being transformed by digital and information technologies. Companies increasingly use these technologies to develop and deliver products and services, interact with customers and stakeholders, operate their businesses more efficiently, and disrupt traditional business models with innovative digital solutions. Analyzes how digital technologies offer established companies opportunities to reduce costs, operate more quickly, and offer customers codesign and coproduction options. Studies how firms adapt to new conditions by adopting information technology and the barriers to entry inherent in every organization.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6227",
-      "title": "Digital Bias in Business",
-      "credits": 3.0,
-      "description": "Delves into the societal and ethical challenges companies increasingly face as they confront new technologies. Studies the origins of these challenges and explores how firms can address these important ethical and societal issues as they seek competitive advantage in the marketplace. Examines the unintended consequences of past technological advances and how firms, regulators, and society responded to similar issues in the past. Evaluates a range of current issues with new technologies and explores the extent to which lessons from the past can be applied to current debates. Explores how differences in incentives across organizations influence their stance on new technologies, including the range of solutions they consider when challenges do arise.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6230",
-      "title": "Platform Innovation",
-      "credits": 3.0,
-      "description": "Provides a business perspective on how to design and optimize platform-based business models for growth, value creation, and innovation and a practical analytical toolkit of theories, concepts, and frameworks. Uses case studies from various industries. Many of today’s growth enterprises and startups are organized as platforms. Platforms facilitate other actors and support interactions among a wider “ecosystem” of users, services, suppliers, etc., and they have potential for massive growth and value creation. High returns to successful platform business models lead companies to learn to act like platforms. Technology trends toward digitization, big data, automation, etc., accelerate these trends. Aimed at people looking to work within existing companies or those interested in starting or growing new platforms.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -267,15 +225,6 @@
       "title": "Managing a Technology-Based Business",
       "credits": 3.0,
       "description": "Covers topics specific to managing a business or a strategic business unit within a firm. Considers the special issues related to technology-based firms. Topics include creating a culture, operations planning, staffing for technical excellence, dealing with technology vendors, dealing with advisers, supply chain management, and writing operations plans. Open to first-year graduate students.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6318",
-      "title": "Innovation Driven Strategy",
-      "credits": 2.0,
-      "description": "Introduces a number of entrepreneurship and innovation topics, including innovation and entrepreneurship as a value-creating activity for economies and firms; types of innovation (technological, process, products, business models); fundamentals of product development (design thinking, rapid prototyping, ethnography); startup creation and articulating a value proposition; the role and traits of the entrepreneur; maximizing odds of success and minimizing odds of failure; growing the startup and creating a market; finding or creating the right niche; pivoting and judo strategy; lean startup approach; innovation in established firms and resistance to change; organizational inertia; business model change; and technological discontinuities.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -362,10 +311,91 @@
       "attributes": []
     },
     {
+      "number": "6410",
+      "title": "Product Management Capstone",
+      "credits": 1.0,
+      "description": "An experiential course integrating strategic product management principles with real-world application, guiding students through the development of a new product line for an existing brand. Emphasizes customer discovery, market research, and economic feasibility, balancing innovation with brand alignment. Introduces tools for financial modeling, ROI analysis, and prototyping as a means to explore the end-to-end process of product line development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6411",
       "title": "Product Innovation Management",
       "credits": 1.0,
       "description": "Explores advanced principles in product innovation management. Focuses on integrating design thinking, innovation strategy, and portfolio management. Through experiential learning, offers students an opportunity to develop skills in assessing product life cycle stages, aligning innovation portfolios with strategic goals, and applying metrics for data-driven decision making.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6412",
+      "title": "Managing Ecosystems and Stakeholders for Corporations",
+      "credits": 2.0,
+      "description": "Presents a comprehensive framework for understanding and managing ecosystems and stakeholders. Explores how firms can effectively shape ecosystems, create value through partnerships, and align the interests of various stakeholders. Examines key topics such as stakeholder theory, ecosystem mapping, ecosystem evolution, and digital transformation. Uses case studies, readings, and practical exercises to offer students an opportunity to identify ecosystem dynamics; map stakeholder landscapes; and implement strategies for fostering collaboration, innovation, and resilience. Also addresses the challenges of managing stakeholder expectations in the face of rapid technological change, evolving consumer preferences, and increasing demands for corporate responsibility.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6413",
+      "title": "Corporate Innovation for Impact",
+      "credits": 2.0,
+      "description": "Presents how corporations and large organizations can drive positive social and environmental impact. Exposes students to corporate social responsibility, B-Corp certification, and the business sustainability landscape. Offers students an opportunity to evaluate a corporation’s existing business practices and use innovative principles and practices to design alternatives that minimize negative externalities and maximize social and environmental impact. Explores how to develop an impact report card, theory of change, and impact narrative for a corporation interested in improving its social and environmental impact.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6414",
+      "title": "Innovation Methods and Applications",
+      "credits": 4.0,
+      "description": "Examines applied innovation in the form of creating new products, systems, and services. Guides students through the significant dimensions of innovation for existing corporations and startups. Covers technology and business model strategy; the impact of disruptive technologies on entire industries; and the strategies and approach for internal, organic enterprise growth.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6415",
+      "title": "Competing in the Age of Smart Machines",
+      "credits": 4.0,
+      "description": "Presents in-depth coverage of the latest research and practical applications of intelligent technologies in diﬀerent areas of business, from product/service ideation to production and commercialization. Focuses on novel firm strategies and business model changes enabled by intelligent technologies and on how employees, customers, and company leaders are aﬀected by them.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6418",
+      "title": "Innovation-Driven Strategy",
+      "credits": 2.0,
+      "description": "Introduces a number of entrepreneurship and innovation topics. Includes innovation and entrepreneurship as a value-creating activity for economies and firms; types of innovation (technological, process, products, business models); fundamentals of product development (design thinking, rapid prototyping, ethnography); startup creation and articulating a value proposition; the role and traits of the entrepreneur; maximizing odds of success and minimizing odds of failure; growing the startup and creating a market; finding or creating the right niche; pivoting and judo strategy; lean startup approach; innovation in established firms and resistance to change; organizational inertia; business model change; and technological discontinuities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6425",
+      "title": "Acquisitions, Alliances, and Growth",
+      "credits": 4.0,
+      "description": "Analyzes whether, why, and how firms expand their operations into new business areas by questioning decisions to grow (e.g., through vertical integration or diversification) and decisions to do so organically or through alternative mechanisms such as acquisitions, alliances, franchising, corporate venture capital, and private equity investments. Includes the study of how organizations evolve and transform over time. Uses rigorous case-based discussions, expert readings, and major current events to discuss issues related to the choice of make, buy, or partner. Evaluates how these different strategies are used to help firms become more competitive and innovative.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6427",
+      "title": "Digital Bias in Business",
+      "credits": 4.0,
+      "description": "Examines in-depth societal and ethical challenges that companies increasingly encounter when developing and deploying new technologies. Analyzes how firms address such important issues while seeking competitive advantage in the marketplace. Explores unintended consequences resulting from technological advances and evaluates how companies, regulators, and society have responded. Through comprehensive case studies, original research papers, and real-world applications, offers students an opportunity to develop frameworks for addressing contemporary issues related to new technologies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6430",
+      "title": "Platform Innovation",
+      "credits": 4.0,
+      "description": "Examines the innovation and development of platform-based and data/AI-driven business models in the modern economy—for both large enterprises and entrepreneurial firms. Explores strategic principles and economic forces underlying network effects, multisided markets, governance, pricing, competition, and the integration of data and AI into operating models. Provides analytical frameworks to evaluate, design, and manage platform enterprises across industries. Offers students an opportunity to engage with cutting-edge issues in digital strategy, innovation, and societal impact while developing a durable toolkit of concepts and methods for platform analysis.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

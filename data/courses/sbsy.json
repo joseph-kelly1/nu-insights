@@ -52,8 +52,24 @@
       "number": "5500",
       "title": "Deep Energy Retrofitting for Commercial Buildings",
       "credits": 4.0,
-      "description": "Explores deep energy retrofits of existing buildings to meet stringent energy performance targets and reduce greenhouse gas emissions. Covers analysis, planning, design, implementation, and evaluation of retrofit interventions using building audits, sensing, forensic analysis, surveys, cost estimating, and simulation. Integrates students’ prior knowledge and experience in architectural engineering, building science, energy analysis, and economic decision-making.",
-      "prerequisites": [],
+      "description": "Explores deep energy retrofits of existing buildings to meet stringent energy performance targets and reduce greenhouse gas emissions. Covers analysis, planning, design, implementation, and evaluation of retrofit interventions using building audits, sensing, forensic analysis, surveys, cost estimating, and simulation. Integrates students’ prior knowledge and experience in architectural engineering, building science, energy analysis, and economic decision making.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "SBSY 5100"
+          },
+          {
+            "course": "SBSY 5100"
+          },
+          {
+            "course": "SBSY 5200"
+          },
+          {
+            "course": "SBSY 5200"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },

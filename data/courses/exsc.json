@@ -52,18 +52,37 @@
             "type": "OR",
             "courses": [
               {
+                "course": "BIOL 2217"
+              },
+              {
                 "type": "AND",
                 "courses": [
                   {
-                    "course": "BIOL 2217"
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "admission_requirement": "BIOL 136M with a minimum grade of C-"
+                      },
+                      {
+                        "admission_requirement": "BIOL 234M with a minimum grade of C-"
+                      }
+                    ]
                   },
                   {
-                    "course": "BIOL 2219"
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "BIOL 2219"
+                      },
+                      {
+                        "admission_requirement": "BIOL 234M with a minimum grade of C-"
+                      },
+                      {
+                        "course": "EXSC 4500"
+                      }
+                    ]
                   }
                 ]
-              },
-              {
-                "course": "EXSC 4500"
               }
             ]
           },
@@ -119,6 +138,18 @@
           }
         ]
       },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5240",
+      "title": "Clinical Nutrition Applications in Health and Disease",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Prepares health professionals to effectively communicate principles of diet and nutrition to their clients and the public. Covers public health promotion strategies, techniques used to teach diet and nutrition, and behavioral theories used in diet and nutrition intervention. Emphasizes clinical applications for the treatment of weight disorders, diabetes, cardiovascular disease, eating disorders, and nutrition in the life cycle.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },

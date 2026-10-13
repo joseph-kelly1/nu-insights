@@ -11,6 +11,15 @@
       "attributes": []
     },
     {
+      "number": "1113",
+      "title": "Data Analysis Tools for Economists",
+      "credits": 4.0,
+      "description": "Presents an overview of popular software packages used by economists when carrying out data analysis. Covers Excel and its capabilities for data collection, importing, cleaning, merging, exploration, summarization, and visualization. Describes similar types of data analysis with at least two of the following three programming software: R, Python, and Stata. Students utilize said software to write their own code for data analysis. Introduces artificial intelligence tools as a complement to each of these software tools and techniques.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "1115",
       "title": "Principles of Macroeconomics",
       "credits": 4.0,
@@ -140,13 +149,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1115"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "MATH 1231"
+              },
+              {
+                "admission_requirement": "MATH 21BM with a minimum grade of D-"
               },
               {
                 "course": "MATH 1241"
@@ -167,7 +187,13 @@
                 "course": "MATH 1341"
               },
               {
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
               }
             ]
           }
@@ -188,13 +214,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "MATH 1231"
+              },
+              {
+                "admission_requirement": "MATH 21BM with a minimum grade of D-"
               },
               {
                 "course": "MATH 1241"
@@ -215,7 +252,13 @@
                 "course": "MATH 1341"
               },
               {
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
               }
             ]
           }
@@ -238,10 +281,25 @@
             "course": "CS 1100"
           },
           {
+            "course": "CS 2000"
+          },
+          {
+            "admission_requirement": "CIS 200M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
+            "course": "CS 2100"
+          },
+          {
+            "admission_requirement": "CIS 201M (may be taken concurrently) with a minimum grade of D-"
+          },
+          {
             "course": "CS 2500"
           },
           {
             "course": "DS 2000"
+          },
+          {
+            "course": "DS 2500"
           },
           {
             "course": "MISM 2510"
@@ -269,10 +327,25 @@
                 "course": "CS 1100"
               },
               {
+                "course": "CS 2000"
+              },
+              {
+                "admission_requirement": "CIS 200M with a minimum grade of D-"
+              },
+              {
+                "course": "CS 2100"
+              },
+              {
+                "admission_requirement": "CIS 201M with a minimum grade of D-"
+              },
+              {
                 "course": "CS 2500"
               },
               {
                 "course": "DS 2000"
+              },
+              {
+                "course": "DS 2500"
               },
               {
                 "course": "MISM 2510"
@@ -280,16 +353,35 @@
             ]
           },
           {
-            "course": "ECON 1115"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
           },
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "ECON 2350"
+              },
+              {
+                "admission_requirement": "BUSM 22EM with a minimum grade of D-"
               },
               {
                 "course": "MATH 2280"
@@ -304,6 +396,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "POLS 2400"
               },
               {
@@ -316,6 +411,9 @@
             "courses": [
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1102"
@@ -341,6 +439,9 @@
                 "course": "MATH 1231"
               },
               {
+                "admission_requirement": "MATH 21BM with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 1241"
               },
               {
@@ -354,6 +455,9 @@
               },
               {
                 "course": "MATH 1341"
+              },
+              {
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
               }
             ]
           }
@@ -371,7 +475,15 @@
       "credits": 4.0,
       "description": "Examines global financial markets such as U.S. equities markets, stock options exchange markets, and the Treasury debt market. Explores financial instruments used in each of these markets such as debt and equity instruments, futures and options, credit default swaps, and interest rate swaps. Analyzes government regulation and shortcomings of these markets. Discusses policies for the potential improvement of financial markets. Offers students an opportunity to develop skills in the use of current financial market technologies and instruments.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -388,7 +500,13 @@
             "course": "ECON 1116"
           },
           {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          },
+          {
             "course": "ECON 1115"
+          },
+          {
+            "admission_requirement": "ECO 210M with a minimum grade of D-"
           }
         ]
       },
@@ -406,13 +524,27 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "ECON 2350"
+              },
+              {
+                "admission_requirement": "BUSM 22EM with a minimum grade of D-"
+              },
+              {
+                "course": "INSH 3102"
               },
               {
                 "course": "MATH 2280"
@@ -422,6 +554,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "POLS 2400"
@@ -444,7 +579,15 @@
       "credits": 4.0,
       "description": "Offers an overview of the rationale for and types of food policies in developing countries. Uses a food systems approach to cover economic and political dimensions of food policy. Emphasizes food security, nutrition, poverty alleviation, and environmental issues. Discusses and analyzes the dynamics of change in the role of government; food value chains; and institutions and governance and their implications for local, regional, and global food systems.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -457,7 +600,15 @@
       "credits": 4.0,
       "description": "Examines the origins, workings, successes, and failures of capitalism, defined as an economic system where capital is mostly privately owned and markets generally solve economic problems. Examines, in addition, several variants of private-ownership economies including slavery, feudalism, land-tenancy, putting-out system, and self-employment. Also examines some alternatives to capitalism, such as command socialism, market socialism, worker-ownership of capital, cooperatives, Islamic economy, and Christian economy.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -507,6 +658,28 @@
       ]
     },
     {
+      "number": "3412",
+      "title": "Women’s Labor and the Economy",
+      "credits": 4.0,
+      "description": "Introduces economic models of dating, marriage, divorce, and childbearing with the goal of understanding the dramatic changes in family structure that have occurred over the past 60 years. Focuses on women’s behavior in the labor force: the labor force participation and poverty and antipoverty programs (as the majority of America’s poor are in families headed by women). Discusses theories, evidence, and policy remedies for wage differences between men and women with emphasis on policy topics such as pro-marriage and fertility initiatives, welfare reform, the earned income tax credit, affirmative action, the marriage tax, parental leave, and childcare support.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Difference/Diversity"
+      ]
+    },
+    {
       "number": "3413",
       "title": "Health Economics and Healthcare Policy",
       "credits": 4.0,
@@ -515,13 +688,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "ECON 2350"
+              },
+              {
+                "admission_requirement": "BUSM 22EM with a minimum grade of D-"
               },
               {
                 "course": "MATH 2280"
@@ -531,6 +715,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "POLS 2400"
@@ -554,13 +741,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "ECON 2350"
+              },
+              {
+                "admission_requirement": "BUSM 22EM with a minimum grade of D-"
               },
               {
                 "course": "MATH 2280"
@@ -570,6 +768,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "POLS 2400"
@@ -590,7 +791,15 @@
       "credits": 4.0,
       "description": "Studies urban growth and development, focusing on economic analysis of selected urban problems such as housing, poverty, transportation, education, health, crime, and the urban environment. Discusses public policies related to such problems.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -603,7 +812,15 @@
       "credits": 4.0,
       "description": "Applies the tools of economics to environmental issues. Explores taxonomy of environmental effects; externalities; the commons problem; taxation, regulations, marketable permits, and property rights as a solution; measuring benefits of cleaner air and water, noise abatement, and recreational areas; global issues including tropical deforestation and acid rain; and the relevance of economics to the environmental debate.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -614,7 +831,15 @@
       "credits": 4.0,
       "description": "Introduces students to the economic approach to law. Focuses on several different bodies of law, including torts, property, contracts, and crime. Specific applications may consider additional areas, including those related to health and safety, the environment, and the legal services industry. Relies on economic models to examine the incentives created by various rules and considers the implications for social welfare. Covers select cases to highlight their economic importance. Examines the economic logic underlying the evolution of the common law.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -628,7 +853,15 @@
       "credits": 4.0,
       "description": "Introduces theoretical and empirical perspectives on energy demand and energy supply. Energy is vital to modern economies. Emphasizes the role markets play in determining how to use energy and its sources and the scope for public policy to address market imperfections. Discusses oil, natural gas, coal, nuclear power, and renewable energy (such as hydro-, wind, and solar power). Covers the public policy issues around greenhouse gas emissions and energy security.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -639,7 +872,15 @@
       "credits": 4.0,
       "description": "Presents an overview of the economics of government and the role of public policy. Develops guidelines to determine which economic activities are best performed by government and which are not. Also examines the impact of tax policies on efficiency, economic growth, and equity. Topics include market failures, public choice, the personal income tax, the corporate tax, sales tax, and taxation of capital and wealth, and options for reform of the tax structure. Major spending programs such as social security and education and healthcare are analyzed.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -661,7 +902,15 @@
       "credits": 4.0,
       "description": "Explores the application of economic principles to the solution of managerial decision-making problems in areas such as demand estimation, cost estimation and control, pricing and marketing strategies, employee incentives, financing of capital investments, and responses to government regulation and taxation. Case studies and simulation models are typically used as pedagogical tools.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -670,7 +919,7 @@
       "number": "3462",
       "title": "Bubbles, Busts, and Bailouts: Market and Regulatory Failures in the Financial Crisis",
       "credits": 4.0,
-      "description": "Investigates economic and financial bubbles together with the busts and bailouts that usually follow. Analyzes how and why bubbles form in markets such as housing and stocks, emphasizing the financial crisis of 2007–2008 but covers others as well. Also examines the lasting effects on markets and the economy from the collapse of such bubbles and the need for bailouts and other policies that are often used. Applies a range of perspectives to identify the market failures and regulatory failures that can cause bubbles—failures of assumptions about information, about incentives, and about oversight. Includes perspectives from microeconomics, behavioral economics, finance, and public policy.",
+      "description": "Investigates economic and financial bubbles together with the busts and bailouts that usually follow. Analyzes how and why bubbles form in markets such as housing and stocks, emphasizing the financial crisis of 2007-2008, but covers others as well. Also examines the lasting effects on markets and the economy from the collapse of such bubbles and the need for bailouts and other policies that are often used. Applies a range of perspectives to identify the market failures and regulatory failures that can cause bubbles—failures of assumptions about information, about incentives, and about oversight. Includes perspectives from microeconomics, behavioral economics, finance, and public policy.",
       "prerequisites": {
         "course": "ECON 1116"
       },
@@ -688,13 +937,24 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1115"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
             "courses": [
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1102"
@@ -722,6 +982,17 @@
       ]
     },
     {
+      "number": "3480",
+      "title": "Industrial Organization and Public Policy",
+      "credits": 4.0,
+      "description": "Presents an analytic framework and empirical study of how the structure of industries and the conduct of sellers affect performance. Includes examples and case studies from both the “old economy” and the “new economy.” Examines antitrust as a public policy designed to promote better market performance.",
+      "prerequisites": {
+        "course": "ECON 1116"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "3481",
       "title": "Economics of Sports",
       "credits": 4.0,
@@ -741,10 +1012,26 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1115"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
           },
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -762,10 +1049,26 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1115"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
           },
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -781,6 +1084,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -806,10 +1112,26 @@
         "type": "AND",
         "courses": [
           {
-            "course": "ECON 1115"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
           },
           {
-            "course": "ECON 1116"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -822,7 +1144,88 @@
       "credits": 4.0,
       "description": "Addresses economic issues related to race, including the persistence of racial discrimination. Studies the social construction of race and the use of this construction to legitimize exploitation. Covers the economic modeling of discrimination and segregation, as well as the effect of these societal attributes on economic outcomes, and the complexity of racial equity and equality specific to reparations. Course materials rely on published research, film, and other media.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3720",
+      "title": "Economics of Conflict and Peace",
+      "credits": 4.0,
+      "description": "Applies economic analysis to the choice between violent conflict and peaceful settlement in dispute resolution at the macrolevel (for example, interstate war, terrorism, genocide) and microlevel (for example, gang warfare, human trafficking, cybercrime). Offers students an opportunity to build a toolkit of models and methods to study this choice such as rational choice theory, game theory, behavioral economics, identity economics, and network economics. Reviews empirical research into the sources of conflict and risk factors for war.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1115"
+              },
+              {
+                "admission_requirement": "ECO 210M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ECON 1116"
+              },
+              {
+                "admission_requirement": "ECO 213M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1231"
+              },
+              {
+                "admission_requirement": "MATH 21BM with a minimum grade of D-"
+              },
+              {
+                "course": "MATH 1241"
+              },
+              {
+                "course": "MATH 1242"
+              },
+              {
+                "course": "MATH 1245"
+              },
+              {
+                "course": "MATH 1251"
+              },
+              {
+                "course": "MATH 1340"
+              },
+              {
+                "course": "MATH 1341"
+              },
+              {
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
+              },
+              {
+                "course": "MATH 1342"
+              },
+              {
+                "admission_requirement": "MATH 211M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -833,7 +1236,15 @@
       "credits": 4.0,
       "description": "Covers selected topic matter in the field of macroeconomics. The specific topic is chosen by the instructor. May be repeated up to five times.",
       "prerequisites": {
-        "course": "ECON 1115"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1115"
+          },
+          {
+            "admission_requirement": "ECO 210M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -844,7 +1255,15 @@
       "credits": 4.0,
       "description": "Covers selected topic matter in the field of microeconomics. The specific topic is chosen by the instructor. May be repeated up to five times.",
       "prerequisites": {
-        "course": "ECON 1116"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "admission_requirement": "ECO 213M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -886,6 +1305,9 @@
                 "course": "ECON 2350"
               },
               {
+                "admission_requirement": "BUSM 22EM with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2280"
               },
               {
@@ -893,6 +1315,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "POLS 2400"
@@ -906,6 +1331,66 @@
       },
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "4642",
+      "title": "International Trade",
+      "credits": 4.0,
+      "description": "Introduces the theory and practice of international trade. Covers fundamental issues concerning the conduct of international trade in a global economy such as classical and neoclassical theories of the determinants of trade, modern explanations of the patterns of trade, analysis and evaluation of trade policies, and regional and global trade regimes.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ECON 1115"
+          },
+          {
+            "course": "ECON 2316"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4644",
+      "title": "International Macroeconomics and Finance",
+      "credits": 4.0,
+      "description": "Covers the theory and practice of the conduct of macroeconomic policy in an open economy. Includes balance of payments accounting, exchange rate determination, international monetary systems, macroeconomic policy options, and international financial crisis risk management.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ECON 1116"
+          },
+          {
+            "course": "ECON 2315"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4653",
+      "title": "Mathematics for Economics",
+      "credits": 4.0,
+      "description": "Introduces basic tools of mathematics, matrix algebra, differential and integral calculus, and classical optimization, with special reference to economic applications. Computer applications are an integral part of the course.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "ECON 1115"
+          },
+          {
+            "course": "ECON 1116"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Formal/Quant Reasoning"
+      ]
     },
     {
       "number": "4680",
@@ -936,6 +1421,9 @@
                 "course": "ECON 2350"
               },
               {
+                "admission_requirement": "ECON 22EM with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2280"
               },
               {
@@ -943,6 +1431,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "POLS 2400"
@@ -981,6 +1472,9 @@
                 "course": "ECON 2350"
               },
               {
+                "admission_requirement": "BUSM 22EM with a minimum grade of D-"
+              },
+              {
                 "course": "MATH 2280"
               },
               {
@@ -988,6 +1482,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "POLS 2400"
@@ -1004,6 +1501,17 @@
         "NUpath Capstone Experience",
         "NUpath Writing Intensive"
       ]
+    },
+    {
+      "number": "4915",
+      "title": "Advanced Selected Topics in Macroeconomics",
+      "credits": 4.0,
+      "description": "Covers selected topic matter in the field of macroeconomics. The specific topic is chosen by the instructor. May be repeated once.",
+      "prerequisites": {
+        "course": "ECON 2315"
+      },
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "4916",
@@ -1212,6 +1720,9 @@
         "type": "OR",
         "courses": [
           {
+            "course": "ECON 2560"
+          },
+          {
             "course": "ECON 5105"
           },
           {
@@ -1364,20 +1875,7 @@
       "title": "Advanced Applied Econometrics",
       "credits": 4.0,
       "description": "Offers students an opportunity to obtain the theoretical tools, computer skills, and experience using econometrics needed to appreciate and do high-quality applied research in economics. Emphasizes understanding how the properties of estimators can be found and their implications for applied research. Introduces the programming language Python, which is integrated into the course. Focuses on methods that are most useful in microeconomic analysis, including classical linear regressions, Gauss-Markov theorem and hypothesis testing, endogeneity, instrumental variable estimation and causality analysis, heteroskedasticity and serial correlations, nonlinearity, panel data methods, difference-in-difference, and regression discontinuity. This is the first advanced graduate-level course on econometrics.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ECON 5105"
-          },
-          {
-            "course": "ECON 5105"
-          },
-          {
-            "course": "ECON 6105"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -1467,37 +1965,6 @@
       "attributes": []
     },
     {
-      "number": "7251",
-      "title": "International Finance",
-      "credits": 4.0,
-      "description": "Introduces students to international finance and equips them with tools and methods to study and analyze international economic issues and problems. Topics include the foreign exchange market, balance of payments, international investment and banking, monetary and fiscal policy in an open economy, economic integration and monetary unification, the international monetary system, and optimum currency areas. Each student is required to write a short paper on a current problem in international finance.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7266",
-      "title": "Economics of Government",
-      "credits": 4.0,
-      "description": "Presents an overview of the economics of government and the role of public policy. Develops guidelines to determine which economic activities are best performed by government and which are not. Topics include public choice, public goods, externalities, public enterprise, and efficiency and equity effects of alternative tax systems.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ECON 5110"
-          },
-          {
-            "course": "ECON 5110"
-          },
-          {
-            "course": "ECON 6110"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7710",
       "title": "Microeconomic Theory 2",
       "credits": 4.0,
@@ -1582,15 +2049,7 @@
       "credits": 4.0,
       "description": "Offers a theoretical and methodological survey of the field of neoclassical labor market analysis at the PhD level. Topics include the supply of labor from the perspective of the individual and the family, human capital, the demand for labor, market equilibrium, and the determination and distribution of wages and earnings. Other topics that may be included are unions, unemployment, labor mobility, alternative models of labor markets, labor productivity and growth, and income distribution and poverty.",
       "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "course": "ECON 7710"
-          },
-          {
-            "course": "ECON 7740"
-          }
-        ]
+        "course": "ECON 7740"
       },
       "corequisites": [],
       "attributes": []

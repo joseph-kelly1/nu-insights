@@ -139,7 +139,15 @@
       "credits": 4.0,
       "description": "Analyzes the political, administrative, economic, and social dynamics of urban areas. Highlights the diversity of political institutions and practices in American cities. Introduces key policy areas at the city level such as land use, economic development, and education.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -206,10 +214,19 @@
             "course": "POLS 1150"
           },
           {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           }
         ]
       },
@@ -277,6 +294,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1102"
           },
           {
@@ -304,6 +324,9 @@
             "course": "CS 1800"
           },
           {
+            "admission_requirement": "MATH 209M with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1213"
           },
           {
@@ -311,6 +334,9 @@
           },
           {
             "course": "MATH 1231"
+          },
+          {
+            "admission_requirement": "MATH 21BM with a minimum grade of D-"
           },
           {
             "course": "MATH 1241"
@@ -322,13 +348,34 @@
             "course": "MATH 1341"
           },
           {
+            "admission_requirement": "MATH 21EM with a minimum grade of D-"
+          },
+          {
             "course": "MATH 1342"
+          },
+          {
+            "admission_requirement": "MATH 211M with a minimum grade of D-"
+          },
+          {
+            "course": "MATH 2280"
           }
         ]
       },
       "corequisites": [],
       "attributes": [
         "NUpath Analyzing/Using Data"
+      ]
+    },
+    {
+      "number": "2600",
+      "title": "Artificial Intelligence and World Politics",
+      "credits": 4.0,
+      "description": "Examines how the effects of artificial intelligence permeate all aspects of life and impact world politics. Explores the implications of AI uses and their impacts in different areas of international relations driven by profound transformations: great power rivalry, challenges posed to global cooperation, provision of humanitarian assistance, achieving the United Nations sustainable development goals, and using AI in the military and warfare. Introduces and assesses AI policies adopted by states and engages with AI’s application at multiple societal levels, uncovering the ethical, moral, and international legal implications. Considers how technological developments are outpacing diplomatic negotiations, highlighting how global institutional changes can prevent unethical and unlawful uses as pathways to peace and security in the contemporary world order.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Ethical Reasoning"
       ]
     },
     {
@@ -361,7 +408,15 @@
       "credits": 4.0,
       "description": "Introduces students to the art of political campaigning in primary or general elections. Utilizes a case-study format to approach various aspects of campaign strategy by analyzing successful and unsuccessful campaigns.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -372,7 +427,15 @@
       "credits": 4.0,
       "description": "Explores the structures, dynamics, and styles inherent in public policymaking within the U.S. Congress. Focuses on elections; representations of constituents’ interests; the roles that participants play: the president, interest groups, and others; and how all of this is affected by the structure of Congress and the process embedded in the legislative body.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -383,7 +446,15 @@
       "credits": 4.0,
       "description": "Examines the nature of the judiciary in the United States. Focuses on courts and various aspects of the judicial process, including judicial selection, judicial decision making, the impact of judicial decisions on society, and public opinion of courts. After exploring, from various methodological perspectives, how and why courts behave as they do, the course turns its attention to questions about the role of courts in U.S. politics.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -394,7 +465,15 @@
       "credits": 4.0,
       "description": "Offers students an in-depth examination of the process the two major American parties use to nominate their presidential candidates. Major topics include the history and evolution of the presidential nomination process; the contemporary rules regime; the behavior of candidates, voters, and the media; vice presidential selection; the role of the national conventions; and prospects for reform. Students who do not meet course prerequisites may seek permission of instructor.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -405,7 +484,15 @@
       "credits": 4.0,
       "description": "Analyzes the structure of and dynamics inherent in public policymaking and public administration in the United States. Introduces such concepts as problem definition, agenda development, policy formation, program implementation, and policy evaluation. Covers key issues in public administration including budgeting, personnel, and organizational design.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -416,7 +503,15 @@
       "credits": 4.0,
       "description": "Examines the politics and public policies of the movement for equality and social justice for lesbian, gay, bisexual, and transgender (LGBT) people in a wide range of state and federal policy areas such as same-sex marriage, military service, family adoption rights, and employment discrimination protection. Reviews the political history of LGBT communities and the treatment of LGBT people since the 1920s in the United States and globally. Analyzes the policy debates by considering voting behavior, trends in public opinion toward LGBT issues, and the political incorporation of LGBT people in the United States and around the world. Students who do not meet course prerequisites may seek permission of instructor.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -427,7 +522,15 @@
       "credits": 4.0,
       "description": "Analyzes how Americans think about politics, how they vote, and how the rules of the U.S. electoral system affect electoral outcomes. Major topics include the nature and content of public opinion, mass partisanship, issues and issue voting, presidential and congressional elections, turnout and participation, campaign finance, and recent trends in U.S. electoral behavior.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -438,7 +541,15 @@
       "credits": 4.0,
       "description": "Analyzes several facets of the mass media: the role of newspapers, radio, television, and the Internet in public opinion formation; their use and effectiveness in political campaigns; their objectivity and/or bias in reporting the news; and their impact on public policymaking.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -458,7 +569,15 @@
       "credits": 4.0,
       "description": "Addresses international political economy and how we can understand the phenomenon of globalization. Introduces the interaction between international politics and international economics in industrial countries and in developing countries. Covers several theoretical approaches to international political economy. Then analyzes some of the classic issue areas of international trade relations; foreign direct investment and outsourcing; the international monetary and financial system and the role of international institutions; debt and financial crises; and poverty and inequality. Concludes with analysis of how international political economy issues relate to governance, development, and the politics of economic reform.",
       "prerequisites": {
-        "course": "POLS 1160"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M (may be taken concurrently) with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -469,7 +588,15 @@
       "credits": 4.0,
       "description": "Introduces international law and how it redefines and shapes world politics. Offers students an opportunity to learn about the cornerstones of this area of the law: the state, organizations and their legal personality, diplomatic relations, treaties, extraterritorial jurisdiction, extradition, human rights and humanitarian law, the law of the sea trade/economic law, and international criminal law with a focus on the world courts. Considers the degree to which international law is pervasive in the life of individuals and states alike.",
       "prerequisites": {
-        "course": "POLS 1160"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -486,7 +613,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -508,7 +641,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -527,10 +666,19 @@
             "course": "POLS 1150"
           },
           {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -549,26 +697,18 @@
             "course": "POLS 1150"
           },
           {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
       "corequisites": [],
       "attributes": []
-    },
-    {
-      "number": "3430",
-      "title": "Revolution, Civil War, and Insurrection",
-      "credits": 4.0,
-      "description": "Explores various types of conflict settlements and their implications for peace and reconciliation. Why do civil wars break out in some places but not others? What does it take to start a revolution? Why do some conflicts last decades, and what can be done to mitigate their costs? Examines why civil conflicts begin, how they are fought, and how they end. Substantive topics include strategies of insurgency and counterinsurgency; the role of ethnicity, religion, and gender; and the relationship between economic factors and conflict. Students leverage fundamental concepts and theories in comparative politics to analyze civil conflicts in a wide range of country contexts.",
-      "prerequisites": {
-        "course": "POLS 1160"
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Societies/Institutions",
-        "NUpath Writing Intensive"
-      ]
     },
     {
       "number": "3435",
@@ -582,7 +722,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -603,7 +749,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -638,6 +790,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M (may be taken concurrently) with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -663,6 +818,9 @@
           },
           {
             "course": "POLS 1155"
+          },
+          {
+            "admission_requirement": "ISM 231M with a minimum grade of C"
           }
         ]
       },
@@ -675,7 +833,15 @@
       "credits": 4.0,
       "description": "Focuses on China’s political system and the major issues confronted: leadership recruitment and succession, economic policies and development, class and class struggle, political culture and socialization, human rights, civil society, the media, and both internal and external security concerns. Examines how ideology, development, culture, and the pursuit of China’s national interest affect governance.",
       "prerequisites": {
-        "course": "POLS 1155"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1155"
+          },
+          {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -692,7 +858,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           }
         ]
       },
@@ -712,12 +884,48 @@
       ]
     },
     {
+      "number": "3973",
+      "title": "Special Topics in Political Science",
+      "credits": 4.0,
+      "description": "Examines selected topics in political science. Topics vary each semester. May be repeated up to three times for a maximum of 12 semester hours.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENGW 1102"
+          },
+          {
+            "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
+            "course": "ENGW 1113"
+          },
+          {
+            "course": "ENGW 1114"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "4500",
       "title": "U.S. Constitutional Law",
       "credits": 4.0,
       "description": "Uses U.S. Supreme Court decisions and other reading materials to analyze theoretical, structural, and substantive issues inherent in, and relevant to, the American constitutional system.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -730,7 +938,40 @@
       "credits": 4.0,
       "description": "Uses United States Supreme Court decisions and other reading material to examine the substantive and procedural guarantees of the Bill of Rights and the Fourteenth Amendment and their relation to a liberal democratic society.",
       "prerequisites": {
-        "course": "POLS 1150"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1150"
+          },
+          {
+            "admission_requirement": "PS 106M with a minimum grade of D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4580",
+      "title": "Special Topics: Comparative Politics and International Relations",
+      "credits": 4.0,
+      "description": "Analyzes the constitutional, political, economic, and societal dimensions of selected contemporary public issues in comparative politics and international relations. May be repeated up to three times.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1155"
+          },
+          {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
+            "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -887,6 +1128,15 @@
       ]
     },
     {
+      "number": "5101",
+      "title": "Special Topics in Politics and Political Science",
+      "credits": 4.0,
+      "description": "Examines current issues and special topics in the areas of political science, politics, and public affairs at an advanced level. May be repeated twice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5408",
       "title": "International Security",
       "credits": 4.0,
@@ -896,6 +1146,9 @@
         "courses": [
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           },
           {
             "admission_requirement": "graduate program admission"
@@ -999,15 +1252,6 @@
       "attributes": []
     },
     {
-      "number": "7257",
-      "title": "The U.S. Judicial Process",
-      "credits": 4.0,
-      "description": "Studies the judicial process in the United States, emphasizing federal courts. Focuses on theories and empirical research regarding judicial decision making, how and why judges decide what they do, and the resulting political effects.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "7282",
       "title": "Contemporary Political Thought",
       "credits": 4.0,
@@ -1018,7 +1262,7 @@
     },
     {
       "number": "7325",
-      "title": "Contemporary Issues in Third World Development",
+      "title": "International Development of the Global South",
       "credits": 4.0,
       "description": "Examines the major themes in development studies today. Explores approaches to the development and production, population growth, equity and poverty, rural and urban development, health and nutrition, education, and the international context of development assistance. Students considering a development administration concentration should try to take this course as their first in the field of development.",
       "prerequisites": [],
@@ -1048,6 +1292,15 @@
       "title": "Counterterrorism",
       "credits": 4.0,
       "description": "Examines the most important empirical and theoretical debates on counterterrorism.  Analyzes the motives and strategies of key actors in the development of approaches to counterterrorism.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7344",
+      "title": "Hard Power, Soft Power, and Smart Power",
+      "credits": 4.0,
+      "description": "Examines different forms of power in an international context. Includes conceptual and empirical examinations of the various types of power, the actors who have power, and the contexts under which power is exercised.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1117,6 +1370,27 @@
         "max": 8.0
       },
       "description": "Offers thesis supervision by individual members of the department. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7996",
+      "title": "Thesis Continuation",
+      "credits": 0.0,
+      "description": "Offers continued thesis supervision by individual members of the department.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8407",
+      "title": "Internship",
+      "credits": {
+        "min": 4.0,
+        "max": 8.0
+      },
+      "description": "Offers work experience (at least fifteen hours per week) that includes planning, research, policy development, and other administrative aspects in a government or nonprofit organization. May be repeated twice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

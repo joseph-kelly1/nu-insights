@@ -53,7 +53,20 @@
       "title": "Co-op Work Experience",
       "credits": 0.0,
       "description": "Offers eligible students an opportunity for work experience. May be repeated twice.",
-      "prerequisites": [],
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EESC 6500"
+          },
+          {
+            "course": "EESC 6500"
+          },
+          {
+            "course": "EESC 6500"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },

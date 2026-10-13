@@ -2,15 +2,6 @@
   "department": "PSYC",
   "courses": [
     {
-      "number": "1000",
-      "title": "Psychology at Northeastern",
-      "credits": 1.0,
-      "description": "Introduces students to the major and to the professional and academic resources available to students at Northeastern University. Introduces students to their faculty, advisors, and fellow students; educates students about the cooperative education program; familiarizes students with undergraduate research and technological resources; and introduces problem-solving and leadership skills, which students need to succeed in school and in their professional endeavors. Students who do not meet course prerequisites may seek permission of instructor.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1101",
       "title": "Foundations of Psychology",
       "credits": 4.0,
@@ -20,17 +11,6 @@
       "attributes": [
         "NUpath Natural/Designed World",
         "NUpath Societies/Institutions"
-      ]
-    },
-    {
-      "number": "1208",
-      "title": "Psychology and the Law",
-      "credits": 4.0,
-      "description": "Introduces the range of topics that are of concern both to psychologists and to members of the legal profession. Covers the legal and ethical issues inherent in the conduct and process of professional psychology. Topics include confidentiality, ethical competence, duty to warn, expert testimony, malpractice, and forensic matters, such as the insanity defense. Discusses professional practice issues revolving around ethical concerns as they relate to specific weekly topics. Specifically, discusses five ethical theories (egoism, utilitarianism, deontology, care ethics, virtue ethics) used in case analysis. Examines the role of ethical theory as it applies to the expert’s self-interest and personal position, positive and negative consequences for the defendant and society at large, psychologist expert duties to themselves, and conflicts. Designed to help students think about the legal system and its role in society today through a psychological lens.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Ethical Reasoning"
       ]
     },
     {
@@ -116,7 +96,23 @@
       "credits": 4.0,
       "description": "Offers an overview of descriptive and inferential statistics with a focus on psychological applications. Covers standard material in undergraduate statistics including distributions, central tendency, variability, z-scores, the normal distributions, correlation, regression, probability, hypothesis testing (using the z, t, F, and chi-square statistics), and confidence intervals. Should be taken before the end of the sophomore year.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -129,7 +125,23 @@
       "credits": 4.0,
       "description": "Introduces students to the role of culture in psychological science. Discusses the relationship of culture to psychological theories and research. Investigates psychological research in WEIRD (western, educated, industrialized, rich, democratic) populations compared to those less frequently studied. Demonstrates possible psychological universals while accounting for cultural influences on psychology and behavior. Critically considers theoretical and methodological issues, accurate interpretation of cross-cultural findings, and practical applications.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -172,6 +184,17 @@
             "course": "PSYC 1101"
           },
           {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          },
+          {
             "course": "PSYC 2290"
           }
         ]
@@ -185,7 +208,23 @@
       "credits": 4.0,
       "description": "Offers a systematic study of the normal personality and its development. Focuses on behavioral, dynamic, social, and cognitive determinants, assessment of personality, and current research topics; surveys the major theories of personality.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -196,7 +235,23 @@
       "credits": 4.0,
       "description": "Provides an introductory survey of social psychology. Topics include aggression, attribution, attitude formation; and change, attraction, gender and culture, conformity, impression formation, and group processes.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -207,7 +262,23 @@
       "credits": 4.0,
       "description": "Examines change throughout the life span in social relationships, emotional functioning, language, cognition, and other psychological domains, with emphasis on infancy through adolescence. Introduces major theories of development. Stresses the interaction of social and cognitive factors in development, and the interaction of the developing person with the environment. Also explores individual and cross-cultural differences in patterns of development, and research issues in developmental psychology.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -218,7 +289,23 @@
       "credits": 4.0,
       "description": "Addresses diagnosis, theoretical perspectives, anxiety, and defense mechanisms. Examines the symptomatology, etiology, and treatment of a number of disorders including anxiety, dissociative, somatoform, affective (depression, mania), and schizophrenic disorders.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -229,7 +316,23 @@
       "credits": 4.0,
       "description": "Offers an introduction to the basic learning and motivational principles that permit humans and animals to adapt effectively to a changing environment. Emphasizes research and theories of operant and Pavlovian conditioning, with discussions of discriminations and generalization, avoidance and punishment, acquired motivational states (for example, addiction), concept formation, biological constraints on learning and behavior, animal cognition, and other related topics. Relates learning and motivational principles to the understanding and treatment of behavioral, affective, cognitive, and motivational disorders.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -240,7 +343,23 @@
       "credits": 4.0,
       "description": "Introduces the basic concepts and theories of applied behavior analysis as they relate to learning and motivation. Topics include operant and classical conditioning, reinforcement, punishment, extinction, discrimination training, stimulus control, concept formation, and generalization. Throughout the course, offers students an opportunity to apply these principles to learning that occurs in their everyday lives as well as in the lives of individuals with developmental disabilities and other learning disorders.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -251,7 +370,23 @@
       "credits": 4.0,
       "description": "Discusses how our five senses work to aid us in perceiving states of the body and of the world, how our perceptions are modified by what we know and expect, and how sensation and perception develop (especially in infancy). Includes discussion of neural and anatomical bases of sensation and perception. PSYC 3458 is highly recommended.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -262,7 +397,23 @@
       "credits": 4.0,
       "description": "Focuses on the relation between brain function and human behavior. Examines how nerve cells function individually and work together both in small networks and in the nervous system; the structure of the nervous system; how our sense organs provide the nervous system with information about the outside world; how the brain controls movement; and how psychological concepts from motivation to language and memory are represented in the brain.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -273,7 +424,23 @@
       "credits": 4.0,
       "description": "Provides a basic introduction to psycholinguistics. Topics include the nature and structure of languages, processes involved in the production and comprehension of language, the biological bases of language, and aspects of language acquisition. Examines current theories of language processing and related experimental findings.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -284,7 +451,23 @@
       "credits": 4.0,
       "description": "Provides a basic introduction to human cognition. Topics include pattern recognition, attention, memory, categorization and concept formation, problem solving, and aspects of cognitive development. Examines current theories of cognitive processing and related experimental findings.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -321,6 +504,9 @@
           },
           {
             "course": "PSYC 3458"
+          },
+          {
+            "admission_requirement": "PSYC 241M with a minimum grade of D-"
           }
         ]
       },
@@ -340,6 +526,9 @@
           },
           {
             "course": "PSYC 3458"
+          },
+          {
+            "admission_requirement": "PSYC 241M with a minimum grade of D-"
           }
         ]
       },
@@ -370,10 +559,24 @@
             "course": "ENVR 1101"
           },
           {
+            "admission_requirement": "ENVM 115M with a minimum grade of D-"
+          },
+          {
             "course": "ENVR 1400"
           },
           {
             "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -386,7 +589,23 @@
       "credits": 4.0,
       "description": "Addresses ethical considerations for the treatment of animals in psychological research. Presents a comprehensive overview of animal ethical treatment policies at research institutes as well as animal research laboratory trainings and qualifications. Explores historical and current perspectives on animal healthcare and well-being, and discusses alternatives to animal research.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -397,7 +616,23 @@
       "credits": 4.0,
       "description": "Examines selected topics in psychology. Topics vary each semester. May be repeated once.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of D-"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -408,7 +643,15 @@
       "credits": 4.0,
       "description": "Surveys the psychological fundamentals underlying performance in work settings. Topics include psychological testing; performance evaluation; training, motivating, and leading employees; and the social psychology of organizations. Emphasizes ethical and affirmative action issues.",
       "prerequisites": {
-        "course": "PSYC 3402"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 3402"
+          },
+          {
+            "admission_requirement": "PSYC 235M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -426,6 +669,9 @@
           },
           {
             "course": "PSYC 3458"
+          },
+          {
+            "admission_requirement": "PSYC 241M with a minimum grade of D-"
           }
         ]
       },
@@ -445,6 +691,9 @@
           },
           {
             "course": "PSYC 3458"
+          },
+          {
+            "admission_requirement": "PSYC 241M with a minimum grade of D-"
           }
         ]
       },
@@ -464,6 +713,9 @@
           },
           {
             "course": "PSYC 3458"
+          },
+          {
+            "admission_requirement": "PSYC 241M with a minimum grade of D-"
           }
         ]
       },
@@ -501,13 +753,16 @@
             "type": "OR",
             "courses": [
               {
-                "course": "MATH 1341"
-              },
-              {
                 "course": "MATH 1241"
               },
               {
                 "course": "MATH 1251"
+              },
+              {
+                "course": "MATH 1341"
+              },
+              {
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
               }
             ]
           },
@@ -515,10 +770,10 @@
             "type": "OR",
             "courses": [
               {
-                "course": "PSYC 2320"
+                "course": "MATH 3081"
               },
               {
-                "course": "MATH 3081"
+                "course": "PSYC 2320"
               }
             ]
           },
@@ -533,6 +788,9 @@
               },
               {
                 "course": "PSYC 3458"
+              },
+              {
+                "admission_requirement": "PSYC 241M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 3464"
@@ -566,6 +824,9 @@
               },
               {
                 "course": "PSYC 3458"
+              },
+              {
+                "admission_requirement": "PSYC 241M with a minimum grade of D-"
               }
             ]
           }
@@ -592,6 +853,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -613,6 +877,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -644,6 +911,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1114"
               }
             ]
@@ -656,6 +926,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 2315"
@@ -701,6 +974,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -709,7 +985,15 @@
             ]
           },
           {
-            "course": "PSYC 3458"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 3458"
+              },
+              {
+                "admission_requirement": "PSYC 241M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -722,6 +1006,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1102"
@@ -756,6 +1043,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -788,6 +1078,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -819,6 +1112,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -853,6 +1149,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1114"
               }
             ]
@@ -882,6 +1181,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -890,7 +1192,15 @@
             ]
           },
           {
-            "course": "PSYC 3402"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 3402"
+              },
+              {
+                "admission_requirement": "PSYC 235M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -906,6 +1216,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -937,6 +1250,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -961,6 +1277,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -992,6 +1311,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1016,6 +1338,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -1047,56 +1372,7 @@
                 "course": "MGSC 2301"
               },
               {
-                "course": "PSYC 2315"
-              },
-              {
-                "course": "PSYC 2320"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ENGL 1102"
-              },
-              {
-                "course": "ENGL 1111"
-              },
-              {
-                "course": "ENGW 1102"
-              },
-              {
-                "course": "ENGW 1111"
-              },
-              {
-                "course": "ENGW 1114"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Writing Intensive"
-      ]
-    },
-    {
-      "number": "4626",
-      "title": "Laboratory in Life-Span Emotional Development",
-      "credits": 4.0,
-      "description": "Studies life-span development and how emotional experience, perception, and regulation changes across the life span. Lab teams use a multimethod approach and theoretical frameworks to guide research in emotional development. Offers students an opportunity to learn how to read the scientific literature; think critically about research questions; design, conduct, and analyze experiments; write in the journal style of the American Psychological Association; and gain interpersonal and organizational skills while working on a research team. PSYC 3402 highly recommended.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "ENVR 2500"
-              },
-              {
-                "course": "MGSC 2301"
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 2315"
@@ -1120,6 +1396,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -1151,6 +1430,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1163,6 +1445,9 @@
             "courses": [
               {
                 "course": "PSYC 3404"
+              },
+              {
+                "admission_requirement": "PSYC 201M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 4524"
@@ -1183,6 +1468,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -1214,6 +1502,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1235,6 +1526,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1114"
@@ -1266,6 +1560,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1274,7 +1571,15 @@
             ]
           },
           {
-            "course": "PSYC 3458"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 3458"
+              },
+              {
+                "admission_requirement": "PSYC 241M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -1300,6 +1605,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 2315"
@@ -1346,6 +1654,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1390,6 +1701,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1426,6 +1740,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1434,7 +1751,15 @@
             ]
           },
           {
-            "course": "PSYC 3402"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 3402"
+              },
+              {
+                "admission_requirement": "PSYC 235M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -1460,6 +1785,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 2315"
@@ -1498,6 +1826,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1532,6 +1863,9 @@
               },
               {
                 "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 2315"
@@ -1578,6 +1912,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1586,7 +1923,15 @@
             ]
           },
           {
-            "course": "PSYC 3404"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 3404"
+              },
+              {
+                "admission_requirement": "PSYC 201M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -1614,6 +1959,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1631,7 +1979,13 @@
                 "course": "PSYC 3402"
               },
               {
+                "admission_requirement": "PSYC 235M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 3404"
+              },
+              {
+                "admission_requirement": "PSYC 201M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 3406"
@@ -1652,6 +2006,9 @@
               },
               {
                 "course": "PSYC 3458"
+              },
+              {
+                "admission_requirement": "PSYC 241M with a minimum grade of D-"
               },
               {
                 "course": "PSYC 3464"
@@ -1687,6 +2044,9 @@
                 "course": "MGSC 2301"
               },
               {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
                 "course": "PSYC 2315"
               },
               {
@@ -1702,6 +2062,64 @@
               },
               {
                 "course": "PSYC 3451"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "4684",
+      "title": "Seminar in Stress Psychology",
+      "credits": 4.0,
+      "description": "Examines the lifelong impact of stress on physical and mental health, with particular attention to the role of cortisol from the prenatal period through adulthood. Considers how stress during different life stages influences health and development, the distinction between adaptive and harmful stress responses, and the consequences of chronic stress. Explores current research alongside public health perspectives to highlight biological, psychological, and social dimensions of stress. Analyzes interventions aimed at reducing or managing stress and considers how scientific findings are represented in media and policy. Provides an integrative framework for understanding stress as both a biological process and a public health challenge.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENVR 2500"
+              },
+              {
+                "course": "MGSC 2301"
+              },
+              {
+                "admission_requirement": "BUSM 224M with a minimum grade of D-"
+              },
+              {
+                "course": "PHTH 2210"
+              },
+              {
+                "course": "PSYC 2315"
+              },
+              {
+                "course": "PSYC 2320"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PSYC 1101"
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "admission_requirement": "PSYC 101M with a minimum grade of D-"
+                  },
+                  {
+                    "admission_requirement": "PSYC 102M with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           }
@@ -1816,15 +2234,6 @@
       "attributes": []
     },
     {
-      "number": "5150",
-      "title": "Proseminar in Clinical Neuroscience",
-      "credits": 3.0,
-      "description": "Serves as first-level graduate course in clinical neuroscience, focusing on theoretical, experimental, and methodological issues. Includes faculty lectures, student presentations, and discussion. Requires permission of instructor for students who are not enrolled in the PhD program in psychology. May be repeated without limit.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5170",
       "title": "Social and Affective Science",
       "credits": 3.0,
@@ -1880,19 +2289,19 @@
       "attributes": []
     },
     {
-      "number": "7250",
-      "title": "Seminar in Clinical Neuroscience",
-      "credits": 3.0,
-      "description": "Addresses current theoretical and empirical issues in clinical neuroscience. Specific topics vary by semester. May be repeated thrice.",
+      "number": "6130",
+      "title": "Affective Computing",
+      "credits": 4.0,
+      "description": "Studies affective computing—computing that relates to, arises from, or influences emotions. Offers an overview of the theory of human emotion (how it arises from and influences cognition, the body, and the social environment) and computational techniques for modeling human emotion processes as well as for recognizing and synthesizing emotional behavior. Discusses how these can be applied to application design. Offers students an opportunity to gain a strong background in the theory and practice of human-centered computing as it relates to games, immersive environments, and pedagogical applications. Brings together students from different disciplines to work together and learn from each other. CS 6130 and PSYC 6130 are cross-listed.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "7300",
-      "title": "Advanced Quantitative Analysis",
+      "number": "7250",
+      "title": "Seminar in Clinical Neuroscience",
       "credits": 3.0,
-      "description": "Covers selected advanced methods of quantitative analysis used in experimental psychology. Specific topics vary by semester. May be repeated without limit.",
+      "description": "Addresses current theoretical and empirical issues in clinical neuroscience. Specific topics vary by semester. May be repeated thrice.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1955,7 +2364,7 @@
       "number": "8402",
       "title": "Special Topics in Psychology",
       "credits": 3.0,
-      "description": "Offers in-depth analysis of critical topics in psychology. Specific topics vary by semester. May be repeated without limit.",
+      "description": "Offers in-depth analysis of critical topics in psychology. Specific topics vary by semester. May be repeated up to eight times.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

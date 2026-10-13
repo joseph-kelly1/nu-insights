@@ -87,6 +87,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C-"
+          },
+          {
             "course": "ENGW 1113"
           },
           {
@@ -114,6 +117,9 @@
           },
           {
             "course": "POLS 1155"
+          },
+          {
+            "admission_requirement": "ISM 231M with a minimum grade of C"
           }
         ]
       },
@@ -126,10 +132,30 @@
       "credits": 4.0,
       "description": "Focuses on China’s political system and the major issues confronted: leadership recruitment and succession, economic policies and development, class and class struggle, political culture and socialization, human rights, civil society, the media, and both internal and external security concerns. Examines how ideology, development, culture, and the pursuit of China’s national interest affect governance.",
       "prerequisites": {
-        "course": "POLS 1155"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1155"
+          },
+          {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "3991",
+      "title": "Asian American Foodways",
+      "credits": 4.0,
+      "description": "Introduces the diverse foodways of Asian Americans and how it impacts individual identity and community formations. Foregrounds how past and present-day Asian Americans have been racialized and gendered through alimentary rhetoric and representations of their material cultures. Explores interdisciplinary themes and case studies that highlight how Asian American food has been produced, procured, consumed, and represented across time, space, and media. Drawing from texts in history, anthropology, film and literature, media studies, transnational feminist studies, cultural studies, and Asian American studies, highlights how food is an organizing principle for Asian American life. Offers students an opportunity to obtain multisensorial experiences and research skills through the use of food and foodways.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Interpreting Culture"
+      ]
     },
     {
       "number": "4220",
@@ -143,13 +169,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -158,7 +196,71 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
+            "course": "WMNS 1103"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Societies/Institutions"
+      ]
+    },
+    {
+      "number": "4410",
+      "title": "Economy and Culture in Asia",
+      "credits": 4.0,
+      "description": "Situates Asian national and local economies in patterns of economic globalization and neoliberalism. Emphasizes the relationship between neoliberal processes and state-led development, as well as the relationship between economic ideas and bottom-up societal changes. Combines films, theoretical readings, and ethnography to explore hallmarks of anthropological analyses of economic globalization and neoliberalism in debates over cultural agency, locality, values, and politics in East, South, and Southeast Asian countries. Critically examines topics such as English-language dominance in the Asian region, the rise of plastic surgery, youth unemployment and political consciousness, and real estate speculation in Asian megacities.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
+            "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
+            "course": "HUSV 1101"
+          },
+          {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
+            "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
+          },
+          {
+            "course": "POLS 1140"
+          },
+          {
+            "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"

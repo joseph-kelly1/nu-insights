@@ -11,6 +11,15 @@
       "attributes": []
     },
     {
+      "number": "1100",
+      "title": "Introduction to SolidWorks",
+      "credits": 2.0,
+      "description": "Presents a comprehensive overview of computer-aided design using SolidWorks and is designed for beginners aiming to achieve CSWA certification. Explores core aspects of SolidWorks including sketching, basic and advanced part modeling, assembly creation, and engineering drawings. Incorporates hands-on tutorials and assignments, fostering practical skills essential for the CSWA exam. Students engage with advanced features, troubleshooting techniques, and detailed designs. Prior knowledge of CAD is not required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "1110",
       "title": "Engineering Design",
       "credits": 4.0,
@@ -58,7 +67,15 @@
       "credits": 4.0,
       "description": "Continues GE 1501 using a project-based approach under a unifying theme. Covers topics that introduce students to engineering analysis and design. Uses a math application package for matrix applications along with various real-life engineering problems solved using programming. Considers ethical reasoning in design and analysis, including ethical theories, professional codes, and emerging micro/macro issues in engineering. Introduces quantitative tools and ethical topics separately and weaves them into all design and problem-solving stages of the student projects. Covers 3-D assembly drawings and modeling, along with review and further work in design. Students work on open-ended design problems, developing working models and prototypes to demonstrate and present their designs. Requires students to have a laptop computer that meets the specifications of the College of Engineering.",
       "prerequisites": {
-        "course": "GE 1501"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "GE 1501"
+          },
+          {
+            "admission_requirement": "ENGR 150M (may be taken concurrently) with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -68,11 +85,13 @@
     {
       "number": "1520",
       "title": "Making Fundamentals in Design and Fabrication",
-      "credits": 4.0,
+      "credits": 2.0,
       "description": "Utilizes numerous, accessible, low-to-medium fidelity fabrication methods used in design and fabrication prototyping. Offers students an opportunity to develop in-depth knowledge to investigate multiple manufacturing and assembly methods and learn best practices, with a goal of demonstrating the ability to choose the best technique from among the options presented. Coursework consists of individual and team-based hands-on experiences using these tools to design and build prototypes via a suite of weekly/biweekly design-build assignments. Designed for interested nonengineering students.",
       "prerequisites": [],
       "corequisites": [],
-      "attributes": []
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
     },
     {
       "number": "2310",
@@ -117,10 +136,26 @@
             "type": "AND",
             "courses": [
               {
-                "course": "GE 1501"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "GE 1501"
+                  },
+                  {
+                    "admission_requirement": "ENGR 150M with a minimum grade of D-"
+                  }
+                ]
               },
               {
-                "course": "GE 1502"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "GE 1502"
+                  },
+                  {
+                    "admission_requirement": "ENGR 155M with a minimum grade of D-"
+                  }
+                ]
               }
             ]
           },
@@ -175,7 +210,7 @@
       "credits": 4.0,
       "description": "Offers students an opportunity to obtain a sound scientific, technological, and economic understanding of our modern energy system and the challenge of energy sustainability. Covers principles of energy, work, and thermodynamics; technologies from supply and demand side, including extraction of primary energy, conversion into fuels and electricity, important energy end-uses, and energy losses; fossil, nuclear power plants, and renewable energy technologies (wind, solar, wave, hydro, geothermal, biofuels); transmission and distribution for electricity and fossil fuels; energy demand by buildings, transportation, and industry, emphasizing efficient technologies; sustainability concepts, including net energy/exergy analysis and life-cycle assessment, energy-related emissions, decentralized generation, smart grids, district heating, and net-zero energy facilities.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
             "type": "OR",
@@ -192,16 +227,27 @@
             ]
           },
           {
-            "type": "OR",
+            "type": "AND",
             "courses": [
               {
-                "course": "PHYS 1151"
+                "admission_requirement": "MATH 21EM with a minimum grade of D-"
               },
               {
-                "course": "PHYS 1161"
-              },
-              {
-                "course": "PHYS 1171"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "admission_requirement": "PHYS 261M with a minimum grade of D-"
+                  },
+                  {
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "course": "PHYS 1171"
+                  }
+                ]
               }
             ]
           }
@@ -223,6 +269,9 @@
           },
           {
             "course": "GE 1502"
+          },
+          {
+            "admission_requirement": "ENGR 155M with a minimum grade of C-"
           },
           {
             "course": "CS 2500"
@@ -308,6 +357,24 @@
       "title": "Iterative Product Prototyping for Engineers",
       "credits": 4.0,
       "description": "Seeks to develop in-depth knowledge and experience in prototyping by focusing on engineering processes and instrumentation that are used in different industries. Studies the prototyping cycle, from initial process flow and sketching to prototype development to testing and analysis, with an emphasis on iteration. Analyzes how different kinds of engineering prototypes can address design and user-interface needs vs. functional needs, such as looks-like and works-like prototypes. Offers students an opportunity to obtain operating knowledge of methods including 3D printing, SolidWorks, off-the-shelf hardware-software interfaces, simulation, embedded systems, product testing, prototype analysis, and prototype iteration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5040",
+      "title": "Business Essentials for Engineers",
+      "credits": 2.0,
+      "description": "Introduces engineering students to the fundamental business concepts and professional skills needed to operate effectively in industry and cross-functional teams. Covers competitive strategy, communication, negotiation, operations management, and business intelligence. Offers students an opportunity to develop the strategic and analytical capabilities required to bridge technical expertise with business decision making. Emphasizes real-world applications through case studies, collaborative exercises, and a final project integrating knowledge from all modules.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5050",
+      "title": "Startup Essentials for Engineers: From Idea to Launch",
+      "credits": 2.0,
+      "description": "Offers engineering students a comprehensive, practice-oriented introduction to entrepreneurship and new venture creation. Guides students through the full startup life cycle, from ideation and business model design through market research, fundraising, legal considerations, and team building. Emphasizes hands-on application of lean startup methodologies, customer discovery techniques, and go-to-market strategies tailored to technology-driven ventures. Culminates in a final pitch presentation where students present a viable startup concept to a review panel.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

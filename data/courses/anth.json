@@ -33,7 +33,13 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           }
         ]
       },
@@ -78,13 +84,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -93,7 +111,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "SOCL 1246"
@@ -120,7 +144,13 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           }
         ]
       },
@@ -155,7 +185,7 @@
     },
     {
       "number": "3200",
-      "title": "Cities in Global Context",
+      "title": "Cities in a Global Context",
       "credits": 4.0,
       "description": "Examines the roots of the urbanization process, major ways of thinking about it, and the development of world cities and megacities. The twenty-first century will be a century in which urbanism is a central problem and opportunity. Considers the economic, political, cultural, and environmental dimensions of urbanism across the globe. Includes specific case studies from around the world. Encourages students to develop a knowledge of particular cities in order to examine the key themes of the course. INTL 3200, ANTH 3200, and SOCL 3200 are cross-listed.",
       "prerequisites": [],
@@ -168,7 +198,15 @@
       "credits": 4.0,
       "description": "Offers students an opportunity to experience fieldwork while studying current ethnographic methods and theory and to design a semester-long ethnographic field research project. Field sites may include public and outdoor spaces, online communities, cultural centers, schools, immigrant neighborhoods, sports organizations, social service agencies, nonprofit groups, religious institutions, etc.",
       "prerequisites": {
-        "course": "ANTH 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -188,16 +226,31 @@
             "course": "SOCL 1101"
           },
           {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
             "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -207,6 +260,9 @@
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -221,33 +277,33 @@
       "number": "3418",
       "title": "Wired/Unwired: Cybercultures and Technopolitics",
       "credits": 4.0,
-      "description": "Explores the impacts of technology and new media on politics, society, and culture. Emphasizes the socioeconomic and political frameworks within which technologies are embedded as well as the role of technology and the Internet in contemporary political and cultural movements. Topics may include the political and cultural effects of the census, the radio, and the camera; the history of the Internet; virtual worlds and communities; online politics and activism; as well as blogging, gaming, and social networking.",
+      "description": "Explores the impacts of technology and new media on politics, society, and culture. Emphasizes the socioeconomic and political frameworks within which technologies are embedded, as well as the role of technology and the internet in contemporary political and cultural movements. Topics may include the political and cultural effects of the census, the radio, and the camera; the history of the internet; virtual worlds and communities; online politics and activism; as well as blogging, gaming, and social networking.",
       "prerequisites": {
         "type": "OR",
         "courses": [
           {
-            "course": "SOCL 1101"
-          },
-          {
             "course": "ANTH 1101"
-          },
-          {
-            "course": "HUSV 1101"
           },
           {
             "course": "CRIM 1100"
           },
           {
-            "course": "INTL 1101"
+            "course": "HUSV 1101"
           },
           {
-            "course": "WMNS 1103"
+            "course": "INTL 1101"
           },
           {
             "course": "POLS 1140"
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "course": "SOCL 1101"
+          },
+          {
+            "course": "WMNS 1103"
           }
         ]
       },
@@ -262,7 +318,15 @@
       "credits": 4.0,
       "description": "Introduces the foundations of anthropological theory. Examines recurring themes surrounding structure and agency, culture and power, and the tension between the individual and society. Addresses these questions by returning to anthropology’s Enlightenment roots, early evolutionary thought, classic and contemporary theories, as well as ongoing critiques of the discipline. Explores different schools of thought, including functionalism, structural functionalism, symbolism, interpretivism, and more recent theoretical developments that address history, political economy, reflexivity, poststructuralism, and feminism, as well as transnational/global and activist approaches.",
       "prerequisites": {
-        "course": "ANTH 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -281,7 +345,13 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of C"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of C"
           }
         ]
       },
@@ -303,7 +373,13 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           }
         ]
       },
@@ -315,11 +391,19 @@
     },
     {
       "number": "4100",
-      "title": "Making Anthropology Public",
+      "title": "Making Anthropology and Sociology Public",
       "credits": 4.0,
-      "description": "Reflects on the social, economic, ecological, and cultural value of anthropology as a field, as well as an experiential learning space for transforming anthropological research into material understandable by the general public. Offers students an opportunity to learn methodologies across visual, collaborative, and engaged anthropologies, as well as to study the ethical considerations and specific skills necessary to communicate effectively in a variety of modalities.",
+      "description": "Reflects on the social, economic, ecological, and cultural value of anthropology and sociology as fields, as well as an experiential learning space for transforming anthropological and sociological research into material understandable by the general public. Offers students an opportunity to learn methodologies across visual, collaborative, and engaged anthropologies and sociologies, as well as to study the ethical considerations and specific skills necessary to communicate effectively in a variety of modalities.",
       "prerequisites": {
-        "course": "ANTH 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of B-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -340,13 +424,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -355,7 +451,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -380,10 +482,19 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "HUSV 1101"
+          },
+          {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -392,7 +503,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -417,13 +534,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -432,7 +561,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -458,16 +593,31 @@
             "course": "SOCL 1101"
           },
           {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
             "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -477,6 +627,9 @@
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -489,9 +642,9 @@
     },
     {
       "number": "4410",
-      "title": "Neoliberalism in Asia",
+      "title": "Economy and Culture in Asia",
       "credits": 4.0,
-      "description": "Introduces key definitions and theories of neoliberalism and situates these ideas through Asian experiences of neoliberalism. Emphasizes the relationship between neoliberal processes and state-led development, as well as the relationship between neoliberal thought and bottom-up societal changes. Combines films, theoretical readings, and ethnography to explore hallmarks of anthropological analyses of neoliberalism in debates over cultural agency, locality, values, and politics in East, South, and Southeast Asian countries. Critically examines topics such as English-language dominance in the Asian region, the rise of plastic surgery, youth unemployment and political consciousness, and real estate speculation in Asian megacities.",
+      "description": "Situates Asian national and local economies in patterns of economic globalization and neoliberalism. Emphasizes the relationship between neoliberal processes and state-led development, as well as the relationship between economic ideas and bottom-up societal changes. Combines films, theoretical readings, and ethnography to explore hallmarks of anthropological analyses of economic globalization and neoliberalism in debates over cultural agency, locality, values, and politics in East, South, and Southeast Asian countries. Critically examines topics such as English-language dominance in the Asian region, the rise of plastic surgery, youth unemployment and political consciousness, and real estate speculation in Asian megacities.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -499,13 +652,25 @@
             "course": "ANTH 1101"
           },
           {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
+          },
+          {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "POLS 1140"
@@ -514,7 +679,13 @@
             "course": "POLS 1160"
           },
           {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          },
+          {
             "course": "SOCL 1101"
+          },
+          {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -533,7 +704,7 @@
       "credits": 4.0,
       "description": "Explores the processes of social, economic, and cultural change in Latin America. While concentrating on the present, traces class formation, agrarian structures, ethnic identity, ceremonial organization, gender roles, and political conflict since the colonial era in a range of countries. Emphasizes the relationship of communities and national political and economic systems. May emphasize Central America and Mexico or countries in South America through case studies. ANTH 4500 and INTL 4500 are cross-listed.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
             "type": "OR",
@@ -542,16 +713,31 @@
                 "course": "SOCL 1101"
               },
               {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
+              },
+              {
                 "course": "ANTH 1101"
+              },
+              {
+                "admission_requirement": "SOCM 103M with a minimum grade of D-"
               },
               {
                 "course": "HUSV 1101"
               },
               {
+                "admission_requirement": "SW 105M with a minimum grade of D-"
+              },
+              {
                 "course": "CRIM 1100"
               },
               {
+                "admission_requirement": "PHR 107M with a minimum grade of D-"
+              },
+              {
                 "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
               },
               {
                 "course": "WMNS 1103"
@@ -565,19 +751,30 @@
             ]
           },
           {
-            "type": "OR",
+            "type": "AND",
             "courses": [
               {
-                "course": "ENGL 1111"
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
               },
               {
-                "course": "ENGW 1111"
-              },
-              {
-                "course": "ENGL 1102"
-              },
-              {
-                "course": "ENGW 1102"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ENGL 1111"
+                  },
+                  {
+                    "course": "ENGW 1111"
+                  },
+                  {
+                    "admission_requirement": "WRIT 201M with a minimum grade of C"
+                  },
+                  {
+                    "course": "ENGL 1102"
+                  },
+                  {
+                    "course": "ENGW 1102"
+                  }
+                ]
               }
             ]
           }
@@ -604,13 +801,25 @@
                 "course": "ANTH 1101"
               },
               {
+                "admission_requirement": "SOCM 103M with a minimum grade of D-"
+              },
+              {
                 "course": "CRIM 1100"
+              },
+              {
+                "admission_requirement": "PHR 107M with a minimum grade of D-"
               },
               {
                 "course": "HUSV 1101"
               },
               {
+                "admission_requirement": "SW 105M with a minimum grade of D-"
+              },
+              {
                 "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
               },
               {
                 "course": "POLS 1140"
@@ -619,7 +828,13 @@
                 "course": "POLS 1160"
               },
               {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
+              },
+              {
                 "course": "SOCL 1101"
+              },
+              {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
               },
               {
                 "course": "WMNS 1103"
@@ -640,6 +855,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -669,16 +887,31 @@
             "course": "SOCL 1101"
           },
           {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
             "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -688,6 +921,9 @@
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -696,39 +932,6 @@
         "NUpath Interpreting Culture",
         "NUpath Societies/Institutions",
         "NUpath Writing Intensive"
-      ]
-    },
-    {
-      "number": "4520",
-      "title": "Chinese Society and Culture",
-      "credits": 4.0,
-      "description": "Introduces students to changes in society and economy in contemporary China. Examines changes in family, gender relations, rural life, work, and international relations. Draws on literature from a range of disciplines including sociology, political science, anthropology, and economics.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ANTH 1101"
-          },
-          {
-            "course": "INTL 1101"
-          },
-          {
-            "course": "POLS 1140"
-          },
-          {
-            "course": "POLS 1160"
-          },
-          {
-            "course": "SOCL 1101"
-          },
-          {
-            "course": "WMNS 1103"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Societies/Institutions"
       ]
     },
     {
@@ -744,7 +947,7 @@
       "number": "4600",
       "title": "Senior Seminar",
       "credits": 4.0,
-      "description": "Designed to deal with anthropological theory and work with students who are asked to apply these theories to some of their own work. Content may vary.",
+      "description": "Offers students an opportunity to integrate and apply knowledge of the discipline by building on completed coursework and conducting original research on a topic of their choice. Requires students to produce a research paper due at the end of the semester. This seminar operates as an intellectual workshop in which students share the process, as well as the results, of their research with the group. The class comes together to inform, guide, critique, and support one another’s research efforts in a collaborative fashion. Expects students to make constructive comments on the work of others and to freely exchange ideas.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [

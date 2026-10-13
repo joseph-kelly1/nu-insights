@@ -2,6 +2,15 @@
   "department": "HLTH",
   "courses": [
     {
+      "number": "1000",
+      "title": "College: An Introduction",
+      "credits": 1.0,
+      "description": "Introduces the university, college, and health professions to enhance students’ understanding of self and the decisions they make academically and socially as members of the University’s diverse, multicultural community. Offers students an opportunity to engage in group activities and individual assignments along with active participation in a learning community to help adjust to life on an urban campus, develop a better understanding of the learning process, acquire essential academic skills, and make connections with the faculty and students in the college.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "1203",
       "title": "Basic Clinical Skills for the Healthcare Professional",
       "credits": 3.0,
@@ -9,6 +18,19 @@
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "1204",
+      "title": "Applied Basic Clinical Skills",
+      "credits": 1.0,
+      "description": "Provides experiential practice in foundational clinical skills. Offers students an opportunity to apply clinical assessment, patient interaction, and documentation skills within authentic contexts such as standardized patient simulations, virtual patient encounters, and collaborative team-based clinical activities. Encourages reflective practice and professional identity development, Emphasizes lifelong learning and adaptability in clinical situations.",
+      "prerequisites": {
+        "course": "HLTH 1203"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
     },
     {
       "number": "1205",
@@ -50,6 +72,18 @@
       ]
     },
     {
+      "number": "2183",
+      "title": "Interdisciplinary Special Topics: Pop-up Course",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Addresses timely trends, issues, and events as they unfold. Offers students an opportunity to learn about and respond to issues of the day in an immersive, interdisciplinary, short-course format. Content and instructors vary by offering. May be repeated five times for a maximum of eight semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "2200",
       "title": "Emergency Medical Technician Training",
       "credits": 6.0,
@@ -57,6 +91,17 @@
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "2300",
+      "title": "Introduction to Social Determinants of Health",
+      "credits": 4.0,
+      "description": "Introduces social and structural conditions as key contributors to people’s physical and mental health. Emphasizes how these social determinants create health inequities, particularly focusing on issues in the destination country. Builds foundational knowledge of major social determinants and the biological mechanisms (e.g., allostatic load, toxic stress) through which they influence health. Highlights applied examples from case studies, site visits, and literature to trace pathways from social conditions to health disparities. Examines how culturally responsive public policies can mitigate inequities and covers evidence synthesis, policy analysis, and brief writing. Responds to the growing need for future health leaders to understand how policies, labor markets, educational systems, and other upstream factors shape population health.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Societies/Institutions"
+      ]
     },
     {
       "number": "2302",
@@ -74,7 +119,9 @@
       "description": "Presents how healthcare philosophies, cultural beliefs, and societal structures shape healthcare practices, systems, and policies in both China and the United States. Immerses students in international experiences to explore how Chinese medicine principles─such as Yin-Yang theory, the Five Elements, and Qi energy─influence not only healthcare professionals but also lay people’s daily health behaviors, diet, and illness treatment strategies. Examines the intersections of tradition, science, and modern healthcare delivery from a global perspective. Offers students an opportunity to investigate core Chinese medicine practices such as herbal medicine, acupuncture, moxibustion, Tai Chi, and medicinal food therapy. Highlights a global perspective on integrative healthcare, reflecting on how diverse health and cultural beliefs approach wellness, disease prevention, treatment decisions, and patient-centered care.",
       "prerequisites": [],
       "corequisites": [],
-      "attributes": []
+      "attributes": [
+        "NUpath Interpreting Culture"
+      ]
     },
     {
       "number": "2500",
@@ -86,10 +133,13 @@
       "attributes": []
     },
     {
-      "number": "2550",
-      "title": "Product Design, Development, and Innovation in Health Science",
-      "credits": 4.0,
-      "description": "Introduces the process of product design, development, and innovation across the health sciences. Presents the tools and methods for creating new products that benefit health and well-being across the life span. Focuses on overall product design methodology, including the identification of customer needs, generation of product concepts, prototyping, and minimal viable product development. Offers students an opportunity to understand regulatory processes for the FDA, medical devices, and digital therapeutics. Reviews go-to-market strategies and provides exposure to the full product development life cycle.",
+      "number": "2963",
+      "title": "Topics",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Offers undergraduate students an opportunity to learn about timely issues, develop new skills, or explore areas of broad interest in an immersive, short-course format. Content and instructors vary by offering. May be repeated three times.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -121,7 +171,23 @@
       "credits": 4.0,
       "description": "Introduces a wide range of careers dedicated to supporting the mental health of children, adolescents, and their families and reducing health inequities. Explores the roles of different mental health professions. Discusses how psychological theories and research findings can be applied to address real-world challenges. Presents firsthand accounts of how professionals design and implement culturally sensitive strategies for prevention, intervention, and advocacy with vulnerable children and youth facing a range of developmental and mental health issues.",
       "prerequisites": {
-        "course": "PSYC 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PSYC 1101"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "PSYC 101M with a minimum grade of C"
+              },
+              {
+                "admission_requirement": "PSYC 102M with a minimum grade of C"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -170,18 +236,6 @@
       "attributes": []
     },
     {
-      "number": "4994",
-      "title": "Internship",
-      "credits": {
-        "min": 1.0,
-        "max": 4.0
-      },
-      "description": "Provides students with an opportunity for research internship work. May be repeated up to four times.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "4998",
       "title": "Research",
       "credits": 0.0,
@@ -195,6 +249,15 @@
       "title": "Mindfulness: Theory and Practice",
       "credits": 3.0,
       "description": "Studies key aspects of theory and practical principles of mindfulness practice. Mindfulness is a particular way of paying attention to experiences that has been scientifically researched and found to decrease habitual and destructive cycles of thought and emotion. This course is highly experiential and daily homework practice consists of at least 20 minutes of mindfulness practice. Instructions for the various practices are provided throughout the course. Each class typically includes a didactic portion, a mindfulness practice, and a group discussion. The benefits of mindfulness practice include reduced stress, improved attention, reduced emotional reactivity, and greater mind-body awareness. Offers students an opportunity to develop practical skills of relational mindfulness in interactions with others and to cultivate positive emotions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5101",
+      "title": "Professional Development for Bouvé Graduate Co-op",
+      "credits": 1.0,
+      "description": "Introduces the Bouvé Cooperative Education program. Offers students an opportunity to perform assessments of workplace skills, interests, and values and discuss how they impact personal career decisions. Includes creating a professional-style resumé, reviewing proper interviewing techniques, and an overview of available co-op opportunities. Describes career paths, choices, and career decision making. Reviews workplace issues relative to the individual field of study and how to use NUworks in the job search and referral process. Presents and discusses co-op policies, procedures, and expectations of the Bouvé Cooperative Education program and co-op employers.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -230,6 +293,20 @@
       "attributes": []
     },
     {
+      "number": "5280",
+      "title": "The (in)Visibility of (dis)Ability in Society",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Addresses the issues of disability relative to culture, public policy, rights, and advocacy. Focuses class discussion on the experiences of people with disabilities living in our current society as well as from a historical perspective. Explores the following topics: who is disabled, social attitudes toward people with disabilities, and images and stigma in the media. Also covers the language of disability, disability culture, and the forgotten minority. Affords students an opportunity to gain a broad understanding of the complex and dynamic issues and themes concerning people with disabilities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity"
+      ]
+    },
+    {
       "number": "5301",
       "title": "Clarity and Connection: Pronunciation Skills in English",
       "credits": 3.0,
@@ -249,6 +326,24 @@
         "NUpath Difference/Diversity",
         "NUpath Societies/Institutions"
       ]
+    },
+    {
+      "number": "5311",
+      "title": "Advancing Health Literacy Through Communication",
+      "credits": 4.0,
+      "description": "Focuses on the essential connection between health literacy and effective communication in healthcare settings. Explores how language, culture, neurodiversity, trauma, and personal experience shape understanding, trust, and safety in clinical interactions. Emphasizes patient-centered, trauma-informed, and accessibility-focused approaches that foster clarity, empathy, and trust across diverse populations. Identifies and addresses barriers to comprehension; adaptive communication for individuals with varied cognitive, sensory, and linguistic needs; and teamwork and patient safety through effective interprofessional communication. Examines practical skills to promote understanding, safety, and connection in conversations with patients, families, and care teams in ways that enhance health literacy and equity in healthcare environments.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5320",
+      "title": "Health Equity and Justice in Action in the Health Professions",
+      "credits": 4.0,
+      "description": "Introduces cultural humility as a framework for enacting equity and justice in healthcare settings, with an emphasis on scientific and structural racism and anti-blackness as a social determinant of health. Offers students an opportunity to engage in self-reflection and discuss health inequities and the experiences of historically excluded, marginalized, and minoritized communities. Investigates frameworks for articulating intersectionality and dismantling power structures. Presents methods for analyzing oppressive misconceptions, ideologies, and threats to justice and inclusion. Reviews how to actively dismantle barriers to health equity at personal, interpersonal, and institutional levels. Describes how to build confidence partnering with communities; acknowledge historical biases and intergenerational mistrust toward healthcare providers and institutions; and build partnerships to empower patients, clients, and community members with opportunities for optimal well-being.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "5410",
@@ -283,6 +378,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1113"
               },
               {
@@ -301,6 +399,25 @@
         "NUpath Natural/Designed World",
         "NUpath Writing Intensive"
       ]
+    },
+    {
+      "number": "5550",
+      "title": "Product Design, Development, and Innovation in Health Science",
+      "credits": 4.0,
+      "description": "Introduces the process of product design, development, and innovation across the health sciences. Presents a range of tools and methods for creating new products that benefit health and well-being across the life span. Focuses on overall product design methodology including the identification of customer needs, generation of product concepts, prototyping, and minimal viable product development. Examines differences in regulatory processes for the FDA, medical devices, and digital therapeutics. Reviews key concepts such as needs assessment, market estimation, and go-to-market strategies related to the full product development life cycle. Culminates with a comprehensive product proposal and pitch.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "HLTH 2500"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "5600",
@@ -380,10 +497,88 @@
       ]
     },
     {
+      "number": "5750",
+      "title": "Foundations of Precision Health",
+      "credits": 3.0,
+      "description": "Explores the theoretical frameworks and core principles underlying precision health approaches to healthcare innovation. Examines how individual variability in genetics, environment, and lifestyle influences disease prevention, diagnosis, and treatment strategies. Integrates perspectives from genomics, data science, ethics, and health systems. Introduces biological bases of variation, computational approaches to health data, and societal dimensions of precision medicine implementation. Addresses economic factors that shape precision health adoption. Emphasizes key concepts, providing foundational knowledge for evaluating and participating in precision health initiatives across healthcare, research, and policy contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5800",
       "title": "AI Across the Health Sciences",
       "credits": 4.0,
       "description": "Presents foundational information about artificial intelligence and its applications in healthcare, public health, pharmacology, and pharmaceutical sciences. Develops AI literacies for entry-level clinical practice, public health, and health-related careers. Provides an overview of the history of AI, most common types of AI approaches, and state-of-the-art of AI in health-related applications. Distinguishes realities from hype around AI’s capabilities and limitations and reviews ethical and regulatory considerations. Offers students experiential opportunities to build a conceptual AI solution to a real-world problem in the health space. Technical background in AI/computer science not required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5810",
+      "title": "Survey of Health-Related Data",
+      "credits": 4.0,
+      "description": "Presents a comprehensive survey of the different types of datasets encountered in health AI and machine learning applications. Students work with major categories of health data─from population surveillance and wearable sensors to clinical records and genomics─to gain hands-on experience. For each dataset type, explores data provenance, ethical considerations, regulatory requirements, data quality challenges, and appropriate analytical approaches. Offers students an opportunity to develop practical skills in data cleaning, preprocessing, and applying machine learning methods to real-world health datasets through guided assignments using the data. Emphasizes critical evaluation of data limitations, bias, and fairness considerations specific to each data modality.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 5130"
+              },
+              {
+                "course": "CS 5130"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "DADS 7275"
+              },
+              {
+                "course": "EECE 5644"
+              },
+              {
+                "course": "EECE 5644"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5820",
+      "title": "AI Project for Health Applications",
+      "credits": 4.0,
+      "description": "Explores the application of artificial intelligence in health contexts through a project-based approach. Emphasizes collaborative applied problem solving, critical engagement with ethical and policy considerations, and hands-on development of AI-driven health solutions. Includes healthcare data preparation and clinical problem framing to support translation between technical and clinical perspectives. Introduces responsible AI and AI safety, including evaluation metrics and human-centered approaches. Students participate in team-based projects to design, implement, and critically evaluate an AI application in health. Integrates computational methods with clinical insight to support the evolving field of AI in healthcare.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "HLTH 5800"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5963",
+      "title": "Topics",
+      "credits": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "description": "Offers students an opportunity to learn about timely issues, develop new skills, or explore areas of broad interest in an immersive, short-course format. Content and instructors vary by offering. May be repeated three times.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -419,6 +614,24 @@
       "attributes": []
     },
     {
+      "number": "6954",
+      "title": "Co-op Work Experience - Half-Time",
+      "credits": 0.0,
+      "description": "Provides eligible students with an opportunity for work experience. May be repeated up to seven times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6955",
+      "title": "Co-op Work Experience Abroad - Half Time",
+      "credits": 0.0,
+      "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated up to three times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6961",
       "title": "Internship",
       "credits": {
@@ -435,6 +648,48 @@
       "title": "Co-op Work Experience",
       "credits": 0.0,
       "description": "Provides eligible students with an opportunity for work experience. May be repeated seven times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6965",
+      "title": "Co-op Work Experience Abroad",
+      "credits": 0.0,
+      "description": "Provides eligible students with an opportunity for work experience abroad. May be repeated twice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6980",
+      "title": "Capstone",
+      "credits": 4.0,
+      "description": "Offers students an opportunity to integrate and apply the skills learned in earlier courses to a specialized research or applied capstone project as part of a master's degree program. Includes independently led activities that meet agreed-upon benchmarks with the faculty mentor. Expects students to produce a high-quality deliverable and professional presentation at the end of the semester.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7990",
+      "title": "Thesis",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Provides thesis work supervision by faculty members. May be repeated once for a maximum of 8 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7995",
+      "title": "Master's Project",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on an in-depth project in which a student conducts research or produces a product related to their major. May be repeated once for a maximum of 8 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

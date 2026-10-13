@@ -94,6 +94,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           }
         ]
       },
@@ -108,40 +111,36 @@
       "credits": 4.0,
       "description": "Continues JRNL 1101. This is the second writing course for undergraduate journalism students with an emphasis on learning how to report news stories. Offers students the opportunity to find sources and interview them, do background research, and use public records. Developing story ideas using computer-assisted reporting will be covered. Examines how to develop a story idea and then focus and organize it. Covers basic principles of online journalism including writing, design, and integration of visuals and text for the Web. Introduces elements of design and layout.",
       "prerequisites": {
-        "course": "JRNL 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "JRNL 1101"
+          },
+          {
+            "admission_requirement": "COMM 238M with a minimum grade of C"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
     },
     {
-      "number": "2250",
-      "title": "Spotlight: The Story of Journalism and Democracy",
+      "number": "2230",
+      "title": "Influencing: Creating Stories for Social Media Platforms",
       "credits": 4.0,
-      "description": "Offers an overview of groundbreaking stories and the journalistic methods used to produce them. Seeks to facilitate broad understanding of why a free press matters in a democratic society. Offers a behind-the-scenes look at examples of great investigative journalism that changed American history and explores the media's capacity to hold the powerful accountable. From Watergate to WikiLeaks and beyond, students critically analyze important news stories that helped reshape society. Reviews major stories, films, and interactive media and studies the methods used to report and produce such stories, including methods used by the Boston Globe Spotlight team and seen in the Oscar-winning movie \"Spotlight.\" Focuses on researching documents as well as interviewing techniques.",
+      "description": "Explores the role of short-form video in journalism. Introduces how to create viral, engaging, and ethical video content tailored for social media platforms. Examines the ethical challenges with journalism driven by social media and what factors may be encountered. Offers students an opportunity to learn how to optimize their videos for maximum reach and impact. Explores the toll social media reporting can take and ways to preserve reporters’ mental health.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
-        "NUpath Ethical Reasoning",
-        "NUpath Societies/Institutions"
-      ]
-    },
-    {
-      "number": "2285",
-      "title": "America and the Holocaust",
-      "credits": 4.0,
-      "description": "Examines the American response to the Holocaust, in terms of both contemporaneous knowledge and actions and the lasting impact on policy and culture. Starts with early twentieth-century events, such as the Armenian genocide, that shaped later attitudes. Explores the prewar period, particularly U.S. immigration and isolationist policies. Assesses Americans’ knowledge of European events as the extermination campaign unfolded and fights ensued over rescue possibilities. Examines changing depictions of the Holocaust that emerged in the postwar period as a result of critical events such as the Eichmann trial and popular television and film portrayals. Finally, considers how perceptions of the Holocaust have shaped subsequent U.S. responses to genocide. HIST 2285, JRNL 2285, and JWSS 2285 are cross-listed.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Ethical Reasoning",
-        "NUpath Societies/Institutions"
+        "NUpath Creative Express/Innov",
+        "NUpath Ethical Reasoning"
       ]
     },
     {
       "number": "2301",
       "title": "Visual Storytelling in Journalism",
       "credits": 4.0,
-      "description": "Continues JRNL 2201. Covers basic principles of journalistic storytelling with video, sound, and still images. Introduces students to the foundations of writing with audio and video, and explores the concept of “convergence,” preparing stories for presentation in different formats. Fulfills the Advanced Writing in the Disciplines requirement for journalism majors.",
+      "description": "Covers basic principles of journalistic storytelling with video, sound, and still images. Introduces students to the foundations of writing with audio and video, and explores the concept of “convergence,” preparing stories for presentation in different formats.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -153,6 +152,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1102"
@@ -180,6 +182,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1102"
@@ -286,7 +291,7 @@
       "number": "3610",
       "title": "Digital Storytelling and Social Media",
       "credits": 4.0,
-      "description": "Offers students an opportunity to learn the fundamentals of digital journalism. Emphasizes hands-on instruction in multimedia skills. Topics may include blogging, photography, video and audio production, use of social media as a reporting tool, and mapping and data visualization. Guest speakers and a consideration of the future of news may also be part of the course. Requires students to produce a final project that consists of storytelling across a range of platforms—for example, a written article, a photo story, and a video.",
+      "description": "Studies best practices for producing digital stories for various types of audiences in effective and appropriate ways. Offers students an opportunity to create projects for a range of platforms, on diverse topics, leveraging a broad set of technologies. Discusses ways the history of online storytelling and social media continue to impact norms and approaches today. Introduces modern channels and platforms to understand how to produce stories in effective ways to reach diverse sets of audiences. Guides students through creating strategic and cohesive media campaigns to tell stories across online distribution channels.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -316,9 +321,9 @@
     },
     {
       "number": "3680",
-      "title": "Advanced Reporting",
+      "title": "Investigative Reporting",
       "credits": 4.0,
-      "description": "Offers students an opportunity to learn and apply advanced reporting techniques of the kind that editors and producers expect of their best reporters, especially those who cover demanding beats such as politics, government, healthcare, education, science, and business. Studies how to see and apply data and data visualization techniques, to develop and interview sources, to locate and decipher public records, to identify and conceptualize important stories, and to discuss and apply ethical theories to reporting to justify choices that may inflame or antagonize sources or readers. An assignment to do substantial enterprise stories for publication in major media outlets is part of the course.",
+      "description": "Offers students an opportunity to learn and apply investigative reporting to assignments of the kind that editors and producers expect of their best reporters, especially those who cover demanding beats such as politics, government, healthcare, education, science, and business. Studies how to see and apply data and data visualization techniques, to develop and interview sources, to locate and decipher public records, to identify and conceptualize important stories, and to discuss and apply ethical theories to reporting to justify choices that may inflame or antagonize sources or readers. Requires students to do substantial enterprise stories for publication in major media outlets as part of the course.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -362,6 +367,9 @@
           },
           {
             "course": "JRNL 1101"
+          },
+          {
+            "admission_requirement": "COMM 238M with a minimum grade of C"
           },
           {
             "course": "JRNL 3370"
@@ -472,17 +480,7 @@
       "title": "Video News Reporting and Producing",
       "credits": 4.0,
       "description": "Engages students in the ethical challenges facing journalists historically and in the new media age. Students experiment with techniques used by TV and electronic news producers, including reporting, writing, videotaping, and editing on nonlinear digital editing equipment. Offers students an opportunity to create and produce news stories and upload them to their websites with a variety of software programs for dissemination across video and several multimedia platforms, in line with journalistic and ethical standards.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "JRNL 2201"
-          },
-          {
-            "admission_requirement": "graduate program admission"
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": [
         "NUpath Creative Express/Innov",
@@ -610,6 +608,17 @@
       "attributes": []
     },
     {
+      "number": "5983",
+      "title": "Topics in Podcasting",
+      "credits": 4.0,
+      "description": "Focuses each semester on a specific topic in podcast production, e.g. reporting a first-person narrative, perfecting the art of the interview, producing an audio documentary, building a daily news show or creating an influencer chatcast. Course topics explore podcast industry trends and innovations in storytelling. Informed by close listening, critical readings, instructor and guest lectures, class discussions and hands-on production work, students have the opportunity to develop and produce original podcasts. Emphasis is placed on practicing skills and strategies for both self-directed and collaborative podcast production, including experimentation, planning, iteration, revision, and critique of creative work. May be repeated twice for a maximum of 12 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
       "number": "6100",
       "title": "Reporting and Writing Fundamentals",
       "credits": 1.0,
@@ -691,6 +700,17 @@
       "credits": 4.0,
       "description": "Explores select topics in data journalism and support data-driven storytelling projects of various kinds. Offers students an opportunity to learn how to navigate the often-competing demands of rigorous analysis and accessible narrative and storytelling. Course units are designed to foster moderate technical learning of applications and software, incorporate theories from relevant fields in data visualization and data science, and emphasize storytelling for broad public audiences.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6352",
+      "title": "Nonfiction Writing",
+      "credits": 4.0,
+      "description": "Concentrates on techniques that distinguish magazine writing from other types of journalism including first-person voice, strong point of view, observation-participation, and complex organizational structures. Also introduces students to the magazine market through an analysis of overall trends and a look at individual magazine’s mission and modus operandi.",
+      "prerequisites": {
+        "course": "JRNL 6200"
+      },
       "corequisites": [],
       "attributes": []
     },

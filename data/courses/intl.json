@@ -22,18 +22,6 @@
       ]
     },
     {
-      "number": "1150",
-      "title": "The Mediterranean World: An Overview",
-      "credits": 4.0,
-      "description": "Introduces problems currently facing the nations of the Mediterranean region, the sources of these problems, how they are affecting the rest of the world, and what the future of the region may be. The Mediterranean is a region of significant international geopolitical importance where three major religions and continents meet, very different demographic patterns interact, the challenge of adapting to global economic and social forces is being faced, and security and terrorism are major problems. Surveys the Mediterranean region, its characteristics and significance, the changes it has experienced, and the ways in which societies around the Mediterranean currently interact and influence each other.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Interpreting Culture",
-        "NUpath Societies/Institutions"
-      ]
-    },
-    {
       "number": "1160",
       "title": "Middle East Studies",
       "credits": 4.0,
@@ -104,7 +92,15 @@
       "credits": 4.0,
       "description": "Introduces a variety of issues facing women across the globe. Focuses on the gender dynamics of key issues in international affairs. These could include economic policy, conflict and war, human rights/women’s rights, political power, and collective action. Draws on examples from various world regions since the twentieth century to analyze similarities and differences across cases around the globe. INTL 2480 and WMNS 2480 are cross-listed.",
       "prerequisites": {
-        "course": "INTL 1101"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -176,6 +172,15 @@
       "attributes": []
     },
     {
+      "number": "3255",
+      "title": "Democracy, Authoritarianism, and Development",
+      "credits": 4.0,
+      "description": "Surveys the key challenges in the evolution of democracy, economic development, and adaptive authoritarianism since the end of the Cold War. Examines the geopolitical aftermath of the Cold War, democracy and development in the Global South, economic and political transition in the former Soviet sphere across Eurasia, the spread of neoliberalism and the globalization of the world economy and its impacts, and the ways authoritarian regimes adapted and persisted despite internal and external pressure for liberalization and inclusion.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "3300",
       "title": "Covering Conflicts: Peace, War, and the Media",
       "credits": 4.0,
@@ -202,10 +207,26 @@
         "type": "AND",
         "courses": [
           {
-            "course": "INTL 1101"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
+              }
+            ]
           },
           {
-            "course": "POLS 1160"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "POLS 1160"
+              },
+              {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -221,6 +242,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -244,7 +268,15 @@
       "credits": 4.0,
       "description": "Introduces international law and how it redefines and shapes world politics. Offers students an opportunity to learn about the cornerstones of this area of the law: the state, organizations and their legal personality, diplomatic relations, treaties, extraterritorial jurisdiction, extradition, human rights and humanitarian law, the law of the sea trade/economic law, and international criminal law with a focus on the world courts. Considers the degree to which international law is pervasive in the life of individuals and states alike.",
       "prerequisites": {
-        "course": "POLS 1160"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -255,7 +287,15 @@
       "credits": 4.0,
       "description": "Explores various types of conflict settlements and their implications for peace and reconciliation. Why do civil wars break out in some places but not others? What does it take to start a revolution? Why do some conflicts last decades, and what can be done to mitigate their costs? Examines why civil conflicts begin, how they are fought, and how they end. Substantive topics include strategies of insurgency and counterinsurgency; the role of ethnicity, religion, and gender; and the relationship between economic factors and conflict. Students leverage fundamental concepts and theories in comparative politics to analyze civil conflicts in a wide range of country contexts.",
       "prerequisites": {
-        "course": "POLS 1160"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -272,10 +312,26 @@
         "type": "AND",
         "courses": [
           {
-            "course": "INTL 1101"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
+              }
+            ]
           },
           {
-            "course": "POLS 1160"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "POLS 1160"
+              },
+              {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
+              }
+            ]
           },
           {
             "type": "OR",
@@ -291,6 +347,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGW 1113"
@@ -319,7 +378,13 @@
             "course": "POLS 1155"
           },
           {
+            "admission_requirement": "ISM 231M with a minimum grade of D-"
+          },
+          {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -339,6 +404,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -385,16 +453,31 @@
             "course": "SOCL 1101"
           },
           {
+            "admission_requirement": "PHR 101M with a minimum grade of D-"
+          },
+          {
             "course": "ANTH 1101"
+          },
+          {
+            "admission_requirement": "SOCM 103M with a minimum grade of D-"
           },
           {
             "course": "HUSV 1101"
           },
           {
+            "admission_requirement": "SW 105M with a minimum grade of D-"
+          },
+          {
             "course": "CRIM 1100"
           },
           {
+            "admission_requirement": "PHR 107M with a minimum grade of D-"
+          },
+          {
             "course": "INTL 1101"
+          },
+          {
+            "admission_requirement": "ISM 118M with a minimum grade of D-"
           },
           {
             "course": "WMNS 1103"
@@ -404,6 +487,9 @@
           },
           {
             "course": "POLS 1160"
+          },
+          {
+            "admission_requirement": "ISM 116M with a minimum grade of D-"
           }
         ]
       },
@@ -428,16 +514,31 @@
                 "course": "SOCL 1101"
               },
               {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
+              },
+              {
                 "course": "ANTH 1101"
+              },
+              {
+                "admission_requirement": "SOCM 103M with a minimum grade of D-"
               },
               {
                 "course": "HUSV 1101"
               },
               {
+                "admission_requirement": "SW 105M with a minimum grade of D-"
+              },
+              {
                 "course": "CRIM 1100"
               },
               {
+                "admission_requirement": "PHR 107M with a minimum grade of D-"
+              },
+              {
                 "course": "INTL 1101"
+              },
+              {
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
               },
               {
                 "course": "WMNS 1103"
@@ -447,6 +548,9 @@
               },
               {
                 "course": "POLS 1160"
+              },
+              {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
               }
             ]
           },
@@ -458,6 +562,9 @@
               },
               {
                 "course": "ENGW 1111"
+              },
+              {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
               },
               {
                 "course": "ENGL 1102"
@@ -496,22 +603,40 @@
                 "course": "ANTH 1101"
               },
               {
+                "admission_requirement": "SOCM 103M with a minimum grade of D-"
+              },
+              {
                 "course": "CRIM 1100"
+              },
+              {
+                "admission_requirement": "PHR 107M with a minimum grade of D-"
               },
               {
                 "course": "HUSV 1101"
               },
               {
+                "admission_requirement": "SW 105M with a minimum grade of D-"
+              },
+              {
                 "course": "INTL 1101"
               },
               {
-                "course": "POLS 1140"
+                "admission_requirement": "ISM 118M with a minimum grade of D-"
               },
               {
                 "course": "POLS 1160"
               },
               {
+                "admission_requirement": "ISM 116M with a minimum grade of D-"
+              },
+              {
+                "course": "POLS 1140"
+              },
+              {
                 "course": "SOCL 1101"
+              },
+              {
+                "admission_requirement": "PHR 101M with a minimum grade of D-"
               },
               {
                 "course": "WMNS 1103"
@@ -534,6 +659,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1113"
               },
               {
@@ -547,39 +675,6 @@
       "attributes": [
         "NUpath Interpreting Culture",
         "NUpath Writing Intensive"
-      ]
-    },
-    {
-      "number": "4520",
-      "title": "Chinese Society and Culture",
-      "credits": 4.0,
-      "description": "Introduces students to changes in society and economy in contemporary China. Examines changes in family, gender relations, rural life, work, and international relations. Draws on literature from a range of disciplines including sociology, political science, anthropology, and economics.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ANTH 1101"
-          },
-          {
-            "course": "INTL 1101"
-          },
-          {
-            "course": "POLS 1140"
-          },
-          {
-            "course": "POLS 1160"
-          },
-          {
-            "course": "SOCL 1101"
-          },
-          {
-            "course": "WMNS 1103"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Societies/Institutions"
       ]
     },
     {

@@ -114,21 +114,32 @@
         "type": "OR",
         "courses": [
           {
-            "type": "OR",
+            "type": "AND",
             "courses": [
               {
-                "type": "AND",
+                "type": "OR",
                 "courses": [
                   {
                     "course": "BIOL 2219"
                   },
                   {
-                    "course": "PHSC 2320"
+                    "course": "PHSC 2301"
+                  },
+                  {
+                    "admission_requirement": "BIOL 234M with a minimum grade of D"
                   }
                 ]
               },
               {
-                "course": "BIOL 3611"
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "PHSC 2320"
+                  },
+                  {
+                    "course": "BIOL 3611"
+                  }
+                ]
               }
             ]
           },
@@ -223,6 +234,9 @@
                   },
                   {
                     "course": "MATH 1341"
+                  },
+                  {
+                    "admission_requirement": "MATH 21EM with a minimum grade of C-"
                   }
                 ]
               },
@@ -254,17 +268,6 @@
       "attributes": []
     },
     {
-      "number": "3412",
-      "title": "Pharmaceutics 2",
-      "credits": 4.0,
-      "description": "Continues PHSC 3411. Examines the physical and chemical properties of the drug as it relates to pharmaceutical product development. Covers concepts of thermodynamics, colligative properties, ionic equilibriums and buffers, solubility, complexation and protein binding, reaction kinetics, mass transport, interfacial phenomena and dispersion, and rheology.",
-      "prerequisites": {
-        "course": "PHSC 3411"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "3419",
       "title": "Pharmaceutics Laboratory",
       "credits": 1.0,
@@ -287,44 +290,6 @@
       ]
     },
     {
-      "number": "3510",
-      "title": "Medicinal Cannabis and Translational Cannabinoid Research",
-      "credits": 4.0,
-      "description": "Introduces fundamentals of medical cannabis and cannabinoid research. Includes foundational concepts of medicinal and psychoactive ingredients of marijuana, the human endocannabinoid system (ECS), cannabinoid receptors, and endocannabinoids. Reviews the growing nationwide acceptance of cannabis; the federal and state laws/policies regulating cannabis supply chain; research and product development along with effectiveness, safety, and side effects of cannabis for various ailments; and advances in the discovery/development of ECS-targeting drugs. Promotes the preparedness for conducting research, providing patient consultation, and working with healthcare providers and policymakers in this field. Alumni and external guests are invited to share clinical and industrial insights.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "CHEM 2311"
-              },
-              {
-                "course": "CHEM 1104"
-              },
-              {
-                "course": "CHM 2110"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "BIOL 1111"
-              },
-              {
-                "course": "BIOL 1113"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "3801",
       "title": "Principles of Pharmacology and Medicinal Chemistry 1",
       "credits": 4.0,
@@ -333,7 +298,18 @@
         "type": "AND",
         "courses": [
           {
-            "course": "BIOL 2219"
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOL 2219"
+              },
+              {
+                "admission_requirement": "BIOL 234M with a minimum grade of D"
+              },
+              {
+                "course": "PHSC 2301"
+              }
+            ]
           },
           {
             "course": "CHEM 2313"
@@ -350,52 +326,6 @@
       "description": "Continues PHSC 3801 and covers the principles and basic concepts of pharmacology and medicinal chemistry and the general mechanisms of drug action, including drug receptor interactions. Discusses the major functional groups and their contributions to receptor interactions, metabolism, and toxicity. Considers therapeutic uses, mechanisms of drug action, and undesirable actions, including side effects and adverse reactions.",
       "prerequisites": {
         "course": "PHSC 3801"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4501",
-      "title": "Pharmacology/Medicinal Chemistry 1",
-      "credits": 5.0,
-      "description": "Introduces the principles and basic concepts of pharmacology and the general mechanisms of drug action including drug receptor interactions. Discusses the major drug classes affecting the peripheral autonomic and central nervous systems including anxiolytics, sedative-hypnotics, anesthetics, anticonvulsants, neuroleptics, antidepressants, and antimanic agents. Considers therapeutic uses, mechanisms of drug action, and undesirable actions including side effects and adverse reactions.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "type": "OR",
-                "courses": [
-                  {
-                    "course": "PHSC 2303"
-                  },
-                  {
-                    "course": "BIOL 2219"
-                  }
-                ]
-              },
-              {
-                "course": "CHEM 2313"
-              }
-            ]
-          },
-          {
-            "admission_requirement": "graduate program admission"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "4502",
-      "title": "Pharmacology/Medicinal Chemistry 2",
-      "credits": 5.0,
-      "description": "Continues PHSC 4501. Covers the mechanisms of action, structure-activity relationships, therapeutic uses, and adverse effects of drugs including cardiovascular agents, hormones, anticancer drugs, antibiotics, and antiinflammatory agents.",
-      "prerequisites": {
-        "course": "PHSC 4501"
       },
       "corequisites": [],
       "attributes": []
@@ -506,6 +436,15 @@
       "attributes": []
     },
     {
+      "number": "5120",
+      "title": "Psychedelics in Medicine",
+      "credits": 4.0,
+      "description": "Introduces the field of psychedelic medicine. Explores the history of psychedelic use, from ancient practices to prohibition to modern clinical research. Topics include pharmacology and neurobiology of prototype compounds─i.e., classic psychedelics (psilocybin, LSD, DMT), empathogens (MDMA), and dissociatives (ketamine). Covers brain imaging studies addressing effects on brain function, connectivity, and plasticity. Analyzes growing clinical research investigating psychedelic therapeutics for depression, post-traumatic stress disorder, anxiety disorders, and substance use disorders. Addresses safety/efficacy, ethics, and the legal landscape, including U.S. Food and Drug Administration and Drug Enforcement Agency regulation and state-level reforms. Emphasizes critical thinking in assessing scientific studies, understanding nuances of psychedelic-assisted therapy, and appreciating societal implications of integrating these powerful compounds into medicine.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5130",
       "title": "Foundations of Pharmaceutical Sciences 1",
       "credits": 4.0,
@@ -527,6 +466,9 @@
                   },
                   {
                     "course": "MATH 1341"
+                  },
+                  {
+                    "admission_requirement": "MATH 21EM with a minimum grade of D-"
                   }
                 ]
               },
@@ -1065,15 +1007,6 @@
       "prerequisites": {
         "course": "PHSC 5305"
       },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6760",
-      "title": "Doctoral Pharmaceutical Science Research 1",
-      "credits": 2.0,
-      "description": "Offers PhD research in preparation for thesis proposal.",
-      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },

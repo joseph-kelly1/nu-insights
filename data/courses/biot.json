@@ -20,6 +20,15 @@
       "attributes": []
     },
     {
+      "number": "5146",
+      "title": "Biotechnology Laboratory Foundations",
+      "credits": 1.0,
+      "description": "Introduces essential laboratory skills and techniques fundamental to life sciences research through hands-on training, demonstrations, and data analysis. Covers precision and accuracy in liquid dispensation, preparation of solutions, and standards; proper documentation and recordkeeping; and maintenance of safe, sterile work environments. Combines practical laboratory exercises with instructional content across four modules to build foundational competencies in scientific research practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5219",
       "title": "The Biotechnology Enterprise",
       "credits": 2.0,
@@ -42,17 +51,6 @@
       "title": "Managing and Leading a Biotechnology Company",
       "credits": 3.0,
       "description": "Covers managing projects and personnel in a technology-based organization Such activities are best carried out by those who combine the technical knowledge of their industry with the insight into the best practices for working with groups of highly educated, and often very experienced people. The biotechnology industry is strongly dependent on the concept that knowledge is always shared and ownership is collective. As the fundamental organizational mantra is teamwork, the principles of managing in this environment are key to achieving important goals. How to accomplish this and make decisions that drive innovation and success have common threads with other technology based industries, but with the added complexity of the scientific challenges facing the biotechnology industry. Restricted to students in the Bouvé College of Health Sciences and in the College of Science or by permission of the program office.",
-      "prerequisites": {
-        "course": "BIOT 5219"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5227",
-      "title": "Launching Your Science: Biotechnology Entrepreneurship",
-      "credits": 3.0,
-      "description": "Focuses on the essential startup elements that lead to pitching your science to investors and funding your biopharmaceutical enterprise. Exposes students to the basics of establishing an unmet patient need and matching that to a scientific discovery or biotechnology platform, analyzing the marketplace from a scientific perspective, determining a draft regulatory pathway and product development plan through a target product profile (TPP), appropriately sizing and hiring your early stage management team, and assessing the financial needs and risks for appropriate exit strategies. Students produce a baseline pitch deck as the culminating project for the course.",
       "prerequisites": {
         "course": "BIOT 5219"
       },
@@ -241,19 +239,10 @@
       "attributes": []
     },
     {
-      "number": "5820",
-      "title": "Cellular Therapies",
-      "credits": 2.0,
-      "description": "The ever-changing landscape of the biotechnology field requires constant training. This course is designed to familiarize participants with some of the most cutting-edge topics available in molecular biology today: stem cells, RNA interference, CRISPR/CAS9, CAR T-cells, gene therapy, and more. Offers participants an opportunity to learn the theory behind these new technologies, how they are done, and their power in scientific discovery and treatment.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5830",
       "title": "Regulatory Landscape of Cell and Gene Therapies",
       "credits": 2.0,
-      "description": "Introduces the current state of regulatory approvals for cell and gene therapies. Focuses on the scientific and technical considerations for approval for such drugs in the United States, in Europe, and in other key global markets. Explores the scientific challenges in the context of regulatory approval of these products, as well as how the process differs from traditional biotherapeutic product approvals.Examines how these regulatory pathways are evolving with a specific focus on quality, efficacy, and safety throughout the product life cycle (manufacturing through commercialization).",
+      "description": "Introduces the current state of regulatory approvals for cell and gene therapies. Focuses on the scientific and technical considerations for approval for such drugs in the United States, in Europe, and in other key global markets. Explores the scientific challenges in the context of regulatory approval of these products, as well as how the process differs from traditional biotherapeutic product approvals. Examines how these regulatory pathways are evolving with a specific emphasis on quality, efficacy, and safety throughout the product life cycle (manufacturing through commercialization).",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -285,6 +274,15 @@
       "title": "Higher-Order Structure Analytics",
       "credits": 3.0,
       "description": "Offers a comprehensive look at various aspects of higher- order protein structures in biotherapeutics and their implications on biological drug design. Focuses heavily on protein aggregation, a type of HOS, and analysis of those aggregates including functional implications. Topics include a review of protein structure, protein aggregation, functional aspects, and techniques to reduce HOS using protein expression and purification strategies, protein folding in disease, macromolecular crystallography, nuclear magnetic resonance, analytical ultracentrifugation, circular dichroism, light scattering, electron spin labelling, cryo-EM, WAXS, and HDX-MS. Highlights experimental design and application to the biotechnology industry in identifying and reducing HOS.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5900",
+      "title": "Emerging Innovations in Biotechnology and Pharma",
+      "credits": 3.0,
+      "description": "Explores emerging scientific and technological innovations in biotechnology and pharmaceutical development. Introduces data-driven approaches, machine learning concepts, and analytical methods used across discovery and manufacturing. Examines how these tools shape target identification, molecular design, diagnostics, and bioprocess optimization. Reviews ethical and societal considerations related to digital technologies in the life sciences. Surveys national and international regulatory frameworks, including guidance for AI/ML applications. Students analyze datasets, interpret computational results, and evaluate regulatory documents. Emphasizes clear, professional communication of scientific and policy insights while highlighting how technological and regulatory advances influence decisions across the biopharmaceutical landscape.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -428,6 +426,45 @@
       "attributes": []
     },
     {
+      "number": "6650",
+      "title": "Polymerase Chain Reaction Techniques and Assay Optimization",
+      "credits": 1.0,
+      "description": "Focuses on the practical execution and optimization of polymerase chain reaction used in research, biopharmaceutical, diagnostic, and quality control environments. Emphasizes hands-on practice with PCR workflows including primer design considerations, reaction assembly, reagent and buffer selection, and thermal cycling parameters. Highlights the relationship between assay conditions and product outcomes through gel-based evaluation of amplification quality. Reinforces reproducibility and industry-aligned workflow standards through rigorous documentation and analytical recordkeeping.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOT 5145"
+              },
+              {
+                "course": "BIOT 5145"
+              },
+              {
+                "course": "BIOT 5145"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "Biotechnology Lab Skills with a score of 80"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6900",
+      "title": "AI-Powered Biotech Workflows: From Discovery to Clinic",
+      "credits": 3.0,
+      "description": "Explores artificial intelligence applications across the therapeutic development pipeline, from target discovery through clinical implementation. Covers multi-omics data integration, protein structure prediction with AlphaFold, molecular docking and drug design, ADME-Tox prediction, knowledge graphs for drug repurposing, and generative AI for molecule design. Examines clinical data analysis using natural language processing, medical imaging AI, multimodal data integration for precision medicine, and computational approaches to clinical trial design. Emphasizes biological interpretation of AI outputs and integration with experimental workflows. Offers students an opportunity to obtain hands-on experience with industry-standard computational tools using real biological datasets and to build competencies for roles in computational biology, bioinformatics, and AI-enabled drug discovery.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6954",
       "title": "Co-op Work Experience - Half-Time",
       "credits": 0.0,
@@ -478,24 +515,35 @@
       "credits": 3.0,
       "description": "Offers students an opportunity to apply their curricular learnings in an applied project setting. Working with a project sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Course topics include the biotechnology innovation process, the assessment of market opportunities, the development of business models and risk management. Emphasizes development of professional skills, effective teamwork, and managing projects that involve uncertainty.",
       "prerequisites": {
-        "type": "AND",
+        "type": "OR",
         "courses": [
           {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "BIOT 5219"
-              },
-              {
-                "course": "BIOT 5219"
-              },
-              {
-                "course": "BIOT 5219"
-              }
-            ]
+            "course": "BIOT 5219"
           },
           {
-            "course": "BIOT 6500"
+            "course": "BIOT 5219"
+          },
+          {
+            "course": "BIOT 5219"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7244",
+      "title": "Biotechnology Applications Practicum",
+      "credits": 1.0,
+      "description": "Examines experimental data generated from core techniques in biotechnology including molecular cloning, protein expression, cell culture, and genome editing. Emphasizes interpretation of authentic research results, data quality assessment, and experimental troubleshooting. Highlights the relationship between experimental design and data outcomes in diverse applications such as PCR, sequencing, and CRISPR. Offers students an opportunity to develop critical thinking, data analysis, and scientific communication skills through evaluation of experimental datasets that model real-world biotechnology research and development contexts.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BIOT 5145"
+          },
+          {
+            "admission_requirement": "Biotechnology Lab Skills with a score of 80"
           }
         ]
       },
@@ -513,6 +561,9 @@
           {
             "type": "OR",
             "courses": [
+              {
+                "course": "BIOL 4707"
+              },
               {
                 "course": "BIOT 5145"
               },
@@ -569,6 +620,31 @@
       "description": "Presents a comprehensive molecular technique for bacterial, yeast, and plant identification as well as gene expression studies and cloning methods. Emphasizes 16S rRNA and ITS region analysis, DNA sequencing, and phylogenetic analysis to classify microorganisms. Offers opportunity for students to develop skills in quantitative real-time PCR (rt-qPCR) for gene expression. Provides hands-on experience with cloning, transformant selection, and enzyme activity assays. Offers opportunities to analyze rt-qPCR data. Emphasizes critical analysis and problem solving in experimental workflows. Combines theoretical principles with practical applications and offers students the opportunity to develop advanced skills in molecular biology and biotechnology.",
       "prerequisites": {
         "course": "BIOT 7246"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7265",
+      "title": "Applied Research in Biotechnology",
+      "credits": 3.0,
+      "description": "Engages students in laboratory-based research that applies biotechnological principles to investigate real-world scientific questions through collaboration with university faculty and external partners. Emphasizes the development of analytical reasoning, experimental design, and data interpretation skills in the context of applied biotechnology research. Offers students an opportunity to strengthen technical proficiency, documentation accuracy, and critical thinking through participation in supervised projects that reflect current practices in the biotechnology sector. Supports professional growth through emphasis on ethical research conduct, teamwork, and scientific communication. May be repeated once for credit with distinct research focus areas.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BIOT 5145"
+          },
+          {
+            "course": "BIOT 5145"
+          },
+          {
+            "course": "BIOT 5145"
+          },
+          {
+            "admission_requirement": "Biotechnology Lab Skills with a score of 80"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []

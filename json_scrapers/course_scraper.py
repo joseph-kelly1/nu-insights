@@ -66,7 +66,7 @@ def scrape_department(url, failed_courses):
 
         strong_text = clean_text(title_block.find('strong').get_text())
 
-        course_info = re.search(r'(\w+)\s+(\d+)\.?\s+(.*?)\.?\s+\((\d+(?:\.\d+)?(?:-\d+(?:\.\d+)?)?)\s+Hours?\)', strong_text)
+        course_info = re.search(r'(\w+)\s+(\d+)\.?\s+(.*?)\.?\s+\((\d+(?:\.\d+)?(?:\s*[-,]\s*\d+(?:\.\d+)?)*?)\s+Hours?\)', strong_text)
 
         if not course_info:
             failed_courses.append(strong_text)
@@ -79,8 +79,9 @@ def scrape_department(url, failed_courses):
             continue
 
         credits_text = course_info.group(4).strip()
-        if '-' in credits_text:
-            min_credits, max_credits = map(float, credits_text.split('-'))
+        if '-' in credits_text or ',' in credits_text:
+            credit_values = [float(value) for value in re.split(r'[-,]', credits_text)]
+            min_credits, max_credits = min(credit_values), max(credit_values)
             credits = {
                 "min": min_credits,
                 "max": max_credits

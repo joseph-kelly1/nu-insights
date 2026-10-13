@@ -32,6 +32,15 @@
       "attributes": []
     },
     {
+      "number": "5250",
+      "title": "Generative AI in Practice",
+      "credits": 4.0,
+      "description": "Examines how generative AI and autonomous agentic AI systems leverage large language models to extract insights; generate solutions; and tackle complex, multifaceted problems. Emphasizes hands-on exploration of AI-driven approaches and application development across diverse domains including healthcare, supply chain optimization, financial decision making, and strategic planning. Offers students opportunities to design, deploy, and apply gen AI-powered analytical tools and applications alongside goal-oriented agentic AI systems. Addresses prompt engineering, model fine-tuning, retrieval-augmented generation, gen AI ethics, and emerging industry trends.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "6205",
       "title": "Deterministic Operations Research",
       "credits": 4.0,
@@ -76,6 +85,15 @@
         "type": "OR",
         "courses": [
           {
+            "course": "DADS 5200"
+          },
+          {
+            "course": "DADS 6400"
+          },
+          {
+            "course": "DS 5020"
+          },
+          {
             "course": "IE 5374"
           },
           {
@@ -104,6 +122,9 @@
         "type": "OR",
         "courses": [
           {
+            "course": "CS 5100"
+          },
+          {
             "course": "CS 6120"
           },
           {
@@ -111,6 +132,9 @@
           },
           {
             "course": "CS 6180"
+          },
+          {
+            "course": "CS 6200"
           },
           {
             "course": "CS 6220"
@@ -122,7 +146,19 @@
             "course": "CS 7150"
           },
           {
+            "course": "DADS 7275"
+          },
+          {
+            "course": "DADS 7650"
+          },
+          {
+            "course": "IE 7275"
+          },
+          {
             "course": "IE 7300"
+          },
+          {
+            "course": "IE 7615"
           }
         ]
       },
@@ -130,20 +166,21 @@
       "attributes": []
     },
     {
+      "number": "7500",
+      "title": "Natural Language Processing for Interdisciplinary Applications",
+      "credits": 4.0,
+      "description": "Offers an in-depth exploration of natural language processing techniques, their underlying principles, and their interdisciplinary applications across domains such as engineering, business, healthcare, and the social sciences. Emphasizes the practical implementation of NLP methods—including word embeddings, neural networks, attention mechanisms, and advanced deep learning models—to analyze and solve real-world problems involving unstructured text data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "7650",
-      "title": "Deep Generative Models",
+      "title": "Deep Generative Methods",
       "credits": 4.0,
       "description": "Examines theoretical foundations of generative AI across natural language processing and computer vision. Covers deep learning architectures including autoencoders, GANs, diffusion models, and transformers. Investigates applications such as text generation, image synthesis, and retrieval-augmented generation. Reinforces concepts through a structured lab sequence that supports practical understanding and ethical considerations in AI development.",
       "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "CS 6140"
-          },
-          {
-            "course": "IE 7300"
-          }
-        ]
+        "course": "DADS 7275"
       },
       "corequisites": [],
       "attributes": []

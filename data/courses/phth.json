@@ -3,9 +3,9 @@
   "courses": [
     {
       "number": "1260",
-      "title": "The American Healthcare System",
+      "title": "The U.S. Healthcare System",
       "credits": 4.0,
-      "description": "Introduces the organization and dynamics of the healthcare system and the role of consumers. Explores basic elements of healthcare including financing, personal insurance, high-risk status, and patient rights within the context of the U.S. system. Central to this exploration is an analysis of healthcare issues requiring informed consent from patients: patient bill of rights, healthcare directives, and the use of a proxy for decision making. Introduces the roles and responsibilities of various healthcare workers within the framework of an interdisciplinary model of healthcare.",
+      "description": "Examines how the U.S. healthcare delivery system is organized, financed, and structured and assesses its strengths and weaknesses. Reviews the roles of system stakeholders such as physicians and other healthcare professionals, hospitals and other healthcare institutions, private and public insurers, pharmaceutical companies, and patients. Discusses approaches to expanding healthcare access, improving equity, managing costs, increasing quality, and enhancing patient engagement. Explores how technology and other factors have shaped and continue to shape the healthcare system. Considers alternative healthcare system approaches, such as those adopted in other countries, as well as current issues and trends facing the healthcare system.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -114,6 +114,9 @@
           },
           {
             "course": "PHTH 1261"
+          },
+          {
+            "admission_requirement": "NYC 151M with a minimum grade of C"
           }
         ]
       },
@@ -144,6 +147,50 @@
       "attributes": []
     },
     {
+      "number": "3717",
+      "title": "Infectious Disease: Past, Present, Future",
+      "credits": 4.0,
+      "description": "Examines the relationship between disease and health inequity. Reviews historical and current patterns in outbreaks, epidemics, and pandemics whose trajectories were shaped not only by viruses and bacteria but also by histories, events, populations, social determinants, inequitable distributions of power, climate change, and social capital. Unpacks how diseases have radically transformed the landscape of how we work and play, driven innovations in vaccine development, and exerted a powerful influence on politics. Discusses how climate change has produced new weather patterns, and how insects as disease vectors have appeared in new areas, putting human populations at increased risk. Offers students an opportunity to build skills and conceptual links between infectious disease and social determinants of health that are critical in averting epidemics.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHTH 1260"
+              },
+              {
+                "admission_requirement": "NYC 151M with a minimum grade of C"
+              },
+              {
+                "course": "PHTH 1261"
+              },
+              {
+                "course": "PHTH 1270"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHTH 2350"
+              },
+              {
+                "admission_requirement": "PBH 110M with a minimum grade of C"
+              },
+              {
+                "course": "PHTH 2351"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "4120",
       "title": "Global Perspectives on Discrimination and Health",
       "credits": 4.0,
@@ -155,16 +202,8 @@
             "type": "OR",
             "courses": [
               {
-                "course": "PHTH 2350"
+                "course": "COMM 3409"
               },
-              {
-                "course": "PHTH 2351"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
               {
                 "course": "ENGW 3302"
               },
@@ -187,6 +226,20 @@
                 "course": "ENGW 3315"
               }
             ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHTH 2350"
+              },
+              {
+                "course": "PHTH 2351"
+              },
+              {
+                "admission_requirement": "PBH 110M with a minimum grade of C"
+              }
+            ]
           }
         ]
       },
@@ -206,10 +259,16 @@
         "type": "OR",
         "courses": [
           {
+            "course": "BIOE 2365"
+          },
+          {
             "course": "CRIM 3700"
           },
           {
             "course": "ECON 2350"
+          },
+          {
+            "admission_requirement": "BUSM 22EM with a minimum grade of C"
           },
           {
             "course": "ENVR 2500"
@@ -225,6 +284,9 @@
           },
           {
             "course": "MGSC 2301"
+          },
+          {
+            "admission_requirement": "BUSM 224M with a minimum grade of C"
           },
           {
             "course": "NRSG 5120"
@@ -261,6 +323,9 @@
           },
           {
             "course": "PHTH 1261"
+          },
+          {
+            "admission_requirement": "NYC 151M with a minimum grade of C"
           }
         ]
       },
@@ -321,13 +386,16 @@
         "type": "OR",
         "courses": [
           {
-            "course": "ENGW 3306"
+            "course": "COMM 3409"
           },
           {
             "course": "ENGW 3302"
           },
           {
             "course": "ENGW 3304"
+          },
+          {
+            "course": "ENGW 3306"
           },
           {
             "course": "ENGW 3307"
@@ -586,6 +654,9 @@
                 "course": "ENGW 1111"
               },
               {
+                "admission_requirement": "WRIT 201M with a minimum grade of C"
+              },
+              {
                 "course": "ENGW 1113"
               },
               {
@@ -696,7 +767,18 @@
       "credits": 3.0,
       "description": "Builds upon the fundamental concepts and methods of biostatistics with applications to health disciplines. Topics include hypothesis testing, analysis of variance, linear regression, multiple regression, and logistic regression. Examples and readings are drawn from the public health literature. The SAS statistical software package is introduced and used throughout the course.",
       "prerequisites": {
-        "course": "PHTH 5210"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 5010"
+          },
+          {
+            "course": "PHTH 5210"
+          },
+          {
+            "course": "PHTH 6830"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": []
@@ -732,67 +814,6 @@
             ]
           }
         ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6320",
-      "title": "Qualitative Methods in Health and Illness",
-      "credits": 3.0,
-      "description": "Discusses qualitative inquiry in general and specifically in topics related to public health and experiences of self, health, illness, and the body. Qualitative research aims to achieve in-depth and contextual understanding of people, culture, and societies and usually employs texts, interviews, published materials, images, and focus group discussions as sources of data. The course integrates theoretical and methodological readings and discussions with designing and conducting a qualitative project. Offers students an opportunity to understand meanings of health, illness, and the body in a variety of “local worlds” and reflect on their importance for informing policy, public health, research, and practice. Requires prior completion of one undergraduate- or graduate-level course in research methods.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6400",
-      "title": "Principles of Population Health 1",
-      "credits": 3.0,
-      "description": "Seeks to provide students with historical background and methodological and critical-thinking tools needed to perform high-quality, interdisciplinary research in population health. Using a problem-solving and interdisciplinary framework, offers students an opportunity to gain the skills to develop research hypotheses, design research strategies, analyze data to test study hypotheses, and communicate their findings both orally and in writing. Also offers students an opportunity to gain experience in research methodology and application of basic methods for population health research, including epidemiological and biostatistical concepts. Finally, students demonstrate their mastery of these skills through problem sets and through written proposals that include communication of preliminary data.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "PHTH 5210"
-          },
-          {
-            "course": "PHTH 5210"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6410",
-      "title": "Principles of Population Health 2",
-      "credits": 3.0,
-      "description": "Continues PHTH 6400, exploring additional population health research topics and methods and applying more advanced biostatistical and epidemiological analysis methods.",
-      "prerequisites": {
-        "course": "PHTH 6400"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6440",
-      "title": "Advanced Methods in Biostatistics",
-      "credits": 3.0,
-      "description": "Explores in detail the analysis of complex survey design, including adjustments for cluster sampling, weighting, and stratification. Designs that incorporate clustering of data are common in health science research. These designs are characterized by data that capture nonindependent repeated measurements on primary sampling units or that collect data with schemes more complex than simple random sampling. The statistical analyses of these types of data need to include appropriate adjustments to provide proper estimates and accurate testing. The second part of the course investigates the use of mixed regression models to analyze repeated measurements on individuals, multilevel data, and growth models.",
-      "prerequisites": {
-        "course": "PHTH 6210"
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6800",
-      "title": "Causal Inference in Public Health Research",
-      "credits": 3.0,
-      "description": "Exposes students to causal inference approaches, including causal diagrams and counterfactual theory. Students are also asked to draw upon their own research experiences and prior epidemiology training to evaluate public health studies. Covers how to apply the fundamental concepts of counterfactuals and causal diagrams; assess threats to validity in study designs and analysis, including confounding, selection bias, and measurement error/misclassification; evaluate the validity of a public health research study’s design and analysis with respect to addressing causal questions; and critically analyze scientific literature and apply findings to clinical or policy decisions. Offers students an opportunity to think critically and rigorously about the implications of study design and analysis toward addressing public health questions.",
-      "prerequisites": {
-        "course": "PHTH 6202"
       },
       "corequisites": [],
       "attributes": []
@@ -937,6 +958,74 @@
       "credits": 4.0,
       "description": "Introduces the theory and practice of mixed method inquiry in the social sciences, broadly defined. Presents an overview of historical roots of mixed methods research, the major paradigms driving contemporary mixed methods research, and the four most common research designs applied in mixed methods research (concurrent, sequential, embedded, and multiphase). Studies how to evaluate the validity and quality of mixed methods research. Offers students an opportunity to develop a research protocol for a mixed methods research project.",
       "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7400",
+      "title": "Principles of Population Health 1",
+      "credits": 3.0,
+      "description": "Presents historical background and methodological and critical-thinking tools needed to perform high-quality, interdisciplinary research in population health. Uses a problem-solving and interdisciplinary framework to demonstrate the skills needed to develop research hypotheses, design research strategies, analyze data to test study hypotheses, and communicate findings both orally and in writing. Offers students an opportunity to gain experience in research methodology and application of basic methods for population health research, including epidemiological and biostatistical concepts. Students demonstrate mastery of these skills through problem sets and written proposals that include communication of preliminary data.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHTH 5210"
+          },
+          {
+            "course": "PHTH 5210"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7410",
+      "title": "Principles of Population Health 2",
+      "credits": 3.0,
+      "description": "Continues PHTH 7400. Explores additional population health research topics and methods and applies more advanced biostatistical and epidemiological analysis methods.",
+      "prerequisites": {
+        "course": "PHTH 7400"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7440",
+      "title": "Advanced Methods in Biostatistics",
+      "credits": 3.0,
+      "description": "Extends general and generalized linear models to applications and structures that create dependent data. Uses a multilevel approach to model-clustered or group data that can arise from data collected at different layers or longitudinally across time. Examines the analyses of data from complex survey designs where stratification, sampling units, and sampling weights need to be incorporated into the analyses. Explores the underlying principles for these approaches and specific statistical approaches for analyses. Uses R and RStudio to analyze various datasets.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHTH 6210"
+          },
+          {
+            "course": "PHTH 6830"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7800",
+      "title": "Causal Inference in Public Health Research",
+      "credits": 3.0,
+      "description": "Demonstrates causal inference approaches, including causal diagrams and counterfactual theory. Applies the fundamental concepts of counterfactuals and causal diagrams; assesses threats to validity in study designs and analysis including confounding, selection bias, and measurement error/misclassification; evaluates the validity of a public health research study’s design and analysis with respect to addressing causal questions; and critically analyzes scientific literature and applies findings to clinical or policy decisions. Draws upon research experiences and prior epidemiology training to evaluate public health studies. Offers students an opportunity to think critically and rigorously about the implications of study design and analysis toward addressing public health questions.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "PHTH 6202"
+          },
+          {
+            "course": "PHTH 6830"
+          }
+        ]
+      },
       "corequisites": [],
       "attributes": []
     },

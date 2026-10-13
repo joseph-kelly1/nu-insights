@@ -65,12 +65,58 @@
       ]
     },
     {
+      "number": "3310",
+      "title": "Machine Learning for Music Technology",
+      "credits": 4.0,
+      "description": "Seeks to develop practical proficiency with machine learning concepts, tools, and techniques as applied to music creation, audio processing, and interactive performance. Topics include supervised and unsupervised machine learning, neural network architectures, symbolic and audio-based music generation, neural audio synthesis, AI-augmented production workflows, and gesture-driven interactive systems. Engages students with machine-learning-driven systems through hands-on projects, structured lab exercises, and critical evaluation of both commercial platforms and programmatic frameworks. Emphasizes transferable analytical skills and adaptable workflows implemented within industry-standard platforms.",
+      "prerequisites": {
+        "course": "MUST 2431"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
       "number": "3601",
       "title": "Digital Audio Signal Processing",
       "credits": 4.0,
       "description": "Introduces students to digital signal processing as it relates to offline or non-real-time audio processing. Covers fundamental engineering concepts and mathematics. Examines implementation details of common digital audio processing routines using the C programming language, the industry standard for audio software engineering.",
       "prerequisites": {
-        "course": "MUST 2431"
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ARTG 2262"
+              },
+              {
+                "course": "CS 2000"
+              },
+              {
+                "course": "GE 1502"
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "PHYS 1211"
+                  },
+                  {
+                    "course": "MUST 2431"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "course": "CS 2100"
+          },
+          {
+            "course": "EECE 2150"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -84,7 +130,18 @@
       "credits": 4.0,
       "description": "Introduces analog electronics in the context of audio synthesis and processing. Covers the basics of electronics and analog audio signals; passive components, transistors, operational amplifiers, and sensors; analog audio synthesis, filters, amplification, and modulation; and design standards for analog audio equipment. In-class activities revolve around designing, building, analyzing, and testing sound-emitting circuits.",
       "prerequisites": {
-        "course": "MUST 2431"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2150"
+          },
+          {
+            "course": "MUST 2431"
+          },
+          {
+            "course": "PHYS 2371"
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -96,9 +153,47 @@
       "number": "3603",
       "title": "Embedded Audio Programming",
       "credits": 4.0,
-      "description": "Explores the use of embedded computers for designing interactive audio applications. Begins with a programming primer and transitions to programming audio applications using an industry standard language, focusing on transferring skills acquired in visual programming environments to embedded/low-level programming concepts. Key topics include low-latency real-time audio synthesis and processing, physical computing, sensor integration, and basic electronics. Offers students an opportunity to gain experience across the full cycle of design, development, and testing of interactive software and hardware technologies for audio applications.",
+      "description": "Explores the use of embedded computers for designing interactive audio applications. Focuses on transferring skills acquired in visual programming environments to embedded/low-level programming concepts. Key topics include low-latency real-time audio synthesis and processing, physical computing, sensor integration, and basic electronics. Offers students an opportunity to gain experience across the full cycle of design, development, and testing of interactive software and hardware technologies for audio applications.",
       "prerequisites": {
-        "course": "MUST 2431"
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 2100"
+          },
+          {
+            "course": "EECE 2150"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "MUST 2431"
+                  },
+                  {
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "ARTG 2262"
+                      },
+                      {
+                        "course": "CS 2000"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course": "GE 1502"
+              },
+              {
+                "course": "PHYS 1211"
+              }
+            ]
+          }
+        ]
       },
       "corequisites": [],
       "attributes": [
@@ -128,6 +223,18 @@
       "prerequisites": {
         "type": "OR",
         "courses": [
+          {
+            "course": "CS 3000"
+          },
+          {
+            "course": "CS 3100"
+          },
+          {
+            "course": "DS 2500"
+          },
+          {
+            "course": "EECE 2560"
+          },
           {
             "course": "MUST 3601"
           },
@@ -223,6 +330,39 @@
           }
         ]
       },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5520",
+      "title": "Data Sonification",
+      "credits": 4.0,
+      "description": "Introduces the emerging and highly interdisciplinary field of data sonification, principally for purposes of better understanding data. Covers topics such as established sonification theory and strategies, psychoacoustics, collaboration with data providers, the design of sonification presentation and navigation systems, research methodology, and based lab experimental procedures. Technologies and disciplines include software design utilizing industry-standard programming languages, audio sound design, graphic design, and web development. Explores sonification concepts in the context of real-world projects.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MUST 2431"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ]
+    },
+    {
+      "number": "5973",
+      "title": "Special Topics in Music Technology",
+      "credits": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "description": "Focuses on various topics related to music technology. May be repeated up to two times for up to 12 total credits.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },

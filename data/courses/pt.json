@@ -2,15 +2,6 @@
   "department": "PT",
   "courses": [
     {
-      "number": "1000",
-      "title": "College: An Introduction",
-      "credits": 1.0,
-      "description": "Provides an introduction to the University, college, and health professions to enhance students’ understanding of self and the decisions they make academically and socially as members of the University’s diverse, multicultural community. Group activities and individual assignments along with active participation in a learning community help students adjust to life on an urban campus, develop a better understanding of the learning process, acquire essential academic skills, and make connections with the faculty and students in the college.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "1880",
       "title": "Introduction to Sports Medicine",
       "credits": 4.0,
@@ -19,6 +10,17 @@
       "corequisites": [],
       "attributes": [
         "NUpath Natural/Designed World"
+      ]
+    },
+    {
+      "number": "2500",
+      "title": "Bioethics, Health, and Human Movement",
+      "credits": 2.0,
+      "description": "Introduces the field of bioethics. Presents an overview of foundational bioethical theories and principles, while grounding discussions in applied cases that feature contemporary ethical dilemmas. Examines the relationship between health and disability to deepen understanding of the human movement system.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Ethical Reasoning"
       ]
     },
     {
@@ -37,7 +39,7 @@
       "number": "3300",
       "title": "Human Gross Anatomy",
       "credits": 3.0,
-      "description": "Covers the structure and function of the human body. Emphasizes the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems. Using a regional and systemic approach, explores the details of the limbs, thorax, abdomen, and pelvic regions of the body. Considers basic abnormalities of structure and function via clinical application of these systems.",
+      "description": "Covers the structure and function of the human body. Emphasizes the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems. Uses a regional and systemic approach to explore the details of the limbs, thorax, abdomen, and pelvic regions of the body. Considers basic abnormalities of structure and function via clinical application of these systems.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -73,6 +75,9 @@
           },
           {
             "course": "BIOL 2218"
+          },
+          {
+            "admission_requirement": "BIOL 13LM with a minimum grade of D-"
           }
         ]
       },
@@ -94,6 +99,17 @@
           },
           {
             "course": "BIOL 1117"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "BIOL 136M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "BIOL 234M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
@@ -115,11 +131,35 @@
           },
           {
             "course": "BIOL 1117"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "admission_requirement": "BIOL 136M with a minimum grade of D-"
+              },
+              {
+                "admission_requirement": "BIOL 234M with a minimum grade of D-"
+              }
+            ]
           }
         ]
       },
       "corequisites": [],
       "attributes": []
+    },
+    {
+      "number": "4900",
+      "title": "Kinesiology Capstone",
+      "credits": 3.0,
+      "description": "Provides an experiential capstone project experience derived from real-world challenges in human movement, exercise science, biomechanics, or rehabilitation. Integrates knowledge from coursework through engagement in the design process, from problem identification and needs assessment to intervention development and evaluation. Addresses practical challenges in physical activity, athletic performance, injury prevention, or movement-based health interventions through collaboration with faculty mentors and community partners.",
+      "prerequisites": {
+        "course": "PT 2991"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience"
+      ]
     },
     {
       "number": "4992",
@@ -146,6 +186,15 @@
       "attributes": [
         "NUpath Integration Experience"
       ]
+    },
+    {
+      "number": "5010",
+      "title": "Human Gross Anatomy",
+      "credits": 4.0,
+      "description": "Covers the structure and function of the human body with emphasis on the skeletal, muscular, digestive, cardiopulmonary, and peripheral nervous systems. Uses a regional and systemic approach to explore the details of the limbs, thorax, abdomen, and pelvic regions of the body. Considers clinical application of these systems' basic abnormalities of structure and function. Provides hands-on exploration of the human body utilizing cadaveric specimens.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "5101",
@@ -177,17 +226,6 @@
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
-    },
-    {
-      "number": "5133",
-      "title": "Kinesiology",
-      "credits": 3.0,
-      "description": "Studies normal movement through the analysis of muscle and joint function. Introduces fundamental examples of pathokinesiology, aberrant motions, and postures. Emphasizes analysis of the major joints and regions of the body as related to the field of physical therapy, including aspects of gait analysis. Encourages critical thinking and integrates material learned in prior course work, including, but not limited to, anatomy and physiology.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Natural/Designed World"
-      ]
     },
     {
       "number": "5138",
@@ -242,33 +280,7 @@
       "title": "Pathology",
       "credits": 4.0,
       "description": "Covers foundational knowledge of pathological processes of major body systems. Addresses general medicine, laboratory medicine, and pathophysiology as related to patient conditions that impact physical therapy management. Case-based discussion allows for integration of pathology and pharmacology content.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5131"
-              },
-              {
-                "course": "PT 5131"
-              }
-            ]
-          },
-          {
-            "type": "AND",
-            "courses": [
-              {
-                "course": "PT 6340"
-              },
-              {
-                "course": "PT 6341"
-              }
-            ]
-          }
-        ]
-      },
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -398,130 +410,6 @@
       "attributes": []
     },
     {
-      "number": "5227",
-      "title": "Physical Therapy Project 1",
-      "credits": 3.0,
-      "description": "Provides students with the opportunity to conduct an independent project under the mentorship of physical therapy faculty in areas such as research, education, clinical practice, administration, or service learning.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5515"
-              },
-              {
-                "course": "PT 5515"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5540"
-              },
-              {
-                "course": "PT 5540"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 6243"
-              },
-              {
-                "course": "PT 6243"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Capstone Experience",
-        "NUpath Creative Express/Innov",
-        "NUpath Formal/Quant Reasoning",
-        "NUpath Writing Intensive"
-      ]
-    },
-    {
-      "number": "5229",
-      "title": "Physical Therapy Project 2",
-      "credits": 2.0,
-      "description": "Provides students with an opportunity to work with individual faculty on scholarship activities to create a scholarly work in partial fulfillment of the requirement for a Doctor of Physical Therapy degree. Allows students to begin or continue their research or education project. Guides students as necessary to enable them to complete their capstone project.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "PT 5227"
-          },
-          {
-            "course": "PT 5227"
-          },
-          {
-            "course": "CAEP 5150"
-          },
-          {
-            "course": "CAEP 5150"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": [
-        "NUpath Capstone Experience"
-      ]
-    },
-    {
-      "number": "5230",
-      "title": "Pediatric and Geriatric Aspects of Life Span Management",
-      "credits": 3.0,
-      "description": "Incorporates analysis and comparison of methods of physical therapy (PT) management of selected populations across the life span, which includes pediatrics and geriatrics. Focuses on utilizing evidenced-based rationale for clinical decision making within the context of PT examination, evaluation, PT diagnosis, prognosis, and plan of care. Discusses how patient/client management seeks to reflect core professional values, as well as topics of prevention and wellness in these patient populations.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5209"
-              },
-              {
-                "course": "PT 5209"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5505"
-              },
-              {
-                "course": "PT 5505"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 6241"
-              },
-              {
-                "course": "PT 6241"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "5321",
       "title": "Applications of Biomechanics in Human Function and Movement",
       "credits": 4.0,
@@ -551,6 +439,17 @@
                     "course": "BIOL 2217"
                   },
                   {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "admission_requirement": "BIOL 136M with a minimum grade of D-"
+                      },
+                      {
+                        "admission_requirement": "BIOL 234M with a minimum grade of D-"
+                      }
+                    ]
+                  },
+                  {
                     "course": "BIOL 1117"
                   },
                   {
@@ -566,6 +465,9 @@
                   },
                   {
                     "course": "PSYC 3458"
+                  },
+                  {
+                    "admission_requirement": "PSYC 241M with a minimum grade of D-"
                   }
                 ]
               }
@@ -589,6 +491,28 @@
       "prerequisites": [],
       "corequisites": [
         "PT 5410"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "5450",
+      "title": "Introduction to Therapeutic Activities",
+      "credits": 2.0,
+      "description": "Explores the biologic underpinnings of therapeutic activities. Offers students an opportunity to develop skills in the application of therapeutic activities including exercise prescription, therapeutic handling skills, and functional activity design. Students apply these skills to shape interventions used in the physical therapy treatment of people across the life span with a variety of impairments of body structure, function, and functional activity limitations.",
+      "prerequisites": [],
+      "corequisites": [
+        "PT 5451"
+      ],
+      "attributes": []
+    },
+    {
+      "number": "5451",
+      "title": "Lab for PT 5450",
+      "credits": 1.0,
+      "description": "Focuses on prescribing therapeutic interventions, including therapeutic exercise, activities, and physical agents/modalities, based on foundational physical therapy examination results. Emphasizes development of affective, psychomotor, and cognitive skills necessary to ensure safe and effective intervention in the clinical environment and to prepare for future courses within the curriculum.",
+      "prerequisites": [],
+      "corequisites": [
+        "PT 5450"
       ],
       "attributes": []
     },
@@ -664,54 +588,6 @@
       "prerequisites": [],
       "corequisites": [
         "PT 5503"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "5505",
-      "title": "Musculoskeletal Management 1",
-      "credits": 4.0,
-      "description": "Discusses physical therapy examination evaluation, interventions, and outcome assessment of common musculoskeletal dysfunctions. Uses case-based learning to promote synthesis of the material.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5515"
-              },
-              {
-                "course": "PT 5515"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5540"
-              },
-              {
-                "course": "PT 5540"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [
-        "PT 5506"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "5506",
-      "title": "Lab for PT 5505",
-      "credits": 1.0,
-      "description": "Accompanies PT 5505. Covers topics from the course through various experiments.",
-      "prerequisites": [],
-      "corequisites": [
-        "PT 5505"
       ],
       "attributes": []
     },
@@ -810,6 +686,25 @@
       "attributes": []
     },
     {
+      "number": "5560",
+      "title": "Bioengineering Design for Robotic Rehabilitation",
+      "credits": 4.0,
+      "description": "Covers the intersection of robotics, physical therapy, rehabilitation, and movement sciences. Students engage in hands-on projects derived from real-world challenges in collaboration with clinical experts. Follows a systematic design process, from conceptualization to prototype development, emphasizing the application of robotics to enhance therapeutic and rehabilitative outcomes. Key topics include biomechanics, motor control and learning, and sensor integration. Emphasizes collaborative teamwork with peers, faculty, and clinical professionals. Concludes with a project presentation demonstrating functional prototypes to address specific needs in rehabilitation.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BIOE 3210"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "5976",
       "title": "Directed Study",
       "credits": {
@@ -818,41 +713,6 @@
       },
       "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
       "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6000",
-      "title": "Leadership, Administration, and Management",
-      "credits": 2.0,
-      "description": "Offers students an opportunity to develop the ability to analyze and evaluate changes in the healthcare system, health policy, and the impact on the delivery of services with a focus on physical therapy. Appraises key business and management concepts, including personnel, insurance, finance, marketing, productivity, and financial and legal regulations within the context of ethical practice. Emphasizes and examines leadership concepts in the areas of advocacy, legislation, and the promotion of the profession.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5145"
-              },
-              {
-                "course": "PT 5145"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 6243"
-              },
-              {
-                "course": "PT 6243"
-              }
-            ]
-          }
-        ]
-      },
       "corequisites": [],
       "attributes": []
     },
@@ -866,62 +726,12 @@
       "attributes": []
     },
     {
-      "number": "6215",
-      "title": "Assistive Technology",
-      "credits": 3.0,
-      "description": "Studies theory and current practice in the use of prosthetics, orthotics, and assisted-living devices.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5230"
-              },
-              {
-                "course": "PT 5230"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 6221"
-              },
-              {
-                "course": "PT 6221"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 6223"
-              },
-              {
-                "course": "PT 6223"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [
-        "PT 6216"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "6216",
-      "title": "Lab for PT 6215",
+      "number": "6201",
+      "title": "Seminar for Professional Practice and Management",
       "credits": 1.0,
-      "description": "Accompanies PT 6215. Covers topics from the course through various experiments.",
+      "description": "Presents an immersive, hands-on service-learning experience to apply course concepts of health promotion for community-based groups while intentionally addressing the needs/interests of community partners. Focuses on facilitated reflection to think critically about and analyze experiences to establish a deeper understanding of the role of physical therapists in health promotion for diverse community populations.",
       "prerequisites": [],
-      "corequisites": [
-        "PT 6215"
-      ],
+      "corequisites": [],
       "attributes": []
     },
     {
@@ -973,54 +783,6 @@
       "attributes": []
     },
     {
-      "number": "6223",
-      "title": "Musculoskeletal Management 2",
-      "credits": 4.0,
-      "description": "Provides an in-depth analysis of musculoskeletal management. Compares intervention protocols as an integral component of this course. Allows, in the lab component, for practical application of spinal joint mobilization, modalities, ergonomic assessment, functional training, and therapeutic exercise. Uses case-based learning to promote synthesis of the material.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5505"
-              },
-              {
-                "course": "PT 5505"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 6241"
-              },
-              {
-                "course": "PT 6241"
-              }
-            ]
-          }
-        ]
-      },
-      "corequisites": [
-        "PT 6224"
-      ],
-      "attributes": []
-    },
-    {
-      "number": "6224",
-      "title": "Lab for PT 6223",
-      "credits": 1.0,
-      "description": "Accompanies PT 6223. Covers topics from the course through various experiments.",
-      "prerequisites": [],
-      "corequisites": [
-        "PT 6223"
-      ],
-      "attributes": []
-    },
-    {
       "number": "6230",
       "title": "Capstone Project: Human Movement and Rehabilitation Sciences",
       "credits": 4.0,
@@ -1033,25 +795,6 @@
           },
           {
             "course": "PT 7020"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6233",
-      "title": "Advanced Physical Therapy Topics in Orthopedics",
-      "credits": 2.0,
-      "description": "Provides students with an opportunity to obtain in-depth knowledge in orthopedics and physical therapy. Course topics vary each semester offered. Topics are determined by significant events and changes in the field. This course may be taken more than once, as long as topics are different. May be repeated without limit.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "PT 5505"
-          },
-          {
-            "course": "PT 5505"
           }
         ]
       },
@@ -1074,41 +817,6 @@
           },
           {
             "course": "PT 5505"
-          }
-        ]
-      },
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "6241",
-      "title": "Screening for Medical Conditions in Physical Therapy Practice",
-      "credits": 4.0,
-      "description": "Designed to prepare physical therapy students to recognize the signs and symptoms of medical conditions and adverse drug reactions as they relate to patient examination and to triage appropriately. Emphasizes screening for medical conditions with the goal of recognizing red, yellow, and green flags as they relate to patient care. Stresses medical referral to other healthcare practitioners in an efficient and effective manner.",
-      "prerequisites": {
-        "type": "AND",
-        "courses": [
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5515"
-              },
-              {
-                "course": "PT 5515"
-              }
-            ]
-          },
-          {
-            "type": "OR",
-            "courses": [
-              {
-                "course": "PT 5540"
-              },
-              {
-                "course": "PT 5540"
-              }
-            ]
           }
         ]
       },
@@ -1421,10 +1129,8 @@
       "number": "6442",
       "title": "Clinical Education 2",
       "credits": 6.0,
-      "description": "Continues PT 6441. Provides students with additional opportunities to practice examination, evaluation, and intervention skills learned in the classroom and during the previous course. Students are expected to function at a higher level requiring less supervision and guidance from a licensed physical therapist than was needed during their first clinical education experience.",
-      "prerequisites": {
-        "course": "PT 6441"
-      },
+      "description": "Offers opportunities to practice examination, evaluation, and intervention skills learned in the classroom. Provides less supervision and guidance from a licensed physical therapist than was needed during the first clinical education experience.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -1667,7 +1373,16 @@
       "number": "7001",
       "title": "Core Concepts in Rehabilitation Science and Research",
       "credits": 3.0,
-      "description": "Exposes students to core concepts in rehabilitation science, including theory, experimental design, models of disablement, and knowledge transfer methods. Offers students an opportunity to develop the skills to critically evaluate models and theories used in rehabilitation science in order to apply select models/theories to their own programs of research. Students evaluate research designs and knowledge translation methods relevant to rehabilitation science and apply this information in planning the design, implementation, and dissemination of their own proposed research.",
+      "description": "Explores interdisciplinary concepts in rehabilitation science including theory, experimental design, models of disablement, and knowledge transfer methods. Offers students an opportunity to develop skills to critically evaluate models and theories used in clinical and rehabilitation science in order to apply select models/theories to establish a line of inquiry. Students evaluate research designs and knowledge translation methods relevant to rehabilitation science and apply this information in planning the design, implementation, and dissemination of proposed research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7002",
+      "title": "Core Concepts in Neuroscience and Research",
+      "credits": 4.0,
+      "description": "Explores neuroscience concepts including neuroplasticity, motor control and learning, neuromechanical coupling, sensorimotor integration, dynamical systems theory, experimental design, and knowledge transfer methods. Offers students an opportunity to develop skills to critically evaluate models and theories used in prevention─including biomechanical constraints on neural reorganization, adaptive movement strategies, and biopsychosocial frameworks─to apply select models/theories to establish a line of inquiry. Students evaluate research designs and knowledge translation methods relevant to prevention science, including neurophysiological and biomechanical assessment integration and technology-enhanced rehabilitation approaches, and apply this information in planning the design, implementation, and dissemination of proposed research.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1676,16 +1391,7 @@
       "number": "7005",
       "title": "Experimental Design and Applied Statistics",
       "credits": 4.0,
-      "description": "Offers an introduction and overview to quantitative human subject research methods typical in movement and rehabilitation sciences as well as other fields. Refers to the set of tools used to develop, design, and complete a study to explore answers to questions through empirical approaches. Emphasizes development of research skills, including the ability to define research problems; write hypotheses; apply research designs; organize, analyze, and present data; perform statistical analyses; and draw relevant conclusions. Offers students an opportunity to formulate testable hypotheses, design experiments using principles of good experimental design, model and analyze experimental data, perform appropriate and valid statistical tests, and interpret the data and statistical outcomes.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "7010",
-      "title": "Measurement and Analysis of Human Movement and Bioinstrumentation",
-      "credits": 4.0,
-      "description": "Offers students an opportunity to learn how to measure kinematics, kinetics, and muscle activity using bioinstrumentation, including 3D motion capture system, force plates, and electromyography, as well as to learn signal conditioning and processing techniques and how to compute physiological variables such as joint angles, joint torques, ground reaction force, center of pressure, and center of mass. Topics include programming skills in LabVIEW and MATLAB. Students use this information to formulate solutions to biomechanical problems.",
+      "description": "Introduces quantitative human subject research methods typical in movement and rehabilitation sciences as well as other fields. Applies research designs to answer questions using empirical approaches. Emphasizes development of research skills including the ability to define research problems; write research questions; create hypotheses; apply research designs; organize, analyze, and present data; perform statistical analyses; and draw relevant conclusions. Offers students an opportunity to test hypotheses, design experiments using principles of good experimental design, model and analyze experimental data, perform appropriate and valid statistical tests, and interpret the data and statistical outcomes.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1694,7 +1400,7 @@
       "number": "7020",
       "title": "Technologies in Movement and Rehabilitation Science",
       "credits": 4.0,
-      "description": "Covers technologies that have relevance to rehabilitation of individuals with disorders of movement. Topics include measurement of human movement, electroencephalography (EEG), functional magnetic resonance imaging (fMRI), electromyography (EMG), virtual reality and gaming, robotics, neuroprosthetics, noninvasive brain stimulation, and peripheral stimulation. Exposes students to a historical perspective on how the technology evolved, applications of the technology, an overview of how the technology works, existing variants, strengths, limitations/gaps, and future directions.",
+      "description": "Introduces a diverse array of biomedical technologies employed to assess, interpret, and promote engagement in healthy behaviors. Examines how neural adaptations influence movement rehabilitation using tools such as surface electromyography, transcranial magnetic stimulation, and other neurophysiological and cognitive-behavioral assessments. Emphasizes the mechanisms of neural control and signaling within biomedical contexts. Investigates, through an interdisciplinary lens, both foundational and emerging technologies that have reshaped clinical, research, and engineering approaches to evaluating neural and motor function. Explores how innovations in neuroscience inform contemporary practices in neuroscience and rehabilitation.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
@@ -1703,7 +1409,7 @@
       "number": "7030",
       "title": "Interdisciplinary Seminar in Rehabilitation Science",
       "credits": 1.0,
-      "description": "Engages PhD students in discussions and presentations related to human movement and rehabilitation research in order to help them gain important skills related to critiquing and communicating scientific work. Offers students an opportunity to learn how to provide constructive feedback to colleagues about completed works and works in progress, as well as their communications regarding conference presentations and manuscripts from (or for) peer-reviewed archival journals. Works reviewed include works by students and by world-renowned leaders in the field. Presentations include students, as well as internationally established researchers. May be repeated five times for a maximum of two semester hours.",
+      "description": "Aims to develop essential skills for analyzing, critiquing, and communicating scientific work across neurophysiological and behavioral neuroscience domains. Offers students the opportunity to offer and receive constructive feedback from international experts in a dynamic platform for scholarly exchange, as well as offer and receive feedback through student-led projects.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []

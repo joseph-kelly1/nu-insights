@@ -193,51 +193,6 @@
       ]
     },
     {
-      "number": "2330",
-      "title": "Architecture and the City in the Nineteenth Century",
-      "credits": 4.0,
-      "description": "Focuses on the history and theory of architecture and urban design in the nineteenth century. Emphasizes European architecture and urbanism and the ways in which European approaches to design shaped and were shaped by sustained cultural, political, and economic exchange with the Americas, Africa, and Asia. Major topics include the birth of the modern city and urban planning, capitalism and industrialization, new building typologies, infrastructure, urban parks and early suburbs, and new materials and technologies.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ENGL 1111"
-          },
-          {
-            "course": "ENGL 1102"
-          },
-          {
-            "course": "ENGW 1111"
-          },
-          {
-            "course": "ENGW 1102"
-          },
-          {
-            "admission_requirement": "graduate program admission"
-          }
-        ]
-      },
-      "corequisites": [
-        "ARCH 2331"
-      ],
-      "attributes": [
-        "NUpath Interpreting Culture",
-        "NUpath Societies/Institutions",
-        "NUpath Writing Intensive"
-      ]
-    },
-    {
-      "number": "2331",
-      "title": "Recitation for ARCH 2330",
-      "credits": 0.0,
-      "description": "Offers a small-group discussion format to cover material in ARCH 2330.",
-      "prerequisites": [],
-      "corequisites": [
-        "ARCH 2330"
-      ],
-      "attributes": []
-    },
-    {
       "number": "2335",
       "title": "Architecture and Politics",
       "credits": 4.0,
@@ -267,6 +222,9 @@
             "course": "ENGW 1111"
           },
           {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
+          },
+          {
             "course": "ENGW 1102"
           },
           {
@@ -279,8 +237,7 @@
       ],
       "attributes": [
         "NUpath Interpreting Culture",
-        "NUpath Societies/Institutions",
-        "NUpath Writing Intensive"
+        "NUpath Societies/Institutions"
       ]
     },
     {
@@ -293,18 +250,6 @@
         "ARCH 2340"
       ],
       "attributes": []
-    },
-    {
-      "number": "2345",
-      "title": "Contemporary Architecture",
-      "credits": 4.0,
-      "description": "Exposes students to a range of critical architectural practices and key theoretical frameworks from roughly 1990 through the present. Situates architectural production and discourse within a broader context of technological, cultural, and social processes, emphasizing the reciprocal exchange between architecture and its larger cultural and social context. Investigates the idea of the “contemporary” as both a temporal and conceptual notion, as well as the idea of a “critical” architecture and its relationship to both a historical avant-garde and “mainstream” architectural culture.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": [
-        "NUpath Interpreting Culture",
-        "NUpath Writing Intensive"
-      ]
     },
     {
       "number": "2355",
@@ -342,6 +287,17 @@
       "attributes": []
     },
     {
+      "number": "3130",
+      "title": "Adaptive Reuse",
+      "credits": 6.0,
+      "description": "Introduces and reinforces issues in complex architectural design for institutions. Includes adaptive reuse, sustainable materials, large-span structural systems, accessibility, mixed-use programs, and designing for urban sites.",
+      "prerequisites": {
+        "course": "ARCH 2140"
+      },
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "3170",
       "title": "Architecture, Infrastructure, and the City",
       "credits": 6.0,
@@ -350,7 +306,9 @@
         "course": "ARCH 2140"
       },
       "corequisites": [],
-      "attributes": []
+      "attributes": [
+        "NUpath Capstone Experience"
+      ]
     },
     {
       "number": "3210",
@@ -413,21 +371,14 @@
       ]
     },
     {
-      "number": "3361",
-      "title": "Topics in Global Architecture and Urbanism",
-      "credits": 4.0,
-      "description": "Covers the detailed history of architecture and urban development in a global city, from its founding to the present.",
-      "prerequisites": {
-        "type": "OR",
-        "courses": [
-          {
-            "course": "ARCH 2340"
-          },
-          {
-            "course": "ARCH 2340"
-          }
-        ]
+      "number": "3363",
+      "title": "Field Study Topics Abroad",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
       },
+      "description": "Offers students an opportunity to travel to select cities where, together with the faculty lead, they study firsthand the built and natural environment. This field study course is closely tied to ARCH 3361.",
+      "prerequisites": [],
       "corequisites": [],
       "attributes": []
     },
@@ -457,7 +408,7 @@
       "number": "3450",
       "title": "Advanced Architectural Communication",
       "credits": 4.0,
-      "description": "Builds on CAD (computer-aided design) skills to develop ability to model in three dimensions and develop surfaces and lighting. Also addresses strategies in design communication for effective presentation of digital material.",
+      "description": "Offers students an opportunity to build on their representation skills to develop ability in design communication and strategies for effective presentation of analog and digital material.",
       "prerequisites": {
         "type": "OR",
         "courses": [
@@ -485,6 +436,42 @@
         "NUpath Analyzing/Using Data",
         "NUpath Natural/Designed World"
       ]
+    },
+    {
+      "number": "3983",
+      "title": "Topics in Global Architecture Studio",
+      "credits": {
+        "min": 1.0,
+        "max": 6.0
+      },
+      "description": "Offers study in topics of global architecture in a studio setting. Topics vary by semester and by section. Taught by faculty according to their interests and expertise. Please consult School of Architecture for current offerings. May be repeated once for a maximum of 12 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3984",
+      "title": "Topics in Global Architecture History",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers study in topics of global architecture history. Topics vary by semester and by section. Taught by faculty according to their interests and expertise. Please consult School of Architecture for current offerings. May be repeated twice for a maximum of 12 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3985",
+      "title": "Topics in Global Architecture Design Theory",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers study in topics of global architectural design and theory. Topics vary by semester and by section. Taught by faculty according to their interests and expertise. Please consult School of Architecture for current offerings. May be repeated twice for a maximum of 12 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
     },
     {
       "number": "4850",
@@ -653,6 +640,9 @@
                     "course": "PHYS 1151"
                   },
                   {
+                    "admission_requirement": "PHYS 261M with a minimum grade of D-"
+                  },
+                  {
                     "course": "PHYS 1141"
                   }
                 ]
@@ -662,6 +652,9 @@
                 "courses": [
                   {
                     "course": "MATH 1341"
+                  },
+                  {
+                    "admission_requirement": "MATH 21EM with a minimum grade of D-"
                   },
                   {
                     "course": "MATH 1241"
@@ -772,15 +765,6 @@
       "attributes": [
         "NUpath Capstone Experience"
       ]
-    },
-    {
-      "number": "5850",
-      "title": "Architecture Topics Abroad: History",
-      "credits": 4.0,
-      "description": "Studies the city as a site of creativity and innovation, with a special focus on particular cases of study. Introduces the contemporary city from a historical, social, and economic perspective, followed by presentations on examples of creativity and innovation in the fields of architecture and urban design.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
     },
     {
       "number": "6100",

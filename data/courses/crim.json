@@ -118,15 +118,6 @@
       "attributes": []
     },
     {
-      "number": "2340",
-      "title": "Corporate Security: Securing the Private Sector",
-      "credits": 4.0,
-      "description": "Examines the history and evolution of security from a focus on crime prevention to one of loss prevention for business, industry, institutions, and government. Emphasizes the need for analytical, interpersonal, and communications skills in developing cost-effective programs for the protection of assets, personnel, and third parties. Discusses the security/government relationship.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
       "number": "2350",
       "title": "Policing a Democratic Society",
       "credits": 4.0,
@@ -159,6 +150,9 @@
           },
           {
             "course": "ENGW 1111"
+          },
+          {
+            "admission_requirement": "WRIT 201M with a minimum grade of C"
           },
           {
             "course": "ENGW 1113"
@@ -303,6 +297,15 @@
       "attributes": []
     },
     {
+      "number": "3580",
+      "title": "Sexual Violence: Counseling, Programs, and Policy",
+      "credits": 4.0,
+      "description": "Offers an in-depth examination of sexual violence, its effects, and the resources available to assist survivors. Presents an overview of the criminal justice, medical, legal, and counseling systems and the impact these interweaving systems have on survivors. Offers students an opportunity to develop crisis counseling competency through group exercises and experiential activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
       "number": "3600",
       "title": "Criminal Justice Research Methods",
       "credits": 4.0,
@@ -435,8 +438,11 @@
     {
       "number": "4994",
       "title": "Internship",
-      "credits": 4.0,
-      "description": "Offers students an opportunity for internship work. May be repeated without limit.",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students an opportunity for internship work. May be repeated up to three times for a maximum of 8 semester hours.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
@@ -451,7 +457,8 @@
       "prerequisites": [],
       "corequisites": [],
       "attributes": [
-        "NUpath Interpreting Culture"
+        "NUpath Interpreting Culture",
+        "NUpath Societies/Institutions"
       ]
     },
     {
@@ -486,15 +493,6 @@
       "title": "Crime Mapping",
       "credits": 4.0,
       "description": "Offers students an opportunity to obtain an understanding of how crime mapping is used by law enforcement agencies. Designed as a practical and hands-on introduction to various crime mapping techniques. Employs a holistic approach to learning how to create and interpret maps, which seeks to provide a much deeper understanding of crime mapping and leave students with a solid foundation of skills that are transferable and scalable.",
-      "prerequisites": [],
-      "corequisites": [],
-      "attributes": []
-    },
-    {
-      "number": "5600",
-      "title": "Illicit Flows and Criminal Networks",
-      "credits": 4.0,
-      "description": "Reviews in-depth the extent, nature, victimization, causes, responses, and control of the problem of illegal trade in a variety of products. Focuses on medical supply chains and a wide variety of consumer goods. Examines the types of crimes committed, theoretical frameworks that can be used for the study of these types of misconduct, and the types of victimization associated with illicit flows and criminal networks. Investigates the social organization of illegal markets and networks. Studies techniques and technologies used for authentication, security, prevention, detection, investigation, and sanctioning of offenses, as well as disruption and mitigation strategies governance challenges.",
       "prerequisites": [],
       "corequisites": [],
       "attributes": []
