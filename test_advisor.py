@@ -32,7 +32,7 @@ PLANS = [
 MARKDOWN = "## CS 3000\n\n**Take it** in year 2.\n\n- skill"
 
 
-def completion(content=MARKDOWN, finish="stop", model="inclusionai/ling-3.1-flash"):
+def completion(content=MARKDOWN, finish="stop", model="google/gemma-4-31b-it:free"):
     return {"id": "gen-1", "model": model, "choices": [
         {"index": 0, "finish_reason": finish, "message": {"role": "assistant", "content": content}}]}
 
@@ -53,7 +53,8 @@ class ApiTest(unittest.TestCase):
         for name, value in [
             ("_client", lambda: client),
             ("API_KEY", "test"),
-            ("FALLBACK_MODELS", ["nvidia/nemotron-3.5-lightning:free"]),
+            ("PRIMARY_MODEL", "google/gemma-4-31b-it:free"),
+            ("FALLBACK_MODELS", ["openrouter/free"]),
             ("lookup_course", lambda d, n: dict(COURSE) if (d.lower(), n) == ("cs", "3000") else None),
             ("lookup_schedule_context", lambda d, n: PLANS),
         ]:
@@ -70,11 +71,11 @@ class AnalyzeTest(ApiTest):
     def test_request_is_grounded_free_only_and_returns_markdown(self):
         res = self.analyze()
         self.assertEqual(res.status_code, 200)
-        self.assertEqual(res.json, {"analysis": MARKDOWN, "model": "inclusionai/ling-3.1-flash"})
+        self.assertEqual(res.json, {"analysis": MARKDOWN, "model": "google/gemma-4-31b-it:free"})
 
         sent = self.sent[0]
-        self.assertEqual(sent["model"], "inclusionai/ling-3.1-flash")
-        self.assertEqual(sent["models"], ["nvidia/nemotron-3.5-lightning:free"])
+        self.assertEqual(sent["model"], "google/gemma-4-31b-it:free")
+        self.assertEqual(sent["models"], ["openrouter/free"])
         self.assertEqual(sent["provider"]["max_price"], {"prompt": 0, "completion": 0, "request": 0})
         self.assertTrue(sent["provider"]["require_parameters"])
         self.assertEqual(sent["reasoning"], {"enabled": False, "exclude": True})
@@ -86,10 +87,10 @@ class AnalyzeTest(ApiTest):
             self.assertIn(fact, prompt)
 
     def test_fallback_success_does_not_downgrade_later_requests(self):
-        self.reply = lambda: httpx.Response(200, json=completion(model="nvidia/nemotron-3.5-lightning:free"))
-        self.assertEqual(self.analyze().json["model"], "nvidia/nemotron-3.5-lightning:free")
+        self.reply = lambda: httpx.Response(200, json=completion(model="openrouter/free"))
+        self.assertEqual(self.analyze().json["model"], "openrouter/free")
         self.analyze()
-        self.assertEqual([s["model"] for s in self.sent], ["inclusionai/ling-3.1-flash"] * 2)
+        self.assertEqual([s["model"] for s in self.sent], ["google/gemma-4-31b-it:free"] * 2)
 
     def test_empty_fallback_list_omits_models(self):
         with mock.patch.object(advisor, "FALLBACK_MODELS", []):
@@ -347,7 +348,7 @@ class CustomAITest(ApiTest):
         self.assertEqual((self.upstream, self.sent), ([], []))
 
         res = self.analyze({"dept": "cs", "number": "3000", "ai": {"mode": "default"}})
-        self.assertEqual(res.json, {"analysis": MARKDOWN, "model": "inclusionai/ling-3.1-flash"})
+        self.assertEqual(res.json, {"analysis": MARKDOWN, "model": "google/gemma-4-31b-it:free"})
 
     def test_interleaved_keys_stay_isolated_and_default_keeps_server_client(self):
         self.custom_reply = reply(200, ok_body("openai", "gpt-6-luna"))
@@ -356,7 +357,7 @@ class CustomAITest(ApiTest):
             self.assertEqual(self.analyze(custom("openai", key=key)).status_code, 200)
         self.assertEqual([r.headers["authorization"] for r in self.upstream], [f"Bearer {k}" for k in keys])
 
-        self.assertEqual(self.analyze().json["model"], "inclusionai/ling-3.1-flash")
+        self.assertEqual(self.analyze().json["model"], "google/gemma-4-31b-it:free")
         self.assertEqual((len(self.upstream), len(self.sent), advisor.API_KEY), (3, 1, "test"))
         self.assert_clients_closed()
 
@@ -518,7 +519,7 @@ class CustomAITest(ApiTest):
 
 
 class ConfigTest(unittest.TestCase):
-    BASE = {"OPENROUTER_MODEL": "inclusionai/ling-3.1-flash", "OPENROUTER_FALLBACK_MODELS": "",
+    BASE = {"OPENROUTER_MODEL": "google/gemma-4-31b-it:free", "OPENROUTER_FALLBACK_MODELS": "",
             "OPENROUTER_REASONING_ENABLED": "false", "OPENROUTER_MAX_TOKENS": "2048", "OPENROUTER_TIMEOUT_SECONDS": "35"}
 
     def load(self, **overrides):
@@ -527,7 +528,7 @@ class ConfigTest(unittest.TestCase):
                               cwd=os.path.dirname(os.path.abspath(__file__)), env=env, capture_output=True, text=True)
 
     def test_fallbacks_are_trimmed_deduplicated_and_exclude_primary(self):
-        result = self.load(OPENROUTER_FALLBACK_MODELS=" a/b:free , a/b:free,inclusionai/ling-3.1-flash,,")
+        result = self.load(OPENROUTER_FALLBACK_MODELS=" a/b:free , a/b:free,google/gemma-4-31b-it:free,,")
         self.assertEqual(result.stdout.strip(), "['a/b:free']")
         self.assertEqual(self.load().stdout.strip(), "[]")
 

@@ -190,8 +190,8 @@ python -m unittest -v test_requirements_scraper
 | Variable | Default | Notes |
 | --- | --- | --- |
 | `OPENROUTER_API_KEY` | none | Needed for the free default mode; search, course details, and user keys work without it |
-| `OPENROUTER_MODEL` | `inclusionai/ling-3.1-flash` | Primary model, tried first on every request |
-| `OPENROUTER_FALLBACK_MODELS` | `nvidia/nemotron-3.5-lightning:free` | Comma-separated; leave it empty to turn off fallback |
+| `OPENROUTER_MODEL` | `google/gemma-4-31b-it:free` | Primary model, tried first on every request |
+| `OPENROUTER_FALLBACK_MODELS` | `openrouter/free` | Comma-separated; leave it empty to turn off fallback |
 | `OPENROUTER_REASONING_ENABLED` | `false` | `true` or `false`; if `true`, raise max tokens to about 4096 |
 | `OPENROUTER_MAX_TOKENS` | `2048` | |
 | `OPENROUTER_TIMEOUT_SECONDS` | `35` | SDK network timeout, not a total deadline |

@@ -50,8 +50,12 @@ def _positive_env(name: str, default: str, cast):
 
 
 API_KEY = os.environ.get("OPENROUTER_API_KEY", "").strip()
-PRIMARY_MODEL = os.environ.get("OPENROUTER_MODEL", "").strip() or "inclusionai/ling-3.1-flash"
-_fallbacks = os.environ.get("OPENROUTER_FALLBACK_MODELS", "nvidia/nemotron-3.5-lightning:free").split(",")
+DEFAULT_MODELS = [
+    "google/gemma-4-31b-it:free",
+    "openrouter/free",
+]
+PRIMARY_MODEL = os.environ.get("OPENROUTER_MODEL", "").strip() or DEFAULT_MODELS[0]
+_fallbacks = os.environ.get("OPENROUTER_FALLBACK_MODELS", ",".join(DEFAULT_MODELS[1:])).split(",")
 FALLBACK_MODELS = list(dict.fromkeys(m.strip() for m in _fallbacks if m.strip() not in ("", PRIMARY_MODEL)))
 if bad := [m for m in (PRIMARY_MODEL, *FALLBACK_MODELS) if not re.fullmatch(r"[\w.-]+/[\w.:-]+", m)]:
     raise ValueError(f"Malformed OpenRouter model IDs: {bad}")
