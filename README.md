@@ -134,7 +134,9 @@ Published plans are saved to `data/plans/<catalog-year>/<program-id>.json`. Each
 
 The October 13, 2026 run checked all 395 discovered undergraduate bachelor program variants in the **2026–2027** catalog. None published sample-plan grids, so this edition contains **zero schedules**. Missing plans are recorded explicitly; the scraper does not invent schedules from degree requirements or silently import older plans. Run it again if Northeastern publishes plans later.
 
-The active dataset uses **2025–2026 historical sample plans**, as explicitly selected. Course details label their catalog year, degree, and campus; AI prompts identify them as historical context rather than current requirements. The current course-description dataset remains 2026–2027. Programs without published plans and courses without a definite placement have distinct messages. Numbered transfer-track semesters remain ordinal labels without guessed calendar years.
+The active dataset uses **2025–2026 historical sample plans**, as explicitly selected. Course details label their catalog year, degree, and campus; AI prompts identify them as historical context rather than current requirements. The current course-description dataset remains 2026–2027. Programs without published plans and courses without a definite placement have distinct messages.
+
+With a major selected, course details and AI breakdowns use only that major's placements, and **My major** browsing lists courses that appear in its collected sample plans. That list is not a full requirements list: plan slots such as "Elective" or "One of …" are not definite courses, and a few plan codes are missing from the course catalog. Concentration choices use current requirements independently of these historical plans. Numbered transfer-track semesters remain ordinal labels without guessed calendar years.
 
 To populate or refresh the archived edition:
 
@@ -176,13 +178,32 @@ Links to collected requirement documents resolve to document IDs, including cata
 
 The October 13, 2026 dataset inspected all 746 current undergraduate sitemap pages and collected **395 bachelor program variants, 22 concentration pages, and 2 shared requirement documents** from the 2026–2027 edition, with zero fetch or parsing errors. Six referenced course codes were absent from the existing local course dataset. One Family Business concentration link did not resolve to a collected requirements document (the public URL redirects to the concentration index); these discrepancies are recorded for review.
 
-`requirements_scrape_report.json` records coverage and failures from the latest run. A fetch or parsing failure returns a nonzero exit code and leaves the active manifest and its snapshot unchanged. New files are written into a separate generation, then the manifest is published last. Requirements are not yet loaded into SQLite or supplied to the app's API or AI prompt.
+`requirements_scrape_report.json` records coverage and failures from the latest run. A fetch or parsing failure returns a nonzero exit code and leaves the active manifest and its snapshot unchanged. New files are written into a separate generation, then the requirements manifest is published. A derived concentration export is published afterward; the loader always derives its concentration rows from the selected requirements snapshot, so a stale export cannot change app behavior. General major requirements remain an extraction dataset; selected concentration requirements are now supplied to the API and AI prompt.
 
 Run the offline scraper tests with:
 
 ```sh
 python -m unittest -v test_requirements_scraper
 ```
+
+### Concentrations
+
+Choose a major, then its concentration choices. The picker follows that program's campus-specific catalog list and retains the published selection policy, including required or optional choices, second-concentration restrictions, and electives/no-concentration alternatives. Some named degrees already include a fixed concentration. Requirements can be expanded in place and link back to the catalog.
+
+**My concentrations** browses explicit course rows in selected requirement blocks, including alternatives and elective options. It does not mark every listed course as mandatory or expand subject/level elective ranges. Course details distinguish an explicit course mention from possible range-based electives or approved substitutions. AI breakdowns receive the selected blocks and policy text, with their catalog year, independently of historical sample-plan timing. This is not a validated degree audit.
+
+The current 2026–2027 snapshot resolves **739 program-specific concentration/curriculum options across 99 program variants**. These include repeated concentrations offered by multiple majors and electives alternatives, not 739 unique concentrations. The stale Family Business reference remains reported separately. Inline requirements use anchor IDs when available; older snapshots fall back only to a unique matching heading.
+
+The requirements scraper exports `data/concentration_catalog.json` automatically. To rebuild that export from already collected requirements without fetching the website:
+
+```bash
+python json_scrapers/concentration_scraper.py
+python db_loader.py
+```
+
+The export stores shared requirement blocks once and keeps eligibility per program. The loader reads only the active requirements manifest, loads concentration tables, and maps archived plan URLs to their current catalog paths so existing major selections and placements retain their identity. Selections persist locally, reset when the major changes, and are revalidated against the loaded catalog year. Changing concentrations during AI generation affects only later breakdowns.
+
+API: `GET /api/programs/<id>/concentrations`, `GET /api/programs/<id>/courses?concentrations=<id>,<id>&q=&offset=`, and optional `concentrations: [<id>, ...]` alongside `major` in `POST /api/analyze`. Cross-major, duplicate, malformed, and disallowed selections are rejected before AI requests.
 
 </details>
 
@@ -210,8 +231,10 @@ Free OpenRouter models are usually limited to 20 requests per minute and 50 per 
 | Endpoint | Purpose |
 | --- | --- |
 | `GET /api/search?q=` | Search by department, course code, or title |
-| `GET /api/course/<dept>/<number>` | Course details, prerequisites, and sample-plan placement |
-| `POST /api/analyze` | `{"dept": "cs", "number": "3000"}` uses the free default. Add `"ai": {"mode": "custom", "provider": "openai", "api_key": "...", "model": "..."}` to use your own key. The provider is `openai`, `anthropic`, `gemini`, or `openrouter`. |
+| `GET /api/course/<dept>/<number>` | Course details, prerequisites, and sample-plan placement for every major (the UI filters to the selected major) |
+| `GET /api/programs` | Every catalog program: `[{"id", "label", "major_name", "degree", "campus", "college", "status"}]`, A-Z by label. `id` matches `plan_entries.major`; `label` is unique (repeated titles add the college); `status` is `available` or `no_published_plan`. Empty if the database predates the `programs` table. |
+| `GET /api/programs/<id>/courses?q=&offset=` | Courses that appear in that exact program's collected sample plans, 20 per page: `{"program", "plan_dataset", "results", "total"}`. `q` is optional and uses the same rules as `/api/search`; the program filter runs before the limit, and each course appears once. Unknown id: 404 `unknown_major`; bad offset: 400. |
+| `POST /api/analyze` | `{"dept": "cs", "number": "3000"}` uses the free default. Add `"ai": {"mode": "custom", "provider": "openai", "api_key": "...", "model": "..."}` to use your own key. The provider is `openai`, `anthropic`, `gemini`, or `openrouter`. Add `"major": "<program id>"` to tailor the breakdown to that major; the prompt then carries the canonical label and only that major's placements. An unknown or non-string major returns 400 `unknown_major`; omit the field for no major. |
 | `POST /api/ai/models` | `{"provider", "api_key"}` returns `{"top": [...10 newest], "models": [...all, A-Z]}`. OpenRouter needs only `{"provider": "openrouter"}`. |
 | `GET /api/health` | Status and whether the free default mode is configured |
 

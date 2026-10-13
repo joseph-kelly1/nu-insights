@@ -4,7 +4,7 @@ The tokens and components live in `frontend/src/index.css`. This file explains t
 
 ## Direction
 
-A warm, quiet course tool. The landing page is one large headline, a search field, and a single red orbital arc. The workspace has no decoration at all: cream surfaces, ink text, thin lines, and red used only as a small signal.
+A warm, quiet course tool. The landing page is one large headline, a "Start searching" button, and a single red orbital arc. The workspace has no decoration at all: cream surfaces, ink text, thin lines, and red used only as a small signal.
 
 Avoid: logo-left nav bars, hero text paired with an image on the right, eyebrow labels, numbered step sections, feature-card grids, glass effects, glows, gradients, and "AI-powered" badges.
 
@@ -44,13 +44,14 @@ Sofia Sans from Google Fonts, falling back to Arial. Use one family and build hi
 
 - **Buttons:** `.btn` with `.btn-ink` (primary), `.btn-outline`, or `.btn-quiet`; `.btn-sm` is a compact size. All are at least 44px tall.
 - **Inputs:** `.input`, a pill shape with a 1.5px border. Labels use `.field-label` and help text uses `.hint`.
+- **Placement list:** `.plan-list` shows the first five rows; a `.disclosure` button with a `.chevron` toggles "Show all (N)" / "Show less".
 - **Prerequisite tree:** nested `.req-group` boxes labelled "All of" (solid ink rule) or "One of" (dashed red rule). The label carries the meaning; the rule style only reinforces it. Course codes appear as `.req-course` chips, and admission notes as italic `.req-note`.
 - **Wordmark:** an ink ring with a red dot on its edge, followed by **NU** Insights. The favicon uses the same mark.
 
 ## Layout
 
-- **Landing:** the name "NU Insights" as the headline, the tagline, search (the query carries into the workspace), "Try …" examples, one line about what the app does, and an ink footer with the non-affiliation and advisor caveat.
-- **Workspace, 768px and up:** a header (wordmark that returns home, Model settings) above two windows. The left window shows search results, and selecting a course turns it into that course's detail view with "← Back to results". The query, scroll position, and selected row are kept, and focus returns to the selected row. The right window holds the breakdowns.
+- **Landing:** the name "NU Insights" as the headline, the tagline, a large ink "Start searching →" button (the arrow nudges right on hover and focus; it opens the workspace with the search field focused) with a muted "No account needed" line beside it, then "What you can do here": four term/description rows separated by thin lines (not cards, not numbered), and an ink footer with the non-affiliation and advisor caveat.
+- **Workspace, 768px and up:** a header (wordmark that returns home, Model settings) above two windows. The left window starts with the optional major picker (a native datalist; Clear removes it), followed by campus-specific concentration selects and inline requirement disclosures. Program controls scroll within a bounded region so expanded requirements cannot hide course browsing. Results offer All courses / My major / My concentrations when applicable; concentration candidates are labeled with their current catalog year and remain separate from historical sample-plan courses. Selecting a course turns it into that course's detail view with "← Back to results". The query, scroll position, and selected row are kept, and focus returns to the selected row. The right window holds the breakdowns.
 - **Workspace, under 768px:** a single column that scrolls as a page, with a sticky header; the breakdowns follow the left window.
 
 ## Accessibility

@@ -196,6 +196,7 @@ def parse_sections(container, url):
     sections = []
     heading_path = []
     current = None
+    pending_anchors = []
 
     def add(entry):
         nonlocal current
@@ -205,7 +206,7 @@ def parse_sections(container, url):
         current['entries'].append(entry)
 
     def walk(parent):
-        nonlocal current, heading_path
+        nonlocal current, heading_path, pending_anchors
         for element in parent.children:
             if isinstance(element, Comment):
                 continue
@@ -217,12 +218,17 @@ def parse_sections(container, url):
             if element.name in ('script', 'style'):
                 continue
             text = clean(element.get_text(' ', strip=True))
+            if element.name == 'a' and not text and (element.get('id') or element.get('name')):
+                pending_anchors.extend(value for value in (element.get('id'), element.get('name')) if value)
+                continue
             if element.name in ('h2', 'h3', 'h4', 'h5', 'h6'):
                 level = int(element.name[1:])
                 heading_path = [(n, label) for n, label in heading_path if n < level]
                 heading_path.append((level, text))
                 current = {'title': text, 'heading_path': [label for _, label in heading_path],
-                           'level': level, 'entries': []}
+                           'level': level, 'entries': [],
+                           'anchor_ids': list(dict.fromkeys(pending_anchors + ([element['id']] if element.get('id') else [])))}
+                pending_anchors = []
                 sections.append(current)
             elif element.name == 'table':
                 if 'sc_courselist' in element.get('class', []):
@@ -434,6 +440,12 @@ def publish(records, report, output_dir):
     report['complete'] = True
     write_json(output_dir / 'requirements_scrape_report.json', report)
     write_json(output_dir / 'requirements_catalog.json', report)
+    # Reuse collected documents, including inline concentrations; no second crawl.
+    if __package__:
+        from .concentration_scraper import build_catalog, export_catalog
+    else:
+        from concentration_scraper import build_catalog, export_catalog
+    write_json(output_dir / 'concentration_catalog.json', export_catalog(build_catalog(records, report['catalog_year'], generation)))
 
 
 def main(argv=None):

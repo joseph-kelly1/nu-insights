@@ -579,5 +579,167 @@ class PlanProvenanceDatabaseTest(unittest.TestCase):
                 })
 
 
+PROGRAMS = [
+    {"id": "BSCS", "label": "Computer Science, BSCS (Boston)", "major_name": "Computer Science", "degree": "BSCS",
+     "campus": "Boston", "college": "Khoury", "status": "available"},
+    {"id": "BSDS", "label": "Data Science, BS (Boston)", "major_name": "Data Science", "degree": "BS",
+     "campus": "Boston", "college": "Khoury", "status": "available"},
+    {"id": "NOPLAN", "label": "Film and Creative Media, BA (Boston)", "major_name": "Film and Creative Media",
+     "degree": "BA", "campus": "Boston", "college": "CAMD", "status": "no_published_plan"},
+]
+
+
+class MajorAnalyzeTest(ApiTest):
+    def setUp(self):
+        super().setUp()
+        patcher = mock.patch.object(advisor, "list_programs", lambda: [dict(p) for p in PROGRAMS])
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
+    def prompt(self):
+        return self.sent[-1]["messages"][1]["content"]
+
+    def test_major_resolves_server_side_and_limits_placements_to_it(self):
+        res = self.analyze({"dept": "cs", "number": "3000", "major": "BSDS"})
+        self.assertEqual(res.status_code, 200)
+        prompt = self.prompt()
+        self.assertIn("Student's major: Data Science, BS (Boston)", prompt)
+        self.assertIn('"Five Years, Two Co-ops": Year 3, Fall', prompt)
+        self.assertNotIn("Four Years, One Co-op", prompt)  # the other major's placement
+        self.assertIn("tailor the skills", self.sent[-1]["messages"][0]["content"])
+
+    def test_every_matching_placement_reaches_the_prompt(self):
+        many = [{**PLANS[0], "plan_name": f"Plan {i}", "year": 1 + i % 4} for i in range(8)]
+        with mock.patch.object(advisor, "lookup_schedule_context", lambda d, n: many + PLANS[1:]):
+            self.analyze({"dept": "cs", "number": "3000", "major": "BSCS"})
+        prompt = self.prompt()
+        self.assertTrue(all(f'"Plan {i}"' in prompt for i in range(8)))  # no five-row cap here
+        self.assertNotIn("Data Science", prompt)
+
+    def test_missing_placement_and_missing_plan_are_stated_not_invented(self):
+        with mock.patch.object(advisor, "lookup_schedule_context", lambda d, n: PLANS[1:]):
+            self.analyze({"dept": "cs", "number": "3000", "major": "BSCS"})
+        self.assertIn("does not appear in the collected sample plans for Computer Science, BSCS (Boston)", self.prompt())
+        self.assertNotIn("Data Science (BSDS)", self.prompt())
+        self.analyze({"dept": "cs", "number": "3000", "major": "NOPLAN"})
+        self.assertIn("Film and Creative Media, BA (Boston) has no published sample plan", self.prompt())
+
+    def test_no_major_keeps_the_legacy_prompt(self):
+        self.analyze()
+        self.assertNotIn("Student's major", self.prompt())
+        self.assertIn("Data Science (BSDS)", self.prompt())
+        self.assertIn("Computer Science (BSCS)", self.prompt())
+
+    def test_unknown_or_malformed_major_is_rejected_before_any_provider_call(self):
+        for major in ["nope", "", None, 5, ["BSCS"], "x" * 500, "Computer Science, BSCS (Boston)"]:
+            with self.subTest(major=major):
+                res = self.analyze({"dept": "cs", "number": "3000", "major": major})
+                self.assertEqual((res.status_code, res.json["code"]), (400, "unknown_major"))
+        self.assertEqual(self.sent, [])
+
+    def test_custom_provider_gets_the_same_major_context(self):
+        calls = []
+
+        def generate(provider, key, model, system, prompt):
+            calls.append((system, prompt))
+            return {"analysis": MARKDOWN, "model": model, "provider": provider, "id": "x", "usage": None, "elapsed_ms": 1}
+
+        with mock.patch.object(advisor.ai_providers, "generate", generate):
+            res = self.analyze({**custom("openai"), "major": "BSDS"})
+        self.assertEqual(res.status_code, 200)
+        system, prompt = calls[0]
+        self.assertEqual(system, advisor.SYSTEM_INSTRUCTION)
+        self.assertIn("Student's major: Data Science, BS (Boston)", prompt)
+        self.assertNotIn("Four Years, One Co-op", prompt)
+
+
+class ProgramBrowseDatabaseTest(unittest.TestCase):
+    """Runs the real SQL against a temporary database."""
+
+    def setUp(self):
+        import contextlib
+        import sqlite3
+        import tempfile
+        from pathlib import Path
+        import db_loader
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        path = Path(directory.name) / "courses.db"
+        courses = [("cs", f"{1000 + i}", f"Filler {i}") for i in range(30)]  # sort before the plan courses
+        courses += [("cs", "3000", "Algorithms and Data"), ("math", "1341", "Calculus 1"), ("ds", "3000", "Foundations of Data Science")]
+        plans = [("BSCS", "CS 3000", 2, "Fall"), ("BSCS", "CS 3000", 2, "Spring"), ("BSCS", "MATH 1341", 1, "Fall"),
+                 ("BSCS-BOS-COMBINED", "DS 3000", 2, "Fall"), ("BSCS", "CS 9999", 4, "Fall")]  # last: not in catalog
+        with contextlib.closing(sqlite3.connect(path)) as conn:
+            db_loader.create_tables(conn.cursor())
+            conn.executemany("INSERT INTO courses (department_code, number, title, credits) VALUES (?, ?, ?, 4)", courses)
+            conn.executemany("INSERT INTO plan_entries (major, major_name, plan_name, year, term, course_code)"
+                             " VALUES (?, 'x', 'Plan', ?, ?, ?)", [(m, y, t, c) for m, c, y, t in plans])
+            db_loader.load_programs(conn.cursor(), [
+                {"major": "BSCS", "major_name": "Computer Science", "program_title": "Computer Science, BSCS (Boston)"},
+                {"major": "BSCS-BOS-COMBINED", "major_name": "Computer Science and Data Science",
+                 "program_title": "Computer Science and Data Science, BS (Boston"},
+                {"major": "NOPLAN", "major_name": "Film", "program_title": "Film, BA (Boston)", "status": "no_published_plan"},
+            ])
+            conn.commit()
+        patcher = mock.patch.object(advisor, "DB_FILE", str(path))
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.http = advisor.app.test_client()
+
+    def codes(self, found):
+        return [f"{c['department_code']} {c['number']}" for c in found["results"]]
+
+    def test_exact_program_filter_runs_before_the_limit_without_duplicates(self):
+        found = advisor.search_courses("", "BSCS")
+        self.assertEqual(self.codes(found), ["cs 3000", "math 1341"])  # the 30 cs fillers never crowd them out
+        self.assertEqual(found["total"], 2)
+        self.assertEqual(self.codes(advisor.search_courses("cs", "BSCS")), ["cs 3000"])  # query narrows within the major
+        self.assertEqual(self.codes(advisor.search_courses("", "BSCS-BOS-COMBINED")), ["ds 3000"])
+        self.assertEqual(advisor.search_courses("", "BSC")["total"], 0)  # no prefix or loose matching
+
+    def test_no_major_search_is_unchanged_and_pages_reach_the_rest(self):
+        self.assertEqual(len(self.http.get("/api/search?q=cs").json), 20)
+        self.assertEqual(self.http.get("/api/search").json, [])
+        first = advisor.search_courses("cs")
+        rest = advisor.search_courses("cs", offset=20)
+        self.assertEqual(first["total"], 31)
+        self.assertEqual(len(set(self.codes(first)) | set(self.codes(rest))), 31)
+
+    def test_program_routes_label_scope_and_reject_unknowns(self):
+        programs = self.http.get("/api/programs").json
+        self.assertEqual([p["label"] for p in programs], [
+            "Computer Science and Data Science, BS (Boston)", "Computer Science, BSCS (Boston)", "Film, BA (Boston)"])
+        res = self.http.get("/api/programs/BSCS/courses?q=")
+        self.assertEqual((res.json["total"], res.json["program"]["label"]), (2, "Computer Science, BSCS (Boston)"))
+        self.assertIn("plan_dataset", res.json)
+        self.assertEqual(self.http.get("/api/programs/NOPLAN/courses").json["total"], 0)
+        self.assertEqual(self.http.get("/api/programs/nope/courses").status_code, 404)
+        self.assertEqual(self.http.get("/api/programs/BSCS/courses?offset=-1").status_code, 400)
+
+    def test_old_database_without_programs_table_lists_none(self):
+        import contextlib
+        import sqlite3
+        with contextlib.closing(sqlite3.connect(advisor.DB_FILE)) as conn:
+            conn.execute("DROP TABLE programs")
+        self.assertEqual(self.http.get("/api/programs").json, [])
+        self.assertEqual(self.http.post("/api/analyze", json={"dept": "cs", "number": "3000", "major": "BSCS"}).json["code"],
+                         "unknown_major")
+
+
+class ProgramLabelTest(unittest.TestCase):
+    def test_repeated_titles_get_their_college_and_lost_parens_return(self):
+        import db_loader
+        labels = db_loader.program_labels([
+            {"major": "a", "major_name": "IS", "program_title": "Interdisciplinary Studies, BS (Oakland)", "college": "Science"},
+            {"major": "b", "major_name": "IS", "program_title": "Interdisciplinary Studies, BS (Oakland)", "college": "Khoury"},
+            {"major": "c", "major_name": "MSS", "program_title": "Media and Screen Studies and English, BA (Boston"},
+        ])
+        self.assertEqual(labels, {
+            "a": "Interdisciplinary Studies, BS (Oakland) — Science",
+            "b": "Interdisciplinary Studies, BS (Oakland) — Khoury",
+            "c": "Media and Screen Studies and English, BA (Boston)",
+        })
+
+
 if __name__ == "__main__":
     unittest.main()

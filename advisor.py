@@ -12,7 +12,11 @@ Setup: see README.md (pip install -r requirements.txt, OPENROUTER_API_KEY in .en
 Endpoints:
   GET  /api/search?q=<query>        Search courses by dept code, number, or title
   GET  /api/course/<dept>/<number>   Get full course details (prereqs, coreqs, attributes, schedule context)
-  POST /api/analyze                  AI-generated course breakdown (summary, audience, skills, career relevance)
+  GET  /api/programs                 List majors/programs (stable id, display label, sample-plan status)
+  GET  /api/programs/<id>/concentrations Current concentration choices and source requirements
+  GET  /api/programs/<id>/courses?q=&offset=  Courses in that program's sample plans, optionally narrowed by q
+  POST /api/analyze                  AI-generated course breakdown (summary, audience, skills, career relevance);
+                                     optional "major" and "concentrations" tailor catalog context to selected choices
   POST /api/ai/models                List models for a provider (newest 10 + all); OpenRouter needs no key
   GET  /api/health                   Health check; returns configured primary model and whether AI is configured
 """
@@ -125,44 +129,102 @@ def lookup_course(dept: str, number: str) -> dict | None:
     return course
 
 
-def search_courses(query: str) -> list[dict]:
-    """Search courses by department code, department + number prefix, or title substring.
-    Returns up to 20 matching courses with basic info (dept, number, title, credits)."""
-    conn = get_connection()
-    cur = conn.cursor()
+SEARCH_LIMIT = 20
 
-    # Check if query looks like a course code, e.g. "cs 2100", "CS2100", "cs"
+
+def _search_clause(query: str) -> tuple[str, tuple]:
+    """Interpret a query as dept + number prefix ("cs 2100"), a dept code ("cs"), or a title substring."""
     parts = query.strip().split()
+    if not parts:
+        return "1", ()
     if len(parts) == 2 and parts[0].isalpha() and parts[1].isdigit():
-        # Dept + number: exact or prefix match on number
-        cur.execute(
-            """SELECT department_code, number, title, credits
-               FROM courses
-               WHERE department_code = ? AND number LIKE ?
-               ORDER BY number LIMIT 20""",
-            (parts[0].lower(), f"{parts[1]}%"),
-        )
-    elif len(parts) == 1 and parts[0].isalpha() and len(parts[0]) <= 4:
-        # Just a department code like "cs"
-        cur.execute(
-            """SELECT department_code, number, title, credits
-               FROM courses
-               WHERE department_code = ?
-               ORDER BY number LIMIT 20""",
-            (parts[0].lower(),),
-        )
-    else:
-        # General title search
-        cur.execute(
-            """SELECT department_code, number, title, credits
-               FROM courses WHERE title LIKE ?
-               ORDER BY department_code, number LIMIT 20""",
-            (f"%{query}%",),
-        )
+        return "department_code = ? AND number LIKE ?", (parts[0].lower(), f"{parts[1]}%")
+    if len(parts) == 1 and parts[0].isalpha() and len(parts[0]) <= 4:
+        return "department_code = ?", (parts[0].lower(),)
+    return "title LIKE ?", (f"%{query.strip()}%",)
 
-    results = [dict(r) for r in cur.fetchall()]
-    conn.close()
-    return results
+
+def search_courses(query: str, major: str | None = None, offset: int = 0, concentrations: list[str] | None = None) -> dict:
+    """Search courses, optionally only those in one program's sample plans. The program filter
+    runs in SQL before LIMIT, so a page never mixes in or drops courses. Returns up to 20 rows
+    with basic info (dept, number, title, credits) and the total number of matches."""
+    where, params = _search_clause(query)
+    if concentrations is not None:
+        placeholders = ','.join('?' for _ in concentrations)
+        where += (" AND upper(department_code) || ' ' || number IN"
+                  f" (SELECT course_code FROM concentration_courses WHERE concentration_id IN ({placeholders}))")
+        params += tuple(concentrations)
+    elif major:
+        # Exact program id; IN also collapses a course that appears in several terms or plans.
+        where += (" AND upper(department_code) || ' ' || number IN"
+                  " (SELECT course_code FROM plan_entries WHERE major = ?)")
+        params += (major,)
+    conn = get_connection()
+    try:
+        total = conn.execute(f"SELECT COUNT(*) FROM courses WHERE {where}", params).fetchone()[0]
+        rows = conn.execute(
+            f"""SELECT department_code, number, title, credits FROM courses WHERE {where}
+                ORDER BY department_code, number LIMIT ? OFFSET ?""",
+            (*params, SEARCH_LIMIT, offset),
+        ).fetchall()
+    finally:
+        conn.close()
+    return {"results": [dict(r) for r in rows], "total": total}
+
+
+def list_programs() -> list[dict]:
+    """All catalog programs, A-Z by label. Empty if the database predates the programs table."""
+    conn = get_connection()
+    try:
+        return [dict(r) for r in conn.execute(
+            "SELECT id, label, major_name, degree, campus, college, status FROM programs ORDER BY label")]
+    except sqlite3.OperationalError:
+        return []
+    finally:
+        conn.close()
+
+
+def lookup_program(program_id: str) -> dict | None:
+    """Resolve a program id to its canonical row, or None if unknown."""
+    return next((p for p in list_programs() if p["id"] == program_id), None)
+
+
+def lookup_concentration_catalog(program_id: str) -> dict:
+    conn = get_connection()
+    try:
+        row = conn.execute('SELECT catalog_year, source_url, groups_json FROM concentration_programs WHERE program_id = ?',
+                           (program_id,)).fetchone()
+        if row:
+            return {'available': True, 'catalog_year': row['catalog_year'], 'source_url': row['source_url'],
+                    'groups': json.loads(row['groups_json']), 'semantics_validated': False}
+    except sqlite3.OperationalError:
+        pass  # an older database can still browse courses and plans
+    finally:
+        conn.close()
+    return {'available': False, 'catalog_year': None, 'groups': []}
+
+
+def resolve_concentrations(program: dict | None, selected) -> list[dict]:
+    """Validate ownership and explicit selection restrictions before using context."""
+    if not program or not isinstance(selected, list) or len(selected) > 20 or any(not isinstance(s, str) for s in selected):
+        raise ValueError('Choose concentrations for your selected major.')
+    if len(set(selected)) != len(selected):
+        raise ValueError('Choose each concentration only once.')
+    catalog = lookup_concentration_catalog(program['id'])
+    groups = catalog['groups']
+    allowed = {option['id']: option for group in groups for option in group['options']}
+    if any(option_id not in allowed for option_id in selected):
+        raise ValueError('A concentration is not available for this major and catalog year. Choose it again.')
+    for group in groups:
+        choices = [o for o in group['options'] if o['id'] in selected]
+        maximum = group['policy']['max_selections']
+        if maximum and len(choices) > maximum:
+            raise ValueError(f"Choose at most {maximum} options for {group['title']}.")
+        if any(o['secondary_only'] for o in choices) and not any(not o['secondary_only'] for o in choices):
+            raise ValueError('This concentration is available only as a second concentration.')
+        if any(o['kind'] == 'alternative' for o in choices) and len(choices) > 1:
+            raise ValueError('Choose either a concentration or its electives/no-concentration alternative.')
+    return [allowed[option_id] for option_id in selected]
 
 
 def lookup_schedule_context(dept: str, number: str) -> list[dict]:
@@ -238,14 +300,35 @@ def format_schedule_context(entries: list[dict]) -> str:
     return "\n".join(list(dict.fromkeys(lines)))
 
 
-def build_prompt(course: dict) -> str:
+def build_prompt(course: dict, program: dict | None = None, concentrations: list[dict] | None = None) -> str:
     """Assemble the user prompt sent to the AI model, including course metadata,
-    prerequisite info, NUpath attributes, and sample plan schedule context."""
+    prerequisite info, NUpath attributes, and sample plan schedule context.
+    With a program, only that program's placements are included, all of them."""
     code = f"{course['department_code'].upper()} {course['number']}"
     schedule = lookup_schedule_context(course["department_code"], course["number"])
     dataset = lookup_plan_dataset()
+    if program:
+        schedule = [e for e in schedule if e["major"] == program["id"]]
 
     prompt = f"Course: {code} — {course['title']}\n\n"
+    if program:
+        prompt += f"Student's major: {program['label']}\n\n"
+    if concentrations:
+        catalog = lookup_concentration_catalog(program['id'])
+        prompt += f"=== CONCENTRATION REQUIREMENTS ({catalog['catalog_year']}) ===\n"
+        prompt += ('These are source requirement options, not a validated degree audit. '
+                   'Course rows may be alternatives or electives, not universally required. '
+                   'Preserve counts, exclusions, overlap rules, and approvals. '
+                   'Concentration data does not establish semester placement.\n')
+        for group in catalog['groups']:
+            if any(o['id'] in {c['id'] for c in concentrations} for o in group['options']):
+                prompt += f"Selection policy: {group['policy']['text']}\n"
+        for concentration in concentrations:
+            listed = code in concentration['courses']
+            prompt += (f"\nSelected option: {concentration['name']}\nSource: {concentration['source_url']}\n"
+                       f"Course appears in an explicit course row: {listed}. Absence does not establish ineligibility.\n"
+                       f"{concentration['source_text']}\n")
+        prompt += '=== END CONCENTRATION REQUIREMENTS ===\n\n'
     prompt += "=== NORTHEASTERN-SPECIFIC CONTEXT ===\n"
     prompt += f"Credits: {course['credits']}\n"
     prompt += f"Prerequisites: {format_prereqs(course['prerequisites'])}\n"
@@ -257,7 +340,14 @@ def build_prompt(course: dict) -> str:
     if dataset["historical"]:
         prompt += (f"These are historical plans; the current catalog is {dataset['current_catalog_year']}. "
                    "Describe placement as historical, not current degree requirements or eligibility.\n")
-    prompt += format_schedule_context(schedule) + "\n"
+    if program and program["status"] != "available":
+        prompt += f"{program['label']} has no published sample plan in this dataset, so no placement is known for this major.\n"
+    elif program and not schedule:
+        prompt += f"This course does not appear in the collected sample plans for {program['label']}.\n"
+    else:
+        if program:
+            prompt += f"Only placements in {program['label']} sample plans are listed.\n"
+        prompt += format_schedule_context(schedule) + "\n"
     prompt += "=====================================\n\n"
     prompt += f"Catalog description: {course['description']}"
     return prompt
@@ -278,6 +368,15 @@ SYSTEM_INSTRUCTION = (
     "in a given term. If sample plans are historical, identify their catalog year and "
     "do not present them as current degree requirements. If no sample plan data is provided, say so instead of inventing "
     "a year or semester.\n\n"
+    "If a student's major is given, tailor the skills, connections to other courses, and "
+    "co-op/career insights to that major where it is genuinely useful. The sample plan data "
+    "then covers only that major. Do not claim the course is required for, counts toward, or "
+    "is restricted to the major unless the provided data says so; appearing in a sample plan "
+    "is historical evidence of typical timing, not a current requirement. If no placement is "
+    "provided for the major, say the collected plans for that major do not include it.\n\n"
+    "If selected concentration requirements are supplied, use their catalog year and source wording. "
+    "Distinguish required courses from elective options, alternative curricula, and approved substitutions. "
+    "Do not treat all listed courses as required, certify graduation eligibility, or infer a schedule from requirements.\n\n"
     "Provide a concise breakdown (roughly 250-400 words) with:\n"
     "1. A plain-English summary of what the course actually covers (2-3 sentences)\n"
     "2. Who should take it — use the sample plan data to state the typical year/semester\n"
@@ -375,8 +474,43 @@ def api_search():
     query = request.args.get("q", "").strip()
     if not query:
         return jsonify([])
-    results = search_courses(query)
-    return jsonify(results)
+    return jsonify(search_courses(query)["results"])
+
+
+@app.route("/api/programs")
+def api_programs():
+    return jsonify(list_programs())
+
+
+@app.route("/api/programs/<program_id>/courses")
+def api_program_courses(program_id):
+    program = lookup_program(program_id)
+    if not program:
+        return jsonify({"error": "Unknown major.", "code": "unknown_major"}), 404
+    offset = request.args.get("offset", "0")
+    if not offset.isdigit():
+        return jsonify({"error": "offset must be a non-negative integer.", "code": "invalid_request"}), 400
+    selected = None
+    if 'concentrations' in request.args:
+        try:
+            options = resolve_concentrations(program, request.args['concentrations'].split(',') if request.args['concentrations'] else [])
+            selected = [o['id'] for o in options]
+        except ValueError as error:
+            return jsonify({'error': str(error), 'code': 'invalid_concentration'}), 400
+    found = search_courses(request.args.get("q", ""), program_id, int(offset), concentrations=selected)
+    if selected is not None:
+        catalog = lookup_concentration_catalog(program_id)
+        return jsonify({'program': program, 'concentration_dataset': {'catalog_year': catalog['catalog_year'],
+                        'semantics_validated': False}, **found})
+    return jsonify({"program": program, "plan_dataset": lookup_plan_dataset(), **found})
+
+
+@app.route('/api/programs/<program_id>/concentrations')
+def api_concentrations(program_id):
+    program = lookup_program(program_id)
+    if not program:
+        return jsonify({'error': 'Unknown major.', 'code': 'unknown_major'}), 404
+    return jsonify({'program': program, **lookup_concentration_catalog(program_id)})
 
 
 @app.route("/api/course/<dept>/<number>")
@@ -407,13 +541,27 @@ def api_analyze():
     except AIError as e:
         return jsonify(e.body), e.status
 
+    program = None
+    if "major" in data:  # absent means no major; anything else must name a known program
+        major = data["major"]
+        program = lookup_program(major) if isinstance(major, str) and len(major) <= 200 else None
+        if not program:
+            return jsonify({"error": "Unknown major. Choose it again from the major list.", "code": "unknown_major"}), 400
+
+    concentrations = None
+    if 'concentrations' in data:
+        try:
+            concentrations = resolve_concentrations(program, data['concentrations'])
+        except ValueError as error:
+            return jsonify({'error': str(error), 'code': 'invalid_concentration'}), 400
+
     course = lookup_course(dept, number)
     if not course:
         return jsonify({"error": "Course not found", "code": "course_not_found"}), 404
 
     source = config[0] if config else "default"
     try:
-        prompt = build_prompt(course)
+        prompt = build_prompt(course, program, concentrations) if concentrations else build_prompt(course, program)
         result = ai_providers.generate(*config, SYSTEM_INSTRUCTION, prompt) if config else generate_analysis(prompt)
     except AIError as e:
         app.logger.warning("analysis failed course=%s %s source=%s code=%s", dept, number, source, e.body["code"])

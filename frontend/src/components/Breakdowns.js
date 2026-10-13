@@ -18,7 +18,11 @@ function Breakdown({ item }) {
   return (
     <article className="breakdown" aria-labelledby={`breakdown-${item.id}`}>
       <header className="breakdown-head">
-        <h3 id={`breakdown-${item.id}`}>{item.code}</h3>
+        <div>
+          <h3 id={`breakdown-${item.id}`}>{item.code}</h3>
+          {item.major && <p className="breakdown-major">{`For ${item.major}`}</p>}
+          {item.concentrations?.length > 0 && <p className="hint">{item.concentrations.join(', ')}</p>}
+        </div>
         {item.status === 'ready' && (
           <button type="button" className="btn btn-quiet btn-sm" onClick={copy} aria-label={`Copy ${item.code} breakdown`}>
             {copied || 'Copy'}

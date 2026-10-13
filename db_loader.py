@@ -25,10 +25,16 @@ Tables created:
   course_corequisites  — flat list of corequisite course codes per course
   course_attributes    — NUpath attribute tags per course
   plan_entries         — rows from sample plans of study (major, year, term, course)
+  programs             — one row per catalog program (stable id, display label, plan status)
+  concentration_programs — current program-specific choice groups and selection policies
+  concentrations       — selected source requirement blocks, including alternatives
+  concentration_courses — explicit candidate course rows (not a mandatory-course list)
 """
 
+from collections import Counter
 import json
 import os
+import re
 from pathlib import Path
 import sqlite3
 
@@ -48,6 +54,10 @@ def create_tables(cur: sqlite3.Cursor):
         DROP TABLE IF EXISTS course_attributes;
         DROP TABLE IF EXISTS plan_entries;
         DROP TABLE IF EXISTS plan_catalog;
+        DROP TABLE IF EXISTS programs;
+        DROP TABLE IF EXISTS concentration_programs;
+        DROP TABLE IF EXISTS concentration_courses;
+        DROP TABLE IF EXISTS concentrations;
 
         CREATE TABLE departments (
             code        TEXT PRIMARY KEY,
@@ -102,11 +112,41 @@ def create_tables(cur: sqlite3.Cursor):
             plan_count           INTEGER NOT NULL
         );
 
+        -- id is plan_entries.major; label is unique so the major picker can show it alone
+        CREATE TABLE programs (
+            id          TEXT PRIMARY KEY,
+            label       TEXT NOT NULL UNIQUE,
+            major_name  TEXT NOT NULL,
+            degree      TEXT,
+            campus      TEXT,
+            college     TEXT,
+            status      TEXT NOT NULL  -- 'available' or 'no_published_plan'
+        );
+
         CREATE INDEX idx_courses_dept ON courses(department_code);
         CREATE INDEX idx_courses_credits ON courses(credits);
         CREATE INDEX idx_attributes_attr ON course_attributes(attribute);
         CREATE INDEX idx_plan_course ON plan_entries(course_code);
         CREATE INDEX idx_plan_major ON plan_entries(major);
+
+        CREATE TABLE concentration_programs (
+            program_id TEXT PRIMARY KEY,
+            catalog_year TEXT NOT NULL,
+            source_url TEXT NOT NULL,
+            groups_json TEXT NOT NULL
+        );
+        CREATE TABLE concentrations (
+            id TEXT PRIMARY KEY,
+            program_id TEXT NOT NULL,
+            group_id TEXT NOT NULL,
+            catalog_year TEXT NOT NULL,
+            data_json TEXT NOT NULL
+        );
+        CREATE TABLE concentration_courses (
+            concentration_id TEXT NOT NULL,
+            course_code TEXT NOT NULL,
+            PRIMARY KEY (concentration_id, course_code)
+        );
     """)
 
 
@@ -197,6 +237,34 @@ def load_courses(cur: sqlite3.Cursor):
     print(f"  Total: {total} courses loaded")
 
 
+def program_labels(programs: list[dict]) -> dict:
+    """Catalog titles, plus the college when a title repeats (e.g. four
+    "Interdisciplinary Studies, BS (Oakland)" programs from different colleges)."""
+    def title(p):
+        t = p.get("program_title") or p.get("major_name") or p["major"]
+        return t + ")" if t.count("(") > t.count(")") else t  # a few scraped titles lose their ")"
+    counts = Counter(title(p) for p in programs)
+    labels = {p["major"]: f"{title(p)} — {p['college']}" if counts[title(p)] > 1 and p.get("college") else title(p)
+              for p in programs}
+    duplicates = Counter(labels.values())
+    # Occasionally the catalog publishes the same degree in two departments
+    # within one college. Preserve both identities rather than dropping one.
+    return {p['major']: f"{labels[p['major']]} ({p['major']})" if duplicates[labels[p['major']]] > 1 else labels[p['major']]
+            for p in programs}
+
+
+def load_programs(cur: sqlite3.Cursor, programs: list[dict]):
+    programs = [p for p in programs if p.get("major")]  # an entry without an id can't be selected
+    labels = program_labels(programs)
+    for p in programs:
+        cur.execute(
+            "INSERT INTO programs (id, label, major_name, degree, campus, college, status) VALUES (?, ?, ?, ?, ?, ?, ?)",
+            (p["major"], labels[p["major"]], p.get("major_name") or labels[p["major"]], p.get("degree"), p.get("campus"), p.get("college"),
+             p.get("status", "available")),
+        )
+    print(f"  Loaded {len(programs)} programs")
+
+
 def load_plans(cur: sqlite3.Cursor):
     """Load sample plans of study from data/plans/*.json into plan_entries.
     Each plan file contains semesters with course lists, co-op markers, and notes."""
@@ -211,8 +279,9 @@ def load_plans(cur: sqlite3.Cursor):
         if not catalog.get("complete") or catalog.get("errors"):
             raise ValueError("Plan catalog refresh is incomplete")
         catalog_year = catalog["catalog_year"]
+        programs = catalog["programs"]  # includes programs with no published plan
         files = [catalog_file.parent / program["file"]
-                 for program in catalog["programs"] if program["status"] == "available"]
+                 for program in programs if program["status"] == "available"]
         expected_dir = (Path(plans_dir) / catalog_year).resolve()
         if any(path.resolve().parent != expected_dir for path in files):
             raise ValueError("Plan file is outside the selected catalog directory")
@@ -226,8 +295,10 @@ def load_plans(cur: sqlite3.Cursor):
             print("  No plans/ directory found, skipping.")
             return
         files = sorted(Path(plans_dir).glob("*.json"))
+        programs = None
 
     total = 0
+    file_programs = []
 
     for filepath in files:
         with open(filepath, "r") as f:
@@ -237,6 +308,7 @@ def load_plans(cur: sqlite3.Cursor):
 
         major = data["major"]
         major_name = data["major_name"]
+        file_programs.append(data)
 
         for plan in data["plans"]:
             plan_name = plan["plan_name"]
@@ -279,7 +351,53 @@ def load_plans(cur: sqlite3.Cursor):
         )
         print(f"  {filepath.name}: {major_name} ({len(data['plans'])} plan(s))")
 
+    load_programs(cur, programs if programs is not None else file_programs)
     print(f"  Total: {total} plan entries loaded")
+
+
+def load_concentrations(cur: sqlite3.Cursor):
+    """Load current concentration choices, independent of historical plan coverage.
+
+    Always derive from the selected requirements snapshot so refreshing requirements
+    cannot leave a stale concentration file active. The JSON catalog is an export.
+    """
+    from json_scrapers.concentration_scraper import build_catalog, read_requirements
+    data_dir = Path(DEPARTMENTS_FILE).resolve().parent
+    if not (data_dir / 'requirements_catalog.json').exists():
+        return
+    manifest, records = read_requirements(data_dir)
+    catalog = build_catalog(records, manifest['catalog_year'], manifest['generation'])
+    # Archived plans hash their archived URL. Match the exact catalog path, not
+    # the degree title, so saved majors and historical placements keep their ID.
+    def current_source(url):
+        return re.sub(r'/archive/\d{4}-\d{4}/', '/', url.strip()).rstrip('/')
+    plan_file = data_dir / 'plan_catalog.json'
+    plan_sources = {}
+    if plan_file.exists():
+        plan_manifest = json.loads(plan_file.read_text())
+        plan_sources = {current_source(p['source_url']): p['major'] for p in plan_manifest['programs'] if p.get('source_url')}
+    existing = {r[0]: dict(zip(('major', 'program_title', 'major_name', 'degree', 'campus', 'college', 'status'), r))
+                for r in cur.execute('SELECT id, label, major_name, degree, campus, college, status FROM programs')}
+    for program in catalog['programs']:
+        program_id = plan_sources.get(current_source(program['source_url']), program['program_id'])
+        previous = existing.get(program_id, {})
+        existing[program_id] = {
+            'major': program_id, 'program_title': program['title'], 'major_name': program['major_name'],
+            'degree': program['degree'], 'campus': program['campus'], 'college': program['college'],
+            'status': previous.get('status', 'no_published_plan'),
+        }
+        cur.execute('INSERT INTO concentration_programs VALUES (?, ?, ?, ?)',
+                    (program_id, catalog['catalog_year'], program['source_url'], json.dumps(program['groups'])))
+        for group in program['groups']:
+            for option in group['options']:
+                cur.execute('INSERT INTO concentrations VALUES (?, ?, ?, ?, ?)',
+                            (option['id'], program_id, group['id'], catalog['catalog_year'], json.dumps(option)))
+                cur.executemany('INSERT INTO concentration_courses VALUES (?, ?)',
+                                [(option['id'], code) for code in option['courses']])
+    cur.execute('DELETE FROM programs')
+    load_programs(cur, list(existing.values()))
+    print(f"  Loaded {catalog['option_count']} concentration/program options in {catalog['program_count']} programs "
+          f"({catalog['catalog_year']}); {len(catalog['unresolved_options'])} unresolved options")
 
 
 def verify(cur: sqlite3.Cursor):
@@ -333,6 +451,7 @@ if __name__ == "__main__":
     load_departments(cur)
     load_courses(cur)
     load_plans(cur)
+    load_concentrations(cur)
     conn.commit()
 
     verify(cur)

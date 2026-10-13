@@ -1,6 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const EXAMPLES = ['cs 3000', 'marketing', 'PHIL'];
+const FEATURES = [
+  ['Search 6,000+ courses', 'Look up any course by department, code, or title word, with its description, credits, and NUpath attributes.'],
+  ['Read prerequisites clearly', 'Prerequisite rules appear as “All of” and “One of” groups, so required courses stand apart from alternatives.'],
+  ['See where a course fits', 'Choose your major to see where its 2025–26 sample plans place a course, and browse the courses those plans name.'],
+  ['Get a plain-English breakdown', 'Ask for a short take on what a course covers, who usually takes it, and how it connects to co-op, written from catalog data.'],
+];
 
 export function Wordmark() {
   return (
@@ -12,8 +17,6 @@ export function Wordmark() {
 }
 
 function Landing({ onEnter }) {
-  const [query, setQuery] = useState('');
-
   return (
     <div className="landing">
       <main className="hero">
@@ -22,32 +25,25 @@ function Landing({ onEnter }) {
         </svg>
         <h1>NU Insights</h1>
         <p className="hero-tagline">Find the courses that move you forward.</p>
-        <form className="hero-search" role="search" onSubmit={(e) => { e.preventDefault(); onEnter(query.trim()); }}>
-          <label htmlFor="hero-query" className="sr-only">Search courses</label>
-          <input
-            id="hero-query"
-            className="input"
-            autoComplete="off"
-            placeholder="Department, course code, or title"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-          <button type="submit" className="btn btn-ink">Search</button>
-        </form>
-        <p className="hero-try">
-          Try{' '}
-          {EXAMPLES.map((ex, i) => (
-            <React.Fragment key={ex}>
-              {i > 0 && ', '}
-              <button type="button" className="link-button" onClick={() => onEnter(ex)}>{ex}</button>
-            </React.Fragment>
-          ))}
-        </p>
-        <p className="hero-note">
-          Descriptions, prerequisites, and NUpath attributes for 6,000+ catalog courses, with a plain-English
-          breakdown of any course on request.
-        </p>
+        <div className="hero-start">
+          <button type="button" className="btn btn-ink" onClick={() => onEnter('')}>
+            Start searching <span className="arrow" aria-hidden="true">→</span>
+          </button>
+          <p>No account needed. Breakdowns use free models by default.</p>
+        </div>
       </main>
+
+      <section className="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">What you can do here</h2>
+        <dl>
+          {FEATURES.map(([term, text]) => (
+            <div key={term}>
+              <dt>{term}</dt>
+              <dd>{text}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
 
       <footer className="footer">
         <Wordmark />
