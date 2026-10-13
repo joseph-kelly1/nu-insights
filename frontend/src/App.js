@@ -19,6 +19,7 @@ function App() {
 
   const analyzeCourse = useCallback(async (dept, number) => {
     addMessage({ role: 'system', content: 'Thinking...' });
+    let reply = { role: 'system', content: 'Failed to get AI analysis. Is the backend running?' };
 
     try {
       const res = await fetch('/api/analyze', {
@@ -26,20 +27,14 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ dept, number }),
       });
-
-      if (!res.ok) throw new Error('Analysis failed');
       const data = await res.json();
-
-      setMessages((prev) => {
-        const filtered = prev.filter((m) => !(m.role === 'system' && m.content === 'Thinking...'));
-        return [...filtered, { role: 'assistant', content: data.analysis }];
-      });
+      if (res.ok) reply = { role: 'assistant', content: data.analysis };
+      else if (data.error) reply.content = data.error;
     } catch {
-      setMessages((prev) => {
-        const filtered = prev.filter((m) => !(m.role === 'system' && m.content === 'Thinking...'));
-        return [...filtered, { role: 'system', content: 'Failed to get AI analysis. Is the backend running?' }];
-      });
+      // network failure or non-JSON response: keep the generic message
     }
+
+    setMessages((prev) => [...prev.filter((m) => !(m.role === 'system' && m.content === 'Thinking...')), reply]);
   }, [addMessage]);
 
   const handleCourseClick = useCallback(async (course) => {
@@ -114,14 +109,14 @@ function App() {
         <main className="flex-grow flex items-center relative px-12 pt-12">
           <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Hero Content */}
-            <div className="lg:col-span-7 space-y-8">
+            <div className="lg:col-span-7 space-y-6">
               <h1 className="text-6xl md:text-7xl font-extrabold tracking-tighter text-[#F3F4F6] leading-[1.1]">
-                Your Academic Advantage: <span className="text-[#FF3B30]">AI-Powered</span> NEU Course Insight.
+                <span className="text-[#FF3B30]">AI-Powered</span> NEU Course Insight.
               </h1>
-              <p className="text-xl text-[#6B7280] max-w-xl leading-relaxed">
+              <p className="text-xl text-[#6B7280] max-w-lg leading-relaxed">
                 Cut through course descriptions. Get instant, student-focused breakdowns of every Northeastern course, prerequisites, and career connections.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   className="primary-cta px-10 py-4 rounded-lg text-lg font-bold text-white shadow-2xl hover:brightness-110 transition-all flex items-center justify-center gap-2"
                   onClick={() => setView('app')}
@@ -135,7 +130,7 @@ function App() {
             {/* Hero Graphic (Glass Card Dashboard) */}
             <div className="lg:col-span-5 relative hidden lg:block">
               <div className="aspect-square hero-glass-card rounded-3xl ghost-border p-10 flex flex-col justify-center items-center relative z-10">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#FF3B30]/10 to-transparent rounded-3xl"></div>
+                <div className="absolute inset-0 hero-gradient-anim rounded-3xl"></div>
                 <div className="w-full space-y-8 relative z-20">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-xl bg-[#FF3B30] flex items-center justify-center">

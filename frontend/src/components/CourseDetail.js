@@ -115,9 +115,9 @@ function CourseDetail({ course, onBack }) {
               <div>
                 <label className="text-[10px] uppercase tracking-widest text-gray-500 font-bold block mb-2">Typical Semester</label>
                 <div className="flex flex-wrap gap-2">
-                  {course.schedule_context.map((entry, i) => (
-                    <span key={i} className="text-[10px] text-gray-400 bg-white/5 px-2 py-0.5 rounded">
-                      Year {entry.year} {entry.term}
+                  {[...new Set(course.schedule_context.map(e => `Year ${e.year} ${e.term}`))].map((label) => (
+                    <span key={label} className="text-[10px] text-gray-400 bg-white/5 px-2 py-0.5 rounded">
+                      {label}
                     </span>
                   ))}
                 </div>

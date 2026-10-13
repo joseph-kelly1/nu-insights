@@ -4,45 +4,57 @@ Course Advisor — Flask API Backend
 Serves REST endpoints for the React frontend to search, browse, and get
 AI-powered analysis of Northeastern University courses. Course data is
 read from a local SQLite database (courses.db) populated by db_loader.py.
-AI analysis is powered by the Gemini API with automatic model fallback
-on rate-limit errors.
+AI analysis uses free OpenRouter models with per-request fallback.
 
-Setup:
-  pip install flask flask-cors google-genai
-  export GEMINI_API_KEY="your-key-here"
-  python3 advisor.py
+Setup: see README.md (pip install -r requirements.txt, OPENROUTER_API_KEY in .env).
 
 Endpoints:
   GET  /api/search?q=<query>        Search courses by dept code, number, or title
   GET  /api/course/<dept>/<number>   Get full course details (prereqs, coreqs, attributes, schedule context)
   POST /api/analyze                  AI-generated course breakdown (summary, audience, skills, career relevance)
-  GET  /api/health                   Health check; returns current Gemini model in use
+  GET  /api/health                   Health check; returns configured primary model and whether AI is configured
 """
 
+import functools
 import json
 import os
+import re
 import sqlite3
+import time
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from google import genai
+import openai
 
 load_dotenv()
 
+
 # --- Configuration ---
-API_KEY = os.environ.get("GEMINI_API_KEY")
+
+def _bool_env(name: str, default: str) -> bool:
+    raw = os.environ.get(name, default).strip().lower()
+    if raw not in ("true", "false"):
+        raise ValueError(f"{name} must be true or false")
+    return raw == "true"
+
+
+def _positive_env(name: str, default: str, cast):
+    value = cast(os.environ.get(name, default))
+    if not value > 0:
+        raise ValueError(f"{name} must be positive")
+    return value
+
+
+API_KEY = os.environ.get("OPENROUTER_API_KEY", "").strip()
+PRIMARY_MODEL = os.environ.get("OPENROUTER_MODEL", "").strip() or "inclusionai/ling-3.1-flash"
+_fallbacks = os.environ.get("OPENROUTER_FALLBACK_MODELS", "nvidia/nemotron-3.5-lightning:free").split(",")
+FALLBACK_MODELS = list(dict.fromkeys(m.strip() for m in _fallbacks if m.strip() not in ("", PRIMARY_MODEL)))
+if bad := [m for m in (PRIMARY_MODEL, *FALLBACK_MODELS) if not re.fullmatch(r"[\w.-]+/[\w.:-]+", m)]:
+    raise ValueError(f"Malformed OpenRouter model IDs: {bad}")
+REASONING_ENABLED = _bool_env("OPENROUTER_REASONING_ENABLED", "false")
+MAX_TOKENS = _positive_env("OPENROUTER_MAX_TOKENS", "2048", int)
+TIMEOUT_SECONDS = _positive_env("OPENROUTER_TIMEOUT_SECONDS", "35", float)
 DB_FILE = "courses.db"
-
-
-MODEL_FALLBACK_CHAIN = [
-    "gemini-2.5-pro",
-    "gemini-2.5-flash",
-    "gemini-2.5-flash-lite",
-]
-
-_current_model_index = 0
-
-ai_client = genai.Client(api_key=API_KEY)
 
 app = Flask(__name__)
 CORS(app)  # allows React dev server to call the API
@@ -189,7 +201,7 @@ def format_schedule_context(entries: list[dict]) -> str:
 
 
 def build_prompt(course: dict) -> str:
-    """Assemble the full text prompt sent to Gemini, including course metadata,
+    """Assemble the user prompt sent to the AI model, including course metadata,
     prerequisite info, NUpath attributes, and sample plan schedule context."""
     code = f"{course['department_code'].upper()} {course['number']}"
     schedule = lookup_schedule_context(course["department_code"], course["number"])
@@ -207,42 +219,119 @@ def build_prompt(course: dict) -> str:
     return prompt
 
 
-# --- AI helper with model fallback ---
+# --- AI helper (OpenRouter) ---
 
-def _is_rate_limit_error(exc: Exception) -> bool:
-    """Check if an exception indicates a rate limit or quota exhaustion."""
-    msg = str(exc).lower()
-    return any(term in msg for term in ["429", "rate limit", "quota", "resource exhausted", "resource_exhausted"])
-
-
-def generate_with_fallback(contents: str, system_instruction: str):
-    """Try generating with the current model; on rate-limit errors, fall back to the next model."""
-    global _current_model_index
-
-    while _current_model_index < len(MODEL_FALLBACK_CHAIN):
-        model = MODEL_FALLBACK_CHAIN[_current_model_index]
-        try:
-            return ai_client.models.generate_content(
-                model=model,
-                contents=contents,
-                config={
-                    "system_instruction": system_instruction,
-                    "max_output_tokens": 2048,
-                    "temperature": 0.7,
-                },
-            )
-        except Exception as e:
-            if _is_rate_limit_error(e) and _current_model_index < len(MODEL_FALLBACK_CHAIN) - 1:
-                _current_model_index += 1
-                print(f"Rate limited on {model}, falling back to {MODEL_FALLBACK_CHAIN[_current_model_index]}")
-            else:
-                raise
-    return None
+SYSTEM_INSTRUCTION = (
+    "You are a helpful Northeastern University academic advisor. "
+    "You will be given a course name, its catalog description, AND structured "
+    "metadata including prerequisites, corequisites, NUpath attributes, and "
+    "data from official sample plans of study showing which year and semester "
+    "students typically take this course.\n\n"
+    "Use ALL of the provided metadata to give accurate advice. Do NOT guess "
+    "about prerequisites or when students take the course — use the sample plan "
+    "data provided. If the course appears in multiple plans or majors, mention that. "
+    "Sample plans illustrate typical timing; they do not prove the course is offered "
+    "in a given term. If no sample plan data is provided, say so instead of inventing "
+    "a year or semester.\n\n"
+    "Provide a concise breakdown (roughly 250-400 words) with:\n"
+    "1. A plain-English summary of what the course actually covers (2-3 sentences)\n"
+    "2. Who should take it — use the sample plan data to state the typical year/semester\n"
+    "3. Key skills you'll walk away with\n"
+    "4. How it connects to co-op or career opportunities\n\n"
+    "Be honest and practical — speak like an upperclassman giving advice, not a catalog."
+)
 
 
-def get_current_model() -> str:
-    """Return the name of the Gemini model currently being used."""
-    return MODEL_FALLBACK_CHAIN[_current_model_index]
+class AIError(Exception):
+    """AI failure with a safe HTTP status and JSON error envelope for the browser."""
+
+    def __init__(self, status: int, code: str, message: str, retry_after: int | None = None):
+        super().__init__(code)
+        self.status = status
+        self.body = {"error": message, "code": code}
+        if retry_after:
+            self.body["retry_after_seconds"] = retry_after
+
+
+def _upstream_error(status, retry_after: int | None = None) -> AIError:
+    """Map an OpenRouter HTTP status or embedded error code to a safe AIError."""
+    if status == 429:
+        return AIError(429, "rate_limited", "The free AI models are rate-limited right now. Try again in a minute.", retry_after)
+    if status in (401, 402):
+        return AIError(503, "ai_misconfigured", "AI analysis is unavailable due to a server configuration problem.")
+    if status == 408:
+        return AIError(504, "ai_timeout", "The AI model took too long to respond. Try again later.")
+    if status in (404, 502, 503):  # 404: no endpoint passes the free-only price caps
+        return AIError(503, "ai_unavailable", "No free AI model is available right now. Try again later.")
+    return AIError(502, "upstream_error", "The AI service returned an error. Try again later.")
+
+
+@functools.cache
+def _client() -> openai.OpenAI:
+    # timeout is the SDK's per-request network timeout, not a total wall-clock deadline.
+    # max_retries=0: OpenRouter handles model fallback; client retries would burn free quota.
+    return openai.OpenAI(base_url="https://openrouter.ai/api/v1", api_key=API_KEY,
+                         timeout=TIMEOUT_SECONDS, max_retries=0)
+
+
+def generate_analysis(course_prompt: str) -> dict:
+    """Run one OpenRouter completion, free-only, and return the validated Markdown analysis."""
+    if not API_KEY:
+        raise AIError(503, "ai_not_configured", "AI analysis is not configured on the server.")
+
+    extra_body = {
+        "provider": {
+            "require_parameters": True,
+            "sort": "latency",
+            "max_price": {"prompt": 0, "completion": 0, "request": 0},  # never pay, even if pricing changes
+        },
+        "reasoning": {"enabled": REASONING_ENABLED, "exclude": True},
+    }
+    if FALLBACK_MODELS:
+        extra_body["models"] = FALLBACK_MODELS
+
+    started = time.monotonic()
+    try:
+        completion = _client().chat.completions.create(
+            model=PRIMARY_MODEL,
+            messages=[
+                {"role": "system", "content": SYSTEM_INSTRUCTION},
+                {"role": "user", "content": course_prompt},
+            ],
+            temperature=0.3,
+            max_tokens=MAX_TOKENS,
+            extra_body=extra_body,
+        )
+    except openai.APITimeoutError:
+        raise _upstream_error(408)
+    except openai.APIStatusError as e:
+        retry_after = e.response.headers.get("retry-after", "")
+        raise _upstream_error(e.status_code, int(retry_after) if retry_after.isdigit() else None)
+    except openai.APIConnectionError:
+        raise _upstream_error(503)
+    except openai.APIError:
+        raise _upstream_error(None)
+
+    # OpenRouter can report errors inside an HTTP 200 body, at top level or per choice.
+    choice = (completion.choices or [None])[0]
+    error = getattr(completion, "error", None) or getattr(choice, "error", None)
+    if error:
+        raise _upstream_error(error.get("code") if isinstance(error, dict) else None)
+    if choice is None:
+        raise AIError(502, "bad_response", "The AI service returned an unusable response. Try again.")
+    if choice.finish_reason == "length":
+        raise AIError(502, "incomplete_response", "The AI response was cut off. Try again.")
+    content = ((choice.message and choice.message.content) or "").strip()
+    if choice.finish_reason != "stop" or not content:
+        raise AIError(502, "bad_response", "The AI service returned an unusable response. Try again.")
+
+    return {
+        "analysis": content,
+        "model": completion.model,
+        "id": completion.id,
+        "usage": completion.usage.model_dump(exclude_none=True) if completion.usage else None,
+        "elapsed_ms": round((time.monotonic() - started) * 1000),
+    }
 
 
 # --- API Routes ---
@@ -271,50 +360,40 @@ def api_course(dept, number):
 
 @app.route("/api/analyze", methods=["POST"])
 def api_analyze():
-    data = request.json
-    dept = data.get("dept", "")
-    number = data.get("number", "")
+    data = request.get_json(silent=True)
+    data = data if isinstance(data, dict) else {}
+    dept, number = data.get("dept"), data.get("number")
+    if not (isinstance(dept, str) and isinstance(number, str)
+            and re.fullmatch(r"[A-Za-z]{2,4} \d{4}", f"{dept} {number}")):
+        return jsonify({"error": 'Send JSON like {"dept": "cs", "number": "3000"}.', "code": "invalid_request"}), 400
 
     course = lookup_course(dept, number)
     if not course:
-        return jsonify({"error": "Course not found"}), 404
+        return jsonify({"error": "Course not found", "code": "course_not_found"}), 404
 
-    prompt = build_prompt(course)
+    try:
+        result = generate_analysis(build_prompt(course))
+    except AIError as e:
+        app.logger.warning("analysis failed course=%s %s code=%s", dept, number, e.body["code"])
+        return jsonify(e.body), e.status
+    except Exception as e:
+        app.logger.error("analysis crashed course=%s %s error=%s", dept, number, type(e).__name__)
+        return jsonify({"error": "Something went wrong. Try again later.", "code": "internal_error"}), 500
 
-    response = generate_with_fallback(
-        contents=prompt,
-        system_instruction=(
-            "You are a helpful Northeastern University academic advisor. "
-            "You will be given a course name, its catalog description, AND structured "
-            "metadata including prerequisites, corequisites, NUpath attributes, and "
-            "data from official sample plans of study showing which year and semester "
-            "students typically take this course.\n\n"
-            "Use ALL of the provided metadata to give accurate advice. Do NOT guess "
-            "about prerequisites or when students take the course — use the sample plan "
-            "data provided. If the course appears in multiple plans or majors, mention that.\n\n"
-            "Provide a concise breakdown with:\n"
-            "1. A plain-English summary of what the course actually covers (2-3 sentences)\n"
-            "2. Who should take it — use the sample plan data to state the typical year/semester\n"
-            "3. Key skills you'll walk away with\n"
-            "4. How it connects to co-op or career opportunities\n\n"
-            "Be honest and practical — speak like an upperclassman giving advice, not a catalog."
-        ),
-    )
-
-    if response is None:
-        return jsonify({"error": "All AI models exhausted. Try again later."}), 502
-
-    return jsonify({"analysis": response.text})
+    app.logger.info("analysis ok course=%s %s model=%s id=%s ms=%d usage=%s", dept, number,
+                    result["model"], result["id"], result["elapsed_ms"], result["usage"])
+    return jsonify({"analysis": result["analysis"], "model": result["model"]})
 
 
 @app.route("/api/health")
 def health():
-    return jsonify({"status": "ok", "model": get_current_model()})
+    return jsonify({"status": "ok", "model": PRIMARY_MODEL, "provider": "openrouter", "ai_configured": bool(API_KEY)})
 
 
 if __name__ == "__main__":
     print(f"Starting Course Advisor API...")
-    print(f"Model: {get_current_model()} (fallback chain: {' → '.join(MODEL_FALLBACK_CHAIN)})")
+    print(f"Model: {PRIMARY_MODEL} (fallbacks: {', '.join(FALLBACK_MODELS) or 'none'})")
+    print(f"AI configured: {bool(API_KEY)}")
     print(f"Database: {DB_FILE}")
     print(f"http://localhost:8000")
     app.run(debug=True, port=8000)
