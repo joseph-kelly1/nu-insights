@@ -172,14 +172,14 @@ function App() {
   };
 
   // Only the latest request may fill the detail view, so a slow response never shows under a newer selection.
-  const selectCourse = useCallback(async (dept, number) => {
+  const selectCourse = useCallback(async (dept, number, catalogYear) => {
     const id = ++detailRequest.current;
-    const base = { dept, number, code: `${dept.toUpperCase()} ${number}` };
+    const base = { dept, number, catalogYear, code: `${dept.toUpperCase()} ${number}` };
     setDetail({ ...base, status: 'loading' });
     setPane('course');
     let next = { ...base, status: 'error' };
     try {
-      const res = await fetch(`/api/course/${dept}/${number}`);
+      const res = await fetch(`/api/course/${dept}/${number}${catalogYear ? `?catalog_year=${encodeURIComponent(catalogYear)}` : ''}`);
       if (res.ok) next = { ...base, status: 'ready', course: await res.json() };
       else if (res.status === 404) next.status = 'missing';
     } catch {
@@ -295,7 +295,7 @@ function App() {
             onCloseCourse={() => setPane('results')}
             detail={pane === 'course' ? (
               <CourseDetail detail={detail} major={major} concentrations={concentrations} backLabel="← Back to plan"
-                onBack={() => setPane('results')} onRetry={() => selectCourse(detail.dept, detail.number)} />
+                onBack={() => setPane('results')} onRetry={() => selectCourse(detail.dept, detail.number, detail.catalogYear)} />
             ) : null}
           />
         )}

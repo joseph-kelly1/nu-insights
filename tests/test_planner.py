@@ -193,6 +193,31 @@ class ValidationTest(unittest.TestCase):
         self.assertEqual((r['requirements'][0]['status'], r['requirements'][0]['progress']), ('satisfied', '2 of 2'))
         r = self.report([attempt('a', 'fall-2025', 'CS 4100')], rules)
         self.assertEqual((r['requirements'][0]['status'], r['requirements'][0]['progress']), ('unsatisfied', '1 of 2'))
+        remaining = r['requirements'][0]['remaining']
+        self.assertEqual(remaining['need'], 1)
+        self.assertEqual([o[0][0]['code'] for o in remaining['options']], ['CS 4120', 'CS 4150'])
+
+    def test_remaining_bundle_lists_only_missing_lab_and_preserves_alternative(self):
+        rule = choose('Discrete', 1, [['CS 1800', 'CS 1802'], ['CS 2700']])
+        r = self.report([attempt('lecture', 'fall-2025', 'CS 1800')], [rule])
+        remaining = r['requirements'][0]['remaining']
+        self.assertEqual(remaining['need'], 1)
+        self.assertEqual([[c['code'] for c in b] for b in remaining['options'][0]], [['CS 1802'], ['CS 2700']])
+        self.assertEqual(remaining['options'][0][0][0]['credits'], 1)
+
+    def test_remaining_credits_are_shortfall_and_keep_minimum_course_count(self):
+        rule = pool('Electives', 10, courses=['CS 4100', 'CS 4120'])
+        rule['min_count'] = 2
+        r = self.report([attempt('one', 'fall-2025', 'CS 4100')], [rule])
+        remaining = r['requirements'][0]['remaining']
+        self.assertEqual((remaining['credits'], remaining['count']), (6, 1))
+        self.assertEqual([o[0][0]['code'] for o in remaining['options']], ['CS 4120'])
+
+    def test_elective_choices_include_required_labs_once(self):
+        rule = pool('Electives', 4, courses=['CS 1800', 'CS 1802'])
+        r = self.report([], [rule])
+        options = r['requirements'][0]['remaining']['options']
+        self.assertEqual([[c['code'] for c in o[0]] for o in options], [['CS 1800', 'CS 1802']])
 
     def test_one_course_counts_toward_one_major_rule_and_credits_once(self):
         rules = [choose('Core', 1, [['CS 4100']]), pool('Electives', 4, filters=[{'subject': 'CS', 'minimum_number': '4000'}]),
@@ -201,6 +226,16 @@ class ValidationTest(unittest.TestCase):
         status = {q['id']: q['status'] for q in r['requirements']}
         self.assertEqual(sorted([status['Core'], status['Electives']]), ['satisfied', 'unsatisfied'])
         self.assertEqual((status['total'], r['requirements'][2]['progress']), ('satisfied', '4 of 4 credits'))
+
+    def test_completed_named_bundle_is_not_sacrificed_to_elective_pool_on_a_tie(self):
+        rules = [choose('Discrete', 1, [['CS 1800', 'CS 1802']]),
+                 pool('Electives', 8, courses=['CS 1800', 'CS 1802', 'CS 4100'])]
+        r = self.report([attempt('lecture', 'fall-2025', 'CS 1800'),
+                         attempt('lab', 'fall-2025', 'CS 1802', credits=1),
+                         attempt('other', 'fall-2025', 'CS 4100')], rules)
+        self.assertEqual(r['requirements'][0]['status'], 'satisfied')
+        self.assertEqual(r['requirements'][1]['status'], 'unsatisfied')
+        self.assertEqual(r['requirements'][1]['remaining']['credits'], 4)
 
     def test_subject_pool_exclusions(self):
         rules = [pool('Electives', 4, filters=[{'subject': 'CS', 'minimum_number': '4000', 'excluded_courses': ['CS 4100']}])]

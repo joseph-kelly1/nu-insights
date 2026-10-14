@@ -83,6 +83,32 @@ class CatalogEditionTest(unittest.TestCase):
             self.assertEqual(response.json[0]['credits'], 1)
         self.assertIsNone(catalog_editions.load(self.db, '../invalid'))
 
+    def test_record_checks_follow_course_term_not_degree_catalog(self):
+        ctx = self.context('2024-2025')
+        courses = ['DS 3000', 'CS 1210', 'CS 3000', 'CS 3200', 'CY 2550', 'CS 3520', 'CS 3800', 'CS 4530']
+        records = [attempt('discrete', 'fall-2025', 'CS 1800'),
+                   attempt('fundies', 'fall-2025', 'CS 2100'),
+                   attempt('ood', 'spring-2026', 'CS 3100')]
+        records += [attempt(code, 'summer1-2026', code, credits=1 if code == 'CS 1210' else 4) for code in courses]
+        report = planner.validate(plan(ctx, records, catalog_year='2024-2025'), ctx)
+        self.assertFalse(any('prerequisites are not met' in w['message'] and w.get('attempt_id') in courses
+                             for w in report['warnings']))
+        # The newer prerequisites do not rewrite the older degree requirements.
+        fundamentals = [r for r in report['requirements'] if 'CS 2510 + CS 2511' in r.get('options', [])]
+        self.assertTrue(fundamentals)
+        self.assertEqual(fundamentals[0]['status'], 'unsatisfied')
+
+    def test_spring_and_both_summers_use_previous_fall_edition(self):
+        self.assertEqual(planner.course_edition({'year': 2025, 'session': 'fall'}), '2025-2026')
+        for session in ('spring', 'summer1', 'summer2'):
+            self.assertEqual(planner.course_edition({'year': 2025, 'session': session}), '2024-2025')
+
+    def test_unavailable_term_edition_falls_back_to_existing_metadata(self):
+        ctx = self.context('2024-2025')
+        a = {'code': 'CS 3500', 'counts_as': None, 'evidence': ''}
+        c = planner._record_course(ctx, a, True, {'year': 2021, 'session': 'fall'})
+        self.assertEqual(c['title'], 'Object-Oriented Design')
+
     def test_legacy_letter_codes_preserve_courses_and_requirements(self):
         for subject, number, credits in [('ACCT', '215M', 3), ('BIOL', '13LM', 0)]:
             html = f'<h2 id="edition">2025-2026 Edition</h2><h1>Department ({subject})</h1>'

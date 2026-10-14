@@ -59,6 +59,21 @@ def term_label(term):
     return f"{SESSION_LABELS[term['session']]} {term['year']}"
 
 
+def course_edition(term):
+    """Fall starts a catalog year; spring and both summers finish it."""
+    year = term['year'] if term['session'] == 'fall' else term['year'] - 1
+    return f'{year}-{year + 1}'
+
+
+def _historical_courses(courses, current):
+    return {code: {'code': code, 'title': c['title'], 'options': c.get('credit_options'),
+                   'max_credits': c['credits'], 'prereq': c.get('prerequisites'),
+                   'coreq_text': c.get('corequisites_text'), 'coreqs': c.get('corequisites', []),
+                   'attrs': set(c.get('attributes', [])), 'repeat': _repeat_limit(c.get('description', '')),
+                   'description': c.get('description', ''), 'id': 0, 'historical_only': code not in current}
+            for code, c in courses.items()}
+
+
 # --- Catalog ---
 
 def _repeat_limit(description):
@@ -151,6 +166,7 @@ def planning_context(conn, db_file, program, catalog_year, options, groups):
         if names.count(v['name']) > 1:
             v['name'] += f" (variant {[w['id'] for w in variants if w['name'] == v['name']].index(v['id']) + 1})"
     edition = req['catalog_year'] if req else None
+    live_catalog_year = edition
     archived = catalog_editions.program_data(conn, db_file, program, catalog_year) if catalog_year != edition else None
     available = sorted(set(([edition] if edition else []) + catalog_editions.available(conn, db_file, program)), reverse=True)
     course_catalog, historical = _catalog(db_file, stamp), {}
@@ -161,13 +177,7 @@ def planning_context(conn, db_file, program, catalog_year, options, groups):
         edition = catalog_year
         # Future courses use current metadata; the archived edition describes past records and
         # retired codes, which stay enterable as history but are never generated.
-        historical = {code: {'code': code, 'title': c['title'], 'options': c.get('credit_options'),
-                             'max_credits': c['credits'], 'prereq': c.get('prerequisites'),
-                             'coreq_text': c.get('corequisites_text'), 'coreqs': c.get('corequisites', []),
-                             'attrs': set(c.get('attributes', [])), 'repeat': _repeat_limit(c.get('description', '')),
-                             'description': c.get('description', ''), 'id': 0,
-                             'historical_only': code not in course_catalog}
-                      for code, c in archived['courses'].items()}
+        historical = _historical_courses(archived['courses'], course_catalog)
         course_catalog = {**{code: c for code, c in historical.items() if c['historical_only']}, **course_catalog}
         stamp = f"{stamp}:{archived['generation']}"
     issues = []
@@ -181,8 +191,11 @@ def planning_context(conn, db_file, program, catalog_year, options, groups):
         stamp = f"{stamp}:r{registry['version']}"
     verified, candidates = course_replacements.resolve(registry, program, catalog_year)
     context = {'program': program, 'catalog_year': catalog_year, 'available_editions': available,
+               'live_catalog_year': live_catalog_year,
                'fingerprint': stamp, 'variants': variants, 'catalog': course_catalog,
                'archived': historical,
+               'course_editions': {year: _historical_courses(catalog_editions.load(db_file, year)['courses'], course_catalog)
+                                   for year in catalog_editions.editions(db_file)},
                'rules': [], 'issues': issues, 'sources': [], 'selection_errors': [], 'groups': groups,
                'degree': program.get('degree') or '', 'replacements': [*verified, *candidates]}
     if not req or catalog_year != edition:
@@ -400,11 +413,20 @@ def _course(context, code, past):
     return (past and context.get('archived', {}).get(code)) or context['catalog'].get(code)
 
 
-def _record_course(context, attempt, past):
+def _record_course(context, attempt, past, term=None):
     """Metadata for a record's own checks (credits, prerequisites, corequisites): its actual course when known,
     else the course it is reported to count as (such as a transfer code absent from this catalog)."""
     if attempt.get('exam_course'):
         return attempt['exam_course']
+    if past and term:
+        if course_edition(term) == context.get('live_catalog_year'):
+            return context['catalog'].get(attempt['code']) or context['catalog'].get(_effective(attempt))
+        edition = context.get('course_editions', {}).get(course_edition(term))
+        if edition is not None:
+            # Degree requirements keep their selected edition. A record's own
+            # prerequisites, credits and companions use the year it was taken.
+            return edition.get(attempt['code']) or edition.get(_effective(attempt)) \
+                or context['catalog'].get(attempt['code']) or context['catalog'].get(_effective(attempt))
     return attempt['code'] and (_course(context, attempt['code'], past) or _course(context, _effective(attempt), past))
 
 
@@ -631,7 +653,7 @@ def validate(plan, context):
         where = term_label(term) if term else 'credit before enrollment'
         status = term['status'] if term else 'past'
         code = _effective(a)
-        course = _record_course(context, a, status == 'past') if a['code'] else None
+        course = _record_course(context, a, status == 'past', term) if a['code'] else None
         ref = {'attempt_id': a['id'], 'term_id': a['term_id']}
         label = a['code'] or (a['title'] or 'Elective placeholder')
         if term and a['status'] != 'withdrawn':
@@ -661,6 +683,10 @@ def validate(plan, context):
         if course.get('historical_only') and status == 'future':
             note('error', f'{course["code"]} is in your {plan["catalog_year"]} requirements but absent from the current '
                  'course catalog. Use an approved current equivalent before scheduling it.', **ref)
+        edition = context.get('course_editions', {}).get(course_edition(term)) if term and status == 'past' else None
+        if edition is not None and a['origin'] == 'nu' and a['code'] not in edition:
+            note('warning', f'{a["code"]} in {where} is not listed in the {course_edition(term)} course catalog. '
+                 'Check the original course code on your transcript; the record is kept.', **ref)
         if problem := credit_problem(course, a['credits']):
             note('error', problem, **ref)
         elif course['options'] is None and a['status'] in COUNTING:
@@ -730,7 +756,13 @@ def validate(plan, context):
     has_coop = bool(plan['experiences'])
     model = cp_model.CpModel()
     sat, alloc = add_allocation(model, items, context['rules'], catalog, has_coop)
-    model.maximize(1000 * sum(sat.values()) + sum(alloc.values()))  # then show partial progress
+    # Maximize coverage, then keep named course requirements ahead of broad
+    # elective pools. Otherwise a completed Fundies bundle can be reassigned as
+    # electives on a tie, misleadingly asking the student to take Fundies again.
+    specific = [sat[r['id']] for r in context['rules'] if r['kind'] == 'choose']
+    allocation_weight = len(alloc) + 1
+    coverage_weight = (len(specific) + 1) * allocation_weight
+    model.maximize(coverage_weight * sum(sat.values()) + allocation_weight * sum(specific) + sum(alloc.values()))
     solver = _solver()
     if solver.solve(model) not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         raise PlanError(500, 'allocation_failed', 'Requirement allocation could not be computed.')
@@ -754,13 +786,72 @@ def validate(plan, context):
             'review' if rule['kind'] == 'experience' else 'unsatisfied'
         matches = rule.get('replaced_by', {})
         requirements.append({**summary(rule), 'status': state, 'progress': progress,
+                             'remaining': _remaining(rule, items, chosen, catalog) if not ok else None,
                              'courses': [{'attempt_id': u['attempt_id'], 'code': u['code'], 'label': u['label'],
+                                          'title': (u.get('course') or {}).get('title', u['label']),
+                                          'status': u['status'], 'credits': u['credits'] / SCALE,
                                           **({'replacement': _match(matches[u['code']])} if u['code'] in matches else {})}
                                          for u in used]})
     unmet = [r for r in requirements if r['status'] == 'unsatisfied']
     report.update(requirements=requirements, assumptions=sorted(assumptions),
                   coverage='incomplete' if unmet or errors else 'all_modeled_covered')
     return report
+
+
+def _remaining(rule, items, chosen, catalog):
+    """Actionable choices from the actual allocation, retaining OR branches and lab bundles."""
+    rid = rule['id']
+    used = [i for i, r in chosen if r == rid]
+    if rule['kind'] == 'choose':
+        reserved = {i for i, r in chosen if r != rid and not r.startswith('nupath:')}
+        codes = {item['code'] for i, item in enumerate(items)
+                 if i not in reserved and eligible(item, rule, catalog)}
+        allocated = {items[i]['code'] for i in used}
+        fulfilled = [o for o in rule['options'] if any(set(b) <= allocated for b in o)]
+        options = [[[{'code': code, 'title': catalog.get(code, {}).get('title', code),
+                       'credits': min_credits(catalog[code]) / SCALE if code in catalog else None,
+                       'available': code in catalog and not catalog[code].get('historical_only', False)}
+                      for code in bundle if code not in codes] for bundle in option]
+                   for option in rule['options'] if option not in fulfilled]
+        return {'need': max(0, rule['need'] - len(fulfilled)), 'options': options}
+    if rule['kind'] in ('credits', 'total_credits', 'residency'):
+        if rule['kind'] == 'total_credits':
+            used = list(range(len(items)))
+        elif rule['kind'] == 'residency':
+            used = [i for i, item in enumerate(items) if item['origin'] == 'nu']
+        elif rule.get('any'):
+            reserved = {i for i, r in chosen if not r.startswith('nupath:')}
+            used = [i for i in range(len(items)) if i not in reserved]
+        result = {'credits': max(0, rule['min_credits'] - sum(items[i]['credits'] for i in used) / SCALE),
+                  'count': max(0, rule.get('min_count', 0) - len(used))}
+        if rule['kind'] == 'credits' and not rule.get('any'):
+            recorded = {item['code'] for item in items}
+            bundles = set()
+            result['options'] = []
+            for code, c in sorted(catalog.items()):
+                if not (in_pool(code, rule) and code not in recorded and not c.get('historical_only')
+                        and min_credits(c) > 0):
+                    continue
+                bundle, pending = set(), [code]
+                while pending:
+                    companion = pending.pop()
+                    if companion in bundle or companion in recorded:
+                        continue
+                    bundle.add(companion)
+                    pending.extend(catalog.get(companion, {}).get('coreqs', []))
+                key = tuple(sorted(bundle))
+                if key in bundles:
+                    continue
+                bundles.add(key)
+                result['options'].append([[{'code': companion, 'title': catalog.get(companion, {}).get('title', companion),
+                                           'credits': min_credits(catalog[companion]) / SCALE if companion in catalog else None,
+                                           'available': companion in catalog and not catalog[companion].get('historical_only')}
+                                          for companion in key]])
+            result['filters'] = rule.get('filters', [])
+        return result
+    if rule['kind'] == 'nupath':
+        return {'need': max(0, rule['need'] - len(used))}
+    return None
 
 
 def _match(record):

@@ -390,7 +390,8 @@ function TermEditor({ plan, term, context, dispatch, onOpenCourse, onClose, prob
       </ul>
       {(!term || term.mode !== 'off') && <>
         {term && !coop && <CommonCourses context={context} plan={plan} term={term} onAdd={add} />}
-        <AddCourses termName={name} future={status === 'future'} catalogYear={status === 'past' ? plan.catalog_year : null}
+        <AddCourses termName={name} future={status === 'future'}
+          catalogYear={status === 'past' ? (term ? `${academicYear(term)}-${academicYear(term) + 1}` : plan.catalog_year) : null}
           identify={(names) => identify(names, name)} onAdd={add} />
       </>}
     </section>

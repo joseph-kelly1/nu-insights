@@ -124,7 +124,19 @@ test('a proposal is previewed, then applied; the saved plan is unchanged until A
   expect(JSON.parse(localStorage.getItem('coursePlan:v1:bscs:2026-2027:ai')).attempts).toHaveLength(0);
   fireEvent.click(screen.getByRole('button', { name: 'Apply suggestions' }));
   expect(screen.queryByRole('heading', { name: 'Suggested plan' })).not.toBeInTheDocument();
+  expect(within(spring).getByText('Planned')).toBeVisible();
   expect(JSON.parse(localStorage.getItem('coursePlan:v1:bscs:2026-2027:ai')).attempts.map((a) => a.code)).toEqual(['CS 3800']);
+});
+
+test('completed course details use the year taken even when degree requirements use another year', async () => {
+  const initial = savedPlan();
+  initial.attempts = [{ id: 'history', code: 'CS 3500', title: 'Object-Oriented Design', credits: 4,
+    term_id: 'spring-2026', status: 'passed', origin: 'nu', source: 'user' }];
+  saveDraft(initial);
+  const open = jest.fn();
+  renderBuilder({ onOpenCourse: open });
+  fireEvent.click(await screen.findByRole('button', { name: 'CS 3500' }));
+  expect(open).toHaveBeenCalledWith('cs', '3500', '2025-2026');
 });
 
 test('a late proposal for an older revision cannot be applied', async () => {
@@ -243,12 +255,12 @@ test('title search updates live as you type, and only the newest query answers',
   fireEvent.click(await screen.findByRole('button', { name: 'Edit Fall 2025' }));
   const box = screen.getByLabelText('Search by title or code');
   fireEvent.change(box, { target: { value: 'mach' } });
-  await waitFor(() => expect(answers['/api/search?q=mach&catalog_year=2026-2027']).toBeDefined());
+  await waitFor(() => expect(answers['/api/search?q=mach&catalog_year=2025-2026']).toBeDefined());
   fireEvent.change(box, { target: { value: 'machine learning' } });
-  await waitFor(() => expect(answers['/api/search?q=machine%20learning&catalog_year=2026-2027']).toBeDefined());
-  await act(async () => answers['/api/search?q=machine%20learning&catalog_year=2026-2027']({ ok: true, json: async () => [
+  await waitFor(() => expect(answers['/api/search?q=machine%20learning&catalog_year=2025-2026']).toBeDefined());
+  await act(async () => answers['/api/search?q=machine%20learning&catalog_year=2025-2026']({ ok: true, json: async () => [
     { department_code: 'ds', number: '4400', title: 'Machine Learning', credits: 4 }] }));
-  await act(async () => answers['/api/search?q=mach&catalog_year=2026-2027']({ ok: true, json: async () => [
+  await act(async () => answers['/api/search?q=mach&catalog_year=2025-2026']({ ok: true, json: async () => [
     { department_code: 'me', number: '1000', title: 'Machining', credits: 4 }] }));
   expect(screen.getByRole('button', { name: 'Add DS 4400' })).toBeInTheDocument();
   expect(screen.queryByRole('button', { name: 'Add ME 1000' })).not.toBeInTheDocument();
@@ -313,10 +325,11 @@ test('the plan check shows current courses fulfilling a retired requirement, and
   fireEvent.click(await screen.findByRole('button', { name: 'Check my plan' }));
   expect(await screen.findByText(/^CS 3100 \+ CS 3101 fulfill the CS 3500 \+ CS 3501 requirement\.$/)).toBeInTheDocument();
   expect(screen.getByText('Take: CS 3500 + CS 3501')).toBeInTheDocument(); // the original requirement stays visible
+  fireEvent.click(screen.getByText('How planned courses meet requirements'));
   expect(screen.getByRole('button', { name: 'CS 3101' })).toBeInTheDocument();
   expect(screen.getAllByText(/Khoury lists CS 2000 \+ CS 2001 as replacing CS 2500 \+ CS 2501/)).toHaveLength(1);
   expect(screen.getAllByRole('link', { name: 'Source' }).map((a) => a.getAttribute('href')))
-    .toEqual(['https://khoury.example/ood', 'https://khoury.example/f1']);
+    .toEqual(['https://khoury.example/f1', 'https://khoury.example/ood']);
   expect(screen.queryByRole('heading', { name: 'Warnings' })).not.toBeInTheDocument();
 });
 

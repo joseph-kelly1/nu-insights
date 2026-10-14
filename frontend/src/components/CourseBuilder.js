@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useReducer, useRef, useState } from 'react';
 import TermEditor from './TermEditor';
+import PlanReport from './PlanReport';
 import { catalogLabel } from './SearchPanel';
 import {
   SESSION_LABELS, YEAR_ORDER, academicYear, buildTerms, coopFor, defaultTarget, loadDraft, newPlan, planReducer,
@@ -9,7 +10,6 @@ import {
 const EDITIONS = ['2026-2027', '2025-2026', '2024-2025', '2023-2024', '2022-2023'];
 const STATUS_TEXT = { passed: 'Completed', in_progress: 'In progress', planned: 'Planned', failed: 'Failed',
   withdrawn: 'Withdrawn', incomplete: 'Incomplete' };
-const REQUIREMENT_TEXT = { satisfied: 'Done', planned: 'Planned', unsatisfied: 'Not yet met', review: 'Needs review' };
 
 function today() {
   const d = new Date();
@@ -113,8 +113,8 @@ function TermCard({ term, plan, attempts, onEdit, onOpenCourse, problems, previe
         {status !== 'past' && <span className="hint">{` · target ${term.credit_target}, limit ${term.credit_cap}`}</span>}</p>}
       {attempts.length > 0 && <ul className="term-courses">
         {attempts.map((a) => {
-          const tags = [a.status !== 'planned' && STATUS_TEXT[a.status], a.pinned && 'Pinned',
-            a.source === 'generated' && (previewing ? 'Suggested' : 'Suggestion'), a.placeholder && 'Choose a course',
+          const tags = [previewing && a.source === 'generated' ? 'Suggested' : STATUS_TEXT[a.status], a.pinned && 'Pinned',
+            a.placeholder && 'Choose a course',
             !a.term_id && 'Transfer'].filter(Boolean);
           return <li key={a.id}>
             {a.code ? <button type="button" className="link-button course-link" onClick={() => onOpenCourse(a.code)}>{a.code}</button>
@@ -128,84 +128,6 @@ function TermCard({ term, plan, attempts, onEdit, onOpenCourse, problems, previe
         + problems[0].message}</p>}
       {!previewing && <button type="button" className="btn btn-quiet btn-sm" onClick={onEdit}
         aria-label={`Edit ${termLabel(term)}`}>Edit</button>}
-    </section>
-  );
-}
-
-const joined = (codes) => codes.join(' + ');
-const Source = ({ url }) => <>{' '}<a href={url} target="_blank" rel="noreferrer">Source</a></>;
-
-// One line per requirement: how a current course fulfills a retired one, or what to do when nothing does yet.
-function ReplacementNote({ rule }) {
-  const used = [...new Map(rule.courses.filter((c) => c.replacement).map((c) => [c.replacement.id, c.replacement])).values()];
-  if (used.length) {
-    return used.map((m) => <span key={m.id} className="hint block">
-      {`${joined(m.replacement)} ${m.replacement.length > 1 ? 'fulfill' : 'fulfills'} the ${joined(m.original)} requirement.`}
-      <Source url={m.source_url} /></span>);
-  }
-  if (rule.status !== 'unsatisfied' || !rule.retired?.length) return null;
-  const verified = rule.replacements?.find((m) => m.review === 'verified');
-  const candidate = rule.replacements?.find((m) => m.review === 'candidate');
-  const retired = `${rule.retired.join(', ')} ${rule.retired.length > 1 ? 'are' : 'is'} no longer in the current catalog.`;
-  if (verified) {
-    return <span className="hint block">{`${retired} Plan ${joined(verified.replacement)}, which fulfills this requirement.`}
-      <Source url={verified.source_url} /></span>;
-  }
-  return <span className="hint block">{candidate
-    ? `${retired} Khoury lists ${joined(candidate.replacement)} as replacing ${joined(candidate.original)}, but hasn’t `
-      + 'published that it counts for your catalog year. If your advisor approves, add it and use “Counts as another '
-      + 'course?” with the approval details.'
-    : `${retired} Ask your advisor which current course counts instead, then record it with “Counts as another `
-      + 'course?” and the approval details.'}
-    {candidate && <Source url={candidate.source_url} />}</span>;
-}
-
-function Report({ report, stale, onOpenCourse }) {
-  if (!report) return null;
-  const groups = {};
-  for (const r of report.requirements || []) (groups[r.section || 'Requirements'] ||= []).push(r);
-  const unmet = (report.requirements || []).filter((r) => r.status === 'unsatisfied').length;
-  const headline = report.coverage === 'unavailable' ? 'Requirements aren’t available for this plan'
-    : report.coverage === 'all_modeled_covered' ? 'All modeled requirements are covered'
-    : `${unmet ? `${unmet} requirement${unmet === 1 ? '' : 's'} not yet met` : 'Fix the problems below'}`;
-  return (
-    <section className="plan-report" aria-labelledby="report-heading">
-      <h2 id="report-heading">Plan check</h2>
-      {stale && <p className="notice">Your plan changed after this check. Check it again for current results.</p>}
-      <p className="report-headline">{headline}</p>
-      <p className="hint">This is a planning aid, not an official degree audit. Northeastern advising confirms graduation.</p>
-      {report.message && <p>{report.message}</p>}
-      {report.errors.length > 0 && <><h3>Problems</h3><ul className="report-list problems">
-        {report.errors.map((e, i) => <li key={i}>{e.message}</li>)}</ul></>}
-      {report.warnings.length > 0 && <><h3>Warnings</h3><ul className="report-list">
-        {report.warnings.map((e, i) => <li key={i}>{e.message}</li>)}</ul></>}
-      {Object.entries(groups).map(([section, rules]) => <div key={section} className="report-group">
-        <h3>{section}</h3>
-        <ul className="report-list requirement-status">
-          {rules.map((r) => <li key={r.id} className={`req-${r.status}`}>
-            <span className="req-state">{REQUIREMENT_TEXT[r.status]}</span>
-            <span><strong>{r.title}</strong>{` · ${r.progress}`}{r.review !== 'reviewed' && <em> · rule not yet reviewed</em>}
-              {r.kind === 'choose' && <span className="hint block">{`${r.options.length > r.need ? `Choose ${r.need}` : 'Take'}: `
-                + `${r.options.slice(0, 12).join(', ')}${r.options.length > 12 ? '…' : ''}`}</span>}
-              {r.courses.length > 0 && <span className="block">{r.courses.map((c, i) => <React.Fragment key={i}>
-                {i > 0 && ', '}{c.code ? <button type="button" className="link-button" onClick={() => onOpenCourse(c.code)}>{c.code}</button> : c.label}
-              </React.Fragment>)}</span>}
-              <ReplacementNote rule={r} />
-            </span>
-          </li>)}
-        </ul>
-      </div>)}
-      {report.issues.length > 0 && <><h3>Needs review</h3>
-        <p className="hint">These catalog rules aren’t checked automatically. Read them, and ask your advisor if unsure.</p>
-        <ul className="report-list">{report.issues.map((i) => <li key={i.id}>{i.text}
-          {i.source_url && <>{' '}<a href={i.source_url} target="_blank" rel="noreferrer">Source</a></>}</li>)}</ul></>}
-      {report.assumptions.length > 0 && <><h3>Assumptions</h3><ul className="report-list">
-        {report.assumptions.map((a) => <li key={a}>{a}</li>)}</ul></>}
-      <p className="hint">{report.offerings}</p>
-      {report.sources?.length > 0 && <><h3>Sources checked</h3><ul className="report-list">
-        {report.sources.map((s) => <li key={s.key}><a href={s.source_url} target="_blank" rel="noreferrer">{s.title}</a>
-          {` · ${s.review === 'reviewed' ? `rules reviewed${s.reviewed_on ? ` ${s.reviewed_on}` : ''}` : 'rules extracted automatically, not yet reviewed'}`}</li>)}
-      </ul></>}
     </section>
   );
 }
@@ -443,7 +365,11 @@ function CourseBuilder({ major, concentrations, ai, aiLabel, onBack, onOpenCours
 
   const openCourse = (code) => {
     const [dept, number] = code.split(' ');
-    onOpenCourse(dept.toLowerCase(), number);
+    const attempt = plan.attempts.find((a) => a.code === code);
+    const term = attempt && plan.terms.find((t) => t.id === attempt.term_id);
+    const year = term && termStatus(term, plan.current_term) === 'past' ? `${academicYear(term)}-${academicYear(term) + 1}`
+      : context.data?.course_info?.[code]?.historical_only ? plan.catalog_year : null;
+    onOpenCourse(dept.toLowerCase(), number, year);
   };
 
   const startImport = async (event) => {
@@ -559,7 +485,7 @@ function CourseBuilder({ major, concentrations, ai, aiLabel, onBack, onOpenCours
             onClose={() => setEditing(null)} problems={problems} />}
           {!detail && !editing && report.status === 'loading' && <p className="pending">Checking your plan…</p>}
           {!detail && !editing && report.status === 'error' && <p className="notice-error" role="alert">{report.message}</p>}
-          {!detail && !editing && <Report report={currentReport} onOpenCourse={openCourse}
+          {!detail && !editing && <PlanReport report={currentReport} plan={plan} attempts={shown} onOpenCourse={openCourse} onEditTerm={edit}
             stale={report.revision != null && report.revision !== plan.revision} />}
           {!detail && !editing && report.status === 'idle' && <p className="hint">Choose a term’s Edit button to add courses,
             mark co-ops, or take a term off. Check my plan reviews prerequisites, credits, and requirement progress.</p>}

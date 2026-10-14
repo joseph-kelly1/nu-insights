@@ -545,6 +545,26 @@ select.input { appearance: auto; }
 .req-unsatisfied .req-state { color: var(--danger); }
 .req-review .req-state { font-style: italic; color: var(--text-soft); }
 .report-list .link-button { min-height: 32px; }
+.plan-report > section { padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.plan-report > section > h3 { margin: 8px 0; font-size: 19px; }
+.remaining-list, .course-choices { list-style: none; }
+.remaining-list > li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.remaining-list > li:last-child { border-bottom: 0; padding-bottom: 0; }
+.remaining-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.remaining-heading .req-state { color: var(--danger); }
+.remaining-requirement > p { margin: 4px 0 10px; }
+.course-choice { padding: 10px 0; }
+.course-choice + .course-choice { border-top: 1px solid var(--line); }
+.course-bundle { display: grid; gap: 2px; }
+.course-choice-title { display: block; font-size: 16px; font-weight: 550; line-height: 1.35; }
+.choice-connector { display: block; padding: 4px 0; font-size: 14px; font-weight: 650; color: var(--text-muted); }
+.scheduled-courses .link-button, .course-choices .link-button { min-height: 44px; font-weight: 700; }
+.scheduled-term { margin: 6px 0; font-size: 14px; color: var(--text-soft); }
+.scheduled-courses .hint { line-height: 1.45; }
+.report-disclosure { border-top: 1px solid var(--line); padding-block: 4px; }
+.report-disclosure > summary { min-height: 44px; align-content: center; cursor: pointer; font-weight: 650; }
+.report-disclosure > .report-list, .report-disclosure > .hint { margin-block: 8px; }
+.requirement-details > li { padding-block: 10px; border-bottom: 1px solid var(--line); }
 
 @media (max-width: 1100px) {
   .builder-body { grid-template-columns: 1fr; }
