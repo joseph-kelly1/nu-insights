@@ -29,7 +29,7 @@ function Landing({ onEnter }) {
           <button type="button" className="btn btn-ink" onClick={() => onEnter('')}>
             Start searching <span className="arrow" aria-hidden="true">→</span>
           </button>
-          <p>No account needed. Browse and plan without AI.</p>
+          <p>No account needed. Browse and plan with AI.</p>
         </div>
       </main>
 

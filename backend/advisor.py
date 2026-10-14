@@ -34,9 +34,9 @@ import threading
 import time
 import uuid
 from dotenv import load_dotenv
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory, abort
 import openai
-from werkzeug.exceptions import RequestEntityTooLarge
+from werkzeug.exceptions import RequestEntityTooLarge, NotFound
 
 from . import ai_providers
 from .ai_providers import AIError
@@ -80,9 +80,25 @@ MAX_TOKENS = _positive_env("OPENROUTER_MAX_TOKENS", "2048", int)
 TIMEOUT_SECONDS = _positive_env("OPENROUTER_TIMEOUT_SECONDS", "35", float)
 DB_FILE = str(DEFAULT_DB_FILE)
 
-app = Flask(__name__)
+FRONTEND_DIR = PROJECT_ROOT / "frontend" / "build"
+app = Flask(__name__, static_folder=str(FRONTEND_DIR / "static"))
 app.config["MAX_CONTENT_LENGTH"] = 16 * 1024  # request bodies are tiny; this caps key/config payloads
-# No CORS: the React dev server proxies /api, so the browser only ever talks to one origin.
+# Development proxies /api; production serves React and the API from one origin.
+
+
+@app.get("/")
+@app.get("/<path:path>")
+def frontend(path=""):
+    """Serve the production React build without masking API or asset errors."""
+    if path == "api" or path.startswith("api/"):
+        abort(404)
+    if path:
+        try:
+            return send_from_directory(FRONTEND_DIR, path)
+        except NotFound:
+            if "." in path.rsplit("/", 1)[-1] or path.startswith("static/"):
+                raise
+    return send_from_directory(FRONTEND_DIR, "index.html", max_age=0)
 
 
 @app.after_request

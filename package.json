@@ -1,0 +1,11 @@
+{
+  "name": "nu-insights-deployment",
+  "private": true,
+  "scripts": {
+    "infra:plan": "railway config plan",
+    "infra:apply": "railway config apply"
+  },
+  "devDependencies": {
+    "railway": "^3.15.0"
+  }
+}
