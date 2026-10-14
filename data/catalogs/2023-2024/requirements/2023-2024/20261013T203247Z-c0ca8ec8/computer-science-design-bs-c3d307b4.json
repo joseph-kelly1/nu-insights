@@ -1,0 +1,2571 @@
+{
+  "document_id": "computer-science-design-bs-c3d307b4",
+  "kind": "program",
+  "title": "Computer Science and Design, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-design-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Courses",
+      "heading_path": [
+        "Computer Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ARTF 1000 Art and Design at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1000"
+              ],
+              "code_text": "or ARTF 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ARTF 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or EEAM 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EEAM 2000"
+              ],
+              "code_text": "or EEAM 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EEAM 2000"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CS 4500 Software Development",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4500"
+              ],
+              "code_text": "CS 4500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4500"
+              },
+              "alternative_group": 13
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "or CS 4530 Fundamentals of Software Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4530"
+              ],
+              "code_text": "or CS 4530",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4530"
+              },
+              "alternative_group": 13
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "IS 4300 Human Computer Interaction",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "IS 4300"
+              ],
+              "code_text": "IS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4300"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Computer Science Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete 8 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 8.0
+              }
+            },
+            {
+              "index": 19,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 21,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 22,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Requirements",
+      "heading_path": [
+        "Design Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Art + Design Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTF 1122 Color and Composition (with optional ARTF 1123 )",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1122"
+              ],
+              "code_text": "ARTF 1122",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTF 1122"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Art + Design Fundamentals Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARTF 1124 and ARTF 1125 Form and Structure and Form and Structure Tools",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1124",
+                "ARTF 1125"
+              ],
+              "code_text": "ARTF 1124 and ARTF 1125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTF 1124"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTF 1125"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTF 2220 and ARTF 2221 Movement and Time and Movement and Time Tools",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 2220",
+                "ARTF 2221"
+              ],
+              "code_text": "ARTF 2220 and ARTF 2221",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2220"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2221"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTF 2223 and ARTF 2224 Experience and Interaction and Experience and Interaction Tools",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 2223",
+                "ARTF 2224"
+              ],
+              "code_text": "ARTF 2223 and ARTF 2224",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2223"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2224"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Design Required",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ARTG 1001 and ARTG 1002 Design Perspectives: An Introduction to Design in the World and Seminar for Design Perspectives",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 1001",
+                "ARTG 1002"
+              ],
+              "code_text": "ARTG 1001 and ARTG 1002",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1001"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1002"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ARTG 1270 and ARTG 1271 Design: Process + Practices and Studio for Design: Process + Practices",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 1270",
+                "ARTG 1271"
+              ],
+              "code_text": "ARTG 1270 and ARTG 1271",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1270"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1271"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ARTG 1290 and ARTG 1291 Typographic Systems and Studio for Typographic Systems",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 1290",
+                "ARTG 1291"
+              ],
+              "code_text": "ARTG 1290 and ARTG 1291",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1290"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1291"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "header",
+              "text": "Design Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 12,
+              "kind": "instruction",
+              "text": "Complete any one ARTG course, as long as prerequisites have been met and that is not used to fulfill other requirements of the program. ARTG 2262 and ARTG 2263 are recommended. 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 13,
+              "kind": "header",
+              "text": "Art + Design History Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 14,
+              "kind": "instruction",
+              "text": "Complete any one ARTH course.",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Art + Design Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "instruction",
+              "text": "Complete any one ARTD, ARTE, ARTF, ARTG, ARTH, ARTS, or GAME course as long as prerequisites have been met.",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Degree Capstone Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "ARTG 4550 Design Degree Project",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 4550"
+              ],
+              "code_text": "ARTG 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 4550"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "1 Instead of ARTG 2262 and ARTG 2263, ARTG 5330 is recommended for students considering the Plus One in Information Design and Data Visualization.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Option",
+      "heading_path": [
+        "Design Option"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following options:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "header",
+              "text": "Experience Design Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 3462 Experience Design Principles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3462"
+              ],
+              "code_text": "ARTG 3462",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3462"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTG 3463 Experience Design 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3463"
+              ],
+              "code_text": "ARTG 3463",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3463"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Graphic Design Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTG 2252 Graphic Design Principles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2252"
+              ],
+              "code_text": "ARTG 2252",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 2252"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTG 3450 Graphic Design 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3450"
+              ],
+              "code_text": "ARTG 3450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3450"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Information Design Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ARTG 2242 Information Design Principles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2242"
+              ],
+              "code_text": "ARTG 2242",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 2242"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ARTG 3444 Topics in Information Design Inquiry 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "2"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "ARTG 3444"
+              ],
+              "code_text": "ARTG 3444",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3444"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Interaction Design Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ARTG 2400 Interaction Design Principles (with optional ARTG 2401 )",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2400"
+              ],
+              "code_text": "ARTG 2400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 2400"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ARTG 3700 Interaction Design 2: Mobile",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3700"
+              ],
+              "code_text": "ARTG 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3700"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "2 Instead of ARTG 3444, ARTG 5100 is recommended for students considering the Plus One in Information Design and Data Visualization.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Degree-Focused Electives",
+      "heading_path": [
+        "Degree-Focused Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete two courses from the following lists:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 2
+              }
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Art + Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete any ARTG course as long as prerequisites have been met. If ARTG 5000 (or any other topics course in the subject listed) is completed more than once, the additional completions may be allowed toward the electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 3,
+              "kind": "note",
+              "text": "Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PSYC 1101 Foundations of Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1101"
+              ],
+              "code_text": "PSYC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1101"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "PSYC 3452 Sensation and Perception",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3452"
+              ],
+              "code_text": "PSYC 3452",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3452"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PSYC 3464 Psychology of Language",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3464"
+              ],
+              "code_text": "PSYC 3464",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3464"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PSYC 3466 Cognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3466"
+              ],
+              "code_text": "PSYC 3466",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3466"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "note",
+              "text": "Computer Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 3200 Database Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3520 Programming in C++",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3520"
+              ],
+              "code_text": "CS 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3520"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3540 Game Programming",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3540"
+              ],
+              "code_text": "CS 3540",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3540"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3650 Computer Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3650"
+              ],
+              "code_text": "CS 3650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3650"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CS 3800 Theory of Computation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3800"
+              ],
+              "code_text": "CS 3800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3800"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CS 4100 Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4100"
+              ],
+              "code_text": "CS 4100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4100"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CS 4150 Game Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4150"
+              ],
+              "code_text": "CS 4150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4150"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CS 4300 Computer Graphics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4300"
+              ],
+              "code_text": "CS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4300"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CS 4400 Programming Languages",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4400"
+              ],
+              "code_text": "CS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4400"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CS 4520 Mobile Application Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4520"
+              ],
+              "code_text": "CS 4520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4520"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CS 4550 Web Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4550"
+              ],
+              "code_text": "CS 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4550"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "CS 4730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CS 4850 Building Game Engines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4850"
+              ],
+              "code_text": "CS 4850",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4850"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "CS 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4991"
+              ],
+              "code_text": "CS 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4991"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "CS 4992 Directed Study",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4992"
+              ],
+              "code_text": "CS 4992",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4992"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "CS 4993 Independent Study",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4993"
+              ],
+              "code_text": "CS 4993",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4993"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "DS 4420 Machine Learning and Data Mining 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4420"
+              ],
+              "code_text": "DS 4420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4420"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "IS 2000 Principles of Information Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 2000"
+              ],
+              "code_text": "IS 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 2000"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirement",
+      "heading_path": [
+        "Integrative Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "The following courses are used in the major but also count as the integrative requirement:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "IS 4300 Human Computer Interaction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4300"
+              ],
+              "code_text": "IS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4300"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 4550 Design Degree Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 4550"
+              ],
+              "code_text": "ARTG 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 4550"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Course",
+      "heading_path": [
+        "Supporting Course"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computing and Social Issues",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "AFAM 2600 Issues in Race, Science, and Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFAM 2600"
+              ],
+              "code_text": "AFAM 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFAM 2600"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "CY 5240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 8
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 8
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "SOCL 4528 Computers and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3314 Advanced Writing in the Arts, Media, and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3314"
+              ],
+              "code_text": "or ENGW 3314",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3314"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 3
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 24 semester hours of general electives.",
+              "credits_text": "24",
+              "credits": {
+                "min": 24.0,
+                "max": 24.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 24.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Exploring Creative Expression and Innovation Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Exploring Creative Expression and Innovation",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science and Design Major Credit Requirement",
+      "heading_path": [
+        "Computer Science and Design Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "96 SH are required in the major.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computer-science-design-bs-c3d307b4",
+  "major_name": "Computer Science and Design",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The combined major in computer science and design integrates fundamental design courses with a strong programming foundation. Students will declare a concentration in interaction design, graphic and information design, or experience design. Students in this major often have an interest in human-centered design methods used in developing digital interfaces and applications.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Courses\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nARTF 1000\nArt and Design at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEEAM 2000\nProfessional Development for Co-op\nComputer Science Fundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nCS 4500\nSoftware Development\n4\nor\nCS 4530\nFundamentals of Software Engineering\nIS 4300\nHuman Computer Interaction\n4\nComputer Science Elective Courses\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 8 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n8\nCS 2500\nor higher, except\nCS 5010\nCY  2000 or higher, except CY  4930\nDS 2500\nor higher, except DS 4900\nIS 2000\nor higher, except IS 4900\nDesign Requirements\nCourse List\nCode\nTitle\nHours\nArt + Design Fundamentals\nARTF 1122\nColor and Composition (with optional\nARTF 1123\n)\n4\nArt + Design Fundamentals Elective\nComplete one of the following:\n4\nARTF 1124\nand\nARTF 1125\nForm and Structure\nand Form and Structure Tools\nARTF 2220\nand\nARTF 2221\nMovement and Time\nand Movement and Time Tools\nARTF 2223\nand\nARTF 2224\nExperience and Interaction\nand Experience and Interaction Tools\nDesign Required\nARTG 1001\nand\nARTG 1002\nDesign Perspectives: An Introduction to Design in the World\nand Seminar for Design Perspectives\n4\nARTG 1270\nand\nARTG 1271\nDesign: Process + Practices\nand Studio for Design: Process + Practices\n4\nARTG 1290\nand\nARTG 1291\nTypographic Systems\nand Studio for Typographic Systems\n4\nDesign Elective\nComplete any one ARTG course, as long as prerequisites have been met and that is not used to fulfill other requirements of the program.\nARTG 2262\nand\nARTG 2263\nare recommended.\n1\n4\nArt + Design History Elective\nComplete any one ARTH course.\n4\nArt + Design Elective\nComplete any one ARTD, ARTE, ARTF, ARTG, ARTH, ARTS, or GAME course  as long as prerequisites have been met.\n4\nDegree Capstone Project\nARTG 4550\nDesign Degree Project\n4\n1\nInstead of ARTG 2262 and ARTG 2263, ARTG 5330 is recommended for students considering the Plus One in Information Design and Data Visualization.\nDesign Option\nCourse List\nCode\nTitle\nHours\nComplete one of the following options:\n8\nExperience Design Option\nARTG 3462\nExperience Design Principles\nARTG 3463\nExperience Design 2\nGraphic Design Option\nARTG 2252\nGraphic Design Principles\nARTG 3450\nGraphic Design 2\nInformation Design Option\nARTG 2242\nInformation Design Principles\nARTG 3444\nTopics in Information Design Inquiry\n2\nInteraction Design Option\nARTG 2400\nInteraction Design Principles (with optional\nARTG 2401\n)\nARTG 3700\nInteraction Design 2: Mobile\n2\nInstead of ARTG 3444, ARTG 5100 is recommended for students considering the Plus One in Information Design and Data Visualization.\nDegree-Focused Electives\nCourse List\nCode\nTitle\nHours\nComplete two courses from the following lists:\n8\nArt + Design\nComplete any ARTG course as long as prerequisites have been met. If\nARTG 5000\n(or any other topics course in the subject listed) is completed more than once, the additional completions may be allowed toward the electives.\nPsychology\nPSYC 1101\nFoundations of Psychology\nPSYC 3452\nSensation and Perception\nPSYC 3464\nPsychology of Language\nPSYC 3466\nCognition\nComputer Science\nCS 3200\nDatabase Design\nCS 3520\nProgramming in C++\nCS 3540\nGame Programming\nCS 3650\nComputer Systems\nCS 3800\nTheory of Computation\nCS 4100\nArtificial Intelligence\nCS 4150\nGame Artificial Intelligence\nCS 4300\nComputer Graphics\nCS 4400\nProgramming Languages\nCS 4520\nMobile Application Development\nCS 4550\nWeb Development\nCS 4700\nNetwork Fundamentals\nCS 4730\nDistributed Systems\nCS 4850\nBuilding Game Engines\nCS 4991\nResearch\nCS 4992\nDirected Study\nCS 4993\nIndependent Study\nDS 3000\nFoundations of Data Science\nDS 4200\nInformation Presentation and Visualization\nDS 4300\nLarge-Scale Information Storage and Retrieval\nDS 4400\nMachine Learning and Data Mining 1\nDS 4420\nMachine Learning and Data Mining 2\nIS 2000\nPrinciples of Information Science\nIntegrative Requirement\nCourse List\nCode\nTitle\nHours\nThe following courses are used in the major but also count as the integrative requirement:\nIS 4300\nHuman Computer Interaction\nARTG 4550\nDesign Degree Project\nSupporting Course\nCourse List\nCode\nTitle\nHours\nComputing and Social Issues\nComplete one of the following:\n4\nAFAM 2600\nIssues in Race, Science, and Technology\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nENGL 2150\nLiterature and Digital Diversity\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nComputers and Society\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nAdvanced Writing in the Disciplines\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3314\nAdvanced Writing in the Arts, Media, and Design\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 24 semester hours of general electives.\n24\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nExploring Creative Expression and Innovation\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS and IS courses\nComputer Science and Design Major Credit Requirement\n96 SH are required in the major.\nProgram Requirement\n130 total semester hours required",
+  "referenced_courses": [
+    "AFAM 2600",
+    "ARTF 1000",
+    "ARTF 1122",
+    "ARTF 1123",
+    "ARTF 1124",
+    "ARTF 1125",
+    "ARTF 2220",
+    "ARTF 2221",
+    "ARTF 2223",
+    "ARTF 2224",
+    "ARTG 1001",
+    "ARTG 1002",
+    "ARTG 1270",
+    "ARTG 1271",
+    "ARTG 1290",
+    "ARTG 1291",
+    "ARTG 2242",
+    "ARTG 2252",
+    "ARTG 2262",
+    "ARTG 2263",
+    "ARTG 2400",
+    "ARTG 2401",
+    "ARTG 3444",
+    "ARTG 3450",
+    "ARTG 3462",
+    "ARTG 3463",
+    "ARTG 3700",
+    "ARTG 4550",
+    "ARTG 5000",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3000",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 3520",
+    "CS 3540",
+    "CS 3650",
+    "CS 3800",
+    "CS 4100",
+    "CS 4150",
+    "CS 4300",
+    "CS 4400",
+    "CS 4500",
+    "CS 4520",
+    "CS 4530",
+    "CS 4550",
+    "CS 4700",
+    "CS 4730",
+    "CS 4850",
+    "CS 4991",
+    "CS 4992",
+    "CS 4993",
+    "CS 5010",
+    "CY 4170",
+    "CY 5240",
+    "DS 2500",
+    "DS 3000",
+    "DS 4200",
+    "DS 4300",
+    "DS 4400",
+    "DS 4420",
+    "EEAM 2000",
+    "ENGL 2150",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3314",
+    "ENGW 3315",
+    "HIST 2220",
+    "INSH 2102",
+    "IS 1300",
+    "IS 2000",
+    "IS 4300",
+    "PHIL 1145",
+    "PHIL 1300",
+    "PSYC 1101",
+    "PSYC 3452",
+    "PSYC 3464",
+    "PSYC 3466",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

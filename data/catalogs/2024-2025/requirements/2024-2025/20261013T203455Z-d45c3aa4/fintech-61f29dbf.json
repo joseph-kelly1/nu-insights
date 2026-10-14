@@ -1,0 +1,347 @@
+{
+  "document_id": "fintech-61f29dbf",
+  "kind": "concentration",
+  "title": "Fintech",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/business/concentrations/fintech/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Concentration in Fintech",
+      "heading_path": [
+        "Concentration in Fintech"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Only one course may be double counted with another concentration. In addition, only one course outside of Finance may be applied to the concentration.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "FINA 3303 Investments",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "FINA 3303"
+              ],
+              "code_text": "FINA 3303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 3303"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or FINA 3301 Corporate Finance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "FINA 3301"
+              ],
+              "code_text": "or FINA 3301",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 3301"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Choose one option below:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "FINA 4335 Computational Methods and Their Applications in Finance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 4335"
+              ],
+              "code_text": "FINA 4335",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 4335"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 4520 Mobile Application Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4520"
+              ],
+              "code_text": "CS 4520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4520"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "FINA 2730 Fintech and Financial Innovation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 2730"
+              ],
+              "code_text": "FINA 2730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 2730"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "FINA 4340 Blockchain Applications in Finance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 4340"
+              ],
+              "code_text": "FINA 4340",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 4340"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "FINA 4350 Applied Financial Econometrics and Data Modeling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 4350"
+              ],
+              "code_text": "FINA 4350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 4350"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "FINA 4390 Machine Learning in Finance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 4390"
+              ],
+              "code_text": "FINA 4390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 4390"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "FINA 4460 Algorithmic and Robo-Trading",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 4460"
+              ],
+              "code_text": "FINA 4460",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 4460"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "FINA 4605 Fintech Experiential Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 4605"
+              ],
+              "code_text": "FINA 4605",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 4605"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [
+        "concentrationrequirementstext"
+      ],
+      "container_id": "concentrationrequirementstextcontainer"
+    }
+  ],
+  "overview_text": "This concentration is designed for students who are interested in learning about new applications of technology in financial services, under the general heading of fintech (financial technology). In addition to mastering the foundations of finance, students in this concentration have an opportunity to learn how to leverage technology to create and improve financial services. The concentration provides both a broad and in-depth view of various fintech topics (e.g., big data, machine learning, peer-to-peer lending, blockchain, digital currencies, algorithmic trading) and allows students to develop programming skills in R and Python. These tools and knowledge are especially valued by banks, consulting firms, financial technology, and investment firms.",
+  "source_text": "Concentration in Fintech\nOnly one course may be double counted with another concentration. In addition, only one course outside of Finance may be applied to the concentration.\nCourse List\nCode\nTitle\nHours\nRequired Courses\nFINA 3303\nInvestments\n4\nor\nFINA 3301\nCorporate Finance\nChoose one option below:\n4\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nFINA 4335\nComputational Methods and Their Applications in Finance\nElectives\nComplete two of the following:\n8\nCS 4520\nMobile Application Development\nFINA 2730\nFintech and Financial Innovation\nFINA 4340\nBlockchain Applications in Finance\nFINA 4350\nApplied Financial Econometrics and Data Modeling\nFINA 4390\nMachine Learning in Finance\nFINA 4460\nAlgorithmic and Robo-Trading\nFINA 4605\nFintech Experiential Project",
+  "referenced_courses": [
+    "CS 4520",
+    "DS 2000",
+    "DS 2001",
+    "FINA 2730",
+    "FINA 3301",
+    "FINA 3303",
+    "FINA 4335",
+    "FINA 4340",
+    "FINA 4350",
+    "FINA 4390",
+    "FINA 4460",
+    "FINA 4605"
+  ],
+  "links": [],
+  "linked_requirements": [],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

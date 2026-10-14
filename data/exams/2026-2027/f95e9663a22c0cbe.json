@@ -1,0 +1,5412 @@
+{
+  "schema_version": 1,
+  "policy_year": "2026-2027",
+  "version": "f95e9663a22c0cbe",
+  "test_credit_cap": 32,
+  "retrieved_at": "2026-10-13T18:24:46.110486+00:00",
+  "sources": [
+    {
+      "kind": "ap",
+      "url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf",
+      "sha256": "cbfc9bddd85fde2d9672706437ca3e8adbe0a84cf2d65ae4353666744e9304bf"
+    },
+    {
+      "kind": "ib",
+      "url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf",
+      "sha256": "3a7c6af0636c84a28df76f147b286651bee5cf8594c0befb14a8144ff4729cf9"
+    }
+  ],
+  "exams": [
+    {
+      "id": "ap:2-d-art-and-design",
+      "name": "2-D Art and Design",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:3-d-art-and-design",
+      "name": "3-D Art and Design",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:african-american-studies",
+      "name": "African American Studies",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:art-history",
+      "name": "Art History",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:biology",
+      "name": "Biology",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:calculus-ab",
+      "name": "Calculus AB",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:calculus-bc",
+      "name": "Calculus BC",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:calculus-bc-ab-subscore",
+      "name": "Calculus BC: AB Subscore",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:chemistry",
+      "name": "Chemistry",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:chinese-language-and-culture",
+      "name": "Chinese Language and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:comparative-government-and-politics",
+      "name": "Comparative Government and Politics",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:computer-science-a",
+      "name": "Computer Science A",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:computer-science-principles",
+      "name": "Computer Science Principles",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:drawing",
+      "name": "Drawing",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:english-language-and-composition",
+      "name": "English Language and Composition",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:english-literature-and-composition",
+      "name": "English Literature and Composition",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:environmental-science",
+      "name": "Environmental Science",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:european-history",
+      "name": "European History",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:french-language-and-culture",
+      "name": "French Language and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:german-language-and-culture",
+      "name": "German Language and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:human-geography",
+      "name": "Human Geography",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:italian-language-and-culture",
+      "name": "Italian Language and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:japanese-language-and-culture",
+      "name": "Japanese Language and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:latin",
+      "name": "Latin",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:macroeconomics",
+      "name": "Macroeconomics",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:microeconomics",
+      "name": "Microeconomics",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:music-theory",
+      "name": "Music Theory",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:music-theory-aural-subscore",
+      "name": "Music Theory: Aural Subscore",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:music-theory-non-aural-subscore",
+      "name": "Music Theory: Non-aural Subscore",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:physics-1-algebra-based",
+      "name": "Physics 1: Algebra-Based",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:physics-2-algebra-based",
+      "name": "Physics 2: Algebra-Based",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:physics-c-electricity-and-magnetism",
+      "name": "Physics C: Electricity and Magnetism",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:physics-c-mechanics",
+      "name": "Physics C: Mechanics",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:precalculus",
+      "name": "Precalculus",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:psychology",
+      "name": "Psychology",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:research",
+      "name": "Research",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:seminar",
+      "name": "Seminar",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:spanish-language-and-culture",
+      "name": "Spanish Language and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:spanish-literature-and-culture",
+      "name": "Spanish Literature and Culture",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:statistics",
+      "name": "Statistics",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:united-states-government-and-politics",
+      "name": "United States Government and Politics",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:united-states-history",
+      "name": "United States History",
+      "kind": "ap"
+    },
+    {
+      "id": "ap:world-history-modern",
+      "name": "World History: Modern",
+      "kind": "ap"
+    },
+    {
+      "id": "ib:african-american-studies",
+      "name": "African American Studies",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:amharic-a-literature",
+      "name": "Amharic A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:arabic-a-language-literature",
+      "name": "Arabic A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:arabic-a-literature",
+      "name": "Arabic A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:arabic-b",
+      "name": "Arabic B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:azerbaijani-a-literature",
+      "name": "Azerbaijani A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:bengali-a-literature",
+      "name": "Bengali A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:biology",
+      "name": "Biology",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:burmese-a-literature",
+      "name": "Burmese A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:business-management",
+      "name": "Business Management",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:chemistry",
+      "name": "Chemistry",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:chinese-a-language-literature",
+      "name": "Chinese A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:chinese-a-literature",
+      "name": "Chinese A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:chinese-b",
+      "name": "Chinese B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:computer-science",
+      "name": "Computer Science",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:czech-a-literature",
+      "name": "Czech A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:dance",
+      "name": "Dance",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:danish-a-literature",
+      "name": "Danish A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:design-technology",
+      "name": "Design Technology",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:dutch-a-language-literature",
+      "name": "Dutch A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:dutch-a-literature",
+      "name": "Dutch A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:economics",
+      "name": "Economics",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:english-a-language-and-literature",
+      "name": "English A: Language and Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:english-a-literature",
+      "name": "English A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:english-b",
+      "name": "English B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:environmental-systems-and-societies",
+      "name": "Environmental Systems and Societies",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:filipino-a-literature",
+      "name": "Filipino A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:film",
+      "name": "Film",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:finnish-a-literature",
+      "name": "Finnish A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:french-a-language-literature",
+      "name": "French A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:french-a-literature",
+      "name": "French A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:french-b",
+      "name": "French B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:geography",
+      "name": "Geography",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:german-a-language-literature",
+      "name": "German A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:german-a-literature",
+      "name": "German A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:german-b",
+      "name": "German B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:global-politics",
+      "name": "Global Politics",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:hindi-a-literature",
+      "name": "Hindi A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:history-of-africa-and-the-middle-east",
+      "name": "History of Africa and the Middle East",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:history-of-asia-and-oceania",
+      "name": "History of Asia and Oceania",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:history-of-europe",
+      "name": "History of Europe",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:history-of-the-americas",
+      "name": "History of the Americas",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:hungarian-a-literature",
+      "name": "Hungarian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:indonesian-a-language-literature",
+      "name": "Indonesian A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:indonesian-a-literature",
+      "name": "Indonesian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:indonesian-b",
+      "name": "Indonesian B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:information-technology-in-a-global-society",
+      "name": "Information Technology in a Global Society",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:italian-a-language-literature",
+      "name": "Italian A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:italian-a-literature",
+      "name": "Italian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:italian-b",
+      "name": "Italian B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:japanese-a-language-literature",
+      "name": "Japanese A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:japanese-a-literature",
+      "name": "Japanese A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:japanese-b",
+      "name": "Japanese B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:korean-a-language-literature",
+      "name": "Korean A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:korean-a-literature",
+      "name": "Korean A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:korean-b",
+      "name": "Korean B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:latin",
+      "name": "Latin",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:latvian-a-literature",
+      "name": "Latvian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:malay-b",
+      "name": "Malay B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:mandarin-b",
+      "name": "Mandarin B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:mathematics-analysis-and-approaches",
+      "name": "Mathematics: Analysis and Approaches",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:mathematics-applications-and-interpretation",
+      "name": "Mathematics: Applications and Interpretation",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:modern-greek-a-language-literature",
+      "name": "Modern Greek A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:modern-greek-a-literature",
+      "name": "Modern Greek A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:music",
+      "name": "Music",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:norwegian-a-language-literature",
+      "name": "Norwegian A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:norwegian-a-literature",
+      "name": "Norwegian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:persian-a-literature",
+      "name": "Persian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:philosophy",
+      "name": "Philosophy",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:physics",
+      "name": "Physics",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:portuguese-a-language-literature",
+      "name": "Portuguese A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:portuguese-a-literature",
+      "name": "Portuguese A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:portuguese-b",
+      "name": "Portuguese B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:psychology",
+      "name": "Psychology",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:romanian-a-literature",
+      "name": "Romanian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:russian-a-language-literature",
+      "name": "Russian A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:russian-a-literature",
+      "name": "Russian A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:russian-b",
+      "name": "Russian B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:social-and-cultural-anthropology",
+      "name": "Social and Cultural Anthropology",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:spanish-a-language-literature",
+      "name": "Spanish A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:spanish-a-literature",
+      "name": "Spanish A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:spanish-b",
+      "name": "Spanish B",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:sports-exercise-and-health-science",
+      "name": "Sports, Exercise and Health Science",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:swedish-a-language-literature",
+      "name": "Swedish A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:swedish-a-literature",
+      "name": "Swedish A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:thai-a-language-literature",
+      "name": "Thai A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:thai-a-literature",
+      "name": "Thai A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:theatre",
+      "name": "Theatre",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:turkish-a-language-literature",
+      "name": "Turkish A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:turkish-a-literature",
+      "name": "Turkish A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:vietnamese-a-language-literature",
+      "name": "Vietnamese A: Language & Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:vietnamese-a-literature",
+      "name": "Vietnamese A: Literature",
+      "kind": "ib"
+    },
+    {
+      "id": "ib:visual-arts",
+      "name": "Visual Arts",
+      "kind": "ib"
+    }
+  ],
+  "rules": [
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:african-american-studies",
+          "name": "African American Studies",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "AFAM 1101",
+          "title": "Introduction to African American and Africana Studies",
+          "credits": 4.0,
+          "nupath": [
+            "DD"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "African American Studies",
+        "AFAM 1101",
+        "Introduction to African American and\nAfricana Studies",
+        "Difference/Diversity",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:0",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:2-d-art-and-design",
+          "name": "2-D Art and Design",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARTF 1220",
+          "title": "Elements of Visual Composition",
+          "credits": 2.0,
+          "nupath": [
+            "EI"
+          ]
+        },
+        {
+          "code": "ARTF 1990",
+          "title": "Elements of Visual Composition & Elective",
+          "credits": 2.0,
+          "nupath": [
+            "EI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "2-D Art and Design",
+        "ARTF 1220 (2SH)\nARTF 1990 (2SH)",
+        "Elements of Visual Composition & Elective",
+        "Creative\nExpression/Innovation\n(EI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:1",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:3-d-art-and-design",
+          "name": "3-D Art and Design",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARTF 1230",
+          "title": "Making with Form and Materials",
+          "credits": 2.0,
+          "nupath": []
+        },
+        {
+          "code": "ARTF 1990",
+          "title": "Making with Form and Materials & Elective",
+          "credits": 2.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "3-D Art and Design",
+        "ARTF1230 &\nARTF1990",
+        "Making with Form and Materials & Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:2",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:drawing",
+          "name": "Drawing",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARTF 1200",
+          "title": "Representational Drawing",
+          "credits": 2.0,
+          "nupath": [
+            "EI"
+          ]
+        },
+        {
+          "code": "ARTF 1990",
+          "title": "Representational Drawing",
+          "credits": 2.0,
+          "nupath": [
+            "EI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Art Drawing",
+        "ARTF 1200 (2SH)\nARTF 1990 (2SH)",
+        "Representational Drawing",
+        "Creative\nExpression/Innovation\n(EI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:3",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:art-history",
+          "name": "Art History",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARTH 1990",
+          "title": "Art Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Art History",
+        "ARTH1990",
+        "Art Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:4",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:biology",
+          "name": "Biology",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "BIOL 1111",
+          "title": "General Biology 1",
+          "credits": 4.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "BIOL 1112",
+          "title": "Lab for BIOL 1111",
+          "credits": 1.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "BIOL 1113",
+          "title": "General Biology 2",
+          "credits": 4.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "BIOL 1114",
+          "title": "Lab for BIOL 1113",
+          "credits": 1.0,
+          "nupath": [
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 10.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Biology",
+        "BIOL1111/1112 &\nBIOL1113/1114",
+        "General Biology 1/Lab & General Biology\n2/Lab",
+        "Natural/Designed World (ND)",
+        "10SH"
+      ],
+      "notes": [],
+      "id": "ap:5",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:calculus-ab",
+          "name": "Calculus AB",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 1341",
+          "title": "Calculus 1 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Calculus AB (or AB Subscore)",
+        "MATH1341",
+        "Calculus 1 for Science and Engineering",
+        "Formal/Quant Reasoning (FQ)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:6",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:calculus-bc-ab-subscore",
+          "name": "Calculus BC: AB Subscore",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 1341",
+          "title": "Calculus 1 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Calculus AB (or AB Subscore)",
+        "MATH1341",
+        "Calculus 1 for Science and Engineering",
+        "Formal/Quant Reasoning (FQ)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:7",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:calculus-bc",
+          "name": "Calculus BC",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 1341",
+          "title": "Calculus 1 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        },
+        {
+          "code": "MATH 1342",
+          "title": "Calculus 2 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Calculus BC",
+        "MATH1341 &\nMATH1342",
+        "Calculus 1 & Calculus 2 for Science and\nEngineering",
+        "Formal/Quant Reasoning (FQ)",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ap:8",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:research",
+          "name": "Research",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "Capstone: Research",
+        "Non-transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ap:9",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:seminar",
+          "name": "Seminar",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "Capstone: Seminar",
+        "Non-transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ap:10",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:chemistry",
+          "name": "Chemistry",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHEM 1161",
+          "title": "General Chemistry for Science Majors",
+          "credits": 4.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "CHEM 1162",
+          "title": "Lab for CHEM 1161",
+          "credits": 1.0,
+          "nupath": [
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 5.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Chemistry",
+        "CHEM1161/1162",
+        "General Chemistry for Science Majors/Lab",
+        "Natural/Designed World (ND)",
+        "5SH"
+      ],
+      "notes": [],
+      "id": "ap:11",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:chinese-language-and-culture",
+          "name": "Chinese Language and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHNS 2101",
+          "title": "Intermediate Chinese 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Chinese Language and Culture",
+        "CHNS2101",
+        "Intermediate Chinese 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:12",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:comparative-government-and-politics",
+          "name": "Comparative Government and Politics",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "POLS 1155",
+          "title": "Comparative Politics",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Comparative Government and\nPolitics",
+        "POLS1155",
+        "Comparative Politics",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:13",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:computer-science-a",
+          "name": "Computer Science A",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "CS 1990",
+          "title": "Computer Science Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Computer Science A",
+        "CS1990",
+        "Computer Science Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:14",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:computer-science-principles",
+          "name": "Computer Science Principles",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "CS 1990",
+          "title": "Computer Science Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Computer Science Principles",
+        "CS1990",
+        "Computer Science Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:15",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:english-language-and-composition",
+          "name": "English Language and Composition",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENGW 1111",
+          "title": "First-Year Writing",
+          "credits": 4.0,
+          "nupath": [
+            "WF"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "English Language and Composition",
+        "ENGW1111",
+        "First-Year Writing",
+        "Writing in the First Year (WF)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:16",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:english-literature-and-composition",
+          "name": "English Literature and Composition",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENGL 1990",
+          "title": "English Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "English Literature and Composition",
+        "ENGL1990",
+        "English Elective",
+        "",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:17",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:english-literature-and-composition",
+          "name": "English Literature and Composition",
+          "min_score": 4,
+          "level": null
+        },
+        {
+          "exam_id": "ap:english-language-and-composition",
+          "name": "English Language and Composition",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENGW 1111",
+          "title": "First-Year Writing",
+          "credits": 4.0,
+          "nupath": [
+            "WF"
+          ]
+        },
+        {
+          "code": "ENGL 1990",
+          "title": "First-Year Writing + English Elective",
+          "credits": 4.0,
+          "nupath": [
+            "WF"
+          ]
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "English Literature & Composition\nAND English Language &\nComposition",
+        "ENGW1111 +\nENGL1990",
+        "First-Year Writing + English Elective",
+        "Writing in the First Year (WF)",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ap:18",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:environmental-science",
+          "name": "Environmental Science",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENVR 1101",
+          "title": "Environmental Science",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Environmental Science",
+        "ENVR1101",
+        "Environmental Science",
+        "Natural/Designed World (ND)\n& Analyzing/Using Data (AD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:19",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:european-history",
+          "name": "European History",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1170",
+          "title": "Europe: Empires, Revolutions, Wars, and Their Aftermath",
+          "credits": 4.0,
+          "nupath": [
+            "DD",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "European History",
+        "HIST1170",
+        "Europe: Empires, Revolutions, Wars, and\nTheir Aftermath",
+        "Societies/Institutions (SI) &\nDifference/Diversity (DD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:20",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:french-language-and-culture",
+          "name": "French Language and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "FRNH 2101",
+          "title": "Intermediate French 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "French Language and Culture",
+        "FRNH2101",
+        "Intermediate French 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:21",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:german-language-and-culture",
+          "name": "German Language and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "GRMN 2101",
+          "title": "Intermediate German 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "German Language and Culture",
+        "GRMN2101",
+        "Intermediate German 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:22",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:human-geography",
+          "name": "Human Geography",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "SOCL 1990",
+          "title": "Sociology Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Human Geography",
+        "SOCL1990",
+        "Sociology Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:23",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:italian-language-and-culture",
+          "name": "Italian Language and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ITLN 2101",
+          "title": "Intermediate Italian 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Italian Language and Culture",
+        "ITLN2101",
+        "Intermediate Italian 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:24",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:japanese-language-and-culture",
+          "name": "Japanese Language and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "JPNS 2101",
+          "title": "Intermediate Japanese 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Japanese Language and Culture",
+        "JPNS2101",
+        "Intermediate Japanese 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:25",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:latin",
+          "name": "Latin",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Foreign Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Latin",
+        "FLNG1990",
+        "Foreign Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:26",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:macroeconomics",
+          "name": "Macroeconomics",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ECON 1115",
+          "title": "Principles of Macroeconomics",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Macroeconomics",
+        "ECON1115",
+        "Principles of Macroeconomics",
+        "Societies/Institutions (SI) &\nAnalyzing/Using Data (AD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:27",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:microeconomics",
+          "name": "Microeconomics",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "ECON 1116",
+          "title": "Principles of Microeconomics",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Microeconomics",
+        "ECON1116",
+        "Principles of Microeconomics",
+        "Societies/Institutions (SI) &\nAnalyzing/Using Data (AD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:28",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:music-theory",
+          "name": "Music Theory",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "MUSC 1201",
+          "title": "Music Theory 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Music Theory",
+        "MUSC1201",
+        "Music Theory 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:29",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:music-theory-aural-subscore",
+          "name": "Music Theory: Aural Subscore",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "Music Theory: Aural Subscore",
+        "Non-transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ap:30",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:music-theory-non-aural-subscore",
+          "name": "Music Theory: Non-aural Subscore",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "Music Theory: Non-aural Subscore",
+        "Non-transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ap:31",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:physics-1-algebra-based",
+          "name": "Physics 1: Algebra-Based",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "PHYS 1145",
+          "title": "Physics for Life Sciences 1",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1146",
+          "title": "Lab for PHYS 1145",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 5.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Physics 1: Algebra-Based",
+        "PHYS1145/1146",
+        "Physics for Life Sciences 1/Lab",
+        "Natural/Designed World (ND)\n& Analyzing/Using Data (AD)",
+        "5SH"
+      ],
+      "notes": [],
+      "id": "ap:32",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:physics-2-algebra-based",
+          "name": "Physics 2: Algebra-Based",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "PHYS 1147",
+          "title": "Physics for Life Sciences 2",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1148",
+          "title": "Lab for PHYS 1147",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 5.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Physics 2: Algebra-Based",
+        "PHYS1147/1148",
+        "Physics for Life Sciences 2/Lab",
+        "Natural/Designed World (ND)\n& Analyzing/Using Data (AD)",
+        "5SH"
+      ],
+      "notes": [],
+      "id": "ap:33",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:physics-c-electricity-and-magnetism",
+          "name": "Physics C: Electricity and Magnetism",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "PHYS 1155",
+          "title": "Physics for Engineering 2",
+          "credits": 3.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1156",
+          "title": "Lab for PHYS 1155",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1157",
+          "title": "Interactive Learning Seminar for PHYS 1155",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 5.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Physics C: Electricity and\nMagnetism",
+        "PHYS1155/1156 &\nPHYS1157",
+        "Physics for Engineering 2/Lab & Interactive\nLearning Seminar for PHYS 1155",
+        "Natural/Designed World (ND)\n& Analyzing/Using Data (AD)",
+        "5SH"
+      ],
+      "notes": [],
+      "id": "ap:34",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:physics-c-mechanics",
+          "name": "Physics C: Mechanics",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "PHYS 1151",
+          "title": "Physics for Engineering 1",
+          "credits": 3.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1152",
+          "title": "Lab for PHYS 1151",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1153",
+          "title": "Interactive Learning Seminar for PHYS 1151",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 5.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Physics C: Mechanics",
+        "PHYS1151/1152 &\n1153",
+        "Physics for Engineering 1/Lab & Interactive\nLearning Seminar for PHYS 1151",
+        "Natural/Designed World (ND) &\nAnalyzing/Using Data (AD)",
+        "5SH"
+      ],
+      "notes": [],
+      "id": "ap:35",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:psychology",
+          "name": "Psychology",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "PSYC 1101",
+          "title": "Foundations of Psychology",
+          "credits": 4.0,
+          "nupath": [
+            "ND",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Psychology",
+        "PSYC1101",
+        "Foundations of Psychology",
+        "Natural/Designed World (ND)\n&\nSocieties/Institutions (SI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:36",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:precalculus",
+          "name": "Precalculus",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 1120",
+          "title": "Precalculus",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Precalculus",
+        "MATH 1120",
+        "Precalculus",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:37",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:spanish-language-and-culture",
+          "name": "Spanish Language and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "SPNS 2101",
+          "title": "Intermediate Spanish 1",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Spanish Language and Culture",
+        "SPNS2101",
+        "Intermediate Spanish 1",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:38",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:spanish-language-and-culture",
+          "name": "Spanish Language and Culture",
+          "min_score": 4,
+          "level": null
+        },
+        {
+          "exam_id": "ap:spanish-literature-and-culture",
+          "name": "Spanish Literature and Culture",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "SPNS 2101",
+          "title": "Intermediate Spanish 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "SPNS 2990",
+          "title": "Intermediate Spanish 1 and Spanish Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Spanish Language and Culture and\nSpanish Literature and",
+        "SPNS2101 and\nSPNS2990",
+        "Intermediate Spanish 1 and Spanish\nElective",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ap:39",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:statistics",
+          "name": "Statistics",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 2280",
+          "title": "Statistics and Software",
+          "credits": 4.0,
+          "nupath": [
+            "AD"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Statistics",
+        "MATH2280",
+        "Statistics and Software",
+        "Analyzing/Using Data (AD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:40",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:united-states-government-and-politics",
+          "name": "United States Government and Politics",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "POLS 1150",
+          "title": "American Government",
+          "credits": 4.0,
+          "nupath": [
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "United States Government and",
+        "POLS1150",
+        "American Government",
+        "Societies/Institutions (SI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:41",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:united-states-history",
+          "name": "United States History",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1130",
+          "title": "Introduction to the History of the United States",
+          "credits": 4.0,
+          "nupath": [
+            "DD",
+            "IC"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "United States History",
+        "HIST1130",
+        "Introduction to the History of the United\nStates",
+        "Interpreting Culture (IC) &\nDifference/Diversity (DD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:42",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ap:world-history-modern",
+          "name": "World History: Modern",
+          "min_score": 4,
+          "level": null
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1990",
+          "title": "History Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "World History: Modern",
+        "HIST1990",
+        "History Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ap:43",
+      "kind": "ap",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/AP-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:african-american-studies",
+          "name": "African American Studies",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "AFAM 1101",
+          "title": "Introduction to African American and Africana Studies",
+          "credits": 4.0,
+          "nupath": [
+            "DD"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "African American Studies",
+        "AFAM 1101",
+        "Introduction to African American and Africana\nStudies",
+        "NUpath Difference/Diversity",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:0",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:biology",
+          "name": "Biology",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "BIOL 1111",
+          "title": "General Biology 1",
+          "credits": 4.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "BIOL 1112",
+          "title": "Lab for BIOL 1111",
+          "credits": 1.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "BIOL 1113",
+          "title": "General Biology 2",
+          "credits": 4.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "BIOL 1114",
+          "title": "Lab for BIOL 1113",
+          "credits": 1.0,
+          "nupath": [
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 10.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Biology",
+        "BIOL1111/1112 &\nBIOL1113/1114",
+        "General Biology 1/Lab & General Biology\n2/Lab",
+        "Natural/Designed World (ND)",
+        "10SH"
+      ],
+      "notes": [],
+      "id": "ib:1",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:business-management",
+          "name": "Business Management",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "BUSN 1990",
+          "title": "Business Administration Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Business Management",
+        "BUSN1990",
+        "Business Administration Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:2",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:chemistry",
+          "name": "Chemistry",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHEM 1161",
+          "title": "General Chemistry for Science Majors",
+          "credits": 4.0,
+          "nupath": [
+            "ND"
+          ]
+        },
+        {
+          "code": "CHEM 1162",
+          "title": "Lab for CHEM 1161",
+          "credits": 1.0,
+          "nupath": [
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 5.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Chemistry",
+        "CHEM1161/1162",
+        "General Chemistry for Science Majors/Lab",
+        "Natural/Designed World (ND)",
+        "5SH"
+      ],
+      "notes": [],
+      "id": "ib:3",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:computer-science",
+          "name": "Computer Science",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "CS 1990",
+          "title": "N/A",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Computer Science",
+        "CS 1990",
+        "N/A",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:4",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:dance",
+          "name": "Dance",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "Dance",
+        "Non-Transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ib:5",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:design-technology",
+          "name": "Design Technology",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARTG 1250",
+          "title": "Design Process Context and Systems",
+          "credits": 4.0,
+          "nupath": [
+            "EI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Design Technology",
+        "ARTG1250",
+        "Design Process Context and Systems",
+        "Creative Expression/Innovation\n(EI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:6",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:economics",
+          "name": "Economics",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ECON 1115",
+          "title": "Principles of Macroeconomics",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "SI"
+          ]
+        },
+        {
+          "code": "ECON 1116",
+          "title": "Principles of Microeconomics",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Economics",
+        "ECON1115 &\nECON1116",
+        "Principles of Macroeconomics & Principles of\nMicroeconomics",
+        "Societies/Institutions (SI) &\nAnalyzing/Using Data (AD)",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:7",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:english-a-language-and-literature",
+          "name": "English A: Language and Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENGW 1111",
+          "title": "First-Year Writing",
+          "credits": 4.0,
+          "nupath": [
+            "WF"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "English A: Language andLiterature",
+        "ENGW1111",
+        "First-Year Writing",
+        "Writing in the First Year (WF)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:8",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:english-a-literature",
+          "name": "English A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENGW 1111",
+          "title": "First-Year Writing",
+          "credits": 4.0,
+          "nupath": [
+            "WF"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "English A: Literature",
+        "ENGW1111",
+        "First-Year Writing",
+        "Writing in the First Year (WF)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:9",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:english-b",
+          "name": "English B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "English B",
+        "Non-Transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ib:10",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:environmental-systems-and-societies",
+          "name": "Environmental Systems and Societies",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ENVR 1101",
+          "title": "Environmental Science",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "ENVR 1990",
+          "title": "Environmental Science & Elective",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Environmental Systems and Societies",
+        "ENVR 1101 & 1990",
+        "Environmental Science & Elective",
+        "NUpath Analyzing/Using Data,\nNUpath Natural/Designed World",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:11",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:film",
+          "name": "Film",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "MSCR 1990",
+          "title": "Media and Screen Studies Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 1,
+      "raw_row": [
+        "Film",
+        "MSCR1990",
+        "Media and Screen Studies Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:12",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:geography",
+          "name": "Geography",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 1,
+      "raw_row": [
+        "Geography",
+        "Non-Transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ib:13",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:global-politics",
+          "name": "Global Politics",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "POLS 1160",
+          "title": "International Relations",
+          "credits": 4.0,
+          "nupath": [
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Global Politics",
+        "POLS1160",
+        "International Relations",
+        "Societies/Institutions (SI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:14",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:history-of-africa-and-the-middle-east",
+          "name": "History of Africa and the Middle East",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1990",
+          "title": "History Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "History of Africa and the\nMiddle East",
+        "HIST1990",
+        "History Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:15",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:history-of-asia-and-oceania",
+          "name": "History of Asia and Oceania",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1150",
+          "title": "East Asian Studies",
+          "credits": 4.0,
+          "nupath": [
+            "DD",
+            "IC"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "History of Asia and Oceania",
+        "HIST1150",
+        "East Asian Studies",
+        "Interpreting Culture (IC) &\nDifference/Diversity (DD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:16",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:history-of-europe",
+          "name": "History of Europe",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1170",
+          "title": "Europe: Empires, Revolutions, Wars, and Their Aftermath",
+          "credits": 4.0,
+          "nupath": [
+            "DD",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "History of Europe",
+        "HIST1170",
+        "Europe: Empires, Revolutions, Wars, and Their\nAftermath",
+        "Societies/Institutions (SI) &\nDifference/Diversity (DD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:17",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:history-of-the-americas",
+          "name": "History of the Americas",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "HIST 1130",
+          "title": "Introduction to the History of the United States",
+          "credits": 4.0,
+          "nupath": [
+            "DD",
+            "IC"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "History of the Americas",
+        "HIST1130",
+        "Introduction to the History of the United\nStates",
+        "Interpreting Culture (IC) &\nDifference/Diversity (DD)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:18",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:information-technology-in-a-global-society",
+          "name": "Information Technology in a Global Society",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 2,
+      "raw_row": [
+        "Information Technology in a\nGlobal Society",
+        "Non-Transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ib:19",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:mathematics-analysis-and-approaches",
+          "name": "Mathematics: Analysis and Approaches",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 1341",
+          "title": "Calculus 1 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        },
+        {
+          "code": "MATH 1342",
+          "title": "Calculus 2 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Mathematics: Analysis and\nApproaches",
+        "MATH1341 &\nMATH1342",
+        "Calculus 1 for Science and Engineering &\nCalculus 2 for Science and Engineering",
+        "Formal/Quant Reasoning (FD)",
+        "8SH"
+      ],
+      "notes": [
+        "Chart labels Formal/Quant Reasoning as FD; normalized to catalog code FQ."
+      ],
+      "id": "ib:20",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:mathematics-applications-and-interpretation",
+          "name": "Mathematics: Applications and Interpretation",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "MATH 1341",
+          "title": "Calculus 1 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        },
+        {
+          "code": "MATH 1342",
+          "title": "Calculus 2 for Science and Engineering",
+          "credits": 4.0,
+          "nupath": [
+            "FQ"
+          ]
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Mathematics: Applications and\nInterpretation",
+        "MATH1341 &\nMATH1342",
+        "Calculus 1 for Science and Engineering &\nCalculus 2 for Science and Engineering",
+        "Formal/Quant Reasoning (FD)",
+        "8SH"
+      ],
+      "notes": [
+        "Chart labels Formal/Quant Reasoning as FD; normalized to catalog code FQ."
+      ],
+      "id": "ib:21",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:music",
+          "name": "Music",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "MUSC 1990",
+          "title": "Music Elective & Music Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Music",
+        "MUSC1990",
+        "Music Elective & Music Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:22",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:philosophy",
+          "name": "Philosophy",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "PHIL 1101",
+          "title": "Introduction to Philosophy",
+          "credits": 4.0,
+          "nupath": [
+            "ER",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Philosophy",
+        "PHIL1101",
+        "Introduction to Philosophy",
+        "Societies/Institutions (SI) &\nEthical Reasoning (ER)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:23",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:physics",
+          "name": "Physics",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "PHYS 1161",
+          "title": "Physics 1",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1162",
+          "title": "Lab for PHYS 1161",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1165",
+          "title": "Physics 2",
+          "credits": 4.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        },
+        {
+          "code": "PHYS 1166",
+          "title": "Lab for PHYS 1165",
+          "credits": 1.0,
+          "nupath": [
+            "AD",
+            "ND"
+          ]
+        }
+      ],
+      "total_credits": 10.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Physics",
+        "PHYS1161/1162 &\nPHYS1165/1166",
+        "Physics 1/Lab & Physics 2/Lab",
+        "Natural/Designed World (ND) &\nAnalyzing/Using Data (AD)",
+        "10SH"
+      ],
+      "notes": [],
+      "id": "ib:24",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:psychology",
+          "name": "Psychology",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "PSYC 1101",
+          "title": "Foundations of Psychology",
+          "credits": 4.0,
+          "nupath": [
+            "ND",
+            "SI"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Psychology",
+        "PSYC1101",
+        "Foundations of Psychology",
+        "Natural/Designed World (ND) &\nSocieties/Institutions (SI)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:25",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:social-and-cultural-anthropology",
+          "name": "Social and Cultural Anthropology",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ANTH 1101",
+          "title": "Peoples and Cultures",
+          "credits": 4.0,
+          "nupath": [
+            "IC"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Social and Cultural Anthropology",
+        "ANTH1101",
+        "Peoples and Cultures",
+        "Interpreting Culture (IC)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:26",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:sports-exercise-and-health-science",
+          "name": "Sports, Exercise and Health Science",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [],
+      "total_credits": 0,
+      "eligible": false,
+      "page": 2,
+      "raw_row": [
+        "Sports, Exercise and Health\nScience",
+        "Non-Transferable",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      "notes": [],
+      "id": "ib:27",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:theatre",
+          "name": "Theatre",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "THTR 1101",
+          "title": "Introduction to Theatre",
+          "credits": 4.0,
+          "nupath": [
+            "EI",
+            "IC"
+          ]
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Theatre",
+        "THTR1101",
+        "Introduction to Theatre",
+        "Creative Expression/Innovation\n(EI) & Interpreting Culture (IC)",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:28",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:visual-arts",
+          "name": "Visual Arts",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARTF 1990",
+          "title": "Art – Fundamentals Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 2,
+      "raw_row": [
+        "Visual Arts",
+        "ARTF1990",
+        "Art – Fundamentals Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:29",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:amharic-a-literature",
+          "name": "Amharic A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Amharic A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:30",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:arabic-a-literature",
+          "name": "Arabic A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARAB 1990",
+          "title": "Arabic Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Arabic A: Literature\n-OR-\nArabic A: Language & Literature",
+        "ARAB1990",
+        "Arabic Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:31",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:arabic-a-language-literature",
+          "name": "Arabic A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARAB 1990",
+          "title": "Arabic Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Arabic A: Literature\n-OR-\nArabic A: Language & Literature",
+        "ARAB1990",
+        "Arabic Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:32",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:arabic-b",
+          "name": "Arabic B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ARAB 1101",
+          "title": "Elementary Arabic 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "ARAB 1102",
+          "title": "Elementary Arabic 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Arabic B",
+        "ARAB1101 &\nARAB1102",
+        "Elementary Arabic 1 & Elementary\nArabic 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:33",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:azerbaijani-a-literature",
+          "name": "Azerbaijani A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Azerbaijani A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:34",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:bengali-a-literature",
+          "name": "Bengali A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Bengali A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:35",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:burmese-a-literature",
+          "name": "Burmese A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Burmese A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:36",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:chinese-a-literature",
+          "name": "Chinese A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHNS 1990",
+          "title": "Chinese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Chinese A: Literature\n-OR-\nChinese A: Language & Literature",
+        "CHNS1990",
+        "Chinese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:37",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:chinese-a-language-literature",
+          "name": "Chinese A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHNS 1990",
+          "title": "Chinese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Chinese A: Literature\n-OR-\nChinese A: Language & Literature",
+        "CHNS1990",
+        "Chinese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:38",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:chinese-b",
+          "name": "Chinese B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHNS 1101",
+          "title": "Elementary Chinese 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "CHNS 1102",
+          "title": "Elementary Chinese 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Chinese B",
+        "CHNS1101 &\nCHNS1102",
+        "Elementary Chinese 1 & Elementary\nChinese 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:39",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:czech-a-literature",
+          "name": "Czech A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Czech A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:40",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:danish-a-literature",
+          "name": "Danish A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Danish A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:41",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:dutch-a-literature",
+          "name": "Dutch A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Dutch A: Literature\n-OR-\nDutch A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:42",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:dutch-a-language-literature",
+          "name": "Dutch A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Dutch A: Literature\n-OR-\nDutch A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:43",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:filipino-a-literature",
+          "name": "Filipino A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Filipino A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:44",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:finnish-a-literature",
+          "name": "Finnish A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 3,
+      "raw_row": [
+        "Finnish A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:45",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:french-a-literature",
+          "name": "French A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FRNH 1990",
+          "title": "French Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "French A: Literature\n-OR-\nFrench A: Language & Literature",
+        "FRNH1990",
+        "French Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:46",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:french-a-language-literature",
+          "name": "French A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FRNH 1990",
+          "title": "French Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "French A: Literature\n-OR-\nFrench A: Language & Literature",
+        "FRNH1990",
+        "French Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:47",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:french-b",
+          "name": "French B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FRNH 1101",
+          "title": "Elementary French 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "FRNH 1102",
+          "title": "Elementary French 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "French B",
+        "FRNH1101 &\nFRNH1102",
+        "Elementary French 1 & Elementary French 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:48",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:german-a-literature",
+          "name": "German A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "GRMN 1990",
+          "title": "German Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "German A: Literature\n-OR-\nGerman A: Language & Literature",
+        "GRMN1990",
+        "German Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:49",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:german-a-language-literature",
+          "name": "German A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "GRMN 1990",
+          "title": "German Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "German A: Literature\n-OR-\nGerman A: Language & Literature",
+        "GRMN1990",
+        "German Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:50",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:german-b",
+          "name": "German B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "GRMN 1101",
+          "title": "Elementary German 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "GRMN 1102",
+          "title": "Elementary German 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "German B",
+        "GRMN1101 &\nGRMN1102",
+        "Elementary German 1 & Elementary\nGerman 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:51",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:hindi-a-literature",
+          "name": "Hindi A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Hindi A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:52",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:hungarian-a-literature",
+          "name": "Hungarian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Hungarian A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:53",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:indonesian-a-literature",
+          "name": "Indonesian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Indonesian A: Literature\n-OR-\nIndonesian A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:54",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:indonesian-a-language-literature",
+          "name": "Indonesian A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Indonesian A: Literature\n-OR-\nIndonesian A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:55",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:indonesian-b",
+          "name": "Indonesian B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Indonesian B",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:56",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:italian-a-literature",
+          "name": "Italian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ITLN 1990",
+          "title": "Italian Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Italian A: Literature\n-OR-\nItalian A: Language & Literature",
+        "ITLN1990",
+        "Italian Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:57",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:italian-a-language-literature",
+          "name": "Italian A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ITLN 1990",
+          "title": "Italian Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Italian A: Literature\n-OR-\nItalian A: Language & Literature",
+        "ITLN1990",
+        "Italian Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:58",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:italian-b",
+          "name": "Italian B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "ITLN 1101",
+          "title": "Elementary Italian 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "ITLN 1102",
+          "title": "Elementary Italian 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Italian B",
+        "ITLN1101 & ITLN\n1102",
+        "Elementary Italian 1 & Elementary\nItalian 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:59",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:japanese-a-literature",
+          "name": "Japanese A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "JPNS 1990",
+          "title": "Japanese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Japanese A: Literature\n-OR-\nJapanese A: Language & Literature",
+        "JPNS1990",
+        "Japanese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:60",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:japanese-a-language-literature",
+          "name": "Japanese A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "JPNS 1990",
+          "title": "Japanese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Japanese A: Literature\n-OR-\nJapanese A: Language & Literature",
+        "JPNS1990",
+        "Japanese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:61",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:japanese-b",
+          "name": "Japanese B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "JPNS 1101",
+          "title": "Elementary Japanese 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "JPNS 1102",
+          "title": "Elementary Japanese 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Japanese B",
+        "JPNS1101 &\nJPNS1102",
+        "Elementary Japanese 1 & Elementary\nJapanese 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:62",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:korean-a-literature",
+          "name": "Korean A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Korean A: Literature\n-OR-\nKorean A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:63",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:korean-a-language-literature",
+          "name": "Korean A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Korean A: Literature\n-OR-\nKorean A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:64",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:korean-b",
+          "name": "Korean B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 4,
+      "raw_row": [
+        "Korean B",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:65",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:latin",
+          "name": "Latin",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Latin",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:66",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:latvian-a-literature",
+          "name": "Latvian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Latvian A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:67",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:malay-b",
+          "name": "Malay B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Malay B",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:68",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:mandarin-b",
+          "name": "Mandarin B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "CHNS 1990",
+          "title": "Chinese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Mandarin B",
+        "CHNS1990",
+        "Chinese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:69",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:modern-greek-a-literature",
+          "name": "Modern Greek A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Modern Greek A: Literature\n- OR-\nModern Greek A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:70",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:modern-greek-a-language-literature",
+          "name": "Modern Greek A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Modern Greek A: Literature\n- OR-\nModern Greek A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:71",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:norwegian-a-literature",
+          "name": "Norwegian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Norwegian A: Literature\n-OR-\nNorwegian A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:72",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:norwegian-a-language-literature",
+          "name": "Norwegian A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Norwegian A: Literature\n-OR-\nNorwegian A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:73",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:persian-a-literature",
+          "name": "Persian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Persian A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:74",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:portuguese-a-literature",
+          "name": "Portuguese A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "PORT 1990",
+          "title": "Portuguese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Portuguese A: Literature\n-OR-\nPortuguese A: Language & Literature",
+        "PORT1990",
+        "Portuguese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:75",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:portuguese-a-language-literature",
+          "name": "Portuguese A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "PORT 1990",
+          "title": "Portuguese Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Portuguese A: Literature\n-OR-\nPortuguese A: Language & Literature",
+        "PORT1990",
+        "Portuguese Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:76",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:portuguese-b",
+          "name": "Portuguese B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "PORT 1102",
+          "title": "Elementary Portuguese 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Portuguese B",
+        "PORT1102",
+        "Elementary Portuguese 2",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:77",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:romanian-a-literature",
+          "name": "Romanian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Romanian A: Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:78",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:russian-a-literature",
+          "name": "Russian A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "RSSN 1990",
+          "title": "Russian Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Russian A: Literature\n-OR-\nRussian A: Language & Literature",
+        "RSSN1990",
+        "Russian Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:79",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:russian-a-language-literature",
+          "name": "Russian A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "RSSN 1990",
+          "title": "Russian Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Russian A: Literature\n-OR-\nRussian A: Language & Literature",
+        "RSSN1990",
+        "Russian Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:80",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:russian-b",
+          "name": "Russian B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "RSSN 1101",
+          "title": "Elementary Russian 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "RSSN 1102",
+          "title": "Elementary Russian 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Russian B",
+        "RSSN1101 &\nRSSN1102",
+        "Elementary Russian 1 & Elementary\nRussian 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:81",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:spanish-a-literature",
+          "name": "Spanish A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "SPNS 1990",
+          "title": "Spanish Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Spanish A: Literature\n-OR-\nSpanish A: Language & Literature",
+        "SPNS1990",
+        "Spanish Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:82",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:spanish-a-language-literature",
+          "name": "Spanish A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "SPNS 1990",
+          "title": "Spanish Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Spanish A: Literature\n-OR-\nSpanish A: Language & Literature",
+        "SPNS1990",
+        "Spanish Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:83",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:spanish-b",
+          "name": "Spanish B",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "SPNS 1101",
+          "title": "Elementary Spanish 1",
+          "credits": 4.0,
+          "nupath": []
+        },
+        {
+          "code": "SPNS 1102",
+          "title": "Elementary Spanish 2",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 8.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Spanish B",
+        "SPNS1101 &\nSPNS1102",
+        "Elementary Spanish 1 & Elementary\nSpanish 2",
+        "N/A",
+        "8SH"
+      ],
+      "notes": [],
+      "id": "ib:84",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:swedish-a-literature",
+          "name": "Swedish A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Swedish A: Literature\n-OR-\nSwedish A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:85",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:swedish-a-language-literature",
+          "name": "Swedish A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 5,
+      "raw_row": [
+        "Swedish A: Literature\n-OR-\nSwedish A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:86",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:thai-a-literature",
+          "name": "Thai A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 6,
+      "raw_row": [
+        "Thai A: Literature\n-OR-\nThai A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:87",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:thai-a-language-literature",
+          "name": "Thai A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 6,
+      "raw_row": [
+        "Thai A: Literature\n-OR-\nThai A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:88",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:turkish-a-literature",
+          "name": "Turkish A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 6,
+      "raw_row": [
+        "Turkish A: Literature\n-OR-\nTurkish A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:89",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:turkish-a-language-literature",
+          "name": "Turkish A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 6,
+      "raw_row": [
+        "Turkish A: Literature\n-OR-\nTurkish A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:90",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:vietnamese-a-literature",
+          "name": "Vietnamese A: Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 6,
+      "raw_row": [
+        "Vietnamese A: Literature\n-OR-\nVietnamese A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:91",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    },
+    {
+      "requirements": [
+        {
+          "exam_id": "ib:vietnamese-a-language-literature",
+          "name": "Vietnamese A: Language & Literature",
+          "min_score": 5,
+          "level": "HL"
+        }
+      ],
+      "awards": [
+        {
+          "code": "FLNG 1990",
+          "title": "Language Elective",
+          "credits": 4.0,
+          "nupath": []
+        }
+      ],
+      "total_credits": 4.0,
+      "eligible": true,
+      "page": 6,
+      "raw_row": [
+        "Vietnamese A: Literature\n-OR-\nVietnamese A: Language & Literature",
+        "FLNG1990",
+        "Language Elective",
+        "N/A",
+        "4SH"
+      ],
+      "notes": [],
+      "id": "ib:92",
+      "kind": "ib",
+      "source_url": "https://admissions.northeastern.edu/wp-content/uploads/2026/06/IB-Transfer-Credit-Policy.pdf"
+    }
+  ]
+}

@@ -32,6 +32,7 @@ import re
 import sqlite3
 import threading
 import time
+import uuid
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 import openai
@@ -40,6 +41,8 @@ from werkzeug.exceptions import RequestEntityTooLarge
 import ai_providers
 from ai_providers import AIError
 import planner
+import exam_credit
+import catalog_editions
 from planner import PlanError
 
 load_dotenv()
@@ -325,9 +328,15 @@ def lookup_program(program_id: str) -> dict | None:
     return next((p for p in list_programs() if p["id"] == program_id), None)
 
 
-def lookup_concentration_catalog(program_id: str) -> dict:
+def lookup_concentration_catalog(program_id: str, catalog_year=None) -> dict:
     conn = get_connection()
     try:
+        if catalog_year:
+            program = lookup_program(program_id)
+            archived = catalog_editions.program_data(conn, DB_FILE, program, catalog_year) if program else None
+            if archived:
+                return {'available': True, 'catalog_year': catalog_year, 'source_url': archived['source_url'],
+                        'groups': archived['groups'], 'semantics_validated': False}
         row = conn.execute('SELECT catalog_year, source_url, groups_json FROM concentration_programs WHERE program_id = ?',
                            (program_id,)).fetchone()
         if row:
@@ -340,13 +349,13 @@ def lookup_concentration_catalog(program_id: str) -> dict:
     return {'available': False, 'catalog_year': None, 'groups': []}
 
 
-def resolve_concentrations(program: dict | None, selected) -> list[dict]:
+def resolve_concentrations(program: dict | None, selected, catalog_year=None) -> list[dict]:
     """Validate ownership and explicit selection restrictions before using context."""
     if not program or not isinstance(selected, list) or len(selected) > 20 or any(not isinstance(s, str) for s in selected):
         raise ValueError('Choose concentrations for your selected major.')
     if len(set(selected)) != len(selected):
         raise ValueError('Choose each concentration only once.')
-    catalog = lookup_concentration_catalog(program['id'])
+    catalog = lookup_concentration_catalog(program['id'], catalog_year) if catalog_year else lookup_concentration_catalog(program['id'])
     groups = catalog['groups']
     allowed = {option['id']: option for group in groups for option in group['options']}
     if any(option_id not in allowed for option_id in selected):
@@ -543,10 +552,13 @@ def _client() -> openai.OpenAI:
                          timeout=TIMEOUT_SECONDS, max_retries=0)
 
 
-def generate_analysis(course_prompt: str, system: str = SYSTEM_INSTRUCTION) -> dict:
-    """Run one OpenRouter completion, free-only, and return the validated text (Markdown for breakdowns)."""
+def generate_analysis(course_prompt: str, system: str = SYSTEM_INSTRUCTION, output: dict | None = None) -> dict:
+    """Run one OpenRouter completion, free-only, and return the validated text (Markdown for breakdowns).
+    `output` ({"name", "schema"}) adds native JSON-schema output only when every routed model is
+    documented to support it; otherwise the request is unchanged and the prompt carries the format."""
     if not API_KEY:
         raise AIError(503, "ai_not_configured", "AI analysis is not configured on the server.")
+    schema = bool(output) and ai_providers.openrouter_schema_ok([PRIMARY_MODEL, *FALLBACK_MODELS])
 
     extra_body = {
         "provider": {
@@ -558,6 +570,9 @@ def generate_analysis(course_prompt: str, system: str = SYSTEM_INSTRUCTION) -> d
     }
     if FALLBACK_MODELS:
         extra_body["models"] = FALLBACK_MODELS
+    if schema:  # require_parameters above keeps routing to endpoints that honor it
+        extra_body["response_format"] = {"type": "json_schema", "json_schema": {
+            "name": output["name"], "strict": True, "schema": output["schema"]}}
 
     started = time.monotonic()
     try:
@@ -600,6 +615,7 @@ def generate_analysis(course_prompt: str, system: str = SYSTEM_INSTRUCTION) -> d
         "id": completion.id,
         "usage": completion.usage.model_dump(exclude_none=True) if completion.usage else None,
         "elapsed_ms": round((time.monotonic() - started) * 1000),
+        "output_mode": "schema" if schema else "prompt" if output else "text",
     }
 
 
@@ -610,6 +626,13 @@ def api_search():
     query = request.args.get("q", "").strip()
     if not query:
         return jsonify([])
+    archived = catalog_editions.load(DB_FILE, request.args.get('catalog_year'))
+    if archived:
+        query_key = query.casefold().replace(' ', '')
+        results = [{**c, 'department_code': code.split()[0].lower(), 'catalog_year': request.args['catalog_year']}
+                   for code, c in archived['courses'].items()
+                   if query_key in (code + c['title']).casefold().replace(' ', '')]
+        return jsonify(results[:20])
     return jsonify(search_courses(query)["results"])
 
 
@@ -653,11 +676,26 @@ def api_concentrations(program_id):
     program = lookup_program(program_id)
     if not program:
         return jsonify({'error': 'Unknown major.', 'code': 'unknown_major'}), 404
-    return jsonify({'program': program, **lookup_concentration_catalog(program_id)})
+    return jsonify({'program': program, **lookup_concentration_catalog(program_id, request.args.get('catalog_year'))})
 
 
 @app.route("/api/course/<dept>/<number>")
 def api_course(dept, number):
+    archived = catalog_editions.load(DB_FILE, request.args.get('catalog_year'))
+    if archived:
+        code = f'{dept.upper()} {number}'
+        original = archived['courses'].get(code)
+        if not original:
+            return jsonify({'error': 'Course not found in the selected catalog'}), 404
+        companions = set(original.get('corequisites', []))
+        companions.update(c for c, record in archived['courses'].items() if COMPANION_TITLE.fullmatch(record['title'])
+                          and COMPANION_TITLE.fullmatch(record['title'])[1] == code)
+        return jsonify({**original, 'department_code': dept.lower(), 'catalog_year': request.args['catalog_year'],
+                        'schedule_context': [], 'plan_dataset': lookup_plan_dataset(),
+                        'prerequisites_text': format_prereqs(original['prerequisites']),
+                        'companions': [{'code': c, 'title': archived['courses'][c]['title'],
+                                        'credits': archived['courses'][c]['credits'], 'why': 'published companion'}
+                                       for c in sorted(companions) if c in archived['courses']]})
     course = lookup_course(dept, number)
     if not course:
         return jsonify({"error": "Course not found"}), 404
@@ -742,15 +780,34 @@ PLANNER_BODY_LIMIT = 128 * 1024  # 40 terms and 300 records fit well inside; oth
 _generations = threading.BoundedSemaphore(2)  # solver runs are CPU-bound; ponytail: a queue if latency demands
 
 
+@app.route('/api/exams/catalog')
+def api_exam_catalog():
+    try:
+        return jsonify(exam_credit.catalog(request.args.get('policy_year'), request.args.get('version')))
+    except exam_credit.ExamCreditError as error:
+        return jsonify({'error': str(error)}), 503
+
+
+@app.route('/api/exams/resolve', methods=['POST'])
+def api_exam_resolve():
+    data = request.get_json(silent=True)
+    try:
+        if not isinstance(data, dict) or 'exams' not in data:
+            raise exam_credit.ExamCreditError('Send an AP/IB exam list.')
+        return jsonify(exam_credit.resolve(data['exams']))
+    except exam_credit.ExamCreditError as error:
+        return jsonify({'error': str(error)}), 400
+
+
 def planner_context(program_id, catalog_year, concentration_ids):
     program = lookup_program(program_id) if isinstance(program_id, str) and len(program_id) <= 200 else None
     if not program:
         raise PlanError(404, 'unknown_major', 'Unknown major. Choose it again from the major list.')
     try:
-        options = resolve_concentrations(program, concentration_ids)
+        options = resolve_concentrations(program, concentration_ids, catalog_year)
     except ValueError as error:
         raise PlanError(400, 'invalid_concentration', str(error))
-    groups = lookup_concentration_catalog(program_id)['groups']
+    groups = lookup_concentration_catalog(program_id, catalog_year)['groups']
     conn = get_connection()
     try:
         return planner.planning_context(conn, DB_FILE, program, catalog_year if isinstance(catalog_year, str) else '',
@@ -765,7 +822,11 @@ def api_planning_context(program_id):
     try:
         context = planner_context(program_id, request.args.get('catalog_year', ''), ids.split(',') if ids else [])
     except PlanError as e:
-        return jsonify(e.body), e.status
+        if e.body.get('code') != 'invalid_concentration':
+            return jsonify(e.body), e.status
+        context = planner_context(program_id, request.args.get('catalog_year', ''), [])
+        context['selection_errors'].append(e.body['error'])
+        context['capability'] = 'needs_selection'
     return jsonify(planner.public_context(context))
 
 
@@ -794,6 +855,64 @@ def api_planner_validate():
         return jsonify(e.body), e.status
 
 
+# Completed-but-unusable output, timeouts, rate limits, and outages only cost the optional ranking.
+# Key, billing, access, model, and configuration problems stay errors the student can fix.
+RANKING_RECOVERABLE = {'bad_response', 'incomplete_response', 'ai_timeout', 'rate_limited', 'ai_unavailable',
+                       'response_blocked'}
+RANKING_MESSAGES = {
+    'fallback': 'AI preferences weren’t available, so these suggestions were built without them.',
+    'response_blocked': 'The AI declined to rank electives, so these suggestions were built without its preferences.',
+    'no_candidates': 'No elective choices needed ranking, so the AI wasn’t used.',
+    'no_interests': 'Add your interests in Timeline and preferences to have the AI rank electives. These suggestions '
+                    'were built without it.',
+    'no_preference': 'The AI found no electives that clearly match your interests, so none were preferred.',
+}
+
+
+def _rank_electives(plan, context, config):
+    """(ranking or None, generation metadata); unrecoverable AI errors are raised.
+    Never retries: one AI call at most, and a failed ranking falls back to deterministic placement."""
+    candidates = planner.ranking_candidates(context)
+    if not candidates or not re.search(r'[A-Za-z]{2}', plan['interests']):
+        why = 'no_candidates' if not candidates else 'no_interests'
+        return None, {'ranking_status': 'not_needed', 'message': RANKING_MESSAGES[why]}
+    codes = [c['code'] for c in candidates]
+    request_id = uuid.uuid4().hex[:12]
+    source = config[0] if config else 'default'
+    attempted = {'provider': config[0] if config else 'openrouter', 'model': config[2] if config else PRIMARY_MODEL}
+    output = {'name': 'elective_ranking', 'schema': planner.ranking_schema(codes)}
+    prompt = planner.ranking_prompt(candidates, plan['interests'])
+    started, result = time.monotonic(), None
+    try:
+        result = ai_providers.generate(*config, planner.RANKING_SYSTEM, prompt, output) if config \
+            else generate_analysis(prompt, planner.RANKING_SYSTEM, output)
+        ranking = planner.parse_ranking(result['analysis'], set(codes))
+    except AIError as e:
+        code = e.body['code']
+        app.logger.warning('planner ranking failed request=%s source=%s model=%s code=%s ms=%d fallback=%s',
+                           request_id, source, attempted['model'], code, round((time.monotonic() - started) * 1000),
+                           code in RANKING_RECOVERABLE)
+        if code not in RANKING_RECOVERABLE:
+            raise
+        return None, {'ranking_status': 'fallback', 'fallback_code': code, 'attempted': attempted,
+                      'message': RANKING_MESSAGES.get(code, RANKING_MESSAGES['fallback'])}
+    except planner.RankingError as e:
+        app.logger.warning('planner ranking unusable request=%s source=%s model=%s output=%s code=%s ms=%d %s '
+                           'fallback=True', request_id, source, result['model'], result.get('output_mode'), e.code,
+                           round((time.monotonic() - started) * 1000),
+                           ' '.join(f'{k}={v}' for k, v in sorted(e.stats.items())))
+        return None, {'ranking_status': 'fallback', 'fallback_code': e.code, 'attempted': attempted,
+                      'message': RANKING_MESSAGES['fallback']}
+    app.logger.info('planner ranking ok request=%s source=%s model=%s output=%s ms=%d %s', request_id, source,
+                    result['model'], result.get('output_mode'), result['elapsed_ms'],
+                    ' '.join(f'{k}={v}' for k, v in sorted(ranking.stats.items())))
+    if not ranking:
+        return None, {'ranking_status': 'no_preference', 'attempted': attempted,
+                      'message': RANKING_MESSAGES['no_preference']}
+    return ranking, {'ranking_status': 'applied', 'model': result['model'],
+                     'provider': config[0] if config else 'openrouter'}
+
+
 @app.route('/api/planner/generate', methods=['POST'])
 def api_planner_generate():
     try:
@@ -812,27 +931,19 @@ def api_planner_generate():
     if not _generations.acquire(blocking=False):
         return jsonify({'error': 'The planner is busy. Try again in a moment.', 'code': 'planner_busy'}), 503
     try:
-        ranking, model = None, None
-        if mode == 'ai':
-            candidates = planner.ranking_candidates(context)
-            prompt = planner.ranking_prompt(candidates, plan['interests'])
-            source = config[0] if config else 'default'
-            try:
-                result = ai_providers.generate(*config, planner.RANKING_SYSTEM, prompt) if config \
-                    else generate_analysis(prompt, planner.RANKING_SYSTEM)
-                ranking = planner.parse_ranking(result['analysis'], {c['code'] for c in candidates})
-            except (AIError, PlanError) as e:
-                app.logger.warning('planner ranking failed source=%s code=%s', source, e.body['code'])
-                return jsonify({**e.body, 'deterministic_available': True}), e.status
-            model = {'model': result['model'], 'provider': config[0] if config else 'openrouter'}
-            app.logger.info('planner ranking ok source=%s model=%s ms=%d', source, result['model'], result['elapsed_ms'])
+        ranking, generation = (_rank_electives(plan, context, config) if mode == 'ai'
+                               else (None, {'ranking_status': 'not_requested'}))
         started = time.monotonic()
         body = planner.generate(plan, context, ranking)
         app.logger.info('planner generate status=%s solver=%s ms=%d', body['status'], body['coverage']['solver'],
                         round((time.monotonic() - started) * 1000))
-        return jsonify({**body, 'generation': {'mode': mode, **(model or {})}})
+        return jsonify({**body, 'generation': {'requested_mode': mode,
+                                               'mode': 'ai' if generation['ranking_status'] == 'applied' else 'deterministic',
+                                               **generation}})
     except PlanError as e:
         return jsonify(e.body), e.status
+    except AIError as e:  # actionable key, billing, access, model, or configuration problem
+        return jsonify({**e.body, 'deterministic_available': True}), e.status
     except Exception as e:
         app.logger.error('planner crashed error=%s', type(e).__name__)
         return jsonify({'error': 'Something went wrong. Try again later.', 'code': 'internal_error'}), 500

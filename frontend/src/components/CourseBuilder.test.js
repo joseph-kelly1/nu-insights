@@ -55,6 +55,21 @@ const proposalBody = (revision) => ({ status: 'complete', coverage: { sample_var
       origin: 'nu', pinned: false, source: 'generated', counts_as: null, evidence: '', placeholder: null, title: 'Theory',
       reason: 'Counts toward Computer Science Required Courses.' }] } });
 
+test('an older plan chooses concentrations from its own catalog year', async () => {
+  const initial = { ...savedPlan(), catalog_year: '2024-2025' };
+  saveDraft(initial);
+  routes['planning-context'] = () => ok({ ...CONTEXT, capability: 'needs_selection', concentrations: [],
+    selection_errors: ['Choose an option for Computer Science Concentrations.'],
+    concentration_groups: [{ id: 'old-cs', title: 'Computer Science Concentrations', fixed: false,
+      policy: { max_selections: 1, required: true }, options: [{ id: 'old-ai', name: 'Artificial Intelligence' }] }] });
+  renderBuilder();
+  await screen.findByText(/Choose an option for Computer Science Concentrations\./);
+  fireEvent.click(screen.getByText('Timeline and preferences'));
+  fireEvent.change(screen.getByLabelText('Computer Science Concentrations for 2024-2025'), { target: { value: 'old-ai' } });
+  await waitFor(() => expect(JSON.parse(localStorage.getItem('coursePlan:v1:bscs:2024-2025:old-ai')).concentration_ids).toEqual(['old-ai']));
+  expect(global.fetch.mock.calls.some(([url]) => url.includes('catalog_year=2024-2025&concentrations=old-ai'))).toBe(true);
+});
+
 test('setup builds a four-year timeline and courses are added from a previewed pasted list', async () => {
   renderBuilder();
   fireEvent.change(screen.getByLabelText('First term at Northeastern: year'), { target: { value: '2025' } });
@@ -127,16 +142,16 @@ test('a late proposal for an older revision cannot be applied', async () => {
   expect(within(screen.getByRole('region', { name: 'Spring 2027' })).queryByText('CS 3800')).not.toBeInTheDocument();
 });
 
-test('an AI failure keeps the draft and offers generation without AI', async () => {
+test('an actionable AI error keeps the draft and offers generation without AI', async () => {
   savedPlan();
   routes['/api/planner/generate'] = (opts) => (JSON.parse(opts.body).mode === 'ai'
-    ? fail(502, { error: 'The AI returned an unusable ranking (unknown or repeated course).', code: 'ai_bad_ranking', deterministic_available: true })
+    ? fail(400, { error: 'OpenAI rejected your API key. Check it in AI settings.', code: 'invalid_api_key', deterministic_available: true })
     : ok(proposalBody(0)));
   renderBuilder();
   await screen.findByText(/were reviewed against the catalog/);
   fireEvent.click(screen.getByRole('button', { name: 'Fill remaining courses' }));
-  expect(await screen.findByText(/unusable ranking/)).toBeInTheDocument();
-  expect(screen.getByText('Your plan hasn’t changed.')).toBeInTheDocument();
+  expect(await screen.findByText(/rejected your API key/)).toBeInTheDocument();
+  expect(screen.getAllByText(/hasn’t changed|unchanged/)).toHaveLength(1);
   fireEvent.click(within(screen.getByRole('alert')).getByRole('button', { name: 'Fill without AI' }));
   await screen.findByRole('heading', { name: 'Suggested plan' });
   expect(posts.map((p) => p.body.mode)).toEqual(['ai', 'deterministic']); // one AI call, no automatic retry
@@ -228,12 +243,12 @@ test('title search updates live as you type, and only the newest query answers',
   fireEvent.click(await screen.findByRole('button', { name: 'Edit Fall 2025' }));
   const box = screen.getByLabelText('Search by title or code');
   fireEvent.change(box, { target: { value: 'mach' } });
-  await waitFor(() => expect(answers['/api/search?q=mach']).toBeDefined());
+  await waitFor(() => expect(answers['/api/search?q=mach&catalog_year=2026-2027']).toBeDefined());
   fireEvent.change(box, { target: { value: 'machine learning' } });
-  await waitFor(() => expect(answers['/api/search?q=machine%20learning']).toBeDefined());
-  await act(async () => answers['/api/search?q=machine%20learning']({ ok: true, json: async () => [
+  await waitFor(() => expect(answers['/api/search?q=machine%20learning&catalog_year=2026-2027']).toBeDefined());
+  await act(async () => answers['/api/search?q=machine%20learning&catalog_year=2026-2027']({ ok: true, json: async () => [
     { department_code: 'ds', number: '4400', title: 'Machine Learning', credits: 4 }] }));
-  await act(async () => answers['/api/search?q=mach']({ ok: true, json: async () => [
+  await act(async () => answers['/api/search?q=mach&catalog_year=2026-2027']({ ok: true, json: async () => [
     { department_code: 'me', number: '1000', title: 'Machining', credits: 4 }] }));
   expect(screen.getByRole('button', { name: 'Add DS 4400' })).toBeInTheDocument();
   expect(screen.queryByRole('button', { name: 'Add ME 1000' })).not.toBeInTheDocument();
@@ -258,7 +273,7 @@ test('adding a lecture brings its lab and seminar, even when the catalog lists o
     + 'Remove any your program doesn’t need.')).toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: 'Done' }));
-  fireEvent.click(screen.getByRole('button', { name: 'Add AP, IB, or transfer credit' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Add AP / IB credit' }));
   fireEvent.change(screen.getByLabelText('Add courses to Credit before enrollment'), { target: { value: 'PHYS 1151' } });
   fireEvent.click(screen.getByRole('button', { name: 'Find courses' }));
   fireEvent.click(await screen.findByRole('button', { name: 'Add 1 course' }));
@@ -279,4 +294,89 @@ test('choosing Edit while course details are open shows the term editor', async 
   fireEvent.click(screen.getByRole('button', { name: 'Edit Spring 2027' }));
   expect(screen.queryByText('CS 3000 details')).not.toBeInTheDocument();
   expect(screen.getByRole('region', { name: 'Edit Spring 2027' })).toBeInTheDocument();
+});
+
+const OOD = { id: 'ood', original: ['CS 3500', 'CS 3501'], replacement: ['CS 3100', 'CS 3101'], review: 'verified',
+  source_url: 'https://khoury.example/ood' };
+
+test('the plan check shows current courses fulfilling a retired requirement, and one next step when none is verified', async () => {
+  savedPlan();
+  const rule = { section: 'Computer Science Requirements', title: 'Computer Science Required Courses', review: 'reviewed',
+    kind: 'choose', need: 1 };
+  routes['/api/planner/validate'] = () => ok({ ...REPORT, errors: [], requirements: [
+    { ...rule, id: 'ood', status: 'planned', progress: '1 of 1', options: ['CS 3500 + CS 3501'], retired: ['CS 3500', 'CS 3501'],
+      replacements: [OOD], courses: ['CS 3100', 'CS 3101'].map((code) => ({ attempt_id: code, code, label: code, replacement: OOD })) },
+    { ...rule, id: 'f1', status: 'unsatisfied', progress: '0 of 1', options: ['CS 2500 + CS 2501'], retired: ['CS 2500', 'CS 2501'],
+      courses: [], replacements: [{ id: 'f1', original: ['CS 2500', 'CS 2501'], replacement: ['CS 2000', 'CS 2001'],
+        review: 'candidate', source_url: 'https://khoury.example/f1' }] }] });
+  renderBuilder();
+  fireEvent.click(await screen.findByRole('button', { name: 'Check my plan' }));
+  expect(await screen.findByText(/^CS 3100 \+ CS 3101 fulfill the CS 3500 \+ CS 3501 requirement\.$/)).toBeInTheDocument();
+  expect(screen.getByText('Take: CS 3500 + CS 3501')).toBeInTheDocument(); // the original requirement stays visible
+  expect(screen.getByRole('button', { name: 'CS 3101' })).toBeInTheDocument();
+  expect(screen.getAllByText(/Khoury lists CS 2000 \+ CS 2001 as replacing CS 2500 \+ CS 2501/)).toHaveLength(1);
+  expect(screen.getAllByRole('link', { name: 'Source' }).map((a) => a.getAttribute('href')))
+    .toEqual(['https://khoury.example/ood', 'https://khoury.example/f1']);
+  expect(screen.queryByRole('heading', { name: 'Warnings' })).not.toBeInTheDocument();
+});
+
+test('future terms offer a verified current bundle once in place of a retired sample bundle; past terms keep it', async () => {
+  savedPlan();
+  const bundles = [{ kind: 'course', text: 'CS 3500 and CS 3501', courses: ['CS 3500', 'CS 3501'] }];
+  routes['planning-context'] = () => ok({ ...CONTEXT, replacements: [OOD],
+    sample_variants: [1, 2].map((n) => ({ id: `v${n}`, name: `Plan ${n}`, catalog_year: '2024-2025', semesters: [
+      { year: 1, term: 'Fall', entries: bundles },
+      { year: 2, term: 'Fall', entries: [...bundles, { kind: 'course', text: 'CS 3100 and CS 3101', courses: ['CS 3100', 'CS 3101'] }] }] })),
+    course_info: { 'CS 3500': { title: 'Object-Oriented Design', credits: 4, historical_only: true },
+      'CS 3501': { title: 'Lab for CS 3500', credits: 1, historical_only: true },
+      'CS 3100': { title: 'Program Design and Implementation 2', credits: 4 }, 'CS 3101': { title: 'Lab for CS 3100', credits: 1 } } });
+  renderBuilder();
+  fireEvent.click(await screen.findByRole('button', { name: 'Edit Fall 2025' }));
+  let common = screen.getByRole('region', { name: 'Common in year 1, Fall' });
+  expect(within(common).getByRole('button', { name: 'Add CS 3500 + CS 3501' })).toBeEnabled();
+  expect(within(common).queryByRole('button', { name: 'Add CS 3100 + CS 3101' })).not.toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: 'Edit Fall 2026' }));
+  common = screen.getByRole('region', { name: 'Common in year 2, Fall' });
+  expect(within(common).getByText(/From 2 2024–2025 sample plans/)).toBeInTheDocument();
+  expect(within(common).getAllByRole('button', { name: /^Add / })).toHaveLength(1);
+  expect(within(common).getByText(/2 of 2 plans · current replacement for CS 3500 \+ CS 3501/)).toBeInTheDocument();
+  fireEvent.click(within(common).getByRole('button', { name: 'Add CS 3100 + CS 3101' }));
+  const fall = screen.getByRole('region', { name: 'Fall 2026' });
+  expect(await within(fall).findByRole('button', { name: 'CS 3101' })).toBeInTheDocument();
+  expect(within(fall).getByText('5 credits')).toBeInTheDocument();
+  expect(within(common).getByRole('button', { name: 'Add CS 3100 + CS 3101' })).toHaveTextContent('Added');
+});
+
+test('a ranking fallback still previews a checked proposal with one short note and no ranking credit', async () => {
+  savedPlan();
+  const note = 'AI preferences weren’t available, so these suggestions were built without them.';
+  let generation = { requested_mode: 'ai', mode: 'deterministic', ranking_status: 'fallback', fallback_code: 'rankings_not_list',
+    attempted: { provider: 'openrouter', model: 'google/gemma-4-31b-it:free' }, message: note };
+  routes['/api/planner/generate'] = () => ok({ ...proposalBody(0), generation });
+  renderBuilder();
+  await screen.findByText(/were reviewed against the catalog/);
+  fireEvent.click(screen.getByRole('button', { name: 'Fill remaining courses' }));
+  expect(await screen.findByRole('heading', { name: 'Suggested plan' })).toBeInTheDocument();
+  expect(screen.getAllByText(note)).toHaveLength(1);
+  expect(screen.queryByText(/Electives ranked by/)).not.toBeInTheDocument();
+  expect(screen.queryByText(/shape|rankings_not_list/)).not.toBeInTheDocument();
+  expect(screen.queryByRole('alert')).not.toBeInTheDocument();
+  const saved = () => JSON.parse(localStorage.getItem('coursePlan:v1:bscs:2026-2027:ai')).attempts;
+  expect(saved()).toHaveLength(0); // previewed, not saved
+  fireEvent.click(screen.getByRole('button', { name: 'Discard' }));
+  expect(saved()).toHaveLength(0);
+  expect(posts.filter((p) => p.url === '/api/planner/generate')).toHaveLength(1);
+
+  fireEvent.click(screen.getByRole('button', { name: 'Fill remaining courses' }));
+  await screen.findByRole('heading', { name: 'Suggested plan' });
+  fireEvent.click(screen.getByRole('button', { name: 'Apply suggestions' }));
+  await waitFor(() => expect(saved().map((a) => a.code)).toEqual(['CS 3800']));
+
+  generation = { requested_mode: 'ai', mode: 'ai', ranking_status: 'applied', model: 'vendor/model', provider: 'openrouter' };
+  fireEvent.click(screen.getByRole('button', { name: 'Fill remaining courses' }));
+  expect(await screen.findByText('Electives ranked by vendor/model.')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: 'Discard' }));
+  generation = { mode: 'ai', model: 'legacy/model' }; // a response from before ranking_status
+  fireEvent.click(screen.getByRole('button', { name: 'Fill remaining courses' }));
+  expect(await screen.findByText('Electives ranked by legacy/model.')).toBeInTheDocument();
 });

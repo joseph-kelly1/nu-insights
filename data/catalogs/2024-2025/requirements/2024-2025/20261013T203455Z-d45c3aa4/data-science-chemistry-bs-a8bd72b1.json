@@ -1,0 +1,1721 @@
+{
+  "document_id": "data-science-chemistry-bs-a8bd72b1",
+  "kind": "program",
+  "title": "Data Science and Chemistry, BS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/data-science-chemistry-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Data Science Requirements",
+      "heading_path": [
+        "Data Science Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or CHEM 1000 Chemistry/Chemical Biology at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1000"
+              ],
+              "code_text": "or CHEM 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or INSC 1000 Science at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INSC 1000"
+              ],
+              "code_text": "or INSC 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INSC 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or EESC 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESC 2000"
+              ],
+              "code_text": "or EESC 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESC 2000"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Programming Sequence Pathways",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Choose one of the two options:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 9,
+              "kind": "note",
+              "text": "Computer Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "Data Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "DS 2500 and DS 2501 Intermediate Programming with Data and Lab for DS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2500",
+                "DS 2501"
+              ],
+              "code_text": "DS 2500 and DS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "DS 3500 Advanced Programming with Data",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 3500"
+              ],
+              "code_text": "DS 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3500"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CS 3200 Introduction to Databases",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "Data Science Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "header",
+              "text": "Khoury Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 26,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 27,
+              "kind": "instruction",
+              "text": "Complete 4 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 28,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 29,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 30,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 31,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            },
+            {
+              "index": 32,
+              "kind": "header",
+              "text": "Statistics Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "ENVR 2500 and ENVR 2501 Biostatistics and Lab for ENVR 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2500",
+                "ENVR 2501"
+              ],
+              "code_text": "ENVR 2500 and ENVR 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2501"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Chemistry Requirements",
+      "heading_path": [
+        "Chemistry Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "General Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 and CHEM 1163 General Chemistry for Science Majors and Lab for CHEM 1161 and Recitation for CHEM 1161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162",
+                "CHEM 1163"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162 and CHEM 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHEM 2161 and CHEM 2162 and CHEM 2163 Concepts in Chemistry and Lab for CHEM 2161 and Recitation for CHEM 2161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2161",
+                "CHEM 2162",
+                "CHEM 2163"
+              ],
+              "code_text": "CHEM 2161 and CHEM 2162 and CHEM 2163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Organic Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CHEM 2311 and CHEM 2312 Organic Chemistry 1 and Lab for CHEM 2311",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2311",
+                "CHEM 2312"
+              ],
+              "code_text": "CHEM 2311 and CHEM 2312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2312"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CHEM 2315 and CHEM 2316 Organic Chemistry 1 for Chemistry Majors and Lab for CHEM 2315",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2315",
+                "CHEM 2316"
+              ],
+              "code_text": "CHEM 2315 and CHEM 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2315"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2316"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CHEM 2313 and CHEM 2314 Organic Chemistry 2 and Lab for CHEM 2313",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2313",
+                "CHEM 2314"
+              ],
+              "code_text": "CHEM 2313 and CHEM 2314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2313"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2314"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 2317 and CHEM 2318 Organic Chemistry 2 for Chemistry Majors and Lab for CHEM 2317",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2317",
+                "CHEM 2318"
+              ],
+              "code_text": "CHEM 2317 and CHEM 2318",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2317"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2318"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Analytical Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CHEM 2321 and CHEM 2322 and CHEM 2323 Analytical Chemistry and Lab for CHEM 2321 and Recitation for CHEM 2321",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2321",
+                "CHEM 2322",
+                "CHEM 2323"
+              ],
+              "code_text": "CHEM 2321 and CHEM 2322 and CHEM 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2321"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Advanced-Level Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete one course from the following options:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHEM 3410 Environmental Geochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3410"
+              ],
+              "code_text": "CHEM 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 3410"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "elective_filter",
+              "text": "CHEM 3501 to CHEM 4628",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CHEM",
+                "minimum_number": "3501",
+                "maximum_number": "4628"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Mathematics Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Supporting Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirements",
+      "heading_path": [
+        "Integrative Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Integrative Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 3401 and CHEM 3402 Chemical Thermodynamics and Kinetics and Lab for CHEM 3401",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3401",
+                "CHEM 3402"
+              ],
+              "code_text": "CHEM 3401 and CHEM 3402",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3401"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3402"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHEM 4750 Senior Research",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4750"
+              ],
+              "code_text": "CHEM 4750",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 4750"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGW 3307 Advanced Writing in the Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3307"
+              ],
+              "code_text": "ENGW 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3307"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "ENGW 3315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 24 semester hours of general electives.",
+              "credits_text": "24",
+              "credits": {
+                "min": 24.0,
+                "max": 24.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 24.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum cumulative 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "data-science-chemistry-bs-a8bd72b1",
+  "major_name": "Data Science and Chemistry",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The data science and chemistry major combines chemistry, information science, and mathematics to give students both breadth and depth in chemistry and data science fundamentals. During their course of study, students have an opportunity to develop qualitative and quantitative problem-solving skills as well as effective communication skills. Students will study the collection, manipulation, storage, retrieval, and computational analysis of chemical and other scientific data in its various forms, including numeric, textual, image, and video data from small to large volumes. The program engages students in rigorous coursework designed to prepare students to interpret the ever-expanding knowledge base.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nData Science Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nCHEM 1000\nChemistry/Chemical Biology at Northeastern\nor\nINSC 1000\nScience at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESC 2000\nProfessional Development for Co-op\nProgramming Sequence Pathways\nChoose one of the two options:\n12\nComputer Science Option\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\nData Science Option\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nDS 2500\nand\nDS 2501\nIntermediate Programming with Data\nand Lab for DS 2500\nDS 3500\nAdvanced Programming with Data\nComputer Science Required Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 3200\nIntroduction to Databases\n4\nData Science Foundations\nDS 3000\nFoundations of Data Science\n4\nDS 4200\nInformation Presentation and Visualization\n4\nDS 4300\nLarge-Scale Information Storage and Retrieval\n4\nDS 4400\nMachine Learning and Data Mining 1\n4\nKhoury Elective\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 4 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n4\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000 or higher, except IS 4900\nStatistics Foundations\nENVR 2500\nand\nENVR 2501\nBiostatistics\nand Lab for ENVR 2500\n5\nChemistry Requirements\nCourse List\nCode\nTitle\nHours\nGeneral Chemistry\nCHEM 1161\nand\nCHEM 1162\nand\nCHEM 1163\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nand Recitation for CHEM 1161\n5\nCHEM 2161\nand\nCHEM 2162\nand\nCHEM 2163\nConcepts in Chemistry\nand Lab for CHEM 2161\nand Recitation for CHEM 2161\n5\nOrganic Chemistry\nComplete one of the following:\n5\nCHEM 2311\nand\nCHEM 2312\nOrganic Chemistry 1\nand Lab for CHEM 2311\nCHEM 2315\nand\nCHEM 2316\nOrganic Chemistry 1 for Chemistry Majors\nand Lab for CHEM 2315\nComplete one of the following:\n5\nCHEM 2313\nand\nCHEM 2314\nOrganic Chemistry 2\nand Lab for CHEM 2313\nCHEM 2317\nand\nCHEM 2318\nOrganic Chemistry 2 for Chemistry Majors\nand Lab for CHEM 2317\nAnalytical Chemistry\nCHEM 2321\nand\nCHEM 2322\nand\nCHEM 2323\nAnalytical Chemistry\nand Lab for CHEM 2321\nand Recitation for CHEM 2321\n5\nAdvanced-Level Chemistry\nComplete one course from the following options:\n4\nCHEM 3410\nEnvironmental Geochemistry\nCHEM 3501\nto\nCHEM 4628\nMathematics Foundations\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nSupporting Course\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\n5\nIntegrative Requirements\nCourse List\nCode\nTitle\nHours\nIntegrative Courses\nCHEM 3401\nand\nCHEM 3402\nChemical Thermodynamics and Kinetics\nand Lab for CHEM 3401\n5\nCHEM 4750\nSenior Research\n4\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one of the following:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nENGW 3307\nAdvanced Writing in the Sciences\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 24 semester hours of general electives.\n24\nKhoury College GPA Requirement\nMinimum cumulative 2.000 GPA required in all CS, CY, DS, and IS courses\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n130 total semester hours required",
+  "referenced_courses": [
+    "CHEM 1000",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1163",
+    "CHEM 2161",
+    "CHEM 2162",
+    "CHEM 2163",
+    "CHEM 2311",
+    "CHEM 2312",
+    "CHEM 2313",
+    "CHEM 2314",
+    "CHEM 2315",
+    "CHEM 2316",
+    "CHEM 2317",
+    "CHEM 2318",
+    "CHEM 2321",
+    "CHEM 2322",
+    "CHEM 2323",
+    "CHEM 3401",
+    "CHEM 3402",
+    "CHEM 3410",
+    "CHEM 3501",
+    "CHEM 4628",
+    "CHEM 4750",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 5010",
+    "CY 4930",
+    "DS 2000",
+    "DS 2001",
+    "DS 2500",
+    "DS 2501",
+    "DS 3000",
+    "DS 3500",
+    "DS 4200",
+    "DS 4300",
+    "DS 4400",
+    "EESC 2000",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3307",
+    "ENGW 3315",
+    "ENVR 2500",
+    "ENVR 2501",
+    "INSC 1000",
+    "MATH 1341",
+    "MATH 1342",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

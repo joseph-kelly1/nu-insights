@@ -84,7 +84,7 @@ def parse_department(html, url, failed_courses):
 
         strong_text = clean_text(title_block.find('strong').get_text())
 
-        course_info = re.search(r'(\w+)\s+(\d+)\.?\s+(.*?)\.?\s+\((\d+(?:\.\d+)?(?:\s*[-,]\s*\d+(?:\.\d+)?)*?)\s+Hours?\)', strong_text)
+        course_info = re.search(r'(\w+)\s+(\d+[A-Z]*)\.?\s+(.*?)\.?\s+\((\d+(?:\.\d+)?(?:\s*[-,]\s*\d+(?:\.\d+)?)*?)\s+Hours?\)', strong_text)
 
         if not course_info:
             failed_courses.append(strong_text)
@@ -196,7 +196,7 @@ def parse_logic(expression):
 
     # Leaf node: course or requirement. Minimum grades and concurrent timing are
     # kept; any other wording stays an admission requirement for review.
-    course_match = re.fullmatch(r'([A-Z]{2,4})\s+(\d{4})(\s*\(may be taken concurrently\))?'
+    course_match = re.fullmatch(r'([A-Z]{2,5})\s+(\d{2}[0-9A-Z]{2})(\s*\(may be taken concurrently\))?'
                                 r'(?:\s+with a minimum grade of ([A-Z][+-]?))?', expression)
     if course_match:
         leaf = {"course": f"{course_match.group(1)} {course_match.group(2)}"}
@@ -251,7 +251,7 @@ def format_corequisites(corequisite):
     """Extract corequisite course codes (e.g. 'CS 2501') from a raw corequisite string."""
     coreq_content = corequisite.split('Corequisite(s):', 1)[1].strip()
 
-    formatted_coreqs = re.findall(r'([A-Z]+\s+\d+)', coreq_content)
+    formatted_coreqs = re.findall(r'([A-Z]{2,5}\s+\d{2}[0-9A-Z]{2})\b', coreq_content)
     return formatted_coreqs
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))

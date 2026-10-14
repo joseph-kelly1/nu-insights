@@ -1,0 +1,2703 @@
+{
+  "document_id": "bioengineering-bsbioe-da66dd76",
+  "kind": "program",
+  "title": "Bioengineering, BSBioE",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements Interpreting Culture (IC), Societies and Institutions (SI), and Differences and Diversity (DD) are not satisfied by required engineering courses. Students are responsible for satisfying these requirements with general electives.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering",
+      "heading_path": [
+        "Engineering"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "BIOE 2355 Quantitative Physiology for Bioengineers",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 2355"
+              ],
+              "code_text": "BIOE 2355",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 2355"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOE 2365 and BIOE 2366 Bioengineering Measurement, Experimentation, and Statistics and Lab for BIOE 2365",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 2365",
+                "BIOE 2366"
+              ],
+              "code_text": "BIOE 2365 and BIOE 2366",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOE 2365"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOE 2366"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOE 2350 Biomechanics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 2350"
+              ],
+              "code_text": "BIOE 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 2350"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "BIOE 3210 Bioelectricity",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 3210"
+              ],
+              "code_text": "BIOE 3210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 3210"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "BIOE 3310 Transport and Fluids for Bioengineers",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 3310"
+              ],
+              "code_text": "BIOE 3310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 3310"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "BIOE 3380 Biomolecular Dynamics and Control",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 3380"
+              ],
+              "code_text": "BIOE 3380",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 3380"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Bioengineering Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOE 4790 Capstone Design 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 4790"
+              ],
+              "code_text": "BIOE 4790",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 4790"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "BIOE 4792 Capstone Design 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 4792"
+              ],
+              "code_text": "BIOE 4792",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 4792"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "2 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration",
+      "heading_path": [
+        "Concentration"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete one concentration.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Biomechanics Biomedical Devices and Bioimaging Cell and Tissue Engineering Systems, Synthetic, and Computational Bioengineering",
+          "links": [
+            {
+              "text": "Biomechanics",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Biomechanics"
+            },
+            {
+              "text": "Biomedical Devices and Bioimaging",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Biomedical Devices and Bioimaging"
+            },
+            {
+              "text": "Cell and Tissue Engineering",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Cell and Tissue Engineering"
+            },
+            {
+              "text": "Systems, Synthetic, and Computational Bioengineering",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Computational Bioengineering"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Biomechanics",
+            "Biomedical Devices and Bioimaging",
+            "Cell and Tissue Engineering",
+            "Systems, Synthetic, and Computational Bioengineering"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Biomechanics",
+      "heading_path": [
+        "Concentration",
+        "Concentration in Biomechanics"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOE 5630 Physiological Fluid Mechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5630"
+              ],
+              "code_text": "BIOE 5630",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5630"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOE 5640 Computational Biomechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5640"
+              ],
+              "code_text": "BIOE 5640",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5640"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "BIOE 5650 Multiscale Biomechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5650"
+              ],
+              "code_text": "BIOE 5650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5650"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ME 5665 Musculoskeletal Biomechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5665"
+              ],
+              "code_text": "ME 5665",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5665"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete two of the following. Any course on the required course list not used toward the core requirement may also be taken.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOE 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 4991"
+              ],
+              "code_text": "BIOE 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 4991"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "BIOE 5060 Special Topics in Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5060"
+              ],
+              "code_text": "BIOE 5060",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5060"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "BIOE 5115 Dynamical Systems in Biological Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5115"
+              ],
+              "code_text": "BIOE 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5115"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOE 5440 The Cell as a Machine",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5440"
+              ],
+              "code_text": "BIOE 5440",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5440"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "BIOE 5656 Fields, Forces, and Flows in Biological Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5656"
+              ],
+              "code_text": "BIOE 5656",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5656"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "BIOE 5820 Biomaterials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5820"
+              ],
+              "code_text": "BIOE 5820",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5820"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHME 5105 Materials Characterization Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5105"
+              ],
+              "code_text": "CHME 5105",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5105"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ME 4508 Mechanical Engineering Computation and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4508"
+              ],
+              "code_text": "ME 4508",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4508"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ME 4555 System Analysis and Control",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4555"
+              ],
+              "code_text": "ME 4555",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4555"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Biomedical Devices and Bioimaging",
+      "heading_path": [
+        "Concentration",
+        "Concentration in Biomedical Devices and Bioimaging"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "BIOE 5800 Systems, Signals, and Controls for Bioengineers",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5800"
+              ],
+              "code_text": "BIOE 5800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5800"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOE 5235 Biomedical Imaging",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5235"
+              ],
+              "code_text": "BIOE 5235",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5235"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "BIOE 5250 Design, Manufacture, and Evaluation of Medical Devices",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5250"
+              ],
+              "code_text": "BIOE 5250",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5250"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "BIOE 5810 Design of Biomedical Instrumentation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5810"
+              ],
+              "code_text": "BIOE 5810",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5810"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete two of the following. Any course on the required course list not used toward the core requirement may also be taken.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOE 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 4991"
+              ],
+              "code_text": "BIOE 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 4991"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "BIOE 5060 Special Topics in Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5060"
+              ],
+              "code_text": "BIOE 5060",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5060"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "BIOE 5115 Dynamical Systems in Biological Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5115"
+              ],
+              "code_text": "BIOE 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5115"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOE 5820 Biomaterials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5820"
+              ],
+              "code_text": "BIOE 5820",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5820"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "BIOE 5850 Design of Implants",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5850"
+              ],
+              "code_text": "BIOE 5850",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5850"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "EECE 2530 Fundamentals of Electromagnetics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2530"
+              ],
+              "code_text": "EECE 2530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2530"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "EECE 2750 Enabling Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2750"
+              ],
+              "code_text": "EECE 2750",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 2750"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "EECE 3468 Noise and Stochastic Processes",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 3468"
+              ],
+              "code_text": "EECE 3468",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 3468"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ME 2340 and ME 2341 Introduction to Material Science and Lab for ME 2340",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 2340",
+                "ME 2341"
+              ],
+              "code_text": "ME 2340 and ME 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ME 2340"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ME 2341"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ME 4508 Mechanical Engineering Computation and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4508"
+              ],
+              "code_text": "ME 4508",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4508"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Cell and Tissue Engineering",
+      "heading_path": [
+        "Concentration",
+        "Concentration in Cell and Tissue Engineering"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "BIOE 5410 Molecular Bioengineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5410"
+              ],
+              "code_text": "BIOE 5410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5410"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOE 5420 Cellular Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5420"
+              ],
+              "code_text": "BIOE 5420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5420"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOE 5430 Principles and Applications of Tissue Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5430"
+              ],
+              "code_text": "BIOE 5430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5430"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "BIOE 3410 Experimental Laboratory Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 3410"
+              ],
+              "code_text": "BIOE 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 3410"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "BIOE 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 4991"
+              ],
+              "code_text": "BIOE 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 4991"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOE 5060 Special Topics in Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5060"
+              ],
+              "code_text": "BIOE 5060",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5060"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "BIOE 5115 Dynamical Systems in Biological Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5115"
+              ],
+              "code_text": "BIOE 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5115"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "BIOE 5440 The Cell as a Machine",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5440"
+              ],
+              "code_text": "BIOE 5440",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5440"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOE 5450 Stem Cell Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5450"
+              ],
+              "code_text": "BIOE 5450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5450"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "BIOE 5650 Multiscale Biomechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5650"
+              ],
+              "code_text": "BIOE 5650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5650"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "BIOE 5656 Fields, Forces, and Flows in Biological Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5656"
+              ],
+              "code_text": "BIOE 5656",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5656"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "BIOE 5820 Biomaterials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5820"
+              ],
+              "code_text": "BIOE 5820",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5820"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CHME 5630 Biochemical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5630"
+              ],
+              "code_text": "CHME 5630",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5630"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Systems, Synthetic, and Computational Bioengineering",
+      "heading_path": [
+        "Concentration",
+        "Concentration in Systems, Synthetic, and Computational Bioengineering"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOE 5115 Dynamical Systems in Biological Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5115"
+              ],
+              "code_text": "BIOE 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5115"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOE 5710 Experimental Systems and Synthetic Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5710"
+              ],
+              "code_text": "BIOE 5710",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5710"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "BIOE 5720 Physical Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5720"
+              ],
+              "code_text": "BIOE 5720",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5720"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "BIOE 5750 Modeling and Inference in Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5750"
+              ],
+              "code_text": "BIOE 5750",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5750"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOE 5440 The Cell as a Machine",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5440"
+              ],
+              "code_text": "BIOE 5440",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5440"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "BIOE 5510 Bioengineering Products/Technology Commercialization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5510"
+              ],
+              "code_text": "BIOE 5510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5510"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "BIOE 5640 Computational Biomechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5640"
+              ],
+              "code_text": "BIOE 5640",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5640"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOE 5760 Method and Logic in Systems Biology and Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5760"
+              ],
+              "code_text": "BIOE 5760",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5760"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "BIOE 5860 Engineering Approaches to Precision Medicine I",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5860"
+              ],
+              "code_text": "BIOE 5860",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5860"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "BIOE 5870 Engineering Approaches to Precision Medicine II",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5870"
+              ],
+              "code_text": "BIOE 5870",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5870"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHME 5630 Biochemical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5630"
+              ],
+              "code_text": "CHME 5630",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5630"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all mathematics/science courses with a minimum of 30 semester hours.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Mathematics/Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "BIOL 1115 and BIOL 1116 General Biology 1 for Engineers and Lab for BIOL 1115",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1115",
+                "BIOL 1116"
+              ],
+              "code_text": "BIOL 1115 and BIOL 1116",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1115"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1116"
+                  }
+                ]
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or BIOL 1111 and BIOL 1112 General Biology 1 and Lab for BIOL 1111",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111",
+                "BIOL 1112"
+              ],
+              "code_text": "or BIOL 1111 and BIOL 1112",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1112"
+                  }
+                ]
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHYS 1171 and PHYS 1172 and PHYS 1173 Physics 1 for Bioscience and Bioengineering and Lab for PHYS 1171 and Interactive Learning Seminar for PHYS 1171",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1171",
+                "PHYS 1172",
+                "PHYS 1173"
+              ],
+              "code_text": "PHYS 1171 and PHYS 1172 and PHYS 1173",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1171"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1172"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1173"
+                  }
+                ]
+              },
+              "alternative_group": 8
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "or PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "or PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              },
+              "alternative_group": 8
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHYS 1175 and PHYS 1176 and PHYS 1177 Physics 2 for Bioscience and Bioengineering and Lab for PHYS 1175 and Interactive Learning Seminar for PHYS 1175",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1175",
+                "PHYS 1176",
+                "PHYS 1177"
+              ],
+              "code_text": "PHYS 1175 and PHYS 1176 and PHYS 1177",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1175"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1176"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1177"
+                  }
+                ]
+              },
+              "alternative_group": 10
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "or PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "or PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              },
+              "alternative_group": 10
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "​ Writing Requirements",
+      "heading_path": [
+        "​ Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade of C or higher is required:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 SH of academic, nonremedial, nonrepetitive courses.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Major GPA Requirement",
+      "heading_path": [
+        "Major GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in BIOE courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "135 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute GE 1110 and GE 1111 for GE 1501 and 1502 in approved situations.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "bioengineering-bsbioe-da66dd76",
+  "major_name": "Bioengineering",
+  "degree": "BSBioE",
+  "campus": "",
+  "college": "College of Engineering",
+  "overview_text": "Bioengineering is engineering in a biological context such as the human body, an ecosystem, or a bioreactor. In every case, the interface between engineered and biological systems places unique constraints on the design and implementation of devices, instruments, or implants. These depend on the properties of the biological system involved and the functionality that is being created. The interface of engineering and medicine as embodied in bioengineering will be one of the most exciting endeavors and greatest adventures of the 21st century. Job opportunities are expected to expand dramatically with a focus on development of entirely new classes of products, instrumentation, and implants. The impact to human health will be extraordinary. Bioengineering is intrinsically multidisciplinary and it is essential that students learn the languages used by multidisciplinary teams. To that end, our curriculum is structured around a core of six courses that analyze biological systems from every possible quantitative point of view. On the completion of the core, students choose one of three concentrations, which provides the opportunity to develop a deep level of expertise in a specific area of bioengineering. Bioengineering students will have unique opportunities in the classroom, research labs, and experiential learning. The projects that they may be able to contribute to include bio-bandages that monitor bacterial growth or that help damaged ligaments heal faster; sheets of cells folded like origami to form a working kidney; and new materials that—like a leaf in the sun—automatically sense and adapt to changes in the environment. Our undergraduate program includes four research concentrations, including: Biomechanics Biomedical Devices and Bioimaging Cell and Tissue Engineering Systems, Synthetic, and Computational Bioengineering",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements Interpreting Culture (IC), Societies and Institutions (SI), and Differences and Diversity (DD) are not satisfied by required engineering courses. Students are responsible for satisfying these requirements with general electives.\nEngineering\nCourse List\nCode\nTitle\nHours\nRequired Engineering\nBIOE 2355\nQuantitative Physiology for Bioengineers\n4\nBIOE 2365\nand\nBIOE 2366\nBioengineering Measurement, Experimentation, and Statistics\nand Lab for BIOE 2365\n5\nBIOE 2350\nBiomechanics\n4\nBIOE 3210\nBioelectricity\n4\nBIOE 3310\nTransport and Fluids for Bioengineers\n4\nBIOE 3380\nBiomolecular Dynamics and Control\n4\nBioengineering Capstone\nBIOE 4790\nCapstone Design 1\n4\nBIOE 4792\nCapstone Design 2\n4\nSupplemental Credit\n2 semester hours from the following course count toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following course count toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nConcentration\nComplete one concentration.\nBiomechanics\nBiomedical Devices and Bioimaging\nCell and Tissue Engineering\nSystems, Synthetic, and Computational Bioengineering\nConcentration in Biomechanics\nCourse List\nCode\nTitle\nHours\nRequired Courses\nComplete three of the following:\n12\nBIOE 5630\nPhysiological Fluid Mechanics\nBIOE 5640\nComputational Biomechanics\nBIOE 5650\nMultiscale Biomechanics\nME 5665\nMusculoskeletal Biomechanics\nElective Courses\nComplete two of the following. Any course on the required course list not used toward the core requirement may also be taken.\n8\nBIOE 4991\nResearch\nBIOE 5060\nSpecial Topics in Bioengineering\nBIOE 5115\nDynamical Systems in Biological Engineering\nBIOE 5440\nThe Cell as a Machine\nBIOE 5656\nFields, Forces, and Flows in Biological Systems\nBIOE 5820\nBiomaterials\nCHME 5105\nMaterials Characterization Techniques\nME 4508\nMechanical Engineering Computation and Design\nME 4555\nSystem Analysis and Control\nConcentration in Biomedical Devices and Bioimaging\nCourse List\nCode\nTitle\nHours\nRequired Courses\nBIOE 5800\nSystems, Signals, and Controls for Bioengineers\n4\nComplete two of the following:\n8\nBIOE 5235\nBiomedical Imaging\nBIOE 5250\nDesign, Manufacture, and Evaluation of Medical Devices\nBIOE 5810\nDesign of Biomedical Instrumentation\nElective Courses\nComplete two of the following. Any course on the required course list not used toward the core requirement may also be taken.\n8\nBIOE 4991\nResearch\nBIOE 5060\nSpecial Topics in Bioengineering\nBIOE 5115\nDynamical Systems in Biological Engineering\nBIOE 5820\nBiomaterials\nBIOE 5850\nDesign of Implants\nEECE 2530\nFundamentals of Electromagnetics\nEECE 2750\nEnabling Engineering\nEECE 3468\nNoise and Stochastic Processes\nME 2340\nand\nME 2341\nIntroduction to Material Science\nand Lab for ME 2340\nME 4508\nMechanical Engineering Computation and Design\nConcentration in Cell and Tissue Engineering\nCourse List\nCode\nTitle\nHours\nRequired Courses\nBIOE 5410\nMolecular Bioengineering\n4\nBIOE 5420\nCellular Engineering\n4\nBIOE 5430\nPrinciples and Applications of Tissue Engineering\n4\nElective Courses\nComplete two of the following:\n8\nBIOE 3410\nExperimental Laboratory Methods\nBIOE 4991\nResearch\nBIOE 5060\nSpecial Topics in Bioengineering\nBIOE 5115\nDynamical Systems in Biological Engineering\nBIOE 5440\nThe Cell as a Machine\nBIOE 5450\nStem Cell Engineering\nBIOE 5650\nMultiscale Biomechanics\nBIOE 5656\nFields, Forces, and Flows in Biological Systems\nBIOE 5820\nBiomaterials\nCHME 5630\nBiochemical Engineering\nConcentration in Systems, Synthetic, and Computational Bioengineering\nCourse List\nCode\nTitle\nHours\nRequired Courses\nComplete three of the following:\n12\nBIOE 5115\nDynamical Systems in Biological Engineering\nBIOE 5710\nExperimental Systems and Synthetic Bioengineering\nBIOE 5720\nPhysical Bioengineering\nBIOE 5750\nModeling and Inference in Bioengineering\nElective Courses\nComplete two of the following:\n8\nBIOE 5440\nThe Cell as a Machine\nBIOE 5510\nBioengineering Products/Technology Commercialization\nBIOE 5640\nComputational Biomechanics\nBIOE 5760\nMethod and Logic in Systems Biology and Bioengineering\nBIOE 5860\nEngineering Approaches to Precision Medicine I\nBIOE 5870\nEngineering Approaches to Precision Medicine II\nCHME 5630\nBiochemical Engineering\nSupporting Courses: Mathematics/Science\nComplete all mathematics/science courses with a minimum of 30 semester hours.\nCourse List\nCode\nTitle\nHours\nRequired Mathematics/Science\nBIOL 1115\nand\nBIOL 1116\nGeneral Biology 1 for Engineers\nand Lab for BIOL 1115\n5\nor\nBIOL 1111\nand\nBIOL 1112\nGeneral Biology 1\nand Lab for BIOL 1111\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nPHYS 1171\nand\nPHYS 1172\nand\nPHYS 1173\nPhysics 1 for Bioscience and Bioengineering\nand Lab for PHYS 1171\nand Interactive Learning Seminar for PHYS 1171\n5\nor\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPHYS 1175\nand\nPHYS 1176\nand\nPHYS 1177\nPhysics 2 for Bioscience and Bioengineering\nand Lab for PHYS 1175\nand Interactive Learning Seminar for PHYS 1175\n5\nor\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nSupplemental Credit\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nProfessional Development\nCourse List\nCode\nTitle\nHours\nGE 1000\nFirst-Year Seminar\n1\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nAdditional Required Courses\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\n​\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade of C or higher is required:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 SH of academic, nonremedial, nonrepetitive courses.\n28\nMajor GPA Requirement\nMinimum 2.000 GPA required in BIOE courses\nProgram Requirement\n135 total semester hours required\n1\nStudents can substitute GE 1110 and GE 1111 for GE 1501 and 1502 in approved situations.",
+  "referenced_courses": [
+    "BIOE 2350",
+    "BIOE 2355",
+    "BIOE 2365",
+    "BIOE 2366",
+    "BIOE 3210",
+    "BIOE 3310",
+    "BIOE 3380",
+    "BIOE 3410",
+    "BIOE 4790",
+    "BIOE 4792",
+    "BIOE 4991",
+    "BIOE 5060",
+    "BIOE 5115",
+    "BIOE 5235",
+    "BIOE 5250",
+    "BIOE 5410",
+    "BIOE 5420",
+    "BIOE 5430",
+    "BIOE 5440",
+    "BIOE 5450",
+    "BIOE 5510",
+    "BIOE 5630",
+    "BIOE 5640",
+    "BIOE 5650",
+    "BIOE 5656",
+    "BIOE 5710",
+    "BIOE 5720",
+    "BIOE 5750",
+    "BIOE 5760",
+    "BIOE 5800",
+    "BIOE 5810",
+    "BIOE 5820",
+    "BIOE 5850",
+    "BIOE 5860",
+    "BIOE 5870",
+    "BIOL 1111",
+    "BIOL 1112",
+    "BIOL 1115",
+    "BIOL 1116",
+    "CHEM 1151",
+    "CHEM 1153",
+    "CHME 5105",
+    "CHME 5630",
+    "EECE 2530",
+    "EECE 2750",
+    "EECE 3468",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "GE 1000",
+    "GE 1501",
+    "GE 1502",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "ME 2340",
+    "ME 2341",
+    "ME 4508",
+    "ME 4555",
+    "ME 5665",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1171",
+    "PHYS 1172",
+    "PHYS 1173",
+    "PHYS 1175",
+    "PHYS 1176",
+    "PHYS 1177"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": "Biomechanics",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Biomechanics"
+    },
+    {
+      "text": "Biomedical Devices and Bioimaging",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Biomedical Devices and Bioimaging"
+    },
+    {
+      "text": "Cell and Tissue Engineering",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Cell and Tissue Engineering"
+    },
+    {
+      "text": "Systems, Synthetic, and Computational Bioengineering",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Computational Bioengineering"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "Biomechanics",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Biomechanics",
+      "document_id": "bioengineering-bsbioe-da66dd76",
+      "kind": "program",
+      "fragment": "Biomechanics"
+    },
+    {
+      "text": "Biomedical Devices and Bioimaging",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Biomedical Devices and Bioimaging",
+      "document_id": "bioengineering-bsbioe-da66dd76",
+      "kind": "program",
+      "fragment": "Biomedical Devices and Bioimaging"
+    },
+    {
+      "text": "Cell and Tissue Engineering",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Cell and Tissue Engineering",
+      "document_id": "bioengineering-bsbioe-da66dd76",
+      "kind": "program",
+      "fragment": "Cell and Tissue Engineering"
+    },
+    {
+      "text": "Systems, Synthetic, and Computational Bioengineering",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/bioengineering/bioengineering-bsbioe/#Computational Bioengineering",
+      "document_id": "bioengineering-bsbioe-da66dd76",
+      "kind": "program",
+      "fragment": "Computational Bioengineering"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

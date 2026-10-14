@@ -1,0 +1,1627 @@
+{
+  "document_id": "environmental-studies-history-ba-6fa3ea31",
+  "kind": "program",
+  "title": "Environmental Studies and History, BA",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/science/marine-environmental/environmental-studies-history-ba/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "BA Language Requirements",
+      "heading_path": [
+        "BA Language Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All BA students are required to complete the BA degree language requirements, for a total of 12 semester hours of language study or demonstrated equivalent proficiency, as described in Additional Requirements for BA students . Successful demonstration of proficiency does not reduce total minimum semester hours of study required to earn the BA degree.",
+          "links": [
+            {
+              "text": "Additional Requirements for BA students",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/ba-requirements/"
+            }
+          ],
+          "constraints": {
+            "minimum_credits": 12.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Environmental Studies Requirements",
+      "heading_path": [
+        "Environmental Studies Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introductory Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENVR 1101 Environmental Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1101"
+              ],
+              "code_text": "ENVR 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1101"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENVR 1200 and ENVR 1201 Dynamic Earth and Lab for ENVR 1200",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1200",
+                "ENVR 1201"
+              ],
+              "code_text": "ENVR 1200 and ENVR 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1200"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1201"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENVR 1400 and ENVR 1401 Foundations in Environmental and Sustainability Sciences and Lab for ENVR 1400",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1400",
+                "ENVR 1401"
+              ],
+              "code_text": "ENVR 1400 and ENVR 1401",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1400"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1401"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ANTH 1101 Peoples and Cultures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 1101"
+              ],
+              "code_text": "ANTH 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 1101"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENVR 2401 Food Justice and Community Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2401"
+              ],
+              "code_text": "ENVR 2401",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2401"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHIL 1180 Environmental Ethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1180"
+              ],
+              "code_text": "PHIL 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1180"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "SOCL 1246 Environment and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1246"
+              ],
+              "code_text": "SOCL 1246",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1246"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Scientific Foundations of Environmental Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENVR 1110 Global Climate Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1110"
+              ],
+              "code_text": "ENVR 1110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1110"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENVR 3150 Food Security and Sustainability",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3150"
+              ],
+              "code_text": "ENVR 3150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3150"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ENVR 3200 Water Resources",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3200"
+              ],
+              "code_text": "ENVR 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3200"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Human Foundations of Environmental Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ENVR 2515 Sustainable Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2515"
+              ],
+              "code_text": "ENVR 2515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2515"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHTH 2414 Environmental Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2414"
+              ],
+              "code_text": "PHTH 2414",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2414"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "SOCL 4522 Environmental Justice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4522"
+              ],
+              "code_text": "SOCL 4522",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4522"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "Skills Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "ENVR 3300 and ENVR 3301 Geographic Information Systems and Lab for ENVR 3300",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3300",
+                "ENVR 3301"
+              ],
+              "code_text": "ENVR 3300 and ENVR 3301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3300"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3301"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 22,
+              "kind": "header",
+              "text": "Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 23,
+              "kind": "instruction",
+              "text": "Complete four of the following, three of which must be at the 3000 level or higher:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "ARTG 5110 Information Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5110"
+              ],
+              "code_text": "ARTG 5110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5110"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "BUSN 3110 The Consulting Environment",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BUSN 3110"
+              ],
+              "code_text": "BUSN 3110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BUSN 3110"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "CIVE 5280 Remote Sensing of the Environment",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5280"
+              ],
+              "code_text": "CIVE 5280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5280"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "COMM 3500 Environmental Issues, Communication, and the Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3500"
+              ],
+              "code_text": "COMM 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3500"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "EEMB 3466 Disease Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3466"
+              ],
+              "code_text": "EEMB 3466",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3466"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "ENVR 5350 Sustainable Energy and Climate Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5350"
+              ],
+              "code_text": "ENVR 5350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5350"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "ENVR 5563 Advanced Spatial Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5563"
+              ],
+              "code_text": "ENVR 5563",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5563"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "ENVR 5750 Urban Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5750"
+              ],
+              "code_text": "ENVR 5750",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5750"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "ENVR 5800 Climate Adaptation and Nature-Based Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5800"
+              ],
+              "code_text": "ENVR 5800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5800"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "FINA 2720 Sustainability in the Business Environment",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "FINA 2720"
+              ],
+              "code_text": "FINA 2720",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 2720"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "JRNL 3650 Science Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3650"
+              ],
+              "code_text": "JRNL 3650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3650"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "LPSC 2301 Introduction to Law, Policy, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LPSC 2301"
+              ],
+              "code_text": "LPSC 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LPSC 2301"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "PHIL 1180 Environmental Ethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1180"
+              ],
+              "code_text": "PHIL 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1180"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "PHTH 1270 Introduction to Global Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 1270"
+              ],
+              "code_text": "PHTH 1270",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 1270"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "PHTH 4202 Principles of Epidemiology in Medicine and Public Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4202"
+              ],
+              "code_text": "PHTH 4202",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4202"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "POLS 2395 Environmental Politics and Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2395"
+              ],
+              "code_text": "POLS 2395",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2395"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "PPUA 5268 International Environmental Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PPUA 5268"
+              ],
+              "code_text": "PPUA 5268",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PPUA 5268"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "History Requirements",
+      "heading_path": [
+        "History Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "History Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "HIST 1130 Introduction to the History of the United States",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1130"
+              ],
+              "code_text": "HIST 1130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1130"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "HIST 1170 Europe: Empires, Revolutions, Wars, and Their Aftermath",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1170"
+              ],
+              "code_text": "HIST 1170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1170"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "HIST 1201 First-Year Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1201"
+              ],
+              "code_text": "HIST 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1201"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HIST 1215 Origins of Today: Historical Roots of Contemporary Issues",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1215"
+              ],
+              "code_text": "HIST 1215",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1215"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "History Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "HIST 2301 and HIST 2302 The History Seminar and Historical Writing",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2301",
+                "HIST 2302"
+              ],
+              "code_text": "HIST 2301 and HIST 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "HIST 2301"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "HIST 2302"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "History/Geographic-Area Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ASNS 1150 East Asian Studies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ASNS 1150"
+              ],
+              "code_text": "ASNS 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ASNS 1150"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "HIST 1180 African History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1180"
+              ],
+              "code_text": "HIST 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1180"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "HIST 1185 Introduction to Middle Eastern History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1185"
+              ],
+              "code_text": "HIST 1185",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1185"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "History-Area Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete four HIST courses, approved by a faculty advisor, focused on an idea or geographic area. A minimum of one course must be numbered 2000 to 2999 (Excluding HIST 2301 and HIST 2032). A minimum of one course must be numbered 3000 to 4999 (Excluding HIST 4701 ).",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Courses",
+      "heading_path": [
+        "Integrative Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete two of the following (may not overlap with courses used as electives):",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "EEMB 4000 Applied Conservation Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 4000"
+              ],
+              "code_text": "EEMB 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 4000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENVR 3151 Food Sustainability in the Mediterranean - Abroad",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3151"
+              ],
+              "code_text": "ENVR 3151",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3151"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENVR 4504 Environmental Pollution",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4504"
+              ],
+              "code_text": "ENVR 4504",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4504"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENVR 5210 Environmental Planning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5210"
+              ],
+              "code_text": "ENVR 5210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5210"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "JRNL 3700 Data Storytelling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3700"
+              ],
+              "code_text": "JRNL 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3700"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Experiential Learning and Capstone",
+      "heading_path": [
+        "Experiential Learning and Capstone"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Experiential Learning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete an approved activity from either department, combined with reflection in capstone.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Capstone Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "1-4",
+              "credits": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENVR 4900 Earth and Environmental Science Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4900"
+              ],
+              "code_text": "ENVR 4900",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4900"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENVR 4970 Junior/Senior Honors Project 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4970"
+              ],
+              "code_text": "ENVR 4970",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4970"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENVR 4997 Senior Thesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4997"
+              ],
+              "code_text": "ENVR 4997",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4997"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "HIST 4701 Capstone Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 4701"
+              ],
+              "code_text": "HIST 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 4701"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Combined-Major Credit Requirement",
+      "heading_path": [
+        "Combined-Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 91 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 91.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "128 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "environmental-studies-history-ba-6fa3ea31",
+  "major_name": "Environmental Studies and History",
+  "degree": "BA",
+  "campus": "",
+  "college": "College of Science",
+  "overview_text": "Through this combined major, successful undergraduates will develop an awareness of the scientific, cultural, and political aspects of the world’s environmental problems through historical perspectives and backgrounds. Due to overlap in course content, students majoring in environmental studies or any environmental studies combined majors may not complete a minor in environmental and sustainability sciences.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nBA Language Requirements\nAll BA students are required to complete the BA degree language requirements, for a total of 12 semester hours of language study or demonstrated equivalent proficiency, as described in\nAdditional Requirements for BA students\n. Successful demonstration of proficiency does not reduce total minimum semester hours of study required to earn the BA degree.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nEnvironmental Studies Requirements\nCourse List\nCode\nTitle\nHours\nIntroductory Courses\nComplete one of the following:\n4-5\nENVR 1101\nEnvironmental Science\nENVR 1200\nand\nENVR 1201\nDynamic Earth\nand Lab for ENVR 1200\nENVR 1400\nand\nENVR 1401\nFoundations in Environmental and Sustainability Sciences\nand Lab for ENVR 1400\nComplete one of the following:\n4\nANTH 1101\nPeoples and Cultures\nENVR 2401\nFood Justice and Community Development\nPHIL 1180\nEnvironmental Ethics\nSOCL 1246\nEnvironment and Society\nScientific Foundations of Environmental Systems\nComplete one of the following:\n4\nENVR 1110\nGlobal Climate Change\nENVR 3150\nFood Security and Sustainability\nENVR 3200\nWater Resources\nHuman Foundations of Environmental Systems\nComplete one of the following:\n4\nENVR 2515\nSustainable Development\nPHTH 2414\nEnvironmental Health\nSOCL 4522\nEnvironmental Justice\nSkills Course\nENVR 3300\nand\nENVR 3301\nGeographic Information Systems\nand Lab for ENVR 3300\n5\nElectives\nComplete four of the following, three of which must be at the 3000 level or higher:\n16\nARTG 5110\nInformation Design History\nBUSN 3110\nThe Consulting Environment\nCIVE 5280\nRemote Sensing of the Environment\nCOMM 3500\nEnvironmental Issues, Communication, and the Media\nEEMB 3466\nDisease Ecology\nENVR 5350\nSustainable Energy and Climate Solutions\nENVR 5563\nAdvanced Spatial Analysis\nENVR 5750\nUrban Ecology\nENVR 5800\nClimate Adaptation and Nature-Based Solutions\nFINA 2720\nSustainability in the Business Environment\nJRNL 3650\nScience Writing\nLPSC 2301\nIntroduction to Law, Policy, and Society\nPHIL 1180\nEnvironmental Ethics\nPHTH 1270\nIntroduction to Global Health\nPHTH 4202\nPrinciples of Epidemiology in Medicine and Public Health\nPOLS 2395\nEnvironmental Politics and Policy\nPPUA 5268\nInternational Environmental Policy\nSOCL 2485\nEnvironment, Technology, and Society\nHistory Requirements\nCourse List\nCode\nTitle\nHours\nHistory Requirements\nHIST 1130\nIntroduction to the History of the United States\n4\nHIST 1170\nEurope: Empires, Revolutions, Wars, and Their Aftermath\n4\nHIST 1201\nFirst-Year Seminar\n4\nHIST 1215\nOrigins of Today: Historical Roots of Contemporary Issues\n4\nHistory Seminar\nHIST 2301\nand\nHIST 2302\nThe History Seminar\nand Historical Writing\n5\nHistory/Geographic-Area Electives\nComplete two of the following:\n8\nASNS 1150\nEast Asian Studies\nHIST 1180\nAfrican History\nHIST 1185\nIntroduction to Middle Eastern History\nHistory-Area Electives\nComplete four HIST courses, approved by a faculty advisor, focused on an idea or geographic area. A minimum of one course must be numbered 2000 to 2999 (Excluding\nHIST 2301\nand HIST 2032). A minimum of one course must be numbered 3000 to 4999 (Excluding\nHIST 4701\n).\n16\nIntegrative Courses\nCourse List\nCode\nTitle\nHours\nComplete two of the following (may not overlap with courses used as electives):\n8\nEEMB 4000\nApplied Conservation Biology\nENVR 3151\nFood Sustainability in the Mediterranean - Abroad\nENVR 4504\nEnvironmental Pollution\nENVR 5210\nEnvironmental Planning\nJRNL 3700\nData Storytelling\nExperiential Learning and Capstone\nCourse List\nCode\nTitle\nHours\nExperiential Learning\nComplete an approved activity from either department, combined with reflection in capstone.\nCapstone Course\nComplete one of the following:\n1-4\nENVR 4900\nEarth and Environmental Science Capstone\nENVR 4970\nJunior/Senior Honors Project 1\nENVR 4997\nSenior Thesis\nHIST 4701\nCapstone Seminar\nCombined-Major Credit Requirement\nComplete 91 semester hours in the major.\nProgram Requirement\n128 total semester hours required",
+  "referenced_courses": [
+    "ANTH 1101",
+    "ARTG 5110",
+    "ASNS 1150",
+    "BUSN 3110",
+    "CIVE 5280",
+    "COMM 3500",
+    "EEMB 3466",
+    "EEMB 4000",
+    "ENVR 1101",
+    "ENVR 1110",
+    "ENVR 1200",
+    "ENVR 1201",
+    "ENVR 1400",
+    "ENVR 1401",
+    "ENVR 2401",
+    "ENVR 2515",
+    "ENVR 3150",
+    "ENVR 3151",
+    "ENVR 3200",
+    "ENVR 3300",
+    "ENVR 3301",
+    "ENVR 4504",
+    "ENVR 4900",
+    "ENVR 4970",
+    "ENVR 4997",
+    "ENVR 5210",
+    "ENVR 5350",
+    "ENVR 5563",
+    "ENVR 5750",
+    "ENVR 5800",
+    "FINA 2720",
+    "HIST 1130",
+    "HIST 1170",
+    "HIST 1180",
+    "HIST 1185",
+    "HIST 1201",
+    "HIST 1215",
+    "HIST 2301",
+    "HIST 2302",
+    "HIST 4701",
+    "JRNL 3650",
+    "JRNL 3700",
+    "LPSC 2301",
+    "PHIL 1180",
+    "PHTH 1270",
+    "PHTH 2414",
+    "PHTH 4202",
+    "POLS 2395",
+    "PPUA 5268",
+    "SOCL 1246",
+    "SOCL 2485",
+    "SOCL 4522"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "Additional Requirements for BA students",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/ba-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

@@ -1,0 +1,1820 @@
+{
+  "document_id": "marine-biology-bs-01bf7782",
+  "kind": "program",
+  "title": "Marine Biology, BS (Boston)",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/science/marine-environmental/marine-biology-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Marine Biology Major Requirements",
+      "heading_path": [
+        "Marine Biology Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introduction to College",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "INSC 1000 Science at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INSC 1000"
+              ],
+              "code_text": "INSC 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSC 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Foundations Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "EEMB 1101 and EEMB 1102 Foundations in Ecology and Evolutionary Biology and Lab for EEMB 1101",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 1101",
+                "EEMB 1102"
+              ],
+              "code_text": "EEMB 1101 and EEMB 1102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1101"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1102"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "EEMB 1105 and EEMB 1106 Foundations in Ecological and Evolutionary Genomics and Lab for EEMB 1105",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 1105",
+                "EEMB 1106"
+              ],
+              "code_text": "EEMB 1105 and EEMB 1106",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1105"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1106"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Genetics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "BIOL 2301 and BIOL 2302 Genetics and Molecular Biology and Lab for BIOL 2301",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2301",
+                "BIOL 2302"
+              ],
+              "code_text": "BIOL 2301 and BIOL 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2301"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2302"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "EEMB 2302 and EEMB 2303 Ecology and Lab for EEMB 2302",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2302",
+                "EEMB 2303"
+              ],
+              "code_text": "EEMB 2302 and EEMB 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2302"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2303"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Evolution",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "EEMB 2400 Introduction to Evolution",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2400"
+              ],
+              "code_text": "EEMB 2400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 2400"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "header",
+              "text": "Marine Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "EEMB 2700 and EEMB 2701 Marine Biology and Lab for EEMB 2700",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2700",
+                "EEMB 2701"
+              ],
+              "code_text": "EEMB 2700 and EEMB 2701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2700"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2701"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "header",
+              "text": "Conservation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "EEMB 3460 Conservation Biology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3460"
+              ],
+              "code_text": "EEMB 3460",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3460"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Scientific Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ENVR 4000 Science Communication and Professional Development",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4000"
+              ],
+              "code_text": "ENVR 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4000"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "BIOL 4701 Biology Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4701"
+              ],
+              "code_text": "BIOL 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4701"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "ENVR 4971 Junior/Senior Honors Project 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4971"
+              ],
+              "code_text": "ENVR 4971",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4971"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "ENVR 4997 Senior Thesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4997"
+              ],
+              "code_text": "ENVR 4997",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4997"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses for Marine Biology",
+      "heading_path": [
+        "Supporting Courses for Marine Biology"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1251 Calculus and Differential Equations for Biology 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1251"
+              ],
+              "code_text": "MATH 1251",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1251"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or MATH 1241 Calculus 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1241"
+              ],
+              "code_text": "or MATH 1241",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1241"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "or MATH 1341",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Introduction to Data",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENVR 1500 and ENVR 1501 Introduction to Environmental, Social, and Biological Data and Lab for ENVR 1500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1500",
+                "ENVR 1501"
+              ],
+              "code_text": "ENVR 1500 and ENVR 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Biostatistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENVR 2500 and ENVR 2501 Biostatistics and Lab for ENVR 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2500",
+                "ENVR 2501"
+              ],
+              "code_text": "ENVR 2500 and ENVR 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "header",
+              "text": "Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 and CHEM 1163 General Chemistry for Science Majors and Lab for CHEM 1161 and Recitation for CHEM 1161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162",
+                "CHEM 1163"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162 and CHEM 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CHEM 2311 and CHEM 2312 Organic Chemistry 1 and Lab for CHEM 2311",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2311",
+                "CHEM 2312"
+              ],
+              "code_text": "CHEM 2311 and CHEM 2312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2312"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENVR 3410 Environmental Geochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3410"
+              ],
+              "code_text": "ENVR 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3410"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENVR 4504 Environmental Pollution",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4504"
+              ],
+              "code_text": "ENVR 4504",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4504"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "header",
+              "text": "Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 15,
+              "kind": "instruction",
+              "text": "Complete a lecture/lab set for Physics 1:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "Physics 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHYS 1145 and PHYS 1146 Physics for Life Sciences 1 and Lab for PHYS 1145 (recommended)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1145",
+                "PHYS 1146"
+              ],
+              "code_text": "PHYS 1145 and PHYS 1146",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1145"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1146"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 and PHYS 1163 Physics 1 and Lab for PHYS 1161 and Recitation for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162",
+                "PHYS 1163"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162 and PHYS 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "PHYS 1171 and PHYS 1172 and PHYS 1173 Physics 1 for Bioscience and Bioengineering and Lab for PHYS 1171 and Interactive Learning Seminar for PHYS 1171",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1171",
+                "PHYS 1172",
+                "PHYS 1173"
+              ],
+              "code_text": "PHYS 1171 and PHYS 1172 and PHYS 1173",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1171"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1172"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1173"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Marine Biology Electives",
+      "heading_path": [
+        "Marine Biology Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ENVR 3125 Global Oceanic Change",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3125"
+              ],
+              "code_text": "ENVR 3125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3125"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or ENVR 3600 Oceanography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3600"
+              ],
+              "code_text": "or ENVR 3600",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3600"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete five of the following:",
+              "credits_text": "20-21",
+              "credits": {
+                "min": 20.0,
+                "max": 21.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 5
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOL 5587 Comparative Neurobiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5587"
+              ],
+              "code_text": "BIOL 5587",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5587"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "EEMB 3455 Ecosystems Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3455"
+              ],
+              "code_text": "EEMB 3455",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3455"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "EEMB 3465 Ecological and Conservation Genomics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3465"
+              ],
+              "code_text": "EEMB 3465",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3465"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "EEMB 3466 Disease Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3466"
+              ],
+              "code_text": "EEMB 3466",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3466"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "EEMB 3600 Animal Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3600"
+              ],
+              "code_text": "EEMB 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3600"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "EEMB 5130 Population Dynamics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5130"
+              ],
+              "code_text": "EEMB 5130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5130"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ENVR 3125 Global Oceanic Change (If not used to fulfill another requirement of this program)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "ENVR 3125"
+              ],
+              "code_text": "ENVR 3125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3125"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ENVR 3300 and ENVR 3301 Geographic Information Systems and Lab for ENVR 3300",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3300",
+                "ENVR 3301"
+              ],
+              "code_text": "ENVR 3300 and ENVR 3301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3300"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3301"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ENVR 4504 Environmental Pollution",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4504"
+              ],
+              "code_text": "ENVR 4504",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4504"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENVR 4505 Wetlands",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4505"
+              ],
+              "code_text": "ENVR 4505",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4505"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENVR 4970 Junior/Senior Honors Project 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4970"
+              ],
+              "code_text": "ENVR 4970",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4970"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ENVR 5220 Ecosystem-Based Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5220"
+              ],
+              "code_text": "ENVR 5220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5220"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "EEMB 5542 Marine Spatial Planning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5542"
+              ],
+              "code_text": "EEMB 5542",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5542"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "Elective courses available at Nahant campus to students approved for PlusOne admission to the MS Marine Biology program:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "EEMB 5510 New England Marine Biomes",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5510"
+              ],
+              "code_text": "EEMB 5510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5510"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "EEMB 5522 Experimental Design Marine Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5522"
+              ],
+              "code_text": "EEMB 5522",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5522"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "EEMB 5546 Sustainability of the Land-Sea Interface",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5546"
+              ],
+              "code_text": "EEMB 5546",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5546"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUPath Requirements",
+      "heading_path": [
+        "NUPath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "The following NUPath requirements are fulfilled by required courses in this major:",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Analyzing and Using Data (AD) Conducting Formal and Quantitative Reasoning (FQ) Demonstrating Thought and Action in a Capstone (CE) Engaging with the Natural and Designed World (ND) Two Writing-Intensive Courses in the Disciplines (WI)",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Analyzing and Using Data (AD)",
+            "Conducting Formal and Quantitative Reasoning (FQ)",
+            "Demonstrating Thought and Action in a Capstone (CE)",
+            "Engaging with the Natural and Designed World (ND)",
+            "Two Writing-Intensive Courses in the Disciplines (WI)"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Other NUPath requirements may be fulfilled by electives in the major.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3307 Advanced Writing in the Sciences",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3307"
+              ],
+              "code_text": "ENGW 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3307"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3303 Advanced Writing in the Environmental Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3303"
+              ],
+              "code_text": "or ENGW 3303",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3303"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Co-op Requirements",
+      "heading_path": [
+        "Co-op Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Students who want to participate in co-op will need to complete EESC 2000 Professional Development for Co-op.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "EESC 2000 Professional Development for Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESC 2000"
+              ],
+              "code_text": "EESC 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EESC 2000"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Science GPA Requirement (Marine Biology)",
+      "heading_path": [
+        "Science GPA Requirement (Marine Biology)"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A minimum 2.000 GPA in the following course codes is required: EEMB, ENVR",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Marine Biology Major Credit/GPA Requirements",
+      "heading_path": [
+        "Marine Biology Major Credit/GPA Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 94 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 94.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "131 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "marine-biology-bs-01bf7782",
+  "major_name": "Marine Biology",
+  "degree": "BS",
+  "campus": "Boston",
+  "college": "College of Science",
+  "overview_text": "The Bachelor of Science in Marine Biology provides students with a solid foundation in marine biology, with flexibility to explore ocean and coastal processes, marine biogeochemistry, the ecology and evolution of marine organisms, and the ocean’s role and responses in global change. Core, skills-based courses are designed to prepare students for in-depth examination of the contemporary issues facing marine organisms and ecosystems, while helping to develop resumés that are strengthened by experiential learning. This major also provides options for students following a pre-vet or pre-med track. Faculty teaching the courses are experts who are dedicated to marine research and experiential learning, providing students the opportunities to learn valuable skills and to expand their professional science network. Students may actively participate in field and lab work, internships at Northeastern University’s Marine Science Center in Nahant, MA or study abroad through Dialogue of Civilizations programs. Additional opportunities exist for students in this strong, interdisciplinary program that prepares students for direct entry into the job market or a competitive graduate program. Students majoring in Marine Biology cannot be combined with majors in Biology, Ecology and Evolutionary Biology, or Environmental and Sustainability Sciences, nor can they minor in Biology, Ecology and Evolutionary Biology, or Environmental and Sustainability Sciences.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nMarine Biology Major Requirements\nCourse List\nCode\nTitle\nHours\nIntroduction to College\nINSC 1000\nScience at Northeastern\n1\nFoundations Courses\nEEMB 1101\nand\nEEMB 1102\nFoundations in Ecology and Evolutionary Biology\nand Lab for EEMB 1101\n5\nEEMB 1105\nand\nEEMB 1106\nFoundations in Ecological and Evolutionary Genomics\nand Lab for EEMB 1105\n5\nGenetics\nBIOL 2301\nand\nBIOL 2302\nGenetics and Molecular Biology\nand Lab for BIOL 2301\n5\nEcology\nEEMB 2302\nand\nEEMB 2303\nEcology\nand Lab for EEMB 2302\n5\nEvolution\nEEMB 2400\nIntroduction to Evolution\n4\nMarine Biology\nEEMB 2700\nand\nEEMB 2701\nMarine Biology\nand Lab for EEMB 2700\n5\nConservation\nEEMB 3460\nConservation Biology\n4\nScientific Communication\nENVR 4000\nScience Communication and Professional Development\n4\nCapstone\nComplete one of the following:\n4\nBIOL 4701\nBiology Capstone\nENVR 4971\nJunior/Senior Honors Project 2\nENVR 4997\nSenior Thesis\nSupporting Courses for Marine Biology\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1251\nCalculus and Differential Equations for Biology 1\n4\nor\nMATH 1241\nCalculus 1\nor\nMATH 1341\nCalculus 1 for Science and Engineering\nIntroduction to Data\nENVR 1500\nand\nENVR 1501\nIntroduction to Environmental, Social, and Biological Data\nand Lab for ENVR 1500\n5\nBiostatistics\nENVR 2500\nand\nENVR 2501\nBiostatistics\nand Lab for ENVR 2500\n5\nChemistry\nCHEM 1161\nand\nCHEM 1162\nand\nCHEM 1163\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nand Recitation for CHEM 1161\n5\nComplete one of the following:\n4-5\nCHEM 2311\nand\nCHEM 2312\nOrganic Chemistry 1\nand Lab for CHEM 2311\nENVR 3410\nEnvironmental Geochemistry\nENVR 4504\nEnvironmental Pollution\nPhysics\nComplete a lecture/lab set for Physics 1:\n5\nPhysics 1\nPHYS 1145\nand\nPHYS 1146\nPhysics for Life Sciences 1\nand Lab for PHYS 1145\n(recommended)\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPHYS 1161\nand\nPHYS 1162\nand\nPHYS 1163\nPhysics 1\nand Lab for PHYS 1161\nand Recitation for PHYS 1161\nPHYS 1171\nand\nPHYS 1172\nand\nPHYS 1173\nPhysics 1 for Bioscience and Bioengineering\nand Lab for PHYS 1171\nand Interactive Learning Seminar for PHYS 1171\nMarine Biology Electives\nCourse List\nCode\nTitle\nHours\nENVR 3125\nGlobal Oceanic Change\n4\nor\nENVR 3600\nOceanography\nComplete five of the following:\n20-21\nBIOL 5587\nComparative Neurobiology\nEEMB 3455\nEcosystems Ecology\nEEMB 3465\nEcological and Conservation Genomics\nEEMB 3466\nDisease Ecology\nEEMB 3600\nAnimal Behavior\nEEMB 5130\nPopulation Dynamics\nENVR 3125\nGlobal Oceanic Change (If not used to fulfill another requirement of this program)\nENVR 3300\nand\nENVR 3301\nGeographic Information Systems\nand Lab for ENVR 3300\nENVR 4504\nEnvironmental Pollution\nENVR 4505\nWetlands\nENVR 4970\nJunior/Senior Honors Project 1\nENVR 5220\nEcosystem-Based Management\nEEMB 5542\nMarine Spatial Planning\nElective courses available at Nahant campus to students approved for PlusOne admission to the MS Marine Biology program:\nEEMB 5510\nNew England Marine Biomes\nEEMB 5522\nExperimental Design Marine Ecology\nEEMB 5546\nSustainability of the Land-Sea Interface\nNUPath Requirements\nThe following NUPath requirements are fulfilled by required courses in this major:\nAnalyzing and Using Data (AD)\nConducting Formal and Quantitative Reasoning (FQ)\nDemonstrating Thought and Action in a Capstone (CE)\nEngaging with the Natural and Designed World (ND)\nTwo Writing-Intensive Courses in the Disciplines (WI)\nOther NUPath requirements may be fulfilled by electives in the major.\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nENGW 3307\nAdvanced Writing in the Sciences\n4\nor\nENGW 3303\nAdvanced Writing in the Environmental Professions\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nCo-op Requirements\nCourse List\nCode\nTitle\nHours\nStudents who want to participate in co-op will need to complete\nEESC 2000\nProfessional Development for Co-op.\nEESC 2000\nProfessional Development for Co-op\n1\nScience GPA Requirement (Marine Biology)\nA minimum 2.000 GPA in the following course codes is required: EEMB, ENVR\nMarine Biology Major Credit/GPA Requirements\nComplete 94 semester hours in the major.\nProgram Requirement\n131 total semester hours required",
+  "referenced_courses": [
+    "BIOL 2301",
+    "BIOL 2302",
+    "BIOL 4701",
+    "BIOL 5587",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1163",
+    "CHEM 2311",
+    "CHEM 2312",
+    "EEMB 1101",
+    "EEMB 1102",
+    "EEMB 1105",
+    "EEMB 1106",
+    "EEMB 2302",
+    "EEMB 2303",
+    "EEMB 2400",
+    "EEMB 2700",
+    "EEMB 2701",
+    "EEMB 3455",
+    "EEMB 3460",
+    "EEMB 3465",
+    "EEMB 3466",
+    "EEMB 3600",
+    "EEMB 5130",
+    "EEMB 5510",
+    "EEMB 5522",
+    "EEMB 5542",
+    "EEMB 5546",
+    "EESC 2000",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3303",
+    "ENGW 3307",
+    "ENGW 3315",
+    "ENVR 1500",
+    "ENVR 1501",
+    "ENVR 2500",
+    "ENVR 2501",
+    "ENVR 3125",
+    "ENVR 3300",
+    "ENVR 3301",
+    "ENVR 3410",
+    "ENVR 3600",
+    "ENVR 4000",
+    "ENVR 4504",
+    "ENVR 4505",
+    "ENVR 4970",
+    "ENVR 4971",
+    "ENVR 4997",
+    "ENVR 5220",
+    "INSC 1000",
+    "MATH 1241",
+    "MATH 1251",
+    "MATH 1341",
+    "PHYS 1145",
+    "PHYS 1146",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1163",
+    "PHYS 1171",
+    "PHYS 1172",
+    "PHYS 1173"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

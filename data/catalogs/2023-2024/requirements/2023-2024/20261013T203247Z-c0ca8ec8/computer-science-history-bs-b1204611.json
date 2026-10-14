@@ -1,0 +1,2102 @@
+{
+  "document_id": "computer-science-history-bs-b1204611",
+  "kind": "program",
+  "title": "Computer Science and History, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-history-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Courses",
+      "heading_path": [
+        "Computer Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or HIST 1000 History at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1000"
+              ],
+              "code_text": "or HIST 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or EESH 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESH 2000"
+              ],
+              "code_text": "or EESH 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESH 2000"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3200 Database Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "IS 2000 Principles of Information Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "IS 2000"
+              ],
+              "code_text": "IS 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 2000"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "header",
+              "text": "Khoury Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 15,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 16,
+              "kind": "instruction",
+              "text": "Complete 16 semester hours of upper-division CS, CY, DS, or IS courses that are not already required. Choose courses within the following ranges:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 16.0
+              }
+            },
+            {
+              "index": 17,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 18,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "History Courses",
+      "heading_path": [
+        "History Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "History Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "HIST 1200 Historical Research and Writing",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1200"
+              ],
+              "code_text": "HIST 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1200"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "HIST 1201 First-Year Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1201"
+              ],
+              "code_text": "HIST 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1201"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "HIST 2301 The History Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2301"
+              ],
+              "code_text": "HIST 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2301"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HIST 2302 Historical Writing",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2302"
+              ],
+              "code_text": "HIST 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2302"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Pre-1800 History Elective",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "HIST 1100 Law and History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1100"
+              ],
+              "code_text": "HIST 1100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1100"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "HIST 1180 African History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1180"
+              ],
+              "code_text": "HIST 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1180"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "HIST 1185 Introduction to Middle Eastern History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1185"
+              ],
+              "code_text": "HIST 1185",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1185"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "HIST 1218 Pirates, Planters, and Patriots: Making the Americas, 1492–1804",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1218"
+              ],
+              "code_text": "HIST 1218",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1218"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "HIST 1252 Japanese Literature and Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1252"
+              ],
+              "code_text": "HIST 1252",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1252"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "HIST 1272 Europe in the Middle Ages, 500–1500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1272"
+              ],
+              "code_text": "HIST 1272",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1272"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "HIST 1285 Introduction to Russian Civilization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1285"
+              ],
+              "code_text": "HIST 1285",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1285"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "HIST 1389 History of Espionage 1: Antiquity to World War II",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1389"
+              ],
+              "code_text": "HIST 1389",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1389"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "HIST 2330 Colonial and Revolutionary America",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2330"
+              ],
+              "code_text": "HIST 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2330"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "HIST 2370 Renaissance to Enlightenment",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2370"
+              ],
+              "code_text": "HIST 2370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2370"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "HIST 2375 The Tudors, the Stuarts, and the Birth of Modern Britain",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2375"
+              ],
+              "code_text": "HIST 2375",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2375"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "HIST 2390 Africa and the World in Early Times",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2390"
+              ],
+              "code_text": "HIST 2390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2390"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "HIST 3334 Assassinations in World History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 3334"
+              ],
+              "code_text": "HIST 3334",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 3334"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "History Outside the United States and Europe",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "HIST 1150 East Asian Studies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1150"
+              ],
+              "code_text": "HIST 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1150"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "HIST 1180 African History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1180"
+              ],
+              "code_text": "HIST 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1180"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "HIST 1187 Introduction to Latin American History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1187"
+              ],
+              "code_text": "HIST 1187",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1187"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "HIST 1206 Drug Trade and Drug War: History, Security, Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1206"
+              ],
+              "code_text": "HIST 1206",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1206"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "HIST 1246 World War II in the Pacific",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1246"
+              ],
+              "code_text": "HIST 1246",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1246"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "HIST 1252 Japanese Literature and Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1252"
+              ],
+              "code_text": "HIST 1252",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1252"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "HIST 1253 History of Vietnam Wars",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1253"
+              ],
+              "code_text": "HIST 1253",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1253"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "HIST 1294 History of the Jews in the Modern World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1294"
+              ],
+              "code_text": "HIST 1294",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1294"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "HIST 1500 Modern Chinese History and Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1500"
+              ],
+              "code_text": "HIST 1500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1500"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "HIST 2025 Latin American History through Film",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2025"
+              ],
+              "code_text": "HIST 2025",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2025"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "HIST 2311 Colonialism/Imperialism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2311"
+              ],
+              "code_text": "HIST 2311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2311"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "HIST 2351 Modern Japan",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2351"
+              ],
+              "code_text": "HIST 2351",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2351"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "header",
+              "text": "History Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 35,
+              "kind": "instruction",
+              "text": "Complete two HIST courses at any level in any field.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 36,
+              "kind": "header",
+              "text": "Intermediate/Advanced History Course",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 37,
+              "kind": "instruction",
+              "text": "Complete a minimum of one HIST course numbered 2000 to 2999 (excluding HIST 2301 and HIST 2302 ).",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 38,
+              "kind": "header",
+              "text": "Advanced History",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 39,
+              "kind": "instruction",
+              "text": "Complete a minimum of one HIST course numbered 3000 to 4999 (excluding HIST 4701 ).",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 40,
+              "kind": "header",
+              "text": "History Capstone Seminar or Senior Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "HIST 4701 Capstone Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 4701"
+              ],
+              "code_text": "HIST 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 4701"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Course Requirement",
+      "heading_path": [
+        "Integrative Course Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "HIST 2211 The World Since 1945",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2211"
+              ],
+              "code_text": "HIST 2211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2211"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Research Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ECON 2350 Statistics for Economists",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENVR 3300 Geographic Information Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3300"
+              ],
+              "code_text": "ENVR 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3300"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENVR 5260 Geographical Information Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5260"
+              ],
+              "code_text": "ENVR 5260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5260"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 2400 Quantitative Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2400"
+              ],
+              "code_text": "POLS 2400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2400"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PSYC 2320 Statistics in Psychological Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 2320"
+              ],
+              "code_text": "PSYC 2320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 2320"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Computing and Social Issues",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "AFAM 2600 Issues in Race, Science, and Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFAM 2600"
+              ],
+              "code_text": "AFAM 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFAM 2600"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "CY 5240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "SOCL 4528 Computers and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "note",
+              "text": "This requirement is satisfied by HIST 2302 taken in conjunction with HIST 2301 .",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 32 semester hours of general electives.",
+              "credits_text": "32",
+              "credits": {
+                "min": 32.0,
+                "max": 32.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 32.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A minimum 2.000 GPA is required in all CS, CY, DS, and IS courses.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science and History GPA/Credit Requirements",
+      "heading_path": [
+        "Computer Science and History GPA/Credit Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 98 semester hours in the major with a minimum 2.000 GPA.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 98.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Writing-Intensive in the Major Advanced Writing in the Disciplines Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Writing-Intensive in the Major",
+            "Advanced Writing in the Disciplines",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "135 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computer-science-history-bs-b1204611",
+  "major_name": "Computer Science and History",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The computer science and history combined major offers students the opportunity to gain both historical knowledge and a broad range of related analytical skills in both the humanities and computer science. You’ll define a history course cluster according to a thematic principle, with a focus on quantitative analysis in the field, complementing your foundation in programming.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Courses\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nCS 1200\nFirst Year Seminar\n1\nor\nHIST 1000\nHistory at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESH 2000\nProfessional Development for Co-op\nComputer Science Fundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3200\nDatabase Design\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nIS 2000\nPrinciples of Information Science\n4\nKhoury Elective Courses\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 16 semester hours of upper-division CS, CY, DS, or IS courses that are not already required. Choose courses within the following ranges:\n16\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000\nor higher, except  IS 4900\nHistory Courses\nCourse List\nCode\nTitle\nHours\nHistory Required Courses\nHIST 1200\nHistorical Research and Writing\n1\nHIST 1201\nFirst-Year Seminar\n4\nHIST 2301\nThe History Seminar\n4\nHIST 2302\nHistorical Writing\n1\nPre-1800 History Elective\n4\nComplete one of the following:\nHIST 1100\nLaw and History\nHIST 1180\nAfrican History\nHIST 1185\nIntroduction to Middle Eastern History\nHIST 1218\nPirates, Planters, and Patriots: Making the Americas, 1492–1804\nHIST 1252\nJapanese Literature and Culture\nHIST 1272\nEurope in the Middle Ages, 500–1500\nHIST 1285\nIntroduction to Russian Civilization\nHIST 1389\nHistory of Espionage 1: Antiquity to World War II\nHIST 2330\nColonial and Revolutionary America\nHIST 2370\nRenaissance to Enlightenment\nHIST 2375\nThe Tudors, the Stuarts, and the Birth of Modern Britain\nHIST 2390\nAfrica and the World in Early Times\nHIST 3334\nAssassinations in World History\nHistory Outside the United States and Europe\n4\nComplete one of the following:\nHIST 1150\nEast Asian Studies\nHIST 1180\nAfrican History\nHIST 1187\nIntroduction to Latin American History\nHIST 1206\nDrug Trade and Drug War: History, Security, Culture\nHIST 1246\nWorld War II in the Pacific\nHIST 1252\nJapanese Literature and Culture\nHIST 1253\nHistory of Vietnam Wars\nHIST 1294\nHistory of the Jews in the Modern World\nHIST 1500\nModern Chinese History and Culture\nHIST 2025\nLatin American History through Film\nHIST 2311\nColonialism/Imperialism\nHIST 2351\nModern Japan\nHistory Electives\nComplete two HIST courses at any level in any field.\n8\nIntermediate/Advanced History Course\n4\nComplete a minimum of one HIST course numbered 2000 to 2999 (excluding\nHIST 2301\nand\nHIST 2302\n).\nAdvanced History\n4\nComplete a minimum of one HIST course numbered 3000 to 4999 (excluding\nHIST 4701\n).\nHistory Capstone Seminar or Senior Project\nHIST 4701\nCapstone Seminar\n4\nIntegrative Course Requirement\nCourse List\nCode\nTitle\nHours\nHIST 2211\nThe World Since 1945\n4\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nResearch Methods\nComplete one of the following:\n4\nECON 2350\nStatistics for Economists\nENVR 3300\nGeographic Information Systems\nENVR 5260\nGeographical Information Systems\nPOLS 2400\nQuantitative Techniques\nPSYC 2320\nStatistics in Psychological Research\nComputing and Social Issues\nComplete one of the following:\n4\nAFAM 2600\nIssues in Race, Science, and Technology\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nENGL 2150\nLiterature and Digital Diversity\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nComputers and Society\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nThis requirement is satisfied by\nHIST 2302\ntaken in conjunction with\nHIST 2301\n.\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 32 semester hours of general electives.\n32\nKhoury College GPA Requirement\nA minimum 2.000 GPA is required in all CS, CY, DS, and IS courses.\nComputer Science and History GPA/Credit Requirements\nComplete 98 semester hours in the major with a minimum 2.000 GPA.\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nWriting-Intensive in the Major\nAdvanced Writing in the Disciplines\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n135 total semester hours required",
+  "referenced_courses": [
+    "AFAM 2600",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3000",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 5010",
+    "CY 4170",
+    "CY 4930",
+    "CY 5240",
+    "DS 2500",
+    "ECON 2350",
+    "EESH 2000",
+    "ENGL 2150",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENVR 3300",
+    "ENVR 5260",
+    "HIST 1000",
+    "HIST 1100",
+    "HIST 1150",
+    "HIST 1180",
+    "HIST 1185",
+    "HIST 1187",
+    "HIST 1200",
+    "HIST 1201",
+    "HIST 1206",
+    "HIST 1218",
+    "HIST 1246",
+    "HIST 1252",
+    "HIST 1253",
+    "HIST 1272",
+    "HIST 1285",
+    "HIST 1294",
+    "HIST 1389",
+    "HIST 1500",
+    "HIST 2025",
+    "HIST 2211",
+    "HIST 2220",
+    "HIST 2301",
+    "HIST 2302",
+    "HIST 2311",
+    "HIST 2330",
+    "HIST 2351",
+    "HIST 2370",
+    "HIST 2375",
+    "HIST 2390",
+    "HIST 3334",
+    "HIST 4701",
+    "INSH 2102",
+    "IS 1300",
+    "IS 2000",
+    "PHIL 1145",
+    "PHIL 1300",
+    "POLS 2400",
+    "PSYC 2320",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

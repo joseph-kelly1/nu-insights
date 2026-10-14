@@ -1,0 +1,54 @@
+{
+  "department": "LANG",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/course-descriptions/lang/",
+  "courses": [
+    {
+      "number": "4700",
+      "title": "Capstone Seminar",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides the graduating student the opportunity to integrate the intellectual aspects of the program with its experiential elements, especially the study-abroad portion of the students’ program.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CLTR 4551",
+            "min_grade": "D-"
+          },
+          {
+            "course": "LITR 4551",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience"
+      ],
+      "prerequisites_text": "CLTR 4551 with a minimum grade of D- or LITR 4551 with a minimum grade of D-"
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major or minor requirements in certain situations. Priority is given to language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

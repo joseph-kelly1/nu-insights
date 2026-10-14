@@ -216,7 +216,7 @@ def shared_rules(document, flags, program_rules):
     url = document['source_url']
     base = {'source_url': url, 'section': document['title'], 'review': state}
     rules, issues = [], []
-    if not current:
+    if not current and '/archive/' not in url:
         issues.append({'id': document['document_id'], 'source_url': url, 'section': document['title'],
                        'text': f"{document['title']} changed since its rules were reviewed; check them against the source."})
     if document['document_id'] == GEN_ED:

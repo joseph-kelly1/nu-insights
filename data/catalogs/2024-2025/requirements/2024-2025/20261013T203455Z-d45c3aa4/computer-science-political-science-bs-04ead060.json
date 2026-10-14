@@ -1,0 +1,3517 @@
+{
+  "document_id": "computer-science-political-science-bs-04ead060",
+  "kind": "program",
+  "title": "Computer Science and Political Science, BS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Courses",
+      "heading_path": [
+        "Computer Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or POLS 1000 Political Science at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1000"
+              ],
+              "code_text": "or POLS 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or EESH 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESH 2000"
+              ],
+              "code_text": "or EESH 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESH 2000"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3200 Introduction to Databases",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "IS 2000",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "IS 2000"
+              ],
+              "code_text": "IS 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 2000"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Khoury Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "instruction",
+              "text": "Complete 12 semester hours of upper-division CS, CY, DS, or IS courses that are not already required. Choose courses within the following ranges:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 12.0
+              }
+            },
+            {
+              "index": 18,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 21,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Political Science Courses",
+      "heading_path": [
+        "Political Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Political Science Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 1150 American Government",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1150"
+              ],
+              "code_text": "POLS 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1150"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 1155 Comparative Politics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1155"
+              ],
+              "code_text": "POLS 1155",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1155"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 1160 International Relations",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1160"
+              ],
+              "code_text": "POLS 1160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1160"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 2399 Research Methods in Political Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2399"
+              ],
+              "code_text": "POLS 2399",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2399"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 2400 Quantitative Techniques",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2400"
+              ],
+              "code_text": "POLS 2400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2400"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Political Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 2325 Ancient Philosophy and Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2325"
+              ],
+              "code_text": "POLS 2325",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2325"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "POLS 2328 Modern Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2328"
+              ],
+              "code_text": "POLS 2328",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2328"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "POLS 2330 American Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2330"
+              ],
+              "code_text": "POLS 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2330"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "POLS 2332 Contemporary Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2332"
+              ],
+              "code_text": "POLS 2332",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2332"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Political Science Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "POLS 4701 Political Science Senior Capstone",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4701"
+              ],
+              "code_text": "POLS 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4701"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "header",
+              "text": "Political Science Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 15,
+              "kind": "instruction",
+              "text": "Complete four courses in the following range:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 4
+              }
+            },
+            {
+              "index": 16,
+              "kind": "elective_filter",
+              "text": "POLS 2000 to POLS 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "POLS",
+                "minimum_number": "2000",
+                "maximum_number": "5999"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Political Science Concentrations (Optional)",
+      "heading_path": [
+        "Political Science Concentrations (Optional)"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "If you are working toward one of the following concentrations, declare it with your advisor so that it may be added to your record.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "American Political Institutions Campaigns and Elections Comparative Politics Identity, Culture, and Politics International Relations and Diplomacy Law and Legal Studies Public Policy Security Studies",
+          "links": [
+            {
+              "text": "American Political Institutions",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#AMPIconc"
+            },
+            {
+              "text": "Campaigns and Elections",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#CAMPconc"
+            },
+            {
+              "text": "Comparative Politics",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#COPOconc"
+            },
+            {
+              "text": "Identity, Culture, and Politics",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#ICPOconc"
+            },
+            {
+              "text": "International Relations and Diplomacy",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#INRDconc"
+            },
+            {
+              "text": "Law and Legal Studies",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#LLSTconc"
+            },
+            {
+              "text": "Public Policy",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#PUPLconc"
+            },
+            {
+              "text": "Security Studies",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#SESTconc"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "American Political Institutions",
+            "Campaigns and Elections",
+            "Comparative Politics",
+            "Identity, Culture, and Politics",
+            "International Relations and Diplomacy",
+            "Law and Legal Studies",
+            "Public Policy",
+            "Security Studies"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirement",
+      "heading_path": [
+        "Integrative Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Integrative Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 2390 Science, Technology, and Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2390"
+              ],
+              "code_text": "POLS 2390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2390"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 3405 International Political Economy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3405"
+              ],
+              "code_text": "POLS 3405",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3405"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 3406 International Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3406"
+              ],
+              "code_text": "POLS 3406",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3406"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computing and Social Issues",
+      "heading_path": [
+        "Computing and Social Issues"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "AFCS 2600 Issues in Race, Science, and Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFCS 2600"
+              ],
+              "code_text": "AFCS 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFCS 2600"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "CY 5240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "SOCL 4528",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGW 3308 Advanced Writing in the Social Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3308"
+              ],
+              "code_text": "ENGW 3308",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3308"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGW 3311 Advanced Writing for Prelaw",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3311"
+              ],
+              "code_text": "ENGW 3311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3311"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "ENGW 3315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 semester hours of general electives.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 28.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A minimum cumulative 2.000 GPA is required in all CS, CY, DS, and IS courses.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science and Political Science Major Credit Requirement",
+      "heading_path": [
+        "Computer Science and Political Science Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "100 semester hours required in the major",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Writing-Intensive in the Major Advanced Writing in the Disciplines Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Writing-Intensive in the Major",
+            "Advanced Writing in the Disciplines",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "133 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in American Political Institutions",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in American Political Institutions"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete four of the following:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 2350",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2350"
+              ],
+              "code_text": "POLS 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2350"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 3300 The U.S. Congress",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3300"
+              ],
+              "code_text": "POLS 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3300"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 3302 Judicial Process and Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3302"
+              ],
+              "code_text": "POLS 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3302"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 3307 Public Policy and Administration",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3307"
+              ],
+              "code_text": "POLS 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3307"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 3310 Public Opinion, Voting, and Elections",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3310"
+              ],
+              "code_text": "POLS 3310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3310"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 3160 Campaign Strategy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3160"
+              ],
+              "code_text": "POLS 3160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3160"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Campaigns and Elections",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Campaigns and Elections"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 3160 Campaign Strategy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3160"
+              ],
+              "code_text": "POLS 3160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3160"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 3302 Judicial Process and Behavior",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3302"
+              ],
+              "code_text": "POLS 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3302"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Campaigns and Elections Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 2345 Urban Policies and Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2345"
+              ],
+              "code_text": "POLS 2345",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2345"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 2350",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2350"
+              ],
+              "code_text": "POLS 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2350"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "POLS 3162",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3162"
+              ],
+              "code_text": "POLS 3162",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3162"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 3310 Public Opinion, Voting, and Elections",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3310"
+              ],
+              "code_text": "POLS 3310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3310"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "POLS 3320 Politics and Mass Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3320"
+              ],
+              "code_text": "POLS 3320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3320"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Comparative Politics",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Comparative Politics"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Theoretical Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 2282 The Holocaust and Comparative Genocide",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2282"
+              ],
+              "code_text": "POLS 2282",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2282"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 2356 Democratic Erosion",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2356"
+              ],
+              "code_text": "POLS 2356",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2356"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 2359 Immigration Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2359"
+              ],
+              "code_text": "POLS 2359",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2359"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 2370 Religion and Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2370"
+              ],
+              "code_text": "POLS 2370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2370"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 3418 Nationalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3418"
+              ],
+              "code_text": "POLS 3418",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3418"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "POLS 3430 Revolution, Civil War, and Insurrection",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3430"
+              ],
+              "code_text": "POLS 3430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3430"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 3487 Politics of Developing Nations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3487"
+              ],
+              "code_text": "POLS 3487",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3487"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Regional Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "POLS 3435 Politics and Governance of Europe and the European Union",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3435"
+              ],
+              "code_text": "POLS 3435",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3435"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "POLS 3465 Government and Politics in the Middle East",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3465"
+              ],
+              "code_text": "POLS 3465",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3465"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "header",
+              "text": "Experiential/Practicum Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 14,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "POLS 4915 Model Arab League",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4915"
+              ],
+              "code_text": "POLS 4915",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4915"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "POLS 4918 Model NATO",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4918"
+              ],
+              "code_text": "POLS 4918",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4918"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "POLS 4937 Dialogue of Civilizations: Government and Politics Abroad",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4937"
+              ],
+              "code_text": "POLS 4937",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4937"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Identity, Culture, and Politics",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Identity, Culture, and Politics"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Core Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 3418 Nationalism",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3418"
+              ],
+              "code_text": "POLS 3418",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3418"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 2359 Immigration Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2359"
+              ],
+              "code_text": "POLS 2359",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2359"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 2368 Music and Politics in America and Abroad",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2368"
+              ],
+              "code_text": "POLS 2368",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2368"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 2370 Religion and Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2370"
+              ],
+              "code_text": "POLS 2370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2370"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "POLS 3309 Lesbian, Gay, Bisexual, and Transgender Issues in Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3309"
+              ],
+              "code_text": "POLS 3309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3309"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 3324 Law and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3324"
+              ],
+              "code_text": "POLS 3324",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3324"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "",
+      "heading_path": [
+        "Program Requirement",
+        ""
+      ],
+      "level": 3,
+      "entries": [],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in International Relations and Diplomacy",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in International Relations and Diplomacy"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Experiential/Practicum Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 4910 Model United Nations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4910"
+              ],
+              "code_text": "POLS 4910",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4910"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 4915 Model Arab League",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4915"
+              ],
+              "code_text": "POLS 4915",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4915"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 4938 Dialogue of Civilizations: International Politics Abroad",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4938"
+              ],
+              "code_text": "POLS 4938",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4938"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Core Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "POLS 3405 International Political Economy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3405"
+              ],
+              "code_text": "POLS 3405",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3405"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 3406 International Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3406"
+              ],
+              "code_text": "POLS 3406",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3406"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "POLS 3435 Politics and Governance of Europe and the European Union",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3435"
+              ],
+              "code_text": "POLS 3435",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3435"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "POLS 5408 International Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 5408"
+              ],
+              "code_text": "POLS 5408",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 5408"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "",
+      "heading_path": [
+        "Program Requirement",
+        ""
+      ],
+      "level": 3,
+      "entries": [],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Law and Legal Studies",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Law and Legal Studies"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete four of the following:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 2330 American Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2330"
+              ],
+              "code_text": "POLS 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2330"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 3300 The U.S. Congress",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3300"
+              ],
+              "code_text": "POLS 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3300"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 3302 Judicial Process and Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3302"
+              ],
+              "code_text": "POLS 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3302"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 3323",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3323"
+              ],
+              "code_text": "POLS 3323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3323"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 3324 Law and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3324"
+              ],
+              "code_text": "POLS 3324",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3324"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 3406 International Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3406"
+              ],
+              "code_text": "POLS 3406",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3406"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "POLS 3409",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3409"
+              ],
+              "code_text": "POLS 3409",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3409"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 4500 U.S. Constitutional Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4500"
+              ],
+              "code_text": "POLS 4500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4500"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "POLS 4505 U.S. Civil Liberties",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4505"
+              ],
+              "code_text": "POLS 4505",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4505"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Public Policy",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Public Policy"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Core Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 3307 Public Policy and Administration",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3307"
+              ],
+              "code_text": "POLS 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3307"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 2345 Urban Policies and Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2345"
+              ],
+              "code_text": "POLS 2345",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2345"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 2350",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2350"
+              ],
+              "code_text": "POLS 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2350"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 2390 Science, Technology, and Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2390"
+              ],
+              "code_text": "POLS 2390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2390"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "POLS 2395 Environmental Politics and Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2395"
+              ],
+              "code_text": "POLS 2395",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2395"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "POLS 3425 U.S. Foreign Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3425"
+              ],
+              "code_text": "POLS 3425",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3425"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Security Studies",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Security Studies"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete four of the following:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 4
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "POLS 3420 U.S. National Security Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3420"
+              ],
+              "code_text": "POLS 3420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3420"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 3423 Terrorism and Counterterrorism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3423"
+              ],
+              "code_text": "POLS 3423",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3423"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "POLS 3425 U.S. Foreign Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3425"
+              ],
+              "code_text": "POLS 3425",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3425"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "POLS 3430 Revolution, Civil War, and Insurrection",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3430"
+              ],
+              "code_text": "POLS 3430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3430"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "POLS 3487 Politics of Developing Nations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3487"
+              ],
+              "code_text": "POLS 3487",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3487"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "POLS 5408 International Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 5408"
+              ],
+              "code_text": "POLS 5408",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 5408"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computer-science-political-science-bs-04ead060",
+  "major_name": "Computer Science and Political Science",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The computer science and political science combined major offers both a strong computer science foundation and a deep understanding of global and societal needs. You will become an engaged citizen of the world, participating in interdisciplinary scholarship and translational research to address regional and global issues.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Courses\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nPOLS 1000\nPolitical Science at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESH 2000\nProfessional Development for Co-op\nComputer Science Fundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3200\nIntroduction to Databases\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nIS 2000\n4\nKhoury Elective Courses\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 12 semester hours of upper-division CS, CY, DS, or IS courses that are not already required. Choose courses within the following ranges:\n12\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000 or higher, except IS 4900\nPolitical Science Courses\nCourse List\nCode\nTitle\nHours\nPolitical Science Requirements\nPOLS 1150\nAmerican Government\n4\nPOLS 1155\nComparative Politics\n4\nPOLS 1160\nInternational Relations\n4\nPOLS 2399\nResearch Methods in Political Science\n4\nPOLS 2400\nQuantitative Techniques\n4\nPolitical Theory\nComplete one of the following:\n4\nPOLS 2325\nAncient Philosophy and Political Thought\nPOLS 2328\nModern Political Thought\nPOLS 2330\nAmerican Political Thought\nPOLS 2332\nContemporary Political Thought\nPolitical Science Capstone\nPOLS 4701\nPolitical Science Senior Capstone\n4\nPolitical Science Electives\nComplete four courses in the following range:\n16\nPOLS 2000 to POLS 5999\nPolitical Science Concentrations (Optional)\nIf you are working toward one of the following concentrations, declare it with your advisor so that it may be added to your record.\nAmerican Political Institutions\nCampaigns and Elections\nComparative Politics\nIdentity, Culture, and Politics\nInternational Relations and Diplomacy\nLaw and Legal Studies\nPublic Policy\nSecurity Studies\nIntegrative Requirement\nCourse List\nCode\nTitle\nHours\nIntegrative Requirement\nComplete one of the following:\n4\nPOLS 2390\nScience, Technology, and Public Policy\nPOLS 3405\nInternational Political Economy\nPOLS 3406\nInternational Law\nComputing and Social Issues\nCourse List\nCode\nTitle\nHours\nComplete one of the following:\n4\nAFCS 2600\nIssues in Race, Science, and Technology\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one of the following:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nENGW 3308\nAdvanced Writing in the Social Sciences\nENGW 3311\nAdvanced Writing for Prelaw\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 semester hours of general electives.\n28\nKhoury College GPA Requirement\nA minimum cumulative 2.000 GPA is required in all CS, CY, DS, and IS courses.\nComputer Science and Political Science Major Credit Requirement\n100 semester hours required in the major\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nWriting-Intensive in the Major\nAdvanced Writing in the Disciplines\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n133 total semester hours required\nConcentration in American Political Institutions\nCourse List\nCode\nTitle\nHours\nComplete four of the following:\n16\nPOLS 2350\nPOLS 3300\nThe U.S. Congress\nPOLS 3302\nJudicial Process and Behavior\nPOLS 3307\nPublic Policy and Administration\nPOLS 3310\nPublic Opinion, Voting, and Elections\nPOLS 3160\nCampaign Strategy\nConcentration in Campaigns and Elections\nCourse List\nCode\nTitle\nHours\nRequired Courses\nPOLS 3160\nCampaign Strategy\n4\nPOLS 3302\nJudicial Process and Behavior\n4\nCampaigns and Elections Electives\nComplete two of the following:\n8\nPOLS 2345\nUrban Policies and Politics\nPOLS 2350\nPOLS 3162\nPOLS 3310\nPublic Opinion, Voting, and Elections\nPOLS 3320\nPolitics and Mass Media\nConcentration in Comparative Politics\nCourse List\nCode\nTitle\nHours\nTheoretical Requirement\nComplete two of the following:\n8\nPOLS 2282\nThe Holocaust and Comparative Genocide\nPOLS 2356\nDemocratic Erosion\nPOLS 2359\nImmigration Politics\nPOLS 2370\nReligion and Politics\nPOLS 3418\nNationalism\nPOLS 3430\nRevolution, Civil War, and Insurrection\nPOLS 3487\nPolitics of Developing Nations\nRegional Requirements\nComplete one of the following:\n4\nPOLS 3435\nPolitics and Governance of Europe and the European Union\nPOLS 3465\nGovernment and Politics in the Middle East\nExperiential/Practicum Requirement\nComplete one of the following:\n4\nPOLS 4915\nModel Arab League\nPOLS 4918\nModel NATO\nPOLS 4937\nDialogue of Civilizations: Government and Politics Abroad\nConcentration in Identity, Culture, and Politics\nCourse List\nCode\nTitle\nHours\nCore Course\nPOLS 3418\nNationalism\n4\nElectives\nComplete three of the following:\n12\nPOLS 2359\nImmigration Politics\nPOLS 2368\nMusic and Politics in America and Abroad\nPOLS 2370\nReligion and Politics\nPOLS 3309\nLesbian, Gay, Bisexual, and Transgender Issues in Public Policy\nPOLS 3324\nLaw and Society\nConcentration in International Relations and Diplomacy\nCourse List\nCode\nTitle\nHours\nExperiential/Practicum Requirement\nComplete one of the following:\n4\nPOLS 4910\nModel United Nations\nPOLS 4915\nModel Arab League\nPOLS 4938\nDialogue of Civilizations: International Politics Abroad\nCore Courses\nComplete three of the following:\n12\nPOLS 3405\nInternational Political Economy\nPOLS 3406\nInternational Law\nPOLS 3435\nPolitics and Governance of Europe and the European Union\nPOLS 5408\nInternational Security\nConcentration in Law and Legal Studies\nCourse List\nCode\nTitle\nHours\nComplete four of the following:\n16\nPOLS 2330\nAmerican Political Thought\nPOLS 3300\nThe U.S. Congress\nPOLS 3302\nJudicial Process and Behavior\nPOLS 3323\nPOLS 3324\nLaw and Society\nPOLS 3406\nInternational Law\nPOLS 3409\nPOLS 4500\nU.S. Constitutional Law\nPOLS 4505\nU.S. Civil Liberties\nConcentration in Public Policy\nCourse List\nCode\nTitle\nHours\nCore Requirement\nPOLS 3307\nPublic Policy and Administration\n4\nElectives\nComplete three of the following:\n12\nPOLS 2345\nUrban Policies and Politics\nPOLS 2350\nPOLS 2390\nScience, Technology, and Public Policy\nPOLS 2395\nEnvironmental Politics and Policy\nPOLS 3425\nU.S. Foreign Policy\nConcentration in Security Studies\nCourse List\nCode\nTitle\nHours\nComplete four of the following:\n16\nPOLS 3420\nU.S. National Security Policy\nPOLS 3423\nTerrorism and Counterterrorism\nPOLS 3425\nU.S. Foreign Policy\nPOLS 3430\nRevolution, Civil War, and Insurrection\nPOLS 3487\nPolitics of Developing Nations\nPOLS 5408\nInternational Security",
+  "referenced_courses": [
+    "AFCS 2600",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3000",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 5010",
+    "CY 4170",
+    "CY 4930",
+    "CY 5240",
+    "DS 2500",
+    "EESH 2000",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3308",
+    "ENGW 3311",
+    "ENGW 3315",
+    "HIST 2220",
+    "INSH 2102",
+    "IS 1300",
+    "IS 2000",
+    "PHIL 1145",
+    "PHIL 1300",
+    "POLS 1000",
+    "POLS 1150",
+    "POLS 1155",
+    "POLS 1160",
+    "POLS 2282",
+    "POLS 2325",
+    "POLS 2328",
+    "POLS 2330",
+    "POLS 2332",
+    "POLS 2345",
+    "POLS 2350",
+    "POLS 2356",
+    "POLS 2359",
+    "POLS 2368",
+    "POLS 2370",
+    "POLS 2390",
+    "POLS 2395",
+    "POLS 2399",
+    "POLS 2400",
+    "POLS 3160",
+    "POLS 3162",
+    "POLS 3300",
+    "POLS 3302",
+    "POLS 3307",
+    "POLS 3309",
+    "POLS 3310",
+    "POLS 3320",
+    "POLS 3323",
+    "POLS 3324",
+    "POLS 3405",
+    "POLS 3406",
+    "POLS 3409",
+    "POLS 3418",
+    "POLS 3420",
+    "POLS 3423",
+    "POLS 3425",
+    "POLS 3430",
+    "POLS 3435",
+    "POLS 3465",
+    "POLS 3487",
+    "POLS 4500",
+    "POLS 4505",
+    "POLS 4701",
+    "POLS 4910",
+    "POLS 4915",
+    "POLS 4918",
+    "POLS 4937",
+    "POLS 4938",
+    "POLS 5408",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": "American Political Institutions",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#AMPIconc"
+    },
+    {
+      "text": "Campaigns and Elections",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#CAMPconc"
+    },
+    {
+      "text": "Comparative Politics",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#COPOconc"
+    },
+    {
+      "text": "Identity, Culture, and Politics",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#ICPOconc"
+    },
+    {
+      "text": "International Relations and Diplomacy",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#INRDconc"
+    },
+    {
+      "text": "Law and Legal Studies",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#LLSTconc"
+    },
+    {
+      "text": "Public Policy",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#PUPLconc"
+    },
+    {
+      "text": "Security Studies",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#SESTconc"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "American Political Institutions",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#AMPIconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "AMPIconc"
+    },
+    {
+      "text": "Campaigns and Elections",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#CAMPconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "CAMPconc"
+    },
+    {
+      "text": "Comparative Politics",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#COPOconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "COPOconc"
+    },
+    {
+      "text": "Identity, Culture, and Politics",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#ICPOconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "ICPOconc"
+    },
+    {
+      "text": "International Relations and Diplomacy",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#INRDconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "INRDconc"
+    },
+    {
+      "text": "Law and Legal Studies",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#LLSTconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "LLSTconc"
+    },
+    {
+      "text": "Public Policy",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#PUPLconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "PUPLconc"
+    },
+    {
+      "text": "Security Studies",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-political-science-bs/#SESTconc",
+      "document_id": "computer-science-political-science-bs-04ead060",
+      "kind": "program",
+      "fragment": "SESTconc"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "IS 2000",
+    "POLS 2350",
+    "POLS 3162",
+    "POLS 3323",
+    "POLS 3409",
+    "SOCL 4528"
+  ]
+}

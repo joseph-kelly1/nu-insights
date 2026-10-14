@@ -87,6 +87,27 @@ class AnalyzeTest(ApiTest):
                      'Data Science (BSDS), "Five Years, Two Co-ops": Year 3, Fall']:
             self.assertIn(fact, prompt)
 
+    def test_default_ranking_schema_only_when_every_routed_model_supports_it(self):
+        output = CustomAITest.OUTPUT
+        with mock.patch.object(advisor.ai_providers, "_openrouter_catalog", side_effect=AssertionError("no lookup")):
+            result = advisor.generate_analysis("prompt", "system", output)  # openrouter/free can't be established
+        self.assertEqual(result["output_mode"], "prompt")
+        self.assertNotIn("response_format", self.sent[-1])
+        supported = [{"id": "google/gemma-4-31b-it:free", "supported_parameters": ["structured_outputs"]},
+                     {"id": "vendor/free-b", "supported_parameters": ["response_format"]}]
+        with mock.patch.object(advisor, "FALLBACK_MODELS", []), \
+                mock.patch.object(advisor.ai_providers, "_openrouter_catalog", return_value=supported):
+            result = advisor.generate_analysis("prompt", "system", output)
+        sent = self.sent[-1]
+        self.assertEqual((result["output_mode"], sent["response_format"]["json_schema"]["schema"]), ("schema", output["schema"]))
+        self.assertEqual((sent["provider"]["max_price"], sent["provider"]["require_parameters"], sent["model"]),
+                         ({"prompt": 0, "completion": 0, "request": 0}, True, "google/gemma-4-31b-it:free"))
+        with mock.patch.object(advisor, "FALLBACK_MODELS", ["vendor/free-b"]), \
+                mock.patch.object(advisor.ai_providers, "_openrouter_catalog", return_value=supported):
+            self.assertEqual(advisor.generate_analysis("prompt", "system", output)["output_mode"], "prompt")
+        self.analyze()
+        self.assertNotIn("response_format", self.sent[-1])  # Markdown breakdowns are unchanged
+
     def test_fallback_success_does_not_downgrade_later_requests(self):
         self.reply = lambda: httpx.Response(200, json=completion(model="openrouter/free"))
         self.assertEqual(self.analyze().json["model"], "openrouter/free")
@@ -331,6 +352,68 @@ class CustomAITest(ApiTest):
                 self.assertEqual(self.analyze(custom("openrouter")).status_code, 200)
                 [sent] = self.posts()
                 self.assertEqual({k: v for k, v in sent.items() if k == "reasoning"}, fields)
+
+    OUTPUT = {"name": "elective_ranking", "schema": {"type": "object", "additionalProperties": False,
+              "required": ["rankings"], "properties": {"rankings": {"type": "array", "items": {
+                  "type": "object", "additionalProperties": False, "required": ["code", "reason"],
+                  "properties": {"code": {"type": "string", "enum": ["CS 4100"]}, "reason": {"type": "string"}}}}}}}
+
+    def rank(self, provider, model, catalog=None):
+        self.upstream.clear()
+        body = ok_body(provider, model)
+        self.custom_reply = lambda r: httpx.Response(200, json=catalog if r.method == "GET" else body)
+        result = advisor.ai_providers.generate(provider, SECRET, model, "system", "prompt", self.OUTPUT)
+        [sent] = self.posts()
+        return result, sent
+
+    def test_ranking_requests_native_schema_only_where_documented_and_keeps_thinking(self):
+        schema = self.OUTPUT["schema"]
+        result, sent = self.rank("openai", "gpt-6-luna")
+        self.assertEqual((sent["text"]["format"], sent["reasoning"], result["output_mode"]),
+                         ({"type": "json_schema", "name": "elective_ranking", "schema": schema, "strict": True},
+                          {"effort": "none"}, "schema"))
+        _, sent = self.rank("anthropic", "claude-opus-5-5")
+        self.assertEqual((sent["output_config"], sent["thinking"]), ({"format": {"type": "json_schema", "schema": schema}},
+                                                                     {"type": "disabled"}))
+        _, sent = self.rank("gemini", "gemini-3.5-flash")
+        config = sent["generationConfig"]
+        self.assertEqual((config["responseMimeType"], config["thinkingConfig"]), ("application/json", {"thinkingBudget": 0}))
+        row = config["responseSchema"]["properties"]["rankings"]["items"]
+        self.assertEqual((row["type"], row["properties"]["code"], "additionalProperties" in row),
+                         ("OBJECT", {"type": "STRING", "enum": ["CS 4100"], "format": "enum"}, False))
+        catalog = {"data": [{"id": "vendor/paid-model", "supported_parameters": ["structured_outputs", "reasoning"],
+                             "reasoning": {"mandatory": False}}]}
+        _, sent = self.rank("openrouter", "vendor/paid-model", catalog)
+        self.assertEqual((sent["response_format"]["json_schema"]["schema"], sent["reasoning"], sent["model"]),
+                         (schema, {"enabled": False}, "vendor/paid-model"))
+        self.assertNotIn("provider", sent)  # the user's routing is left as configured
+
+    def test_anthropic_effort_rung_merges_with_schema_output(self):
+        advisor.ai_providers._cheapest_rung[("anthropic", "claude-sonnet-5-5")] = 2
+        _, sent = self.rank("anthropic", "claude-sonnet-5-5")
+        self.assertEqual(sent["output_config"], {"effort": "low", "format": {"type": "json_schema", "schema": self.OUTPUT["schema"]}})
+
+    def test_unsupported_and_unknown_models_use_the_prompt_only_path(self):
+        cases = [("openai", "gpt-4-turbo"), ("openai", "gpt-4o-2024-05-13"), ("openai", "my-fine-tune"),
+                 ("anthropic", "claude-opus-4-1"), ("anthropic", "claude-3-5-sonnet-latest"), ("gemini", "learnlm-2.0")]
+        for provider, model in cases:
+            with self.subTest(model):
+                result, sent = self.rank(provider, model)
+                self.assertEqual(result["output_mode"], "prompt")
+                self.assertFalse({"text", "output_config", "response_format"} & set(sent))
+                self.assertNotIn("responseSchema", sent.get("generationConfig", {}))
+        for model, catalog in (("vendor/paid-model", {"data": [{"id": "vendor/paid-model", "supported_parameters": ["response_format"]}]}),
+                               ("openrouter/auto", {"data": [{"id": "openrouter/auto", "supported_parameters": ["structured_outputs"]}]}),
+                               ("vendor/paid-model", {"error": "catalog down"})):
+            with self.subTest(model):
+                result, sent = self.rank("openrouter", model, catalog)
+                self.assertEqual((result["output_mode"], "response_format" in sent), ("prompt", False))
+
+    def test_completed_malformed_output_is_never_retried(self):
+        self.custom_reply = reply(400, {"error": {"message": "RAW response_format schema invalid"}})
+        with self.assertRaises(advisor.AIError) as caught:
+            advisor.ai_providers.generate("openai", SECRET, "gpt-6-luna", "s", "p", self.OUTPUT)
+        self.assertEqual((caught.exception.body["code"], len(self.posts())), ("upstream_error", 1))
 
     def test_invalid_config_never_calls_any_provider(self):
         good = custom("openai")["ai"]

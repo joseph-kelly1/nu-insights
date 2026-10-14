@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "registry_version": "2026-10-13.1",
+  "records": [
+    {
+      "id": "khoury-intro-2025-fundies-1",
+      "original": [
+        "CS 2500",
+        "CS 2501"
+      ],
+      "replacement": [
+        "CS 2000",
+        "CS 2001"
+      ],
+      "direction": "replacement_fulfills_original",
+      "purpose": "degree_requirement",
+      "scope": {
+        "program_ids": [
+          "bscs-2bc732ab"
+        ],
+        "campus": "Boston",
+        "catalog_years": [
+          "2022-2023",
+          "2023-2024",
+          "2024-2025"
+        ]
+      },
+      "effective_term": {
+        "year": 2025,
+        "session": "fall"
+      },
+      "restrictions": {
+        "origins": [
+          "nu"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.khoury.northeastern.edu/current-undergraduate-students/introductory-computing-courses-at-khoury-college/",
+          "retrieved_on": "2026-10-13",
+          "sha256": "b8e963b8494677041e3859dee8b8134abd7662ea917c0915ef2e5baf886b2860"
+        },
+        {
+          "url": "https://www.khoury.northeastern.edu/khoury-college-announces-redesigned-sequence-of-intro-computing-courses/",
+          "retrieved_on": "2026-10-13",
+          "sha256": "84b48d61eba14406b4624481d949014531db2101f61de1d437d72f593941e00f"
+        }
+      ],
+      "rationale": "Khoury lists CS 2000 as replacing \"Fundamentals of Computer Science 1\" in the intro sequence redesigned for fall 2025.",
+      "review": {
+        "status": "candidate",
+        "reviewed_on": "2026-10-13",
+        "gap": "Khoury names CS 2000 as replacing \"Fundamentals of Computer Science 1\" starting fall 2025, but no published source says it fulfills the CS 2500 requirement in 2022-2025 BSCS degree audits or maps the CS 2501 lab. Khoury instead offered the old course for students partway through the sequence. Confirm with Khoury advising before counting it."
+      }
+    },
+    {
+      "id": "khoury-intro-2025-fundies-2",
+      "original": [
+        "CS 2510",
+        "CS 2511"
+      ],
+      "replacement": [
+        "CS 2100",
+        "CS 2101"
+      ],
+      "direction": "replacement_fulfills_original",
+      "purpose": "degree_requirement",
+      "scope": {
+        "program_ids": [
+          "bscs-2bc732ab"
+        ],
+        "campus": "Boston",
+        "catalog_years": [
+          "2022-2023",
+          "2023-2024",
+          "2024-2025"
+        ]
+      },
+      "effective_term": {
+        "year": 2025,
+        "session": "fall"
+      },
+      "restrictions": {
+        "origins": [
+          "nu"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.khoury.northeastern.edu/current-undergraduate-students/introductory-computing-courses-at-khoury-college/",
+          "retrieved_on": "2026-10-13",
+          "sha256": "b8e963b8494677041e3859dee8b8134abd7662ea917c0915ef2e5baf886b2860"
+        },
+        {
+          "url": "https://www.khoury.northeastern.edu/khoury-college-announces-redesigned-sequence-of-intro-computing-courses/",
+          "retrieved_on": "2026-10-13",
+          "sha256": "84b48d61eba14406b4624481d949014531db2101f61de1d437d72f593941e00f"
+        }
+      ],
+      "rationale": "Khoury lists CS 2100 as replacing \"Fundamentals of Computer Science 2\" in the intro sequence redesigned for fall 2025. The intro-course page mistitles it \"Fundamentals of Design 2\"; the announcement names Fundamentals of Computer Science 2.",
+      "review": {
+        "status": "candidate",
+        "reviewed_on": "2026-10-13",
+        "gap": "Khoury names CS 2100 as replacing \"Fundamentals of Computer Science 2\" starting fall 2025, but no published source says it fulfills the CS 2510 requirement in 2022-2025 BSCS degree audits or maps the CS 2511 lab. Khoury instead offered the old course for students partway through the sequence. Confirm with Khoury advising before counting it."
+      }
+    },
+    {
+      "id": "khoury-intro-2025-ood",
+      "original": [
+        "CS 3500",
+        "CS 3501"
+      ],
+      "replacement": [
+        "CS 3100",
+        "CS 3101"
+      ],
+      "direction": "replacement_fulfills_original",
+      "purpose": "degree_requirement",
+      "scope": {
+        "program_ids": [
+          "bscs-2bc732ab"
+        ],
+        "campus": "Boston",
+        "catalog_years": [
+          "2022-2023",
+          "2023-2024",
+          "2024-2025"
+        ]
+      },
+      "effective_term": {
+        "year": 2025,
+        "session": "fall"
+      },
+      "restrictions": {
+        "origins": [
+          "nu"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.khoury.northeastern.edu/current-undergraduate-students/introductory-computing-courses-at-khoury-college/",
+          "retrieved_on": "2026-10-13",
+          "sha256": "b8e963b8494677041e3859dee8b8134abd7662ea917c0915ef2e5baf886b2860"
+        },
+        {
+          "url": "https://www.khoury.northeastern.edu/khoury-college-announces-redesigned-sequence-of-intro-computing-courses/",
+          "retrieved_on": "2026-10-13",
+          "sha256": "84b48d61eba14406b4624481d949014531db2101f61de1d437d72f593941e00f"
+        }
+      ],
+      "rationale": "Khoury lists CS 3100 as replacing \"Object-Oriented Design\" in the intro sequence redesigned for fall 2025.",
+      "review": {
+        "status": "candidate",
+        "reviewed_on": "2026-10-13",
+        "gap": "Khoury names CS 3100 as replacing \"Object-Oriented Design\" starting fall 2025, but no published source says it fulfills the CS 3500 requirement in 2022-2025 BSCS degree audits or maps the CS 3501 lab. Khoury instead offered the old course for students partway through the sequence. Confirm with Khoury advising before counting it."
+      }
+    }
+  ]
+}

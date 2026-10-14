@@ -1,0 +1,2082 @@
+{
+  "document_id": "data-science-psychology-bs-de17272f",
+  "kind": "program",
+  "title": "Data Science and Psychology, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-information-science-combined-majors/data-science-psychology-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Data Science Requirements",
+      "heading_path": [
+        "Data Science Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or INSC 1000 Science at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INSC 1000"
+              ],
+              "code_text": "or INSC 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INSC 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or PSYC 1000 Psychology at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1000"
+              ],
+              "code_text": "or PSYC 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or EESC 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESC 2000"
+              ],
+              "code_text": "or EESC 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESC 2000"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Programming Sequence Pathways",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Choose one of two options:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 9,
+              "kind": "note",
+              "text": "Computer Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "Data Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "DS 2500 and DS 2501 Intermediate Programming with Data and Lab for DS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2500",
+                "DS 2501"
+              ],
+              "code_text": "DS 2500 and DS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "DS 3500 Advanced Programming with Data",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 3500"
+              ],
+              "code_text": "DS 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3500"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CS 3200 Database Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "Data Science Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "DS 4420 Machine Learning and Data Mining 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4420"
+              ],
+              "code_text": "DS 4420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4420"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "header",
+              "text": "Khoury Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 27,
+              "kind": "note",
+              "text": "With adviser approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 28,
+              "kind": "instruction",
+              "text": "Complete four semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 29,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 30,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 31,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 32,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirements",
+      "heading_path": [
+        "Computer Science Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGW 3307 Advanced Writing in the Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3307"
+              ],
+              "code_text": "ENGW 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3307"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "ENGW 3315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Psychology Requirements",
+      "heading_path": [
+        "Psychology Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Foundations of Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "PSYC 1101 Foundations of Psychology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1101"
+              ],
+              "code_text": "PSYC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1101"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Statistics in Psychological Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PSYC 2320 Statistics in Psychological Research",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 2320"
+              ],
+              "code_text": "PSYC 2320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 2320"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Mathematics Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Personality/Social Basis of Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PSYC 3400 Personality",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3400"
+              ],
+              "code_text": "PSYC 3400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3400"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PSYC 3402 Social Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3402"
+              ],
+              "code_text": "PSYC 3402",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3402"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PSYC 3404 Developmental Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3404"
+              ],
+              "code_text": "PSYC 3404",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3404"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "PSYC 3406 Clinical Psychology and Mental Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3406"
+              ],
+              "code_text": "PSYC 3406",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3406"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Cognitive/Biological Basis of Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "PSYC 3450 Learning and Motivation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3450"
+              ],
+              "code_text": "PSYC 3450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3450"
+              },
+              "alternative_group": 14
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "or PSYC 3451 Learning Principles and Behavior Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3451"
+              ],
+              "code_text": "or PSYC 3451",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3451"
+              },
+              "alternative_group": 14
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PSYC 3452 Sensation and Perception",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3452"
+              ],
+              "code_text": "PSYC 3452",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3452"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PSYC 3458 Biological Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3458"
+              ],
+              "code_text": "PSYC 3458",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3458"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PSYC 3464 Psychology of Language",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3464"
+              ],
+              "code_text": "PSYC 3464",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3464"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "PSYC 3466 Cognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3466"
+              ],
+              "code_text": "PSYC 3466",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3466"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "Psychology Laboratory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "PSYC 4600 Laboratory in Research Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4600"
+              ],
+              "code_text": "PSYC 4600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4600"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "PSYC 4606 Laboratory in Biological Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4606"
+              ],
+              "code_text": "PSYC 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4606"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "PSYC 4610 Laboratory in Psycholinguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4610"
+              ],
+              "code_text": "PSYC 4610",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4610"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "PSYC 4612 Laboratory in Cognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4612"
+              ],
+              "code_text": "PSYC 4612",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4612"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "PSYC 4614 Laboratory in Social Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4614"
+              ],
+              "code_text": "PSYC 4614",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4614"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "PSYC 4616 Laboratory in Personality",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4616"
+              ],
+              "code_text": "PSYC 4616",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4616"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "PSYC 4622 Laboratory in Sensation and Perception",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4622"
+              ],
+              "code_text": "PSYC 4622",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4622"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "PSYC 4624 Laboratory in Affective Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4624"
+              ],
+              "code_text": "PSYC 4624",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4624"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "PSYC 4626 Laboratory in Life-Span Emotional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4626"
+              ],
+              "code_text": "PSYC 4626",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4626"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "PSYC 4628 Laboratory in Developmental Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4628"
+              ],
+              "code_text": "PSYC 4628",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4628"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "header",
+              "text": "Psychology Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 33,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "PSYC 4656 Seminar in Biological Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4656"
+              ],
+              "code_text": "PSYC 4656",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4656"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "PSYC 4658 Seminar in Psycholinguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4658"
+              ],
+              "code_text": "PSYC 4658",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4658"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "PSYC 4660 Seminar in Cognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4660"
+              ],
+              "code_text": "PSYC 4660",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4660"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "PSYC 4662 Seminar in Personality",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4662"
+              ],
+              "code_text": "PSYC 4662",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4662"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "PSYC 4664 Seminar in Social Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4664"
+              ],
+              "code_text": "PSYC 4664",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4664"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "PSYC 4666 Seminar in Clinical Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4666"
+              ],
+              "code_text": "PSYC 4666",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4666"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "PSYC 4668 Seminar in Sensation and Perception",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4668"
+              ],
+              "code_text": "PSYC 4668",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4668"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "PSYC 4674 Seminar in Cognitive Neuroscience",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4674"
+              ],
+              "code_text": "PSYC 4674",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4674"
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "PSYC 4676 Seminar in Developmental Psychology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4676"
+              ],
+              "code_text": "PSYC 4676",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4676"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "header",
+              "text": "Psychology Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 44,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 45,
+              "kind": "elective_filter",
+              "text": "PSYC 2370 to PSYC 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "PSYC",
+                "minimum_number": "2370",
+                "maximum_number": "5999"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirement",
+      "heading_path": [
+        "Integrative Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Integrative Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "IS 4300 Human Computer Interaction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4300"
+              ],
+              "code_text": "IS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4300"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PSYC 4540 Quantitative Topics in Psychology and Behavioral Neuroscience",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 4540"
+              ],
+              "code_text": "PSYC 4540",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 4540"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 semester hours of general electives.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 28.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Psychology GPA Requirement",
+      "heading_path": [
+        "Psychology GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all PSYC courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "data-science-psychology-bs-de17272f",
+  "major_name": "Data Science and Psychology",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The psychology and data science combined major offers an integrative curriculum in the study of mind, brain, and behavior and in the collection, manipulation, storage, retrieval, and computational analysis of data in its various forms, including numeric, textual, image, and video data from small to large volumes. The study of psychology draws upon empirical research with both humans and animals to investigate and seek explanations for the behavior and mental life of individuals and develop assessment tools and treatment options for addressing clinical problems. In this program, students have an opportunity to augment such knowledge with skills in big data analysis, data science, and data analytics.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nData Science Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nINSC 1000\nScience at Northeastern\nor\nPSYC 1000\nPsychology at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESC 2000\nProfessional Development for Co-op\nProgramming Sequence Pathways\nChoose one of two options:\n12\nComputer Science Option\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\nData Science Option\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nDS 2500\nand\nDS 2501\nIntermediate Programming with Data\nand Lab for DS 2500\nDS 3500\nAdvanced Programming with Data\nComputer Science Required Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 3200\nDatabase Design\n4\nData Science Foundations\nDS 3000\nFoundations of Data Science\n4\nDS 4200\nInformation Presentation and Visualization\n4\nDS 4300\nLarge-Scale Information Storage and Retrieval\n4\nDS 4400\nMachine Learning and Data Mining 1\n4\nDS 4420\nMachine Learning and Data Mining 2\n4\nKhoury Elective\nWith adviser approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete four semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n4\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000\nor higher, except IS 4900\nComputer Science Writing Requirements\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one of the following:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nENGW 3307\nAdvanced Writing in the Sciences\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nPsychology Requirements\nCourse List\nCode\nTitle\nHours\nFoundations of Psychology\nPSYC 1101\nFoundations of Psychology\n4\nStatistics in Psychological Research\nPSYC 2320\nStatistics in Psychological Research\n4\nMathematics Foundations\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nPersonality/Social Basis of Behavior\nComplete two of the following:\n8\nPSYC 3400\nPersonality\nPSYC 3402\nSocial Psychology\nPSYC 3404\nDevelopmental Psychology\nPSYC 3406\nClinical Psychology and Mental Health\nCognitive/Biological Basis of Behavior\nComplete two of the following:\n8\nPSYC 3450\nLearning and Motivation\nor\nPSYC 3451\nLearning Principles and Behavior Analysis\nPSYC 3452\nSensation and Perception\nPSYC 3458\nBiological Psychology\nPSYC 3464\nPsychology of Language\nPSYC 3466\nCognition\nPsychology Laboratory\nComplete one of the following:\n4\nPSYC 4600\nLaboratory in Research Design\nPSYC 4606\nLaboratory in Biological Psychology\nPSYC 4610\nLaboratory in Psycholinguistics\nPSYC 4612\nLaboratory in Cognition\nPSYC 4614\nLaboratory in Social Psychology\nPSYC 4616\nLaboratory in Personality\nPSYC 4622\nLaboratory in Sensation and Perception\nPSYC 4624\nLaboratory in Affective Science\nPSYC 4626\nLaboratory in Life-Span Emotional Development\nPSYC 4628\nLaboratory in Developmental Psychology\nPsychology Seminar\nComplete one of the following:\n4\nPSYC 4656\nSeminar in Biological Psychology\nPSYC 4658\nSeminar in Psycholinguistics\nPSYC 4660\nSeminar in Cognition\nPSYC 4662\nSeminar in Personality\nPSYC 4664\nSeminar in Social Psychology\nPSYC 4666\nSeminar in Clinical Psychology\nPSYC 4668\nSeminar in Sensation and Perception\nPSYC 4674\nSeminar in Cognitive Neuroscience\nPSYC 4676\nSeminar in Developmental Psychology\nPsychology Electives\nComplete two of the following:\n8\nPSYC 2370\nto PSYC 5999\nIntegrative Requirement\nCourse List\nCode\nTitle\nHours\nIntegrative Course\nComplete one of the following:\n4\nIS 4300\nHuman Computer Interaction\nPSYC 4540\nQuantitative Topics in Psychology and Behavioral Neuroscience\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 semester hours of general electives.\n28\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS, and IS courses\nPsychology GPA Requirement\nMinimum 2.000 GPA required in all PSYC courses\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n130 total semester hours required",
+  "referenced_courses": [
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 5010",
+    "CY 4930",
+    "DS 2000",
+    "DS 2001",
+    "DS 2500",
+    "DS 2501",
+    "DS 3000",
+    "DS 3500",
+    "DS 4200",
+    "DS 4300",
+    "DS 4400",
+    "DS 4420",
+    "EESC 2000",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3307",
+    "ENGW 3315",
+    "INSC 1000",
+    "IS 2000",
+    "IS 4300",
+    "MATH 1341",
+    "PSYC 1000",
+    "PSYC 1101",
+    "PSYC 2320",
+    "PSYC 2370",
+    "PSYC 3400",
+    "PSYC 3402",
+    "PSYC 3404",
+    "PSYC 3406",
+    "PSYC 3450",
+    "PSYC 3451",
+    "PSYC 3452",
+    "PSYC 3458",
+    "PSYC 3464",
+    "PSYC 3466",
+    "PSYC 4540",
+    "PSYC 4600",
+    "PSYC 4606",
+    "PSYC 4610",
+    "PSYC 4612",
+    "PSYC 4614",
+    "PSYC 4616",
+    "PSYC 4622",
+    "PSYC 4624",
+    "PSYC 4626",
+    "PSYC 4628",
+    "PSYC 4656",
+    "PSYC 4658",
+    "PSYC 4660",
+    "PSYC 4662",
+    "PSYC 4664",
+    "PSYC 4666",
+    "PSYC 4668",
+    "PSYC 4674",
+    "PSYC 4676"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

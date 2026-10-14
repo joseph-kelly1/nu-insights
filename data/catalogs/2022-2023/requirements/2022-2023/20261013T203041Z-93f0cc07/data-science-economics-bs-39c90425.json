@@ -1,0 +1,1902 @@
+{
+  "document_id": "data-science-economics-bs-39c90425",
+  "kind": "program",
+  "title": "Data Science and Economics, BS",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/computer-information-science/computer-information-science-combined-majors/data-science-economics-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Data Science Requirements",
+      "heading_path": [
+        "Data Science Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ECON 1000 Economics at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1000"
+              ],
+              "code_text": "or ECON 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or EESH 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESH 2000"
+              ],
+              "code_text": "or EESH 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESH 2000"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Programming Sequence Pathways",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Choose one of the two options.",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "Computer Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "Data Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "DS 2500 and DS 2501 Intermediate Programming with Data and Lab for DS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2500",
+                "DS 2501"
+              ],
+              "code_text": "DS 2500 and DS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "DS 3500 Advanced Programming with Data",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 3500"
+              ],
+              "code_text": "DS 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3500"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CS 3200 Database Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "header",
+              "text": "Data Science Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "header",
+              "text": "Khoury Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "With adviser approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 25,
+              "kind": "instruction",
+              "text": "Complete 4 credits of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 26,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 27,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 28,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 29,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Economics Requirements",
+      "heading_path": [
+        "Economics Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Economics Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ECON 1115 Principles of Macroeconomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1115"
+              ],
+              "code_text": "ECON 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1115"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ECON 1116 Principles of Microeconomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1116"
+              ],
+              "code_text": "ECON 1116",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1116"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ECON 2315 Macroeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2315"
+              ],
+              "code_text": "ECON 2315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2315"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ECON 2316 Microeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2316"
+              ],
+              "code_text": "ECON 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2316"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ECON 2350 Statistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Economics Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "elective_filter",
+              "text": "Complete five economics elective courses that are found in the following ranges, with no more than two in the ECON 1200 to ECON 1999 range:",
+              "credits_text": "20",
+              "credits": {
+                "min": 20.0,
+                "max": 20.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {},
+              "course_filter": {
+                "subject": "ECON",
+                "minimum_number": "1200",
+                "maximum_number": "1999"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "note",
+              "text": "ECON 1200–ECON 1999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 9,
+              "kind": "note",
+              "text": "ECON 2990 –ECON 4689",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 10,
+              "kind": "note",
+              "text": "ECON 4900–ECON 4999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "ECON 5200 –ECON 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Economics Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ECON 4692 Senior Economics Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 4692"
+              ],
+              "code_text": "ECON 4692",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 4692"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Course Requirement",
+      "heading_path": [
+        "Integrative Course Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ECON 2560 Applied Econometrics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2560"
+              ],
+              "code_text": "ECON 2560",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2560"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Course Requirements",
+      "heading_path": [
+        "Supporting Course Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1231 Calculus for Business and Economics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1231"
+              ],
+              "code_text": "MATH 1231",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1231"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or MATH 1241 Calculus 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1241"
+              ],
+              "code_text": "or MATH 1241",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1241"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or MATH 1245 Calculus with Applications",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1245"
+              ],
+              "code_text": "or MATH 1245",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1245"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or MATH 1251 Calculus and Differential Equations for Biology 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1251"
+              ],
+              "code_text": "or MATH 1251",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1251"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or MATH 1340 Intensive Calculus for Engineers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1340"
+              ],
+              "code_text": "or MATH 1340",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1340"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "or MATH 1341",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Computing and Social Issues",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "AFAM 2600 Issues in Race, Science, and Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFAM 2600"
+              ],
+              "code_text": "AFAM 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFAM 2600"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "CY 5240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "SOCL 4528 Computers and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "English Requirement",
+      "heading_path": [
+        "English Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGW 3308 Advanced Writing in the Social Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3308"
+              ],
+              "code_text": "ENGW 3308",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3308"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "ENGW 3315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 24 credits of general electives.",
+              "credits_text": "24",
+              "credits": {
+                "min": 24.0,
+                "max": 24.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 24.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Economics GPA Requirement",
+      "heading_path": [
+        "Economics GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Grades in the following four courses must average to a minimum of C (2.000):",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ECON 2315 Macroeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2315"
+              ],
+              "code_text": "ECON 2315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2315"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ECON 2316 Microeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2316"
+              ],
+              "code_text": "ECON 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2316"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ECON 2350 Statistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ECON 2560 Applied Econometrics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2560"
+              ],
+              "code_text": "ECON 2560",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2560"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Exploring Creative Expression and Innovation Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Exploring Creative Expression and Innovation",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "data-science-economics-bs-39c90425",
+  "major_name": "Data Science and Economics",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The combined major in data science and economics integrates fundamental economics courses with a strong programming foundation. Students study the collection, manipulation, storage, retrieval, and computational analysis of data in its various forms, including numeric, textual, image, and video data from small to large volumes. Utilizing these skill sets allows students to address complex issues in the behavior of individuals and the collective behavior of industries and governments.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nData Science Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nCS 1200\nFirst Year Seminar\n1\nor\nECON 1000\nEconomics at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESH 2000\nProfessional Development for Co-op\nProgramming Sequence Pathways\nChoose one of the two options.\n12\nComputer Science Option\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\nData Science Option\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nDS 2500\nand\nDS 2501\nIntermediate Programming with Data\nand Lab for DS 2500\nDS 3500\nAdvanced Programming with Data\nComputer Science Required Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 3200\nDatabase Design\n4\nData Science Foundations\nDS 3000\nFoundations of Data Science\n4\nDS 4200\nInformation Presentation and Visualization\n4\nDS 4300\nLarge-Scale Information Storage and Retrieval\n4\nDS 4400\nMachine Learning and Data Mining 1\n4\nKhoury Elective\nWith adviser approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 4 credits of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n4\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000\nor higher, except\nIS 4900\nEconomics Requirements\nCourse List\nCode\nTitle\nHours\nRequired Economics Courses\nECON 1115\nPrinciples of Macroeconomics\n4\nECON 1116\nPrinciples of Microeconomics\n4\nECON 2315\nMacroeconomic Theory\n4\nECON 2316\nMicroeconomic Theory\n4\nECON 2350\nStatistics\n4\nEconomics Electives\nComplete five economics elective courses that are found in the following ranges, with no more than two in the ECON 1200 to ECON 1999 range:\n20\nECON 1200–ECON 1999\nECON 2990\n–ECON 4689\nECON 4900–ECON 4999\nECON 5200\n–ECON 5999\nEconomics Capstone\nECON 4692\nSenior Economics Seminar\n4\nIntegrative Course Requirement\nCourse List\nCode\nTitle\nHours\nECON 2560\nApplied Econometrics\n4\nSupporting Course Requirements\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1231\nCalculus for Business and Economics\n4\nor\nMATH 1241\nCalculus 1\nor\nMATH 1245\nCalculus with Applications\nor\nMATH 1251\nCalculus and Differential Equations for Biology 1\nor\nMATH 1340\nIntensive Calculus for Engineers\nor\nMATH 1341\nCalculus 1 for Science and Engineering\nComputing and Social Issues\nComplete one of the following:\n4\nAFAM 2600\nIssues in Race, Science, and Technology\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nENGL 2150\nLiterature and Digital Diversity\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nComputers and Society\nEnglish Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one of the following:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nENGW 3308\nAdvanced Writing in the Social Sciences\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 24 credits of general electives.\n24\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS, and IS courses\nEconomics GPA Requirement\nGrades in the following four courses must average to a minimum of C (2.000):\nCourse List\nCode\nTitle\nHours\nECON 2315\nMacroeconomic Theory\n4\nECON 2316\nMicroeconomic Theory\n4\nECON 2350\nStatistics\n4\nECON 2560\nApplied Econometrics\n4\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nExploring Creative Expression and Innovation\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n130 total semester hours required",
+  "referenced_courses": [
+    "AFAM 2600",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 5010",
+    "CY 4170",
+    "CY 4930",
+    "CY 5240",
+    "DS 2000",
+    "DS 2001",
+    "DS 2500",
+    "DS 2501",
+    "DS 3000",
+    "DS 3500",
+    "DS 4200",
+    "DS 4300",
+    "DS 4400",
+    "ECON 1000",
+    "ECON 1115",
+    "ECON 1116",
+    "ECON 2315",
+    "ECON 2316",
+    "ECON 2350",
+    "ECON 2560",
+    "ECON 2990",
+    "ECON 4692",
+    "ECON 5200",
+    "EESH 2000",
+    "ENGL 2150",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3308",
+    "ENGW 3315",
+    "HIST 2220",
+    "INSH 2102",
+    "IS 1300",
+    "IS 2000",
+    "IS 4900",
+    "MATH 1231",
+    "MATH 1241",
+    "MATH 1245",
+    "MATH 1251",
+    "MATH 1340",
+    "MATH 1341",
+    "PHIL 1145",
+    "PHIL 1300",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "ECON 2990"
+  ]
+}

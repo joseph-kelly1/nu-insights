@@ -1,0 +1,715 @@
+{
+  "department": "DS",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/course-descriptions/ds/",
+  "courses": [
+    {
+      "number": "2000",
+      "title": "Programming with Data",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Introduces programming for data and information science through case studies in business, sports, education, social science, economics, and the natural world. Presents key concepts in programming, data structures, and data analysis through Python and Excel. Integrates the use of data analytics libraries and tools. Surveys techniques for acquiring and programmatically integrating data from different sources. Explains the data analytics pipeline and how to apply programming at each stage. Discusses the programmatic retrieval of data from application programming interfaces (APIs) and from databases. Introduces predictive analytics for forecasting and classification. Demonstrates the limitations of statistical techniques.",
+      "prerequisites": [],
+      "corequisites": [
+        "DS 2001"
+      ],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ],
+      "corequisites_text": "DS 2001"
+    },
+    {
+      "number": "2001",
+      "title": "Data Science Programming Practicum",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Applies data science principles in interdisciplinary contexts, with each section focusing on applications to a different discipline. Involves new experiments and readings in multiple disciplines (both computer science and the discipline focus of the particular section). Requires multiple projects combining interdisciplinary subjects.",
+      "prerequisites": [],
+      "corequisites": [
+        "DS 2000"
+      ],
+      "attributes": [],
+      "corequisites_text": "DS 2000"
+    },
+    {
+      "number": "2500",
+      "title": "Intermediate Programming with Data",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers intermediate to advanced Python programming for data science. Covers object-oriented design patterns using Python, including encapsulation, composition, and inheritance. Advanced programming skills cover software architecture, recursion, profiling, unit testing and debugging, lineage and data provenance, using advanced integrated development environments, and software control systems. Uses case studies to survey key concepts in data science with an emphasis on machine-learning (classification, clustering, deep learning); data visualization; and natural language processing. Additional assigned readings survey topics in ethics, model bias, and data privacy pertinent to today's big data world. Offers students an opportunity to prepare for more advanced courses in data science and to enable practical contributions to software development and data science projects in a commercial setting.",
+      "prerequisites": {
+        "course": "DS 2000",
+        "min_grade": "D-"
+      },
+      "corequisites": [
+        "DS 2501"
+      ],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ],
+      "prerequisites_text": "DS 2000 with a minimum grade of D-",
+      "corequisites_text": "DS 2501"
+    },
+    {
+      "number": "2501",
+      "title": "Lab for DS 2500",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Practices the programming techniques discussed in DS 2500 through hands-on experimentation.",
+      "prerequisites": [],
+      "corequisites": [
+        "DS 2500"
+      ],
+      "attributes": [],
+      "corequisites_text": "DS 2500"
+    },
+    {
+      "number": "2991",
+      "title": "Research in Data Science",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct introductory-level research or creative endeavors under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3000",
+      "title": "Foundations of Data Science",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces core modern data science technologies and methods that provide a foundation for subsequent Data Science classes. Covers: working with tensors and applied linear algebra in standard numerical computing libraries (e.g., NumPy); processing and integrating data from a variety of structured and unstructured sources; introductory concepts in probability, statistics, and machine learning; basic data visualization techniques; and now standard data science tools such as Jupyter notebooks.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 2510",
+            "min_grade": "D-"
+          },
+          {
+            "course": "DS 2500",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Natural/Designed World"
+      ],
+      "prerequisites_text": "CS 2510 with a minimum grade of D- or DS 2500 with a minimum grade of D-"
+    },
+    {
+      "number": "3500",
+      "title": "Advanced Programming with Data",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a deep dive into the design and implementation of enterprise-grade software systems with an emphasis on software architectures for more complex data-driven applications. Covers extensible architectures that support testing, data provenance, reuse, maintainability, scalability, and robustness and building software APIs and libraries for wide-scale adoption and ease of use. Students design, implement, and test complex loosely coupled service-oriented architectures using distributed processing, stream-based data processing, and interprocess communication via message passing. Explores the features, capabilities, and underlying design of popular data analysis and visualization frameworks.",
+      "prerequisites": {
+        "course": "DS 2500",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "DS 2500 with a minimum grade of D-"
+    },
+    {
+      "number": "4200",
+      "title": "Information Presentation and Visualization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces foundational principles, methods, and techniques of visualization to enable creation of effective information representations suitable for exploration and discovery. Covers the design and evaluation process of visualization creation, visual representations of data, relevant principles of human vision and perception, and basic interactivity principles. Studies data types and a wide range of visual data encodings and representations. Draws examples from physics, biology, health science, social science, geography, business, and economics. Emphasizes good programming practices for both static and interactive visualizations. Creates visualizations in Excel and Tableau as well as R, Python, and open web-based authoring libraries. Requires programming in Python, JavaScript, HTML, and CSS. Requires extensive writing including documentation, explanations, and discussions of the findings from the data analyses and the visualizations.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 2510",
+            "min_grade": "D-"
+          },
+          {
+            "course": "DS 2500",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "CS 2510 with a minimum grade of D- or DS 2500 with a minimum grade of D-"
+    },
+    {
+      "number": "4300",
+      "title": "Large-Scale Information Storage and Retrieval",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces data and information storage approaches for structured and unstructured data. Covers how to build large-scale information storage structures using distributed storage facilities. Explores data quality assurance, storage reliability, and challenges of working with very large data volumes. Studies how to model multidimensional data. Implements distributed databases. Considers multitier storage design, storage area networks, and distributed data stores. Applies algorithms, including graph traversal, hashing, and sorting, to complex data storage systems. Considers complexity theory and hardness of large-scale data storage and retrieval. Requires use of nonrelational, document, key-column, key-value, and graph databases and programming in R, Python, and C++.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CS 3200",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "DS 4100",
+                "min_grade": "D-"
+              },
+              {
+                "course": "DS 3000",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ],
+      "prerequisites_text": "CS 3200 with a minimum grade of D- ; (DS 4100 with a minimum grade of D- or DS 3000 with a minimum grade of D- )"
+    },
+    {
+      "number": "4400",
+      "title": "Machine Learning and Data Mining 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces supervised and unsupervised predictive modeling, data mining, and machine-learning concepts. Uses tools and libraries to analyze data sets, build predictive models, and evaluate the fit of the models. Covers common learning algorithms, including dimensionality reduction, classification, principal-component analysis, k-NN, k-means clustering, gradient descent, regression, logistic regression, regularization, multiclass data and algorithms, boosting, and decision trees. Studies computational aspects of probability, statistics, and linear algebra that support algorithms, including sampling theory and computational learning. Requires programming in R and Python. Applies concepts to common problem domains, including recommendation systems, fraud detection, or advertising.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "DS 4100",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "DS 3000",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CS 2810",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "ECON 2350",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "ENVR 2500",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "MATH 3081",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "MGSC 2301",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "PHTH 2210",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "PSYC 2320",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CS 2810",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CS 3500",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "((DS 4100 with a minimum grade of D- or DS 3000 with a minimum grade of D- ); (CS 2810 with a minimum grade of D- or ECON 2350 with a minimum grade of D- or ENVR 2500 with a minimum grade of D- or MATH 3081 with a minimum grade of D- or MGSC 2301 with a minimum grade of D- or PHTH 2210 with a minimum grade of D- or PSYC 2320 with a minimum grade of D- )) or (CS 2810 with a minimum grade of D- ; CS 3500 with a minimum grade of D- )"
+    },
+    {
+      "number": "4420",
+      "title": "Machine Learning and Data Mining 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues with supervised and unsupervised predictive modeling, data mining, and machine-learning concepts. Covers mathematical and computational aspects of learning algorithms, including kernels, time-series data, collaborative filtering, support vector machines, neural networks, Bayesian learning and Monte Carlo methods, multiple regression, and optimization. Uses mathematical proofs and empirical analysis to assess validity and performance of algorithms. Studies additional computational aspects of probability, statistics, and linear algebra that support algorithms. Requires programming in R and Python. Applies concepts to common problem domains, including spam filtering.",
+      "prerequisites": {
+        "course": "DS 4400",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "DS 4400 with a minimum grade of D-"
+    },
+    {
+      "number": "4440",
+      "title": "Practical Neural Networks",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a hands-on introduction to modern neural network (\"deep learning\") tools and methods. Covers the fundamentals of neural networks and introduces standard and new architectures from simple feed forward networks to recurrent neural networks. Also covers stochastic gradient descent and backpropagation, along with related fitting techniques. Emphasizes using these technologies in practice, via modern toolkits. Specifically introduces Keras (together with TensorFlow) and PyTorch, which are illustrative of static and dynamic network implementations, respectively. Reviews applications of these models to various types of data, including images and text.",
+      "prerequisites": {
+        "course": "DS 4400",
+        "min_grade": "D-",
+        "concurrent": true
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ],
+      "prerequisites_text": "DS 4400 (may be taken concurrently) with a minimum grade of D-"
+    },
+    {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on in-depth project in which a student conducts research or produces a product related to the student’s major field. Combined with Junior/Senior Project 2 or college-defined equivalent for 8 credit honors in the discipline project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student’s major field.",
+      "prerequisites": {
+        "course": "DS 4970",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "DS 4970 with a minimum grade of D-"
+    },
+    {
+      "number": "4973",
+      "title": "Topics in Data Science",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a lecture course in data science on a topic not regularly taught in a formal course. Topics may vary from offering to offering. May be repeated up to four times.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CS 3000",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 3500",
+                "min_grade": "D-"
+              },
+              {
+                "course": "DS 3500",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 3000 with a minimum grade of D- ; (CS 3500 with a minimum grade of D- or DS 3500 with a minimum grade of D- )"
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4993",
+      "title": "Independent Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4994",
+      "title": "Internship",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity for internship work. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4996",
+      "title": "Experiential Education Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Draws upon the student’s approved experiential activity and integrates it with study in the academic major. Restricted to those students who are using it to fulfill their experiential education requirement. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4997",
+      "title": "Data Science Thesis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity to prepare an undergraduate thesis under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4998",
+      "title": "Data Science Thesis Continuation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on student continuing to prepare an undergraduate thesis under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5010",
+      "title": "Introduction to Programming for Data Science",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an introductory course on fundamentals of programming and data structures. Covers lists, arrays, trees, hash tables, etc.; program design, programming practices, testing, debugging, maintainability, data collection techniques, and data cleaning and preprocessing. Includes a class project, where students use the concepts covered to collect data from the web, clean and preprocess the data, and make it ready for analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5020",
+      "title": "Introduction to Linear Algebra and Probability for Data Science",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an introductory course on the basics of statistics, probability, and linear algebra. Covers random variables, frequency distributions, measures of central tendency, measures of dispersion, moments of a distribution, discrete and continuous probability distributions, chain rule, Bayes’ rule, correlation theory, basic sampling, matrix operations, trace of a matrix, norms, linear independence and ranks, inverse of a matrix, orthogonal matrices, range and null-space of a matrix, the determinant of a matrix, positive semidefinite matrices, eigenvalues, and eigenvectors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5110",
+      "title": "Introduction to Data Management and Processing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces students to the core tasks in data science, including data collection, storage, tidying, transformation, processing, management, and modeling for the purpose of extracting knowledge from raw observations. Programming is a cross-cutting aspect of the course. Offers students an opportunity to gain experience with data science tasks and tools through short assignments. Includes a term project based on real-world data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5220",
+      "title": "Supervised Machine Learning and Learning Theory",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces supervised machine learning, which is the study and design of algorithms that enable computers/machines to learn from experience or data, given examples of data with a known outcome of interest. Offers a broad view of models and algorithms for supervised decision making. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-world data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5230",
+      "title": "Unsupervised Machine Learning and Data Mining",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces unsupervised machine learning and data mining, which is the process of discovering and summarizing patterns from large amounts of data, without examples of data with a known outcome of interest. Offers a broad view of models and algorithms for unsupervised data exploration. Discusses the methodological foundations behind the models and the algorithms, as well as issues of practical implementation and use, and techniques for assessing the performance. Includes a term project involving programming and/or work with real-life data sets. Requires proficiency in a programming language such as Python, R, or MATLAB.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5500",
+      "title": "Capstone: Applications in Data Science",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students a capstone opportunity to practice data science skills learned in previous courses and to build a portfolio. Students practice visualization, data wrangling, and machine learning skills by applying them to semester-long term projects on real-world data. Students may either propose their own projects or choose from a selection of industry options. Emphasizes the overall data science process, including identification of the scientific problem, selection of appropriate machine learning methods, and visualization and communication of results. Lectures may include additional topics, including visualization, communication, and data science ethics.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 5800",
+                "min_grade": "C-"
+              },
+              {
+                "course": "EECE 7205",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "course": "DS 5110",
+            "min_grade": "C-"
+          },
+          {
+            "course": "DS 5220",
+            "min_grade": "C-"
+          },
+          {
+            "course": "DS 5230",
+            "min_grade": "C-",
+            "concurrent": true
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(CS 5800 with a minimum grade of C- or EECE 7205 with a minimum grade of C- ); DS 5110 with a minimum grade of C- ; DS 5220 with a minimum grade of C- ; DS 5230 (may be taken concurrently) with a minimum grade of C-"
+    },
+    {
+      "number": "7990",
+      "title": "Thesis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers selected work with the agreement of a project supervisor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7995",
+      "title": "Project",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students an opportunity to participate in a direct data science project under the supervision of a faculty member. May be repeated once for a total of 8 credits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8982",
+      "title": "Readings",
+      "credits": {
+        "min": 1.0,
+        "max": 8.0
+      },
+      "credits_text": "1-8",
+      "credit_options": {
+        "min": 1.0,
+        "max": 8.0
+      },
+      "description": "Offers selected readings under the supervision of a faculty member. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

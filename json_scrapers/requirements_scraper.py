@@ -37,7 +37,7 @@ SHARED_PATHS = {
 NUMBER_WORDS = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
                 'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10}
 COUNT = r'(\d+|one|two|three|four|five|six|seven|eight|nine|ten)'
-CODE = re.compile(r'\b([A-Z]{2,5})\s*(\d{4})\b')
+CODE = re.compile(r'\b([A-Z]{2,5})\s*(\d{2}[0-9A-Z]{2})\b')
 
 
 class RequirementsParseError(ValueError):
@@ -46,7 +46,9 @@ class RequirementsParseError(ValueError):
 
 def document_id(url):
     """Match the existing plan scraper's program identifiers."""
-    path = urlparse(url).path
+    path = re.sub(r'^/archive/\d{4}-\d{4}/', '/', urlparse(url).path)
+    if path == '/undergraduate/university-academics/nupath/':
+        path = '/undergraduate/university-academics/general-education-requirements/'
     return path.rstrip('/').split('/')[-1][:100] + '-' + hashlib.sha256(path.encode()).hexdigest()[:8]
 
 
@@ -61,7 +63,7 @@ def links(element, url):
 
 def canonical_reference(url):
     parsed = urlparse(url.strip())
-    path = parsed.path
+    path = re.sub(r'^/archive/\d{4}-\d{4}/', '/', parsed.path)
     if path.endswith('/index.html'):
         path = path[:-len('index.html')]
     return parsed._replace(path=path.rstrip('/'), fragment='').geturl()
@@ -112,7 +114,7 @@ def course_expression(text):
     """Parse unambiguous AND/OR chains. Mixed or annotated expressions need review."""
     normalized = CODE.sub(lambda m: f'{m[1]} {m[2]}', text)
     parts = re.split(r'\s+(and|or)\s+', normalized)
-    if not parts or any(not re.fullmatch(r'[A-Z]{2,5} \d{4}', part)
+    if not parts or any(not re.fullmatch(r'[A-Z]{2,5} \d{2}[0-9A-Z]{2}', part)
                         for part in parts[::2]):
         return None
     operators = set(parts[1::2])
@@ -276,7 +278,7 @@ def parse_document(html, url, catalog_year):
     elif soup.select_one('#concentrationrequirementstextcontainer'):
         kind = 'concentration'
         containers = soup.select('#concentrationrequirementstextcontainer')
-    elif urlparse(url).path in SHARED_PATHS:
+    elif re.sub(r'^/archive/\d{4}-\d{4}/', '/', urlparse(url).path) in SHARED_PATHS | {'/undergraduate/university-academics/nupath/'}:
         kind = 'shared'
         containers = [c for c in soup.select('[id$="textcontainer"]') if clean(c.get_text())]
     else:

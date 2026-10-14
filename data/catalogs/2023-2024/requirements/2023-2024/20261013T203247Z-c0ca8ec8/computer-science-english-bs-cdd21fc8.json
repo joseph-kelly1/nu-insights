@@ -1,0 +1,3416 @@
+{
+  "document_id": "computer-science-english-bs-cdd21fc8",
+  "kind": "program",
+  "title": "Computer Science and English, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-english-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Courses",
+      "heading_path": [
+        "Computer Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGL 1000 English at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1000"
+              ],
+              "code_text": "or ENGL 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or EESH 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESH 2000"
+              ],
+              "code_text": "or EESH 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESH 2000"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3200 Database Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "header",
+              "text": "Computing Focus",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 14,
+              "kind": "instruction",
+              "text": "Students are required to complete one of the following foci (two courses total):",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 15,
+              "kind": "note",
+              "text": "Focus 1: Natural Language Processing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CS 3800 Theory of Computation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3800"
+              ],
+              "code_text": "CS 3800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3800"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CS 4120 Natural Language Processing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4120"
+              ],
+              "code_text": "CS 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4120"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "note",
+              "text": "Focus 2: Programming Languages",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CS 3800 Theory of Computation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3800"
+              ],
+              "code_text": "CS 3800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3800"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CS 4400 Programming Languages",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4400"
+              ],
+              "code_text": "CS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4400"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "note",
+              "text": "Focus 3: Analytics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "header",
+              "text": "Computer Science/Information Science Elective Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 25,
+              "kind": "instruction",
+              "text": "Choose one:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "CS 4500 Software Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4500"
+              ],
+              "code_text": "CS 4500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4500"
+              },
+              "alternative_group": 26
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "or CS 4530 Fundamentals of Software Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4530"
+              ],
+              "code_text": "or CS 4530",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4530"
+              },
+              "alternative_group": 26
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "IS 2000 Principles of Information Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 2000"
+              ],
+              "code_text": "IS 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 2000"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "header",
+              "text": "Khoury Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 30,
+              "kind": "note",
+              "text": "With adviser approval, a directed study, project study, or appropriate graduate-level course may also be taken as an upper-division elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 31,
+              "kind": "instruction",
+              "text": "Complete 4 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 32,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 33,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 34,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 35,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "English Requirements",
+      "heading_path": [
+        "English Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Foundational Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGL 1400 Introduction to Literary Studies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1400"
+              ],
+              "code_text": "ENGL 1400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1400"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGL 1160 Introduction to Rhetoric",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1160"
+              ],
+              "code_text": "ENGL 1160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1160"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGL 1410 Introduction to Research on Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1410"
+              ],
+              "code_text": "or ENGL 1410",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1410"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENGL 1700 Global Literatures 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1700"
+              ],
+              "code_text": "ENGL 1700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1700"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or ENGL 1701 Global Literatures 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1701"
+              ],
+              "code_text": "or ENGL 1701",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1701"
+              },
+              "alternative_group": 4
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "English Electives",
+      "heading_path": [
+        "English Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Two of the courses chosen from the lists below must be at the 3000 or 4000 level.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one course from the following. You may reuse this course to fulfill an additional English requirement below.",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGL 2296 Early African-American Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2296"
+              ],
+              "code_text": "ENGL 2296",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2296"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENGL 2450 Postcolonial Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2450"
+              ],
+              "code_text": "ENGL 2450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2450"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGL 2455 American Women Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2455"
+              ],
+              "code_text": "ENGL 2455",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2455"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGL 2470 Asian-American Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2470"
+              ],
+              "code_text": "ENGL 2470",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2470"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGL 2760 Writing in Global Contexts",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2760"
+              ],
+              "code_text": "ENGL 2760",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2760"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ENGL 3678 Bedrooms and Battlefields: Hebrew Bible and the Origins of Sex, Gender, and Ethnicity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3678"
+              ],
+              "code_text": "ENGL 3678",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3678"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ENGL 3685 Modern and Contemporary Jewish Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3685"
+              ],
+              "code_text": "ENGL 3685",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3685"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Literary Periods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "Pre-19th Century Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "instruction",
+              "text": "Complete one course from the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENGL 1600 Introduction to Shakespeare",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1600"
+              ],
+              "code_text": "ENGL 1600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1600"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ENGL 2296 Early African-American Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2296"
+              ],
+              "code_text": "ENGL 2296",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2296"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ENGL 3101 Early Literatures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3101"
+              ],
+              "code_text": "ENGL 3101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3101"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ENGL 3120 17th- and 18th-Century Literatures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3120"
+              ],
+              "code_text": "ENGL 3120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3120"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ENGL 3618 Milton",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3618"
+              ],
+              "code_text": "ENGL 3618",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3618"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "ENGL 3678 Bedrooms and Battlefields: Hebrew Bible and the Origins of Sex, Gender, and Ethnicity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3678"
+              ],
+              "code_text": "ENGL 3678",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3678"
+              },
+              "alternative_group": 18
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "or JWSS 3678 Bedrooms and Battlefields: Hebrew Bible and the Origins of Sex, Gender, and Ethnicity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JWSS 3678"
+              ],
+              "code_text": "or JWSS 3678",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JWSS 3678"
+              },
+              "alternative_group": 18
+            },
+            {
+              "index": 20,
+              "kind": "note",
+              "text": "19th/20th/21st Century Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "Complete one of the following courses:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 22,
+              "kind": "note",
+              "text": "19th Century",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "ENGL 2330 The American Renaissance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2330"
+              ],
+              "code_text": "ENGL 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2330"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "ENGL 3140 19th-Century Literatures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3140"
+              ],
+              "code_text": "ENGL 3140",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3140"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "ENGL 3190 Topics in 19th-Century American Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3190"
+              ],
+              "code_text": "ENGL 3190",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3190"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "ENGL 3619 Emerson and Thoreau",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3619"
+              ],
+              "code_text": "ENGL 3619",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3619"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "ENGL 3720 19th-Century Major Figure",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3720"
+              ],
+              "code_text": "ENGL 3720",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3720"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "note",
+              "text": "20th/21st Century",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "ENGL 2301 The Graphic Novel",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2301"
+              ],
+              "code_text": "ENGL 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2301"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "ENGL 2440 The Modern Bestseller",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2440"
+              ],
+              "code_text": "ENGL 2440",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2440"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "ENGL 2600 Irish Literary Culture (Abroad)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2600"
+              ],
+              "code_text": "ENGL 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2600"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "ENGL 3161 20th- and 21st-Century Literatures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3161"
+              ],
+              "code_text": "ENGL 3161",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3161"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "ENGL 3685 Modern and Contemporary Jewish Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3685"
+              ],
+              "code_text": "ENGL 3685",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3685"
+              },
+              "alternative_group": 33
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "or JWSS 3685 Modern and Contemporary Jewish Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JWSS 3685"
+              ],
+              "code_text": "or JWSS 3685",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JWSS 3685"
+              },
+              "alternative_group": 33
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "ENGL 3730 20th- and 21st-Century Major Figure",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3730"
+              ],
+              "code_text": "ENGL 3730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3730"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "header",
+              "text": "Theories and Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 37,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "ENGL 1140 Grammar: The Architecture of English",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1140"
+              ],
+              "code_text": "ENGL 1140",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1140"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "ENGL 1160 Introduction to Rhetoric",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1160"
+              ],
+              "code_text": "ENGL 1160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1160"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "ENGL 1410 Introduction to Research on Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1410"
+              ],
+              "code_text": "ENGL 1410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1410"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "ENGL 3325 Rhetoric of Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3325"
+              ],
+              "code_text": "ENGL 3325",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3325"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "ENGL 3381 The Practice and Theory of Teaching Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3381"
+              ],
+              "code_text": "ENGL 3381",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3381"
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "ENGL 3400 Opening the Archive",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3400"
+              ],
+              "code_text": "ENGL 3400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3400"
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "ENGL 3700 Narrative Medicine",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3700"
+              ],
+              "code_text": "ENGL 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3700"
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "LING 1150 Introduction to Language and Linguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 1150"
+              ],
+              "code_text": "LING 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 1150"
+              }
+            },
+            {
+              "index": 47,
+              "kind": "course",
+              "text": "LING 2350 Linguistic Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 2350"
+              ],
+              "code_text": "LING 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 2350"
+              }
+            },
+            {
+              "index": 48,
+              "kind": "course",
+              "text": "LING 3450 Syntax",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3450"
+              ],
+              "code_text": "LING 3450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3450"
+              }
+            },
+            {
+              "index": 49,
+              "kind": "course",
+              "text": "LING 3452 Semantics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3452"
+              ],
+              "code_text": "LING 3452",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3452"
+              }
+            },
+            {
+              "index": 50,
+              "kind": "course",
+              "text": "LING 3454 History of English",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3454"
+              ],
+              "code_text": "LING 3454",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3454"
+              }
+            },
+            {
+              "index": 51,
+              "kind": "course",
+              "text": "LING 3456 Language and Gender",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3456"
+              ],
+              "code_text": "LING 3456",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3456"
+              }
+            },
+            {
+              "index": 52,
+              "kind": "course",
+              "text": "LING 3458 Topics in Linguistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LING 3458"
+              ],
+              "code_text": "LING 3458",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LING 3458"
+              }
+            },
+            {
+              "index": 53,
+              "kind": "header",
+              "text": "Comparative Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 54,
+              "kind": "instruction",
+              "text": "Complete one of the following courses:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 55,
+              "kind": "course",
+              "text": "ENGL 1450 Reading and Writing in the Digital Age",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1450"
+              ],
+              "code_text": "ENGL 1450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1450"
+              }
+            },
+            {
+              "index": 56,
+              "kind": "course",
+              "text": "ENGL 1500 British Literature to 1800",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1500"
+              ],
+              "code_text": "ENGL 1500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1500"
+              }
+            },
+            {
+              "index": 57,
+              "kind": "course",
+              "text": "ENGL 1502 American Literature to 1865",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 1502"
+              ],
+              "code_text": "ENGL 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 1502"
+              }
+            },
+            {
+              "index": 58,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 59,
+              "kind": "course",
+              "text": "ENGL 2420 Contemporary Poetry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2420"
+              ],
+              "code_text": "ENGL 2420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2420"
+              }
+            },
+            {
+              "index": 60,
+              "kind": "course",
+              "text": "ENGL 2430 Contemporary Fiction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2430"
+              ],
+              "code_text": "ENGL 2430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2430"
+              }
+            },
+            {
+              "index": 61,
+              "kind": "course",
+              "text": "ENGL 2455 American Women Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2455"
+              ],
+              "code_text": "ENGL 2455",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2455"
+              }
+            },
+            {
+              "index": 62,
+              "kind": "course",
+              "text": "ENGL 2470 Asian-American Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2470"
+              ],
+              "code_text": "ENGL 2470",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2470"
+              }
+            },
+            {
+              "index": 63,
+              "kind": "course",
+              "text": "ENGL 2510 Horror Fiction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2510"
+              ],
+              "code_text": "ENGL 2510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2510"
+              }
+            },
+            {
+              "index": 64,
+              "kind": "course",
+              "text": "ENGL 2520 Science Fiction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2520"
+              ],
+              "code_text": "ENGL 2520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2520"
+              }
+            },
+            {
+              "index": 65,
+              "kind": "course",
+              "text": "ENGL 2600 Irish Literary Culture (Abroad)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2600"
+              ],
+              "code_text": "ENGL 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2600"
+              }
+            },
+            {
+              "index": 66,
+              "kind": "course",
+              "text": "ENGL 2620 What Is Nature?",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2620"
+              ],
+              "code_text": "ENGL 2620",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2620"
+              }
+            },
+            {
+              "index": 67,
+              "kind": "course",
+              "text": "ENGL 2690 Boston in Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2690"
+              ],
+              "code_text": "ENGL 2690",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2690"
+              }
+            },
+            {
+              "index": 68,
+              "kind": "course",
+              "text": "ENGL 3487 Film and Text (Abroad)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3487"
+              ],
+              "code_text": "ENGL 3487",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3487"
+              }
+            },
+            {
+              "index": 69,
+              "kind": "header",
+              "text": "Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 70,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 71,
+              "kind": "course",
+              "text": "ENGL 2700 Creative Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2700"
+              ],
+              "code_text": "ENGL 2700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2700"
+              }
+            },
+            {
+              "index": 72,
+              "kind": "course",
+              "text": "ENGL 2710 Style and Editing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2710"
+              ],
+              "code_text": "ENGL 2710",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2710"
+              }
+            },
+            {
+              "index": 73,
+              "kind": "course",
+              "text": "ENGL 2730 Digital Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2730"
+              ],
+              "code_text": "ENGL 2730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2730"
+              }
+            },
+            {
+              "index": 74,
+              "kind": "course",
+              "text": "ENGL 2740 Writing and Community Engagement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2740"
+              ],
+              "code_text": "ENGL 2740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2740"
+              }
+            },
+            {
+              "index": 75,
+              "kind": "course",
+              "text": "ENGL 2760 Writing in Global Contexts",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2760"
+              ],
+              "code_text": "ENGL 2760",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2760"
+              }
+            },
+            {
+              "index": 76,
+              "kind": "course",
+              "text": "ENGL 2770 Writing to Heal",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2770"
+              ],
+              "code_text": "ENGL 2770",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2770"
+              }
+            },
+            {
+              "index": 77,
+              "kind": "course",
+              "text": "ENGL 2850 Writing for Social Media: Theory and Practice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2850"
+              ],
+              "code_text": "ENGL 2850",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2850"
+              }
+            },
+            {
+              "index": 78,
+              "kind": "course",
+              "text": "ENGL 3375 Writing Boston",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3375"
+              ],
+              "code_text": "ENGL 3375",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3375"
+              }
+            },
+            {
+              "index": 79,
+              "kind": "course",
+              "text": "ENGL 3376 Creative Nonfiction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3376"
+              ],
+              "code_text": "ENGL 3376",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3376"
+              }
+            },
+            {
+              "index": 80,
+              "kind": "course",
+              "text": "ENGL 3377 Poetry Workshop",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3377"
+              ],
+              "code_text": "ENGL 3377",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3377"
+              }
+            },
+            {
+              "index": 81,
+              "kind": "course",
+              "text": "ENGL 3378 Fiction Workshop",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3378"
+              ],
+              "code_text": "ENGL 3378",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3378"
+              }
+            },
+            {
+              "index": 82,
+              "kind": "course",
+              "text": "ENGL 3380 Writing Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3380"
+              ],
+              "code_text": "ENGL 3380",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3380"
+              }
+            },
+            {
+              "index": 83,
+              "kind": "course",
+              "text": "ENGL 3384 The Writer’s Marketplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3384"
+              ],
+              "code_text": "ENGL 3384",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3384"
+              }
+            },
+            {
+              "index": 84,
+              "kind": "header",
+              "text": "English Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 85,
+              "kind": "instruction",
+              "text": "Complete any two ENGL courses that have not already been used to fulfill another requirement.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Capstone",
+      "heading_path": [
+        "Capstone"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following courses:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGL 4710 Capstone Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 4710"
+              ],
+              "code_text": "ENGL 4710",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 4710"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGL 4720 Capstone Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 4720"
+              ],
+              "code_text": "or ENGL 4720",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 4720"
+              },
+              "alternative_group": 1
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Course Requirement",
+      "heading_path": [
+        "Integrative Course Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "This course will not be allowed to double-count in the Theories and Methods section above.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ENGL 3340 Technologies of Text",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 3340"
+              ],
+              "code_text": "ENGL 3340",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 3340"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or HIST 1357 History of Information in the United States: Media, Technology, Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1357"
+              ],
+              "code_text": "or HIST 1357",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1357"
+              },
+              "alternative_group": 0
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Course",
+      "heading_path": [
+        "Supporting Course"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "AFAM 2600 Issues in Race, Science, and Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFAM 2600"
+              ],
+              "code_text": "AFAM 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFAM 2600"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "CY 5240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ENGL 2150 Literature and Digital Diversity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGL 2150"
+              ],
+              "code_text": "ENGL 2150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGL 2150"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 7
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 7
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "SOCL 4528 Computers and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one course from the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGW 3309 Advanced Writing in the Humanities",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3309"
+              ],
+              "code_text": "ENGW 3309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3309"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGW 3310 Advanced Writing in Literature",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3310"
+              ],
+              "code_text": "ENGW 3310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3310"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "ENGW 3315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 semester hours of general electives.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 28.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Exploring Creative Expression and Innovation Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Exploring Creative Expression and Innovation",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "137 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computer-science-english-bs-cdd21fc8",
+  "major_name": "Computer Science and English",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The computer science and English combined major focuses on the increasingly interdisciplinary processes of creating, interpreting, and analyzing texts and programs. Students will combine communication and critical judgment, gaining the creativity and adaptability necessary to utilize technology in literary studies, and apply humanities skills to solve programming problems.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Courses\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nCS 1200\nFirst Year Seminar\n1\nor\nENGL 1000\nEnglish at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESH 2000\nProfessional Development for Co-op\nComputer Science Fundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3200\nDatabase Design\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nComputing Focus\nStudents are required to complete one of the following foci (two courses total):\n8\nFocus 1: Natural Language Processing\nCS 3800\nTheory of Computation\nCS 4120\nNatural Language Processing\nFocus 2: Programming Languages\nCS 3800\nTheory of Computation\nCS 4400\nProgramming Languages\nFocus 3: Analytics\nDS 3000\nFoundations of Data Science\nDS 4200\nInformation Presentation and Visualization\nComputer Science/Information Science Elective Course\nChoose one:\n4\nCS 4500\nSoftware Development\nor\nCS 4530\nFundamentals of Software Engineering\nIS 2000\nPrinciples of Information Science\nKhoury Elective Courses\nWith adviser approval, a directed study, project study, or appropriate graduate-level course may also be taken as an upper-division elective.\nComplete 4 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n4\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000\nor higher, except IS 4900\nEnglish Requirements\nCourse List\nCode\nTitle\nHours\nFoundational Courses\nENGL 1400\nIntroduction to Literary Studies\n4\nENGL 1160\nIntroduction to Rhetoric\n4\nor\nENGL 1410\nIntroduction to Research on Writing\nENGL 1700\nGlobal Literatures 1\n4\nor\nENGL 1701\nGlobal Literatures 2\nEnglish Electives\nTwo of the courses chosen from the lists below must be at the 3000 or 4000 level.\nCourse List\nCode\nTitle\nHours\nDiversity\nComplete one course from the following.  You may reuse this course to fulfill an additional English requirement below.\n4\nENGL 2150\nLiterature and Digital Diversity\nENGL 2296\nEarly African-American Literature\nENGL 2450\nPostcolonial Literature\nENGL 2455\nAmerican Women Writers\nENGL 2470\nAsian-American Literature\nENGL 2760\nWriting in Global Contexts\nENGL 3678\nBedrooms and Battlefields: Hebrew Bible and the Origins of Sex, Gender, and Ethnicity\nENGL 3685\nModern and Contemporary Jewish Literature\nLiterary Periods\nPre-19th Century Literature\nComplete one course from the following:\n4\nENGL 1600\nIntroduction to Shakespeare\nENGL 2296\nEarly African-American Literature\nENGL 3101\nEarly Literatures\nENGL 3120\n17th- and 18th-Century Literatures\nENGL 3618\nMilton\nENGL 3678\nBedrooms and Battlefields: Hebrew Bible and the Origins of Sex, Gender, and Ethnicity\nor\nJWSS 3678\nBedrooms and Battlefields: Hebrew Bible and the Origins of Sex, Gender, and Ethnicity\n19th/20th/21st Century Literature\nComplete one of the following courses:\n4\n19th Century\nENGL 2330\nThe American Renaissance\nENGL 3140\n19th-Century Literatures\nENGL 3190\nTopics in 19th-Century American Literature\nENGL 3619\nEmerson and Thoreau\nENGL 3720\n19th-Century Major Figure\n20th/21st Century\nENGL 2301\nThe Graphic Novel\nENGL 2440\nThe Modern Bestseller\nENGL 2600\nIrish Literary Culture (Abroad)\nENGL 3161\n20th- and 21st-Century Literatures\nENGL 3685\nModern and Contemporary Jewish Literature\nor\nJWSS 3685\nModern and Contemporary Jewish Literature\nENGL 3730\n20th- and 21st-Century Major Figure\nTheories and Methods\nComplete one of the following:\n4\nENGL 1140\nGrammar: The Architecture of English\nENGL 1160\nIntroduction to Rhetoric\nENGL 1410\nIntroduction to Research on Writing\nENGL 2150\nLiterature and Digital Diversity\nENGL 3325\nRhetoric of Law\nENGL 3381\nThe Practice and Theory of Teaching Writing\nENGL 3400\nOpening the Archive\nENGL 3700\nNarrative Medicine\nLING 1150\nIntroduction to Language and Linguistics\nLING 2350\nLinguistic Analysis\nLING 3450\nSyntax\nLING 3452\nSemantics\nLING 3454\nHistory of English\nLING 3456\nLanguage and Gender\nLING 3458\nTopics in Linguistics\nComparative Course\nComplete one of the following courses:\n4\nENGL 1450\nReading and Writing in the Digital Age\nENGL 1500\nBritish Literature to 1800\nENGL 1502\nAmerican Literature to 1865\nENGL 2150\nLiterature and Digital Diversity\nENGL 2420\nContemporary Poetry\nENGL 2430\nContemporary Fiction\nENGL 2455\nAmerican Women Writers\nENGL 2470\nAsian-American Literature\nENGL 2510\nHorror Fiction\nENGL 2520\nScience Fiction\nENGL 2600\nIrish Literary Culture (Abroad)\nENGL 2620\nWhat Is Nature?\nENGL 2690\nBoston in Literature\nENGL 3487\nFilm and Text (Abroad)\nWriting\nComplete one of the following:\n4\nENGL 2700\nCreative Writing\nENGL 2710\nStyle and Editing\nENGL 2730\nDigital Writing\nENGL 2740\nWriting and Community Engagement\nENGL 2760\nWriting in Global Contexts\nENGL 2770\nWriting to Heal\nENGL 2850\nWriting for Social Media: Theory and Practice\nENGL 3375\nWriting Boston\nENGL 3376\nCreative Nonfiction\nENGL 3377\nPoetry Workshop\nENGL 3378\nFiction Workshop\nENGL 3380\nWriting Seminar\nENGL 3384\nThe Writer’s Marketplace\nEnglish Electives\nComplete any two ENGL courses that have not already been used to fulfill another requirement.\n8\nCapstone\nCourse List\nCode\nTitle\nHours\nComplete one of the following courses:\nENGL 4710\nCapstone Seminar\n4\nor\nENGL 4720\nCapstone Project\nIntegrative Course Requirement\nThis course will not be allowed to double-count in the Theories and Methods section above.\nCourse List\nCode\nTitle\nHours\nENGL 3340\nTechnologies of Text\n4\nor\nHIST 1357\nHistory of Information in the United States: Media, Technology, Law\nSupporting Course\nCourse List\nCode\nTitle\nHours\nComplete one of the following:\n4\nAFAM 2600\nIssues in Race, Science, and Technology\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nENGL 2150\nLiterature and Digital Diversity\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nComputers and Society\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one course from the following:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nENGW 3309\nAdvanced Writing in the Humanities\nENGW 3310\nAdvanced Writing in Literature\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 semester hours of general electives.\n28\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS and IS courses\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nExploring Creative Expression and Innovation\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n137 total semester hours required",
+  "referenced_courses": [
+    "AFAM 2600",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3000",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 3800",
+    "CS 4120",
+    "CS 4400",
+    "CS 4500",
+    "CS 4530",
+    "CS 5010",
+    "CY 4170",
+    "CY 4930",
+    "CY 5240",
+    "DS 2500",
+    "DS 3000",
+    "DS 4200",
+    "EESH 2000",
+    "ENGL 1000",
+    "ENGL 1140",
+    "ENGL 1160",
+    "ENGL 1400",
+    "ENGL 1410",
+    "ENGL 1450",
+    "ENGL 1500",
+    "ENGL 1502",
+    "ENGL 1600",
+    "ENGL 1700",
+    "ENGL 1701",
+    "ENGL 2150",
+    "ENGL 2296",
+    "ENGL 2301",
+    "ENGL 2330",
+    "ENGL 2420",
+    "ENGL 2430",
+    "ENGL 2440",
+    "ENGL 2450",
+    "ENGL 2455",
+    "ENGL 2470",
+    "ENGL 2510",
+    "ENGL 2520",
+    "ENGL 2600",
+    "ENGL 2620",
+    "ENGL 2690",
+    "ENGL 2700",
+    "ENGL 2710",
+    "ENGL 2730",
+    "ENGL 2740",
+    "ENGL 2760",
+    "ENGL 2770",
+    "ENGL 2850",
+    "ENGL 3101",
+    "ENGL 3120",
+    "ENGL 3140",
+    "ENGL 3161",
+    "ENGL 3190",
+    "ENGL 3325",
+    "ENGL 3340",
+    "ENGL 3375",
+    "ENGL 3376",
+    "ENGL 3377",
+    "ENGL 3378",
+    "ENGL 3380",
+    "ENGL 3381",
+    "ENGL 3384",
+    "ENGL 3400",
+    "ENGL 3487",
+    "ENGL 3618",
+    "ENGL 3619",
+    "ENGL 3678",
+    "ENGL 3685",
+    "ENGL 3700",
+    "ENGL 3720",
+    "ENGL 3730",
+    "ENGL 4710",
+    "ENGL 4720",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3309",
+    "ENGW 3310",
+    "ENGW 3315",
+    "HIST 1357",
+    "HIST 2220",
+    "INSH 2102",
+    "IS 1300",
+    "IS 2000",
+    "JWSS 3678",
+    "JWSS 3685",
+    "LING 1150",
+    "LING 2350",
+    "LING 3450",
+    "LING 3452",
+    "LING 3454",
+    "LING 3456",
+    "LING 3458",
+    "PHIL 1145",
+    "PHIL 1300",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

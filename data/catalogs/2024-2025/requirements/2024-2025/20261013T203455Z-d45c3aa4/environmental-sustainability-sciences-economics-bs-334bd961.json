@@ -1,0 +1,2193 @@
+{
+  "document_id": "environmental-sustainability-sciences-economics-bs-334bd961",
+  "kind": "program",
+  "title": "Environmental and Sustainability Sciences and Economics, BS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/science/marine-environmental/environmental-sustainability-sciences-economics-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Environmental and Sustainability Sciences Requirements",
+      "heading_path": [
+        "Environmental and Sustainability Sciences Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Core Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENVR 1400 and ENVR 1401 Foundations in Environmental and Sustainability Sciences and Lab for ENVR 1400",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1400",
+                "ENVR 1401"
+              ],
+              "code_text": "ENVR 1400 and ENVR 1401",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1400"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1401"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENVR 1200 and ENVR 1201 Dynamic Earth and Lab for ENVR 1200",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1200",
+                "ENVR 1201"
+              ],
+              "code_text": "ENVR 1200 and ENVR 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1200"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1201"
+                  }
+                ]
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENVR 2200 Earth's Changing Cycles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2200"
+              ],
+              "code_text": "or ENVR 2200",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "EEMB 2302 and EEMB 2303 Ecology and Lab for EEMB 2302",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2302",
+                "EEMB 2303"
+              ],
+              "code_text": "EEMB 2302 and EEMB 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2302"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2303"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENVR 2515 Sustainable Development",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2515"
+              ],
+              "code_text": "ENVR 2515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2515"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following skills courses:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENVR 3300 and ENVR 3301 Geographic Information Systems and Lab for ENVR 3300",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3300",
+                "ENVR 3301"
+              ],
+              "code_text": "ENVR 3300 and ENVR 3301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3300"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3301"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ENVR 5260 Geographical Information Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5260"
+              ],
+              "code_text": "ENVR 5260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5260"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "instruction",
+              "text": "Complete four courses from these lists:",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 4
+              }
+            },
+            {
+              "index": 10,
+              "kind": "note",
+              "text": "Earth Oceans and Environmental Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ENVR 2310 and ENVR 2311 Earth Materials and Lab for ENVR 2310",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2310",
+                "ENVR 2311"
+              ],
+              "code_text": "ENVR 2310 and ENVR 2311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2310"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2311"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENVR 3125 Global Oceanic Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3125"
+              ],
+              "code_text": "ENVR 3125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3125"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENVR 3600 Oceanography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3600"
+              ],
+              "code_text": "ENVR 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3600"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ENVR 4500 and ENVR 4501 Applied Hydrogeology and Lab for ENVR 4500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4500",
+                "ENVR 4501"
+              ],
+              "code_text": "ENVR 4500 and ENVR 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 4500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 4501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ENVR 5600 Coastal Processes, Adaptation, and Resilience",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5600"
+              ],
+              "code_text": "ENVR 5600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5600"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ENVR 5670 Global Biogeochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5670"
+              ],
+              "code_text": "ENVR 5670",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5670"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "note",
+              "text": "Conservation, Restoration, and Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "EEMB 2400 Introduction to Evolution",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2400"
+              ],
+              "code_text": "EEMB 2400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 2400"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "EEMB 3460 Conservation Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3460"
+              ],
+              "code_text": "EEMB 3460",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3460"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "EEMB 3465 Ecological and Conservation Genomics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3465"
+              ],
+              "code_text": "EEMB 3465",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3465"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "EEMB 4001 Landscape and Restoration Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 4001"
+              ],
+              "code_text": "EEMB 4001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 4001"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "ENVR 4505 Wetlands",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4505"
+              ],
+              "code_text": "ENVR 4505",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4505"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "ENVR 5700 Streams and Watershed Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5700"
+              ],
+              "code_text": "ENVR 5700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5700"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "Sustainable Planning and Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "ENVR 3150 Food Security and Sustainability",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3150"
+              ],
+              "code_text": "ENVR 3150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3150"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "ENVR 3200 Water Resources",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3200"
+              ],
+              "code_text": "ENVR 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3200"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "ENVR 5150 Climate and Atmospheric Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5150"
+              ],
+              "code_text": "ENVR 5150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5150"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "ENVR 5210 Environmental Planning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5210"
+              ],
+              "code_text": "ENVR 5210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5210"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "ENVR 5800 Climate Adaptation and Nature-Based Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5800"
+              ],
+              "code_text": "ENVR 5800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5800"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "note",
+              "text": "Environment and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "ENVR 5450",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5450"
+              ],
+              "code_text": "ENVR 5450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5450"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "ENVR 5750 Urban Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5750"
+              ],
+              "code_text": "ENVR 5750",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5750"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "POLS 2395 Environmental Politics and Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2395"
+              ],
+              "code_text": "POLS 2395",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2395"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "PPUA 5260 Ecological Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PPUA 5260"
+              ],
+              "code_text": "PPUA 5260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PPUA 5260"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "PPUA 5268 International Environmental Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PPUA 5268"
+              ],
+              "code_text": "PPUA 5268",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PPUA 5268"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Economics Requirements",
+      "heading_path": [
+        "Economics Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Core Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ECON 1115 Principles of Macroeconomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1115"
+              ],
+              "code_text": "ECON 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1115"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ECON 1116 Principles of Microeconomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1116"
+              ],
+              "code_text": "ECON 1116",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1116"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ECON 2315 Macroeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2315"
+              ],
+              "code_text": "ECON 2315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2315"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ECON 2316 Microeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2316"
+              ],
+              "code_text": "ECON 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2316"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ECON 2350 Statistics for Economists",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ECON 2560 Applied Econometrics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2560"
+              ],
+              "code_text": "ECON 2560",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2560"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ECON 3423 Environmental Economics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 3423"
+              ],
+              "code_text": "ECON 3423",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 3423"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "header",
+              "text": "Supporting Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 9,
+              "kind": "note",
+              "text": "Calculus",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 10,
+              "kind": "elective_filter",
+              "text": "Complete one of the following. It is recommended that MATH 1241 or higher is chosen:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              },
+              "course_filter": {
+                "subject": "MATH",
+                "minimum_number": "1241"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "MATH 1231 Calculus for Business and Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1231"
+              ],
+              "code_text": "MATH 1231",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1231"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "or MATH 1241 Calculus 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1241"
+              ],
+              "code_text": "or MATH 1241",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1241"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "or MATH 1245 Calculus with Applications",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1245"
+              ],
+              "code_text": "or MATH 1245",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1245"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "or MATH 1251 Calculus and Differential Equations for Biology 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1251"
+              ],
+              "code_text": "or MATH 1251",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1251"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "or MATH 1340 Intensive Calculus for Engineers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1340"
+              ],
+              "code_text": "or MATH 1340",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1340"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "or MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "or MATH 1341",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 17,
+              "kind": "note",
+              "text": "Computer Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CS 1100 and CS 1101 Computer Science and Its Applications and Lab for CS 1100",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1100",
+                "CS 1101"
+              ],
+              "code_text": "CS 1100 and CS 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1100"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1101"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "MISM 2510 Fundamentals of Information Analytics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2510"
+              ],
+              "code_text": "MISM 2510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2510"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "header",
+              "text": "Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 23,
+              "kind": "instruction",
+              "text": "Complete two courses in the following ranges, with only one at the 1000 level:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 2
+              }
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "ECON 1200–ECON 1999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 25,
+              "kind": "note",
+              "text": "ECON 2990 –ECON 4689",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 26,
+              "kind": "note",
+              "text": "ECON 4900– ECON 4996",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 27,
+              "kind": "note",
+              "text": "ECON 5200 –ECON 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirements",
+      "heading_path": [
+        "Integrative Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introduction to College",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENVR 1000 Marine and Environmental Sciences at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1000"
+              ],
+              "code_text": "ENVR 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ECON 1000 Economics at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1000"
+              ],
+              "code_text": "or ECON 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or INSC 1000 Science at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INSC 1000"
+              ],
+              "code_text": "or INSC 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INSC 1000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Environmental and Sustainability Sciences Integrative Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following (courses used as electives may not overlap with courses used as integrative):",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENVR 3150 Food Security and Sustainability",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3150"
+              ],
+              "code_text": "ENVR 3150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3150"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENVR 5350 Sustainable Energy and Climate Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5350"
+              ],
+              "code_text": "ENVR 5350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5350"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ENVR 5450",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5450"
+              ],
+              "code_text": "ENVR 5450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5450"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ENVR 5563 Advanced Spatial Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5563"
+              ],
+              "code_text": "ENVR 5563",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5563"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Economics Integrative Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "instruction",
+              "text": "Complete one of the following (courses used as electives may not overlap with courses used as integrative):",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ECON 1711 Economics of Sustainability",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1711"
+              ],
+              "code_text": "ECON 1711",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1711"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ECON 3404 International Food Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 3404"
+              ],
+              "code_text": "ECON 3404",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 3404"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ECON 3425 Energy Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 3425"
+              ],
+              "code_text": "ECON 3425",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 3425"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ENVR 4050 Solving Emerging Environmental Challenges through Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4050"
+              ],
+              "code_text": "ENVR 4050",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4050"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "ENVR 4997 Senior Thesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4997"
+              ],
+              "code_text": "ENVR 4997",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 4997"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "ECON 4692 Senior Economics Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 4692"
+              ],
+              "code_text": "ECON 4692",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 4692"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "ECON 4997 Senior Economics Thesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 4997"
+              ],
+              "code_text": "ECON 4997",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 4997"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "English Requirements (First-Year Writing and Advanced Writing in the Disciplines)",
+      "heading_path": [
+        "English Requirements (First-Year Writing and Advanced Writing in the Disciplines)"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3307 Advanced Writing in the Sciences",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3307"
+              ],
+              "code_text": "ENGW 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3307"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3308 Advanced Writing in the Social Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3308"
+              ],
+              "code_text": "or ENGW 3308",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3308"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Major GPA/Credit Requirement",
+      "heading_path": [
+        "Major GPA/Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Grades in the following four economics courses must average to a minimum of C (2.000):",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ECON 2315 Macroeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2315"
+              ],
+              "code_text": "ECON 2315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2315"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ECON 2316 Microeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2316"
+              ],
+              "code_text": "ECON 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2316"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ECON 2350 Statistics for Economists",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ECON 2560 Applied Econometrics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2560"
+              ],
+              "code_text": "ECON 2560",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2560"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "83 semester hours required in the major",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "128 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "environmental-sustainability-sciences-economics-bs-334bd961",
+  "major_name": "Environmental and Sustainability Sciences and Economics",
+  "degree": "BS",
+  "campus": "",
+  "college": "College of Science",
+  "overview_text": "Through this combined major, students develop an awareness of the intrinsic connection between the environment and economics and understand how long-run economic growth is crucially dependent on policies that account for the sustainability and well-being of the environment and that are grounded on environmental science. There are a number of interdisciplinary opportunities involving environmental and sustainability sciences. Due to curricular overlap, combinations of any environmental and sustainability sciences major, including combined majors, cannot occur with majors or minors in ecology and evolutionary biology or environmental studies or with the minor in geoscience.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nEnvironmental and Sustainability Sciences Requirements\nCourse List\nCode\nTitle\nHours\nCore Courses\nENVR 1400\nand\nENVR 1401\nFoundations in Environmental and Sustainability Sciences\nand Lab for ENVR 1400\n5\nENVR 1200\nand\nENVR 1201\nDynamic Earth\nand Lab for ENVR 1200\n4-5\nor\nENVR 2200\nEarth's Changing Cycles\nEEMB 2302\nand\nEEMB 2303\nEcology\nand Lab for EEMB 2302\n5\nENVR 2515\nSustainable Development\n4\nComplete one of the following skills courses:\n4-5\nENVR 3300\nand\nENVR 3301\nGeographic Information Systems\nand Lab for ENVR 3300\nENVR 5260\nGeographical Information Systems\nComplete four courses from these lists:\n16\nEarth Oceans and Environmental Change\nENVR 2310\nand\nENVR 2311\nEarth Materials\nand Lab for ENVR 2310\nENVR 3125\nGlobal Oceanic Change\nENVR 3600\nOceanography\nENVR 4500\nand\nENVR 4501\nApplied Hydrogeology\nand Lab for ENVR 4500\nENVR 5600\nCoastal Processes, Adaptation, and Resilience\nENVR 5670\nGlobal Biogeochemistry\nConservation, Restoration, and Management\nEEMB 2400\nIntroduction to Evolution\nEEMB 3460\nConservation Biology\nEEMB 3465\nEcological and Conservation Genomics\nEEMB 4001\nLandscape and Restoration Ecology\nENVR 4505\nWetlands\nENVR 5700\nStreams and Watershed Ecology\nSustainable Planning and Development\nENVR 3150\nFood Security and Sustainability\nENVR 3200\nWater Resources\nENVR 5150\nClimate and Atmospheric Change\nENVR 5210\nEnvironmental Planning\nENVR 5800\nClimate Adaptation and Nature-Based Solutions\nEnvironment and Society\nENVR 5450\nENVR 5750\nUrban Ecology\nPOLS 2395\nEnvironmental Politics and Policy\nPPUA 5260\nEcological Economics\nPPUA 5268\nInternational Environmental Policy\nSOCL 2485\nEnvironment, Technology, and Society\nEconomics Requirements\nCourse List\nCode\nTitle\nHours\nCore Courses\nECON 1115\nPrinciples of Macroeconomics\n4\nECON 1116\nPrinciples of Microeconomics\n4\nECON 2315\nMacroeconomic Theory\n4\nECON 2316\nMicroeconomic Theory\n4\nECON 2350\nStatistics for Economists\n4\nECON 2560\nApplied Econometrics\n4\nECON 3423\nEnvironmental Economics\n4\nSupporting Courses\nCalculus\nComplete one of the following. It is recommended that\nMATH 1241\nor higher is chosen:\n4\nMATH 1231\nCalculus for Business and Economics\nor\nMATH 1241\nCalculus 1\nor\nMATH 1245\nCalculus with Applications\nor\nMATH 1251\nCalculus and Differential Equations for Biology 1\nor\nMATH 1340\nIntensive Calculus for Engineers\nor\nMATH 1341\nCalculus 1 for Science and Engineering\nComputer Science\nComplete one of the following:\n4-5\nCS 1100\nand\nCS 1101\nComputer Science and Its Applications\nand Lab for CS 1100\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nMISM 2510\nFundamentals of Information Analytics\nElectives\nComplete two courses in the following ranges, with only one at the 1000 level:\n8\nECON 1200–ECON 1999\nECON 2990\n–ECON 4689\nECON 4900–\nECON 4996\nECON 5200\n–ECON 5999\nIntegrative Requirements\nCourse List\nCode\nTitle\nHours\nIntroduction to College\nENVR 1000\nMarine and Environmental Sciences at Northeastern\n1\nor\nECON 1000\nEconomics at Northeastern\nor\nINSC 1000\nScience at Northeastern\nEnvironmental and Sustainability Sciences Integrative Course\nComplete one of the following (courses used as electives may not overlap with courses used as integrative):\n4\nENVR 3150\nFood Security and Sustainability\nENVR 5350\nSustainable Energy and Climate Solutions\nENVR 5450\nENVR 5563\nAdvanced Spatial Analysis\nEconomics Integrative Course\nComplete one of the following (courses used as electives may not overlap with courses used as integrative):\n4\nECON 1711\nEconomics of Sustainability\nECON 3404\nInternational Food Policy\nECON 3425\nEnergy Economics\nCapstone\nComplete one of the following:\n4\nENVR 4050\nSolving Emerging Environmental Challenges through Capstone\nENVR 4997\nSenior Thesis\nECON 4692\nSenior Economics Seminar\nECON 4997\nSenior Economics Thesis\nEnglish Requirements (First-Year Writing and Advanced Writing in the Disciplines)\nCourse List\nCode\nTitle\nHours\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nENGW 3307\nAdvanced Writing in the Sciences\n4\nor\nENGW 3308\nAdvanced Writing in the Social Sciences\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nMajor GPA/Credit Requirement\nGrades in the following four economics courses must average to a minimum of C (2.000):\nCourse List\nCode\nTitle\nHours\nECON 2315\nMacroeconomic Theory\n4\nECON 2316\nMicroeconomic Theory\n4\nECON 2350\nStatistics for Economists\n4\nECON 2560\nApplied Econometrics\n4\n83 semester hours required in the major\nProgram Requirement\n128 total semester hours required",
+  "referenced_courses": [
+    "CS 1100",
+    "CS 1101",
+    "DS 2000",
+    "DS 2001",
+    "ECON 1000",
+    "ECON 1115",
+    "ECON 1116",
+    "ECON 1711",
+    "ECON 2315",
+    "ECON 2316",
+    "ECON 2350",
+    "ECON 2560",
+    "ECON 2990",
+    "ECON 3404",
+    "ECON 3423",
+    "ECON 3425",
+    "ECON 4692",
+    "ECON 4996",
+    "ECON 4997",
+    "ECON 5200",
+    "EEMB 2302",
+    "EEMB 2303",
+    "EEMB 2400",
+    "EEMB 3460",
+    "EEMB 3465",
+    "EEMB 4001",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3307",
+    "ENGW 3308",
+    "ENGW 3315",
+    "ENVR 1000",
+    "ENVR 1200",
+    "ENVR 1201",
+    "ENVR 1400",
+    "ENVR 1401",
+    "ENVR 2200",
+    "ENVR 2310",
+    "ENVR 2311",
+    "ENVR 2515",
+    "ENVR 3125",
+    "ENVR 3150",
+    "ENVR 3200",
+    "ENVR 3300",
+    "ENVR 3301",
+    "ENVR 3600",
+    "ENVR 4050",
+    "ENVR 4500",
+    "ENVR 4501",
+    "ENVR 4505",
+    "ENVR 4997",
+    "ENVR 5150",
+    "ENVR 5210",
+    "ENVR 5260",
+    "ENVR 5350",
+    "ENVR 5450",
+    "ENVR 5563",
+    "ENVR 5600",
+    "ENVR 5670",
+    "ENVR 5700",
+    "ENVR 5750",
+    "ENVR 5800",
+    "INSC 1000",
+    "MATH 1231",
+    "MATH 1241",
+    "MATH 1245",
+    "MATH 1251",
+    "MATH 1340",
+    "MATH 1341",
+    "MISM 2510",
+    "POLS 2395",
+    "PPUA 5260",
+    "PPUA 5268",
+    "SOCL 2485"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "ECON 2990",
+    "ENVR 5450"
+  ]
+}

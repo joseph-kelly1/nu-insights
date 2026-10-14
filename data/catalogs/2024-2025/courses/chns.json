@@ -1,0 +1,357 @@
+{
+  "department": "CHNS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/course-descriptions/chns/",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary Chinese 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed for students who have very little or no prior knowledge of Chinese. Provides a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Each lesson incorporates helpful information about daily life in China and the varied cultures within the world of Chinese speakers. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources. Focuses on Mandarin Chinese; students who wish to speak another dialect of Chinese should consult instructor for proper placement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary Chinese 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues CHNS 1101. Reviews and continues the study of grammar and basic language skills. Offers progressively more intensive practice in oral and written communication. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHNS 1101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHNS 1301",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 1101 with a minimum grade of C- or CHNS 1301 with a minimum grade of C-"
+    },
+    {
+      "number": "1944",
+      "title": "Cultural Engagement: Dialogue of Civilizations",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Engages students on-site with the culture(s) of Chinese-speaking regions and/or communities. Emphasizes the complexity, transnationalism, and interdisciplinary nature of culture(s). Employs a range of methodological approaches to describe and analyze how cultural practices, objects, texts, and meanings are created, distributed, and exchanged within particular social groups or geographic areas. Explores questions of cultural identity, meaning, representation, policy formations, and ideologies. In addition to regular in-class lectures and activities, offers students an opportunity to engage in a dialogue with members of the local communities about their perspectives on relevant cultural topics and everyday experiences. May be repeated once. Conducted in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2101",
+      "title": "Intermediate Chinese 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Seeks to consolidate the foundation built in elementary Chinese courses. Offers students an opportunity to develop higher oral proficiency, as well as reading and writing skills. Requires students to perform various tasks, such as describing, comparing, and narrating, in culturally appropriate ways.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHNS 1102",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHNS 1302",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 1102 with a minimum grade of C- or CHNS 1302 with a minimum grade of C-"
+    },
+    {
+      "number": "2102",
+      "title": "Intermediate Chinese 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Emphasizes vocabulary building and mastery of fine points of grammar through written compositions, prepared oral reports, and reading and discussions of material from everyday life to situate language learning in authentic contexts.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHNS 2101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHNS 2301",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHNS 1502",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 2101 with a minimum grade of C- or CHNS 2301 with a minimum grade of C- or CHNS 1502 with a minimum grade of C-"
+    },
+    {
+      "number": "2301",
+      "title": "Intermediate Chinese Immersion 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed for students who are in a Chinese-speaking country, this is an off-campus immersion course. Offers students an opportunity to continue to develop grammatical and conversational competence. Focuses on oral and aural skills that are enhanced by the immersion environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2302",
+      "title": "Intermediate Chinese Immersion 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed for students who are in a Chinese-speaking country, this is an off-campus immersion course. Offers students an opportunity to continue to develop grammatical and conversational competence. Focuses on oral and aural skills that are enhanced by the immersion environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2900",
+      "title": "Specialized Instruction in Chinese",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on developing students’ language proficiency and cultural competence within a specific context. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "CHNS 1102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 1102 with a minimum grade of C-"
+    },
+    {
+      "number": "3101",
+      "title": "Advanced Chinese 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Stresses the fundamentals of Chinese to promote effective self-expression through speaking and writing and to explore the idiomatic aspects of the language. Through progressive class discussions and oral and written commentaries, students analyze a contemporary Chinese novel or a Chinese cultural reader, screenplay, or collection of short stories. The course strives, first, to help students read and comprehend modern Chinese writing with confidence and to be able to talk and write about it in good Chinese; and second, to provide preparation for advanced courses.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHNS 2102",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHNS 2302",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 2102 with a minimum grade of D- or CHNS 2302 with a minimum grade of D-"
+    },
+    {
+      "number": "3102",
+      "title": "Advanced Chinese 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues CHNS 3101. Designed to enhance and reinforce the practical language and communication skills that students employ when they are abroad. Offers students an opportunity to participate in service-learning experiences.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHNS 3101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHNS 3301",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 3101 with a minimum grade of C- or CHNS 3301 with a minimum grade of C-"
+    },
+    {
+      "number": "3301",
+      "title": "Advanced Chinese Immersion 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed for students who are in a Chinese-speaking country, this is an off-campus immersion course. Offers students an opportunity to continue to develop grammatical and conversational competence.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3302",
+      "title": "Advanced Chinese Immersion 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed for students who are in a Chinese-speaking country, this is an off-campus immersion course. Offers students an opportunity to continue to develop grammatical and conversational competence.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3800",
+      "title": "Special Topics in Chinese",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on specific aspects of Chinese language and culture. May be repeated twice for a maximum of 12 semester hours, when topics vary.",
+      "prerequisites": {
+        "course": "CHNS 3101",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 3101 with a minimum grade of C-"
+    },
+    {
+      "number": "3900",
+      "title": "Specialized Instruction in Chinese",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on developing students’ language proficiency and cultural competence within a specific context. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "CHNS 2102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 2102 with a minimum grade of C-"
+    },
+    {
+      "number": "4800",
+      "title": "Special Topics in Chinese",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on specific aspects of Chinese language and culture for advanced Chinese-language learners. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "CHNS 3102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHNS 3102 with a minimum grade of C-"
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major or minor requirements in certain situations. Priority is given to language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

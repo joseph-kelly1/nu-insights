@@ -1,0 +1,240 @@
+{
+  "document_id": "marketing-analytics-550ecbd3",
+  "kind": "concentration",
+  "title": "Marketing Analytics",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/business/concentrations/marketing-analytics/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        }
+      ],
+      "container_id": "concentrationrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Marketing Analytics",
+      "heading_path": [
+        "Concentration in Marketing Analytics"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Note: Students may double count up to one course in another business concentration.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MKTG 2602 Quantitative Analysis of Consumer Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 2602"
+              ],
+              "code_text": "MKTG 2602",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 2602"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MKTG 3402 Gaining Insights from Consumer Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 3402"
+              ],
+              "code_text": "MKTG 3402",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 3402"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MKTG 3501 Marketing Analytics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 3501"
+              ],
+              "code_text": "MKTG 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 3501"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [
+        "concentrationrequirementstext"
+      ],
+      "container_id": "concentrationrequirementstextcontainer"
+    }
+  ],
+  "overview_text": "Marketing analytics comprises the data-driven methods, techniques, and technologies that enable marketers to evaluate the success of their marketing initiatives and campaigns. This concentration offers the opportunity to learn the cutting-edge skills necessary to harness, process, and analyze data to address modern marketing challenges. It combines programming, quantitative analysis, data-driven consumer insights, and predictive modeling into an integrated curriculum that is designed to prepare students for successful careers in marketing analytics and other data-driven business specializations.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nConcentration in Marketing Analytics\nNote:\nStudents may double count up to one course in another business concentration.\nCourse List\nCode\nTitle\nHours\nRequired Courses\nMKTG 2602\nQuantitative Analysis of Consumer Data\n4\nMKTG 3402\nGaining Insights from Consumer Data\n4\nMKTG 3501\nMarketing Analytics\n4\nElective\nComplete one of the following:\n4-5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum",
+  "referenced_courses": [
+    "CS 2500",
+    "CS 2501",
+    "DS 2000",
+    "DS 2001",
+    "MKTG 2602",
+    "MKTG 3402",
+    "MKTG 3501"
+  ],
+  "links": [],
+  "linked_requirements": [],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

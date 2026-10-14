@@ -139,7 +139,7 @@ class ScraperFidelityTest(unittest.TestCase):
         self.assertEqual(by['3000']['prerequisites'], {'type': 'OR', 'courses': [
             {'type': 'AND', 'courses': [
                 {'type': 'OR', 'courses': [{'course': 'CS 2100', 'min_grade': 'D-'},
-                                           {'admission_requirement': 'CIS 201M with a minimum grade of D-'}]},
+                                           {'course': 'CIS 201M', 'min_grade': 'D-'}]},
                 {'course': 'CS 1800', 'min_grade': 'D-'}]},
             {'course': 'CS 2700', 'min_grade': 'D-'}]})
         self.assertEqual(by['3001']['credit_options'], {'values': [0.0]})  # zero-credit recitations are real courses
@@ -383,14 +383,62 @@ class GenerationTest(unittest.TestCase):
 
 
 class RankingParseTest(unittest.TestCase):
-    def test_rejects_malformed_hallucinated_and_duplicate_output(self):
-        allowed = {'CS 4100', 'CS 4120'}
-        for text in ('not json', '{"rankings": []}', '{"rankings": [{"code": "CS 9999", "reason": "x"}]}',
-                     '{"rankings": [{"code": "CS 4100"}, {"code": "CS 4100"}]}'):
-            with self.assertRaises(planner.PlanError):
-                planner.parse_ranking(text, allowed)
-        ranking = planner.parse_ranking('```json\n{"rankings": [{"code": "CS 4120", "reason": "<b>NLP</b>"}]}\n```', allowed)
-        self.assertEqual((dict(ranking), ranking.reasons['CS 4120']), ({'CS 4120': 1}, 'b NLP /b'))
+    ALLOWED = {'CS 4100', 'CS 4120', 'CS 4150'}
+
+    def parse(self, text):
+        return planner.parse_ranking(text, self.ALLOWED)
+
+    def test_safe_formatting_recovers_without_relaxing_membership(self):
+        canonical = self.parse('{"rankings": [{"code": "CS 4120", "reason": "<b>NLP</b>"}, {"code": "CS 4100", "reason": "AI"}]}')
+        self.assertEqual((dict(canonical), canonical.reasons['CS 4120']), ({'CS 4120': 2, 'CS 4100': 1}, 'b NLP /b'))
+        for text in ('```json\n{"rankings": [{"code": "CS 4120", "reason": "x"}, {"code": "CS 4100", "reason": "y"}]}\n```',
+                     '[{"code": "cs4120", "reason": "x"}, {"code": " cs  4100 ", "reason": "y"}]',
+                     '{"rankings": [{"code": "CS 4120", "reason": "x"}, {"code": "CS 4120", "reason": "dup"}, '
+                     '{"code": "CS 4100"}]}'):
+            with self.subTest(text=text):
+                self.assertEqual(list(self.parse(text)), ['CS 4120', 'CS 4100'])  # order kept, first duplicate wins
+        self.assertEqual(self.parse('[{"code": "CS 4100"}]').reasons, {'CS 4100': ''})
+        self.assertEqual(len(self.parse(json.dumps({'rankings': [{'code': 'CS 4100', 'reason': 'x' * 500}]})).reasons['CS 4100']),
+                         planner.REASON_MAX)
+
+    def test_long_lists_are_validated_then_capped(self):
+        allowed = {f'CS {4000 + i}' for i in range(40)}
+        rows = [{'code': f'CS {4000 + i}', 'reason': ''} for i in range(40)]
+        ranking = planner.parse_ranking(json.dumps({'rankings': rows}), allowed)
+        self.assertEqual((len(ranking), max(ranking.values()), ranking.stats['truncated']), (25, 25, 15))
+        rows[30]['code'] = 'CS 9999'  # beyond the kept prefix, still rejects
+        with self.assertRaises(planner.RankingError) as caught:
+            planner.parse_ranking(json.dumps({'rankings': rows}), allowed)
+        self.assertEqual(caught.exception.code, 'unknown_code')
+
+    def test_empty_means_no_preference(self):
+        ranking = self.parse('{"rankings": []}')
+        self.assertEqual((dict(ranking), ranking.reasons), ({}, {}))
+
+    def test_unusable_output_is_classified_without_keeping_text(self):
+        cases = {'not json': 'invalid_json', 'Here you go: {"rankings": []}': 'invalid_json',
+                 '{"rankings": [{"code": "CS 4100"': 'invalid_json', '"CS 4100"': 'invalid_root', '7': 'invalid_root',
+                 '{}': 'missing_rankings', '{"ranking": []}': 'missing_rankings', '{"rankings": null}': 'rankings_not_list',
+                 '{"rankings": {}}': 'rankings_not_list', '{"rankings": [{"code": "CS 9999", "reason": "x"}]}': 'unknown_code',
+                 '{"rankings": [{"code": "Machine Learning"}]}': 'unknown_code', '{"rankings": ["CS 4100"]}': 'invalid_row',
+                 '{"rankings": [{"code": "CS 4100", "reason": 5}]}': 'invalid_row',
+                 '{"rankings": [{"code": "CS 4100", "credits": 4}]}': 'invalid_row',
+                 '{"rankings": [{"reason": "x"}]}': 'invalid_row',
+                 json.dumps({'rankings': [{'code': 'CS 4100', 'reason': 'x' * planner.RANKING_BYTES}]}): 'response_too_large'}
+        for text, code in cases.items():
+            with self.subTest(code=code, text=text[:40]), self.assertRaises(planner.RankingError) as caught:
+                self.parse(text)
+            self.assertEqual(caught.exception.code, code)
+            self.assertFalse(any(isinstance(v, str) and len(v) > 10 for v in caught.exception.stats.values()))
+
+    def test_schema_limits_codes_to_candidates_and_prompt_matches_bounds(self):
+        schema = planner.ranking_schema(['CS 4100', 'CS 4120'])
+        row = schema['properties']['rankings']['items']
+        self.assertEqual((row['properties']['code']['enum'], row['required'], row['additionalProperties']),
+                         (['CS 4100', 'CS 4120'], ['code', 'reason'], False))
+        self.assertIn(f'at most {planner.RANKING_MAX}', planner.RANKING_SYSTEM)
+        self.assertIn(f'under {planner.REASON_MAX} characters', planner.RANKING_SYSTEM)
+        self.assertIn('{"rankings": []} means nothing fits', planner.RANKING_SYSTEM)
 
     def test_prompt_marks_student_text_as_data(self):
         prompt = planner.ranking_prompt([{'code': 'CS 4100', 'title': 'AI', 'description': 'd', 'counts_toward': ['x']}],
@@ -480,34 +528,93 @@ class PilotTest(unittest.TestCase):
         self.assertTrue({'CS 3100', 'CS 3101', 'CS 3800', 'CS 4100', 'DS 4400'} <= codes)
         self.assertEqual(len(codes & {'CS 4530', 'CS 4535'}), 1)
 
-    def test_stale_dataset_and_ai_failures_keep_the_draft(self):
+    def rank(self, analysis=None, side_effect=None, interests='Language models and NLP', **extra):
+        reply = {'analysis': analysis, 'model': 'm', 'id': 'i', 'usage': None, 'elapsed_ms': 1, 'output_mode': 'prompt'}
+        with mock.patch.object(advisor, 'generate_analysis', return_value=reply, side_effect=side_effect) as call, \
+                self.assertLogs(advisor.app.logger, level='INFO') as logs:
+            res = self.http.post('/api/planner/generate', json={
+                'plan': self.student(preferences={'interests': interests}), 'mode': 'ai', **extra})
+        self.assertNotIn('NLP', '\n'.join(logs.output))  # no interests, prompts, or model text in logs
+        self.assertNotIn('SECRET', '\n'.join(logs.output))
+        return res, call
+
+    def test_unusable_rankings_fall_back_to_a_checked_deterministic_proposal(self):
+        deterministic = self.http.post('/api/planner/generate', json={'plan': self.student(), 'mode': 'deterministic'}).json
+        for analysis, code in (('{"rankings": {}}', 'rankings_not_list'), ('Sure! {"rankings": []}', 'invalid_json'),
+                               ('{"rankings": [{"code": "CS 9999", "reason": "SECRET"}]}', 'unknown_code')):
+            with self.subTest(code):
+                res, call = self.rank(analysis)
+                self.assertEqual(res.status_code, 200, res.json)
+                self.assertEqual(call.call_count, 1)  # never a second AI request
+                gen = res.json['generation']
+                self.assertEqual((gen['requested_mode'], gen['mode'], gen['ranking_status'], gen['fallback_code']),
+                                 ('ai', 'deterministic', 'fallback', code))
+                self.assertNotIn('model', gen)  # attempted model kept apart from an "applied" claim
+                self.assertNotIn('shape', gen['message'])
+                self.assertEqual(res.json['proposal']['attempts'], deterministic['proposal']['attempts'])
+                self.assertEqual(res.json['report']['errors'], [])
+        applied = {**self.student(), 'attempts': res.json['proposal']['attempts']}
+        check = self.http.post('/api/planner/validate', json={'plan': applied}).json
+        self.assertEqual((check['errors'], check['coverage']), ([], 'all_modeled_covered'))
+
+    def test_recoverable_provider_errors_fall_back_and_actionable_ones_stay_errors(self):
+        for code, status in (('ai_timeout', 504), ('rate_limited', 429), ('ai_unavailable', 503),
+                             ('incomplete_response', 502), ('bad_response', 502), ('response_blocked', 422)):
+            with self.subTest(code):
+                res, call = self.rank(side_effect=AIError(status, code, 'x'))
+                self.assertEqual((res.status_code, res.json['generation']['fallback_code'], call.call_count), (200, code, 1))
+                self.assertTrue(res.json['proposal']['attempts'])
+        self.assertIn('declined', res.json['generation']['message'])  # a refusal stays distinguishable
+        for code, status in (('ai_not_configured', 503), ('ai_misconfigured', 503), ('invalid_api_key', 400),
+                             ('insufficient_credits', 402), ('provider_access_denied', 403), ('model_not_available', 400),
+                             ('upstream_error', 502)):
+            with self.subTest(code):
+                res, _ = self.rank(side_effect=AIError(status, code, 'Fix your AI settings.'))
+                self.assertEqual((res.status_code, res.json['code'], res.json['deterministic_available']), (status, code, True))
+                self.assertNotIn('proposal', res.json)
+        body = {'plan': self.student(), 'mode': 'ai', 'ai': {'mode': 'custom', 'provider': 'openai', 'api_key': 'x'}}
+        self.assertEqual(self.http.post('/api/planner/generate', json=body).json['code'], 'invalid_ai_config')
+
+    def test_planner_failures_are_not_reported_as_ai_problems(self):
         body = {'plan': self.student(), 'mode': 'deterministic', 'dataset': 'old'}
         self.assertEqual(self.http.post('/api/planner/generate', json=body).status_code, 409)
-        failure = AIError(504, 'ai_timeout', 'The AI model took too long to respond. Try again later.')
-        with mock.patch.object(advisor, 'API_KEY', 'k'), mock.patch.object(advisor, 'generate_analysis', side_effect=failure) as call:
-            res = self.http.post('/api/planner/generate', json={'plan': self.student(), 'mode': 'ai'})
-        self.assertEqual((res.status_code, res.json['code'], res.json['deterministic_available']), (504, 'ai_timeout', True))
-        self.assertEqual(call.call_count, 1)  # no automatic paid retry
-        hallucinated = {'analysis': '{"rankings": [{"code": "CS 9999", "reason": "x"}]}', 'model': 'm', 'id': 'i',
-                        'usage': None, 'elapsed_ms': 1}
-        with mock.patch.object(advisor, 'generate_analysis', return_value=hallucinated):
-            res = self.http.post('/api/planner/generate', json={'plan': self.student(), 'mode': 'ai'})
-        self.assertEqual((res.status_code, res.json['code']), (502, 'ai_bad_ranking'))
+        conflict = planner.PlanError(422, 'unsatisfiable_commitments', 'Your pinned courses conflict.', ['detail'])
+        with mock.patch.object(planner, 'generate', side_effect=conflict):
+            res, _ = self.rank('{"rankings": {}}')
+        self.assertEqual((res.status_code, res.json['code']), (422, 'unsatisfiable_commitments'))
+        limited = {'status': 'search_limited', 'coverage': {'solver': 'UNKNOWN'}, 'proposal': None, 'message': 'Ran out of time.'}
+        with mock.patch.object(planner, 'generate', return_value=limited):
+            res, _ = self.rank('{"rankings": {}}')
+        self.assertEqual((res.status_code, res.json['status'], res.json['proposal']), (200, 'search_limited', None))
+
+    def test_ranking_is_skipped_without_candidates_or_interests(self):
+        res, call = self.rank(interests='  ')
+        self.assertEqual((call.call_count, res.json['generation']['ranking_status']), (0, 'not_needed'))
+        self.assertIn('interests', res.json['generation']['message'])
+        with mock.patch.object(planner, 'ranking_candidates', return_value=[]), \
+                mock.patch.object(advisor.ai_providers, 'generate') as custom:
+            res, call = self.rank(ai={'mode': 'custom', 'provider': 'openai', 'api_key': 'SECRET-key-123', 'model': 'gpt-6-luna'})
+        self.assertEqual((call.call_count, custom.call_count, res.status_code), (0, 0, 200))
+        self.assertTrue(res.json['proposal']['attempts'])
+        res, _ = self.rank('{"rankings": []}')
+        self.assertEqual((res.json['generation']['ranking_status'], res.json['generation']['mode']), ('no_preference', 'deterministic'))
+        res = self.http.post('/api/planner/generate', json={'plan': self.student(), 'mode': 'deterministic'})
+        self.assertEqual(res.json['generation'], {'requested_mode': 'deterministic', 'mode': 'deterministic',
+                                                  'ranking_status': 'not_requested'})
 
     def test_ai_mode_sends_candidates_not_the_catalog_or_transcript(self):
-        reply = {'analysis': '{"rankings": [{"code": "CS 4120", "reason": "Language"}]}', 'model': 'm', 'id': 'i',
-                 'usage': None, 'elapsed_ms': 1}
-        with mock.patch.object(advisor, 'generate_analysis', return_value=reply) as call:
-            res = self.http.post('/api/planner/generate', json={'plan': self.student(preferences={'interests': 'NLP'}),
-                                                                'mode': 'ai'})
+        res, call = self.rank('{"rankings": [{"code": "cs4120", "reason": "Language"}]}', interests='NLP')
         self.assertEqual(res.status_code, 200, res.json)
-        prompt, system = call.call_args.args
+        prompt, system, output = call.call_args.args
         self.assertEqual(system, planner.RANKING_SYSTEM)
         self.assertIn('NLP', prompt)
         self.assertLess(prompt.count('\n- '), 130)
         self.assertNotIn('PHIL 1145', prompt.split('Course options')[0])
+        codes = output['schema']['properties']['rankings']['items']['properties']['code']['enum']
+        self.assertEqual(set(codes), {line[2:].split(':')[0] for line in prompt.splitlines() if line.startswith('- ')})
         self.assertIn('CS 4120', {a['code'] for a in res.json['proposal']['attempts']})
-        self.assertEqual(res.json['generation']['mode'], 'ai')
+        self.assertEqual(res.json['generation'], {'requested_mode': 'ai', 'mode': 'ai', 'ranking_status': 'applied',
+                                                  'model': 'm', 'provider': 'openrouter'})
 
     def test_course_names_are_matched_only_against_program_and_title_candidates(self):
         reply = {'analysis': json.dumps({'matches': [{'input': 'discrete math', 'code': 'CS 1800', 'reason': 'Year 1 fall'},

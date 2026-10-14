@@ -1,0 +1,1844 @@
+{
+  "document_id": "computer-science-politics-philosophy-economics-oak-4aa28be9",
+  "kind": "program",
+  "title": "Computer Science and Politics, Philosophy, and Economics, BS (Oakland)",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/computer-information-science/computer-information-science-combined-majors/computer-science-politics-philosophy-economics-oak/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Courses",
+      "heading_path": [
+        "Computer Science Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or PHIL 1000 Philosophy at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1000"
+              ],
+              "code_text": "or PHIL 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or EESH 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESH 2000"
+              ],
+              "code_text": "or EESH 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EESH 2000"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "All students can take a self-assessment to attempt to place out of CS 2000 and CS 2001 . Students who place out of CS 2000 and CS 2001 will instead substitute 4-5 semester hours of CS, CY, or DS coursework at the 3000 level or higher not otherwise required in the degree.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2000 and CS 2001 Introduction to Program Design and Implementation and Lab for CS 2000",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2000",
+                "CS 2001"
+              ],
+              "code_text": "CS 2000 and CS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 2100 and CS 2101 Program Design and Implementation 1 and Lab for CS 2100",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2100",
+                "CS 2101"
+              ],
+              "code_text": "CS 2100 and CS 2101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2100"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2101"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CS 3100 and CS 3101 Program Design and Implementation 2 and Lab for CS 3100",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3100",
+                "CS 3101"
+              ],
+              "code_text": "CS 3100 and CS 3101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3100"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3101"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CS 3200 Introduction to Databases",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CS 4530 Fundamentals of Software Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4530"
+              ],
+              "code_text": "CS 4530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4530"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "or CS 4535 Professional Practicum Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4535"
+              ],
+              "code_text": "or CS 4535",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4535"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Khoury Approved Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be be taken for upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 19,
+              "kind": "instruction",
+              "text": "Complete 4 credits from within the following options:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 20,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 21,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 22,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "MKTG 4606 Digital, Analytics, Technology, and Automation Research Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 4606"
+              ],
+              "code_text": "MKTG 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 4606"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Politics, Philosophy, and Economics Courses",
+      "heading_path": [
+        "Politics, Philosophy, and Economics Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete at least four courses in each of the following subject areas: ECON, PHIL, and POLS.",
+          "links": [],
+          "constraints": {
+            "minimum_courses": 4
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Foundation Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "PHIL 1160 Introduction to Economic Justice",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1160"
+              ],
+              "code_text": "PHIL 1160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1160"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Core Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "note",
+              "text": "Philosophy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHIL 2303 Social and Political Philosophy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2303"
+              ],
+              "code_text": "PHIL 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2303"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or PHIL 3822 Philosophy of Race and Racism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3822"
+              ],
+              "code_text": "or PHIL 3822",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3822"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHIL 3435 Moral Philosophy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3435"
+              ],
+              "code_text": "PHIL 3435",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3435"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or PHIL 2325 Ancient Philosophy and Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2325"
+              ],
+              "code_text": "or PHIL 2325",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2325"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 8,
+              "kind": "note",
+              "text": "Political Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "POLS 1150 American Government",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1150"
+              ],
+              "code_text": "POLS 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1150"
+              },
+              "alternative_group": 9
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "or POLS 1155 Comparative Politics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1155"
+              ],
+              "code_text": "or POLS 1155",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1155"
+              },
+              "alternative_group": 9
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "POLS 1160 International Relations",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 1160"
+              ],
+              "code_text": "POLS 1160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 1160"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "POLS 3405 International Political Economy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3405"
+              ],
+              "code_text": "POLS 3405",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3405"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ECON 1115 Principles of Macroeconomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1115"
+              ],
+              "code_text": "ECON 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1115"
+              },
+              "alternative_group": 14
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "or ECON 1116 Principles of Microeconomics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1116"
+              ],
+              "code_text": "or ECON 1116",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1116"
+              },
+              "alternative_group": 14
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ECON 2315 Macroeconomic Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2315"
+              ],
+              "code_text": "ECON 2315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2315"
+              },
+              "alternative_group": 16
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "or ECON 2316 Microeconomic Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2316"
+              ],
+              "code_text": "or ECON 2316",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2316"
+              },
+              "alternative_group": 16
+            },
+            {
+              "index": 18,
+              "kind": "note",
+              "text": "Methods Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "PHIL 3000 Interdisciplinary Methods for Politics, Philosophy, and Economics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3000"
+              ],
+              "code_text": "PHIL 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3000"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "ECON 4692 Senior Economics Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 4692"
+              ],
+              "code_text": "ECON 4692",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 4692"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "PHIL 4550 Philosophy of Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 4550"
+              ],
+              "code_text": "PHIL 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 4550"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "PHIL 5001 Global Justice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 5001"
+              ],
+              "code_text": "PHIL 5001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 5001"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "PHIL 5002 Ethics and Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 5002"
+              ],
+              "code_text": "PHIL 5002",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 5002"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "POLS 4701 Political Science Senior Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4701"
+              ],
+              "code_text": "POLS 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4701"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "POLS 4703 Senior Thesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 4703"
+              ],
+              "code_text": "POLS 4703",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 4703"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "header",
+              "text": "PPE Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 29,
+              "kind": "instruction",
+              "text": "Complete one course from the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 30,
+              "kind": "elective_filter",
+              "text": "ECON 1200 to ECON 1999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ECON",
+                "minimum_number": "1200",
+                "maximum_number": "1999"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "elective_filter",
+              "text": "ECON 3000 to ECON 4689",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ECON",
+                "minimum_number": "3000",
+                "maximum_number": "4689"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "elective_filter",
+              "text": "ECON 4900 to ECON 4999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ECON",
+                "minimum_number": "4900",
+                "maximum_number": "4999"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "elective_filter",
+              "text": "ECON 5200 to ECON 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ECON",
+                "minimum_number": "5200",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "elective_filter",
+              "text": "PHIL 2000 to PHIL 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "PHIL",
+                "minimum_number": "2000",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "elective_filter",
+              "text": "POLS 2000 to POLS 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "POLS",
+                "minimum_number": "2000",
+                "maximum_number": "5999"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Course Requirements",
+      "heading_path": [
+        "Integrative Course Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CS 2484 Principles of Human-Computer Interaction",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 2484"
+              ],
+              "code_text": "CS 2484",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2484"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "PHIL 1115 Introduction to Logic",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1115"
+              ],
+              "code_text": "PHIL 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1115"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "POLS 2390 Science, Technology, and Public Policy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2390"
+              ],
+              "code_text": "POLS 2390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2390"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Statistics and Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ECON 2350 Statistics for Economists",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or POLS 2400 Quantitative Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2400"
+              ],
+              "code_text": "or POLS 2400",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2400"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or MATH 2280 Statistics and Software",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2280"
+              ],
+              "code_text": "or MATH 2280",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2280"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 1231 Calculus for Business and Economics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1231"
+              ],
+              "code_text": "MATH 1231",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1231"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "or MATH 1341",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              },
+              "alternative_group": 4
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "English Requirements",
+      "heading_path": [
+        "English Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ENGW 3309 Advanced Writing in the Humanities",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3309"
+              ],
+              "code_text": "ENGW 3309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3309"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "ENGW 3315",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 20 semester hours of general electives.",
+              "credits_text": "20",
+              "credits": {
+                "min": 20.0,
+                "max": 20.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 20.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum cumulative 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath Requirements Satisfied",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing-Intensive in the Major Understanding Societies and Institutions Employing Ethical Reasoning Writing in the First Year Advanced Writing in the Disciplines Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing-Intensive in the Major",
+            "Understanding Societies and Institutions",
+            "Employing Ethical Reasoning",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "129 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computer-science-politics-philosophy-economics-oak-4aa28be9",
+  "major_name": "Computer Science and Politics, Philosophy, and Economics",
+  "degree": "BS",
+  "campus": "Oakland",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "Politics, philosophy, and economics bring together three important frameworks from the humanistic social sciences for understanding the world around us. Computer science involves the application of theoretical concepts in the context of software development to the solution of problems that arise in almost every human endeavor, drawing on concepts and methods from mathematics, logic, science, and engineering. This interdisciplinary degree thus provides multiple perspectives and a set of skills that are indispensable in our increasingly interconnected world and essential in addressing the kinds of complex global problems future leaders need to tackle.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Courses\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nPHIL 1000\nPhilosophy at Northeastern\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nEESH 2000\nProfessional Development for Co-op\nComputer Science Fundamental Courses\nAll students can take a self-assessment to attempt to place out of\nCS 2000\nand\nCS 2001\n. Students who place out of\nCS 2000\nand\nCS 2001\nwill instead substitute 4-5 semester hours of CS, CY, or DS coursework at the 3000 level or higher not otherwise required in the degree.\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2000\nand\nCS 2001\nIntroduction to Program Design and Implementation\nand Lab for CS 2000\n5\nCS 2100\nand\nCS 2101\nProgram Design and Implementation 1\nand Lab for CS 2100\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3100\nand\nCS 3101\nProgram Design and Implementation 2\nand Lab for CS 3100\n5\nCS 3200\nIntroduction to Databases\n4\nCS 4530\nFundamentals of Software Engineering\n4\nor\nCS 4535\nProfessional Practicum Capstone\nKhoury Approved Elective\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be be taken for upper-division electives.\nComplete 4 credits from within the following options:\n4\nCS 2500 or higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nMKTG 4606\nDigital, Analytics, Technology, and Automation Research Practicum\nPolitics, Philosophy, and Economics Courses\nComplete at least four courses in each of the following subject areas: ECON, PHIL, and POLS.\nCourse List\nCode\nTitle\nHours\nFoundation Course\nPHIL 1160\nIntroduction to Economic Justice\n4\nCore Courses\nPhilosophy\nPHIL 2303\nSocial and Political Philosophy\n4\nor\nPHIL 3822\nPhilosophy of Race and Racism\nPHIL 3435\nMoral Philosophy\n4\nor\nPHIL 2325\nAncient Philosophy and Political Thought\nPolitical Science\nPOLS 1150\nAmerican Government\n4\nor\nPOLS 1155\nComparative Politics\nPOLS 1160\nInternational Relations\n4\nPOLS 3405\nInternational Political Economy\n4\nEconomics\nECON 1115\nPrinciples of Macroeconomics\n4\nor\nECON 1116\nPrinciples of Microeconomics\nECON 2315\nMacroeconomic Theory\n4\nor\nECON 2316\nMicroeconomic Theory\nMethods Course\nPHIL 3000\nInterdisciplinary Methods for Politics, Philosophy, and Economics\n4\nCapstone\nComplete one of the following:\n4\nECON 4692\nSenior Economics Seminar\nPHIL 4550\nPhilosophy of Economics\nPHIL 5001\nGlobal Justice\nPHIL 5002\nEthics and Public Policy\nPOLS 4701\nPolitical Science Senior Capstone\nPOLS 4703\nSenior Thesis\nPPE Elective\nComplete one course from the following ranges:\n4\nECON 1200 to ECON 1999\nECON 3000 to ECON 4689\nECON 4900 to ECON 4999\nECON 5200\nto ECON 5999\nPHIL 2000 to PHIL 5999\nPOLS 2000 to POLS 5999\nIntegrative Course Requirements\nCourse List\nCode\nTitle\nHours\nCS 2484\nPrinciples of Human-Computer Interaction\n4\nPHIL 1115\nIntroduction to Logic\n4\nPOLS 2390\nScience, Technology, and Public Policy\n4\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nStatistics and Mathematics\nECON 2350\nStatistics for Economists\n4\nor\nPOLS 2400\nQuantitative Techniques\nor\nMATH 2280\nStatistics and Software\nMATH 1231\nCalculus for Business and Economics\n4\nor\nMATH 1341\nCalculus 1 for Science and Engineering\nEnglish Requirements\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one of the following:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nENGW 3309\nAdvanced Writing in the Humanities\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 20 semester hours of general electives.\n20\nKhoury College GPA Requirement\nMinimum cumulative 2.000 GPA required in all CS, CY, DS, and IS courses\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting-Intensive in the Major\nUnderstanding Societies and Institutions\nEmploying Ethical Reasoning\nWriting in the First Year\nAdvanced Writing in the Disciplines\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n129 total semester hours required",
+  "referenced_courses": [
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2000",
+    "CS 2001",
+    "CS 2100",
+    "CS 2101",
+    "CS 2484",
+    "CS 3000",
+    "CS 3100",
+    "CS 3101",
+    "CS 3200",
+    "CS 4530",
+    "CS 4535",
+    "CS 5010",
+    "CY 4930",
+    "DS 2500",
+    "ECON 1115",
+    "ECON 1116",
+    "ECON 2315",
+    "ECON 2316",
+    "ECON 2350",
+    "ECON 4692",
+    "ECON 5200",
+    "EESH 2000",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3309",
+    "ENGW 3315",
+    "MATH 1231",
+    "MATH 1341",
+    "MATH 2280",
+    "MKTG 4606",
+    "PHIL 1000",
+    "PHIL 1115",
+    "PHIL 1160",
+    "PHIL 2303",
+    "PHIL 2325",
+    "PHIL 3000",
+    "PHIL 3435",
+    "PHIL 3822",
+    "PHIL 4550",
+    "PHIL 5001",
+    "PHIL 5002",
+    "POLS 1150",
+    "POLS 1155",
+    "POLS 1160",
+    "POLS 2390",
+    "POLS 2400",
+    "POLS 3405",
+    "POLS 4701",
+    "POLS 4703"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

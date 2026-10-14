@@ -1,0 +1,195 @@
+{
+  "department": "AMSL",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/course-descriptions/amsl/",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary ASL 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces students to American Sign Language (ASL). Students develop expressive and receptive competence in using ASL to fulfill various social functions (such as introductions, explanations of personal history, and descriptions of simple narratives). Additional topics include the use of signing space and further use of nonmanual components including facial expression and body postures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary ASL 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues AMSL 1101. Continues development of expressive and receptive competence in using American Sign Language to fulfill various social functions (such as introductions, explanations of personal history, and descriptions of simple narratives). Emphasizes further development of receptive and expressive skills, finger spelling, vocabulary building, grammatical structures; encourages more extensive use of nonmanual behaviors, classifiers, body postures, and signing space. Students are also introduced to regional and ethnic sign variations and political and educational institutions of the Deaf community.",
+      "prerequisites": {
+        "course": "AMSL 1101",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 1101 with a minimum grade of D-"
+    },
+    {
+      "number": "1511",
+      "title": "ASL Classifiers",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Seeks to improve understanding of and use of ASL classifiers, including appropriate nonmanual grammatical features and other nonmanual markers. Discusses classifier hand shapes and how movement, location, and orientation of classifiers affect meaning in ASL. Covers eight types of ASL classifiers: semantic, instrumental, descriptive, locative, plural, body part, sport, and elemental. Offers students an opportunity to build on existing classifier vocabulary and eventually use an expanded range of classifiers to express narratives.",
+      "prerequisites": {
+        "course": "AMSL 1101",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 1101 with a minimum grade of D-"
+    },
+    {
+      "number": "2101",
+      "title": "Intermediate ASL 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues the student’s development of expressive and receptive competence in using American Sign Language to fulfill various communicative functions, such as making and responding to inquiries, constructing and comprehending narratives, and engaging in debates. Students also continue to expand their ASL lexicon.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "AMSL 1102",
+            "min_grade": "C"
+          },
+          {
+            "course": "DEAF 1500",
+            "min_grade": "C",
+            "concurrent": true
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 1102 with a minimum grade of C ; DEAF 1500 (may be taken concurrently) with a minimum grade of C"
+    },
+    {
+      "number": "2102",
+      "title": "Intermediate ASL 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues AMSL 2101. Emphasizes further development of receptive and expressive skills, finger spelling, vocabulary building, grammatical structures; encourages more extensive use of nonmanual behaviors, classifiers, body postures, and signing space. Continues exposure to regional and ethnic sign variations and political and educational institutions of Deaf people. Offers intensive practice involving expressive and receptive skills in storytelling and dialogue. Introduces language forms used in American Sign Language poetry and the features of culture as they are displayed in art.",
+      "prerequisites": {
+        "course": "AMSL 2101",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 2101 with a minimum grade of D-"
+    },
+    {
+      "number": "2900",
+      "title": "Specialized Instruction in ASL",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Designed for individuals whose language skills are at the intermediate level and who seek specially focused language instruction. Such instruction might be the use of the language in specific settings (e.g., media, medical, legal, mental health), or it might be focused on specific conversational nuances of the language. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3101",
+      "title": "Advanced ASL 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on continued development of syntactic competence in American Sign Language with particular attention to the use of ASL in formal discourse. Also focuses on lexical semantics and semantic equivalents for multiple meaning English lexical items.",
+      "prerequisites": {
+        "course": "AMSL 2102",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 2102 with a minimum grade of D-"
+    },
+    {
+      "number": "3102",
+      "title": "Advanced ASL 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues AMSL 3101. Focuses on further development and refinement of American Sign Language competence in various discourse settings, predominantly formal and consultative. Continues development of lexical semantics and uses individual diagnostic assessment of ASL competence to determine individual competency goals.",
+      "prerequisites": {
+        "course": "AMSL 3101",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 3101 with a minimum grade of D-"
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major requirements in certain situations. Priority is given to American Sign Language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5901",
+      "title": "Gallaudet University Program",
+      "credits": 20.0,
+      "credits_text": "20",
+      "credit_options": {
+        "values": [
+          20.0
+        ]
+      },
+      "description": "Offers students an opportunity to study at an officially bilingual university, with American Sign Language and English used for instruction and by the university.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

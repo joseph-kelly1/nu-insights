@@ -1,0 +1,505 @@
+{
+  "department": "MISM",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/course-descriptions/mism/",
+  "courses": [
+    {
+      "number": "2301",
+      "title": "Introduction to Information Systems and Digital Technologies",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the strategic role of information systems in the enterprise and the functions, advantages, impacts, and risks that organization faces when they evaluate, implement, utilize, and upgrade modern technologies and platforms. Provides in-depth understanding about the nature of digital and disruptive technologies and how they are used to solve problems. Also discusses how information systems and information technologies are leveraged to gather and analyze data to create new uses. Explores the use of frameworks to analyze business situations and of productive software to tackle data analyses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Ethical Reasoning"
+      ]
+    },
+    {
+      "number": "2420",
+      "title": "Foundations of Business Analysis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces skills and techniques that business analysts use during project processes. Business analysis is the practice of enabling change in organizations by framing problems, defining needs, understanding stakeholders, and recommending solutions that deliver value to customers and/or stakeholders. Offers students an opportunity to develop knowledge and business analysis skills such as planning, eliciting, communicating, analyzing, validating, and managing requirements. These practices enable business analysts to effectively contribute in teams that are charged with the implementation of product, process, technology, or strategic change.",
+      "prerequisites": {
+        "course": "MISM 2301",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MISM 2301 with a minimum grade of D-"
+    },
+    {
+      "number": "2510",
+      "title": "Fundamentals of Information Analytics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on information analytics concepts and techniques needed by educated information analysts, designers, and consumers to lead organizations in the contemporary information age. Includes concepts, techniques, methods, and strategies for the entire information life cycle—collection, organization, exploration, analysis, manipulation, visualization, interpretation, and presentation of information for business. Each of these topics is introduced with real-world examples and data sets, grounded in relevant theory and principles, and is reinforced using various user-friendly software tools to gain the necessary analytical skills and knowledge.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3403",
+      "title": "Data Management for Business",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an introduction to and overview of the methodological frameworks and tool sets for the design, development, and implementation of data-management solutions. Today, almost no aspect of business operates without a strong reliance on the flow of information. Even small enterprises track huge volumes of data, from sales transactions and supply chain activities to Web site traffic. Knowledge workers and managers at all levels within the organization require an understanding of data management, database design and operations, and associated decision-support and data-analysis tools and systems to complete even day-to-day tasks. Offers students an opportunity to work hands-on, applying these methods and tools to solve actual business problems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3405",
+      "title": "Data Wrangling for Business Analytics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers data wrangling principles and novel techniques for business analytics. Key topics include data profiling, data retrieval, data cleansing, and data integration, as well as data extraction and exploration via APIs. Applies the principles of data wrangling for structured and unstructured data using industry tools such as Oracle, SQL, statistical programming languages (R/Python), and visualization tools (Tableau). Offers students an opportunity to learn data wrangling techniques to identify and solve real-world data challenges, creating business value from the vast amount and types of traditional and big data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3460",
+      "title": "Web Design and Development for Business",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces web design and development with a focus on client-side technologies. Covers topics such as website evaluation and analysis, website design, website development, content management systems, and website hosting. Uses hands-on projects to explore HTML5, CSS, JavaScript, and modern frameworks to support client-side web development. Also discusses the structure of dynamic, data driven, and interactive web applications and covers the characteristics of mobile apps/mobile-first websites.",
+      "prerequisites": {
+        "course": "MISM 2301",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MISM 2301 with a minimum grade of D-"
+    },
+    {
+      "number": "3501",
+      "title": "Information Visualization for Business",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the use of design, interaction, and visualization techniques and strategies to support the effective presentation and manipulation of business information. Based on principles from art, design, psychology, and information science, offers students opportunities to learn how to successfully choose appropriate methods of representing various kinds of business data to support analysis, decision making, and communication to organizational stakeholders.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3515",
+      "title": "Data Mining for Business",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers key concepts, techniques, methods, and applications of data mining in the context of business. Offers students opportunities to learn how to distill key insights from a large amount of unknown data, which techniques to choose from, how to apply the techniques and methods to get the answer and insights from the data, and how to interpret the results from the analysis. Example predictive analysis techniques include market basket analysis and principle component analysis. Covers all techniques using business examples and user-friendly tools.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MGSC 2301",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ECON 2350",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 2280",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 3081",
+            "min_grade": "D-"
+          },
+          {
+            "course": "POLS 2400",
+            "min_grade": "D-"
+          },
+          {
+            "course": "IE 4512",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MGSC 2301 with a minimum grade of D- or ECON 2350 with a minimum grade of D- or MATH 2280 with a minimum grade of D- or MATH 3081 with a minimum grade of D- or POLS 2400 with a minimum grade of D- or IE 4512 with a minimum grade of D-"
+    },
+    {
+      "number": "3525",
+      "title": "Modeling for Business Analytics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on modern decision models in business analytics with applications to business process design, revenue management, pricing, inventory control, business network planning, and other topics. Introduces concepts including optimization, dynamic programming, cluster analysis, and consumer choice models. Emphasizes data-driven, real-world applications of the mathematical decision tools and concepts presented in the course.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "COMM 2301",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ECON 2350",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 2280",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 3081",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MGSC 2301",
+            "min_grade": "D-"
+          },
+          {
+            "course": "PHTH 2210",
+            "min_grade": "D-"
+          },
+          {
+            "course": "POLS 2400",
+            "min_grade": "D-"
+          },
+          {
+            "course": "PSYC 2320",
+            "min_grade": "D-"
+          },
+          {
+            "course": "IE 3412",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "COMM 2301 with a minimum grade of D- or ECON 2350 with a minimum grade of D- or MATH 2280 with a minimum grade of D- or MATH 3081 with a minimum grade of D- or MGSC 2301 with a minimum grade of D- or PHTH 2210 with a minimum grade of D- or POLS 2400 with a minimum grade of D- or PSYC 2320 with a minimum grade of D- or IE 3412 with a minimum grade of D-"
+    },
+    {
+      "number": "4405",
+      "title": "IT Requirements Analysis and Modeling for Business",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies how to model and analyze stakeholder requirements in order to define a workable solution for a problem. Utilizes a small project development example to illustrate the process of requirements discovery, business problem scoping, functional requirements definition, and functional requirements modeling. Uses the Requirements Modeling Language as the modeling system. Also introduces iterative development of requirements and methods for communicating functional requirements.",
+      "prerequisites": {
+        "course": "MISM 2420",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MISM 2420 with a minimum grade of D-"
+    },
+    {
+      "number": "4501",
+      "title": "Strategic Information Products",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines significant improvements to business performance, which can be achieved through sharing information within the enterprise and with customers and suppliers. Realizing the full business benefits of shared information requires changing processes and organizational structures. This team- and project-based course offers students an opportunity to design and implement these strategies and to examine significant improvements to business performance.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 2510",
+            "min_grade": "C-"
+          },
+          {
+            "course": "IS 3500",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MISM 3403",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 2510 with a minimum grade of C- or IS 3500 with a minimum grade of D- or MISM 3403 with a minimum grade of D-"
+    },
+    {
+      "number": "4983",
+      "title": "Special Topics in Management Information Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers special topics in Management Information Systems. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of faculty members of the department on a chosen topic. Course content depends on instructor. May be repeated up to four times for a maximum of 8 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6200",
+      "title": "Introduction to Business Analytics",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Provides a comprehensive approach to understanding how business analytics enable companies to become more competitive. Offers students an opportunity to learn how to apply value chain analysis and other strategic perspectives to determine how business analytics can be integrated effectively into a firm’s operations. Interactive activities such as simulations and case studies allow students to explore how insights from data can improve business decisions. Examines real-world examples of how companies have used business analytics perspectives and tools to enhance different types of business processes, such as inventory prediction, customer service quality, and resolution of ethical dilemmas.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6201",
+      "title": "Database Management for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Introduces the methodological frameworks and tool sets for the design, development, and implementation of data management solutions for business. Offers students an opportunity to work hands-on, applying these methods and tools to solve actual business problems. Almost no aspect of business operates without a strong reliance on the flow of data. Even small enterprises track huge volumes of data, from sales transactions and supply chain activities to website traffic. Knowledge workers and managers at all levels within the organization require an understanding of data management, database design and operations, and associated decision-support and data analysis tools and systems to complete even day-to-day tasks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6202",
+      "title": "Foundations of Data Analysis for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Covers basic principles and techniques of descriptive and predictive analytics. What are the essential data analysis concepts underlying business analytics? Topics include descriptive statistics, data visualization, probability and modeling uncertainty, sampling, estimation and confidence intervals, hypothesis testing, analysis of variance, simple and multiple regression analysis, time-series analysis, and forecasting. Emphasizes an understanding of how these tools can support decision making and analytics initiatives in a business context with real-world examples and case studies. Uses various software packages for analyzing data sets and creating visualizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6205",
+      "title": "Data Wrangling for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Covers data wrangling principles and techniques for business. Key topics include data extraction, profiling, cleansing, integration, aggregation, transformation, and automating data processes for business purposes. Applies principles and techniques using data transformation tools, programming languages, and data process automation tools. Emphasizes embedding appropriate communication mechanisms for collaboration for identifying, solving, and resolving challenges revealed in datasets and business processes. Offers students an opportunity to learn data wrangling techniques to identify, solve, and resolve real-world data challenges, creating business value in today’s disparate computing and dynamic business environment.",
+      "prerequisites": {
+        "course": "MISM 6202",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MISM 6202 with a minimum grade of C-"
+    },
+    {
+      "number": "6206",
+      "title": "Modeling for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Focuses on modern decision models in business analytics, with applications to business process design, revenue management, pricing, inventory control, business network planning, and other topics. Includes optimization, simulation, and selected data mining techniques. Emphasizes data-driven, real-world applications of mathematical decision tools and concepts.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MGSC 6100",
+            "min_grade": "C-"
+          },
+          {
+            "course": "MISM 6202",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MGSC 6100 with a minimum grade of C- or MISM 6202 with a minimum grade of C-"
+    },
+    {
+      "number": "6210",
+      "title": "Information Visuals and Dashboards for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Introduces design principles for creating meaningful displays of information to support effective business decision making. Studies how to collect and process data; create interactive visualizations; and use them to demonstrate or provide insight into a problem, situation, or phenomenon. Introduces methods to critique visualizations along with ways to identify design principles that make good visualizations effective. Discusses the challenges of making data understandable across a wide range of audiences. Provides an overview of data visualization, key design principles and techniques for visualizing data, and the fundamentals of communication that are required for effective data presentation. Other topics may include ethical uses of information displays, storytelling, infographics, immersive visualizations, and information dashboard design. Offers students an opportunity to use one or more software tools.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6211",
+      "title": "Text Mining for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Focuses on learning concepts, techniques, and tools to deal with understanding and analyzing massive text content. A large portion of today’s businesses data is unstructured and in text format. Covers primarily text mining and includes parsing text to complex topics such as classification, clustering, and topic modeling. Emphasizes natural language processing techniques for processing data using segmentation, stemming and lemmatization, and document representation. Also focuses on extracting actionable knowledge from data using text classification and clustering, sentiment analysis, social media analysis, probabilistic topic models, and text visualization.",
+      "prerequisites": {
+        "course": "MISM 6202",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MISM 6202 with a minimum grade of C-"
+    },
+    {
+      "number": "6212",
+      "title": "Data Mining and Machine Learning for Business",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Examines data mining perspectives and methods in a business context. Introduces the theoretical foundations for major data mining methods and studies how to select and use the appropriate data mining method and the major advantages for each. Students use contemporary data mining software applications and practice basic programming skills. Focuses on solving real-world problems, which require data cleaning, data transformation, and data modeling.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6213",
+      "title": "Business Information Design, Quality, and Strategy",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Covers the leading data practices from early adopters, focusing on innovative information design, data quality, data sharing, and data integration perspectives and methods for managing data and business analytics. Explores how data analytics and management can be strategically implemented to transform a company. Discusses theories and contemporary industry practice, and real-world data and cases are used for discussion and projects. Offers students an opportunity to prepare for problem identification and solution perspectives of data-related projects, gearing up for MISM 6214.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MISM 6201",
+            "min_grade": "C-"
+          },
+          {
+            "course": "MISM 6205",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MISM 6201 with a minimum grade of C- or MISM 6205 with a minimum grade of C-"
+    },
+    {
+      "number": "6214",
+      "title": "Business Analytics Capstone",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Offers students an opportunity to engage in a real-world project that engages all concepts and methods covered over the course of the business analytics program. Students apply the business analytics knowledge they have gained to collect, visualize, analyze, and manage data from a real company (or companies). Based on their results, students present a proposal for strategic actions to be taken by the company with a viable scope. The project is reviewed by peers, faculty, and external judges from industry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6250",
+      "title": "Strategic AI for Business",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores how artificial intelligence integrates with business strategy and empowers businesses to enhance competitiveness. Focuses on leveraging machine learning techniques like unsupervised, supervised, and reinforcement learning for data-driven insights. Analyzes the intersection of managerial practices and AI capabilities through real-world case studies. Offers students an opportunity to gain practical insights into implementation and ethical considerations, recommend business solutions through the integration of AI capabilities, and navigate the dynamic landscape of AI-driven business transformations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

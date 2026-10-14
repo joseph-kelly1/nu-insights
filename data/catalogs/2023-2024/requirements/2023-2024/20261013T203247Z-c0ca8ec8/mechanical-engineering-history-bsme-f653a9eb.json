@@ -1,0 +1,1998 @@
+{
+  "document_id": "mechanical-engineering-history-bsme-f653a9eb",
+  "kind": "program",
+  "title": "Mechanical Engineering and History, BSME",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/engineering/mechanical-industrial/mechanical-engineering-history-bsme/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirement Interpreting Culture (IC) is not explicitly satisfied by required courses. Students are responsible for satisfying this requirement with electives.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering Requirements",
+      "heading_path": [
+        "Engineering Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ME 2340 and ME 2341 Introduction to Material Science and Lab for ME 2340",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 2340",
+                "ME 2341"
+              ],
+              "code_text": "ME 2340 and ME 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ME 2340"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ME 2341"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ME 2350 Statics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ME 2350"
+              ],
+              "code_text": "ME 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 2350"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ME 2355 and ME 2356 Mechanics of Materials and Lab for ME 2355",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 2355",
+                "ME 2356"
+              ],
+              "code_text": "ME 2355 and ME 2356",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ME 2355"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ME 2356"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ME 2380 and ME 2381 Thermodynamics and Recitation for ME 2380",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 2380",
+                "ME 2381"
+              ],
+              "code_text": "ME 2380 and ME 2381",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ME 2380"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ME 2381"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ME 3455 and ME 3456 Dynamics and Lab for ME 3455",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 3455",
+                "ME 3456"
+              ],
+              "code_text": "ME 3455 and ME 3456",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ME 3455"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ME 3456"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ME 3475 Fluid Mechanics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ME 3475"
+              ],
+              "code_text": "ME 3475",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 3475"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or ME 3480 International Applications of Fluid Mechanics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ME 3480"
+              ],
+              "code_text": "or ME 3480",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ME 3480"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ME 4505 and ME 4506 Measurement and Analysis with Thermal Science Application and Lab for ME 4505",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4505",
+                "ME 4506"
+              ],
+              "code_text": "ME 4505 and ME 4506",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ME 4505"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ME 4506"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Senior Capstone Design Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "MEIE 4701 Capstone Design 1",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MEIE 4701"
+              ],
+              "code_text": "MEIE 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MEIE 4701"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "MEIE 4702 Capstone Design 2",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MEIE 4702"
+              ],
+              "code_text": "MEIE 4702",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MEIE 4702"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Technical Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ME 4508 Mechanical Engineering Computation and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4508"
+              ],
+              "code_text": "ME 4508",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4508"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ME 4550 Mechanical Engineering Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4550"
+              ],
+              "code_text": "ME 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4550"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ME 4555 System Analysis and Control",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4555"
+              ],
+              "code_text": "ME 4555",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4555"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ME 4570 Thermal Systems Analysis and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4570"
+              ],
+              "code_text": "ME 4570",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4570"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 19,
+              "kind": "note",
+              "text": "2 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "History Requirements",
+      "heading_path": [
+        "History Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "HIST 1200 Historical Research and Writing",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1200"
+              ],
+              "code_text": "HIST 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1200"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "HIST 1201 First-Year Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1201"
+              ],
+              "code_text": "HIST 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1201"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Research Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HIST 2301 The History Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2301"
+              ],
+              "code_text": "HIST 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2301"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "HIST 2302 Historical Writing",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2302"
+              ],
+              "code_text": "HIST 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2302"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Introductory History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "elective_filter",
+              "text": "Complete one course from HIST 1001 to HIST 1999 (excluding HIST 1200 and HIST 1201 ).",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              },
+              "course_filter": {
+                "subject": "HIST",
+                "minimum_number": "1001",
+                "maximum_number": "1999"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "header",
+              "text": "History Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 9,
+              "kind": "instruction",
+              "text": "Complete two HIST courses at any level in any field.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Pre-1800 History Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "HIST 1100 Law and History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1100"
+              ],
+              "code_text": "HIST 1100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1100"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "HIST 1180 African History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1180"
+              ],
+              "code_text": "HIST 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1180"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "HIST 1185 Introduction to Middle Eastern History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1185"
+              ],
+              "code_text": "HIST 1185",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1185"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "HIST 1187 Introduction to Latin American History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1187"
+              ],
+              "code_text": "HIST 1187",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1187"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "HIST 1218 Pirates, Planters, and Patriots: Making the Americas, 1492–1804",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1218"
+              ],
+              "code_text": "HIST 1218",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1218"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "HIST 1252 Japanese Literature and Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1252"
+              ],
+              "code_text": "HIST 1252",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1252"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "HIST 1272 Europe in the Middle Ages, 500–1500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1272"
+              ],
+              "code_text": "HIST 1272",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1272"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "HIST 1285 Introduction to Russian Civilization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1285"
+              ],
+              "code_text": "HIST 1285",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1285"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "HIST 1389 History of Espionage 1: Antiquity to World War II",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 1389"
+              ],
+              "code_text": "HIST 1389",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 1389"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "HIST 2000 Native American Resistance: Past and Present",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2000"
+              ],
+              "code_text": "HIST 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2000"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "HIST 2311 Colonialism/Imperialism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2311"
+              ],
+              "code_text": "HIST 2311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2311"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "HIST 2330 Colonial and Revolutionary America",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2330"
+              ],
+              "code_text": "HIST 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2330"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "HIST 2370 Renaissance to Enlightenment",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2370"
+              ],
+              "code_text": "HIST 2370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2370"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "HIST 2375 The Tudors, the Stuarts, and the Birth of Modern Britain",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2375"
+              ],
+              "code_text": "HIST 2375",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2375"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "HIST 2390 Africa and the World in Early Times",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2390"
+              ],
+              "code_text": "HIST 2390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2390"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "HIST 3334 Assassinations in World History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 3334"
+              ],
+              "code_text": "HIST 3334",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 3334"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "header",
+              "text": "Intermediate History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 29,
+              "kind": "instruction",
+              "text": "Complete minimum of one HIST course numbered 2000 to 2999 (Excluding HIST 2301 and HIST 2302 ).",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 30,
+              "kind": "header",
+              "text": "Advanced History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 31,
+              "kind": "instruction",
+              "text": "Complete minimum one HIST course numbered 3000 to 4999 (Excluding HIST 4701 ).",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all mathematics/science courses with a minimum of 30 semester hours.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Mathematics/Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 9,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Professional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade of C or higher is required in each course:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Courses",
+      "heading_path": [
+        "Integrative Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "This course is already required above and also fulfills the integrative requirement.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Elective",
+      "heading_path": [
+        "Required General Elective"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 4 semester hours of academic, nonremedial, nonrepetitive courses.",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Major GPA Requirement",
+      "heading_path": [
+        "Major GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in ME courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all HIST courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "141 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute Engineering Design ( GE 1110 ) and Engineering Problem Solving and Computation ( GE 1111 ) for Cornerstone of Engineering 1 ( GE 1501 ) and Cornerstone of Engineering 2 ( GE 1502 ) in approved situations.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "mechanical-engineering-history-bsme-f653a9eb",
+  "major_name": "Mechanical Engineering and History",
+  "degree": "BSME",
+  "campus": "",
+  "college": "College of Engineering",
+  "overview_text": "The combined mechanical engineering and history major is designed to help students develop skills across different intellectual domains. A solid grounding in history helps students better understand the political, cultural, and economic context in which technologies are developed and deployed. Indeed, history offers a myriad of case studies that highlight both the transformative potential and the unintended consequences of new technologies and technological processes. By studying different phases of the past and different societies in the past, students will gain a broad perspective that gives them the range and flexibility required in many work situations. History also provides a terrain for moral contemplation. Greater sensitivity to historical context also helps students see beyond commonly accepted narratives valorizing individual entrepreneurs and appreciate the different ways in which innovation, disruption, official support, and even contingency give rise to new technologies. Finally, by writing effective papers and engaging in productive discussions at the heart of history courses, students also cultivate skills in critical analysis and persuasive communication that could be employed in any future careers.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirement Interpreting Culture (IC) is not explicitly satisfied by required courses. Students are responsible for satisfying this requirement with electives.\nEngineering Requirements\nCourse List\nCode\nTitle\nHours\nRequired Engineering\nME 2340\nand\nME 2341\nIntroduction to Material Science\nand Lab for ME 2340\n5\nME 2350\nStatics\n4\nME 2355\nand\nME 2356\nMechanics of Materials\nand Lab for ME 2355\n5\nME 2380\nand\nME 2381\nThermodynamics\nand Recitation for ME 2380\n4\nME 3455\nand\nME 3456\nDynamics\nand Lab for ME 3455\n5\nME 3475\nFluid Mechanics\n4\nor\nME 3480\nInternational Applications of Fluid Mechanics\nME 4505\nand\nME 4506\nMeasurement and Analysis with Thermal Science Application\nand Lab for ME 4505\n5\nSenior Capstone Design Project\nMEIE 4701\nCapstone Design 1\n1\nMEIE 4702\nCapstone Design 2\n5\nTechnical Electives\nComplete two of the following:\n8\nME 4508\nMechanical Engineering Computation and Design\nME 4550\nMechanical Engineering Design\nME 4555\nSystem Analysis and Control\nME 4570\nThermal Systems Analysis and Design\nSupplemental Credit\n2 semester hours from the following course count toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following course count toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nHistory Requirements\nCourse List\nCode\nTitle\nHours\nHIST 1200\nHistorical Research and Writing\n1\nHIST 1201\nFirst-Year Seminar\n4\nHIST 2220\nHistory of Technology\n4\nResearch Methods\nHIST 2301\nThe History Seminar\n4\nHIST 2302\nHistorical Writing\n1\nIntroductory History\nComplete one course from HIST 1001 to HIST 1999 (excluding\nHIST 1200\nand\nHIST 1201\n).\n4\nHistory Elective\nComplete two HIST courses at any level in any field.\n8\nPre-1800 History Elective\nComplete one of the following:\n4\nHIST 1100\nLaw and History\nHIST 1180\nAfrican History\nHIST 1185\nIntroduction to Middle Eastern History\nHIST 1187\nIntroduction to Latin American History\nHIST 1218\nPirates, Planters, and Patriots: Making the Americas, 1492–1804\nHIST 1252\nJapanese Literature and Culture\nHIST 1272\nEurope in the Middle Ages, 500–1500\nHIST 1285\nIntroduction to Russian Civilization\nHIST 1389\nHistory of Espionage 1: Antiquity to World War II\nHIST 2000\nNative American Resistance: Past and Present\nHIST 2311\nColonialism/Imperialism\nHIST 2330\nColonial and Revolutionary America\nHIST 2370\nRenaissance to Enlightenment\nHIST 2375\nThe Tudors, the Stuarts, and the Birth of Modern Britain\nHIST 2390\nAfrica and the World in Early Times\nHIST 3334\nAssassinations in World History\nIntermediate History\nComplete minimum of one HIST course numbered 2000 to 2999 (Excluding\nHIST 2301\nand\nHIST 2302\n).\n4\nAdvanced History\nComplete minimum one HIST course numbered 3000 to 4999 (Excluding\nHIST 4701\n).\n4\nSupporting Courses: Mathematics/Science\nComplete all mathematics/science courses with a minimum of 30 semester hours.\nCourse List\nCode\nTitle\nHours\nRequired Mathematics/Science\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\n5\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\n5\nSupplemental Credit\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nProfessional Development\nCourse List\nCode\nTitle\nHours\nProfessional Development\nGE 1000\nFirst-Year Seminar\n1\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nAdditional Required Courses\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade of C or higher is required in each course:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nIntegrative Courses\nCourse List\nCode\nTitle\nHours\nThis course is already required above and also fulfills the integrative requirement.\nHIST 2220\nHistory of Technology\nRequired General Elective\nCourse List\nCode\nTitle\nHours\nComplete 4 semester hours of academic, nonremedial, nonrepetitive courses.\n4\nMajor GPA Requirement\nMinimum 2.000 GPA required in ME courses\nMinimum 2.000 GPA required in all HIST courses\nProgram Requirement\n141 total semester hours required\n1\nStudents can substitute\nEngineering Design (\nGE 1110\n)\nand\nEngineering Problem Solving and Computation (\nGE 1111\n)\nfor\nCornerstone of Engineering 1 (\nGE 1501\n)\nand\nCornerstone of Engineering 2 (\nGE 1502\n)\nin approved situations.",
+  "referenced_courses": [
+    "CHEM 1151",
+    "CHEM 1153",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "GE 1000",
+    "GE 1110",
+    "GE 1111",
+    "GE 1501",
+    "GE 1502",
+    "HIST 1100",
+    "HIST 1180",
+    "HIST 1185",
+    "HIST 1187",
+    "HIST 1200",
+    "HIST 1201",
+    "HIST 1218",
+    "HIST 1252",
+    "HIST 1272",
+    "HIST 1285",
+    "HIST 1389",
+    "HIST 2000",
+    "HIST 2220",
+    "HIST 2301",
+    "HIST 2302",
+    "HIST 2311",
+    "HIST 2330",
+    "HIST 2370",
+    "HIST 2375",
+    "HIST 2390",
+    "HIST 3334",
+    "HIST 4701",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "ME 2340",
+    "ME 2341",
+    "ME 2350",
+    "ME 2355",
+    "ME 2356",
+    "ME 2380",
+    "ME 2381",
+    "ME 3455",
+    "ME 3456",
+    "ME 3475",
+    "ME 3480",
+    "ME 4505",
+    "ME 4506",
+    "ME 4508",
+    "ME 4550",
+    "ME 4555",
+    "ME 4570",
+    "MEIE 4701",
+    "MEIE 4702",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

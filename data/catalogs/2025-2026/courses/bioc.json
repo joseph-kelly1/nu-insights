@@ -1,0 +1,218 @@
+{
+  "department": "BIOC",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/course-descriptions/bioc/",
+  "courses": [
+    {
+      "number": "1000",
+      "title": "Biochemistry at Northeastern",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Introduces first-year students to the major and the field of biochemistry and to the professional and academic resources available to students at Northeastern University. Acquaints students with their faculty, advisors, and fellow students; provides an initial orientation to undergraduate research, cooperative education, and other experiential learning options; helps develop the academic skills necessary to succeed; provides grounding in the culture and values of the university community; and assists in interpersonal skill development—in short, familiarizes students with the resources and skills needed to become a successful university student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4900",
+      "title": "Biochemistry Capstone",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Designed for students who are also enrolled in approved 4-semester-hour research courses in which they each conduct original experimental work under the direction of an approved mentor. Requires reflection by students on their various educational experiences, extensive research of scientific questions related to these experiences (with the research itself carried out in the approved research course), and development of an original research report. Required components include writing with revision and a major oral presentation. Offers students an opportunity to hone reflection and communication skills through formal and informal presentations, class discussion, and critique. Requires concurrent registration in BIOC 4991, BIOC 4994, BIOL 4991, CHEM 4991, or other 4-SH research course approved by the Biochemistry Director.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOC 4991",
+                "min_grade": "D-",
+                "concurrent": true
+              },
+              {
+                "course": "BIOC 4994",
+                "min_grade": "D-",
+                "concurrent": true
+              },
+              {
+                "course": "BIOL 4991",
+                "min_grade": "D-",
+                "concurrent": true
+              },
+              {
+                "course": "CHEM 4991",
+                "min_grade": "D-",
+                "concurrent": true
+              }
+            ]
+          },
+          {
+            "course": "BIOL 3611",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGW 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3307",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3315",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(BIOC 4991 (may be taken concurrently) with a minimum grade of D- or BIOC 4994 (may be taken concurrently) with a minimum grade of D- or BIOL 4991 (may be taken concurrently) with a minimum grade of D- or CHEM 4991 (may be taken concurrently) with a minimum grade of D- ); BIOL 3611 with a minimum grade of D- ; (ENGW 3302 with a minimum grade of C or ENGW 3307 with a minimum grade of C or ENGW 3315 with a minimum grade of C )"
+    },
+    {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on an in-depth project in which a student conducts research or produces a product related to the student’s major field. Requires dean’s office approval. Can be combined with Junior/Senior Project 2 or college-defined equivalent for 8-credit honors project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student's major field. Requires Dean’s office approval.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BIOC 4970",
+                "min_grade": "D-"
+              },
+              {
+                "course": "BIOC 4991",
+                "min_grade": "D-"
+              },
+              {
+                "course": "BIOL 4970",
+                "min_grade": "D-"
+              },
+              {
+                "course": "BIOL 4991",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CHEM 4750",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CHEM 4901",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CHEM 4970",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "BIOL 3611",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGW 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3307",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3315",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Integration Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(BIOC 4970 with a minimum grade of D- or BIOC 4991 with a minimum grade of D- or BIOL 4970 with a minimum grade of D- or BIOL 4991 with a minimum grade of D- or CHEM 4750 with a minimum grade of D- or CHEM 4901 with a minimum grade of D- or CHEM 4970 with a minimum grade of D- ); BIOL 3611 with a minimum grade of D- ; (ENGW 3302 with a minimum grade of C or ENGW 3307 with a minimum grade of C or ENGW 3315 with a minimum grade of C )"
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit. Cannot be a paid experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4994",
+      "title": "Internship",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity for students who have completed a co-op to undertake an unpaid internship. May be repeated twice for credit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    }
+  ]
+}

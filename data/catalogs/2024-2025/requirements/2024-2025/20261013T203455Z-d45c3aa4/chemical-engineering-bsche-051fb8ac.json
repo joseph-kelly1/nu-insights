@@ -1,0 +1,3680 @@
+{
+  "document_id": "chemical-engineering-bsche-051fb8ac",
+  "kind": "program",
+  "title": "Chemical Engineering, BSChE",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements Interpreting Culture (IC), Understanding Societies and Institutions (SI), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering Requirements",
+      "heading_path": [
+        "Engineering Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CHME 2308 Conservation Principles in Chemical Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 2308"
+              ],
+              "code_text": "CHME 2308",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 2308"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHME 2310 Transport Processes 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 2310"
+              ],
+              "code_text": "CHME 2310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 2310"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHME 2320 Chemical Engineering Thermodynamics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 2320"
+              ],
+              "code_text": "CHME 2320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 2320"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CHME 3305 and CHME 3306 Chemical Engineering Laboratory and Recitation for CHME 3305",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 3305",
+                "CHME 3306"
+              ],
+              "code_text": "CHME 3305 and CHME 3306",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHME 3305"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHME 3306"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CHME 3312 Transport Processes 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 3312"
+              ],
+              "code_text": "CHME 3312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 3312"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CHME 3322 Chemical Thermodynamics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 3322"
+              ],
+              "code_text": "CHME 3322",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 3322"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CHME 4510 Chemical Engineering Kinetics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 4510"
+              ],
+              "code_text": "CHME 4510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 4510"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CHME 4512 Chemical Engineering Process Control",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 4512"
+              ],
+              "code_text": "CHME 4512",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 4512"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CHME 4701 Separations and Process Analysis",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHME 4701"
+              ],
+              "code_text": "CHME 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 4701"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Chemical Engineering Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CHME 4703 and CHME 4705 Chemical Process Design Capstone and Recitation for CHME 4703",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 4703",
+                "CHME 4705"
+              ],
+              "code_text": "CHME 4703 and CHME 4705",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHME 4703"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHME 4705"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 12,
+              "kind": "note",
+              "text": "2 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration or Electives Option",
+      "heading_path": [
+        "Concentration or Electives Option"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A concentration is not required. Students may complete the electives option in lieu of a concentration.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Biomolecular and Biomedical Systems Complex and Computational Systems Energy and Sustainability Materials and Nanotechnology Electives",
+          "links": [
+            {
+              "text": "Biomolecular and Biomedical Systems",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Biomolecular"
+            },
+            {
+              "text": "Complex and Computational Systems",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Complex and Comp"
+            },
+            {
+              "text": "Energy and Sustainability",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Energy and Sust"
+            },
+            {
+              "text": "Materials and Nanotechnology",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Materials and Nanotech"
+            },
+            {
+              "text": "Electives",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Electives"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Biomolecular and Biomedical Systems",
+            "Complex and Computational Systems",
+            "Energy and Sustainability",
+            "Materials and Nanotechnology",
+            "Electives"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all mathematics/science courses with a minimum of 30 semester hours.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Mathematics/Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOL 1111 General Biology 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111"
+              ],
+              "code_text": "BIOL 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 1111"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Advanced Science",
+      "heading_path": [
+        "Supporting Courses: Advanced Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following pairs:",
+              "credits_text": "5-6",
+              "credits": {
+                "min": 5.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 2311 and CHEM 2312 Organic Chemistry 1 and Lab for CHEM 2311",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2311",
+                "CHEM 2312"
+              ],
+              "code_text": "CHEM 2311 and CHEM 2312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2312"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHEM 2315 and CHEM 2316 Organic Chemistry 1 for Chemistry Majors and Lab for CHEM 2315",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2315",
+                "CHEM 2316"
+              ],
+              "code_text": "CHEM 2315 and CHEM 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2315"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2316"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following pairs:",
+              "credits_text": "5-6",
+              "credits": {
+                "min": 5.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CHEM 2313 and CHEM 2314 Organic Chemistry 2 and Lab for CHEM 2313",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2313",
+                "CHEM 2314"
+              ],
+              "code_text": "CHEM 2313 and CHEM 2314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2313"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2314"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CHEM 2317 and CHEM 2318 Organic Chemistry 2 for Chemistry Majors and Lab for CHEM 2317",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2317",
+                "CHEM 2318"
+              ],
+              "code_text": "CHEM 2317 and CHEM 2318",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2317"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2318"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Professional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade of C or higher is required:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 24 semester hours of academic, nonremedial, nonrepetitive courses.",
+              "credits_text": "24",
+              "credits": {
+                "min": 24.0,
+                "max": 24.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 24.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Major GPA Requirement",
+      "heading_path": [
+        "Major GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A 2.000 minimum GPA is required in CHME coursework.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "134 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute Engineering Design ( GE 1110 ) and Engineering Problem Solving and Computation ( GE 1111 ) for Cornerstone of Engineering 1 ( GE 1501 ) and Cornerstone of Engineering 2 ( GE 1502 ) .",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Biomolecular and Biomedical Systems",
+      "heading_path": [
+        "Concentration in Biomolecular and Biomedical Systems"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Advanced Engineering Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete two of the following courses, at least one of which must be a CHME course:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOE 5115 Dynamical Systems in Biological Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5115"
+              ],
+              "code_text": "BIOE 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5115"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOE 5250 Regulatory and Quality Aspects of Medical Device Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5250"
+              ],
+              "code_text": "BIOE 5250",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5250"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "BIOE 5410 Molecular Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5410"
+              ],
+              "code_text": "BIOE 5410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5410"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "BIOE 5411 Applied Molecular Bioengineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5411"
+              ],
+              "code_text": "BIOE 5411",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5411"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "BIOE 5420 Cellular Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5420"
+              ],
+              "code_text": "BIOE 5420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5420"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "BIOE 5430 Principles and Applications of Tissue Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5430"
+              ],
+              "code_text": "BIOE 5430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5430"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CHME 5160 Drug Delivery: Engineering Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5160"
+              ],
+              "code_text": "CHME 5160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5160"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHME 5185 Design of Experiments and Ethical Research (DOEER)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5185"
+              ],
+              "code_text": "CHME 5185",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5185"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CHME 5630 Biochemical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5630"
+              ],
+              "code_text": "CHME 5630",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5630"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CHME 5631 Biomaterials Principles and Applications",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5631"
+              ],
+              "code_text": "CHME 5631",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5631"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CHME 5632 Advanced Topics in Biomaterials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5632"
+              ],
+              "code_text": "CHME 5632",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5632"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "header",
+              "text": "Advanced Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 14,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "BIOL 3411 Current Topics in Cell and Molecular Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3411"
+              ],
+              "code_text": "BIOL 3411",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 3411"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "BIOL 4707 Cell and Molecular Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4707"
+              ],
+              "code_text": "BIOL 4707",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4707"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "BIOL 5593 Cell and Molecular Biology of Aging",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5593"
+              ],
+              "code_text": "BIOL 5593",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5593"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "BIOL 5595 Cell and Molecular Neuroscience",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5595"
+              ],
+              "code_text": "BIOL 5595",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5595"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "NNMD 5270 Foundations in Nanomedicine: Therapeutics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NNMD 5270"
+              ],
+              "code_text": "NNMD 5270",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NNMD 5270"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "NNMD 5271 Foundations in Nanomedicine: Diagnostics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NNMD 5271"
+              ],
+              "code_text": "NNMD 5271",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NNMD 5271"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "NNMD 5370 Nanomedicine Research Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NNMD 5370"
+              ],
+              "code_text": "NNMD 5370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NNMD 5370"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "NNMD 5470 Nano/Biomedical Commercialization: Concept to Market",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NNMD 5470"
+              ],
+              "code_text": "NNMD 5470",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NNMD 5470"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "NNMD 5570 Preclinical and Clinical Study Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NNMD 5570"
+              ],
+              "code_text": "NNMD 5570",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NNMD 5570"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "Students may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus. Students may also petition for independent research to be counted towards the non-CHME engineering elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Complex and Computational Systems",
+      "heading_path": [
+        "Concentration in Complex and Computational Systems"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Advanced Engineering Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete two of the following courses, at least one of which must be a CHME course:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOE 5115 Dynamical Systems in Biological Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOE 5115"
+              ],
+              "code_text": "BIOE 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOE 5115"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CHME 5137 Computational Modeling in Chemical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5137"
+              ],
+              "code_text": "CHME 5137",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5137"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CHME 5649 Numerical Strategies and Data Analytics for Chemical Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5649"
+              ],
+              "code_text": "CHME 5649",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5649"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 2500 Fundamentals of Computer Science 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500"
+              ],
+              "code_text": "CS 2500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2500"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 2510 Fundamentals of Computer Science 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510"
+              ],
+              "code_text": "CS 2510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2510"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 2810 Mathematics of Data Models",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2810"
+              ],
+              "code_text": "CS 2810",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2810"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 4100 Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4100"
+              ],
+              "code_text": "CS 4100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4100"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "GE 2500 Design Analysis and Innovation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GE 2500"
+              ],
+              "code_text": "GE 2500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 2500"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "EECE 5639 Computer Vision",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5639"
+              ],
+              "code_text": "EECE 5639",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5639"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "EECE 5645 Parallel Processing for Data Analytics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5645"
+              ],
+              "code_text": "EECE 5645",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5645"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Advanced Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHEM 3403 Quantum Chemistry and Spectroscopy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3403"
+              ],
+              "code_text": "CHEM 3403",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 3403"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CHEM 5641 Computational Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 5641"
+              ],
+              "code_text": "CHEM 5641",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 5641"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "EEMB 5130 Population Dynamics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5130"
+              ],
+              "code_text": "EEMB 5130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5130"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHYS 4606 Mathematical and Computational Methods for Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4606"
+              ],
+              "code_text": "PHYS 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4606"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHYS 5352 Quantum Computation and Information",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5352"
+              ],
+              "code_text": "PHYS 5352",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5352"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "note",
+              "text": "Students may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus. Students may also petition for independent research to be counted towards the non-CHME engineering elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Energy and Sustainability",
+      "heading_path": [
+        "Concentration in Energy and Sustainability"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Advanced Engineering Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete two of the following courses, at least one of which must be a CHME course:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHME 5137 Computational Modeling in Chemical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5137"
+              ],
+              "code_text": "CHME 5137",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5137"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CHME 5621 Electrochemical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5621"
+              ],
+              "code_text": "CHME 5621",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5621"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CIVE 5275 Life Cycle Assessment of Materials, Products, and Infrastructure",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5275"
+              ],
+              "code_text": "CIVE 5275",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5275"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CIVE 5365 Climate Technologies for Decarbonization, Mitigation, and Adaptation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5365"
+              ],
+              "code_text": "CIVE 5365",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5365"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CIVE 5527 Sustainable Rehabilitation of Structures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5527"
+              ],
+              "code_text": "CIVE 5527",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5527"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Advanced Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 5651 Materials Chemistry of Renewable Energy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 5651"
+              ],
+              "code_text": "CHEM 5651",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 5651"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "EEMB 3455 Ecosystems Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3455"
+              ],
+              "code_text": "EEMB 3455",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3455"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "EEMB 3460 Conservation Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3460"
+              ],
+              "code_text": "EEMB 3460",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3460"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "EEMB 5546 Sustainability of the Land-Sea Interface",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 5546"
+              ],
+              "code_text": "EEMB 5546",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 5546"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENVR 3150 Food Security and Sustainability",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3150"
+              ],
+              "code_text": "ENVR 3150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3150"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ENVR 3850 Sustainable Agriculture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3850"
+              ],
+              "code_text": "ENVR 3850",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3850"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ENVR 5350 Sustainable Energy and Climate Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5350"
+              ],
+              "code_text": "ENVR 5350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5350"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ENVR 5800 Climate Adaptation and Nature-Based Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5800"
+              ],
+              "code_text": "ENVR 5800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5800"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "note",
+              "text": "Students may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus. Students may also petition for independent research to be counted towards the non-CHME engineering elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Materials and Nanotechnology",
+      "heading_path": [
+        "Concentration in Materials and Nanotechnology"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Advanced Engineering Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete two of the following courses, at least one of which must be a CHME course:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHME 5105 Materials Characterization Techniques",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5105"
+              ],
+              "code_text": "CHME 5105",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5105"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CHME 5179 Complex Fluids and Everyday Materials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5179"
+              ],
+              "code_text": "CHME 5179",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5179"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CHME 5632 Advanced Topics in Biomaterials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5632"
+              ],
+              "code_text": "CHME 5632",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5632"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CHME 5683 Introduction to Polymer Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHME 5683"
+              ],
+              "code_text": "CHME 5683",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHME 5683"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "MATL 5380",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATL 5380"
+              ],
+              "code_text": "MATL 5380",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATL 5380"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ME 4630",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 4630"
+              ],
+              "code_text": "ME 4630",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 4630"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ME 5600 Materials Processing and Process Selection",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5600"
+              ],
+              "code_text": "ME 5600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5600"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ME 5620 Fundamentals of Advanced Materials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5620"
+              ],
+              "code_text": "ME 5620",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5620"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ME 5630 Nano- and Microscale Manufacturing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5630"
+              ],
+              "code_text": "ME 5630",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5630"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ME 5661 Composite Materials",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ME 5661"
+              ],
+              "code_text": "ME 5661",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ME 5661"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Advanced Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHEM 5610 Polymer Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 5610"
+              ],
+              "code_text": "CHEM 5610",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 5610"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CHEM 5627 Mechanistic and Physical Organic Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 5627"
+              ],
+              "code_text": "CHEM 5627",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 5627"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PHYS 5113 Particle Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5113"
+              ],
+              "code_text": "PHYS 5113",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5113"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHYS 5260 Introduction to Nanoscience and Nanotechnology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5260"
+              ],
+              "code_text": "PHYS 5260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5260"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "note",
+              "text": "Students may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus. Students may also petition for independent research to be counted towards the non-CHME engineering elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Electives Option",
+      "heading_path": [
+        "Electives Option"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Advanced Engineering Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete any two advanced elective courses in engineering, at least one of which must be a CHME course (level 2000+), while the other can also be CHME or any engineering elective (level 4000+). Students may petition for independent research to be counted towards the non-CHME course.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Advanced Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "BIOL 2301 Genetics and Molecular Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2301"
+              ],
+              "code_text": "BIOL 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 2301"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "BIOL 2327 Human Parasitology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2327"
+              ],
+              "code_text": "BIOL 2327",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 2327"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "BIOL 3421 and BIOL 3422 Microbiology and Lab for BIOL 3421",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3421",
+                "BIOL 3422"
+              ],
+              "code_text": "BIOL 3421 and BIOL 3422",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3421"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3422"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "BIOL 3603 Mammalian Systems Physiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3603"
+              ],
+              "code_text": "BIOL 3603",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 3603"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "BIOL 3611 and BIOL 3612 Biochemistry and Lab for BIOL 3611",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3611",
+                "BIOL 3612"
+              ],
+              "code_text": "BIOL 3611 and BIOL 3612",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3611"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3612"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 2321 and CHEM 2322 and CHEM 2323 Analytical Chemistry and Lab for CHEM 2321 and Recitation for CHEM 2321",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2321",
+                "CHEM 2322",
+                "CHEM 2323"
+              ],
+              "code_text": "CHEM 2321 and CHEM 2322 and CHEM 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2321"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CHEM 3403 and CHEM 3404 Quantum Chemistry and Spectroscopy and Lab for CHEM 3403",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3403",
+                "CHEM 3404"
+              ],
+              "code_text": "CHEM 3403 and CHEM 3404",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3403"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3404"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CHEM 3431 and CHEM 3432 Physical Chemistry and Lab for CHEM 3431",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3431",
+                "CHEM 3432"
+              ],
+              "code_text": "CHEM 3431 and CHEM 3432",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3431"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3432"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CHEM 3501 and CHEM 3502 and CHEM 3503 Inorganic Chemistry and Lab for CHEM 3501 and Recitation for CHEM 3501",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3501",
+                "CHEM 3502",
+                "CHEM 3503"
+              ],
+              "code_text": "CHEM 3501 and CHEM 3502 and CHEM 3503",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3501"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3502"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3503"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CHEM 4628 and CHEM 4629 Introduction to Spectroscopy of Organic Compounds and Identification of Organic Compounds",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4628",
+                "CHEM 4629"
+              ],
+              "code_text": "CHEM 4628 and CHEM 4629",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4628"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4629"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "EEMB 2302 and EEMB 2303 Ecology and Lab for EEMB 2302",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2302",
+                "EEMB 2303"
+              ],
+              "code_text": "EEMB 2302 and EEMB 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2302"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2303"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "EEMB 3460 Conservation Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3460"
+              ],
+              "code_text": "EEMB 3460",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3460"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PHYS 1211 Computational Problem Solving in Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1211"
+              ],
+              "code_text": "PHYS 1211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1211"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHYS 2303 Modern Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 2303"
+              ],
+              "code_text": "PHYS 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 2303"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHYS 2371 and PHYS 2372 Electronics and Lab for PHYS 2371",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 2371",
+                "PHYS 2372"
+              ],
+              "code_text": "PHYS 2371 and PHYS 2372",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 2371"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 2372"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "PHYS 3601 Classical Dynamics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3601"
+              ],
+              "code_text": "PHYS 3601",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3601"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "PHYS 3602 Electricity and Magnetism 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3602"
+              ],
+              "code_text": "PHYS 3602",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3602"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "chemical-engineering-bsche-051fb8ac",
+  "major_name": "Chemical Engineering",
+  "degree": "BSChE",
+  "campus": "",
+  "college": "College of Engineering",
+  "overview_text": "The chemical engineering program offers students a broad education built on fundamentals in science, mathematics, and engineering, which are then applied to contemporary problems using modern tools, such as computational software and computer-aided design. Chemical engineers have traditionally been employed in chemical, petrochemical, agricultural chemical, pulp and paper, plastics, cosmetics, and textiles industries and in consulting and design firms. Today, chemical engineers also play an integral role in bioprocesses and biomedicine, Big Data and artificial intelligence, sustainability and energy, and study of advanced materials, including nanotechnology. For example, chemical engineers are creating new materials needed for space exploration, alternative energy sources, and faster, self-powered computer chips. In biotechnology and biomedicine, chemical engineers are working to understand human diseases, developing new therapies and drug delivery systems, and producing new medicines through cell culture techniques. Chemical engineers employ nanotechnology to revolutionize sensors, security systems, and medical diagnostics and treatments. In addition to creating important products, chemical engineers are also involved in protecting our environment by exploring ways to reduce acid rain and smog; to recycle and reduce wastes; to develop new sources of environmentally clean energy; and to design inherently safe, efficient, and “green” processes. The role of a chemical engineer is to develop new products and to design processes while reducing costs, increasing production, and improving the quality and safety of new products. The degree also serves as a springboard to advanced study in chemical engineering or postgraduate pathways including law school, business school, or medical/health professions school. Visit the department website for program educational objectives.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements Interpreting Culture (IC), Understanding Societies and Institutions (SI), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.\nEngineering Requirements\nCourse List\nCode\nTitle\nHours\nCHME 2308\nConservation Principles in Chemical Engineering\n4\nCHME 2310\nTransport Processes 1\n4\nCHME 2320\nChemical Engineering Thermodynamics\n4\nCHME 3305\nand\nCHME 3306\nChemical Engineering Laboratory\nand Recitation for CHME 3305\n4\nCHME 3312\nTransport Processes 2\n4\nCHME 3322\nChemical Thermodynamics\n4\nCHME 4510\nChemical Engineering Kinetics\n4\nCHME 4512\nChemical Engineering Process Control\n4\nCHME 4701\nSeparations and Process Analysis\n4\nChemical Engineering Capstone\nCHME 4703\nand\nCHME 4705\nChemical Process Design Capstone\nand Recitation for CHME 4703\n4\nSupplemental Credit\n2 semester hours from the following course count toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following course count toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nConcentration or Electives Option\nA concentration is not required.  Students may complete the electives option in lieu of a concentration.\nBiomolecular and Biomedical Systems\nComplex and Computational Systems\nEnergy and Sustainability\nMaterials and Nanotechnology\nElectives\nSupporting Courses: Mathematics/Science\nComplete all mathematics/science courses with a minimum of 30 semester hours.\nCourse List\nCode\nTitle\nHours\nRequired Mathematics/Science\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\n5\nComplete one of the following:\n4-5\nBIOL 1111\nGeneral Biology 1\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nSupplemental Credit\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nSupporting Courses: Advanced Science\nCourse List\nCode\nTitle\nHours\nComplete one of the following pairs:\n5-6\nCHEM 2311\nand\nCHEM 2312\nOrganic Chemistry 1\nand Lab for CHEM 2311\nCHEM 2315\nand\nCHEM 2316\nOrganic Chemistry 1 for Chemistry Majors\nand Lab for CHEM 2315\nComplete one of the following pairs:\n5-6\nCHEM 2313\nand\nCHEM 2314\nOrganic Chemistry 2\nand Lab for CHEM 2313\nCHEM 2317\nand\nCHEM 2318\nOrganic Chemistry 2 for Chemistry Majors\nand Lab for CHEM 2317\nProfessional Development\nCourse List\nCode\nTitle\nHours\nProfessional Development\nGE 1000\nFirst-Year Seminar\n1\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nAdditional Required Courses\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade of C or higher is required:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 24 semester hours of academic, nonremedial, nonrepetitive courses.\n24\nMajor GPA Requirement\nA 2.000 minimum GPA is required in CHME coursework.\nProgram Requirement\n134 total semester hours required\n1\nStudents can substitute\nEngineering Design (\nGE 1110\n)\nand\nEngineering Problem Solving and Computation (\nGE 1111\n)\nfor\nCornerstone of Engineering 1 (\nGE 1501\n)\nand\nCornerstone of Engineering 2 (\nGE 1502\n)\n.\nConcentration in Biomolecular and Biomedical Systems\nCourse List\nCode\nTitle\nHours\nAdvanced Engineering Electives\nComplete two of the following courses, at least one of which must be a CHME course:\n8\nBIOE 5115\nDynamical Systems in Biological Engineering\nBIOE 5250\nRegulatory and Quality Aspects of Medical Device Design\nBIOE 5410\nMolecular Bioengineering\nBIOE 5411\nApplied Molecular Bioengineering\nBIOE 5420\nCellular Engineering\nBIOE 5430\nPrinciples and Applications of Tissue Engineering\nCHME 5160\nDrug Delivery: Engineering Analysis\nCHME 5185\nDesign of Experiments and Ethical Research (DOEER)\nCHME 5630\nBiochemical Engineering\nCHME 5631\nBiomaterials Principles and Applications\nCHME 5632\nAdvanced Topics in Biomaterials\nAdvanced Science Elective\nComplete one of the following:\n4-6\nBIOL 3411\nCurrent Topics in Cell and Molecular Biology\nBIOL 4707\nCell and Molecular Biology\nBIOL 5593\nCell and Molecular Biology of Aging\nBIOL 5595\nCell and Molecular Neuroscience\nNNMD 5270\nFoundations in Nanomedicine: Therapeutics\nNNMD 5271\nFoundations in Nanomedicine: Diagnostics\nNNMD 5370\nNanomedicine Research Techniques\nNNMD 5470\nNano/Biomedical Commercialization: Concept to Market\nNNMD 5570\nPreclinical and Clinical Study Design\nStudents may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus.  Students may also petition for independent research to be counted towards the non-CHME engineering elective.\nConcentration in Complex and Computational Systems\nCourse List\nCode\nTitle\nHours\nAdvanced Engineering Electives\nComplete two of the following courses, at least one of which must be a CHME course:\n8\nBIOE 5115\nDynamical Systems in Biological Engineering\nCHME 5137\nComputational Modeling in Chemical Engineering\nCHME 5649\nNumerical Strategies and Data Analytics for Chemical Sciences\nCS 2500\nFundamentals of Computer Science 1\nCS 2510\nFundamentals of Computer Science 2\nCS 2810\nMathematics of Data Models\nCS 4100\nArtificial Intelligence\nGE 2500\nDesign Analysis and Innovation\nEECE 5639\nComputer Vision\nEECE 5645\nParallel Processing for Data Analytics\nAdvanced Science Elective\nComplete one of the following:\n4-6\nCHEM 3403\nQuantum Chemistry and Spectroscopy\nCHEM 5641\nComputational Chemistry\nEEMB 5130\nPopulation Dynamics\nPHYS 4606\nMathematical and Computational Methods for Physics\nPHYS 5352\nQuantum Computation and Information\nStudents may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus.  Students may also petition for independent research to be counted towards the non-CHME engineering elective.\nConcentration in Energy and Sustainability\nCourse List\nCode\nTitle\nHours\nAdvanced Engineering Electives\nComplete two of the following courses, at least one of which must be a CHME course:\n8\nCHME 5137\nComputational Modeling in Chemical Engineering\nCHME 5621\nElectrochemical Engineering\nCIVE 5275\nLife Cycle Assessment of Materials, Products, and Infrastructure\nCIVE 5365\nClimate Technologies for Decarbonization, Mitigation, and Adaptation\nCIVE 5527\nSustainable Rehabilitation of Structures\nAdvanced Science Elective\nComplete one of the following:\n4-6\nCHEM 5651\nMaterials Chemistry of Renewable Energy\nEEMB 3455\nEcosystems Ecology\nEEMB 3460\nConservation Biology\nEEMB 5546\nSustainability of the Land-Sea Interface\nENVR 3150\nFood Security and Sustainability\nENVR 3850\nSustainable Agriculture\nENVR 5350\nSustainable Energy and Climate Solutions\nENVR 5800\nClimate Adaptation and Nature-Based Solutions\nStudents may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus.  Students may also petition for independent research to be counted towards the non-CHME engineering elective.\nConcentration in Materials and Nanotechnology\nCourse List\nCode\nTitle\nHours\nAdvanced Engineering Electives\nComplete two of the following courses, at least one of which must be a CHME course:\n8\nCHME 5105\nMaterials Characterization Techniques\nCHME 5179\nComplex Fluids and Everyday Materials\nCHME 5632\nAdvanced Topics in Biomaterials\nCHME 5683\nIntroduction to Polymer Science\nMATL 5380\nME 4630\nME 5600\nMaterials Processing and Process Selection\nME 5620\nFundamentals of Advanced Materials\nME 5630\nNano- and Microscale Manufacturing\nME 5661\nComposite Materials\nAdvanced Science Elective\nComplete one of the following:\n4-6\nCHEM 5610\nPolymer Chemistry\nCHEM 5627\nMechanistic and Physical Organic Chemistry\nPHYS 5113\nParticle Physics\nPHYS 5260\nIntroduction to Nanoscience and Nanotechnology\nStudents may petition for additional science and/or engineering courses to be counted towards the electives if the course content falls within the concentration focus.  Students may also petition for independent research to be counted towards the non-CHME engineering elective.\nElectives Option\nCourse List\nCode\nTitle\nHours\nAdvanced Engineering Electives\nComplete any two advanced elective courses in engineering, at least one of which must be a CHME course (level 2000+), while the other can also be CHME or any engineering elective (level 4000+).  Students may petition for independent research to be counted towards the non-CHME course.\n8\nAdvanced Science Elective\nComplete one of the following:\n4-6\nBIOL 2301\nGenetics and Molecular Biology\nBIOL 2327\nHuman Parasitology\nBIOL 3421\nand\nBIOL 3422\nMicrobiology\nand Lab for BIOL 3421\nBIOL 3603\nMammalian Systems Physiology\nBIOL 3611\nand\nBIOL 3612\nBiochemistry\nand Lab for BIOL 3611\nCHEM 2321\nand\nCHEM 2322\nand\nCHEM 2323\nAnalytical Chemistry\nand Lab for CHEM 2321\nand Recitation for CHEM 2321\nCHEM 3403\nand\nCHEM 3404\nQuantum Chemistry and Spectroscopy\nand Lab for CHEM 3403\nCHEM 3431\nand\nCHEM 3432\nPhysical Chemistry\nand Lab for CHEM 3431\nCHEM 3501\nand\nCHEM 3502\nand\nCHEM 3503\nInorganic Chemistry\nand Lab for CHEM 3501\nand Recitation for CHEM 3501\nCHEM 4628\nand\nCHEM 4629\nIntroduction to Spectroscopy of Organic Compounds\nand Identification of Organic Compounds\nEEMB 2302\nand\nEEMB 2303\nEcology\nand Lab for EEMB 2302\nEEMB 3460\nConservation Biology\nPHYS 1211\nComputational Problem Solving in Physics\nPHYS 2303\nModern Physics\nPHYS 2371\nand\nPHYS 2372\nElectronics\nand Lab for PHYS 2371\nPHYS 3601\nClassical Dynamics\nPHYS 3602\nElectricity and Magnetism 1",
+  "referenced_courses": [
+    "BIOE 5115",
+    "BIOE 5250",
+    "BIOE 5410",
+    "BIOE 5411",
+    "BIOE 5420",
+    "BIOE 5430",
+    "BIOL 1111",
+    "BIOL 2301",
+    "BIOL 2327",
+    "BIOL 3411",
+    "BIOL 3421",
+    "BIOL 3422",
+    "BIOL 3603",
+    "BIOL 3611",
+    "BIOL 3612",
+    "BIOL 4707",
+    "BIOL 5593",
+    "BIOL 5595",
+    "CHEM 1151",
+    "CHEM 1153",
+    "CHEM 2311",
+    "CHEM 2312",
+    "CHEM 2313",
+    "CHEM 2314",
+    "CHEM 2315",
+    "CHEM 2316",
+    "CHEM 2317",
+    "CHEM 2318",
+    "CHEM 2321",
+    "CHEM 2322",
+    "CHEM 2323",
+    "CHEM 3403",
+    "CHEM 3404",
+    "CHEM 3431",
+    "CHEM 3432",
+    "CHEM 3501",
+    "CHEM 3502",
+    "CHEM 3503",
+    "CHEM 4628",
+    "CHEM 4629",
+    "CHEM 5610",
+    "CHEM 5627",
+    "CHEM 5641",
+    "CHEM 5651",
+    "CHME 2308",
+    "CHME 2310",
+    "CHME 2320",
+    "CHME 3305",
+    "CHME 3306",
+    "CHME 3312",
+    "CHME 3322",
+    "CHME 4510",
+    "CHME 4512",
+    "CHME 4701",
+    "CHME 4703",
+    "CHME 4705",
+    "CHME 5105",
+    "CHME 5137",
+    "CHME 5160",
+    "CHME 5179",
+    "CHME 5185",
+    "CHME 5621",
+    "CHME 5630",
+    "CHME 5631",
+    "CHME 5632",
+    "CHME 5649",
+    "CHME 5683",
+    "CIVE 5275",
+    "CIVE 5365",
+    "CIVE 5527",
+    "CS 2500",
+    "CS 2510",
+    "CS 2810",
+    "CS 4100",
+    "EECE 5639",
+    "EECE 5645",
+    "EEMB 2302",
+    "EEMB 2303",
+    "EEMB 3455",
+    "EEMB 3460",
+    "EEMB 5130",
+    "EEMB 5546",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "ENVR 3150",
+    "ENVR 3850",
+    "ENVR 5350",
+    "ENVR 5800",
+    "GE 1000",
+    "GE 1110",
+    "GE 1111",
+    "GE 1501",
+    "GE 1502",
+    "GE 2500",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "MATL 5380",
+    "ME 4630",
+    "ME 5600",
+    "ME 5620",
+    "ME 5630",
+    "ME 5661",
+    "NNMD 5270",
+    "NNMD 5271",
+    "NNMD 5370",
+    "NNMD 5470",
+    "NNMD 5570",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1211",
+    "PHYS 2303",
+    "PHYS 2371",
+    "PHYS 2372",
+    "PHYS 3601",
+    "PHYS 3602",
+    "PHYS 4606",
+    "PHYS 5113",
+    "PHYS 5260",
+    "PHYS 5352"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": "Biomolecular and Biomedical Systems",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Biomolecular"
+    },
+    {
+      "text": "Complex and Computational Systems",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Complex and Comp"
+    },
+    {
+      "text": "Energy and Sustainability",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Energy and Sust"
+    },
+    {
+      "text": "Materials and Nanotechnology",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Materials and Nanotech"
+    },
+    {
+      "text": "Electives",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Electives"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "Biomolecular and Biomedical Systems",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Biomolecular",
+      "document_id": "chemical-engineering-bsche-051fb8ac",
+      "kind": "program",
+      "fragment": "Biomolecular"
+    },
+    {
+      "text": "Complex and Computational Systems",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Complex and Comp",
+      "document_id": "chemical-engineering-bsche-051fb8ac",
+      "kind": "program",
+      "fragment": "Complex and Comp"
+    },
+    {
+      "text": "Energy and Sustainability",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Energy and Sust",
+      "document_id": "chemical-engineering-bsche-051fb8ac",
+      "kind": "program",
+      "fragment": "Energy and Sust"
+    },
+    {
+      "text": "Materials and Nanotechnology",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Materials and Nanotech",
+      "document_id": "chemical-engineering-bsche-051fb8ac",
+      "kind": "program",
+      "fragment": "Materials and Nanotech"
+    },
+    {
+      "text": "Electives",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/chemical/chemical-engineering-bsche/#Electives",
+      "document_id": "chemical-engineering-bsche-051fb8ac",
+      "kind": "program",
+      "fragment": "Electives"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "MATL 5380",
+    "ME 4630"
+  ]
+}

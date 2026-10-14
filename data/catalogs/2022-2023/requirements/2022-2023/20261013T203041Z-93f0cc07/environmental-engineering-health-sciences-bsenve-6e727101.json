@@ -1,0 +1,1833 @@
+{
+  "document_id": "environmental-engineering-health-sciences-bsenve-6e727101",
+  "kind": "program",
+  "title": "Environmental Engineering and Health Science, BSEnvE",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/engineering/civil-environmental/environmental-engineering-health-sciences-bsenve/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering Requirement",
+      "heading_path": [
+        "Engineering Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CIVE 2221 and CIVE 2222 Statics and Solid Mechanics and Recitation for CIVE 2221",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2221",
+                "CIVE 2222"
+              ],
+              "code_text": "CIVE 2221 and CIVE 2222",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2221"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2222"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CIVE 2260 and CIVE 2261 Materials for the Built Environment and Lab for CIVE 2260",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2260",
+                "CIVE 2261"
+              ],
+              "code_text": "CIVE 2260 and CIVE 2261",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2260"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2261"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CIVE 2331 Fluid Mechanics and Hydraulics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2331"
+              ],
+              "code_text": "CIVE 2331",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2331"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CIVE 2334 Environmental Engineering: Principles, Technology, and Sustainability",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2334"
+              ],
+              "code_text": "CIVE 2334",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2334"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CIVE 3435 Environmental Pollution Fate and Transport",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3435"
+              ],
+              "code_text": "CIVE 3435",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3435"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CIVE 4534 and CIVE 4535 Water Treatment Systems Design and Lab for CIVE 4534",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4534",
+                "CIVE 4535"
+              ],
+              "code_text": "CIVE 4534 and CIVE 4535",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 4534"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 4535"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CIVE 4765 Senior Design Project—Environmental",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4765"
+              ],
+              "code_text": "CIVE 4765",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4765"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CIVE 5300 and CIVE 5301 Environmental Sampling and Analysis and Lab for CIVE 5300",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5300",
+                "CIVE 5301"
+              ],
+              "code_text": "CIVE 5300 and CIVE 5301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 5300"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 5301"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "GE 3300 Energy Systems: Science, Technology, and Sustainability",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 3300"
+              ],
+              "code_text": "GE 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 3300"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the engineering requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CIVE 3464 Probability and Engineering Economy for Civil Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3464"
+              ],
+              "code_text": "CIVE 3464",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3464"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CIVE 2335 Environmental Engineering Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2335"
+              ],
+              "code_text": "CIVE 2335",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2335"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CIVE 3430 Engineering Microbiology and Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3430"
+              ],
+              "code_text": "CIVE 3430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3430"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "note",
+              "text": "2 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Health Sciences Major Requirement",
+      "heading_path": [
+        "Health Sciences Major Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "HLTH 5450 Healthcare Research (Principles of Epidemiology in Medicine and Public Health)",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HLTH 5450"
+              ],
+              "code_text": "HLTH 5450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HLTH 5450"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or PHTH 4202 Principles of Epidemiology in Medicine and Public Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4202"
+              ],
+              "code_text": "or PHTH 4202",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4202"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "PHTH 1260 The American Healthcare System",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 1260"
+              ],
+              "code_text": "PHTH 1260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 1260"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or PHTH 1261 Comparative Healthcare Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 1261"
+              ],
+              "code_text": "or PHTH 1261",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 1261"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHTH 2210 Foundations of Biostatistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2210"
+              ],
+              "code_text": "PHTH 2210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2210"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "PHTH 2350 Community and Public Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2350"
+              ],
+              "code_text": "PHTH 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2350"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or PHTH 2351 Community and Public Health - Global",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2351"
+              ],
+              "code_text": "or PHTH 2351",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2351"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PHTH 2414 Environmental Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2414"
+              ],
+              "code_text": "PHTH 2414",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2414"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHTH 2515 Healthcare Policy and Administration",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2515"
+              ],
+              "code_text": "PHTH 2515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2515"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PHTH 4120 Global Perspectives on Discrimination and Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4120"
+              ],
+              "code_text": "PHTH 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4120"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHTH 4540 Health Education and Program Planning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4540"
+              ],
+              "code_text": "PHTH 4540",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4540"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "PHTH 5214 Environmental Health",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5214"
+              ],
+              "code_text": "PHTH 5214",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5214"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all Mathematics/Science courses with a minimum of 30 semester hours. 2",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Mathematics/Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Science Elective (Earth)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ENVR 1120 Oceans and Coasts",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1120"
+              ],
+              "code_text": "ENVR 1120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1120"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ENVR 1200 Dynamic Earth",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1200"
+              ],
+              "code_text": "ENVR 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1200"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ENVR 2200 Earth's Changing Cycles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2200"
+              ],
+              "code_text": "ENVR 2200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2200"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENVR 3125 Global Oceanic Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3125"
+              ],
+              "code_text": "ENVR 3125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3125"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ENVR 3200 Water Resources",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3200"
+              ],
+              "code_text": "ENVR 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3200"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ENVR 3600 Oceanography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3600"
+              ],
+              "code_text": "ENVR 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3600"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ENVR 5201 Geologic Field Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5201"
+              ],
+              "code_text": "ENVR 5201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5201"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the mathematics/science requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CIVE 3464 Probability and Engineering Economy for Civil Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3464"
+              ],
+              "code_text": "CIVE 3464",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3464"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CIVE 2335 Environmental Engineering Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2335"
+              ],
+              "code_text": "CIVE 2335",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2335"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CIVE 3430 Engineering Microbiology and Ecology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3430"
+              ],
+              "code_text": "CIVE 3430",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3430"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Professional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade of C or higher is required:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Course",
+      "heading_path": [
+        "Integrative Course"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "This course is already required above and also fulfills the integrative requirement.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CIVE 4765 Senior Design Project—Environmental",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4765"
+              ],
+              "code_text": "CIVE 4765",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4765"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering GPA Requirement",
+      "heading_path": [
+        "Engineering GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A minimum 2.000 GPA is required in major (CIVE) courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Health Sciences Major Requirement",
+      "heading_path": [
+        "Health Sciences Major Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A minimum grade of C or higher is required for all HLTH and PHTH courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "133 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute GE 1110 and GE 1111 for GE 1501 and 1502 in approved situations.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "2 Mathematics/Science Requirement: CHEM 1151, MATH 1341, and PHYS 1151 require a grade of C- or higher",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "environmental-engineering-health-sciences-bsenve-6e727101",
+  "major_name": "Environmental Engineering and Health Science",
+  "degree": "BSEnvE",
+  "campus": "",
+  "college": "College of Engineering",
+  "overview_text": "This intercollege combined major is designed for students who would like to explore their interest in the health sciences while earning the benefit of a Bachelor of Science degree in environmental engineering. The combined major reflects the respective departmental thrusts in environmental health and sustainable resource engineering to create awareness about the complex relationship between the environment and human health, prepare professionals in this growing area capable of providing engineering solutions to current and emerging topics related to environmental engineering and health sciences, and maintain healthy environmental systems by applying and developing techniques to reduce exposure to health hazards. This program combines the content of two majors to allow students to learn the breadth and depth of of the convergence between public health and environmental engineering.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nEngineering Requirement\nCourse List\nCode\nTitle\nHours\nRequired Engineering\nCIVE 2221\nand\nCIVE 2222\nStatics and Solid Mechanics\nand Recitation for CIVE 2221\n4\nCIVE 2260\nand\nCIVE 2261\nMaterials for the Built Environment\nand Lab for CIVE 2260\n5\nCIVE 2331\nFluid Mechanics and Hydraulics\n4\nCIVE 2334\nEnvironmental Engineering: Principles, Technology, and Sustainability\n4\nCIVE 3435\nEnvironmental Pollution Fate and Transport\n4\nCIVE 4534\nand\nCIVE 4535\nWater Treatment Systems Design\nand Lab for CIVE 4534\n4\nCIVE 4765\nSenior Design Project—Environmental\n5\nCIVE 5300\nand\nCIVE 5301\nEnvironmental Sampling and Analysis\nand Lab for CIVE 5300\n4\nGE 3300\nEnergy Systems: Science, Technology, and Sustainability\n4\nSupplemental Credit\n1 semester hour from the following course counts toward the engineering requirement:\n1\nCIVE 3464\nProbability and Engineering Economy for Civil Engineering\n3 semester hours from the following course count toward the engineering requirement:\n3\nCIVE 2335\nEnvironmental Engineering Chemistry\n3 semester hours from the following course count toward the engineering requirement:\n3\nCIVE 3430\nEngineering Microbiology and Ecology\n2 semester hours from the following course count toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following course count toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nHealth Sciences Major Requirement\nCourse List\nCode\nTitle\nHours\nHLTH 5450\nHealthcare Research (Principles of Epidemiology in Medicine and Public Health)\n4\nor\nPHTH 4202\nPrinciples of Epidemiology in Medicine and Public Health\nPHTH 1260\nThe American Healthcare System\n4\nor\nPHTH 1261\nComparative Healthcare Systems\nPHTH 2210\nFoundations of Biostatistics\n4\nPHTH 2350\nCommunity and Public Health\n4\nor\nPHTH 2351\nCommunity and Public Health - Global\nPHTH 2414\nEnvironmental Health\n4\nPHTH 2515\nHealthcare Policy and Administration\n4\nPHTH 4120\nGlobal Perspectives on Discrimination and Health\n4\nPHTH 4540\nHealth Education and Program Planning\n4\nPHTH 5214\nEnvironmental Health\n3\nSupporting Courses: Mathematics/Science\nComplete all Mathematics/Science courses with a minimum of 30 semester hours.\n2\nCourse List\nCode\nTitle\nHours\nRequired Mathematics/Science\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\n5\nScience Elective (Earth)\nComplete one of the following:\n4-5\nENVR 1120\nOceans and Coasts\nENVR 1200\nDynamic Earth\nENVR 2200\nEarth's Changing Cycles\nENVR 3125\nGlobal Oceanic Change\nENVR 3200\nWater Resources\nENVR 3600\nOceanography\nENVR 5201\nGeologic Field Seminar\nSupplemental Credit\n3 semester hours from the following course count toward the mathematics/science requirement:\n3\nCIVE 3464\nProbability and Engineering Economy for Civil Engineering\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nCIVE 2335\nEnvironmental Engineering Chemistry\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nCIVE 3430\nEngineering Microbiology and Ecology\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nProfessional Development\nCourse List\nCode\nTitle\nHours\nProfessional Development\nGE 1000\nFirst-Year Seminar\n1\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nAdditional Required Courses\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade of C or higher is required:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nIntegrative Course\nCourse List\nCode\nTitle\nHours\nThis course is already required above and also fulfills the integrative requirement.\nCIVE 4765\nSenior Design Project—Environmental\nEngineering GPA Requirement\nA minimum 2.000 GPA is required in major (CIVE) courses\nHealth Sciences Major Requirement\nA minimum grade of C or higher is required for all HLTH and PHTH courses\nProgram Requirement\n133 total semester hours required\n1\nStudents can substitute GE 1110 and GE 1111 for GE 1501 and 1502 in approved situations.\n2\nMathematics/Science Requirement: CHEM 1151, MATH 1341, and PHYS 1151 require a grade of C- or higher",
+  "referenced_courses": [
+    "CHEM 1151",
+    "CHEM 1153",
+    "CIVE 2221",
+    "CIVE 2222",
+    "CIVE 2260",
+    "CIVE 2261",
+    "CIVE 2331",
+    "CIVE 2334",
+    "CIVE 2335",
+    "CIVE 3430",
+    "CIVE 3435",
+    "CIVE 3464",
+    "CIVE 4534",
+    "CIVE 4535",
+    "CIVE 4765",
+    "CIVE 5300",
+    "CIVE 5301",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "ENVR 1120",
+    "ENVR 1200",
+    "ENVR 2200",
+    "ENVR 3125",
+    "ENVR 3200",
+    "ENVR 3600",
+    "ENVR 5201",
+    "GE 1000",
+    "GE 1501",
+    "GE 1502",
+    "GE 3300",
+    "HLTH 5450",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "PHTH 1260",
+    "PHTH 1261",
+    "PHTH 2210",
+    "PHTH 2350",
+    "PHTH 2351",
+    "PHTH 2414",
+    "PHTH 2515",
+    "PHTH 4120",
+    "PHTH 4202",
+    "PHTH 4540",
+    "PHTH 5214",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

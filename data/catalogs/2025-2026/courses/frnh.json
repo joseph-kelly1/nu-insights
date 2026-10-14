@@ -1,0 +1,422 @@
+{
+  "department": "FRNH",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/course-descriptions/frnh/",
+  "courses": [
+    {
+      "number": "1101",
+      "title": "Elementary French 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed for students with very little or no prior knowledge of French. Provides a lively introduction to basic oral expression, listening comprehension, and elementary reading and writing. Each lesson incorporates helpful information about daily life in France and the varied cultures within the world of French speakers. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "1102",
+      "title": "Elementary French 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues FRNH 1101. Reviews and continues the study of grammar and basic language skills. Offers progressively more intensive practice in oral and written communication. Laboratory practice complements class work, enables students to work aloud at their own speed, reinforces their acquisition of essential structures, and acquaints them with a vast library of audio-visual resources.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 1101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 1301",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 1101 with a minimum grade of C- or FRNH 1301 with a minimum grade of C-"
+    },
+    {
+      "number": "1280",
+      "title": "French Film and Culture",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides an introduction to some of the qualities that have made French film one of the great national cinemas. Focuses on both form and content; relates outstanding directors’ major works to the French culture and society of their period. Conducted in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Interpreting Culture"
+      ]
+    },
+    {
+      "number": "1501",
+      "title": "Introduction to French Culture",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores contemporary France and French mentality through lectures, screenings, readings, and discussions. Topics covered include the modern vs. the traditional family, social reproduction, gender norms, culture and social distinction, the concept of “grandeur,” identity, and immigration. Offers students an opportunity to evaluate historical and sociological readings, films, documentaries, and TV commercials; to compare French and American systems; and to consider contemporary human and social behaviors in the face of globalization. Conducted in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Interpreting Culture",
+        "NUpath Societies/Institutions"
+      ]
+    },
+    {
+      "number": "1973",
+      "title": "Special Topics in Francophone Culture",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores in-depth a specific topic related to Francophone culture, literature, and/or language. Taught in English. May be repeated twice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2101",
+      "title": "Intermediate French 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Emphasizes further vocabulary building and mastery of fine points of grammar through written composition, prepared oral reports, and reading and discussion from current French periodicals.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 1102",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 1302",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 1102 with a minimum grade of C- or FRNH 1302 with a minimum grade of C-"
+    },
+    {
+      "number": "2102",
+      "title": "Intermediate French 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues FRNH 2101. Stresses the fundamentals of French to promote effective self-expression through speaking and writing and to explore the idiomatic aspects of the language. Through progressive class discussions and oral and written commentaries, students analyze a contemporary French novel or a French cultural reader, screenplay, or collection of short stories. Strives to help students read and comprehend modern French writing with confidence, and to be able to talk and write about it in good French. Provides preparation for advanced courses.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 2101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 2301",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 2101 with a minimum grade of C- or FRNH 2301 with a minimum grade of C-"
+    },
+    {
+      "number": "2900",
+      "title": "Specialized Instruction in French",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on developing students’ language proficiency and cultural competence within a specific context. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "FRNH 1102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 1102 with a minimum grade of C-"
+    },
+    {
+      "number": "3101",
+      "title": "Advanced French 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 2102",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 2302",
+            "min_grade": "C-"
+          },
+          {
+            "admission_requirement": "French Placement Test with a score of 411"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 2102 with a minimum grade of C- or FRNH 2302 with a minimum grade of C- or French Placement Test with a score of 411"
+    },
+    {
+      "number": "3102",
+      "title": "Advanced French 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Builds on FRNH 3101 and continues further development of vocabulary. Offers students an opportunity to continue to master grammar and conversation through advanced reading, composition, grammar review, and listening skills. Whenever possible, offers students an opportunity to engage in local community activities to enhance communication skills and cultural knowledge.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 3101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 3301",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 3101 with a minimum grade of C- or FRNH 3301 with a minimum grade of C-"
+    },
+    {
+      "number": "3601",
+      "title": "The Structure of French",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the basic principles of linguistic analysis by examining the structure of modern French. Emphasizes descriptive (and not prescriptive) analysis of the phonetic, phonological, morphological, syntactic, and semantic characteristics of modern French in its everyday use.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 3101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 3102",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 4800",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 3101 with a minimum grade of C- or FRNH 3102 with a minimum grade of C- or FRNH 4800 with a minimum grade of C-"
+    },
+    {
+      "number": "3800",
+      "title": "Special Topics in French",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on specific aspects of French language and culture. May be repeated up to twice for a maximum of 12 semester hours, when topics vary.",
+      "prerequisites": {
+        "course": "FRNH 2102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 2102 with a minimum grade of C-"
+    },
+    {
+      "number": "3900",
+      "title": "Specialized Instruction in French",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on developing students’ language proficiency and cultural competence within a specific context. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "FRNH 2102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 2102 with a minimum grade of C-"
+    },
+    {
+      "number": "4800",
+      "title": "Special Topics in French",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on specific aspects of French language and culture. May be repeated twice for a maximum of 12 semester hours with department approval.",
+      "prerequisites": {
+        "course": "FRNH 3102",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 3102 with a minimum grade of C-"
+    },
+    {
+      "number": "4810",
+      "title": "French Pop Culture",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on contemporary French society and pop culture. Fosters a nuanced understanding of modern French cultural dynamics and perspectives through an in-depth exploration of diverse sources. Examines a wide range of topics including media, cinema, music, art, fashion, and social issues. Aims to enhance students' proficiency in French by emphasizing contextual and critical analysis, while providing a platform for developing their intercultural awareness. Conducted entirely in French.",
+      "prerequisites": {
+        "course": "FRNH 3101",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 3101 with a minimum grade of C-"
+    },
+    {
+      "number": "4944",
+      "title": "Cultural Engagement: Dialogue of Civilizations",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Engages students on-site with the culture(s) and the communities of French-speaking regions. Emphasizes the complexity, transnationalism, and interdisciplinary nature of culture(s). Employs a range of methodological approaches to describe and analyze how cultural practices, objects, texts, and meanings are created, distributed, and exchanged within particular social groups or geographic areas. Explores questions of cultural identity, meaning, representation, policy formations, and ideologies. In addition to regular in-class lectures and activities, offers students an opportunity to engage in dialogue with members of the local communities about their perspectives on relevant cultural topics and everyday experiences. May be repeated once. Conducted in French.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "FRNH 2101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 2102",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 3101",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 3102",
+            "min_grade": "C-"
+          },
+          {
+            "course": "FRNH 4800",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "FRNH 2101 with a minimum grade of C- or FRNH 2102 with a minimum grade of C- or FRNH 3101 with a minimum grade of C- or FRNH 3102 with a minimum grade of C- or FRNH 4800 with a minimum grade of C-"
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers students a way of going beyond work given in the regular curriculum; may also enable students to complete major or minor requirements in certain situations. Priority is given to language majors and to juniors and seniors. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

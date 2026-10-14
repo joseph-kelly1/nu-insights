@@ -6,7 +6,7 @@ import {
   readPlan, removalConflicts, saveDraft, draftFrom, shortLabel, skipPlan, termKey, termLabel, termStatus, toPayload, nextTerm,
 } from '../coursePlan';
 
-const EDITIONS = ['2026-2027', '2025-2026', '2024-2025', '2023-2024', '2022-2023', '2021-2022', '2020-2021'];
+const EDITIONS = ['2026-2027', '2025-2026', '2024-2025', '2023-2024', '2022-2023'];
 const STATUS_TEXT = { passed: 'Completed', in_progress: 'In progress', planned: 'Planned', failed: 'Failed',
   withdrawn: 'Withdrawn', incomplete: 'Incomplete' };
 const REQUIREMENT_TEXT = { satisfied: 'Done', planned: 'Planned', unsatisfied: 'Not yet met', review: 'Needs review' };
@@ -80,7 +80,7 @@ function Setup({ major, concentrations, previous, onStart }) {
           {EDITIONS.map((y) => <option key={y} value={y}>{`${catalogLabel(y)}${y === suggested ? ' (common for your first term)' : ''}`}</option>)}
         </select>
         <p className="hint">Use the catalog year on your degree audit, or ask your advisor. Your major and concentration use
-          the same year. Requirements for some years aren’t loaded yet; you can still build a timeline.</p>
+          the same year. Catalogs cover current first- through fifth-year students.</p>
       </div>
       <div>
         <label className="field-label" htmlFor="interests">Interests or career goals (optional)</label>
@@ -132,6 +132,34 @@ function TermCard({ term, plan, attempts, onEdit, onOpenCourse, problems, previe
   );
 }
 
+const joined = (codes) => codes.join(' + ');
+const Source = ({ url }) => <>{' '}<a href={url} target="_blank" rel="noreferrer">Source</a></>;
+
+// One line per requirement: how a current course fulfills a retired one, or what to do when nothing does yet.
+function ReplacementNote({ rule }) {
+  const used = [...new Map(rule.courses.filter((c) => c.replacement).map((c) => [c.replacement.id, c.replacement])).values()];
+  if (used.length) {
+    return used.map((m) => <span key={m.id} className="hint block">
+      {`${joined(m.replacement)} ${m.replacement.length > 1 ? 'fulfill' : 'fulfills'} the ${joined(m.original)} requirement.`}
+      <Source url={m.source_url} /></span>);
+  }
+  if (rule.status !== 'unsatisfied' || !rule.retired?.length) return null;
+  const verified = rule.replacements?.find((m) => m.review === 'verified');
+  const candidate = rule.replacements?.find((m) => m.review === 'candidate');
+  const retired = `${rule.retired.join(', ')} ${rule.retired.length > 1 ? 'are' : 'is'} no longer in the current catalog.`;
+  if (verified) {
+    return <span className="hint block">{`${retired} Plan ${joined(verified.replacement)}, which fulfills this requirement.`}
+      <Source url={verified.source_url} /></span>;
+  }
+  return <span className="hint block">{candidate
+    ? `${retired} Khoury lists ${joined(candidate.replacement)} as replacing ${joined(candidate.original)}, but hasn’t `
+      + 'published that it counts for your catalog year. If your advisor approves, add it and use “Counts as another '
+      + 'course?” with the approval details.'
+    : `${retired} Ask your advisor which current course counts instead, then record it with “Counts as another `
+      + 'course?” and the approval details.'}
+    {candidate && <Source url={candidate.source_url} />}</span>;
+}
+
 function Report({ report, stale, onOpenCourse }) {
   if (!report) return null;
   const groups = {};
@@ -162,6 +190,7 @@ function Report({ report, stale, onOpenCourse }) {
               {r.courses.length > 0 && <span className="block">{r.courses.map((c, i) => <React.Fragment key={i}>
                 {i > 0 && ', '}{c.code ? <button type="button" className="link-button" onClick={() => onOpenCourse(c.code)}>{c.code}</button> : c.label}
               </React.Fragment>)}</span>}
+              <ReplacementNote rule={r} />
             </span>
           </li>)}
         </ul>
@@ -198,10 +227,39 @@ function PlanSettings({ plan, context, dispatch }) {
       + kept.map((r) => ` ${shortLabel(r.term)} kept: ${r.reason}.`).join('') : `No open ${SESSION_LABELS[session]} terms left.`);
   };
   const canShorten = termKey(last) > Math.max(termKey(plan.current_term), termKey(plan.start));
+  const selectConcentrations = (group, chosen) => {
+    const allowed = new Set(context.concentration_groups.flatMap((g) => g.options.map((o) => o.id)));
+    dispatch({ type: 'setConcentrations', ids: [...plan.concentration_ids.filter((id) => allowed.has(id)
+      && !group.options.some((o) => o.id === id)), ...chosen] });
+  };
   return (
     <details className="plan-settings">
       <summary>Timeline and preferences</summary>
       <div className="settings-grid">
+        <div>
+          <label className="field-label" htmlFor="plan-catalog-year">Requirements catalog year</label>
+          <select id="plan-catalog-year" className="input" value={plan.catalog_year}
+            onChange={(e) => dispatch({ type: 'setCatalogYear', year: e.target.value })}>
+            {[...new Set([...(context?.available_editions || EDITIONS), plan.catalog_year])].sort().reverse()
+              .map((year) => <option key={year} value={year}>{catalogLabel(year)}</option>)}
+          </select>
+          <p className="hint">Use the year on your degree audit. History and pinned courses stay saved; unpinned suggestions are cleared.</p>
+        </div>
+        {(context?.concentration_groups || []).filter((g) => !g.fixed).map((group) => {
+          const selected = group.options.filter((o) => plan.concentration_ids.includes(o.id)).map((o) => o.id);
+          const multiple = group.policy.max_selections !== 1;
+          return <fieldset key={group.id}>
+            <legend className="field-label">{`${group.title} (${catalogLabel(plan.catalog_year)})`}</legend>
+            {multiple ? group.options.map((o) => <label className="check" key={o.id}>
+              <input type="checkbox" checked={selected.includes(o.id)} onChange={(e) => selectConcentrations(group,
+                e.target.checked ? [...selected, o.id] : selected.filter((id) => id !== o.id))} />{o.name}
+            </label>) : <select className="input" aria-label={`${group.title} for ${plan.catalog_year}`}
+              value={selected[0] || ''} onChange={(e) => selectConcentrations(group, e.target.value ? [e.target.value] : [])}>
+              <option value="">Choose an option or leave undecided</option>
+              {group.options.map((o) => <option key={o.id} value={o.id}>{o.name}</option>)}
+            </select>}
+          </fieldset>;
+        })}
         <div>
           <p className="field-label">{`Target graduation: ${termLabel(plan.target)}`}</p>
           <div className="button-row">
@@ -432,7 +490,7 @@ function CourseBuilder({ major, concentrations, ai, aiLabel, onBack, onOpenCours
 
   return (
     <main className="builder" id="builder">
-      <BuilderHead major={major} concentrations={concentrations} onBack={onBack} edition={plan.catalog_year}
+      <BuilderHead major={major} concentrations={context.data?.concentrations || concentrations} onBack={onBack} edition={plan.catalog_year}
         saved={saved} onExport={() => download(plan)} />
       {notice && <p className="notice" role="alert">{notice}</p>}
       {importing && <div className="notice" role="alert">
@@ -476,8 +534,12 @@ function CourseBuilder({ major, concentrations, ai, aiLabel, onBack, onOpenCours
           <section className="year-row pre-enrollment" aria-labelledby="pre-heading">
             <div className="year-head"><h3 id="pre-heading">Credit before enrollment</h3>
               {!previewing && <button type="button" className="btn btn-quiet btn-sm" onClick={() => edit('pre')}>
-                {pre.length ? 'Edit' : 'Add AP, IB, or transfer credit'}</button>}</div>
+                {pre.length || plan.exams?.length ? 'Edit' : 'Add AP / IB credit'}</button>}</div>
             {pre.length > 0 && <p className="hint">{pre.map((a) => `${a.code || a.title} (${a.credits})`).join(', ')}</p>}
+            {(plan.exams || []).map((e) => <p className="hint" key={e.id}>
+              {`${e.kind?.toUpperCase() || 'Exam'} ${e.name || e.exam_id} · ${e.score}${e.level ? ` ${e.level}` : ''} · `
+                + (e.state === 'awarded' ? 'Awarded' : 'Estimated, not counted')}
+            </p>)}
           </section>
           {years.map(({ ay, terms }, index) => (
             <section className="year-row" key={ay} aria-labelledby={`year-${ay}`}>
@@ -492,7 +554,7 @@ function CourseBuilder({ major, concentrations, ai, aiLabel, onBack, onOpenCours
         </div>
         <aside className="builder-aside">
           {detail}
-          {!detail && editing && <TermEditor plan={plan} term={editingTerm} context={ctx} identify={identify}
+          {!detail && editing && <TermEditor key={editing} plan={plan} term={editingTerm} context={ctx} identify={identify}
             dispatch={dispatch} onOpenCourse={openCourse}
             onClose={() => setEditing(null)} problems={problems} />}
           {!detail && !editing && report.status === 'loading' && <p className="pending">Checking your plan…</p>}
@@ -526,7 +588,7 @@ function CapabilityNote({ context }) {
   if (context.status === 'error') return <p className="notice-error" role="alert">{context.message}</p>;
   const { capability, unavailable_reason: reason, selection_errors: errors, issues } = context.data;
   const text = capability === 'unavailable' ? reason
-    : capability === 'needs_selection' ? `${errors.join(' ')} Pick it in course browsing to fill your plan automatically.`
+    : capability === 'needs_selection' ? `${errors.join(' ')} Choose it in Timeline and preferences to fill your plan automatically.`
     : capability === 'reviewed' ? `Requirement rules for this program were reviewed against the catalog. ${issues.length} `
       + `catalog rule${issues.length === 1 ? '' : 's'} still need${issues.length === 1 ? 's' : ''} your review.`
     : 'Requirement rules for this program were extracted automatically and haven’t been reviewed yet. Treat suggestions as a draft '
@@ -553,6 +615,9 @@ function ProposalPanel({ proposal, stale, onApply, onDiscard, onDeterministic })
   }
   const { data } = proposal;
   const { added, moved, removed } = data.proposal.diff;
+  // Older responses carry no ranking_status; a model then meant the ranking was used.
+  const status = data.generation?.ranking_status;
+  const ranked = data.generation?.model && (status === 'applied' || !status);
   const summary = [added.length && `${added.length} added`, moved.length && `${moved.length} moved`,
     removed.length && `${removed.length} removed`].filter(Boolean).join(', ') || 'No changes';
   return (
@@ -563,7 +628,8 @@ function ProposalPanel({ proposal, stale, onApply, onDiscard, onDeterministic })
         changed to make room. You could:</p><ul className="report-list">{data.suggestions.map((s) => <li key={s}>{s}</li>)}</ul></>}
       {data.coverage.sample_variant && <p className="hint">{`Timing guided by ${data.coverage.sample_variant.name} `
         + `(${catalogLabel(data.coverage.sample_variant.catalog_year)} sample plan).`}</p>}
-      {data.generation?.model && <p className="hint">{`Electives ranked by ${data.generation.model}.`}</p>}
+      {ranked && <p className="hint">{`Electives ranked by ${data.generation.model}.`}</p>}
+      {data.generation?.message && <p className="hint">{data.generation.message}</p>}
       {stale && <p className="notice">Your plan changed while this was being built, so it can’t be applied. Generate again.</p>}
       <details><summary>Show changes</summary><ul className="report-list">
         {added.map((a, i) => <li key={`a${i}`}>{`Add ${a.code} in ${a.term}`}</li>)}

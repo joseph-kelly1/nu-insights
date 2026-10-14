@@ -1,0 +1,2201 @@
+{
+  "document_id": "data-science-bs-240091ec",
+  "kind": "program",
+  "title": "Data Science, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/data-science/data-science-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Data Science Major Requirements",
+      "heading_path": [
+        "Data Science Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Programming Sequence Pathways",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Choose one of the two options.",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "Computer Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "Data Science Option",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "DS 2500 and DS 2501 Intermediate Programming with Data and Lab for DS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2500",
+                "DS 2501"
+              ],
+              "code_text": "DS 2500 and DS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "DS 3500 Advanced Programming with Data",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 3500"
+              ],
+              "code_text": "DS 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3500"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CS 3200 Database Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CS 3520 Programming in C++",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3520"
+              ],
+              "code_text": "CS 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3520"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Data Science Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "CS 4100 Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4100"
+              ],
+              "code_text": "CS 4100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4100"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CS 4120 Natural Language Processing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4120"
+              ],
+              "code_text": "CS 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4120"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "IS 4200 Information Retrieval",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4200"
+              ],
+              "code_text": "IS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4200"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "IS 4300 Human Computer Interaction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4300"
+              ],
+              "code_text": "IS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4300"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "header",
+              "text": "Data Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "DS 4420 Machine Learning and Data Mining 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4420"
+              ],
+              "code_text": "DS 4420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4420"
+              },
+              "alternative_group": 30
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "or DS 4440 Practical Neural Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4440"
+              ],
+              "code_text": "or DS 4440",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4440"
+              },
+              "alternative_group": 30
+            },
+            {
+              "index": 32,
+              "kind": "header",
+              "text": "Presentation Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 33,
+              "kind": "instruction",
+              "text": "Choose one:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "COMM 1112 Public Speaking",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1112"
+              ],
+              "code_text": "COMM 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1112"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "COMM 1113 Business and Professional Speaking",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1113"
+              ],
+              "code_text": "COMM 1113",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1113"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "COMM 1210 Persuasion and Rhetoric",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1210"
+              ],
+              "code_text": "COMM 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1210"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "COMM 1511 Communication and Storytelling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1511"
+              ],
+              "code_text": "COMM 1511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1511"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "THTR 1125 Improvisation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 1125"
+              ],
+              "code_text": "THTR 1125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 1125"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "THTR 1130 Introduction to Acting",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 1130"
+              ],
+              "code_text": "THTR 1130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 1130"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "THTR 1180 The Dynamic On-Screen Presenter",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 1180"
+              ],
+              "code_text": "THTR 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 1180"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "THTR 2345 Acting for the Camera",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 2345"
+              ],
+              "code_text": "THTR 2345",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 2345"
+              }
+            },
+            {
+              "index": 42,
+              "kind": "header",
+              "text": "Mathematics Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "MATH 2331 Linear Algebra",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2331"
+              ],
+              "code_text": "MATH 2331",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2331"
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "MATH 3081 Probability and Statistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 3081"
+              ],
+              "code_text": "MATH 3081",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 3081"
+              }
+            },
+            {
+              "index": 47,
+              "kind": "header",
+              "text": "Data Science and Ethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 48,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 49,
+              "kind": "header",
+              "text": "Khoury Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 50,
+              "kind": "note",
+              "text": "With advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 51,
+              "kind": "instruction",
+              "text": "Complete 4 credits of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 4.0
+              }
+            },
+            {
+              "index": 52,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 53,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 54,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 55,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            },
+            {
+              "index": 56,
+              "kind": "header",
+              "text": "Data Science Related Electives in Other Units",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 57,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 58,
+              "kind": "course",
+              "text": "ARTG 3451 Information Design 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3451"
+              ],
+              "code_text": "ARTG 3451",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3451"
+              }
+            },
+            {
+              "index": 59,
+              "kind": "course",
+              "text": "ARTG 5100 Information Design Studio 1: Principles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5100"
+              ],
+              "code_text": "ARTG 5100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5100"
+              }
+            },
+            {
+              "index": 60,
+              "kind": "course",
+              "text": "ARTG 5110 Information Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5110"
+              ],
+              "code_text": "ARTG 5110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5110"
+              }
+            },
+            {
+              "index": 61,
+              "kind": "course",
+              "text": "ARTG 5120 Research Methods for Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5120"
+              ],
+              "code_text": "ARTG 5120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5120"
+              }
+            },
+            {
+              "index": 62,
+              "kind": "course",
+              "text": "ARTG 5330 Visualization Technologies 1: Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5330"
+              ],
+              "code_text": "ARTG 5330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5330"
+              }
+            },
+            {
+              "index": 63,
+              "kind": "course",
+              "text": "ARTG 6100 Information Design Studio 2: Dynamic Mapping and Models",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 6100"
+              ],
+              "code_text": "ARTG 6100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 6100"
+              }
+            },
+            {
+              "index": 64,
+              "kind": "course",
+              "text": "ARTG 6200 Information Design Studio 3: Synthesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 6200"
+              ],
+              "code_text": "ARTG 6200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 6200"
+              }
+            },
+            {
+              "index": 65,
+              "kind": "course",
+              "text": "BINF 6308 Bioinformatics Computational Methods 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BINF 6308"
+              ],
+              "code_text": "BINF 6308",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BINF 6308"
+              }
+            },
+            {
+              "index": 66,
+              "kind": "course",
+              "text": "BINF 6309 Bioinformatics Computational Methods 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BINF 6309"
+              ],
+              "code_text": "BINF 6309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BINF 6309"
+              }
+            },
+            {
+              "index": 67,
+              "kind": "course",
+              "text": "ECON 2350 Statistics for Economists",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2350"
+              ],
+              "code_text": "ECON 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2350"
+              }
+            },
+            {
+              "index": 68,
+              "kind": "course",
+              "text": "ECON 2560 Applied Econometrics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 2560"
+              ],
+              "code_text": "ECON 2560",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 2560"
+              }
+            },
+            {
+              "index": 69,
+              "kind": "course",
+              "text": "EECE 5639 Computer Vision",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5639"
+              ],
+              "code_text": "EECE 5639",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5639"
+              }
+            },
+            {
+              "index": 70,
+              "kind": "course",
+              "text": "EECE 5642 Data Visualization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5642"
+              ],
+              "code_text": "EECE 5642",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5642"
+              }
+            },
+            {
+              "index": 71,
+              "kind": "course",
+              "text": "EECE 5644 Introduction to Machine Learning and Pattern Recognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 5644"
+              ],
+              "code_text": "EECE 5644",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 5644"
+              }
+            },
+            {
+              "index": 72,
+              "kind": "course",
+              "text": "ENVR 2500 Biostatistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2500"
+              ],
+              "code_text": "ENVR 2500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2500"
+              }
+            },
+            {
+              "index": 73,
+              "kind": "course",
+              "text": "GSND 5110 Game Design and Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GSND 5110"
+              ],
+              "code_text": "GSND 5110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GSND 5110"
+              }
+            },
+            {
+              "index": 74,
+              "kind": "course",
+              "text": "GSND 6350 Data-Driven Player Modeling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GSND 6350"
+              ],
+              "code_text": "GSND 6350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GSND 6350"
+              }
+            },
+            {
+              "index": 75,
+              "kind": "course",
+              "text": "HINF 5101 Introduction to Health Informatics and Health Information Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5101"
+              ],
+              "code_text": "HINF 5101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5101"
+              }
+            },
+            {
+              "index": 76,
+              "kind": "course",
+              "text": "HINF 5102 Data Management in Healthcare",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5102"
+              ],
+              "code_text": "HINF 5102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5102"
+              }
+            },
+            {
+              "index": 77,
+              "kind": "course",
+              "text": "HINF 5300 Personal Health Interface Design and Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5300"
+              ],
+              "code_text": "HINF 5300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5300"
+              }
+            },
+            {
+              "index": 78,
+              "kind": "course",
+              "text": "HINF 5301 Evaluating Health Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5301"
+              ],
+              "code_text": "HINF 5301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5301"
+              }
+            },
+            {
+              "index": 79,
+              "kind": "course",
+              "text": "IE 5640 Data Mining for Engineering Applications",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IE 5640"
+              ],
+              "code_text": "IE 5640",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IE 5640"
+              }
+            },
+            {
+              "index": 80,
+              "kind": "course",
+              "text": "IS 4800 Empirical Research Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4800"
+              ],
+              "code_text": "IS 4800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4800"
+              }
+            },
+            {
+              "index": 81,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 82,
+              "kind": "course",
+              "text": "MATH 4581 Statistics and Stochastic Processes",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 4581"
+              ],
+              "code_text": "MATH 4581",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 4581"
+              }
+            },
+            {
+              "index": 83,
+              "kind": "course",
+              "text": "MGSC 2301 Business Statistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MGSC 2301"
+              ],
+              "code_text": "MGSC 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MGSC 2301"
+              }
+            },
+            {
+              "index": 84,
+              "kind": "course",
+              "text": "MISM 3403 Data Management for Business",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 3403"
+              ],
+              "code_text": "MISM 3403",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 3403"
+              }
+            },
+            {
+              "index": 85,
+              "kind": "course",
+              "text": "MKTG 3401 Marketing Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 3401"
+              ],
+              "code_text": "MKTG 3401",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 3401"
+              }
+            },
+            {
+              "index": 86,
+              "kind": "course",
+              "text": "MKTG 3501 Marketing Analytics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 3501"
+              ],
+              "code_text": "MKTG 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 3501"
+              }
+            },
+            {
+              "index": 87,
+              "kind": "course",
+              "text": "PHIL 5005 Information Ethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 5005"
+              ],
+              "code_text": "PHIL 5005",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 5005"
+              }
+            },
+            {
+              "index": 88,
+              "kind": "course",
+              "text": "PHIL 5010 AI Ethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 5010"
+              ],
+              "code_text": "PHIL 5010",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 5010"
+              }
+            },
+            {
+              "index": 89,
+              "kind": "course",
+              "text": "PSYC 2320 Statistics in Psychological Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 2320"
+              ],
+              "code_text": "PSYC 2320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 2320"
+              }
+            },
+            {
+              "index": 90,
+              "kind": "course",
+              "text": "PSYC 3466 Cognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3466"
+              ],
+              "code_text": "PSYC 3466",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3466"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 3
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 credits of general electives.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 28.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "data-science-bs-240091ec",
+  "major_name": "Data Science",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The Bachelor of Science in Data Science studies the collection, manipulation, storage, retrieval, and computational analysis of data in its various forms, including numeric, textual, image, and video data from small to large volumes.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nData Science Major Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nCS 1200\nFirst Year Seminar\n1\nCS 1210\nProfessional Development for Khoury Co-op\n1\nFundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nProgramming Sequence Pathways\nChoose one of the two options.\n12\nComputer Science Option\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\nData Science Option\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nDS 2500\nand\nDS 2501\nIntermediate Programming with Data\nand Lab for DS 2500\nDS 3500\nAdvanced Programming with Data\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3200\nDatabase Design\n4\nCS 3520\nProgramming in C++\n4\nData Science Electives\nComplete three of the following:\n12\nCS 4100\nArtificial Intelligence\nCS 4120\nNatural Language Processing\nIS 4200\nInformation Retrieval\nIS 4300\nHuman Computer Interaction\nData Science Required Courses\nDS 3000\nFoundations of Data Science\n4\nDS 4200\nInformation Presentation and Visualization\n4\nDS 4300\nLarge-Scale Information Storage and Retrieval\n4\nDS 4400\nMachine Learning and Data Mining 1\n4\nDS 4420\nMachine Learning and Data Mining 2\n4\nor\nDS 4440\nPractical Neural Networks\nPresentation Requirement\nChoose one:\n4\nCOMM 1112\nPublic Speaking\nCOMM 1113\nBusiness and Professional Speaking\nCOMM 1210\nPersuasion and Rhetoric\nCOMM 1511\nCommunication and Storytelling\nTHTR 1125\nImprovisation\nTHTR 1130\nIntroduction to Acting\nTHTR 1180\nThe Dynamic On-Screen Presenter\nTHTR 2345\nActing for the Camera\nMathematics Foundations\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2331\nLinear Algebra\n4\nMATH 3081\nProbability and Statistics\n4\nData Science and Ethics\nPHIL 1145\nTechnology and Human Values\n4\nKhoury Elective Courses\nWith advisor approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 4 credits of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n4\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000\nor higher, except IS 4900\nData Science Related Electives in Other Units\nComplete one of the following:\n4\nARTG 3451\nInformation Design 1\nARTG 5100\nInformation Design Studio 1: Principles\nARTG 5110\nInformation Design History\nARTG 5120\nResearch Methods for Design\nARTG 5330\nVisualization Technologies 1: Fundamentals\nARTG 6100\nInformation Design Studio 2: Dynamic Mapping and Models\nARTG 6200\nInformation Design Studio 3: Synthesis\nBINF 6308\nBioinformatics Computational Methods 1\nBINF 6309\nBioinformatics Computational Methods 2\nECON 2350\nStatistics for Economists\nECON 2560\nApplied Econometrics\nEECE 5639\nComputer Vision\nEECE 5642\nData Visualization\nEECE 5644\nIntroduction to Machine Learning and Pattern Recognition\nENVR 2500\nBiostatistics\nGSND 5110\nGame Design and Analysis\nGSND 6350\nData-Driven Player Modeling\nHINF 5101\nIntroduction to Health Informatics and Health Information Systems\nHINF 5102\nData Management in Healthcare\nHINF 5300\nPersonal Health Interface Design and Development\nHINF 5301\nEvaluating Health Technologies\nIE 5640\nData Mining for Engineering Applications\nIS 4800\nEmpirical Research Methods\nMATH 2321\nCalculus 3 for Science and Engineering\nMATH 4581\nStatistics and Stochastic Processes\nMGSC 2301\nBusiness Statistics\nMISM 3403\nData Management for Business\nMKTG 3401\nMarketing Research\nMKTG 3501\nMarketing Analytics\nPHIL 5005\nInformation Ethics\nPHIL 5010\nAI Ethics\nPSYC 2320\nStatistics in Psychological Research\nPSYC 3466\nCognition\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nAdvanced Writing in the Disciplines\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 credits of general electives.\n28\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS, and IS courses\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n130 total semester hours required",
+  "referenced_courses": [
+    "ARTG 3451",
+    "ARTG 5100",
+    "ARTG 5110",
+    "ARTG 5120",
+    "ARTG 5330",
+    "ARTG 6100",
+    "ARTG 6200",
+    "BINF 6308",
+    "BINF 6309",
+    "COMM 1112",
+    "COMM 1113",
+    "COMM 1210",
+    "COMM 1511",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3000",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 3520",
+    "CS 4100",
+    "CS 4120",
+    "CS 5010",
+    "CY 4930",
+    "DS 2000",
+    "DS 2001",
+    "DS 2500",
+    "DS 2501",
+    "DS 3000",
+    "DS 3500",
+    "DS 4200",
+    "DS 4300",
+    "DS 4400",
+    "DS 4420",
+    "DS 4440",
+    "ECON 2350",
+    "ECON 2560",
+    "EECE 5639",
+    "EECE 5642",
+    "EECE 5644",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "ENVR 2500",
+    "GSND 5110",
+    "GSND 6350",
+    "HINF 5101",
+    "HINF 5102",
+    "HINF 5300",
+    "HINF 5301",
+    "IE 5640",
+    "IS 2000",
+    "IS 4200",
+    "IS 4300",
+    "IS 4800",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2331",
+    "MATH 3081",
+    "MATH 4581",
+    "MGSC 2301",
+    "MISM 3403",
+    "MKTG 3401",
+    "MKTG 3501",
+    "PHIL 1145",
+    "PHIL 5005",
+    "PHIL 5010",
+    "PSYC 2320",
+    "PSYC 3466",
+    "THTR 1125",
+    "THTR 1130",
+    "THTR 1180",
+    "THTR 2345"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

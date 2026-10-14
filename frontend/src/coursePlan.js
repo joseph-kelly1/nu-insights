@@ -54,6 +54,7 @@ export function newPlan({ programId, catalogYear, concentrationIds, start, curre
     target,
     terms: buildTerms(start, target),
     attempts: [],
+    exams: [],
     experiences: [],
     preferences: { interests },
     sample_variant: null,
@@ -128,6 +129,14 @@ export function planReducer(plan, action) {
     }
     case 'updateAttempt':
       return next({ attempts: plan.attempts.map((a) => (a.id === action.id ? { ...a, ...action.changes } : a)) });
+    case 'setExams':
+      return next({ exams: action.exams });
+    case 'setConcentrations':
+      return next({ concentration_ids: action.ids, sample_variant: null,
+        attempts: plan.attempts.filter((a) => a.source !== 'generated' || a.pinned) });
+    case 'setCatalogYear':
+      return next({ catalog_year: action.year, sample_variant: null,
+        attempts: plan.attempts.filter((a) => a.source !== 'generated' || a.pinned) });
     case 'moveAttempt': {
       const defaults = defaultsFor(plan, action.termId);
       return next({ attempts: plan.attempts.map((a) => (a.id !== action.id ? a : {
@@ -179,13 +188,14 @@ export function toPayload(plan) {
     terms: plan.terms.map((t) => pick(t, ['id', 'year', 'session', 'mode', 'credit_target', 'credit_cap'])),
     attempts: plan.attempts.map((a) => pick(a, ['id', 'term_id', 'code', 'credits', 'status', 'grade', 'origin', 'pinned',
       'source', 'counts_as', 'evidence', 'placeholder', 'title', 'reason', 'preference'])),
+    exams: (plan.exams || []).map((e) => pick(e, ['id', 'exam_id', 'score', 'level', 'policy_year', 'version', 'state'])),
     experiences: plan.experiences.map((e) => pick(e, ['id', 'kind', 'term_ids'])),
     preferences: plan.preferences,
     sample_variant: plan.sample_variant,
   };
 }
 
-export const parseCodes = (text) => [...new Set((text.toUpperCase().match(/[A-Z]{2,5}\s*\d{3}[0-9A-Z]/g) || [])
+export const parseCodes = (text) => [...new Set((text.toUpperCase().match(/[A-Z]{2,5}\s*\d{2}[0-9A-Z]{2}\b/g) || [])
   .map((c) => c.replace(/^([A-Z]+)\s*/, '$1 ')))];
 
 // --- Persistence: one draft per program, requirements edition, and concentration selection ---
@@ -250,10 +260,22 @@ export function readPlan(text, programId) {
     throw new PlanFileError('This plan’s courses are invalid.');
   if (!Array.isArray(data.experiences) || !Array.isArray(data.concentration_ids) || typeof data.catalog_year !== 'string')
     throw new PlanFileError('This plan is incomplete.');
+  if (data.exams !== undefined && (!Array.isArray(data.exams) || data.exams.length > 50
+    || !data.exams.every((e) => e && typeof e.id === 'string' && /^[A-Za-z0-9:_-]{1,80}$/.test(e.id)
+      && typeof e.exam_id === 'string' && /^(ap|ib):[a-z0-9-]+$/.test(e.exam_id)
+      && Number.isInteger(e.score) && e.score >= 1 && e.score <= (e.exam_id.startsWith('ap:') ? 5 : 7)
+      && ['estimated', 'awarded'].includes(e.state)
+      && (e.exam_id.startsWith('ap:') || ['HL', 'SL'].includes(e.level))
+      && typeof e.policy_year === 'string' && /^\d{4}-\d{4}$/.test(e.policy_year)
+      && typeof e.version === 'string' && /^[a-f0-9]{16}$/.test(e.version))))
+    throw new PlanFileError('This plan’s AP/IB exams are invalid.');
+  const exams = (data.exams || []).map((e) => ({ id: e.id, exam_id: e.exam_id, score: e.score,
+    level: e.exam_id.startsWith('ib:') ? e.level : null, policy_year: e.policy_year, version: e.version, state: e.state,
+    kind: e.exam_id.split(':')[0], name: typeof e.name === 'string' ? e.name.slice(0, 200) : e.exam_id }));
   const { schema_version, id, revision, program_id, catalog_year, concentration_ids, start, current_term, target, terms,
     attempts, experiences, preferences, sample_variant, updated_at } = data; // drop anything else, such as stray keys
   return { schema_version, id: String(id || 'imported'), revision: Number.isInteger(revision) ? revision : 0, program_id,
-    catalog_year, concentration_ids, start, current_term, target, terms, attempts, experiences,
+    catalog_year, concentration_ids, start, current_term, target, terms, attempts, experiences, exams,
     preferences: { interests: String(preferences?.interests || '').slice(0, 500) }, sample_variant: sample_variant || null,
     updated_at: String(updated_at || '') };
 }

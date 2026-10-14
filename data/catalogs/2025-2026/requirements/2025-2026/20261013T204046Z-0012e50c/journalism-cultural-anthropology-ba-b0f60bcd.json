@@ -1,0 +1,1194 @@
+{
+  "document_id": "journalism-cultural-anthropology-ba-b0f60bcd",
+  "kind": "program",
+  "title": "Journalism and Cultural Anthropology, BA (Boston)",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/arts-media-design/journalism/journalism-cultural-anthropology-ba/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "BA Language Requirements",
+      "heading_path": [
+        "BA Language Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All BA students are required to complete the BA degree language requirements, for a total of 12 semester hours of language study or demonstrated equivalent proficiency, as described in Additional Requirements for BA students . Successful demonstration of proficiency does not reduce total minimum semester hours of study required to earn the BA degree.",
+          "links": [
+            {
+              "text": "Additional Requirements for BA students",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/ba-requirements/"
+            }
+          ],
+          "constraints": {
+            "minimum_credits": 12.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Journalism Requirements",
+      "heading_path": [
+        "Journalism Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Foundation Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "A grade of C or better is required in JRNL 1101 , JRNL 1102 , and JRNL 2201 .",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "JRNL 1101 and JRNL 1102 Journalism 1: Fundamentals of Reporting and Writing and Journalist’s Toolbox",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 1101",
+                "JRNL 1102"
+              ],
+              "code_text": "JRNL 1101 and JRNL 1102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "JRNL 1101"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "JRNL 1102"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "JRNL 1150 Understanding Today’s News",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 1150"
+              ],
+              "code_text": "JRNL 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 1150"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "JRNL 2201 Journalism 2: Intermediate Reporting",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 2201"
+              ],
+              "code_text": "JRNL 2201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 2201"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Visual Storytelling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "JRNL 2301 Visual Storytelling in Journalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 2301"
+              ],
+              "code_text": "JRNL 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 2301"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "JRNL 3370 Podcast and Radio Journalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3370"
+              ],
+              "code_text": "JRNL 3370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3370"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "JRNL 5309 News Documentary Production",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5309"
+              ],
+              "code_text": "JRNL 5309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5309"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "JRNL 5310 Photojournalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5310"
+              ],
+              "code_text": "JRNL 5310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5310"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "JRNL 5314 Video News Reporting and Producing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5314"
+              ],
+              "code_text": "JRNL 5314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5314"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "JRNL 5316 The Newsroom",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5316"
+              ],
+              "code_text": "JRNL 5316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5316"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "JRNL 5320 Practicing Photojournalism: Community and the Camera",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5320"
+              ],
+              "code_text": "JRNL 5320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5320"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "header",
+              "text": "Law and Ethics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "JRNL 3550 The First Amendment and the Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3550"
+              ],
+              "code_text": "JRNL 3550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3550"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "or JRNL 4650 Ethics and Diversity in the News Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 4650"
+              ],
+              "code_text": "or JRNL 4650",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 4650"
+              },
+              "alternative_group": 15
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Journalism Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete four JRNL courses (two must be 3000 level or above).",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Cultural Anthropology Requirements",
+      "heading_path": [
+        "Cultural Anthropology Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Core Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ANTH 1101 Peoples and Cultures",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 1101"
+              ],
+              "code_text": "ANTH 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 1101"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ANTH 2305 Global Markets and Local Culture",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 2305"
+              ],
+              "code_text": "ANTH 2305",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 2305"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ANTH 3410 Ethnographic Field Experience",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 3410"
+              ],
+              "code_text": "ANTH 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 3410"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ANTH 3421 Foundations of Anthropological Theory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 3421"
+              ],
+              "code_text": "ANTH 3421",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 3421"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Anthropology Area Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete two area courses in the range from ANTH 4101– ANTH 4520 not used to satisfy other requirements; one study-abroad course may be substituted as an area studies course with prior permission from the department; additional area courses taken may count as anthropology electives.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Anthropology Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete two ANTH courses in addition to the above requirements. One course from study abroad may also count toward this requirement, with permission from the department.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 9,
+              "kind": "elective_filter",
+              "text": "ANTH 2000 to ANTH 4999",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ANTH",
+                "minimum_number": "2000",
+                "maximum_number": "4999"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ANTH 4600 Senior Seminar",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 4600"
+              ],
+              "code_text": "ANTH 4600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 4600"
+              },
+              "alternative_group": 11
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "or ANTH 4100 Making Anthropology Public",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 4100"
+              ],
+              "code_text": "or ANTH 4100",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 4100"
+              },
+              "alternative_group": 11
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Introductory",
+      "heading_path": [
+        "Introductory"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ANTH 1000 Anthropology at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 1000"
+              ],
+              "code_text": "ANTH 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 1000"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or JRNL 1000 Journalism at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 1000"
+              ],
+              "code_text": "or JRNL 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 1000"
+              },
+              "alternative_group": 0
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Co-op Preparatory Course",
+      "heading_path": [
+        "Co-op Preparatory Course"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following if electing to do a co-op:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "EESH 2000 Professional Development for Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESH 2000"
+              ],
+              "code_text": "EESH 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EESH 2000"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or EEAM 2000 Professional Development for Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EEAM 2000"
+              ],
+              "code_text": "or EEAM 2000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "EEAM 2000"
+              },
+              "alternative_group": 1
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirements",
+      "heading_path": [
+        "Integrative Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "If ANTH 4100 was used as capstone option, choose ANTH 3418 as the integrative course:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ANTH 3418 Wired/Unwired: Cybercultures and Technopolitics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 3418"
+              ],
+              "code_text": "ANTH 3418",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 3418"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ANTH 4100 Making Anthropology Public",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 4100"
+              ],
+              "code_text": "or ANTH 4100",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 4100"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "JRNL 3700 Data Storytelling",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3700"
+              ],
+              "code_text": "JRNL 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3700"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or JRNL 5250 Gender in the Newsroom",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5250"
+              ],
+              "code_text": "or JRNL 5250",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5250"
+              },
+              "alternative_group": 3
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 3308 Advanced Writing in the Social Sciences",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3308"
+              ],
+              "code_text": "ENGW 3308",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3308"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or JRNL 2301 Visual Storytelling in Journalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 2301"
+              ],
+              "code_text": "or JRNL 2301",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 2301"
+              },
+              "alternative_group": 1
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Journalism and Cultural Anthropology Major Credit Requirement",
+      "heading_path": [
+        "Journalism and Cultural Anthropology Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 81 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 81.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "129 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "journalism-cultural-anthropology-ba-b0f60bcd",
+  "major_name": "Journalism and Cultural Anthropology",
+  "degree": "BA",
+  "campus": "Boston",
+  "college": "College of Arts, Media and Design",
+  "overview_text": "This combined major allows students to integrate theoretical perspectives and conceptual tools from cultural anthropology with their study and practice of journalism. The program offers them an opportunity to develop a deep understanding of both disciplines, allowing graduates to pursue writing projects and cover current events through an anthropological lens. The combined major offers flexibility so that students can study and write about the issues that most interest them.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nBA Language Requirements\nAll BA students are required to complete the BA degree language requirements, for a total of 12 semester hours of language study or demonstrated equivalent proficiency, as described in\nAdditional Requirements for BA students\n. Successful demonstration of proficiency does not reduce total minimum semester hours of study required to earn the BA degree.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nJournalism Requirements\nCourse List\nCode\nTitle\nHours\nFoundation Courses\nA grade of C or better is required in\nJRNL 1101\n,\nJRNL 1102\n, and\nJRNL 2201\n.\nJRNL 1101\nand\nJRNL 1102\nJournalism 1: Fundamentals of Reporting and Writing\nand Journalist’s Toolbox\n5\nJRNL 1150\nUnderstanding Today’s News\n4\nJRNL 2201\nJournalism 2: Intermediate Reporting\n4\nVisual Storytelling\nComplete one of the following:\n4\nJRNL 2301\nVisual Storytelling in Journalism\nJRNL 3370\nPodcast and Radio Journalism\nJRNL 5309\nNews Documentary Production\nJRNL 5310\nPhotojournalism\nJRNL 5314\nVideo News Reporting and Producing\nJRNL 5316\nThe Newsroom\nJRNL 5320\nPracticing Photojournalism: Community and the Camera\nLaw and Ethics\n4\nJRNL 3550\nThe First Amendment and the Media\nor\nJRNL 4650\nEthics and Diversity in the News Media\nJournalism Electives\nComplete four JRNL courses (two must be 3000 level or above).\n16\nCultural Anthropology Requirements\nCourse List\nCode\nTitle\nHours\nCore Requirements\nANTH 1101\nPeoples and Cultures\n4\nANTH 2305\nGlobal Markets and Local Culture\n4\nANTH 3410\nEthnographic Field Experience\n4\nANTH 3421\nFoundations of Anthropological Theory\n4\nAnthropology Area Requirements\nComplete two area courses in the range from ANTH 4101–\nANTH 4520\nnot used to satisfy other requirements; one study-abroad course may be substituted as an area studies course with prior permission from the department; additional area courses taken may count as anthropology electives.\n8\nAnthropology Electives\nComplete two ANTH courses in addition to the above requirements.  One course from study abroad may also count toward this requirement, with permission from the department.\nANTH 2000 to ANTH 4999\n8\nCapstone\nANTH 4600\nSenior Seminar\n4\nor\nANTH 4100\nMaking Anthropology Public\nIntroductory\nCourse List\nCode\nTitle\nHours\nANTH 1000\nAnthropology at Northeastern\n1\nor\nJRNL 1000\nJournalism at Northeastern\nCo-op Preparatory Course\nCourse List\nCode\nTitle\nHours\nComplete one of the following if electing to do a co-op:\nEESH 2000\nProfessional Development for Co-op\n1\nor\nEEAM 2000\nProfessional Development for Co-op\nIntegrative Requirements\nCourse List\nCode\nTitle\nHours\nIf\nANTH 4100\nwas used as capstone option, choose\nANTH 3418\nas the integrative course:\nANTH 3418\nWired/Unwired: Cybercultures and Technopolitics\n4\nor\nANTH 4100\nMaking Anthropology Public\nJRNL 3700\nData Storytelling\n4\nor\nJRNL 5250\nGender in the Newsroom\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nENGW 1111\nFirst-Year Writing\n4\nENGW 3308\nAdvanced Writing in the Social Sciences\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nor\nJRNL 2301\nVisual Storytelling in Journalism\nJournalism and Cultural Anthropology Major Credit Requirement\nComplete 81 semester hours in the major.\nProgram Requirement\n129 total semester hours required",
+  "referenced_courses": [
+    "ANTH 1000",
+    "ANTH 1101",
+    "ANTH 2305",
+    "ANTH 3410",
+    "ANTH 3418",
+    "ANTH 3421",
+    "ANTH 4100",
+    "ANTH 4520",
+    "ANTH 4600",
+    "EEAM 2000",
+    "EESH 2000",
+    "ENGW 1111",
+    "ENGW 3308",
+    "ENGW 3315",
+    "JRNL 1000",
+    "JRNL 1101",
+    "JRNL 1102",
+    "JRNL 1150",
+    "JRNL 2201",
+    "JRNL 2301",
+    "JRNL 3370",
+    "JRNL 3550",
+    "JRNL 3700",
+    "JRNL 4650",
+    "JRNL 5250",
+    "JRNL 5309",
+    "JRNL 5310",
+    "JRNL 5314",
+    "JRNL 5316",
+    "JRNL 5320"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "Additional Requirements for BA students",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/ba-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

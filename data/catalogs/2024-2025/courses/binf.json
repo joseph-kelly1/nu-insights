@@ -1,0 +1,549 @@
+{
+  "department": "BINF",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/course-descriptions/binf/",
+  "courses": [
+    {
+      "number": "5964",
+      "title": "Projects for Professionals",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an applied project setting in which to apply their curricular learning. Working with a sponsor, students refine an applied research topic, perform research, develop recommendations that are shared with a partner sponsor, and create a plan for implementing their recommendations. Seeks to benefit students with a curriculum that supports the development of key business communication skills, project and client management skills, and frameworks for business analysis. Offers students an opportunity to learn from sponsor feedback, review 'lessons learned,' and incorporate suggestions from this review to improve and further develop their career development and professional plan. May be repeated twice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5976",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated twice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6200",
+      "title": "Bioinformatics Programming",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the fundamental programming skills required in the bioinformatics industry. Focuses on Python and R as the main programming language used. Topics include string operations, file manipulation, regular expressions, object-oriented programming, data structures, testing, program design, and implementation. Includes substantial out-of-classroom assignments.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6201",
+      "title": "Introduction to Bioinformatics Using RNA Sequencing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces RNA-Seq, a commonly used method for analyzing gene expression. Offers students an opportunity to obtain hands-on experience processing and analyzing high-throughput sequencing data, as well as exposure to NGS and RNA-Seq processes, applications, and terminology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6250",
+      "title": "Algorithmic Foundations in Bioinformatics",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Explores algorithmic principles in the context of bioinformatics. Through a dynamic and comprehensive journey encompassing sequence alignment, genome assembly, phylogenetics, hidden Markov models, and predictive analyses in protein and RNA structures, delves into the core techniques essential for deciphering biological data. Uses lectures, hands-on sessions, and case studies to offer students an opportunity to obtain a rich understanding of how algorithms drive insights into evolutionary relationships, genetic patterns, and molecular structures.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BINF 6200",
+            "min_grade": "C-"
+          },
+          {
+            "course": "BINF 6200",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "BINF 6200 with a minimum grade of C- or BINF 6200 with a minimum grade of C-"
+    },
+    {
+      "number": "6308",
+      "title": "Bioinformatics Computational Methods 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers the first semester of a two-semester sequence on the use of computers in bioinformatics research. Offers students an opportunity to work with current methods and computational algorithms used in contemporary sequence analysis. Teaches practical skills necessary to manage and mine the vast biological information being generated and housed in public databases. Emphasizes the use of Python as the primary computer language and requires students to learn and understand basic computer logic and syntax, including an introduction to scalars, arrays, hashes, decision statements, loops, subroutines, references, and regular expressions. A focus on fundamental skills, including the command line interface found in the Linux operating system, is designed to prepare students for second-semester applications.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6309",
+      "title": "Bioinformatics Computational Methods 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed to build upon the core topics covered in BINF 6308, i.e., use of the computer as a tool for bioinformatics research. Builds upon the Python language fundamentals covered during the first semester but requires students to apply these fundamentals to a semester-long project. The project includes protein family analysis, multiple sequence analysis, phylogeny, and protein structure analysis. Additionally, students have an opportunity to learn to build, load, connect, and query custom MySQL databases, and parse command line flags.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BINF 6308",
+            "min_grade": "C-"
+          },
+          {
+            "course": "BINF 6308",
+            "min_grade": "C-"
+          },
+          {
+            "course": "BIOL 6308",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "BINF 6308 with a minimum grade of C- or BINF 6308 with a minimum grade of C- or BIOL 6308 with a minimum grade of C-"
+    },
+    {
+      "number": "6310",
+      "title": "Introduction to Computational Methods in Bioinformatics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the core bioinformatics skill set and knowledge base necessary to conduct exploratory data analysis of large-scale biological data. Offers students an opportunity to work with the latest computational approaches in the context of real-world data and to obtain practical skills necessary to access, manage, and mine the vast biological information housed in public repositories. Presents core computational skills. Introduces DevOps concepts including version control, using Linux, as well as introductory CLI Logic and syntax related to pipeline development. Reviews basic molecular biology concepts and techniques necessary for contemporary bioinformatics analytical approaches. Examines similarities and differences among applications of next-generation sequencing and third-generation sequencing platforms. Covers sequence similarity analysis methods and related biological file formats.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BINF 6200",
+            "min_grade": "C-",
+            "concurrent": true
+          },
+          {
+            "course": "BINF 6200",
+            "min_grade": "C-",
+            "concurrent": true
+          },
+          {
+            "course": "DS 2500",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "BINF 6200 (may be taken concurrently) with a minimum grade of C- or BINF 6200 (may be taken concurrently) with a minimum grade of C- or DS 2500 with a minimum grade of C-"
+    },
+    {
+      "number": "6400",
+      "title": "Genomics in Bioinformatics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the field of genomics. With the completion of the Human Genome Project several years ago, there has been an explosion of genetic data collected. Focuses on the bioinformatics tools necessary to analyze large-scale genomic data. Covers topics such as phylogenetic trees, molecular evolution, gene expression profiling, heterogeneous genomic data, as well as next-generation sequencing (NGS) data.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6200",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6200",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6310",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6310",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6308",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6308",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6309",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6309",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((BINF 6200 with a minimum grade of C- or BINF 6200 with a minimum grade of C- ); (BINF 6310 with a minimum grade of C- or BINF 6310 with a minimum grade of C- )) or ((BINF 6308 with a minimum grade of C- or BINF 6308 with a minimum grade of C- ); (BINF 6309 with a minimum grade of C- or BINF 6309 with a minimum grade of C- ))"
+    },
+    {
+      "number": "6420",
+      "title": "Omics in Bioinformatics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on some of the omics, other than genomics and proteomics, in relation to the bioinformatic tools that exist to analyze data. Provides a brief background on each field of study and then focuses on the current bioinformatics tools used. Topics include transcriptomics (transcription and gene expression), metabolomics (metabolism), glycomics (carbohydrates), lipomics (lipids), and phenomics (phenotypic data). Does not cover genomics and proteomics.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6310",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6310",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6200",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6200",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6308",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6308",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6309",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6309",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((BINF 6310 with a minimum grade of C- or BINF 6310 with a minimum grade of C- ); (BINF 6200 with a minimum grade of C- or BINF 6200 with a minimum grade of C- )) or ((BINF 6308 with a minimum grade of C- or BINF 6308 with a minimum grade of C- ); (BINF 6309 with a minimum grade of C- or BINF 6309 with a minimum grade of C- ))"
+    },
+    {
+      "number": "6430",
+      "title": "Transcriptomics in Bioinformatics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the study of the complete RNA transcriptome, otherwise known as “transcriptomics.” Covers the molecular genetics that underlie RNA and its various sequencing protocols (e.g., RNA-seq, ATAC-seq, and scRNA-seq), data preprocessing, transcriptome assembly, differential gene expression, and gene set enrichment analysis. Throughout the course and in collaboration with our academic partners, students take part in experiential learning by processing and analyzing various real-world RNA-seq datasets, including bulk RNA and single-cell sequencing.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6310",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6310",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6200",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6200",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6308",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6308",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BINF 6309",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "BINF 6309",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((BINF 6310 with a minimum grade of C- or BINF 6310 with a minimum grade of C- ); (BINF 6200 with a minimum grade of C- or BINF 6200 with a minimum grade of C- )) or ((BINF 6308 with a minimum grade of C- or BINF 6308 with a minimum grade of C- ); (BINF 6309 with a minimum grade of C- or BINF 6309 with a minimum grade of C- ))"
+    },
+    {
+      "number": "6500",
+      "title": "Professional Development for Co-op",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Introduces the cooperative education program. Offers students an opportunity to develop job-search and career-management skills; to assess their workplace skills, interests, and values and to discuss how they impact personal career choices; to prepare a professional resumé; and to learn proper interviewing techniques. Explores career paths, choices, professional behaviors, work culture, and career decision making.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6900",
+      "title": "Pre–Co-op Experience",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to gain necessary skills and practical experience in order to prepare for graduate co-op.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6954",
+      "title": "Co-op Work Experience - Half-Time",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6964",
+      "title": "Co-op Work Experience",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Provides eligible students with an opportunity for work experience. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6965",
+      "title": "Co-op Work Experience Abroad",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers eligible students an opportunity for work experience abroad. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7700",
+      "title": "Bioinformatics Research Directions",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Delves into the foundations of research planning and implementation in bioinformatics. Offers students an opportunity to learn experimental design and organization of the research process, as well as to develop the skills and techniques for writing, communication, and presentation of research work. Students work with a faculty member to design and conduct a short research project in the faculty member’s area of research, present to different audiences, and construct a proposal for continuing their research.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BINF 6200",
+                "min_grade": "C-"
+              },
+              {
+                "course": "BINF 6200",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "BINF 6310",
+                "min_grade": "C-"
+              },
+              {
+                "course": "BINF 6310",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "course": "MATH 7340",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(BINF 6200 with a minimum grade of C- or BINF 6200 with a minimum grade of C- ); (BINF 6310 with a minimum grade of C- or BINF 6310 with a minimum grade of C- ); MATH 7340 with a minimum grade of C-"
+    }
+  ]
+}

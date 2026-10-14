@@ -1,0 +1,1139 @@
+{
+  "document_id": "studio-art-bfa-8bbc26f1",
+  "kind": "program",
+  "title": "Studio Art, BFA",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/studio-art-bfa/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements Interpreting Culture (IC) and Societies and Institutions (SI) are met through the major course requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements Natural and Designed World (ND), Creative Expression/Innovation (EI), Formal and Quantitative Reasoning (FQ), Analyzing and Using Data (AD), Differences and Diversity (DD), and Ethical Reasoning (ER) must be met through general electives.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "Note: The BFA in studio art is a joint degree program offered in collaboration with the School of the Museum of Fine Arts at Tufts University (SMFA at Tufts), which is affiliated with Tufts University. Art and design history and general education requirements are offered at Northeastern University, and studio art courses, which are determined in consultation with academic advisors at the SMFA at Tufts, are targeted to each student’s unique program of study.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Art History Requirements for Studio Art",
+      "heading_path": [
+        "Art History Requirements for Studio Art"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A cumulative grade-point average of 2.500 or higher is required for the art history requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Art History Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTH 1001 and ARTH 1002 Visual Intelligence and Seminar in Visual Intelligence",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 1001",
+                "ARTH 1002"
+              ],
+              "code_text": "ARTH 1001 and ARTH 1002",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTH 1001"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTH 1002"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTH 3000 Topics in Visual Studies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 3000"
+              ],
+              "code_text": "ARTH 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 3000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTH 4000 Topics in Visual Studies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 4000"
+              ],
+              "code_text": "ARTH 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 4000"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Art and Design History Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete two of the following (if ARTH 3000 or ARTH 4000 —or any other topics course in the options listed below—is completed more than once, the additional completions may be allowed toward the art and design history electives):",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARCH 1310 Buildings and Cities, A Global History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 1310"
+              ],
+              "code_text": "ARCH 1310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 1310"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARCH 2330 Architecture and the City in the Nineteenth Century",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 2330"
+              ],
+              "code_text": "ARCH 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 2330"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARCH 2340 Modern Architecture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 2340"
+              ],
+              "code_text": "ARCH 2340",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 2340"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTE 2301 The Graphic Novel",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTE 2301"
+              ],
+              "code_text": "ARTE 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTE 2301"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTE 2500 Art and Design Abroad: Studio",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTE 2500"
+              ],
+              "code_text": "ARTE 2500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTE 2500"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ARTE 2501 Art and Design Abroad: History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTE 2501"
+              ],
+              "code_text": "ARTE 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTE 2501"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ARTE 3901 Art and Design Special Topics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTE 3901"
+              ],
+              "code_text": "ARTE 3901",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTE 3901"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ARTE 4901 Special Topics in Art and Design Studio",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTE 4901"
+              ],
+              "code_text": "ARTE 4901",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTE 4901"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ARTH 1100 Interactive Media and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 1100"
+              ],
+              "code_text": "ARTH 1100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 1100"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ARTH 1400 The Science of Art, the Art of Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 1400"
+              ],
+              "code_text": "ARTH 1400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 1400"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ARTH 2200 Topics in Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 2200"
+              ],
+              "code_text": "ARTH 2200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 2200"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ARTH 2210 Modern Art and Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 2210"
+              ],
+              "code_text": "ARTH 2210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 2210"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ARTH 2211 Contemporary Art and Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 2211"
+              ],
+              "code_text": "ARTH 2211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 2211"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ARTH 2212 Survey of the Still and Moving Image",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 2212"
+              ],
+              "code_text": "ARTH 2212",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 2212"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ARTH 3000 Topics in Visual Studies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 3000"
+              ],
+              "code_text": "ARTH 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 3000"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ARTH 4000 Topics in Visual Studies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 4000"
+              ],
+              "code_text": "ARTH 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 4000"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "ARTH 5100 Contemporary Art Theory and Criticism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 5100"
+              ],
+              "code_text": "ARTH 5100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 5100"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "ARTH 5902 Special Topics in Art and Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 5902"
+              ],
+              "code_text": "ARTH 5902",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 5902"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CLTR 1240 Latin American Film",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CLTR 1240"
+              ],
+              "code_text": "CLTR 1240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CLTR 1240"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "CLTR 1260 Japanese Film",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CLTR 1260"
+              ],
+              "code_text": "CLTR 1260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CLTR 1260"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "ECON 1281 Economics of the Creative Industries",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1281"
+              ],
+              "code_text": "ECON 1281",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1281"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "GAME 1110 Games and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "GAME 1110"
+              ],
+              "code_text": "GAME 1110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GAME 1110"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "MSCR 1220 Media, Culture, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 1220"
+              ],
+              "code_text": "MSCR 1220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 1220"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "MSCR 2302 Advertising and Promotional Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 2302"
+              ],
+              "code_text": "MSCR 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 2302"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "MSCR 2336 American Film and Culture",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 2336"
+              ],
+              "code_text": "MSCR 2336",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 2336"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "MSCR 3392 Gender and Film",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 3392"
+              ],
+              "code_text": "MSCR 3392",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 3392"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "MSCR 3426 Popular Music as Media Form",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 3426"
+              ],
+              "code_text": "MSCR 3426",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 3426"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "MSCR 3600 Film Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 3600"
+              ],
+              "code_text": "MSCR 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 3600"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "MSCR 3920 Topics in Film Studies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MSCR 3920"
+              ],
+              "code_text": "MSCR 3920",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MSCR 3920"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "MUSC 1113 Film Music",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MUSC 1113"
+              ],
+              "code_text": "MUSC 1113",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MUSC 1113"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Studio Art Courses",
+      "heading_path": [
+        "Studio Art Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Studio Art",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Specific courses are targeted to each student’s unique program of study, which is determined in consultation with an academic advisor at SMFA at Tufts and CAMD. Optional credits for London study abroad or SMFA at Tufts. These courses generally have the following course number:",
+              "credits_text": "68",
+              "credits": {
+                "min": 68.0,
+                "max": 68.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "SMFA 3000 Museum of Fine Arts Studio (4 to 12 SH)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SMFA 3000"
+              ],
+              "code_text": "SMFA 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SMFA 3000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Optional London study abroad for fine art at Central Saint Martins, University of the Arts London. Complete the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARTS 3510 Studio Practice and Exhibition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTS 3510"
+              ],
+              "code_text": "ARTS 3510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTS 3510"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTS 3520 Critical Disclosures",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTS 3520"
+              ],
+              "code_text": "ARTS 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTS 3520"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTS 3530 Studio Practice, Cross-Pathway, and External Projects",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTS 3530"
+              ],
+              "code_text": "ARTS 3530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTS 3530"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Senior Thesis Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Senior thesis is a self-directed studio practice and exhibition under consultation of senior thesis faculty at SMFA at Tufts. These courses are generally in the SMFA subject area. Complete 8 semester hours of capstone or consult with an advisor.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 8.0
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "SMFA 4000 Museum of Fine Arts Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SMFA 4000"
+              ],
+              "code_text": "SMFA 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SMFA 4000"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Studio Art Major Credit Requirement",
+      "heading_path": [
+        "Studio Art Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 96 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 96.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "136 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "studio-art-bfa-8bbc26f1",
+  "major_name": "Studio Art",
+  "degree": "BFA",
+  "campus": "",
+  "college": "College of Arts, Media and Design",
+  "overview_text": "Our Bachelor of Fine Arts in Studio Art is offered in partnership with the School of the Museum of Fine Arts at Tufts University (SMFA at Tufts) across Huntington Avenue from our campus. In this major, your studio art classes are taken at the SMFA at Tufts, which allows students to explore a wide range of artistic media, including ceramics, drawing, film, metalsmithing, painting, performance, printing, sculpture, and sound in their extensive studio environments. Our students complete art and design history courses in our department and they have access to all the elective courses, co-op, and study-abroad programs; student resources; and activities that Northeastern University students experience. The BFA in studio art degree is awarded by Northeastern. Optional study abroad with University of the Arts London , based in the heart of one of the world's creative capitals, London. Students from this program will have the opportunity to spend their second spring semester in London studying fine art at Central Saint Martins .",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements Interpreting Culture (IC) and Societies and Institutions (SI) are met through the major course requirements.\nNUpath requirements Natural and Designed World (ND), Creative Expression/Innovation (EI), Formal and Quantitative Reasoning (FQ), Analyzing and Using Data (AD), Differences and Diversity (DD), and Ethical Reasoning (ER)  must be met through general electives.\nNote:\nThe BFA in studio art is a joint degree program offered in collaboration with the School of the Museum of Fine Arts at Tufts University (SMFA at Tufts), which is affiliated with Tufts University. Art and design history and general education requirements are offered at Northeastern University, and studio art courses, which are determined in consultation with academic advisors at the SMFA at Tufts, are targeted to each student’s unique program of study.\nArt History Requirements for Studio Art\nA cumulative grade-point average of 2.500 or higher is required for the art history requirements.\nCourse List\nCode\nTitle\nHours\nArt History Required Courses\nARTH 1001\nand\nARTH 1002\nVisual Intelligence\nand Seminar in Visual Intelligence\n4\nARTH 3000\nTopics in Visual Studies\n4\nARTH 4000\nTopics in Visual Studies\n4\nCourse List\nCode\nTitle\nHours\nArt and Design History Electives\nComplete two of the following (if\nARTH 3000\nor\nARTH 4000\n—or any other topics course in the options listed below—is completed more than once, the additional completions may be allowed toward the art and design history electives):\nARCH 1310\nBuildings and Cities, A Global History\nARCH 2330\nArchitecture and the City in the Nineteenth Century\nARCH 2340\nModern Architecture\nARTE 2301\nThe Graphic Novel\nARTE 2500\nArt and Design Abroad: Studio\nARTE 2501\nArt and Design Abroad: History\nARTE 3901\nArt and Design Special Topics\nARTE 4901\nSpecial Topics in Art and Design Studio\nARTH 1100\nInteractive Media and Society\nARTH 1400\nThe Science of Art, the Art of Science\nARTH 2200\nTopics in Design History\nARTH 2210\nModern Art and Design History\nARTH 2211\nContemporary Art and Design History\nARTH 2212\nSurvey of the Still and Moving Image\nARTH 3000\nTopics in Visual Studies\nARTH 4000\nTopics in Visual Studies\nARTH 5100\nContemporary Art Theory and Criticism\nARTH 5902\nSpecial Topics in Art and Design History\nCLTR 1240\nLatin American Film\nCLTR 1260\nJapanese Film\nECON 1281\nEconomics of the Creative Industries\nGAME 1110\nGames and Society\nMSCR 1220\nMedia, Culture, and Society\nMSCR 2302\nAdvertising and Promotional Culture\nMSCR 2336\nAmerican Film and Culture\nMSCR 3392\nGender and Film\nMSCR 3426\nPopular Music as Media Form\nMSCR 3600\nFilm Theory\nMSCR 3920\nTopics in Film Studies\nMUSC 1113\nFilm Music\nStudio Art Courses\nCourse List\nCode\nTitle\nHours\nStudio Art\nSpecific courses are targeted to each student’s unique program of study, which is determined in consultation with an academic advisor at SMFA at Tufts and CAMD. Optional credits for London study abroad or SMFA at Tufts. These courses generally have the following course number:\n68\nSMFA 3000\nMuseum of Fine Arts Studio (4 to 12 SH)\nOptional London study abroad for fine art at Central Saint Martins, University of the Arts London. Complete the following:\nARTS 3510\nStudio Practice and Exhibition\nARTS 3520\nCritical Disclosures\nARTS 3530\nStudio Practice, Cross-Pathway, and External Projects\nSenior Thesis Capstone\nSenior thesis is a self-directed studio practice and exhibition under consultation of senior thesis faculty at SMFA at Tufts. These courses are generally in the SMFA subject area. Complete 8 semester hours of capstone or consult with an advisor.\n8\nSMFA 4000\nMuseum of Fine Arts Capstone\nStudio Art Major Credit Requirement\nComplete 96 semester hours in the major.\nProgram Requirement\n136 total semester hours required",
+  "referenced_courses": [
+    "ARCH 1310",
+    "ARCH 2330",
+    "ARCH 2340",
+    "ARTE 2301",
+    "ARTE 2500",
+    "ARTE 2501",
+    "ARTE 3901",
+    "ARTE 4901",
+    "ARTH 1001",
+    "ARTH 1002",
+    "ARTH 1100",
+    "ARTH 1400",
+    "ARTH 2200",
+    "ARTH 2210",
+    "ARTH 2211",
+    "ARTH 2212",
+    "ARTH 3000",
+    "ARTH 4000",
+    "ARTH 5100",
+    "ARTH 5902",
+    "ARTS 3510",
+    "ARTS 3520",
+    "ARTS 3530",
+    "CLTR 1240",
+    "CLTR 1260",
+    "ECON 1281",
+    "GAME 1110",
+    "MSCR 1220",
+    "MSCR 2302",
+    "MSCR 2336",
+    "MSCR 3392",
+    "MSCR 3426",
+    "MSCR 3600",
+    "MSCR 3920",
+    "MUSC 1113",
+    "SMFA 3000",
+    "SMFA 4000"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

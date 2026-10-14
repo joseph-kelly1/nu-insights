@@ -1,0 +1,2420 @@
+{
+  "document_id": "cybersecurity-business-administration-bs-71a2f3a7",
+  "kind": "program",
+  "title": "Cybersecurity and Business Administration, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-science/cybersecurity-business-administration-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Cybersecurity Major Requirements",
+      "heading_path": [
+        "Cybersecurity Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Must be taken in alignment with your home college:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or BUSN 1102 Personal Skill Development for Business",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BUSN 1102"
+              ],
+              "code_text": "or BUSN 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "BUSN 1102"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "or BUSN 1103 Professional Development for Business Co-op",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BUSN 1103"
+              ],
+              "code_text": "or BUSN 1103",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "BUSN 1103"
+              },
+              "alternative_group": 4
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CS 3650 Computer Systems",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3650"
+              ],
+              "code_text": "CS 3650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3650"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              },
+              "alternative_group": 14
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "or CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "or CS 4730",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              },
+              "alternative_group": 14
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Cybersecurity Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CY 2550 Foundations of Cybersecurity",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 2550"
+              ],
+              "code_text": "CY 2550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 2550"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CY 3740 Systems Security",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 3740"
+              ],
+              "code_text": "CY 3740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 3740"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              },
+              "alternative_group": 19
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "or CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "or CY 5240",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              },
+              "alternative_group": 19
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "CY 4740 Network Security",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 4740"
+              ],
+              "code_text": "CY 4740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4740"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "header",
+              "text": "Cybersecurity Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 23,
+              "kind": "note",
+              "text": "If courses require prerequisites, those should be taken using general electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 24,
+              "kind": "instruction",
+              "text": "Complete one course from the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "COMM 2551 Free Speech in Cyberspace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2551"
+              ],
+              "code_text": "COMM 2551",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2551"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "CRIM 2340 Corporate Security: Securing the Private Sector",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CRIM 2340"
+              ],
+              "code_text": "CRIM 2340",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CRIM 2340"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "CRIM 3030 Global Criminology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CRIM 3030"
+              ],
+              "code_text": "CRIM 3030",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CRIM 3030"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "CRIM 4040 Crime Prevention",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CRIM 4040"
+              ],
+              "code_text": "CRIM 4040",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CRIM 4040"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "CS 2800 Logic and Computation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2800"
+              ],
+              "code_text": "CS 2800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2800"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "CS 4400 Programming Languages",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4400"
+              ],
+              "code_text": "CS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4400"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "CS 4500 Software Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4500"
+              ],
+              "code_text": "CS 4500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4500"
+              },
+              "alternative_group": 31
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "or CS 4530 Fundamentals of Software Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4530"
+              ],
+              "code_text": "or CS 4530",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4530"
+              },
+              "alternative_group": 31
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "CS 4710 Mobile and Wireless Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4710"
+              ],
+              "code_text": "CS 4710",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4710"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "CS 6710 Wireless Network",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 6710"
+              ],
+              "code_text": "CS 6710",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 6710"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "CY 4760 Security of Wireless and Mobile Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4760"
+              ],
+              "code_text": "CY 4760",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4760"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "CY 5200 Security Risk Management and Assessment",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5200"
+              ],
+              "code_text": "CY 5200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5200"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "CY 5210 Information System Forensics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5210"
+              ],
+              "code_text": "CY 5210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5210"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "CY 5770 Software Vulnerabilities and Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5770"
+              ],
+              "code_text": "CY 5770",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5770"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "DS 4300 Large-Scale Information Storage and Retrieval",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4300"
+              ],
+              "code_text": "DS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4300"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "EECE 2322 and EECE 2323 Fundamentals of Digital Design and Computer Organization and Lab for EECE 2322",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2322",
+                "EECE 2323"
+              ],
+              "code_text": "EECE 2322 and EECE 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "EECE 3324 Computer Architecture and Organization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 3324"
+              ],
+              "code_text": "EECE 3324",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EECE 3324"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "EECE 4534 and EECE 4535 Microprocessor-Based Design and Lab for EECE 4534",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 4534",
+                "EECE 4535"
+              ],
+              "code_text": "EECE 4534 and EECE 4535",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 4534"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 4535"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "IS 4300 Human Computer Interaction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4300"
+              ],
+              "code_text": "IS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4300"
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "LPSC 1101 Introduction to Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LPSC 1101"
+              ],
+              "code_text": "LPSC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LPSC 1101"
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "LPSC 2301 Introduction to Law, Policy, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LPSC 2301"
+              ],
+              "code_text": "LPSC 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LPSC 2301"
+              }
+            },
+            {
+              "index": 47,
+              "kind": "course",
+              "text": "LPSC 3303 Topics in Law and Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LPSC 3303"
+              ],
+              "code_text": "LPSC 3303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LPSC 3303"
+              }
+            },
+            {
+              "index": 48,
+              "kind": "course",
+              "text": "MATH 3527 Number Theory 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 3527"
+              ],
+              "code_text": "MATH 3527",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 3527"
+              }
+            },
+            {
+              "index": 49,
+              "kind": "course",
+              "text": "MATH 4575 Introduction to Cryptography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 4575"
+              ],
+              "code_text": "MATH 4575",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 4575"
+              }
+            },
+            {
+              "index": 50,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 51,
+              "kind": "course",
+              "text": "POLS 2390 Science, Technology, and Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2390"
+              ],
+              "code_text": "POLS 2390",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2390"
+              }
+            },
+            {
+              "index": 52,
+              "kind": "course",
+              "text": "POLS 3307 Public Policy and Administration",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3307"
+              ],
+              "code_text": "POLS 3307",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3307"
+              }
+            },
+            {
+              "index": 53,
+              "kind": "course",
+              "text": "POLS 3324 Law and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3324"
+              ],
+              "code_text": "POLS 3324",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3324"
+              }
+            },
+            {
+              "index": 54,
+              "kind": "course",
+              "text": "POLS 3406 International Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3406"
+              ],
+              "code_text": "POLS 3406",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3406"
+              }
+            },
+            {
+              "index": 55,
+              "kind": "course",
+              "text": "POLS 3420 U.S. National Security Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3420"
+              ],
+              "code_text": "POLS 3420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3420"
+              }
+            },
+            {
+              "index": 56,
+              "kind": "course",
+              "text": "POLS 3423 Terrorism and Counterterrorism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3423"
+              ],
+              "code_text": "POLS 3423",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3423"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business Requirements",
+      "heading_path": [
+        "Business Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Accounting",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ACCT 1201 Financial Accounting and Reporting",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ACCT 1201"
+              ],
+              "code_text": "ACCT 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ACCT 1201"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ACCT 2301 Managerial Accounting",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ACCT 2301"
+              ],
+              "code_text": "ACCT 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ACCT 2301"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Finance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "FINA 2201 Financial Management",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "FINA 2201"
+              ],
+              "code_text": "FINA 2201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "FINA 2201"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Organizational Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ORGB 3201 Organizational Behavior",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ORGB 3201"
+              ],
+              "code_text": "ORGB 3201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ORGB 3201"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Marketing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "MKTG 2201 Introduction to Marketing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MKTG 2201"
+              ],
+              "code_text": "MKTG 2201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MKTG 2201"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Statistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "MGSC 2301 Business Statistics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MGSC 2301"
+              ],
+              "code_text": "MGSC 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MGSC 2301"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "header",
+              "text": "Strategy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "STRT 4501 Strategy in Action",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "STRT 4501"
+              ],
+              "code_text": "STRT 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "STRT 4501"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business Concentration",
+      "heading_path": [
+        "Business Concentration"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete a four-course business concentration from the following list .",
+          "links": [
+            {
+              "text": ".",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-science/cybersecurity-business-administration-bs/#conc"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Accounting Accounting and Advisory Services Brand Management Corporate Innovation Entrepreneurial Startups Family Business Finance Fintech Healthcare Management and Consulting International Business (available only as a second concentration) Management Marketing Marketing Analytics Social Innovation and Entrepreneurship Supply Chain Management",
+          "links": [
+            {
+              "text": "Accounting",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/accounting"
+            },
+            {
+              "text": "Accounting and Advisory Services",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/accounting-advisory-services/index.html"
+            },
+            {
+              "text": "Brand Management",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/brand-management/"
+            },
+            {
+              "text": "Corporate Innovation",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/corporate-innovation/"
+            },
+            {
+              "text": "Entrepreneurial Startups",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/entrepreneurial-startups/"
+            },
+            {
+              "text": "Family Business",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/family-business/"
+            },
+            {
+              "text": "Finance",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/finance"
+            },
+            {
+              "text": "Fintech",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/fintech/"
+            },
+            {
+              "text": "Healthcare Management and Consulting",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/healthcare-management-consulting/"
+            },
+            {
+              "text": "International Business",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/international-business/"
+            },
+            {
+              "text": "Management",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/management"
+            },
+            {
+              "text": "Marketing",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/marketing"
+            },
+            {
+              "text": "Marketing Analytics",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/marketing-analytics/"
+            },
+            {
+              "text": "Social Innovation and Entrepreneurship",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/social-innovation-entrepreneurship/"
+            },
+            {
+              "text": "Supply Chain Management",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/supply-chain-management"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Accounting",
+            "Accounting and Advisory Services",
+            "Brand Management",
+            "Corporate Innovation",
+            "Entrepreneurial Startups",
+            "Family Business",
+            "Finance",
+            "Fintech",
+            "Healthcare Management and Consulting",
+            "International Business (available only as a second concentration)",
+            "Management",
+            "Marketing",
+            "Marketing Analytics",
+            "Social Innovation and Entrepreneurship",
+            "Supply Chain Management"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business Cooperative Education",
+      "heading_path": [
+        "Business Cooperative Education"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete one cooperative education experience.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirement",
+      "heading_path": [
+        "Integrative Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "MISM 2301 Introduction to Information Systems and Digital Technologies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2301"
+              ],
+              "code_text": "MISM 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2301"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1231 Calculus for Business and Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1231"
+              ],
+              "code_text": "MATH 1231",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1231"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ECON 1115 Principles of Macroeconomics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1115"
+              ],
+              "code_text": "ECON 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1115"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ECON 1116 Principles of Microeconomics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1116"
+              ],
+              "code_text": "ECON 1116",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1116"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 1102 First-Year Writing for Multilingual Writers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1102"
+              ],
+              "code_text": "or ENGW 1102",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1102"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following courses:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or ENGW 3304 Advanced Writing in the Business Administration Professions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3304"
+              ],
+              "code_text": "or ENGW 3304",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3304"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 5
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 16 semester hours of general electives.",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 16.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS, and IS courses.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Business GPA Requirement",
+      "heading_path": [
+        "Business GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all business courses.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Understanding Societies and Institutions Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major Demonstrating Thought and Action in a Capstone",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Understanding Societies and Institutions",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major",
+            "Demonstrating Thought and Action in a Capstone"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "133 semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "cybersecurity-business-administration-bs-71a2f3a7",
+  "major_name": "Cybersecurity and Business Administration",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The cybersecurity and business combined major delivers a technical and security-focused degree with a strong grounding in business. Students will complete most of the requirements of a business major, including macroeconomics and microeconomics, while also focusing on the conceptual and practical computer science skills that will enable them to contribute to ensuring the reliability and security of cyberspace.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nCybersecurity Major Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nMust be taken in alignment with your home college:\nCS 1200\nFirst Year Seminar\n1\nor\nBUSN 1102\nPersonal Skill Development for Business\nCS 1210\nProfessional Development for Khoury Co-op\n1\nor\nBUSN 1103\nProfessional Development for Business Co-op\nComputer Science Fundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nCS 3650\nComputer Systems\n4\nCS 4700\nNetwork Fundamentals\n4\nor\nCS 4730\nDistributed Systems\nCybersecurity Required Courses\nCY 2550\nFoundations of Cybersecurity\n4\nCY 3740\nSystems Security\n4\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\n4\nor\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nCY 4740\nNetwork Security\n4\nCybersecurity Electives\nIf courses require prerequisites, those should be taken using general electives.\nComplete one course from the following:\n4-5\nCOMM 2551\nFree Speech in Cyberspace\nCRIM 2340\nCorporate Security: Securing the Private Sector\nCRIM 3030\nGlobal Criminology\nCRIM 4040\nCrime Prevention\nCS 2800\nLogic and Computation\nCS 4400\nProgramming Languages\nCS 4500\nSoftware Development\nor\nCS 4530\nFundamentals of Software Engineering\nCS 4710\nMobile and Wireless Systems\nCS 6710\nWireless Network\nCY 4760\nSecurity of Wireless and Mobile Systems\nCY 5200\nSecurity Risk Management and Assessment\nCY 5210\nInformation System Forensics\nCY 5770\nSoftware Vulnerabilities and Security\nDS 4300\nLarge-Scale Information Storage and Retrieval\nDS 4400\nMachine Learning and Data Mining 1\nEECE 2322\nand\nEECE 2323\nFundamentals of Digital Design and Computer Organization\nand Lab for EECE 2322\nEECE 3324\nComputer Architecture and Organization\nEECE 4534\nand\nEECE 4535\nMicroprocessor-Based Design\nand Lab for EECE 4534\nIS 4300\nHuman Computer Interaction\nLPSC 1101\nIntroduction to Law\nLPSC 2301\nIntroduction to Law, Policy, and Society\nLPSC 3303\nTopics in Law and Public Policy\nMATH 3527\nNumber Theory 1\nMATH 4575\nIntroduction to Cryptography\nPHIL 1145\nTechnology and Human Values\nPOLS 2390\nScience, Technology, and Public Policy\nPOLS 3307\nPublic Policy and Administration\nPOLS 3324\nLaw and Society\nPOLS 3406\nInternational Law\nPOLS 3420\nU.S. National Security Policy\nPOLS 3423\nTerrorism and Counterterrorism\nBusiness Requirements\nCourse List\nCode\nTitle\nHours\nAccounting\nACCT 1201\nFinancial Accounting and Reporting\n4\nACCT 2301\nManagerial Accounting\n4\nFinance\nFINA 2201\nFinancial Management\n4\nOrganizational Behavior\nORGB 3201\nOrganizational Behavior\n4\nMarketing\nMKTG 2201\nIntroduction to Marketing\n4\nStatistics\nMGSC 2301\nBusiness Statistics\n4\nStrategy\nSTRT 4501\nStrategy in Action\n4\nBusiness Concentration\nComplete a four-course business concentration from the following list\n.\nAccounting\nAccounting and Advisory Services\nBrand Management\nCorporate Innovation\nEntrepreneurial Startups\nFamily Business\nFinance\nFintech\nHealthcare Management and Consulting\nInternational Business\n(available only as a second concentration)\nManagement\nMarketing\nMarketing Analytics\nSocial Innovation and Entrepreneurship\nSupply Chain Management\nBusiness Cooperative Education\nComplete one cooperative education experience.\nIntegrative Requirement\nCourse List\nCode\nTitle\nHours\nMISM 2301\nIntroduction to Information Systems and Digital Technologies\n4\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics Courses\nComplete one of the following:\n4\nMATH 1341\nCalculus 1 for Science and Engineering\nMATH 1231\nCalculus for Business and Economics\nEconomics\nComplete one of the following:\n4\nECON 1115\nPrinciples of Macroeconomics\nECON 1116\nPrinciples of Microeconomics\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nor\nENGW 1102\nFirst-Year Writing for Multilingual Writers\nAdvanced Writing in the Disciplines\nComplete one of the following courses:\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\nor\nENGW 3304\nAdvanced Writing in the Business Administration Professions\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 16 semester hours of general electives.\n16\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS, and IS courses.\nBusiness GPA Requirement\nMinimum 2.000 GPA required in all business courses.\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nUnderstanding Societies and Institutions\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nDemonstrating Thought and Action in a Capstone\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n133 semester hours required",
+  "referenced_courses": [
+    "ACCT 1201",
+    "ACCT 2301",
+    "BUSN 1102",
+    "BUSN 1103",
+    "COMM 2551",
+    "CRIM 2340",
+    "CRIM 3030",
+    "CRIM 4040",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 2800",
+    "CS 3000",
+    "CS 3500",
+    "CS 3501",
+    "CS 3650",
+    "CS 4400",
+    "CS 4500",
+    "CS 4530",
+    "CS 4700",
+    "CS 4710",
+    "CS 4730",
+    "CS 6710",
+    "CY 2550",
+    "CY 3740",
+    "CY 4170",
+    "CY 4740",
+    "CY 4760",
+    "CY 5200",
+    "CY 5210",
+    "CY 5240",
+    "CY 5770",
+    "DS 4300",
+    "DS 4400",
+    "ECON 1115",
+    "ECON 1116",
+    "EECE 2322",
+    "EECE 2323",
+    "EECE 3324",
+    "EECE 4534",
+    "EECE 4535",
+    "ENGW 1102",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3304",
+    "ENGW 3315",
+    "FINA 2201",
+    "IS 4300",
+    "LPSC 1101",
+    "LPSC 2301",
+    "LPSC 3303",
+    "MATH 1231",
+    "MATH 1341",
+    "MATH 3527",
+    "MATH 4575",
+    "MGSC 2301",
+    "MISM 2301",
+    "MKTG 2201",
+    "ORGB 3201",
+    "PHIL 1145",
+    "POLS 2390",
+    "POLS 3307",
+    "POLS 3324",
+    "POLS 3406",
+    "POLS 3420",
+    "POLS 3423",
+    "STRT 4501"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": ".",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-science/cybersecurity-business-administration-bs/#conc"
+    },
+    {
+      "text": "Accounting",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/accounting"
+    },
+    {
+      "text": "Accounting and Advisory Services",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/accounting-advisory-services/index.html"
+    },
+    {
+      "text": "Brand Management",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/brand-management/"
+    },
+    {
+      "text": "Corporate Innovation",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/corporate-innovation/"
+    },
+    {
+      "text": "Entrepreneurial Startups",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/entrepreneurial-startups/"
+    },
+    {
+      "text": "Family Business",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/family-business/"
+    },
+    {
+      "text": "Finance",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/finance"
+    },
+    {
+      "text": "Fintech",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/fintech/"
+    },
+    {
+      "text": "Healthcare Management and Consulting",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/healthcare-management-consulting/"
+    },
+    {
+      "text": "International Business",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/international-business/"
+    },
+    {
+      "text": "Management",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/management"
+    },
+    {
+      "text": "Marketing",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/marketing"
+    },
+    {
+      "text": "Marketing Analytics",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/marketing-analytics/"
+    },
+    {
+      "text": "Social Innovation and Entrepreneurship",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/social-innovation-entrepreneurship/"
+    },
+    {
+      "text": "Supply Chain Management",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/supply-chain-management"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": ".",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/computer-information-science/computer-science/cybersecurity-business-administration-bs/#conc",
+      "document_id": "cybersecurity-business-administration-bs-71a2f3a7",
+      "kind": "program",
+      "fragment": "conc"
+    },
+    {
+      "text": "Accounting",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/accounting",
+      "document_id": "accounting-6105c251",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Accounting and Advisory Services",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/accounting-advisory-services/index.html",
+      "document_id": "accounting-advisory-services-01c06c07",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Brand Management",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/brand-management/",
+      "document_id": "brand-management-6cb1036d",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Corporate Innovation",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/corporate-innovation/",
+      "document_id": "corporate-innovation-8e9783cd",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Entrepreneurial Startups",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/entrepreneurial-startups/",
+      "document_id": "entrepreneurial-startups-7b47c4f6",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Family Business",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/family-business/",
+      "document_id": "family-business-1e12e760",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Finance",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/finance",
+      "document_id": "finance-38c1f98d",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Fintech",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/fintech/",
+      "document_id": "fintech-61f29dbf",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Healthcare Management and Consulting",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/healthcare-management-consulting/",
+      "document_id": "healthcare-management-consulting-3bf6f239",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "International Business",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/international-business/",
+      "document_id": "international-business-00ea079f",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Management",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/management",
+      "document_id": "management-86bb4b70",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Marketing",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/marketing",
+      "document_id": "marketing-494f33ad",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Marketing Analytics",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/marketing-analytics/",
+      "document_id": "marketing-analytics-550ecbd3",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Social Innovation and Entrepreneurship",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/social-innovation-entrepreneurship/",
+      "document_id": "social-innovation-entrepreneurship-ae97b55e",
+      "kind": "concentration",
+      "fragment": ""
+    },
+    {
+      "text": "Supply Chain Management",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/business/concentrations/supply-chain-management",
+      "document_id": "supply-chain-management-f0501c81",
+      "kind": "concentration",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

@@ -1,0 +1,137 @@
+{
+  "department": "BNSC",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/course-descriptions/bnsc/",
+  "courses": [
+    {
+      "number": "1000",
+      "title": "Behavioral Neuroscience at Northeastern",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Introduces first-year and new transfer students to the major and the field of behavioral neuroscience and to the professional and academic resources available to students at Northeastern University. Acquaints students with their faculty, advisors, and fellow students; provides an initial orientation to undergraduate research, cooperative education, study abroad, and other experiential learning options; familiarizes students with academic support resources and leadership opportunities; provides grounding in the culture and values of the university community —in short, familiarizes students with all skills needed to become a successful university student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4950",
+      "title": "Seminar",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an in-depth study of selected topics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on in-depth project in which a student conducts research or produces a product related to the student’s major field. Combined with Junior/Senior Project 2 or college-defined equivalent for 8-credit honors project. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student’s major field. Requires a 3.500 GPA. May be repeated without limit.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BNSC 4970",
+            "min_grade": "D-"
+          },
+          {
+            "course": "BNSC 4991",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Integration Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "BNSC 4970 with a minimum grade of D- or BNSC 4991 with a minimum grade of D-"
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4993",
+      "title": "Independent Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4994",
+      "title": "Internship",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity for internship work. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    }
+  ]
+}

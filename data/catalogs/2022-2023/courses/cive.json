@@ -1,0 +1,2772 @@
+{
+  "department": "CIVE",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/course-descriptions/cive/",
+  "courses": [
+    {
+      "number": "1200",
+      "title": "How Cities Work: Experiencing Urban Infrastructure",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores the networks that underpin the very existence of cities: our urban infrastructure. Designed as a grand tour of the engineering marvels that exist beneath our feet but whose operation is critical to urban dwellers, using Boston as our guide. Offers students an opportunity to study a new infrastructure system, first by learning and discussing the engineering principles behind its design and operation, and then by experiencing our local infrastructure through visits to local operation centers, city officials, and private contractors that manage and maintain them. Topics include transportation, energy, telecommunications, water and wastewater, food processing and distribution, and waste management. Explores how our infrastructure is interconnected and how this leads both to resilience and to fragility in the face of natural and anthropogenic disruptions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Natural/Designed World"
+      ]
+    },
+    {
+      "number": "2221",
+      "title": "Statics and Solid Mechanics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Connects fundamentals of Newtonian physics to the stresses and deformations in solids. Introduces properties of areas and volumes (centroidal axes, moments of inertia); equilibrium of particles and rigid bodies in two and three dimensions; analysis of internal forces in trusses and simple frames; shear and moment diagrams in beams; computation of stresses induced by axial force, moment, shear, and torque; and mechanical properties of materials.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "MATH 1342",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "PHYS 1151",
+                    "min_grade": "D-",
+                    "concurrent": true
+                  },
+                  {
+                    "course": "PHYS 1161",
+                    "min_grade": "D-",
+                    "concurrent": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "PHYS 1141",
+                "min_grade": "D-",
+                "concurrent": true
+              },
+              {
+                "course": "MATH 1241",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [
+        "CIVE 2222"
+      ],
+      "attributes": [],
+      "prerequisites_text": "(MATH 1342 with a minimum grade of D- ; (PHYS 1151 (may be taken concurrently) with a minimum grade of D- or PHYS 1161 (may be taken concurrently) with a minimum grade of D- )) or (PHYS 1141 (may be taken concurrently) with a minimum grade of D- ; MATH 1241 with a minimum grade of D- )",
+      "corequisites_text": "CIVE 2222"
+    },
+    {
+      "number": "2222",
+      "title": "Recitation for CIVE 2221",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Accompanies CIVE 2221. Covers problem solving and topics related to the course.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 2221"
+      ],
+      "attributes": [],
+      "corequisites_text": "CIVE 2221"
+    },
+    {
+      "number": "2260",
+      "title": "Materials for the Built Environment",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the physical, mechanical, and chemical properties of materials of importance to civil engineers. Offers an overview of the ways in which these properties affect the material selection process, material behavior, and the design process.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CHEM 1151",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CHEM 1161",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CHEM 1211",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "MATH 1342",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHYS 1151",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1161",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [
+        "CIVE 2261"
+      ],
+      "attributes": [],
+      "prerequisites_text": "(CHEM 1151 with a minimum grade of D- or CHEM 1161 with a minimum grade of D- or CHEM 1211 with a minimum grade of D- ); MATH 1342 with a minimum grade of D- ; (PHYS 1151 with a minimum grade of D- or PHYS 1161 with a minimum grade of D- )",
+      "corequisites_text": "CIVE 2261"
+    },
+    {
+      "number": "2261",
+      "title": "Lab for CIVE 2260",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Involves the use of standard lab test methods and equipment to determine properties of materials common to civil engineering practice. Also introduces students to land surveying, site layout, and the measurement of distance, elevation, and direction.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 2260"
+      ],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ],
+      "corequisites_text": "CIVE 2260"
+    },
+    {
+      "number": "2320",
+      "title": "Structural Analysis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Connects fundamentals from CIVE 2221 to analyze stresses, strains, strength, forces, and displacements in regular structures and structural members such as trusses, beams, frames, and arches. Covers shear stresses in beams; combined stress analysis (bars with axial load plus shear and bending); introduction to buckling; influence lines (application to statically determinate systems); computation of deflections (statically determinate systems); and analysis of indeterminate structures using virtual work and the flexibility method. Introduces applications to sensing and monitoring of civil structures using the flexibility method and moment distribution.",
+      "prerequisites": {
+        "course": "CIVE 2221",
+        "min_grade": "D-"
+      },
+      "corequisites": [
+        "CIVE 2321"
+      ],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2221 with a minimum grade of D-",
+      "corequisites_text": "CIVE 2321"
+    },
+    {
+      "number": "2321",
+      "title": "Recitation for CIVE 2320",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Accompanies CIVE 2320. Covers problem solving and topics related to the course.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 2320"
+      ],
+      "attributes": [],
+      "corequisites_text": "CIVE 2320"
+    },
+    {
+      "number": "2324",
+      "title": "Concrete Structure Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the mechanical properties of concrete and steel reinforcement. Discusses the design of reinforced concrete structures for various loading conditions and covers the design of common reinforced concrete structural elements. Examines behavior and design of reinforced concrete beams, one-way slab systems, footings, and short columns based on latest ACI-318 code.",
+      "prerequisites": {
+        "course": "CIVE 2221",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2221 with a minimum grade of D-"
+    },
+    {
+      "number": "2331",
+      "title": "Fluid Mechanics and Hydraulics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the principles of fluid mechanics and the applications in basic hydraulic engineering systems. Topics include properties of fluids; pressure and force on surfaces and submerged bodies; continuity, momentum, and energy conservation principles; dimensional analysis and hydraulic similitude; flow in closed conduits; steady flow in pipe networks; unsteady flow in pipes; flow in open channels; hydraulic machines; and hydraulic structures. The laboratory component includes demonstrations and experiments to show the applicability of fluid mechanics and hydraulics principles.",
+      "prerequisites": {
+        "course": "CIVE 2221",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2221 with a minimum grade of D-"
+    },
+    {
+      "number": "2334",
+      "title": "Environmental Engineering: Principles, Technology, and Sustainability",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the protection and management of the environment and the engineering methods to control environmental quality problems. Topics include assessment of environmental quality, introduction to water and wastewater treatment technologies, air pollution control technologies, solid waste management, and global atmospheric change.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 1151",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1161",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1211",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHEM 1151 with a minimum grade of D- or CHEM 1161 with a minimum grade of D- or CHEM 1211 with a minimum grade of D-"
+    },
+    {
+      "number": "2335",
+      "title": "Environmental Engineering Chemistry",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers chemistry principles required for describing chemical processing of elements in natural systems, the distribution of pollutants in the environment, and chemical use in engineered treatment systems. Focuses on equilibrium thermodynamics and equilibria for acid-base, gas-water, precipitation-dissolution, metal complexation, oxidation-reduction, and sorption reactions. Discusses specific applications to pollutant reactions in surface waters, ground waters, soils, drinking water treatment, wastewater treatment, and the atmosphere.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 1151",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1161",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1211",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHEM 1151 with a minimum grade of D- or CHEM 1161 with a minimum grade of D- or CHEM 1211 with a minimum grade of D-"
+    },
+    {
+      "number": "2340",
+      "title": "Geotechnical Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the formation, composition, and classification of soil for engineering purposes; soil-water phase relations; water in soil; seepage; stresses in soil; consolidation theory; strength properties of soils; and the basics of geoenvironmental engineering.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 2221",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CIVE 2260",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [
+        "CIVE 2341"
+      ],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2221 with a minimum grade of D- or CIVE 2260 with a minimum grade of D-",
+      "corequisites_text": "CIVE 2341"
+    },
+    {
+      "number": "2341",
+      "title": "Lab for CIVE 2340",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Accompanies CIVE 2340. Introduces standard laboratory procedures for characterizing the physical, hydraulic, and mechanical properties of soils as well as data reduction and analysis methods for various test methods. Laboratory methods and determinations include moisture content, Atterberg limits, permeability, compaction, consolidation, and direct shear. Includes the use of computer-based data acquisition systems and measurement transducers.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 2340"
+      ],
+      "attributes": [],
+      "corequisites_text": "CIVE 2340"
+    },
+    {
+      "number": "3425",
+      "title": "Steel Structure Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the design of steel structures for various loading conditions, including design of different types of frame structures that include steel members subjected to tension, compression, bending, and combinations of loading, and design of connections. Establishes the fundamentals of the behavior and the principles of creative design of steel structures using the latest load and resistance factor design (LRFD) specification of the American Institute for Steel Construction.",
+      "prerequisites": {
+        "course": "CIVE 2320",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2320 with a minimum grade of D-"
+    },
+    {
+      "number": "3430",
+      "title": "Engineering Microbiology and Ecology",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the importance of microorganisms and plants to the natural and built environments and evidence-based decision making for complex systems constrained and defined by multiple metrics. Seeks to provide a fundamental understanding of microorganisms (metabolisms, growth, genetics, resource requirements, and niche) and their role in the global ecosystem (element cycling, energy flows, food webs). Examines the role of plants and microbes in both engineered and natural environmental systems and bidirectional interactions between the natural and the built environments. Framed around a series of case studies that highlight the challenges of and strategies for engineering in the earth system context, such as microbially mediated infrastructure corrosion; ecological effects of nutrient pollution; bioaccumulation; green infrastructure and remediation (constructed wetlands, bioremediation); and wastewater treatment.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 1151",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1161",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1211",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHEM 1151 with a minimum grade of D- or CHEM 1161 with a minimum grade of D- or CHEM 1211 with a minimum grade of D-"
+    },
+    {
+      "number": "3435",
+      "title": "Environmental Pollution Fate and Transport",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides a systematic approach to analyzing the fate and transport of pollutants within natural systems. Equilibrium modeling and reactive transport modeling are used to assess the predominant processes that control the movement and persistence of pollutants in water, soil, and air. Topics include mass transfer across multiple phases; physical, chemical, and biological transformations of substances; transport processes (diffusion, dispersion, advection, interphase mass transport); eutrophication of lakes; conventional pollutants in rivers and estuaries; groundwater contamination; and atmospheric deposition.",
+      "prerequisites": {
+        "course": "CIVE 2334",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2334 with a minimum grade of D-"
+    },
+    {
+      "number": "3464",
+      "title": "Probability and Engineering Economy for Civil Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces engineering probability and statistics, as well as engineering economic analysis for project or design evaluation. Case studies are used to illustrate the integration of these areas in the design/system analysis process. Topics in engineering probability and statistics include descriptive statistics, expected value of random variables, and hypotheses testing. Statistical process control and sampling methods are introduced. Reliability methods for the analysis and improvement of system/design performance are discussed. Also covers fundamental concepts of time value of money and economic evaluation of alternatives, including the effects of depreciation and taxes.",
+      "prerequisites": {
+        "course": "MATH 2321",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MATH 2321 with a minimum grade of D-"
+    },
+    {
+      "number": "4534",
+      "title": "Water Treatment Systems Design",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Continues CIVE 2334. Concentrates on unit operations; unit processes; and related fundamental design of physical, chemical, and biological water and wastewater treatment systems, using both lectures and laboratory instruction. Topics include aeration systems, activated sludge, fixed-film biological treatment, gas transfer, reaction kinetics, reactor modeling, coagulation, flocculation, sedimentation, filtration, and subsurface disposal system design. Includes project component.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CIVE 2331",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CHME 2310",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "CIVE 2334",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [
+        "CIVE 4535"
+      ],
+      "attributes": [],
+      "prerequisites_text": "(CIVE 2331 with a minimum grade of D- or CHME 2310 with a minimum grade of D- ); CIVE 2334 with a minimum grade of D-",
+      "corequisites_text": "CIVE 4535"
+    },
+    {
+      "number": "4535",
+      "title": "Lab for CIVE 4534",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Accompanies CIVE 4534. Covers topics from the course through various experiments.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 4534"
+      ],
+      "attributes": [],
+      "corequisites_text": "CIVE 4534"
+    },
+    {
+      "number": "4540",
+      "title": "Resource Recovery and Waste Treatment Technologies Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines different aspects relative to municipal and industrial solid waste, with a special focus on material recovery. Covers chemical-physical characterization of waste, source reduction and toxicity, recycling and selection of different fractions, resource and energy recovery (e.g., composting, anaerobic digestion, combustion to energy), and analysis and preliminary design of treatment disposal options. Through design projects, offers students an opportunity to apply lessons learned to the U.S. context. Taught in a study-abroad format in a European nation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4541",
+      "title": "Waste Management and Policy Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores how the country visited manages the recovery and treatment of both industrial and municipal solid waste. Emphasizes waste generated in mining and other industrial activities (e.g., refinery, military). Examines multifaceted aspects, including governance; science/engineering; and health, social, and policy. Offers students an opportunity to interact with local experts and to visit key sights. Encourages students to think about possible policy lessons for the United States. Taught abroad.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4542",
+      "title": "Foundation Engineering and Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on subsurface field investigation, soil-bearing capacity determination, settlement estimation, design of shallow foundations and pile foundations, and design of retaining walls. Includes project component.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CIVE 2340",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 1102",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1102",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "CIVE 2340 with a minimum grade of D- ; (ENGL 1111 with a minimum grade of C or ENGL 1102 with a minimum grade of C or ENGW 1111 with a minimum grade of C or ENGW 1102 with a minimum grade of C )"
+    },
+    {
+      "number": "4554",
+      "title": "Highway Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Concentrates on highway design including route selection, geometric design, foundation and pavement design, drainage design, and construction issues. Analyzes highway traffic including traffic flow fundamentals and capacity and level of service analysis for freeways and rural highways. Covers the environmental impact and public review process for highway construction. Includes project component.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CIVE 2261",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 1102",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1102",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "CIVE 2261 with a minimum grade of D- ; (ENGL 1111 with a minimum grade of C or ENGL 1102 with a minimum grade of C or ENGW 1111 with a minimum grade of C or ENGW 1102 with a minimum grade of C )"
+    },
+    {
+      "number": "4566",
+      "title": "Design for Sustainable Transportation: Netherlands",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines how the design of Dutch transportation infrastructure promotes travel by foot, bicycle, and public transportation as opposed to private automobile and how it promotes urban livability and traffic safety. Topics include bicycling infrastructure planning and design; Vision Zero traffic safety principles and design treatments for safe roads, intersections, and crossings; and high-quality transit service planning and design. Through design projects, offers students an opportunity to apply lessons learned to the U.S. context. Taught in a study-abroad format in the Netherlands.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4567",
+      "title": "Planning and Policy for Sustainable Urban Transportation: Netherlands",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines urban transportation planning practices and policies in the Netherlands that promote travel by bicycling, public transportation, and foot and help prevent urban mobility from degrading urban livability. Topics include land-use planning at the site, neighborhood, and regional scale; transit- and bicycle-oriented development, including both land-use and transportation infrastructure planning and policies for large-scale urban expansions; and traffic-circulation planning and policies to promote safety, prevent roads from becoming barriers to walking, cycling, or transit, and to create car-free and car-lite zones. Taught in study-abroad format in the Netherlands.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4575",
+      "title": "Construction Management",
+      "credits": 3.0,
+      "credits_text": "3",
+      "credit_options": {
+        "values": [
+          3.0
+        ]
+      },
+      "description": "Surveys the construction industry and tasks that must be addressed by construction management including resource allocation, construction environment, organization, contracts, funding, cash flow, productivity, conceptual and detailed cost estimating, labor relations, network planning and scheduling, construction accounting, and project control.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4765",
+      "title": "Senior Design Project—Environmental",
+      "credits": 5.0,
+      "credits_text": "5",
+      "credit_options": {
+        "values": [
+          5.0
+        ]
+      },
+      "description": "Using teams, students design a civil engineering project that primarily involves the environmental subdiscipline. Design teams are advised by a faculty member and engineering practitioners. Lectures cover supplemental technical background specific to the project, as well as cross-disciplinary aspects of project development, value engineering, aesthetics, and constructability. Integrates project design with further development of student communications skills; students present the design to practicing engineers and interested parties such as community groups.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CIVE 5536",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CIVE 4534",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGW 3301",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3315",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 3301",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 3315",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(CIVE 5536 with a minimum grade of D- or CIVE 4534 with a minimum grade of D- ); (ENGW 3301 with a minimum grade of C or ENGW 3302 with a minimum grade of C or ENGW 3315 with a minimum grade of C or ENGL 3301 with a minimum grade of C or ENGL 3302 with a minimum grade of C or ENGL 3315 with a minimum grade of C )"
+    },
+    {
+      "number": "4767",
+      "title": "Senior Design Project—Structural",
+      "credits": 5.0,
+      "credits_text": "5",
+      "credit_options": {
+        "values": [
+          5.0
+        ]
+      },
+      "description": "Using teams, students design a civil engineering project that primarily involves the structural subdiscipline. Design teams are advised by a faculty member and engineering practitioners. Lectures cover supplemental technical background specific to the project, as well as cross-disciplinary aspects of project development, value engineering, aesthetics, and constructability. Integrates project design with further development of student communications skills; students present the design to practicing engineers and interested parties such as community groups.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "course": "CIVE 2324",
+                        "min_grade": "D-"
+                      },
+                      {
+                        "course": "CIVE 3425",
+                        "min_grade": "D-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "course": "CIVE 2324",
+                        "min_grade": "D-"
+                      },
+                      {
+                        "course": "CIVE 5522",
+                        "min_grade": "D-"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "AND",
+                    "courses": [
+                      {
+                        "course": "CIVE 3425",
+                        "min_grade": "D-"
+                      },
+                      {
+                        "course": "CIVE 5522",
+                        "min_grade": "D-"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "CIVE 2324",
+                        "min_grade": "D-"
+                      },
+                      {
+                        "course": "CIVE 3425",
+                        "min_grade": "D-"
+                      }
+                    ]
+                  },
+                  {
+                    "course": "CIVE 4542",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "CS 3000",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 3301",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3301",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3315",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(((CIVE 2324 with a minimum grade of D- ; CIVE 3425 with a minimum grade of D- ) or (CIVE 2324 with a minimum grade of D- ; CIVE 5522 with a minimum grade of D- ) or (CIVE 3425 with a minimum grade of D- ; CIVE 5522 with a minimum grade of D- )) or ((CIVE 2324 with a minimum grade of D- or CIVE 3425 with a minimum grade of D- ); CIVE 4542 with a minimum grade of D- ; CS 3000 with a minimum grade of D- )); (ENGL 3301 with a minimum grade of C or ENGL 3302 with a minimum grade of C or ENGW 3301 with a minimum grade of C or ENGW 3302 with a minimum grade of C or ENGW 3315 with a minimum grade of C )"
+    },
+    {
+      "number": "4768",
+      "title": "Senior Design Project—Transportation",
+      "credits": 5.0,
+      "credits_text": "5",
+      "credit_options": {
+        "values": [
+          5.0
+        ]
+      },
+      "description": "Using teams, students design a civil engineering project that primarily involves the transportation subdiscipline. Design teams are advised by a faculty member and engineering practitioners. Lectures cover supplemental technical background specific to the project, as well as cross-disciplinary aspects of project development, value engineering, aesthetics, and constructability. Integrates project design with further development of student communications skills; students present the design to practicing engineers and interested parties such as community groups.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CIVE 4554",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 3301",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3301",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3302",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 3315",
+                "min_grade": "C"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CIVE 5373",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CIVE 5376",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CS 3000",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "CIVE 4554 with a minimum grade of D- ; (ENGL 3301 with a minimum grade of C or ENGW 3301 with a minimum grade of C or ENGL 3302 with a minimum grade of C or ENGW 3302 with a minimum grade of C or ENGW 3315 with a minimum grade of C ); (CIVE 5373 with a minimum grade of D- or CIVE 5376 with a minimum grade of D- or CS 3000 with a minimum grade of D- )"
+    },
+    {
+      "number": "4777",
+      "title": "Climate Hazards and Resilient Cities Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the science of “global weirding”—unprecedented changes in weather caused by global warming and natural climate variability. Introduces the physical-science basis of climate, computer models of the earth system, statistical tools for the analysis of climate model, and remote sensor data. Also introduces the concept of urban resilience, focusing on preventing natural hazards from turning into catastrophic disasters in densely populated and vulnerable regions. Examines multifaceted aspects of resilience, including governance, emergency response, infrastructural, informational, social, and policy aspects. Encourages students to consider the science, engineering, and policy challenges in transforming vulnerable urban and coastal regions to climate-resilient cities and to examine how societies can learn from each other by comparing Boston with the country visited. Taught abroad.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Natural/Designed World"
+      ]
+    },
+    {
+      "number": "4778",
+      "title": "Climate Adaptation and Policy Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores how the country visited plans to adapt to climate change and natural hazards and how that country participates in international climate and emissions negotiations, within the context of its history and culture. Focuses on how an emerging economy adjusts to the reality of climate change/extremes and how citizens may drive decisions and policy. Incorporates topics from climate change, environmental sciences, civil and chemical engineering, remote sensing, social sciences, electrical engineering, computer science, and the management sciences. Encourages students to think about possible policy lessons for the United States. Offers students an opportunity to visit key sights. Culminates with a mock “climate change war game,” simulating an event in which international negotiators meet to formulate treaties on climate change adaptation and mitigation. Taught abroad.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Natural/Designed World"
+      ]
+    },
+    {
+      "number": "4780",
+      "title": "Timber and Masonry Structures: Technology and Design Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines mechanical properties of wood, stress grades, and working stresses as well as effects of strength-reducing characteristics, moisture content, and duration of loading and causes of wood deterioration in a study-abroad format in a European nation. Topics include glued-laminated timber and plywood, behavior and design of beams, beam-columns, and connections. Introduces the design of timber elements and structures. Offers students an opportunity to learn about the design of masonry elements and structures with a multitude of materials (concrete, mortar, and timber) and the design of masonry elements and structures.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 2221",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ME 2350",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ARCH 2240",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [
+        "CIVE 4781"
+      ],
+      "attributes": [
+        "NUpath Natural/Designed World"
+      ],
+      "prerequisites_text": "CIVE 2221 with a minimum grade of D- or ME 2350 with a minimum grade of D- or ARCH 2240 with a minimum grade of D-",
+      "corequisites_text": "CIVE 4781"
+    },
+    {
+      "number": "4781",
+      "title": "Introduction to Preservation and Restoration of Historic Buildings, Technology, and Policies Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines multifaceted aspects of building preservation in a study-abroad format in a European nation. Students, organized in groups, study either a particular building or architectural style and examine traditional and modern technologies, policies, regulations, and social aspects needed for the restoration of existing buildings with historical value. Building technologies may include energy efficiency, ventilation, and thermal comfort. Requires a report assessing the status of an existing building and proposing solutions for its preservation. Features guest speakers from Italian academia, local industry partners, and engineering professionals during technical visits and special seminars. Students participate in the selection of a special assignment topic for the final report.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 4780"
+      ],
+      "attributes": [],
+      "corequisites_text": "CIVE 4780"
+    },
+    {
+      "number": "4970",
+      "title": "Junior/Senior Honors Project 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on in-depth project in which a student conducts research or produces a product related to the student’s major field. Combined with Junior/Senior Project 2 or college-defined equivalent for 8 credit honors project. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4971",
+      "title": "Junior/Senior Honors Project 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on second semester of in-depth project in which a student conducts research or produces a product related to the student’s major field. May be repeated without limit.",
+      "prerequisites": {
+        "course": "CIVE 4970",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 4970 with a minimum grade of D-"
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4993",
+      "title": "Independent Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5150",
+      "title": "Climate and Atmospheric Change",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an in-depth view of the processes that drive change in Earth's climate system. Examines the modern climate system and how and why climate changes through time. Introduces the tools used to explore past climates and changes, and explores the long-term and short-term controls on the climate system. Also introduces the application of climate models to develop future climate projections. Offers students an opportunity to obtain hands-on experience analyzing and interpreting climate data and model output.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "ENVR 1200",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ENVR 2200",
+            "min_grade": "D-"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "PHYS 1151",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1152",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1153",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "ENVR 1200 with a minimum grade of D- or ENVR 2200 with a minimum grade of D- or (PHYS 1151 with a minimum grade of D- ; PHYS 1152 with a minimum grade of D- ; PHYS 1153 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5221",
+      "title": "Construction Project Control and Organization",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Overviews the organization of construction firms at the general corporate level and the project level. Covers cost, schedule, budget, and financial control of projects. Also examines the flow of information between parties to the project.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 4575",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CIVE 7220",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 4575 with a minimum grade of D- or CIVE 7220 with a minimum grade of C-"
+    },
+    {
+      "number": "5231",
+      "title": "Alternative Project Delivery Systems in Construction",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Offers a comprehensive overview of alternative construction project delivery systems in the public and private sectors; project life cycle including project development, schedule, cost and risk management, quality assurance/quality control, project management, and project closeout; innovative financing strategies including contractor financing, franchises, and super turnkey. Focuses on the analysis of design/bid/build execution compared to design/build and construction management systems of delivery. Examines international projects, contracts, and partnering options—for example JVs and alliances—as vehicles to ensure the meeting of project objectives. Uses case studies to identify and practice the management skills required for successful D/B project execution including effective communication, negotiations, and team building.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 4575",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CIVE 7220",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 4575 with a minimum grade of D- or CIVE 7220 with a minimum grade of C-"
+    },
+    {
+      "number": "5250",
+      "title": "Organic Pollutants in the Environment",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces principles that govern the fate and transport of organic chemicals released to the environment. Topics include chemical structure and thermodynamic properties and how they predict physical processes that control the distribution of contaminants between the atmosphere, fresh and marine surface waters, groundwater, soils, sediments, and biota. Introduces models and methods for predicting fate and transport of organic contaminants within and between environmental media, including molecular diffusion, transport across boundaries, and box models. Explores concepts linking environmental chemistry with ecotoxicology, including bioaccumulation, food web models, and risk assessment. Uses case studies and real-world scenarios to illustrate concepts.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 1151",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1211",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CHEM 1151 with a minimum grade of D- or CHEM 1211 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5260",
+      "title": "Environmental Fluid Mechanics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on fundamentals of fluid mechanics, but with application to the natural and built environment based on transport and dispersion phenomena. Reviews theory necessary for an understanding of environmental fluid flows and methods of observation, including acoustic Doppler current profiles, profiling towers, and modeling, including large eddy simulation (LES).",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5261",
+      "title": "Dynamic Modeling for Environmental Investment and Policymaking",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the theory, methods, and tools of dynamic modeling for policy and investment decision making, emphasizing environmental issues. Makes use of state-of-the-art computing methods to translate theory and concepts into executable models and offers extensive hands-on modeling experience. Topics include management of discrete flows (e.g., models of traffic systems); discounting, intertemporal optimization (e.g., models of resource extraction); dynamic games (e.g., models for adaptive management); and treatment of risk, uncertainty, novelty, and complexity (e.g., for investment and policymaking).",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5271",
+      "title": "Solid and Hazardous Waste Management",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduce various aspects of integrated solid waste management system and hazardous waste management practices. Includes both engineering principles as well as socioeconomic and regulatory issues surrounding solid and hazardous waste management. Provides sufficient background to enable the student to understand, evaluate, and critique the design of and the decisions in various waste management alternatives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5275",
+      "title": "Life Cycle Assessment of Materials, Products, and Infrastructure",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the conceptual and mathematical basis of life cycle assessment (LCA), including engineering models of industrial energy use and emissions and environmental science models of fate and transport, exposure, and toxicology. LCA is a widely used systems-modeling method for quantifying the emissions and environmental/health implications of a product over its life cycle, from manufacturing to use to disposal. This guides design, technology decisions, and policy on topics ranging from consumer products to green buildings to large-scale energy technologies. Presents Monte Carlo simulation, structural path analysis, and model sensitivity analysis for the industrial network structure that underlies LCA modeling. Offers students an opportunity to receive hands-on training for open-source LCA software packages and then carry out independent group projects for real clients in industry and government.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5280",
+      "title": "Remote Sensing of the Environment",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces remote sensing techniques, including obtaining, visualizing, and analyzing satellite data. Examines physical processes, methods, and data products used in satellite remote sensing of the Earth’s environment. Topics include active and passive remote sensing methods based on fundamentals of electromagnetic radiation, concepts used to develop data products from the remotely sensed measurements, and a suite of satellite data products to investigate current and past conditions of the Earth’s terrestrial and ocean surfaces. Uses geographic information systems (GIS) and student-developed programs to view and interpret satellite data. Knowledge of GIS, R, and Python is preferred.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5281",
+      "title": "Coastal Dynamics and Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the basic theory of the forcing and response of the built and natural coastal environment, including hurricanes and extratropical storms, wind waves, astronomical tides, storm surges, currents, fluid-structure interactions, sediment transport, and morphological changes. Seeks to provide an overview of the physical processes and the functional design of coastal works, including anthropogenic and natural and nature-based features. Uses examples and case studies to illustrate the theory and the interdependence of water motion and coastal morphology. Emphasizes the challenges of extreme events and natural hazards in the coastal environment. Requires prior completion of one semester of fluid mechanics or equivalent.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 2331",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EEMB 3120",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2331 with a minimum grade of D- or EEMB 3120 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5300",
+      "title": "Environmental Sampling and Analysis",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Introduces the theory, application, methodology, and instrumentation used in planning, sampling, and analyzing the environmental contaminants in air, water, and soils. Emphasizes instrument selection and quality control, including documentation, calibration, data analysis and interpretation, and sample management.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CHEM 1151",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1161",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CHEM 1211",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [
+        "CIVE 5301"
+      ],
+      "attributes": [],
+      "prerequisites_text": "CHEM 1151 with a minimum grade of D- or CHEM 1161 with a minimum grade of D- or CHEM 1211 with a minimum grade of D- or graduate program admission",
+      "corequisites_text": "CIVE 5301"
+    },
+    {
+      "number": "5301",
+      "title": "Lab for CIVE 5300",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Accompanies CIVE 5300. Covers topics from the course through various experiments. Includes a team project.",
+      "prerequisites": [],
+      "corequisites": [
+        "CIVE 5300"
+      ],
+      "attributes": [],
+      "corequisites_text": "CIVE 5300"
+    },
+    {
+      "number": "5363",
+      "title": "Climate Science, Engineering Adaptation, and Policy",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an evidence-based glimpse of what has been called a clear and present danger to mankind. Analyzes case studies from the magic of the butterfly effect in chaos theory to the deep challenges in physics, biogeochemistry, and data sciences. Covers topics from experimental design to satellite-based remote sensing, all the way to the design and operations of next-generation hydraulic infrastructures, transportation systems, smart grids, and communication networks, including the impacts on coastal or inland cities, the resilience to weather hazards, and the sustainability of water-energy-food resources. Includes policy issues and risk-informed trade-offs in renewable energy, environmental regulations, and emissions control. Graduate students are required to complete a mandatory class project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5366",
+      "title": "Air Quality Engineering and Science",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the fundamentals of atmospheric composition; their sources, properties, and chemistry in the atmosphere; and their effects on human health and the environment. Covers the history of the discovery of chemicals, the evolution of the earth's atmosphere, and the structure and composition of the present-day atmosphere. Discusses science of major air pollution issues on an urban through global scale, including urban outdoor air pollution, indoor air pollution, acid deposition, stratospheric ozone depletion, air pollution transport across political boundaries, and global climate change, as well as energy solutions to air pollution and global warming.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5373",
+      "title": "Transportation Systems: Analysis and Planning",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Discusses urban transportation planning and engineering for modes other than highway. Covers travel demand forecasting for both the short and long term including impact analysis methods, simple elasticity models, and the four-step model system of trip generation, trip distribution, modal split, and network assignment. Introduces transit service analysis and design. Other topics include capacity, service, and engineering design basics for different travel modes, such as bus, airport, rail, and bicycle. Considers the environmental impact, economic evaluation, and financial impact of different modes of transportation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5376",
+      "title": "Traffic Engineering and Sustainable Urban Street Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers street and intersection design for meeting societal needs related to traffic capacity, level of service, safety, walkability, bikeability, and the quality of public space. Intersection analysis and design topics include traffic flow theory and measurement; capacity; queuing and delay for both vehicles and pedestrians; and signal timing plan design, including design for pedestrian crossings. Street design topics include street functions; speed control; street and intersection layout; bicycling facilities, including bike lanes and separated bike paths; and pedestrian facilities, including sidewalks and crossings. Offers students an opportunity to practice with standard design manuals and intersection analysis software.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5520",
+      "title": "Structural Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the design of structural systems. Includes the major aspects of structural behavior and design (loads, load paths, structural system concepts, analysis, member and connection design, and structural detailing). Discusses typical structural building materials along with a brief introduction to less conventional materials. Emphasizes wood and masonry design. Also presents structural principles behind some innovative structural systems. Utilizes current professional practice with a focus on approximate hand methods of structural analysis. Requires one semester of undergraduate structural analysis.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 2320",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 2320 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5522",
+      "title": "Structural Systems Modeling",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues CIVE 2320. Covers analysis of indeterminate structural systems using matrix methods. Studies how to implement matrix analysis of indeterminate structures using both flexibility and stiffness approaches. Serves as an introduction to the finite element method.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CIVE 2320",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MATH 2341",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(CIVE 2320 with a minimum grade of D- ; MATH 2341 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5524",
+      "title": "Vibration-Based Structural Health Monitoring",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores the theory and implementation of modern techniques for monitoring the health of structural systems using vibration signals. Includes an introduction to system identification, finite element model updating, novelty-based change detection, and techniques for the localization and quantification of damage induced by extreme events or progressive deterioration.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CIVE 2320",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MATH 2341",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(CIVE 2320 with a minimum grade of D- ; MATH 2341 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5525",
+      "title": "Prestressed Concrete Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces analysis and flexural design of prestressed concrete members, allowable stress in concrete and steel, pre- and posttensioned concrete beams, strength evaluation, and prestressed concrete bridge design. Requires one semester of undergraduate concrete design or one semester of undergraduate structural analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5536",
+      "title": "Hydrologic and Hydraulic Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces principles of engineering hydrology. Covers the hydrologic cycle, rainfall and flood frequency analysis, rainfall intensity-duration-frequency relationships, rainfall-runoff processes, hydrologic flood routing, and culvert/channel hydraulics. Utilizes these concepts in design applications of civil infrastructure such as stormwater detention basins, drainage pipes, culverts, etc. Uses hydrologic and hydraulic modeling software such as HEC-HMS and HEC-RAS. Includes project component.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CIVE 2331",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ENGL 1111",
+                    "min_grade": "C"
+                  },
+                  {
+                    "course": "ENGW 1111",
+                    "min_grade": "C"
+                  },
+                  {
+                    "course": "ENGL 1102",
+                    "min_grade": "C"
+                  },
+                  {
+                    "course": "ENGW 1102",
+                    "min_grade": "C"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(CIVE 2331 with a minimum grade of D- ; (ENGL 1111 with a minimum grade of C or ENGW 1111 with a minimum grade of C or ENGL 1102 with a minimum grade of C or ENGW 1102 with a minimum grade of C )) or graduate program admission"
+    },
+    {
+      "number": "5670",
+      "title": "Global Biogeochemistry",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the biological, chemical, and physical interactions that shape our global environment. These interactions combine in the global biogeochemical cycles. Industrial emission of gases, use of fertilizers and plastics, and the expansion of cities are altering the biogeochemical cycling of the elements carbon, nitrogen, and phosphorus at rates unprecedented in the geological record. Uses lectures and the latest update to Chapter 6, “Carbon and Other Biogeochemical Cycles,” of the International Panel on Climate Change report to explore the main interactions between human activity, biogeochemical change, and climate. Discusses primary literature to delve deeper into these interactions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Natural/Designed World"
+      ]
+    },
+    {
+      "number": "5699",
+      "title": "Special Topics in Civil Engineering",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offered when the need for a special topic is evident to faculty and students. Topics are initiated by appropriate faculty members and discipline committee and approved by the department. May be repeated up to two times for up to 12 total credits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5978",
+      "title": "Independent Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5984",
+      "title": "Research",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6566",
+      "title": "Sustainable Urban Transportation: Netherlands",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines how Dutch communities and their transportation systems are planned and designed to promote ABC (all-but-car) transportation, traffic safety, and livability. Topics include design of urban bicycling infrastructure for the mainstream population; planning and service design for high-quality public transportation; urban planning in support of transit, bicycle, and foot transportation, including both suburban development and urban redevelopment; and Vision Zero/Systematic Safety policy and design for traffic safety and its application to urban areas. Taught in study-abroad format in the Netherlands.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6777",
+      "title": "Climate Hazards and Resilient Cities Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Combines the science, engineering, economic, social, and policy aspects of how cities can prepare themselves for climate change and natural hazards. Focuses on the science of unprecedented changes in weather caused by global warming and natural climate variability. Introduces the physical-science basis of climate, computer models and statistical tools, and remote sensor data. Introduces the concept of urban resilience, focusing on preventing natural hazards from turning into catastrophic disasters in densely populated regions. Examines resilience, including governance, emergency response, infrastructural, informational, social, and policy aspects. Encourages students to consider the science, engineering, and policy challenges in transforming vulnerable urban and coastal regions to climate-resilient cities and to examine how societies can learn from each other by comparing Boston with the country visited. Taught abroad.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6778",
+      "title": "Climate Adaptation and Policy Abroad",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores how the country visited plans to adapt to climate change and natural hazards and how it chooses to participate in international climate and emissions negotiations. Focuses on how an emerging economy adjusts to the reality of climate change/extremes and how the will of citizens may drive decisions and policy. Incorporates topics from climate change, environmental sciences, civil and chemical engineering, remote sensing, social sciences, electrical engineering, computer science, and the management sciences. Encourages students to think about possible policy lessons for the United States. Culminates with a mock climate change war game, simulating an event in which international negotiators meet to formulate treaties on climate change adaptation and mitigation. Taught abroad.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7100",
+      "title": "Time Series and Geospatial Data Sciences",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an interdisciplinary course covering the fundamentals of time series and spatial statistics with applications in engineering, science, and business. Introduces analysis and forecasting methods for time series, spatial, and spatiotemporal data. Discusses classical time or frequency domain methods, as well as recent techniques motivated from computer science, physics, statistics, or engineering. Case studies relate to ongoing research and to real-world examples. A demo project is selected by the instructor based on discussion with individual students. A computer-based final project can be tailored to student interests in environmental engineering, sustainability sciences, security threat assessments, social sciences, business, or management science and finance. Requires undergraduate probability and statistics (CIVE 3464 or equivalent); background in programming languages such as MATLAB or R helpful but not required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7110",
+      "title": "Critical Infrastructure Resilience",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the concept of resilience by exploring engineering concepts and perspectives to offer students an opportunity to develop the ability to be prepared for and adapt to challenging situations and scenarios—e.g., globalization, climate change, security threats, and natural disasters—on critical infrastructures and key resources. Topics include application of tools for infrastructure modeling and risk assessment; identification of natural and man-made hazards; management of disaster risks and communications; resilience design; and future challenges, policy, and novel approaches to advance resilience. Explores application to real-life examples through group projects. Requires one semester of undergraduate statistics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7150",
+      "title": "Data-Driven Decision Support for Civil and Environmental Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents supervised and unsupervised methods for dealing with large data sets and their application to support decision making in various civil and environmental engineering areas. Focuses on predictive models and methods for knowledge mining. Discusses applications from the transportation, urban mobility, and infrastructure maintenance domains. Topics include classification: linear regression, logistic regression, K-NN, and other classifiers; dimensionality reduction; clustering: K-means, hierarchical clustering, Gaussian mixture models, density-based clustering; model validation; and text mining. Demonstrates the applicability and underlying principles of the various methods through case studies with extensive data sets. Applications include classification of pavement distress images; mobility patterns; real-time transportation demand prediction; and text mining from reports. Background in probability and statistics and familiarity with Python/R recommended.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7151",
+      "title": "Urban Informatics and Processing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a comprehensive review of urban informatics in civil and infrastructure engineering research. Discusses the usage of these data and offers students hands-on opportunities to extensively analyze, comprehend, and visualize five types of data sets: construction and infrastructure development; urban mobility and traffic; sensors in built environments; geosocial networks; and social media. Provides extensive data sets for practices. Python is the main platform for analysis and visualization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7155",
+      "title": "Dynamics and Control of Infrastructure Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the fundamentals of modeling, optimization, and control of dynamic and automated infrastructure systems. The future of infrastructure engineering will be increasingly automated: building automation systems, autonomous vehicles, smart-grids, and responsive pollution controls. Emphasizes linear systems, including continuous and discrete-time systems, but also presents elementary concepts in nonlinear systems. Additional topics include stability, observers, optimal control, system identification, and cyber-physical system architectures. Offers students an opportunity to acquire practical and theoretical knowledge of control technologies and to apply these modern tools to a semester-long project in their area of interest and to develop the analytical, numerical, and conceptual methods necessary for careers in the emerging field of automated infrastructure systems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2341",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MATH 2341 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "7220",
+      "title": "Construction Management",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents all aspects of construction management, with emphasis on cost and schedule. Provides conceptual and detailed cost estimates and network-based scheduling techniques (CPM and PERT). Covers project cash flow and finances. Requires one semester of undergraduate probability and statistics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7230",
+      "title": "Legal Aspects of Civil Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Overviews the U.S. legal system and the theories necessary for the comprehension of business and contractual liabilities. Discusses various types of contracts, forms of business ownership, claims and disputes, and environmental law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7240",
+      "title": "Construction Equipment and Modeling",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the selection and application of earthmoving equipment. Topics include equipment production systems and cost analysis, simulation modeling of equipment operations, statistical aspects of computer simulation, and risk analysis fundamentals. Requires one semester of construction management or one semester of undergraduate soil mechanics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7250",
+      "title": "Environmental Chemistry",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines applications of chemistry to environmental engineering. Covers properties of water and pollutants, acid-base reactions, pH, alkalinity, equilibrium chemistry, chemical kinetics, chemical thermodynamics, coordination chemistry, precipitation-dissolution reactions, surface chemistry, adsorption-desorption, redox reactions, and organic chemistry as it relates to the environment. Includes relevant laboratory exercises such as colorimetry, gravimetric, and electrochemical methods; atomic absorption spectrophotometry; and ion and gas chromatography. Requires one semester of undergraduate chemistry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7251",
+      "title": "Environmental Biological Processes",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines microbiology with emphasis on biological processes in environmental engineering applications. Topics include cell structure, morphology, cell nutrition and growth, energy transfer and utilization, aerobic and anaerobic microbial metabolism, biological wastewater process theory and modeling, biological nutrients removal, and disinfection of relevant microorganisms. Includes relevant laboratory exercises of treatment parameters used to monitor the biological processes, such as BOD, TOC, COD, gravimetric methods, and dissolved oxygen. Also covers enzyme kinetics and evaluation of kinetic coefficients for biotreatment. Requires one semester of undergraduate chemistry or one semester of undergraduate biology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7252",
+      "title": "Water Engineering: Planning, Design, and Management",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the design principles and applications of major wastewater treatment processes, including the planning and procurement phases of design and construction services, sanitary sewer collections systems, waste treatment, handling and disposal, energy recovery, and future challenges and opportunities in the wastewater management field. Designed to provide students with theory and principles applicable to the water industry. Requires one semester each of undergraduate chemistry and undergraduate biology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7255",
+      "title": "Environmental Physical/Chemical Processes",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the processes of physical and chemical phenomena related to water quality and water treatment within environmental engineering. Presents the use of fundamental theory, mathematical description, and applied knowledge of these processes and how they are used to characterize water quality in natural systems (lakes, rivers) and to predict performance in engineered systems (water treatment systems). Uses a mass balance and reaction kinetics approach to derive analysis and design equations for water treatment unit operations. Covers physical and chemical processes, including reaction kinetics, flow regimes, dissolved solute removal, particulate removal, phase transfer processes, and redox processes. Includes laboratory demonstrations. Basic knowledge of water quality, environmental chemistry, and differential equations preferred.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7260",
+      "title": "Hydrologic Modeling",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the vertical and lateral fluxes and stores of water within the terrestrial hydrologic cycle such as precipitation (rain and snow); infiltration; runoff; snowmelt; evapotranspiration; streamflow; groundwater recharge/discharge; and surface (snowpack, lakes, rivers) and subsurface (soil moisture and groundwater) storages. Individual simulation models are developed to represent key processes within the hydrologic cycle. Process models are then integrated to approximate the hydrologic cycle of a watershed. Covers model parameterization, calibration, validation, and uncertainty (model parameters and forcings). Knowledge of geographic information systems and programming is recommended.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7261",
+      "title": "Surface Water Quality Modeling",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a quantitative analysis of the fate and transport of contaminants in surface water systems. Water quality models are developed using a mass balance approach to describe the transport, dispersal, and chemical/biological reactions of substances introduced into river and lake systems. Covers water quality standards; model formulation and application; waste load allocation; and water quality parameters such as biochemical oxygen demand, dissolved oxygen, nutrients, and toxic chemicals. Requires one semester of undergraduate hydrologic engineering, hydrology, or equivalent.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 5300",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CIVE 5300",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 5300 with a minimum grade of C- or CIVE 5300 with a minimum grade of C-"
+    },
+    {
+      "number": "7272",
+      "title": "Air Quality Management",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores engineering theory and practice related to air resources management. Focuses on modeling dispersion and reactions for atmospheric pollutants and on analysis of systems for controlling gaseous and particulate emissions including dry collection, wet collection, absorption, and catalytic processes. Also addresses biological and chemical aspects of air pollution including toxicological issues, physiological effects of aerosols, analysis of organic and inorganic constituents of the atmosphere, and rationale for establishing air quality criteria and standards. Requires one semester of undergraduate chemistry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7278",
+      "title": "Air Quality Modeling and Forecasting",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides the fundamentals of numerical modeling of urban, regional, and global air quality. Covers the chemistry, physics, and transport required for the understanding, development, application, and evaluation of air quality models. Reviews the history and current status of air quality modeling and forecasting and provides students with hands-on computer practice. Discusses different computer modeling techniques for solving major atmospheric processes used in current air quality models.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CIVE 5366",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CIVE 7272",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 5366 with a minimum grade of C- ; CIVE 7272 with a minimum grade of C-"
+    },
+    {
+      "number": "7279",
+      "title": "Advanced Air Quality",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Describes in detail the sources, formation, distribution, dynamics, transport, and removal of air pollutants, the interaction of atmospheric chemistry and climate, the radiative and climatic effects of gases and particles, and the formulation of chemical transport models for the atmosphere. Reviews important publications in leading journals.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "CIVE 5366",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CIVE 7278",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 5366 with a minimum grade of C- ; CIVE 7278 with a minimum grade of C-"
+    },
+    {
+      "number": "7281",
+      "title": "Coastal and Nearshore Hydrodynamics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the basic principles and theories of coastal and nearshore hydrodynamics as well as related engineering applications, including water waves, wave transformation and breaking, wave-induced nearshore circulation, wave setup, wave run-up, fluid vegetation interaction, wave-current interaction, storm surges, tide and wind-driven circulation, and tidal inlet hydraulics. Previous study of graduate-level mathematics is strongly recommended.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CIVE 5281",
+                "min_grade": "C-"
+              },
+              {
+                "course": "CIVE 5281",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "EEMB 5516",
+                "min_grade": "C-"
+              },
+              {
+                "course": "EEMB 5516",
+                "min_grade": "C-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(CIVE 5281 with a minimum grade of C- or CIVE 5281 with a minimum grade of C- ) or (EEMB 5516 with a minimum grade of C- or EEMB 5516 with a minimum grade of C- )"
+    },
+    {
+      "number": "7282",
+      "title": "Coastal and Hydraulic Modeling",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the numerical methods for solving the partial differential equations that govern coastal and riverine processes relevant to coastal and hydraulic engineering, including both energy- and momentum–based models for wave generation and propagation, nearshore non-linear wave transformation, coastal and estuarine circulation, storm surges, riverine flows, fluid-structure interaction, and sediment transport. Emphasizes the finite-difference method, while other commonly-used numerical methods for coastal and hydraulic engineering applications are discussed and compared. Uses examples and case studies of open-source models to illustrate applications of numerical modeling to solve real-world problems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 5281",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CIVE 5281",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CHME 7350",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 5281 with a minimum grade of C- or CIVE 5281 with a minimum grade of C- or CHME 7350 with a minimum grade of C-"
+    },
+    {
+      "number": "7301",
+      "title": "Advanced Soil Mechanics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies characterization of soils, soil mineralogy and chemistry, stresses within a soil mass, basic porous media flow principles, effective stress principle, compaction, drained and undrained stress-strain-strength concepts, and consolidation theory and its application. Requires one semester of undergraduate soil mechanics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7302",
+      "title": "Advanced Foundation Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on bearing-capacity and settlement analysis of conventional shallow foundations and combined footings; mat design; lateral earth pressure theory and application to retaining wall design, braced excavations, sheet pile wall design, and slurry trench walls; bearing-capacity design and analysis for deep foundations; and laterally loaded piles, friction piles, and pile-driven analysis. Requires one semester of undergraduate soil mechanics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7311",
+      "title": "Soil and Foundation Dynamics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Considers dynamic loads, blast vibrations and monitoring, dynamic response of single-mass, multi degree-of-freedom systems, design of machine foundations, dynamic soil properties, ground response analysis, liquefaction, and seismic analysis of slopes and dams. Requires one semester of undergraduate statics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7312",
+      "title": "Earthquake Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies plate tectonics, seismology, faults and characteristics, ground motions, seismic hazard analysis, dynamic response of single degree-of-freedom system, response spectrum, site effects, and seismic design considerations for buildings, bridges, and earth-retaining structures. Requires one semester of undergraduate statics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7313",
+      "title": "Ground Improvement",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Addresses how problematic groundwater conditions, low shear strength, high compressibility, and the need for remediation can be resolved through ground improvement, which is the application of innovative technologies and construction techniques designed to improve the engineering properties of the existing soil and rock at a site. Emphasizes specific, well-established, and emerging ground improvement technologies, including their applications, design, construction/implementation, and quality control. Requires one semester of soil mechanics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7330",
+      "title": "Advanced Structural Analysis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores modern methods of structural analysis, matrix formulation of flexibility and stiffness methods, and analysis of structures with material and geometric nonlinearities. Also introduces energy methods. Requires CIVE 5522 or one semester undergraduate matrix structural analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7331",
+      "title": "Structural Dynamics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines single and multi degree-of-freedom systems subjected to arbitrary dynamic loads. Topics include convolution and frequency domain solutions, introduction to analytical dynamics, damping models, modal analysis of classically damped systems, and state-space formulation. Requires one semester of undergraduate structural analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7340",
+      "title": "Seismic Analysis and Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Considers the response of linear systems to coherent and incoherent support motion, nonlinear response, the concept of ductility, inelastic response spectra, soil-structure interaction, random vibration theory, development of seismic codes, and characterizations of earthquakes for design.",
+      "prerequisites": {
+        "course": "CIVE 7331",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 7331 with a minimum grade of C-"
+    },
+    {
+      "number": "7341",
+      "title": "Structural Reliability",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines applications of probability theory and random variables for determining the reliability of structures. Includes the following topics:  formulation of reliability for structural components and systems; first-order second-moment method, first- and second-order reliability methods, and simulation methods; analysis of model uncertainty and Bayesian parameter estimation technique; load and resistance models and bases for probabilistic structural codes; and time-dependent reliability methods. Assumes no prior knowledge of probability theory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7342",
+      "title": "System Identification",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies methods for identifying the fundamental characteristics of structures. Includes topics in linear algebra (singular value and QR decomposition, pseudoinversion, and so on); input-output relationships for linear time-invariant systems; frequency response functions; signal processing fundamentals; realization theory; the eigensystem realization algorithm; use of observers in identification; and introduction to out-only system identification. Requires one semester of undergraduate structural analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7350",
+      "title": "Behavior of Concrete Structures",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Considers flexural mechanics of reinforced concrete cross sections and members; combined bending, axial, and shear loads; advanced topics in shear, torsion, and connection design; and application of plastic analysis to reinforced concrete frames, their behavior under cyclic loading, and response of structures under seismic actions. Requires one semester of undergraduate concrete design.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7351",
+      "title": "Behavior of Steel Structures",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies the behavior and design of steel structural systems, including structural stability; advanced topics in mechanics and design of structural steel members, including combined axial, flexure, and shear loads; composite steel/concrete beam and column behavior and design; plate girders; and advanced topics in connection design. Requires one semester of undergraduate steel design.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7354",
+      "title": "Wind Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers atmospheric circulation, atmospheric boundary layer winds, bluff-body aerodynamics, introduction to random vibration theory, response of structures to fluctuating wind loads, aeroelastic phenomena, wind-tunnel and full-scale testing, nonsynoptic winds (hurricanes, tornadoes, etc.), wind-load standards, and design applications.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7355",
+      "title": "Advanced Bridge Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies the behavior and design of prestressed concrete bridges. Includes conceptual design, flexural design, shear design, and torsional design of prestressed elements. Analyzes indeterminate prestressed structures and design for prestressed concrete bridges, including material properties, loads, reinforcement, structural analysis, temperature effects, and construction methods. Covers solid slab, T-beam, and box girders. Final projects include complete designs for a simple supported girder bridge and a continuous girder bridge using load factor and resistance design (LFRD) specifications. Requires one semester of undergraduate structural analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7357",
+      "title": "Advanced Structural Mechanics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers stress and strain analysis of structural components, including beams and plates subject to bending, shear, tension, and compression, as well as nonsymmetric geometry and loading cases. Considers the derivation and analysis of elastic instabilities of structural components, including the lateral, torsional, and lateral-torsional buckling of beams and the inelastic yielding and concentrated plasticity of beam components. Includes 3D stress and strain analysis for elastic and inelastic continua as related to advanced structural problems. Introduces variational methods. Requires one semester of graduate structural analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7380",
+      "title": "Performance Models and Simulation of Transportation Networks",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Reviews concepts and methods for the analysis of the performance of complex transportation systems and approaches for planning, design, monitoring, and management and control of traffic flows over complex transportation networks. Topics include deterministic and probabilistic models, elements of queuing theory, network optimization algorithms, and simulation. Includes applications in traffic flow modeling, capacity analysis of diverse transportation facilities, level of service and estimation of delays, optimal design of transportation network services, and traffic assignment on congested networks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7381",
+      "title": "Transportation Demand Forecasting and Model Estimation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies methods used for model estimation, model building, and interpretation of results. Emphasizes travel demand forecasting, including trip generation, distribution, model choice, and route choice. Topics include aggregate and disaggregate models, including discrete choice (binary and multinomial logit and extensions), model building and statistical testing, aggregation, sampling, and sample design. Demonstrates the applicability and underlying principles of the various models through case studies with focus on practical aspects and interpretation. Bases main methodological approaches on econometric methods, mainly on regression modeling and maximum likelihood estimation. Uses general and specialized software tools for data analysis and model estimation. While the focus is on estimating transportation demand models, the methods are applicable to a broad class of applications in engineering, marketing, etc.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7382",
+      "title": "Advanced Traffic Control and Simulation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers analysis and design of traffic signal control, including actuated control, coordinated control, transit signal priority, and signal control schemes for better accommodating pedestrians and bicycles. Includes the study of traffic microsimulation for urban street networks, including modeling techniques and simulation-based evaluation, and intersection performance models. Offers students an opportunity to practice with standard microsimulation software, including coding traffic signal control logic.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7383",
+      "title": "Sediment Transport and Applications",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Builds on the fundamentals of fluid mechanics and nearshore hydrodynamics to explore the deceptively simple, yet universally complex, problem of sediment transport: how to describe and predict sand movement under water. Explores this question via simple one-line models and complex 3D models of sediment transport; the lab and field experiments underpinning these models; the particular challenge of mixed media transport, including the issues associated with different sediment grain sizes; the structure and importance of turbulence closure models; and coastal resilience and coastal community issues reliant on sediment transport physics.",
+      "prerequisites": {
+        "course": "CIVE 7281",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 7281 with a minimum grade of C-"
+    },
+    {
+      "number": "7385",
+      "title": "Public Transportation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies the analysis, planning, and operational design of urban public transportation systems. Topics include service planning and scheduling; service reliability and operational control; automated systems for location, fare collection, and passenger counting; service performance measurement; rail system operations and design; data collection; ridership estimation; demand forecasting; pricing; and coordinated transit and land-use planning. Introduces supporting mathematical methods in optimization, random processes, and statistical sampling.Requires knowledge of probability theory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7387",
+      "title": "Design Aspects of Roadway Safety",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Concentrates on roadway design features that affect safety, including system users and design elements. Topics include crash causation and countermeasures, statistical procedures for crash analysis, and geometric design improvements for roads and intersections. Analyzes crash data, including both intersecting and nonintersecting locations. Presents concepts, including design, to create a safer transportation system while addressing specific high-crash locations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7388",
+      "title": "Special Topics in Civil Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offered when the need for a special topic is evident to faculty and students. The course is initiated by the appropriate faculty members and discipline committee and approved by the department. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7392",
+      "title": "Special Topics in Environmental Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offered when the need for a special topic is evident to faculty and students. The course is initiated by the appropriate faculty members and discipline committee and approved by the department. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7400",
+      "title": "Seminar",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Presents topics of an advanced nature by staff, outside speakers, and students in the graduate program. This course must be attended every semester by all full-time graduate students in the Department of Civil and Environmental Engineering. Environmental engineering students permitted. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7976",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7978",
+      "title": "Independent Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an individual effort in an area selected by student and adviser and approved by the Department Discipline Committee resulting in a definitive report. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7986",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to conduct full-time research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7990",
+      "title": "Thesis",
+      "credits": {
+        "min": 1.0,
+        "max": 8.0
+      },
+      "credits_text": "1-8",
+      "credit_options": {
+        "min": 1.0,
+        "max": 8.0
+      },
+      "description": "Offers analytical and/or experimental research conducted by arrangement with and under the supervision of the department. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7996",
+      "title": "Thesis Continuation",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers continued thesis work conducted under the supervision of a departmental faculty.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8674",
+      "title": "Master’s Report",
+      "credits": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "credits_text": "2,4",
+      "credit_options": {
+        "values": [
+          2.0,
+          4.0
+        ]
+      },
+      "description": "Offers an individual effort consisting of laboratory and/or literature investigation and analysis of advanced design of a project in an area of civil engineering selected by student and adviser resulting in a definitive report. Requires a completed report seven years from the start of the master’s program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8960",
+      "title": "Exam Preparation—Doctoral",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to prepare for the PhD qualifying exam under faculty supervision. Intended for students who have completed all required PhD course work and have not yet achieved PhD candidacy; students who have not completed all required PhD course work are not allowed to register for this course. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8984",
+      "title": "Research",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8986",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9000",
+      "title": "PhD Candidacy Achieved",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Indicates successful completion of program requirements for PhD candidacy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9984",
+      "title": "Research",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9986",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9990",
+      "title": "Dissertation Term 1",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers analytical and/or experimental research conducted by arrangement with and under the supervision of the department. Open to full-time students only. Requires PhD candidacy in civil engineering or in interdisciplinary engineering.",
+      "prerequisites": {
+        "course": "CIVE 9000",
+        "min_grade": "S"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 9000 with a minimum grade of S"
+    },
+    {
+      "number": "9991",
+      "title": "Dissertation Term 2",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers dissertation supervision by members of the department.",
+      "prerequisites": {
+        "course": "CIVE 9990",
+        "min_grade": "S"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 9990 with a minimum grade of S"
+    },
+    {
+      "number": "9996",
+      "title": "Dissertation Continuation",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers continued thesis work conducted under the supervision of a departmental faculty.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CIVE 9991",
+            "min_grade": "S"
+          },
+          {
+            "admission_requirement": "Dissertation Check with a score of REQ"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CIVE 9991 with a minimum grade of S or Dissertation Check with a score of REQ"
+    }
+  ]
+}

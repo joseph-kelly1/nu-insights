@@ -1,0 +1,184 @@
+{
+  "department": "MEIE",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/course-descriptions/meie/",
+  "courses": [
+    {
+      "number": "2949",
+      "title": "Introductory Directed Research in Mechanical and Industrial Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity to pursue project and other independent inquiry opportunities under faculty supervision for first- and second-year students. The course is initiated with a student-developed proposal, including expected learning outcomes and research products, which is approved by a faculty member in the department. Permission of instructor required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2992",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers an opportunity to document student contributions to research projects or creative endeavors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4701",
+      "title": "Capstone Design 1",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Offers the first in a two-course sequence that culminates the student’s education and experience with the design process. Students form teams and are assigned their design project and faculty adviser. Projects can be industrially, departmentally, or externally sponsored. Students are expected to communicate with their faculty adviser, course coordinator, and sponsor using the Internet, teleconferencing, and other electronic methods. Topics include project management, ethics, cost analysis, Internet and library research methods, and engineering codes and standards. Students prepare written reports and make oral presentations. Students are expected to complete a thorough state-of-the-art report on their problem and a problem statement with specifications and requirements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ]
+    },
+    {
+      "number": "4702",
+      "title": "Capstone Design 2",
+      "credits": 5.0,
+      "credits_text": "5",
+      "credit_options": {
+        "values": [
+          5.0
+        ]
+      },
+      "description": "Continues MEIE 4701. Students are expected to apply engineering principles acquired throughout their undergraduate academic and co-op experiences to the design of a system, component, or process. Each project includes the development and use of design methodology, formulation of design problem statements and specifications, consideration of alternative solutions, feasibility considerations, and detailed system descriptions. Projects include realistic constraints such as economic factors, safety, reliability, maintenance, aesthetics, ethics, and political and social impact. Students make oral presentations on their results in a series of design reviews. Students document their solutions using a written report that includes an executive summary. A working prototype or simulation, as appropriate, of their solution is required to complete the course.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "MEIE 4701",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ME 4550",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "ME 4570",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "IE 4510",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "IE 4515",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "IE 4516",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "IE 4530",
+                    "min_grade": "D-",
+                    "concurrent": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "MEIE 4701 with a minimum grade of D- ; ((ME 4550 with a minimum grade of D- or ME 4570 with a minimum grade of D- ) or (IE 4510 with a minimum grade of D- ; IE 4515 with a minimum grade of D- ; IE 4516 with a minimum grade of D- ; IE 4530 (may be taken concurrently) with a minimum grade of D- ))"
+    },
+    {
+      "number": "6800",
+      "title": "Technical Writing and Professional Development",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to increase their professional communication skills through intensive verbal practice and technical writing application. Students work together in groups and individually to practice verbal and written communication that can increase their English competency and comfort level for work in the United States. This course does not count toward graduation requirements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6830",
+      "title": "Graduate Traineeship 1, Technical Writing and Communications",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Focuses on technical writing. Covers writing and preparation tips for technical papers. Includes effective communications, such as Ph.D. proposal preparation and presentation, and technical seminar presentation tips.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6850",
+      "title": "Research Seminar in Mechanical and Industrial Engineering",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers a research seminar presenting topics of current interest in a variety of areas in mechanical and industrial engineering. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "6860",
+      "title": "Graduate Traineeship 2, Research Ethics and Professional Development",
+      "credits": 2.0,
+      "credits_text": "2",
+      "credit_options": {
+        "values": [
+          2.0
+        ]
+      },
+      "description": "Focuses on responsible conduct of research, research misconduct (plagiarism, falsification, and fabrication), research ethics, and professional and personal development. Offers optional modules on grant proposal preparation, academic career preparation, faculty and professional jobs search, research and teaching statements preparation, how to become an effective teacher, mentorship, entrepreneurship, and industry insights and real-world experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

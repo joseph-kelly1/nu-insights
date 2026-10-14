@@ -1,0 +1,257 @@
+{
+  "department": "MUST",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/course-descriptions/must/",
+  "courses": [
+    {
+      "number": "1220",
+      "title": "Introduction to Music Technology",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides students with instruction in the use of a computer for composing original music. Topics include MIDI sequencing, digital audio processing, and sound synthesis. Students use music hardware and software to complete a variety of projects.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ]
+    },
+    {
+      "number": "1301",
+      "title": "Introduction to Composition",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed as the first step in the education of a student composer. The art and craft of composing music is grounded in knowledge of fundamental concepts and hands-on experience. Offers students an opportunity to acquire competence in the notation and layout of a score; develop basic compositional skills (control of melody, harmony, rhythm); and obtain a wide and deep knowledge of the musical repertory.",
+      "prerequisites": {
+        "course": "MUSC 1201",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ],
+      "prerequisites_text": "MUSC 1201 with a minimum grade of D-"
+    },
+    {
+      "number": "2102",
+      "title": "Composing with Digital Technologies",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity to create compositions using a digital audio workstation (DAW) as the principal tool. Standard Western music notation may be used in examples of certain techniques but will not be necessary for the creation of work in the course. Explores various composition topics such as periodicity, form, texture, timbre, and contour in the digital domain. Consists of a number of short composition and listening assignments culminating in the creation of compositions of moderate duration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2320",
+      "title": "Sound Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Instructs students in the art of producing and designing musical accompaniments for a variety of media including film, TV commercials, industrial video, animation, games, theatre, and radio drama. Focuses on abstract thinking regarding sound theory and practice and includes hands-on skills. Restricted to music majors and combined majors; all other students require permission of instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov"
+      ]
+    },
+    {
+      "number": "2431",
+      "title": "Computer Music Fundamentals",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the creation and implementation of standard time-domain audio synthesis routines and effects, as well as standard frequency-domain processing routines. MaxMSP is the principal programming environment used in the course. Begins with programming protocols, as well as data structures and storage, and list processing in the MaxMSP environment before moving on to standard synthesis and audio processing routines. Examines how the techniques learned in the course can be applied using a variety of synthesis and spectral processing software applications that are standard in the field.",
+      "prerequisites": {
+        "course": "MUST 1220",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Formal/Quant Reasoning"
+      ],
+      "prerequisites_text": "MUST 1220 with a minimum grade of D-"
+    },
+    {
+      "number": "3540",
+      "title": "Special Topics in Music Technology",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Focuses on topics related to current trends in the area of music technology. Topics vary with each offering. May be repeated without limit.",
+      "prerequisites": {
+        "course": "MUST 1220",
+        "min_grade": "C"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MUST 1220 with a minimum grade of C"
+    },
+    {
+      "number": "3601",
+      "title": "Digital Audio Signal Processing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces students to digital signal processing as it relates to offline or non-real-time audio processing. Covers fundamental engineering concepts and mathematics. Examines implementation details of common digital audio processing routines using the C programming language, the industry standard for audio software engineering.",
+      "prerequisites": {
+        "course": "MUST 2431",
+        "min_grade": "C"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MUST 2431 with a minimum grade of C"
+    },
+    {
+      "number": "3602",
+      "title": "Electronics for Music",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces analog electronics in the context of audio synthesis and control. Topics include the basics of electronics and analog audio signals; passive components, transistors, operational amplifiers, and sensors; analog audio synthesis, filters, amplification, and modulation; and the basics of hacking and circuit bending. In-class activities center on designing, building, analyzing, and testing sound-emitting circuits.",
+      "prerequisites": {
+        "course": "MUST 2431",
+        "min_grade": "C"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov",
+        "NUpath Natural/Designed World"
+      ],
+      "prerequisites_text": "MUST 2431 with a minimum grade of C"
+    },
+    {
+      "number": "3603",
+      "title": "Embedded Audio Programming",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores embedded computers and their employment for the design of interactive audio applications. Studies how to program audio applications that take advantage of the unique features of these systems, which is accomplished by transferring the coding skills acquired on general-purpose computers to the languages and the programming rationales of embedded hardware. Primarily covers low-latency, real-time audio synthesis/processing, but also offers an in-depth introduction to physical computing, sensors, and simple electronics. Offers students an opportunity to gain experience with the full design-development-test cycle of software and hardware interactive audio technologies through a final project.",
+      "prerequisites": {
+        "course": "MUST 2431",
+        "min_grade": "C"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov",
+        "NUpath Natural/Designed World"
+      ],
+      "prerequisites_text": "MUST 2431 with a minimum grade of C"
+    },
+    {
+      "number": "4610",
+      "title": "Composition for Electronic Instruments",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Instructs students in the composition of original music for electronic and computer-based instrumentation. Students create music to accompany video, animation, and film, and study suitable methods for creating original music for the Internet. Also surveys examples of music written for similar contexts.",
+      "prerequisites": {
+        "course": "MUST 2431",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Creative Express/Innov",
+        "NUpath Interpreting Culture"
+      ],
+      "prerequisites_text": "MUST 2431 with a minimum grade of D-"
+    },
+    {
+      "number": "4611",
+      "title": "Music Technology Capstone/Senior Recital",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Instructs students in the preparation and presentation of their senior recital. Fulfills the college’s experiential education requirement for music technology concentrators.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MUST 3540",
+            "min_grade": "C"
+          },
+          {
+            "course": "MUST 4520",
+            "min_grade": "C"
+          },
+          {
+            "course": "MUST 4610",
+            "min_grade": "C"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "MUST 3540 with a minimum grade of C or MUST 4520 with a minimum grade of C or MUST 4610 with a minimum grade of C"
+    },
+    {
+      "number": "6603",
+      "title": "Embedded Programming for Digital Musical Instruments",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores embedded computers and their employment for the design of digital musical instruments. Studies how to program low-level audio applications that take advantage of the responsiveness and the interactive features of embedded systems. Starts with an overview of high-level embedded audio programming; then transitions into a deep exploration of low-level C++ programming techniques, specific for the design of digital musical instruments. Primarily covers low-latency real-time audio synthesis/processing, yet includes an in-depth introduction to physical computing, sensors, and simple electronics. Offers students an opportunity to gain experience with the full design-development-test cycle of software and hardware components of digital musical instruments within the confines of a final project. Requires knowledge of audio and programming.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

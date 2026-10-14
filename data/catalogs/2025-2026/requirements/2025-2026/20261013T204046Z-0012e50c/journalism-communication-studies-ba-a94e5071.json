@@ -1,0 +1,1609 @@
+{
+  "document_id": "journalism-communication-studies-ba-a94e5071",
+  "kind": "program",
+  "title": "Journalism and Communication Studies, BA (Boston)",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/arts-media-design/journalism/journalism-communication-studies-ba/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "BA Language Requirements",
+      "heading_path": [
+        "BA Language Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All BA students are required to complete the BA degree language requirements, for a total of 12 semester hours of language study or demonstrated equivalent proficiency, as described in Additional Requirements for BA students . Successful demonstration of proficiency does not reduce total minimum semester hours of study required to earn the BA degree.",
+          "links": [
+            {
+              "text": "Additional Requirements for BA students",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/ba-requirements/"
+            }
+          ],
+          "constraints": {
+            "minimum_credits": 12.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Journalism Requirements",
+      "heading_path": [
+        "Journalism Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Foundation Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "C or better in JRNL 1101 , JRNL 1102 , and JRNL 2201 is required.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "JRNL 1101 and JRNL 1102 Journalism 1: Fundamentals of Reporting and Writing and Journalist’s Toolbox",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 1101",
+                "JRNL 1102"
+              ],
+              "code_text": "JRNL 1101 and JRNL 1102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "JRNL 1101"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "JRNL 1102"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "JRNL 1150 Understanding Today’s News",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 1150"
+              ],
+              "code_text": "JRNL 1150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 1150"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "JRNL 2201 Journalism 2: Intermediate Reporting",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 2201"
+              ],
+              "code_text": "JRNL 2201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 2201"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Visual Storytelling Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "JRNL 2301 Visual Storytelling in Journalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 2301"
+              ],
+              "code_text": "JRNL 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 2301"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "JRNL 3370 Podcast and Radio Journalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3370"
+              ],
+              "code_text": "JRNL 3370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3370"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "JRNL 3700 Data Storytelling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3700"
+              ],
+              "code_text": "JRNL 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3700"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "JRNL 5309 News Documentary Production",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5309"
+              ],
+              "code_text": "JRNL 5309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5309"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "JRNL 5310 Photojournalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5310"
+              ],
+              "code_text": "JRNL 5310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5310"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "JRNL 5311 Design for Storytelling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5311"
+              ],
+              "code_text": "JRNL 5311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5311"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "JRNL 5314 Video News Reporting and Producing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5314"
+              ],
+              "code_text": "JRNL 5314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5314"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "JRNL 5316 The Newsroom",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5316"
+              ],
+              "code_text": "JRNL 5316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5316"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Law and Ethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "JRNL 3550 The First Amendment and the Media",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 3550"
+              ],
+              "code_text": "JRNL 3550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 3550"
+              },
+              "alternative_group": 16
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "or JRNL 4650 Ethics and Diversity in the News Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 4650"
+              ],
+              "code_text": "or JRNL 4650",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 4650"
+              },
+              "alternative_group": 16
+            },
+            {
+              "index": 18,
+              "kind": "header",
+              "text": "Journalism Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 19,
+              "kind": "instruction",
+              "text": "Complete four JRNL electives. Two must be 3000 level or above.",
+              "credits_text": "16",
+              "credits": {
+                "min": 16.0,
+                "max": 16.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Communication Studies Requirements",
+      "heading_path": [
+        "Communication Studies Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Common Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "COMM 1101 Introduction to Communication Studies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1101"
+              ],
+              "code_text": "COMM 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1101"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "COMM 1112 Public Speaking",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1112"
+              ],
+              "code_text": "COMM 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1112"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or COMM 2301 Communication Research Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2301"
+              ],
+              "code_text": "or COMM 2301",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2301"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Distributed Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "COMM 1210 Persuasion and Rhetoric",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1210"
+              ],
+              "code_text": "COMM 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1210"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "COMM 1225 Communication Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1225"
+              ],
+              "code_text": "COMM 1225",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1225"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "COMM 1231 Principles of Organizational Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1231"
+              ],
+              "code_text": "COMM 1231",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1231"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "COMM 1255 Communication in a Digital Age",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1255"
+              ],
+              "code_text": "COMM 1255",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1255"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "COMM 1131 Sex, Relationships, and Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1131"
+              ],
+              "code_text": "COMM 1131",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1131"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "COMM 2303 Global and Intercultural Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2303"
+              ],
+              "code_text": "COMM 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2303"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "COMM 2304 Communication and Gender",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2304"
+              ],
+              "code_text": "COMM 2304",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2304"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "COMM 2501 Communication Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2501"
+              ],
+              "code_text": "COMM 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2501"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "COMM 2551 Free Speech in Cyberspace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2551"
+              ],
+              "code_text": "COMM 2551",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2551"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "COMM 3200 Mobile Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3200"
+              ],
+              "code_text": "COMM 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3200"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "COMM 3201 Health Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3201"
+              ],
+              "code_text": "COMM 3201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3201"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "COMM 3230 Interpersonal Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3230"
+              ],
+              "code_text": "COMM 3230",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3230"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "COMM 3304 Communication and Inclusion",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3304"
+              ],
+              "code_text": "COMM 3304",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3304"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "COMM 3320 Political Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3320"
+              ],
+              "code_text": "COMM 3320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3320"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "COMM 3415 Communication Criticism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3415"
+              ],
+              "code_text": "COMM 3415",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3415"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "COMM 3500 Environmental Issues, Communication, and the Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3500"
+              ],
+              "code_text": "COMM 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3500"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "COMM 3501 Free Speech: Law and Practice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3501"
+              ],
+              "code_text": "COMM 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3501"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "COMM 3530 Communication and Sexualities",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3530"
+              ],
+              "code_text": "COMM 3530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3530"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "COMM 3532 Theories of Conflict and Negotiation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3532"
+              ],
+              "code_text": "COMM 3532",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3532"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "COMM 4535 Nonverbal Social Interaction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 4535"
+              ],
+              "code_text": "COMM 4535",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 4535"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "COMM 4605 Youth and Communication Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 4605"
+              ],
+              "code_text": "COMM 4605",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 4605"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "COMM 4631 Crisis Communication and Image Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 4631"
+              ],
+              "code_text": "COMM 4631",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 4631"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "header",
+              "text": "Communication Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 32,
+              "kind": "instruction",
+              "text": "Complete three COMM courses.",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Introductory",
+      "heading_path": [
+        "Introductory"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "JRNL 1000 Journalism at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 1000"
+              ],
+              "code_text": "JRNL 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 1000"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or COMM 1000 Communication Studies at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1000"
+              ],
+              "code_text": "or COMM 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1000"
+              },
+              "alternative_group": 0
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Co-op",
+      "heading_path": [
+        "Co-op"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "EEAM 2000 Professional Development for Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EEAM 2000"
+              ],
+              "code_text": "EEAM 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEAM 2000"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirement (First-Year Writing and Advanced Writing in the Disciplines)",
+      "heading_path": [
+        "Writing Requirement (First-Year Writing and Advanced Writing in the Disciplines)"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 3314 Advanced Writing in the Arts, Media, and Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3314"
+              ],
+              "code_text": "ENGW 3314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3314"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or JRNL 2301 Visual Storytelling in Journalism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 2301"
+              ],
+              "code_text": "or JRNL 2301",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 2301"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or COMM 3409 Advocacy Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3409"
+              ],
+              "code_text": "or COMM 3409",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3409"
+              },
+              "alternative_group": 1
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Requirement",
+      "heading_path": [
+        "Integrative Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one COMM course and one JRNL course:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "COMM 2550 Television Field Production",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2550"
+              ],
+              "code_text": "COMM 2550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2550"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "COMM 4755 Production Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 4755"
+              ],
+              "code_text": "COMM 4755",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 4755"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "JRNL 5314 Video News Reporting and Producing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5314"
+              ],
+              "code_text": "JRNL 5314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5314"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "JRNL 5316 The Newsroom",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "JRNL 5316"
+              ],
+              "code_text": "JRNL 5316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "JRNL 5316"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Communication Studies Grade Requirement",
+      "heading_path": [
+        "Communication Studies Grade Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "No more than two grades below a C in communication studies courses may be used to satisfy degree requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirements",
+      "heading_path": [
+        "Program Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "81 semester hours in the major",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "129 overall semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "journalism-communication-studies-ba-a94e5071",
+  "major_name": "Journalism and Communication Studies",
+  "degree": "BA",
+  "campus": "Boston",
+  "college": "College of Arts, Media and Design",
+  "overview_text": "",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nBA Language Requirements\nAll BA students are required to complete the BA degree language requirements, for a total of 12 semester hours of language study or demonstrated equivalent proficiency, as described in\nAdditional Requirements for BA students\n. Successful demonstration of proficiency does not reduce total minimum semester hours of study required to earn the BA degree.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nJournalism Requirements\nCourse List\nCode\nTitle\nHours\nFoundation Courses\nC or better in\nJRNL 1101\n,\nJRNL 1102\n, and\nJRNL 2201\nis required.\nJRNL 1101\nand\nJRNL 1102\nJournalism 1: Fundamentals of Reporting and Writing\nand Journalist’s Toolbox\n5\nJRNL 1150\nUnderstanding Today’s News\n4\nJRNL 2201\nJournalism 2: Intermediate Reporting\n4\nVisual Storytelling Requirement\nComplete one of the following:\n4\nJRNL 2301\nVisual Storytelling in Journalism\nJRNL 3370\nPodcast and Radio Journalism\nJRNL 3700\nData Storytelling\nJRNL 5309\nNews Documentary Production\nJRNL 5310\nPhotojournalism\nJRNL 5311\nDesign for Storytelling\nJRNL 5314\nVideo News Reporting and Producing\nJRNL 5316\nThe Newsroom\nLaw and Ethics\nJRNL 3550\nThe First Amendment and the Media\n4\nor\nJRNL 4650\nEthics and Diversity in the News Media\nJournalism Electives\nComplete four JRNL electives. Two must be 3000 level or above.\n16\nCommunication Studies Requirements\nCourse List\nCode\nTitle\nHours\nCommon Requirements\nCOMM 1101\nIntroduction to Communication Studies\n4\nComplete one of the following:\nCOMM 1112\nPublic Speaking\n4\nor\nCOMM 2301\nCommunication Research Methods\nDistributed Requirements\nComplete one of the following:\n4\nCOMM 1210\nPersuasion and Rhetoric\nCOMM 1225\nCommunication Theory\nCOMM 1231\nPrinciples of Organizational Communication\nCOMM 1255\nCommunication in a Digital Age\nComplete one of the following:\n4\nCOMM 1131\nSex, Relationships, and Communication\nCOMM 2303\nGlobal and Intercultural Communication\nCOMM 2304\nCommunication and Gender\nCOMM 2501\nCommunication Law\nCOMM 2551\nFree Speech in Cyberspace\nComplete two of the following:\n8\nCOMM 3200\nMobile Communication\nCOMM 3201\nHealth Communication\nCOMM 3230\nInterpersonal Communication\nCOMM 3304\nCommunication and Inclusion\nCOMM 3320\nPolitical Communication\nCOMM 3415\nCommunication Criticism\nCOMM 3500\nEnvironmental Issues, Communication, and the Media\nCOMM 3501\nFree Speech: Law and Practice\nCOMM 3530\nCommunication and Sexualities\nCOMM 3532\nTheories of Conflict and Negotiation\nCOMM 4535\nNonverbal Social Interaction\nCOMM 4605\nYouth and Communication Technology\nCOMM 4631\nCrisis Communication and Image Management\nCommunication Electives\nComplete three COMM courses.\n12\nIntroductory\nCourse List\nCode\nTitle\nHours\nJRNL 1000\nJournalism at Northeastern\n1\nor\nCOMM 1000\nCommunication Studies at Northeastern\nCo-op\nCourse List\nCode\nTitle\nHours\nEEAM 2000\nProfessional Development for Co-op\n1\nWriting Requirement (First-Year Writing and Advanced Writing in the Disciplines)\nCourse List\nCode\nTitle\nHours\nENGW 1111\nFirst-Year Writing\n4\nENGW 3314\nAdvanced Writing in the Arts, Media, and Design\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nor\nJRNL 2301\nVisual Storytelling in Journalism\nor\nCOMM 3409\nAdvocacy Writing\nIntegrative Requirement\nCourse List\nCode\nTitle\nHours\nComplete one COMM course and one JRNL course:\n8\nCOMM 2550\nTelevision Field Production\nCOMM 4755\nProduction Capstone\nJRNL 5314\nVideo News Reporting and Producing\nJRNL 5316\nThe Newsroom\nCommunication Studies Grade Requirement\nNo more than two grades below a C in communication studies courses may be used to satisfy degree requirements.\nProgram Requirements\n81 semester hours in the major\n129 overall semester hours required",
+  "referenced_courses": [
+    "COMM 1000",
+    "COMM 1101",
+    "COMM 1112",
+    "COMM 1131",
+    "COMM 1210",
+    "COMM 1225",
+    "COMM 1231",
+    "COMM 1255",
+    "COMM 2301",
+    "COMM 2303",
+    "COMM 2304",
+    "COMM 2501",
+    "COMM 2550",
+    "COMM 2551",
+    "COMM 3200",
+    "COMM 3201",
+    "COMM 3230",
+    "COMM 3304",
+    "COMM 3320",
+    "COMM 3409",
+    "COMM 3415",
+    "COMM 3500",
+    "COMM 3501",
+    "COMM 3530",
+    "COMM 3532",
+    "COMM 4535",
+    "COMM 4605",
+    "COMM 4631",
+    "COMM 4755",
+    "EEAM 2000",
+    "ENGW 1111",
+    "ENGW 3314",
+    "ENGW 3315",
+    "JRNL 1000",
+    "JRNL 1101",
+    "JRNL 1102",
+    "JRNL 1150",
+    "JRNL 2201",
+    "JRNL 2301",
+    "JRNL 3370",
+    "JRNL 3550",
+    "JRNL 3700",
+    "JRNL 4650",
+    "JRNL 5309",
+    "JRNL 5310",
+    "JRNL 5311",
+    "JRNL 5314",
+    "JRNL 5316"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "Additional Requirements for BA students",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/ba-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

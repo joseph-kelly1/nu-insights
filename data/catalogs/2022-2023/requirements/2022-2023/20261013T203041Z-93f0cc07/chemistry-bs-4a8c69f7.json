@@ -1,0 +1,1026 @@
+{
+  "document_id": "chemistry-bs-4a8c69f7",
+  "kind": "program",
+  "title": "Chemistry, BS",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/science/chemistry-chemical-biology/chemistry-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Chemistry Major Requirements",
+      "heading_path": [
+        "Chemistry Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introduction to College",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1000 Chemistry/Chemical Biology at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1000"
+              ],
+              "code_text": "CHEM 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Experiential Learning Introduction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "EESC 2000 Professional Development for Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESC 2000"
+              ],
+              "code_text": "EESC 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EESC 2000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "General Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 and CHEM 1163 General Chemistry for Science Majors and Lab for CHEM 1161 and Recitation for CHEM 1161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162",
+                "CHEM 1163"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162 and CHEM 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CHEM 2161 and CHEM 2162 and CHEM 2163 Concepts in Chemistry and Lab for CHEM 2161 and Recitation for CHEM 2161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2161",
+                "CHEM 2162",
+                "CHEM 2163"
+              ],
+              "code_text": "CHEM 2161 and CHEM 2162 and CHEM 2163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Organic Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CHEM 2315 and CHEM 2316 Organic Chemistry 1 for Chemistry Majors and Lab for CHEM 2315",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2315",
+                "CHEM 2316"
+              ],
+              "code_text": "CHEM 2315 and CHEM 2316",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2315"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2316"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 2317 and CHEM 2318 Organic Chemistry 2 for Chemistry Majors and Lab for CHEM 2317",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2317",
+                "CHEM 2318"
+              ],
+              "code_text": "CHEM 2317 and CHEM 2318",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2317"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2318"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Analytical Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CHEM 2321 and CHEM 2322 and CHEM 2323 Analytical Chemistry and Lab for CHEM 2321 and Recitation for CHEM 2321",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2321",
+                "CHEM 2322",
+                "CHEM 2323"
+              ],
+              "code_text": "CHEM 2321 and CHEM 2322 and CHEM 2323",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2321"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2322"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2323"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Physical Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CHEM 3401 and CHEM 3402 Chemical Thermodynamics and Kinetics and Lab for CHEM 3401",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3401",
+                "CHEM 3402"
+              ],
+              "code_text": "CHEM 3401 and CHEM 3402",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3401"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3402"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHEM 3403 and CHEM 3404 Quantum Chemistry and Spectroscopy and Lab for CHEM 3403",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3403",
+                "CHEM 3404"
+              ],
+              "code_text": "CHEM 3403 and CHEM 3404",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3403"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3404"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Biochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CHEM 4621 and CHEM 4622 and",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4621",
+                "CHEM 4622"
+              ],
+              "code_text": "CHEM 4621 and CHEM 4622",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4621"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4622"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Advanced-Level Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following courses:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CHEM 3501 and CHEM 3502 Inorganic Chemistry and Lab for CHEM 3501",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3501",
+                "CHEM 3502"
+              ],
+              "code_text": "CHEM 3501 and CHEM 3502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3501"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3502"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CHEM 3505 and CHEM 3506 Introduction to Bioinorganic Chemistry and Lab for CHEM 3505",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3505",
+                "CHEM 3506"
+              ],
+              "code_text": "CHEM 3505 and CHEM 3506",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3505"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3506"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "Complete two of the following courses:",
+              "credits_text": "9-11",
+              "credits": {
+                "min": 9.0,
+                "max": 11.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CHEM 3331 and CHEM 3332 Bioanalytical Chemistry and Lab for CHEM 3331",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3331",
+                "CHEM 3332"
+              ],
+              "code_text": "CHEM 3331 and CHEM 3332",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3331"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 3332"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "CHEM 4456 and CHEM 4457 Organic Chemistry 3: Organic Chemistry of Drug Design and Development and Lab for CHEM 4456",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4456",
+                "CHEM 4457"
+              ],
+              "code_text": "CHEM 4456 and CHEM 4457",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4456"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4457"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "CHEM 4620",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4620"
+              ],
+              "code_text": "CHEM 4620",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 4620"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "CHEM 4628 and CHEM 4629 Introduction to Spectroscopy of Organic Compounds and Identification of Organic Compounds",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4628",
+                "CHEM 4629"
+              ],
+              "code_text": "CHEM 4628 and CHEM 4629",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4628"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 4629"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 26,
+              "kind": "header",
+              "text": "Senior Research/Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "CHEM 4750 Senior Research",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 4750"
+              ],
+              "code_text": "CHEM 4750",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 4750"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Chemistry Major Credit Requirement",
+      "heading_path": [
+        "Chemistry Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 79 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 79.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "135 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "chemistry-bs-4a8c69f7",
+  "major_name": "Chemistry",
+  "degree": "BS",
+  "campus": "",
+  "college": "College of Science",
+  "overview_text": "The Bachelor of Science in Chemistry is designed to give students both breadth and depth in chemistry fundamentals. During their course of study, students have an opportunity to develop qualitative and quantitative problem-solving skills as well as effective communication skills. The overall objective of the program is to provide scientific background and laboratory experience for students as they prepare for chemically related careers or advanced study in fields that include both the traditional chemical specialties and other endeavors that draw upon an understanding of the chemical basis of the world around us such as biochemistry, materials science, forensic science, medicine, education, or law.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nChemistry Major Requirements\nCourse List\nCode\nTitle\nHours\nIntroduction to College\nCHEM 1000\nChemistry/Chemical Biology at Northeastern\n1\nExperiential Learning Introduction\nEESC 2000\nProfessional Development for Co-op\n1\nGeneral Chemistry\nCHEM 1161\nand\nCHEM 1162\nand\nCHEM 1163\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nand Recitation for CHEM 1161\n5\nCHEM 2161\nand\nCHEM 2162\nand\nCHEM 2163\nConcepts in Chemistry\nand Lab for CHEM 2161\nand Recitation for CHEM 2161\n5\nOrganic Chemistry\nCHEM 2315\nand\nCHEM 2316\nOrganic Chemistry 1 for Chemistry Majors\nand Lab for CHEM 2315\n6\nCHEM 2317\nand\nCHEM 2318\nOrganic Chemistry 2 for Chemistry Majors\nand Lab for CHEM 2317\n6\nAnalytical Chemistry\nCHEM 2321\nand\nCHEM 2322\nand\nCHEM 2323\nAnalytical Chemistry\nand Lab for CHEM 2321\nand Recitation for CHEM 2321\n5\nPhysical Chemistry\nCHEM 3401\nand\nCHEM 3402\nChemical Thermodynamics and Kinetics\nand Lab for CHEM 3401\n5\nCHEM 3403\nand\nCHEM 3404\nQuantum Chemistry and Spectroscopy\nand Lab for CHEM 3403\n5\nBiochemistry\nCHEM 4621\nand CHEM 4622\nand\n5\nAdvanced-Level Chemistry\nComplete one of the following courses:\n5\nCHEM 3501\nand\nCHEM 3502\nInorganic Chemistry\nand Lab for CHEM 3501\nCHEM 3505\nand\nCHEM 3506\nIntroduction to Bioinorganic Chemistry\nand Lab for CHEM 3505\nComplete two of the following courses:\n9-11\nCHEM 3331\nand\nCHEM 3332\nBioanalytical Chemistry\nand Lab for CHEM 3331\nCHEM 4456\nand\nCHEM 4457\nOrganic Chemistry 3: Organic Chemistry of Drug Design and Development\nand Lab for CHEM 4456\nCHEM 4620\nCHEM 4628\nand\nCHEM 4629\nIntroduction to Spectroscopy of Organic Compounds\nand Identification of Organic Compounds\nSenior Research/Capstone\nCHEM 4750\nSenior Research\n4\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nPhysics\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\n5\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\n5\nChemistry Major Credit Requirement\nComplete 79 semester hours in the major.\nProgram Requirement\n135 total semester hours required",
+  "referenced_courses": [
+    "CHEM 1000",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1163",
+    "CHEM 2161",
+    "CHEM 2162",
+    "CHEM 2163",
+    "CHEM 2315",
+    "CHEM 2316",
+    "CHEM 2317",
+    "CHEM 2318",
+    "CHEM 2321",
+    "CHEM 2322",
+    "CHEM 2323",
+    "CHEM 3331",
+    "CHEM 3332",
+    "CHEM 3401",
+    "CHEM 3402",
+    "CHEM 3403",
+    "CHEM 3404",
+    "CHEM 3501",
+    "CHEM 3502",
+    "CHEM 3505",
+    "CHEM 3506",
+    "CHEM 4456",
+    "CHEM 4457",
+    "CHEM 4620",
+    "CHEM 4621",
+    "CHEM 4622",
+    "CHEM 4628",
+    "CHEM 4629",
+    "CHEM 4750",
+    "EESC 2000",
+    "MATH 1341",
+    "MATH 1342",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "CHEM 4620",
+    "CHEM 4621",
+    "CHEM 4622"
+  ]
+}

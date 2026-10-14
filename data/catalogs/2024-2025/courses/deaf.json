@@ -1,0 +1,127 @@
+{
+  "department": "DEAF",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/course-descriptions/deaf/",
+  "courses": [
+    {
+      "number": "1500",
+      "title": "Deaf People in Society",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on Deaf communities as linguistic and cultural minorities. Topics include perspectives on Deaf communities; attitudes toward Deaf people and sign languages, technology, and communication; the contributions of Deaf people to society; professional and social organizations of and for Deaf people; Deaf clubs as a locus of Deaf culture; communication issues; perspectives on legislation affecting the Deaf Community; legislative and political concerns of the Deaf Community; and the impact of educational options for Deaf children. Also covers the diverse intersectional identities comprising the American Deaf Community due to language use (multilingual), race, gender, class, and multicultural experiences. Discusses the impact of audism, racism, and many other -isms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Interpreting Culture"
+      ]
+    },
+    {
+      "number": "1550",
+      "title": "Dynamics of the Deaf/Blind Community: Culture, History, and Communication",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores the multidimensional aspects of the Deaf/Blind community, culture, communication, and history (dynamics of how society has handled individuals who are Deaf/Blind). Topics are studied from the Deaf/Blind perspective and include oppression and its power structures; empowerment vs. “rescue or fix it”; the loss of sight and its impact on communication; and learning about empathy and the courage of vulnerability. Explores Deaf/Blind culture and the grieving process as an ongoing component of life; different types of Deaf/Blindness and diverse styles of communication; and mobility issues and maintaining independence. A brief introduction to sighted guide techniques and technology available.",
+      "prerequisites": {
+        "course": "AMSL 1102",
+        "min_grade": "C-",
+        "concurrent": true
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "AMSL 1102 (may be taken concurrently) with a minimum grade of C-"
+    },
+    {
+      "number": "2500",
+      "title": "Deaf History and Culture",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Surveys the history and culture of the American Deaf community and Deaf people in the Western world.  Focuses on educational, political, and technological forces and events that have positively and negatively affected the American Deaf community. Focuses on the American Deaf community as a linguistic and cultural minority. Also examines contemporary values and factors that shape and define the diverse American Deaf community and compares and contrasts American Deaf cultural values with those of American society in general.",
+      "prerequisites": {
+        "course": "DEAF 1500",
+        "min_grade": "D"
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Difference/Diversity",
+        "NUpath Interpreting Culture"
+      ],
+      "prerequisites_text": "DEAF 1500 with a minimum grade of D"
+    },
+    {
+      "number": "2700",
+      "title": "ASL Linguistics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the basic issues in linguistics by examining the structural properties of American Sign Language. Includes phonology (formational properties of signs); morphology (word formation, rules, derivation, inflection, complex verbs, classifiers, and verb modulations); semantics (the meaning structure of signs); and syntax (the structure of ASL utterances in terms of old vs. new information and the structure of ASL narratives). Examines sociolinguistic variation of ASL usage (such as region, age, and Black ASL), as well as language attitudes and change over time.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "LING 1150",
+                "min_grade": "D-"
+              },
+              {
+                "course": "ENGL 1150",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 1102",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1102",
+                "min_grade": "C"
+              }
+            ]
+          },
+          {
+            "course": "AMSL 1102",
+            "min_grade": "C"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(LING 1150 with a minimum grade of D- or ENGL 1150 with a minimum grade of D- ); (ENGL 1111 with a minimum grade of C or ENGL 1102 with a minimum grade of C or ENGW 1111 with a minimum grade of C or ENGW 1102 with a minimum grade of C ); AMSL 1102 with a minimum grade of C"
+    }
+  ]
+}

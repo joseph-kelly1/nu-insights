@@ -1,0 +1,3787 @@
+{
+  "document_id": "bscs-bf376cdb",
+  "kind": "program",
+  "title": "Computer Science, BSCS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Requirements",
+      "heading_path": [
+        "Computer Science Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Computer Science Overview",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Computer Science Fundamental Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Computer Science Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3650 Computer Systems",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3650"
+              ],
+              "code_text": "CS 3650",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3650"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 3800 Theory of Computation",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3800"
+              ],
+              "code_text": "CS 3800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3800"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 4500 Software Development",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4500"
+              ],
+              "code_text": "CS 4500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4500"
+              },
+              "alternative_group": 12
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "or CS 4530 Fundamentals of Software Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4530"
+              ],
+              "code_text": "or CS 4530",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4530"
+              },
+              "alternative_group": 12
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Security Required Course",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "CY 2550 Foundations of Cybersecurity",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 2550"
+              ],
+              "code_text": "CY 2550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 2550"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "CY 3740 Systems Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 3740"
+              ],
+              "code_text": "CY 3740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 3740"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CY 4740 Network Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4740"
+              ],
+              "code_text": "CY 4740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4740"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "header",
+              "text": "Presentation Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 21,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "COMM 1112 Public Speaking",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1112"
+              ],
+              "code_text": "COMM 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1112"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "COMM 1113 Business and Professional Speaking",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1113"
+              ],
+              "code_text": "COMM 1113",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1113"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "COMM 1210 Persuasion and Rhetoric",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1210"
+              ],
+              "code_text": "COMM 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1210"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "COMM 1511 Communication and Storytelling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 1511"
+              ],
+              "code_text": "COMM 1511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 1511"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "THTR 1125 Improvisation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 1125"
+              ],
+              "code_text": "THTR 1125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 1125"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "THTR 1130 Introduction to Acting",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 1130"
+              ],
+              "code_text": "THTR 1130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 1130"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "THTR 1180 Dynamic Presence: Theatre Training for Effective Interpersonal Interactions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 1180"
+              ],
+              "code_text": "THTR 1180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 1180"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "THTR 2345 Acting for the Camera",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "THTR 2345"
+              ],
+              "code_text": "THTR 2345",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "THTR 2345"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "header",
+              "text": "Khoury Elective Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 31,
+              "kind": "instruction",
+              "text": "Students should plan to take a NUpath capstone using designated courses in either a concentration, computer science electives, or as a general elective.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 32,
+              "kind": "note",
+              "text": "With adviser approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 33,
+              "kind": "instruction",
+              "text": "Complete 8 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 8.0
+              }
+            },
+            {
+              "index": 34,
+              "kind": "elective_filter",
+              "text": "CS 2500 or higher, except CS 5010",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "CS 5010"
+                ]
+              }
+            },
+            {
+              "index": 35,
+              "kind": "elective_filter",
+              "text": "CY 2000 or higher, except CY 4930",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CY",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "CY 4930"
+                ]
+              }
+            },
+            {
+              "index": 36,
+              "kind": "elective_filter",
+              "text": "DS 2500 or higher, except DS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "DS",
+                "minimum_number": "2500",
+                "excluded_courses": [
+                  "DS 4900"
+                ]
+              }
+            },
+            {
+              "index": 37,
+              "kind": "elective_filter",
+              "text": "IS 2000 or higher, except IS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IS",
+                "minimum_number": "2000",
+                "excluded_courses": [
+                  "IS 4900"
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Concentrations",
+      "heading_path": [
+        "Computer Science Concentrations"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Pick one of the following concentrations and complete four courses in that concentration. In all concentrations, up to one Research ( CS 4991 ) course can be substituted with college approval. Any missing prerequisites or NUpath requirements must be taken using computer science or general electives. In particular, students must arrange to take a NUpath capstone using either a course in the concentration or a CS, CY, DS, or IS course taken as a computer science elective or as a general elective.",
+          "links": [],
+          "constraints": {
+            "course_count": 4
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Artificial Intelligence Foundations Human-Centered Computing Software Systems",
+          "links": [
+            {
+              "text": "Artificial Intelligence",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#ARIN"
+            },
+            {
+              "text": "Foundations",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#FNDS"
+            },
+            {
+              "text": "Human-Centered Computing",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#HUCC"
+            },
+            {
+              "text": "Software",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#SFTW"
+            },
+            {
+              "text": "Systems",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#SYST"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Artificial Intelligence",
+            "Foundations",
+            "Human-Centered Computing",
+            "Software",
+            "Systems"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1365 Introduction to Mathematical Reasoning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1365"
+              ],
+              "code_text": "MATH 1365",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1365"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Computing and Social Issues",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "AFCS 2600 Issues in Race, Science, and Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFCS 2600"
+              ],
+              "code_text": "AFCS 2600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFCS 2600"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CY 5240 Cyberlaw: Privacy, Ethics, and Digital Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 5240"
+              ],
+              "code_text": "CY 5240",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 5240"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 10
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 10
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "SOCL 4528",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "header",
+              "text": "Electrical Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "EECE 2310 and EECE 2311 Introduction to Digital Design and Computer Architecture and Lab for EECE 2310",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EECE 2310",
+                "EECE 2311"
+              ],
+              "code_text": "EECE 2310 and EECE 2311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EECE 2310"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EECE 2311"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 18,
+              "kind": "header",
+              "text": "Science Requirement",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 19,
+              "kind": "instruction",
+              "text": "Complete any two courses (and any required labs). Courses may be taken from different categories:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 20,
+              "kind": "note",
+              "text": "Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "BIOL 1111 and BIOL 1112 General Biology 1 and Lab for BIOL 1111",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111",
+                "BIOL 1112"
+              ],
+              "code_text": "BIOL 1111 and BIOL 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1112"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "BIOL 1113 and BIOL 1114 General Biology 2 and Lab for BIOL 1113",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1113",
+                "BIOL 1114"
+              ],
+              "code_text": "BIOL 1113 and BIOL 1114",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1113"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1114"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "BIOL 2301 and BIOL 2302 Genetics and Molecular Biology and Lab for BIOL 2301",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2301",
+                "BIOL 2302"
+              ],
+              "code_text": "BIOL 2301 and BIOL 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2301"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2302"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 General Chemistry for Science Majors and Lab for CHEM 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "CHEM 1211 and CHEM 1212 and CHEM 1213 General Chemistry 1 and Lab for CHEM 1211 and Recitation for CHEM 1211",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1211",
+                "CHEM 1212",
+                "CHEM 1213"
+              ],
+              "code_text": "CHEM 1211 and CHEM 1212 and CHEM 1213",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1211"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1212"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1213"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "CHEM 1214 and CHEM 1215 and CHEM 1216 General Chemistry 2 and Lab for CHEM 1214 and Recitation for CHEM 1214",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1214",
+                "CHEM 1215",
+                "CHEM 1216"
+              ],
+              "code_text": "CHEM 1214 and CHEM 1215 and CHEM 1216",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1214"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1215"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1216"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 28,
+              "kind": "note",
+              "text": "Geology/Environmental Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "ENVR 1200 and ENVR 1201 Dynamic Earth and Lab for ENVR 1200",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1200",
+                "ENVR 1201"
+              ],
+              "code_text": "ENVR 1200 and ENVR 1201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1200"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1201"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "ENVR 1202 and ENVR 1203 and",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1202",
+                "ENVR 1203"
+              ],
+              "code_text": "ENVR 1202 and ENVR 1203",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1202"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 1203"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "ENVR 2310 and ENVR 2311 Earth Materials and Lab for ENVR 2310",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2310",
+                "ENVR 2311"
+              ],
+              "code_text": "ENVR 2310 and ENVR 2311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2310"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2311"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "ENVR 2340 and ENVR 2341 Earth Landforms and Processes and Lab for ENVR 2340",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2340",
+                "ENVR 2341"
+              ],
+              "code_text": "ENVR 2340 and ENVR 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2340"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2341"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "ENVR 3300 and ENVR 3301 Geographic Information Systems and Lab for ENVR 3300",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3300",
+                "ENVR 3301"
+              ],
+              "code_text": "ENVR 3300 and ENVR 3301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3300"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 3301"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "ENVR 4500 and ENVR 4501 Applied Hydrogeology and Lab for ENVR 4500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 4500",
+                "ENVR 4501"
+              ],
+              "code_text": "ENVR 4500 and ENVR 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 4500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 4501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "ENVR 5242 and ENVR 5243 and",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5242",
+                "ENVR 5243"
+              ],
+              "code_text": "ENVR 5242 and ENVR 5243",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 5242"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 5243"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 36,
+              "kind": "note",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "MATH 2331 Linear Algebra",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2331"
+              ],
+              "code_text": "MATH 2331",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2331"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "MATH 3081 Probability and Statistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 3081"
+              ],
+              "code_text": "MATH 3081",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 3081"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "note",
+              "text": "Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "PHYS 1145 and PHYS 1146 Physics for Life Sciences 1 and Lab for PHYS 1145",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1145",
+                "PHYS 1146"
+              ],
+              "code_text": "PHYS 1145 and PHYS 1146",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1145"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1146"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "PHYS 1147 and PHYS 1148 Physics for Life Sciences 2 and Lab for PHYS 1147",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1147",
+                "PHYS 1148"
+              ],
+              "code_text": "PHYS 1147 and PHYS 1148",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1147"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1148"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 and PHYS 1163 Physics 1 and Lab for PHYS 1161 and Recitation for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162",
+                "PHYS 1163"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162 and PHYS 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "PHYS 1165 and PHYS 1166 and PHYS 1167 Physics 2 and Lab for PHYS 1165 and Recitation for PHYS 1165",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1165",
+                "PHYS 1166",
+                "PHYS 1167"
+              ],
+              "code_text": "PHYS 1165 and PHYS 1166 and PHYS 1167",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1165"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1166"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1167"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Writing Requirement",
+      "heading_path": [
+        "Computer Science Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 3
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 28 semester hours of general electives.",
+              "credits_text": "28",
+              "credits": {
+                "min": 28.0,
+                "max": 28.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 28.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum cumulative 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Computer Science Credit Requirement",
+      "heading_path": [
+        "Computer Science Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 72 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 72.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements Satisfied",
+      "heading_path": [
+        "NUpath Requirements Satisfied"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Engaging with the Natural and Designed World Conducting Formal and Quantitative Reasoning Analyzing and Using Data Writing in the First Year Advanced Writing in the Disciplines Writing-Intensive in the Major",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Engaging with the Natural and Designed World",
+            "Conducting Formal and Quantitative Reasoning",
+            "Analyzing and Using Data",
+            "Writing in the First Year",
+            "Advanced Writing in the Disciplines",
+            "Writing-Intensive in the Major"
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Integrating Knowledge and Skills Through Experience is satisfied through co-op.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "134 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Artificial Intelligence",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Artificial Intelligence"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CS 4100 Artificial Intelligence",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4100"
+              ],
+              "code_text": "CS 4100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4100"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete two of the following not already taken:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 4120 Natural Language Processing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4120"
+              ],
+              "code_text": "CS 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4120"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 4150 Game Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4150"
+              ],
+              "code_text": "CS 4150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4150"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 4180 Reinforcement Learning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4180"
+              ],
+              "code_text": "CS 4180",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4180"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 4610 Robotic Science and Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4610"
+              ],
+              "code_text": "CS 4610",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4610"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "DS 4420 Machine Learning and Data Mining 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4420"
+              ],
+              "code_text": "DS 4420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4420"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "IS 4200 Information Retrieval",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4200"
+              ],
+              "code_text": "IS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4200"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PSYC 3466 Cognition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3466"
+              ],
+              "code_text": "PSYC 3466",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3466"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Foundations",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Foundations"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8-9",
+              "credits": {
+                "min": 8.0,
+                "max": 9.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 2800 Logic and Computation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2800"
+              ],
+              "code_text": "CS 2800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2800"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or CS 4820 Computer-Aided Reasoning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4820"
+              ],
+              "code_text": "or CS 4820",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4820"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 4805 Fundamentals of Complexity Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4805"
+              ],
+              "code_text": "CS 4805",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4805"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or CS 4810 Advanced Algorithms",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4810"
+              ],
+              "code_text": "or CS 4810",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4810"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete two of the following not already taken:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 3950 and CS 4950 and CS 4950 Introduction to Computer Science Research and Computer Science Research Seminar and Computer Science Research Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3950",
+                "CS 4950"
+              ],
+              "code_text": "CS 3950 and CS 4950 and CS 4950",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3950"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 4950"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 4950"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 4805 Fundamentals of Complexity Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4805"
+              ],
+              "code_text": "CS 4805",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4805"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 4810 Advanced Algorithms",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4810"
+              ],
+              "code_text": "CS 4810",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4810"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 4820 Computer-Aided Reasoning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4820"
+              ],
+              "code_text": "CS 4820",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4820"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 4830 System Specification, Verification, and Synthesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4830"
+              ],
+              "code_text": "CS 4830",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4830"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CY 4770 Cryptography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4770"
+              ],
+              "code_text": "CY 4770",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4770"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Human-Centered Computing*",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Human-Centered Computing*"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "IS 4300 Human Computer Interaction",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "IS 4300"
+              ],
+              "code_text": "IS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4300"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "IS 4800 Empirical Research Methods",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "IS 4800"
+              ],
+              "code_text": "IS 4800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4800"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete two of the following not already taken:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 4120 Natural Language Processing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4120"
+              ],
+              "code_text": "CS 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4120"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 4520 Mobile Application Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4520"
+              ],
+              "code_text": "CS 4520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4520"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 4550 Web Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4550"
+              ],
+              "code_text": "CS 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4550"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "IS 2000",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 2000"
+              ],
+              "code_text": "IS 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 2000"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "*The concentration in human-centered computing requires a fall co-op pattern.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Software",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Software"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CS 2800 Logic and Computation",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 2800"
+              ],
+              "code_text": "CS 2800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 2800"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 4400 Programming Languages",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4400"
+              ],
+              "code_text": "CS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4400"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "or CS 4730",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete one of the following not already taken:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 3520 Programming in C++",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3520"
+              ],
+              "code_text": "CS 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3520"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 4410 Compilers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4410"
+              ],
+              "code_text": "CS 4410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4410"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 4520 Mobile Application Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4520"
+              ],
+              "code_text": "CS 4520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4520"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 4550 Web Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4550"
+              ],
+              "code_text": "CS 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4550"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "CS 4730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 4820 Computer-Aided Reasoning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4820"
+              ],
+              "code_text": "CS 4820",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4820"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 4830 System Specification, Verification, and Synthesis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4830"
+              ],
+              "code_text": "CS 4830",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4830"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Concentration in Systems",
+      "heading_path": [
+        "Program Requirement",
+        "Concentration in Systems"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "or CS 4730",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete one of the following not already taken:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CY 3740 Systems Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 3740"
+              ],
+              "code_text": "CY 3740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 3740"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CY 4740 Network Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4740"
+              ],
+              "code_text": "CY 4740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4740"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete two of the following not already taken:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CS 3520 Programming in C++",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3520"
+              ],
+              "code_text": "CS 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3520"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CS 4300 Computer Graphics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4300"
+              ],
+              "code_text": "CS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4300"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 4360 Non-Interactive Computer Graphics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4360"
+              ],
+              "code_text": "CS 4360",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4360"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 4610 Robotic Science and Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4610"
+              ],
+              "code_text": "CS 4610",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4610"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 4700 Network Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4700"
+              ],
+              "code_text": "CS 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4700"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CS 4710",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4710"
+              ],
+              "code_text": "CS 4710",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4710"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CS 4730 Distributed Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4730"
+              ],
+              "code_text": "CS 4730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4730"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CY 3740 Systems Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 3740"
+              ],
+              "code_text": "CY 3740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 3740"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CY 4740 Network Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4740"
+              ],
+              "code_text": "CY 4740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4740"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CY 4760 Security of Wireless and Mobile Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4760"
+              ],
+              "code_text": "CY 4760",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4760"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "bscs-bf376cdb",
+  "major_name": "Computer Science",
+  "degree": "BSCS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "The Bachelor of Science in Computer Science focuses on the fundamentals of program design, software development, computer organization, systems and networks, theories of computation, principles of languages, and advanced algorithms and data.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nComputer Science Requirements\nCourse List\nCode\nTitle\nHours\nComputer Science Overview\nCS 1200\nFirst Year Seminar\n1\nCS 1210\nProfessional Development for Khoury Co-op\n1\nComputer Science Fundamental Courses\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nComputer Science Required Courses\nCS 3000\nAlgorithms and Data\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nCS 3650\nComputer Systems\n4\nCS 3800\nTheory of Computation\n4\nCS 4500\nSoftware Development\n4\nor\nCS 4530\nFundamentals of Software Engineering\nDS 3000\nFoundations of Data Science\n4\nSecurity Required Course\nComplete one of the following:\n4\nCY 2550\nFoundations of Cybersecurity\nCY 3740\nSystems Security\nCY 4740\nNetwork Security\nPresentation Requirement\nComplete one of the following:\n4\nCOMM 1112\nPublic Speaking\nCOMM 1113\nBusiness and Professional Speaking\nCOMM 1210\nPersuasion and Rhetoric\nCOMM 1511\nCommunication and Storytelling\nTHTR 1125\nImprovisation\nTHTR 1130\nIntroduction to Acting\nTHTR 1180\nDynamic Presence: Theatre Training for Effective Interpersonal Interactions\nTHTR 2345\nActing for the Camera\nKhoury Elective Courses\nStudents should plan to take a NUpath capstone using designated courses in either a concentration, computer science electives, or as a general elective.\nWith adviser approval, directed study, research, project study, and appropriate graduate-level courses may also be taken as upper-division electives.\nComplete 8 semester hours of CS, CY, DS, or IS classes that are not already required. Choose courses within the following ranges:\n8\nCS 2500\nor higher, except\nCS 5010\nCY 2000 or higher, except\nCY 4930\nDS 2500\nor higher, except DS 4900\nIS 2000 or higher, except IS 4900\nComputer Science Concentrations\nPick one of the following concentrations and complete four courses in that concentration. In all concentrations, up to one\nResearch (\nCS 4991\n)\ncourse can be substituted with college approval. Any missing prerequisites or NUpath requirements must be taken using computer science or general electives. In particular, students must arrange to take a NUpath capstone using either a course in the concentration or a CS, CY, DS, or IS course taken as a computer science elective or as a general elective.\nArtificial Intelligence\nFoundations\nHuman-Centered Computing\nSoftware\nSystems\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics Courses\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1365\nIntroduction to Mathematical Reasoning\n4\nComputing and Social Issues\nComplete one of the following:\n4\nAFCS 2600\nIssues in Race, Science, and Technology\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\nCY 5240\nCyberlaw: Privacy, Ethics, and Digital Rights\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nElectrical Engineering\nEECE 2310\nand\nEECE 2311\nIntroduction to Digital Design and Computer Architecture\nand Lab for EECE 2310\n5\nScience Requirement\nComplete any two courses (and any required labs). Courses may be taken from different categories:\n8\nBiology\nBIOL 1111\nand\nBIOL 1112\nGeneral Biology 1\nand Lab for BIOL 1111\nBIOL 1113\nand\nBIOL 1114\nGeneral Biology 2\nand Lab for BIOL 1113\nBIOL 2301\nand\nBIOL 2302\nGenetics and Molecular Biology\nand Lab for BIOL 2301\nChemistry\nCHEM 1161\nand\nCHEM 1162\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nCHEM 1211\nand\nCHEM 1212\nand\nCHEM 1213\nGeneral Chemistry 1\nand Lab for CHEM 1211\nand Recitation for CHEM 1211\nCHEM 1214\nand\nCHEM 1215\nand\nCHEM 1216\nGeneral Chemistry 2\nand Lab for CHEM 1214\nand Recitation for CHEM 1214\nGeology/Environmental Science\nENVR 1200\nand\nENVR 1201\nDynamic Earth\nand Lab for ENVR 1200\nENVR 1202\nand ENVR 1203\nand\nENVR 2310\nand\nENVR 2311\nEarth Materials\nand Lab for ENVR 2310\nENVR 2340\nand\nENVR 2341\nEarth Landforms and Processes\nand Lab for ENVR 2340\nENVR 3300\nand\nENVR 3301\nGeographic Information Systems\nand Lab for ENVR 3300\nENVR 4500\nand\nENVR 4501\nApplied Hydrogeology\nand Lab for ENVR 4500\nENVR 5242\nand ENVR 5243\nand\nMathematics\nMATH 1342\nCalculus 2 for Science and Engineering\nMATH 2331\nLinear Algebra\nMATH 3081\nProbability and Statistics\nPhysics\nPHYS 1145\nand\nPHYS 1146\nPhysics for Life Sciences 1\nand Lab for PHYS 1145\nPHYS 1147\nand\nPHYS 1148\nPhysics for Life Sciences 2\nand Lab for PHYS 1147\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nPHYS 1161\nand\nPHYS 1162\nand\nPHYS 1163\nPhysics 1\nand Lab for PHYS 1161\nand Recitation for PHYS 1161\nPHYS 1165\nand\nPHYS 1166\nand\nPHYS 1167\nPhysics 2\nand Lab for PHYS 1165\nand Recitation for PHYS 1165\nComputer Science Writing Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nAdvanced Writing in the Disciplines\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 28 semester hours of general electives.\n28\nKhoury College GPA Requirement\nMinimum cumulative 2.000 GPA required in all CS, CY, DS, and IS courses\nComputer Science Credit Requirement\nComplete 72 semester hours in the major.\nNUpath Requirements Satisfied\nEngaging with the Natural and Designed World\nConducting Formal and Quantitative Reasoning\nAnalyzing and Using Data\nWriting in the First Year\nAdvanced Writing in the Disciplines\nWriting-Intensive in the Major\nIntegrating Knowledge and Skills Through Experience is satisfied through co-op.\nProgram Requirement\n134 total semester hours required\nConcentration in Artificial Intelligence\nCourse List\nCode\nTitle\nHours\nCS 4100\nArtificial Intelligence\n4\nDS 4400\nMachine Learning and Data Mining 1\n4\nComplete two of the following not already taken:\n8\nCS 4120\nNatural Language Processing\nCS 4150\nGame Artificial Intelligence\nCS 4180\nReinforcement Learning\nCS 4610\nRobotic Science and Systems\nDS 4420\nMachine Learning and Data Mining 2\nIS 4200\nInformation Retrieval\nPSYC 3466\nCognition\nConcentration in Foundations\nCourse List\nCode\nTitle\nHours\nComplete two of the following:\n8-9\nCS 2800\nLogic and Computation\nor\nCS 4820\nComputer-Aided Reasoning\nCS 4805\nFundamentals of Complexity Theory\nor\nCS 4810\nAdvanced Algorithms\nComplete two of the following not already taken:\n8\nCS 3950\nand\nCS 4950\nand\nCS 4950\nIntroduction to Computer Science Research\nand Computer Science Research Seminar\nand Computer Science Research Seminar\nCS 4805\nFundamentals of Complexity Theory\nCS 4810\nAdvanced Algorithms\nCS 4820\nComputer-Aided Reasoning\nCS 4830\nSystem Specification, Verification, and Synthesis\nCY 4770\nCryptography\nConcentration in Human-Centered Computing*\nCourse List\nCode\nTitle\nHours\nIS 4300\nHuman Computer Interaction\n4\nIS 4800\nEmpirical Research Methods\n4\nComplete two of the following not already taken:\n8\nCS 4120\nNatural Language Processing\nCS 4520\nMobile Application Development\nCS 4550\nWeb Development\nDS 4200\nInformation Presentation and Visualization\nIS 2000\n*The concentration in human-centered computing requires a fall co-op pattern.\nConcentration in Software\nCourse List\nCode\nTitle\nHours\nCS 2800\nLogic and Computation\n4\nCS 4400\nProgramming Languages\n4\nCS 4700\nNetwork Fundamentals\n4\nor\nCS 4730\nDistributed Systems\nComplete one of the following not already taken:\nCS 3520\nProgramming in C++\nCS 4410\nCompilers\nCS 4520\nMobile Application Development\nCS 4550\nWeb Development\nCS 4700\nNetwork Fundamentals\nCS 4730\nDistributed Systems\nCS 4820\nComputer-Aided Reasoning\nCS 4830\nSystem Specification, Verification, and Synthesis\nConcentration in Systems\nCourse List\nCode\nTitle\nHours\nCS 4700\nNetwork Fundamentals\n4\nor\nCS 4730\nDistributed Systems\nComplete one of the following not already taken:\n4\nCY 3740\nSystems Security\nCY 4740\nNetwork Security\nComplete two of the following not already taken:\n8\nCS 3520\nProgramming in C++\nCS 4300\nComputer Graphics\nCS 4360\nNon-Interactive Computer Graphics\nCS 4610\nRobotic Science and Systems\nCS 4700\nNetwork Fundamentals\nCS 4710\nCS 4730\nDistributed Systems\nCY 3740\nSystems Security\nCY 4740\nNetwork Security\nCY 4760\nSecurity of Wireless and Mobile Systems",
+  "referenced_courses": [
+    "AFCS 2600",
+    "BIOL 1111",
+    "BIOL 1112",
+    "BIOL 1113",
+    "BIOL 1114",
+    "BIOL 2301",
+    "BIOL 2302",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1211",
+    "CHEM 1212",
+    "CHEM 1213",
+    "CHEM 1214",
+    "CHEM 1215",
+    "CHEM 1216",
+    "COMM 1112",
+    "COMM 1113",
+    "COMM 1210",
+    "COMM 1511",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 2800",
+    "CS 3000",
+    "CS 3500",
+    "CS 3501",
+    "CS 3520",
+    "CS 3650",
+    "CS 3800",
+    "CS 3950",
+    "CS 4100",
+    "CS 4120",
+    "CS 4150",
+    "CS 4180",
+    "CS 4300",
+    "CS 4360",
+    "CS 4400",
+    "CS 4410",
+    "CS 4500",
+    "CS 4520",
+    "CS 4530",
+    "CS 4550",
+    "CS 4610",
+    "CS 4700",
+    "CS 4710",
+    "CS 4730",
+    "CS 4805",
+    "CS 4810",
+    "CS 4820",
+    "CS 4830",
+    "CS 4950",
+    "CS 4991",
+    "CS 5010",
+    "CY 2550",
+    "CY 3740",
+    "CY 4170",
+    "CY 4740",
+    "CY 4760",
+    "CY 4770",
+    "CY 4930",
+    "CY 5240",
+    "DS 2500",
+    "DS 3000",
+    "DS 4200",
+    "DS 4400",
+    "DS 4420",
+    "EECE 2310",
+    "EECE 2311",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "ENVR 1200",
+    "ENVR 1201",
+    "ENVR 1202",
+    "ENVR 1203",
+    "ENVR 2310",
+    "ENVR 2311",
+    "ENVR 2340",
+    "ENVR 2341",
+    "ENVR 3300",
+    "ENVR 3301",
+    "ENVR 4500",
+    "ENVR 4501",
+    "ENVR 5242",
+    "ENVR 5243",
+    "HIST 2220",
+    "INSH 2102",
+    "IS 1300",
+    "IS 2000",
+    "IS 4200",
+    "IS 4300",
+    "IS 4800",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 1365",
+    "MATH 2331",
+    "MATH 3081",
+    "PHIL 1145",
+    "PHIL 1300",
+    "PHYS 1145",
+    "PHYS 1146",
+    "PHYS 1147",
+    "PHYS 1148",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1163",
+    "PHYS 1165",
+    "PHYS 1166",
+    "PHYS 1167",
+    "PSYC 3466",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528",
+    "THTR 1125",
+    "THTR 1130",
+    "THTR 1180",
+    "THTR 2345"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": "Artificial Intelligence",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#ARIN"
+    },
+    {
+      "text": "Foundations",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#FNDS"
+    },
+    {
+      "text": "Human-Centered Computing",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#HUCC"
+    },
+    {
+      "text": "Software",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#SFTW"
+    },
+    {
+      "text": "Systems",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#SYST"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "Artificial Intelligence",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#ARIN",
+      "document_id": "bscs-bf376cdb",
+      "kind": "program",
+      "fragment": "ARIN"
+    },
+    {
+      "text": "Foundations",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#FNDS",
+      "document_id": "bscs-bf376cdb",
+      "kind": "program",
+      "fragment": "FNDS"
+    },
+    {
+      "text": "Human-Centered Computing",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#HUCC",
+      "document_id": "bscs-bf376cdb",
+      "kind": "program",
+      "fragment": "HUCC"
+    },
+    {
+      "text": "Software",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#SFTW",
+      "document_id": "bscs-bf376cdb",
+      "kind": "program",
+      "fragment": "SFTW"
+    },
+    {
+      "text": "Systems",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/bscs/#SYST",
+      "document_id": "bscs-bf376cdb",
+      "kind": "program",
+      "fragment": "SYST"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "CS 4710",
+    "ENVR 1202",
+    "ENVR 1203",
+    "ENVR 5242",
+    "ENVR 5243",
+    "IS 2000",
+    "SOCL 4528"
+  ]
+}

@@ -1,0 +1,1812 @@
+{
+  "document_id": "design-bfa-9ad3fc82",
+  "kind": "program",
+  "title": "Design, BFA",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements Creative Expression/Innovation (EI), Interpreting Culture (IC), and Societies and Institutions (SI) are met through the major course requirements. All other NUpath requirements must be met through electives.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "Students interested in design PlusOne programs should consult with faculty coordinator and advisor during sophomore year to register for 5000-level courses in junior and senior years.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Art and Design Core",
+      "heading_path": [
+        "Art and Design Core"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introduction to College",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTF 1000 Art and Design at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1000"
+              ],
+              "code_text": "ARTF 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTF 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Art and Design Fundamentals",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTF 1122 Color and Composition (with optional ARTF 1123 )",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1122"
+              ],
+              "code_text": "ARTF 1122",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTF 1122"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARTF 1124 and ARTF 1125 Form and Structure and Form and Structure Tools",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 1124",
+                "ARTF 1125"
+              ],
+              "code_text": "ARTF 1124 and ARTF 1125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTF 1124"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTF 1125"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTF 2220 and ARTF 2221 Movement and Time and Movement and Time Tools",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 2220",
+                "ARTF 2221"
+              ],
+              "code_text": "ARTF 2220 and ARTF 2221",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2220"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2221"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTF 2223 and ARTF 2224 Experience and Interaction and Experience and Interaction Tools",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTF 2223",
+                "ARTF 2224"
+              ],
+              "code_text": "ARTF 2223 and ARTF 2224",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2223"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTF 2224"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Art and Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ARTH 1001 and ARTH 1002 Visual Intelligence and Seminar in Visual Intelligence",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 1001",
+                "ARTH 1002"
+              ],
+              "code_text": "ARTH 1001 and ARTH 1002",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTH 1001"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTH 1002"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ARTH 3000 Topics in Visual Studies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 3000"
+              ],
+              "code_text": "ARTH 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 3000"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ARTH 4000 Topics in Visual Studies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 4000"
+              ],
+              "code_text": "ARTH 4000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 4000"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Requirements",
+      "heading_path": [
+        "Design Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Design Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTG 1001 and ARTG 1002 Design Perspectives: An Introduction to Design in the World and Seminar for Design Perspectives",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 1001",
+                "ARTG 1002"
+              ],
+              "code_text": "ARTG 1001 and ARTG 1002",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1001"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTG 1002"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 1250 Design Process Context and Systems",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 1250"
+              ],
+              "code_text": "ARTG 1250",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 1250"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTG 2250 and ARTG 2251 Typography 1 and Type Tools",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2250",
+                "ARTG 2251"
+              ],
+              "code_text": "ARTG 2250 and ARTG 2251",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTG 2250"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTG 2251"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARTG 2260 Programming Basics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2260"
+              ],
+              "code_text": "ARTG 2260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 2260"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Degree Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTG 4550 Design Degree Project",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 4550"
+              ],
+              "code_text": "ARTG 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 4550"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Electives or Concentration",
+      "heading_path": [
+        "Design Electives or Concentration"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete one of the options listed below:",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Design Major (No Concentration) Design Major with Concentration in Experience Design Design Major with Concentration in Graphic Design Design Major with Concentration in Information Design Design Major with Concentration in Interaction Design",
+          "links": [
+            {
+              "text": "Design Major (No Concentration)",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#noconc"
+            },
+            {
+              "text": "Design Major with Concentration in Experience Design",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Experience Design"
+            },
+            {
+              "text": "Design Major with Concentration in Graphic Design",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Graphic Design"
+            },
+            {
+              "text": "Design Major with Concentration in Information Design",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Information Design"
+            },
+            {
+              "text": "Design Major with Concentration in Interaction Design",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Interaction Design"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Design Major (No Concentration)",
+            "Design Major with Concentration in Experience Design",
+            "Design Major with Concentration in Graphic Design",
+            "Design Major with Concentration in Information Design",
+            "Design Major with Concentration in Interaction Design"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirements",
+      "heading_path": [
+        "Program Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "129 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Electives or Concentration Options",
+      "heading_path": [
+        "Design Electives or Concentration Options"
+      ],
+      "level": 2,
+      "entries": [],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Major (No Concentration)",
+      "heading_path": [
+        "Design Electives or Concentration Options",
+        "Design Major (No Concentration)"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Art and Design Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "instruction",
+              "text": "Complete one ARTE, ARTD, ARTF, ARTS, or GAME course not already required and as long as prerequisites have been met. If ARTG 5000 (or any other topics course in the subjects listed) is completed more than once, the additional completions may be applied toward the electives.",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Art and Design History and Theory Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARTH 1100 Interactive Media and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 1100"
+              ],
+              "code_text": "ARTH 1100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 1100"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTH 2212 Survey of the Still and Moving Image",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 2212"
+              ],
+              "code_text": "ARTH 2212",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 2212"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTH 2215 History of Graphic Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTH 2215"
+              ],
+              "code_text": "ARTH 2215",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTH 2215"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ARTG 3510 Contextual and Theoretical Studies 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3510"
+              ],
+              "code_text": "ARTG 3510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3510"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "ARTG 5110 Information Design History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5110"
+              ],
+              "code_text": "ARTG 5110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5110"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Media Arts Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-6",
+              "credits": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ARTD 2360 and ARTD 2361 Introduction to Photography and Photo Tools",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTD 2360",
+                "ARTD 2361"
+              ],
+              "code_text": "ARTD 2360 and ARTD 2361",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTD 2360"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTD 2361"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ARTD 2370 and ARTD 2371 Animation Basics and Animation Tools",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTD 2370",
+                "ARTD 2371"
+              ],
+              "code_text": "ARTD 2370 and ARTD 2371",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTD 2370"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTD 2371"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ARTD 2380 and ARTD 2381 Video Basics and Video Tools",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTD 2380",
+                "ARTD 2381"
+              ],
+              "code_text": "ARTD 2380 and ARTD 2381",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTD 2380"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTD 2381"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ARTD 3000 Topics in Media Arts",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTD 3000"
+              ],
+              "code_text": "ARTD 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTD 3000"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Design Management Electives at University of the Arts London",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "Students who study abroad at the University of the Arts London will receive general elective credit for the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "ARTG 3530 Interdisciplinary Projects and Practices",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3530"
+              ],
+              "code_text": "ARTG 3530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3530"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "ARTG 3520 Marketing Communications and Cultures 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3520"
+              ],
+              "code_text": "ARTG 3520",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3520"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Design Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "instruction",
+              "text": "Complete three ARTG design electives as long as prerequisites have been met. If ARTG 5000 (or any other topics course in the subject listed) is completed more than once, the additional completions may be allowed toward the electives.",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Major with Concentration in Experience Design",
+      "heading_path": [
+        "Design Electives or Concentration Options",
+        "Design Major with Concentration in Experience Design"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTG 3462 Experience Design 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3462"
+              ],
+              "code_text": "ARTG 3462",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3462"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 3463 Experience Design 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3463"
+              ],
+              "code_text": "ARTG 3463",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3463"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTG 5000 Topics in Design",
+              "credits_text": "1-4",
+              "credits": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5000"
+              ],
+              "code_text": "ARTG 5000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTG 3100 Physical and Digital Fabrication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3100"
+              ],
+              "code_text": "ARTG 3100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3100"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ARTG 5640 Prototyping for Experience Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5640"
+              ],
+              "code_text": "ARTG 5640",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5640"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Major with Concentration in Graphic Design",
+      "heading_path": [
+        "Design Electives or Concentration Options",
+        "Design Major with Concentration in Graphic Design"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTG 2252 Graphic Design 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2252"
+              ],
+              "code_text": "ARTG 2252",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 2252"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 3450 Graphic Design 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3450"
+              ],
+              "code_text": "ARTG 3450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3450"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTG 5000 Topics in Design",
+              "credits_text": "1-4",
+              "credits": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5000"
+              ],
+              "code_text": "ARTG 5000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTG 3350 Typography 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3350"
+              ],
+              "code_text": "ARTG 3350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3350"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ARTG 4554 Typography 3",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 4554"
+              ],
+              "code_text": "ARTG 4554",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 4554"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Major with Concentration in Information Design",
+      "heading_path": [
+        "Design Electives or Concentration Options",
+        "Design Major with Concentration in Information Design"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ARTG 3451 Information Design 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3451"
+              ],
+              "code_text": "ARTG 3451",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3451"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTG 4552 Information Design 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 4552"
+              ],
+              "code_text": "ARTG 4552",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 4552"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 5000 Topics in Design",
+              "credits_text": "1-4",
+              "credits": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5000"
+              ],
+              "code_text": "ARTG 5000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARTG 5320 Statistics for Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5320"
+              ],
+              "code_text": "ARTG 5320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5320"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARTG 5150 and ARTG 5151 Information Visualization Principles and Practices and Information Design Critique Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5150",
+                "ARTG 5151"
+              ],
+              "code_text": "ARTG 5150 and ARTG 5151",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARTG 5150"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARTG 5151"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Design Major with Concentration in Interaction Design",
+      "heading_path": [
+        "Design Electives or Concentration Options",
+        "Design Major with Concentration in Interaction Design"
+      ],
+      "level": 3,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARTG 2400 Interaction Design 1: Responsive (with optional ARTG 2401 )",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 2400"
+              ],
+              "code_text": "ARTG 2400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 2400"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARTG 3700 Interaction Design 2: Mobile",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3700"
+              ],
+              "code_text": "ARTG 3700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3700"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARTG 5000 Topics in Design",
+              "credits_text": "1-4",
+              "credits": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5000"
+              ],
+              "code_text": "ARTG 5000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARTG 3250 Physical Computing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 3250"
+              ],
+              "code_text": "ARTG 3250",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 3250"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "ARTG 5640 Prototyping for Experience Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARTG 5640"
+              ],
+              "code_text": "ARTG 5640",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARTG 5640"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "design-bfa-9ad3fc82",
+  "major_name": "Design",
+  "degree": "BFA",
+  "campus": "",
+  "college": "College of Arts, Media and Design",
+  "overview_text": "Design is the practice-based discipline that poses important questions about—and provides significant answers to—how we live. Designers are needed when we don’t know what is needed as well as when we think we do. Designers propose alternative futures and create new choices using principles and processes to create, compose, and construct meaning in diverse knowledge fields. Designers seek a broad understanding of principles and systems of perception, communication, and action. Concentrations in design practices are graphic and information design, interaction design, and experience design. Graphic designers make messages and meaning using visual form and the integration of text and image. Their work often has a persuasive intent and uses rules of visual composition, form, and pattern to enable storytelling or to create attention and an ambiance for consideration. Information designers visualize concepts and data to enhance human understanding of complex and vital knowledge. Their work has an enlightening or instructive intent and is based on factual content. Interaction designers focus on the creation of navigable interfaces and systems that allow audiences to take an active role to achieve meaningful goals. Their work connects people to people and people to information and environments. Experience designers take a holistic and integrative approach that focuses on the quality of the human experience in concrete situations. They employ research, analysis, creativity, and technology as tools to understand human goals, needs, and desires. Their work examines and improves contexts, systems, services, or events. The Bachelor of Fine Arts in Design is offered with the following concentration options: graphic and information design, interaction design, or experience design. The major offers optional study abroad with University of the Arts London , based in the heart of one of the world's creative capitals, London. Students from this program will have the opportunity to spend their second spring semester in London studying fine art at Central Saint Martins .",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements Creative Expression/Innovation (EI), Interpreting Culture (IC), and Societies and Institutions (SI) are met through the major course requirements. All other NUpath requirements must be met through electives.\nStudents interested in design PlusOne programs should consult with faculty coordinator and advisor during sophomore year to register for 5000-level courses in junior and senior years.\nArt and Design Core\nCourse List\nCode\nTitle\nHours\nIntroduction to College\nARTF 1000\nArt and Design at Northeastern\n1\nArt and Design Fundamentals\nARTF 1122\nColor and Composition (with optional\nARTF 1123\n)\n4\nARTF 1124\nand\nARTF 1125\nForm and Structure\nand Form and Structure Tools\n5\nARTF 2220\nand\nARTF 2221\nMovement and Time\nand Movement and Time Tools\n5\nARTF 2223\nand\nARTF 2224\nExperience and Interaction\nand Experience and Interaction Tools\n5\nArt and Design History\nARTH 1001\nand\nARTH 1002\nVisual Intelligence\nand Seminar in Visual Intelligence\n4\nARTH 3000\nTopics in Visual Studies\n4\nARTH 4000\nTopics in Visual Studies\n4\nDesign Requirements\nCourse List\nCode\nTitle\nHours\nDesign Courses\nARTG 1001\nand\nARTG 1002\nDesign Perspectives: An Introduction to Design in the World\nand Seminar for Design Perspectives\n4\nARTG 1250\nDesign Process Context and Systems\n4\nARTG 2250\nand\nARTG 2251\nTypography 1\nand Type Tools\n5\nARTG 2260\nProgramming Basics\n4\nDegree Project\nARTG 4550\nDesign Degree Project\n4\nDesign Electives or Concentration\nComplete one of the options listed below:\nDesign Major (No Concentration)\nDesign Major with Concentration in Experience Design\nDesign Major with Concentration in Graphic Design\nDesign  Major  with Concentration in Information Design\nDesign Major with Concentration in Interaction Design\nProgram Requirements\n129 total semester hours required\nDesign Electives or Concentration Options\nDesign Major (No Concentration)\nCourse List\nCode\nTitle\nHours\nArt and Design Elective\nComplete one ARTE, ARTD, ARTF, ARTS, or GAME course not already required and as long as prerequisites have been met. If\nARTG 5000\n(or any other topics course in the subjects listed) is completed more than once, the additional completions may be applied toward the electives.\n4-6\nArt and Design History and Theory Elective\nComplete one of the following:\n4\nARTH 1100\nInteractive Media and Society\nARTH 2212\nSurvey of the Still and Moving Image\nARTH 2215\nHistory of Graphic Design\nARTG 3510\nContextual and Theoretical Studies 2\nARTG 5110\nInformation Design History\nMedia Arts Elective\nComplete one of the following:\n4-6\nARTD 2360\nand\nARTD 2361\nIntroduction to Photography\nand Photo Tools\nARTD 2370\nand\nARTD 2371\nAnimation Basics\nand Animation Tools\nARTD 2380\nand\nARTD 2381\nVideo Basics\nand Video Tools\nARTD 3000\nTopics in Media Arts\nDesign Management Electives at University of  the Arts London\nStudents who study abroad at the University of the Arts London will receive general elective credit for the following:\nARTG 3530\nInterdisciplinary Projects and Practices\nARTG 3520\nMarketing Communications and Cultures 2\nDesign Electives\nComplete three ARTG design electives as long as prerequisites have been met. If\nARTG 5000\n(or any other topics course in the subject listed) is completed more than once, the additional completions may be allowed toward the electives.\n12\nDesign Major with Concentration in Experience Design\nCourse List\nCode\nTitle\nHours\nRequired Courses\nARTG 3462\nExperience Design 1\n4\nARTG 3463\nExperience Design 2\n4\nARTG 5000\nTopics in Design\n1-4\nElective\nComplete one of the following:\nARTG 3100\nPhysical and Digital Fabrication\nARTG 5640\nPrototyping for Experience Design\nDesign Major with Concentration in Graphic Design\nCourse List\nCode\nTitle\nHours\nRequired Courses\nARTG 2252\nGraphic Design 1\n4\nARTG 3450\nGraphic Design 2\n4\nARTG 5000\nTopics in Design\n1-4\nElective\nComplete one of the following:\nARTG 3350\nTypography 2\nARTG 4554\nTypography 3\nDesign Major with Concentration in Information Design\nCourse List\nCode\nTitle\nHours\nARTG 3451\nInformation Design 1\n4\nARTG 4552\nInformation Design 2\n4\nARTG 5000\nTopics in Design\n1-4\nComplete one of the following:\nARTG 5320\nStatistics for Design\nARTG 5150\nand\nARTG 5151\nInformation Visualization Principles and Practices\nand Information Design Critique Seminar\nDesign Major with Concentration in Interaction Design\nCourse List\nCode\nTitle\nHours\nRequired Courses\nARTG 2400\nInteraction Design 1: Responsive (with optional\nARTG 2401\n)\n4-5\nARTG 3700\nInteraction Design 2: Mobile\n4\nARTG 5000\nTopics in Design\n1-4\nElective\nComplete one of the following:\nARTG 3250\nPhysical Computing\nARTG 5640\nPrototyping for Experience Design",
+  "referenced_courses": [
+    "ARTD 2360",
+    "ARTD 2361",
+    "ARTD 2370",
+    "ARTD 2371",
+    "ARTD 2380",
+    "ARTD 2381",
+    "ARTD 3000",
+    "ARTF 1000",
+    "ARTF 1122",
+    "ARTF 1123",
+    "ARTF 1124",
+    "ARTF 1125",
+    "ARTF 2220",
+    "ARTF 2221",
+    "ARTF 2223",
+    "ARTF 2224",
+    "ARTG 1001",
+    "ARTG 1002",
+    "ARTG 1250",
+    "ARTG 2250",
+    "ARTG 2251",
+    "ARTG 2252",
+    "ARTG 2260",
+    "ARTG 2400",
+    "ARTG 2401",
+    "ARTG 3100",
+    "ARTG 3250",
+    "ARTG 3350",
+    "ARTG 3450",
+    "ARTG 3451",
+    "ARTG 3462",
+    "ARTG 3463",
+    "ARTG 3510",
+    "ARTG 3520",
+    "ARTG 3530",
+    "ARTG 3700",
+    "ARTG 4550",
+    "ARTG 4552",
+    "ARTG 4554",
+    "ARTG 5000",
+    "ARTG 5110",
+    "ARTG 5150",
+    "ARTG 5151",
+    "ARTG 5320",
+    "ARTG 5640",
+    "ARTH 1001",
+    "ARTH 1002",
+    "ARTH 1100",
+    "ARTH 2212",
+    "ARTH 2215",
+    "ARTH 3000",
+    "ARTH 4000"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": "Design Major (No Concentration)",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#noconc"
+    },
+    {
+      "text": "Design Major with Concentration in Experience Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Experience Design"
+    },
+    {
+      "text": "Design Major with Concentration in Graphic Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Graphic Design"
+    },
+    {
+      "text": "Design Major with Concentration in Information Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Information Design"
+    },
+    {
+      "text": "Design Major with Concentration in Interaction Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Interaction Design"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "Design Major (No Concentration)",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#noconc",
+      "document_id": "design-bfa-9ad3fc82",
+      "kind": "program",
+      "fragment": "noconc"
+    },
+    {
+      "text": "Design Major with Concentration in Experience Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Experience Design",
+      "document_id": "design-bfa-9ad3fc82",
+      "kind": "program",
+      "fragment": "Concentration in Experience Design"
+    },
+    {
+      "text": "Design Major with Concentration in Graphic Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Graphic Design",
+      "document_id": "design-bfa-9ad3fc82",
+      "kind": "program",
+      "fragment": "Concentration in Graphic Design"
+    },
+    {
+      "text": "Design Major with Concentration in Information Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Information Design",
+      "document_id": "design-bfa-9ad3fc82",
+      "kind": "program",
+      "fragment": "Concentration in Information Design"
+    },
+    {
+      "text": "Design Major with Concentration in Interaction Design",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/arts-media-design/art-design/design-bfa/#Concentration in Interaction Design",
+      "document_id": "design-bfa-9ad3fc82",
+      "kind": "program",
+      "fragment": "Concentration in Interaction Design"
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

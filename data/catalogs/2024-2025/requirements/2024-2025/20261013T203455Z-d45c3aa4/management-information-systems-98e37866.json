@@ -1,0 +1,359 @@
+{
+  "document_id": "management-information-systems-98e37866",
+  "kind": "concentration",
+  "title": "Management Information Systems",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/business/concentrations/management-information-systems/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Concentration in Management Information Systems",
+      "heading_path": [
+        "Concentration in Management Information Systems"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "Only one course may double count between another concentration or minor.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "header",
+              "text": "Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MISM 3403 Data Management for Business",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MISM 3403"
+              ],
+              "code_text": "MISM 3403",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 3403"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "header",
+              "text": "Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 4,
+              "kind": "instruction",
+              "text": "Complete three of the following:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 3
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "MGMT 3530 Project Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MGMT 3530"
+              ],
+              "code_text": "MGMT 3530",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MGMT 3530"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "MISM 3405 Data Wrangling for Business Analytics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 3405"
+              ],
+              "code_text": "MISM 3405",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 3405"
+              },
+              "alternative_group": 7
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "or MISM 2510 Fundamentals of Information Analytics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2510"
+              ],
+              "code_text": "or MISM 2510",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2510"
+              },
+              "alternative_group": 7
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "or MISM 3515 Data Mining for Business",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 3515"
+              ],
+              "code_text": "or MISM 3515",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 3515"
+              },
+              "alternative_group": 7
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "or MISM 3501 Information Visualization for Business",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 3501"
+              ],
+              "code_text": "or MISM 3501",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 3501"
+              },
+              "alternative_group": 7
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "MISM 2420 Foundations of Business Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 2420"
+              ],
+              "code_text": "MISM 2420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 2420"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "MISM 3460 Web Design and Development for Business",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 3460"
+              ],
+              "code_text": "MISM 3460",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 3460"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "MISM 4405 IT Requirements Analysis and Modeling for Business",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 4405"
+              ],
+              "code_text": "MISM 4405",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 4405"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "MISM 4501 Strategic Information Products",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 4501"
+              ],
+              "code_text": "MISM 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 4501"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "MISM 4983 Special Topics in Management Information Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MISM 4983"
+              ],
+              "code_text": "MISM 4983",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MISM 4983"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [
+        "concentrationrequirementstext"
+      ],
+      "container_id": "concentrationrequirementstextcontainer"
+    }
+  ],
+  "overview_text": "In the global information age, success for organizations requires the ability to manage, analyze, and use information effectively. To that end, the goal of the Management Information Systems concentration is to teach future managers how to manage and utilize data and information technology (IT) to help both individuals and organizations perform more efficiently and effectively. This can lead the student in two career directions: To become a professional in the cross-functional information management, business analytics, and data quality and governance functions of a company or in an IT or data-enabled strategic business transformation initiative. To accelerate and enhance a data-informed or data leadership career in organizations or another functional area such as finance, marketing, research and development, innovation, accounting, workforce management, strategic management, or acquisitions. Understanding how to get the right information in the right form and format to the right people at the right time is essential in today’s business world, especially when companies and the individuals that do this well are achieving significant competitive advantages. Students have the opportunity to explore new, cutting-edge approaches that allow them to use the powerful resource of information to its greatest advantage. These approaches often use analytical concepts such as information visualization, artificial intelligence, and data mining. The importance of information privacy and security is also emphasized. Students have the opportunity to develop technical and problem-solving skills that are in high demand by employers, and to apply those skills through both classroom activities and co-ops focused on information management or business analytics. Managers in the information management function need to interact frequently with other managers throughout an organization. Therefore, students are also encouraged to complete a dual concentration in information management and another area of business. Graduates of this program have a wide range of career paths that suit their particular interests. Professional options include Business/Systems/Information Analyst, Database Manager or Designer, Data Architect or Data Strategist, Information Product Designer/Manager, Data Quality Manager, Data Governance Manager, IT or Data Project Manager, Consultant, and IT or Data Specialist or Strategist within other departments, such as financial services, accounting, marketing, R&D, manufacturing, customer service, and risk management and compliance. Executive positions include Chief Data Officer or Chief Information Officer.",
+  "source_text": "Concentration in Management Information Systems\nCourse List\nCode\nTitle\nHours\nOnly one course may double count between another concentration or minor.\nRequired Courses\nMISM 3403\nData Management for Business\n4\nElectives\nComplete three of the following:\n12\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nMGMT 3530\nProject Management\nMISM 3405\nData Wrangling for Business Analytics\nor\nMISM 2510\nFundamentals of Information Analytics\nor\nMISM 3515\nData Mining for Business\nor\nMISM 3501\nInformation Visualization for Business\nMISM 2420\nFoundations of Business Analysis\nMISM 3460\nWeb Design and Development for Business\nMISM 4405\nIT Requirements Analysis and Modeling for Business\nMISM 4501\nStrategic Information Products\nMISM 4983\nSpecial Topics in Management Information Systems",
+  "referenced_courses": [
+    "DS 2000",
+    "DS 2001",
+    "MGMT 3530",
+    "MISM 2420",
+    "MISM 2510",
+    "MISM 3403",
+    "MISM 3405",
+    "MISM 3460",
+    "MISM 3501",
+    "MISM 3515",
+    "MISM 4405",
+    "MISM 4501",
+    "MISM 4983"
+  ],
+  "links": [],
+  "linked_requirements": [],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

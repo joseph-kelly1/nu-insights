@@ -164,6 +164,16 @@ python json_scrapers/requirements_scraper.py
 
 Use `--catalog-year 2026-2027` to require that exact live edition, `--output-dir /path/to/data` for a separate dataset, and `--delay 0.5` to adjust the minimum interval between requests (default: 0.25 seconds). The scraper discovers pages through the public sitemap and checks `robots.txt` before fetching each page. It does not use the excluded A-Z index or crawl archived editions. Requests have timeouts, retries, and rate-limit backoff.
 
+Archived undergraduate requirements for **2022–2023 through 2025–2026** are stored separately in `data/catalogs/<year>/`, alongside that edition's concentrations and course descriptions. The builder combines those editions with the live **2026–2027** requirements, covering current first- through fifth-year students. Selecting a catalog year uses that year's rules, course credits, NUpath source, and concentration options; it never substitutes the current requirements for an older degree.
+
+To import explicitly selected archive editions:
+
+```sh
+python json_scrapers/archive_requirements_scraper.py --years 2022-2023 2023-2024 2024-2025 2025-2026
+```
+
+The archive importer follows only public links inside each selected edition, paces requests, caches source HTML in `/private/tmp/nu-catalog-imports`, and publishes a year only after its extraction completes. Pages with no published program requirements are recorded as coverage gaps. These snapshots do not replace live browsing data and require no database rebuild. Older completed courses can satisfy their original requirements; courses absent from the current teaching catalog require an approved current equivalent before future scheduling. Archived rules are labeled as extracted unless their exact content has been reviewed.
+
 Each successful refresh creates an immutable snapshot:
 
 ```text
@@ -195,9 +205,11 @@ python -m unittest -v test_requirements_scraper
 Open **Course Builder** from course browsing once a major is selected. Plans live only in this browser (one draft per major, requirements catalog year, and concentration choice), with JSON export/import and a print view. API keys are never saved or exported.
 
 - **Timeline:** four academic years by default (fall → spring → Summer 1/Session A → Summer 2/Session B); add or remove terms and years, mark terms off, fully fixed, or co-op (one experience spanning consecutive terms). Shortening a plan never discards entries without asking.
+- **Catalog and concentrations:** choose the requirements catalog on your degree audit, from 2022–2023 through 2026–2027. Timeline settings can switch catalog years and offer the concentration choices published for that edition. Changing either preserves history and pinned courses, clears unpinned suggestions, and rechecks the selected year's rules.
 - **Adding courses:** each term lists courses its year and semester commonly hold in your major's sample plans (lecture + lab add together; sample plans are 2025–26 history, so retired codes show but can't be added). Type codes or names ("fundies 1, discrete math"): codes resolve directly, names are matched by the AI against your program's sample-plan and requirement courses plus title matches, and you tick which guesses to add. Title search updates as you type.
+- **Retired courses:** an older catalog's rules stay as published, past records keep their archived credits and metadata, and future courses use current prerequisites, credits, and attributes. `data/course_replacements.json` lists documented replacements (current lecture + lab for a retired bundle), each with explicit program, campus, catalog-year, and effective-term scope plus pinned evidence. Only `verified` records count automatically: the current bundle joins the same choice slot as the exact original bundle, keeps its own code, credits, NUpath attributes, and pool eligibility, and the report says, for example, "CS 3100 + CS 3101 fulfill the CS 3500 + CS 3501 requirement" with its source. Future terms then offer that bundle in place of a retired sample-plan bundle. `candidate` records only name the documented successor next to the unmet requirement; count it with **Counts as another course?** and approval details. Registry changes change the dataset fingerprint; a missing registry applies no replacements.
 - **Check my plan** (no AI): prerequisites in chronological order (minimum grades and "may be taken concurrently" when the course data records them), corequisites in the same term, exact credit choices, term limits, repeats, AWD timing, and requirement progress. A course counts toward one major/concentration rule; NUpath allows a course to meet two of the first eight competencies, and transfer credit at most five of them.
-- **Fill remaining courses:** OR-Tools CP-SAT places courses only into open future terms. Completed, current, pinned, fixed, off, and co-op terms are constants. Elective pools become "choose a course" placeholders unless the AI ranked a specific option. The AI only ranks server-supplied course codes by your interests; any unknown code rejects the ranking, and **Fill without AI** is always available. Every proposal is re-checked by the validator, shown as a diff, and applied only if your plan hasn't changed since.
+- **Fill remaining courses:** OR-Tools CP-SAT places courses only into open future terms. Completed, current, pinned, fixed, off, and co-op terms are constants. Elective pools become "choose a course" placeholders unless the AI ranked a specific option. The AI only ranks server-supplied course codes by your interests, and only when there are electives to rank and you entered interests. Ranking is optional: if the response is malformed, cut off, refused, rate-limited, or times out, the same request returns a deterministic proposal with a short note (one AI call, never retried). Key, billing, access, and model problems stay errors with **Fill without AI**. Any unknown code discards the whole ranking; safe formatting (a code fence, a bare array, code case and spacing, duplicates, more than 25 rows) is normalized locally. Models documented to support JSON-schema output get one (OpenAI GPT-4o+/o3+, Claude 4.5+, Gemini 1.5+, OpenRouter models whose catalog lists structured outputs); others, and the default route through `openrouter/free`, get the same JSON contract in the prompt. Every proposal is re-checked by the validator, shown as a diff, and applied only if your plan hasn't changed since.
 - **Honest coverage:** results say "all modeled requirements covered", never "cleared to graduate". Rules the planner can't evaluate (GPA, "hours in the major", approvals, most prose notes) are listed under **Needs review** with their source text. Sample plans are 2025–26 timing hints only, and term offerings are unverified.
 
 **Supported coverage (October 13, 2026):**
@@ -207,7 +219,8 @@ Open **Course Builder** from course browsing once a major is selected. Plans liv
 | Computer Science, BSCS (Boston) + Artificial Intelligence concentration, 2026–27 | Rules **reviewed** against the catalog (pilot). Open items: 72 hours in the major, GPA, WI/capstone "in the major". |
 | NUpath and Universitywide requirements, 2026–27 | Reviewed |
 | All other 2026–27 programs and concentrations | Rules **extracted automatically, not reviewed**; generation works but every result is labeled as needing review. Ambiguous rows become review items instead of guesses. |
-| Requirements catalog years other than 2026–27 | Not loaded. You can still build a timeline and check prerequisites and credits. |
+| Requirements catalogs 2022–23 through 2025–26 | Archived rules, concentrations, and course descriptions loaded. Rules remain labeled as extracted unless their exact content has been reviewed. Pages without published requirements are recorded as coverage gaps. |
+| Intro-sequence replacements (CS 2000/2100/3100 + labs for CS 2500/2510/3500 + labs), BSCS Boston 2022–23 through 2024–25 | **Candidates only.** Khoury publishes the fall 2025 title replacements, but no source says they fulfill older degree catalogs or maps the labs. |
 | CPS, minors, double majors, graduate programs | Not supported |
 
 Reviews are pinned to a fingerprint of each source document in `planner_rules.py`; a catalog change automatically drops that program back to "not reviewed". The current `data/courses` snapshot predates raw prerequisite text, minimum grades, and exact credit options; re-run `json_scrapers/course_scraper.py` and `db_loader.py` to record them (until then, variable-credit courses are flagged as unverified). Rebuild `courses.db` with `python3 db_loader.py` after pulling this change; the builder needs the new planning tables.
@@ -263,8 +276,27 @@ Free OpenRouter models are usually limited to 20 requests per minute and 50 per 
 | `POST /api/analyze` | `{"dept": "cs", "number": "3000"}` uses the free default. Add `"ai": {"mode": "custom", "provider": "openai", "api_key": "...", "model": "..."}` to use your own key. The provider is `openai`, `anthropic`, `gemini`, or `openrouter`. Add `"major": "<program id>"` to tailor the breakdown to that major; the prompt then carries the canonical label and only that major's placements. An unknown or non-string major returns 400 `unknown_major`; omit the field for no major. |
 | `POST /api/ai/models` | `{"provider", "api_key"}` returns `{"top": [...10 newest], "models": [...all, A-Z]}`. OpenRouter needs only `{"provider": "openrouter"}`. |
 | `GET /api/health` | Status and whether the free default mode is configured |
+| `GET /api/exams/catalog` | Published AP/IB admission policies and exam subjects. Optional `policy_year` and `version` restore a saved snapshot. |
+| `POST /api/exams/resolve` | Resolve `{exams: [{id, exam_id, score, level, policy_year, version, state}]}` into sourced NU equivalents. `state` is `estimated` or `awarded`; IB `level` is `HL` or `SL`. Rejects invalid scores, duplicate exams, conflicting policy versions, and awards over 32 credits. |
 
 Errors use `{"error": "...", "code": "..."}`. POST responses are sent with `Cache-Control: no-store`.
+
+</details>
+
+<details>
+<summary><b>AP/IB exam credit</b></summary>
+
+AP/IB entry is available under **Credit before enrollment → Add AP / IB credit**. Select the admission policy year, exam, score, and IB level, then preview the published equivalents. Save an estimate or record credit already awarded by Northeastern. Estimates stay visible but do not satisfy prerequisites or degree requirements. Awarded bundles retain their component credits and published NUpath attributes; shared equivalents are counted once. Existing course-code entry remains available.
+
+The checked-in exam dataset covers **2026–2027**. Other admission years require a matching published snapshot; the app never assumes another year's policy applies. Each saved exam pins its policy version, independent of the requirements catalog year. These records survive local save, import/export, concentration changes, and applied planner proposals.
+
+Refresh AP/IB policy data with:
+
+```sh
+python json_scrapers/exam_scraper.py
+```
+
+The scraper discovers the linked public charts, respects robots.txt, and extracts their tables with `pdfplumber`. It preserves raw rows, source pages, PDF hashes, and collection dates in `data/exams/<policy-year>/<version>.json`. It refuses ambiguous credit splits or changed score/cap policies before updating `data/exams/catalog.json`. Old snapshots remain available; no database rebuild is needed.
 
 </details>
 

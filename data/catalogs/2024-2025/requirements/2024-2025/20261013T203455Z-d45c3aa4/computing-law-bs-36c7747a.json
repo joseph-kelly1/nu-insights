@@ -1,0 +1,1949 @@
+{
+  "document_id": "computing-law-bs-36c7747a",
+  "kind": "program",
+  "title": "Computing and Law, BS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/computer-information-science/computer-science/computing-law-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Core Requirements",
+      "heading_path": [
+        "Core Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Foundational Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CS 1200 First Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1200"
+              ],
+              "code_text": "CS 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1200"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CS 1210 Professional Development for Khoury Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 1210"
+              ],
+              "code_text": "CS 1210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 1210"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CS 1800 and CS 1802 Discrete Structures and Seminar for CS 1800",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 1800",
+                "CS 1802"
+              ],
+              "code_text": "CS 1800 and CS 1802",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 1800"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 1802"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CS 2510 and CS 2511 Fundamentals of Computer Science 2 and Lab for CS 2510",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2510",
+                "CS 2511"
+              ],
+              "code_text": "CS 2510 and CS 2511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2510"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2511"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "header",
+              "text": "Required Major Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CS 3000 Algorithms and Data",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3000"
+              ],
+              "code_text": "CS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3000"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CS 3200 Introduction to Databases",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CS 3200"
+              ],
+              "code_text": "CS 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 3200"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CS 3500 and CS 3501 Object-Oriented Design and Lab for CS 3500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 3500",
+                "CS 3501"
+              ],
+              "code_text": "CS 3500 and CS 3501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 3500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 3501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CY 2550 Foundations of Cybersecurity",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 2550"
+              ],
+              "code_text": "CY 2550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 2550"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "DS 3000 Foundations of Data Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "DS 3000"
+              ],
+              "code_text": "DS 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 3000"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "note",
+              "text": "Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "LAW 3101 Introduction to Legal Studies 1: Law and Legal Reasoning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3101"
+              ],
+              "code_text": "LAW 3101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3101"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "LAW 3102 Introduction to Legal Studies 2: Statutes and Regulations",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3102"
+              ],
+              "code_text": "LAW 3102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3102"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "LAW 3130 Introduction to Negotiation and Advocacy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3130"
+              ],
+              "code_text": "LAW 3130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3130"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "LAW 3140 Data Regulation and Compliance",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3140"
+              ],
+              "code_text": "LAW 3140",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3140"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "LAW 3235 Issues in Law and Public Policy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3235"
+              ],
+              "code_text": "LAW 3235",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3235"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "CS 4100 Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4100"
+              ],
+              "code_text": "CS 4100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4100"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "CS 4150 Game Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4150"
+              ],
+              "code_text": "CS 4150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4150"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "CS 4300 Computer Graphics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4300"
+              ],
+              "code_text": "CS 4300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4300"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "CS 4410 Compilers",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4410"
+              ],
+              "code_text": "CS 4410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4410"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "CS 4550 Web Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4550"
+              ],
+              "code_text": "CS 4550",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4550"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "CS 4820 Computer-Aided Reasoning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4820"
+              ],
+              "code_text": "CS 4820",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4820"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "CS 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 4991"
+              ],
+              "code_text": "CS 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CS 4991"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "CY 4930 Cybersecurity Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CY 4930"
+              ],
+              "code_text": "CY 4930",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4930"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "DS 4400 Machine Learning and Data Mining 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4400"
+              ],
+              "code_text": "DS 4400",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4400"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "DS 4420 Machine Learning and Data Mining 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4420"
+              ],
+              "code_text": "DS 4420",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4420"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "header",
+              "text": "Law Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 32,
+              "kind": "instruction",
+              "text": "Complete a total of 12 semester hours:",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 12.0
+              }
+            },
+            {
+              "index": 33,
+              "kind": "note",
+              "text": "If choosing a 3-semester-hour course, register for a 1-semester-hour course concurrently. No more than four 1-semester-hour courses may be applied to this requirement.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "LAW 3150 Introduction to Law and Organizational Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3150"
+              ],
+              "code_text": "LAW 3150",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3150"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "LAW 3160 Introduction to International Regulations and Business Strategies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3160"
+              ],
+              "code_text": "LAW 3160",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3160"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "LAW 3170 Introduction to Financial Transactions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3170"
+              ],
+              "code_text": "LAW 3170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3170"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "LAW 3181 Introduction to Healthcare Compliance",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3181"
+              ],
+              "code_text": "LAW 3181",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3181"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "LAW 3182 Introduction to Patient Records, Privacy, Security",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3182"
+              ],
+              "code_text": "LAW 3182",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3182"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "LAW 3210 Introduction to Employee Rights and Employer Obligations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3210"
+              ],
+              "code_text": "LAW 3210",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3210"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "LAW 3211 Introduction to Antidiscrimination Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3211"
+              ],
+              "code_text": "LAW 3211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3211"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "LAW 3212 Introduction to Wages and Benefits",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3212"
+              ],
+              "code_text": "LAW 3212",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3212"
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "LAW 3232 Introduction to Intellectual Property and Media",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3232"
+              ],
+              "code_text": "LAW 3232",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3232"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "LAW 3236 Introduction to Contract Drafting",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3236"
+              ],
+              "code_text": "LAW 3236",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3236"
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "LAW 3238 Introduction to Global Regulation of Artificial Intelligence",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3238"
+              ],
+              "code_text": "LAW 3238",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3238"
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "LAW 3239 Introduction to Sports Law, Business, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3239"
+              ],
+              "code_text": "LAW 3239",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3239"
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "LAW 3320 Introduction to Intellectual Property",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3320"
+              ],
+              "code_text": "LAW 3320",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3320"
+              }
+            },
+            {
+              "index": 47,
+              "kind": "course",
+              "text": "LAW 3321 Introduction to Identifying and Securing Intellectual Property Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3321"
+              ],
+              "code_text": "LAW 3321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3321"
+              }
+            },
+            {
+              "index": 48,
+              "kind": "course",
+              "text": "LAW 3800 Reflections on Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3800"
+              ],
+              "code_text": "LAW 3800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3800"
+              }
+            },
+            {
+              "index": 49,
+              "kind": "course",
+              "text": "LAW 3801 Writing on Legal Issues",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3801"
+              ],
+              "code_text": "LAW 3801",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3801"
+              }
+            },
+            {
+              "index": 50,
+              "kind": "course",
+              "text": "LAW 4335 Health Law and Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4335"
+              ],
+              "code_text": "LAW 4335",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4335"
+              }
+            },
+            {
+              "index": 51,
+              "kind": "course",
+              "text": "LAW 4369 Advanced Intellectual Property",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4369"
+              ],
+              "code_text": "LAW 4369",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4369"
+              }
+            },
+            {
+              "index": 52,
+              "kind": "course",
+              "text": "LAW 4501 Patent Law and Practice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4501"
+              ],
+              "code_text": "LAW 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4501"
+              }
+            },
+            {
+              "index": 53,
+              "kind": "course",
+              "text": "LAW 4525 Law and Economic Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4525"
+              ],
+              "code_text": "LAW 4525",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4525"
+              }
+            },
+            {
+              "index": 54,
+              "kind": "course",
+              "text": "LAW 4600 Issues in Health Law and Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4600"
+              ],
+              "code_text": "LAW 4600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4600"
+              }
+            },
+            {
+              "index": 55,
+              "kind": "course",
+              "text": "LAW 4640 Issues in Information Security Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4640"
+              ],
+              "code_text": "LAW 4640",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4640"
+              }
+            },
+            {
+              "index": 56,
+              "kind": "course",
+              "text": "LAW 4664 Law and Inequality",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4664"
+              ],
+              "code_text": "LAW 4664",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4664"
+              }
+            },
+            {
+              "index": 57,
+              "kind": "course",
+              "text": "LAW 4983 Special Topics in Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LAW 4983"
+              ],
+              "code_text": "LAW 4983",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 4983"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Computing and Social Issues",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HIST 2220 History of Technology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HIST 2220"
+              ],
+              "code_text": "HIST 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HIST 2220"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "INSH 2102 Bostonography: The City through Data, Texts, Maps, and Networks",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 2102"
+              ],
+              "code_text": "INSH 2102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 2102"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "IS 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 1300"
+              ],
+              "code_text": "IS 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 1300"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or PHIL 1300 Knowledge in a Digital World",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1300"
+              ],
+              "code_text": "or PHIL 1300",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1300"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHIL 1145 Technology and Human Values",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1145"
+              ],
+              "code_text": "PHIL 1145",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1145"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "SOCL 1280 The Twenty-First-Century Workplace",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1280"
+              ],
+              "code_text": "SOCL 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1280"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "SOCL 4528",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4528"
+              ],
+              "code_text": "SOCL 4528",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4528"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Coursework",
+      "heading_path": [
+        "Integrative Coursework"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "CY 4170 The Law, Ethics, and Policy of Data and Digital Technologies",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CY 4170"
+              ],
+              "code_text": "CY 4170",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CY 4170"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "LAW 3120 Introduction to Law and Strategy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "LAW 3120"
+              ],
+              "code_text": "LAW 3120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LAW 3120"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirement",
+      "heading_path": [
+        "Writing Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "College Writing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 3
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Required General Electives",
+      "heading_path": [
+        "Required General Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete 36 semester hours of general electives.",
+              "credits_text": "36",
+              "credits": {
+                "min": 36.0,
+                "max": 36.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 36.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Co-op Requirement",
+      "heading_path": [
+        "Co-op Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "COOP 3945 Co-op Work Experience",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COOP 3945"
+              ],
+              "code_text": "COOP 3945",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COOP 3945"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "COOP 3948 Co-op Work Experience Abroad",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COOP 3948"
+              ],
+              "code_text": "COOP 3948",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COOP 3948"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Khoury College GPA Requirement",
+      "heading_path": [
+        "Khoury College GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all CS, CY, DS, and IS courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "133 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "computing-law-bs-36c7747a",
+  "major_name": "Computing and Law",
+  "degree": "BS",
+  "campus": "",
+  "college": "Khoury College of Computer Sciences",
+  "overview_text": "",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nCore Requirements\nCourse List\nCode\nTitle\nHours\nFoundational Courses\nCS 1200\nFirst Year Seminar\n1\nCS 1210\nProfessional Development for Khoury Co-op\n1\nCS 1800\nand\nCS 1802\nDiscrete Structures\nand Seminar for CS 1800\n5\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\n5\nCS 2510\nand\nCS 2511\nFundamentals of Computer Science 2\nand Lab for CS 2510\n5\nRequired Major Courses\nTechnology\nCS 3000\nAlgorithms and Data\n4\nCS 3200\nIntroduction to Databases\n4\nCS 3500\nand\nCS 3501\nObject-Oriented Design\nand Lab for CS 3500\n5\nCY 2550\nFoundations of Cybersecurity\n4\nDS 3000\nFoundations of Data Science\n4\nLaw\nLAW 3101\nIntroduction to Legal Studies 1: Law and Legal Reasoning\n4\nLAW 3102\nIntroduction to Legal Studies 2: Statutes and Regulations\n4\nLAW 3130\nIntroduction to Negotiation and Advocacy\n4\nLAW 3140\nData Regulation and Compliance\n4\nLAW 3235\nIssues in Law and Public Policy\n4\nCapstone\nComplete one of the following:\n4\nCS 4100\nArtificial Intelligence\nCS 4150\nGame Artificial Intelligence\nCS 4300\nComputer Graphics\nCS 4410\nCompilers\nCS 4550\nWeb Development\nCS 4820\nComputer-Aided Reasoning\nCS 4991\nResearch\nCY 4930\nCybersecurity Capstone\nDS 4400\nMachine Learning and Data Mining 1\nDS 4420\nMachine Learning and Data Mining 2\nLaw Electives\nComplete a total of 12 semester hours:\n12\nIf choosing a 3-semester-hour course, register for a 1-semester-hour course concurrently.  No more than four 1-semester-hour courses may be applied to this requirement.\nLAW 3150\nIntroduction to Law and Organizational Management\nLAW 3160\nIntroduction to International Regulations and Business Strategies\nLAW 3170\nIntroduction to Financial Transactions\nLAW 3181\nIntroduction to Healthcare Compliance\nLAW 3182\nIntroduction to Patient Records, Privacy, Security\nLAW 3210\nIntroduction to Employee Rights and Employer Obligations\nLAW 3211\nIntroduction to Antidiscrimination Law\nLAW 3212\nIntroduction to Wages and Benefits\nLAW 3232\nIntroduction to Intellectual Property and Media\nLAW 3236\nIntroduction to Contract Drafting\nLAW 3238\nIntroduction to Global Regulation of Artificial Intelligence\nLAW 3239\nIntroduction to Sports Law, Business, and Society\nLAW 3320\nIntroduction to Intellectual Property\nLAW 3321\nIntroduction to Identifying and Securing Intellectual Property Rights\nLAW 3800\nReflections on Law\nLAW 3801\nWriting on Legal Issues\nLAW 4335\nHealth Law and Policy\nLAW 4369\nAdvanced Intellectual Property\nLAW 4501\nPatent Law and Practice\nLAW 4525\nLaw and Economic Development\nLAW 4600\nIssues in Health Law and Policy\nLAW 4640\nIssues in Information Security Law\nLAW 4664\nLaw and Inequality\nLAW 4983\nSpecial Topics in Law\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nComputing and Social Issues\nComplete one of the following:\n4\nHIST 2220\nHistory of Technology\nINSH 2102\nBostonography: The City through Data, Texts, Maps, and Networks\nIS 1300\nKnowledge in a Digital World\nor\nPHIL 1300\nKnowledge in a Digital World\nPHIL 1145\nTechnology and Human Values\nSOCL 1280\nThe Twenty-First-Century Workplace\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 4528\nIntegrative Coursework\nCourse List\nCode\nTitle\nHours\nCY 4170\nThe Law, Ethics, and Policy of Data and Digital Technologies\n4\nLAW 3120\nIntroduction to Law and Strategy\n4\nWriting Requirement\nCourse List\nCode\nTitle\nHours\nCollege Writing\nENGW 1111\nFirst-Year Writing\n4\nAdvanced Writing in the Disciplines\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nRequired General Electives\nCourse List\nCode\nTitle\nHours\nComplete 36 semester hours of general electives.\n36\nCo-op Requirement\nCourse List\nCode\nTitle\nHours\nComplete one of the following:\nCOOP 3945\nCo-op Work Experience\nCOOP 3948\nCo-op Work Experience Abroad\nKhoury College GPA Requirement\nMinimum 2.000 GPA required in all CS, CY, DS, and IS courses\nProgram Requirement\n133 total semester hours required",
+  "referenced_courses": [
+    "COOP 3945",
+    "COOP 3948",
+    "CS 1200",
+    "CS 1210",
+    "CS 1800",
+    "CS 1802",
+    "CS 2500",
+    "CS 2501",
+    "CS 2510",
+    "CS 2511",
+    "CS 3000",
+    "CS 3200",
+    "CS 3500",
+    "CS 3501",
+    "CS 4100",
+    "CS 4150",
+    "CS 4300",
+    "CS 4410",
+    "CS 4550",
+    "CS 4820",
+    "CS 4991",
+    "CY 2550",
+    "CY 4170",
+    "CY 4930",
+    "DS 3000",
+    "DS 4400",
+    "DS 4420",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "HIST 2220",
+    "INSH 2102",
+    "IS 1300",
+    "LAW 3101",
+    "LAW 3102",
+    "LAW 3120",
+    "LAW 3130",
+    "LAW 3140",
+    "LAW 3150",
+    "LAW 3160",
+    "LAW 3170",
+    "LAW 3181",
+    "LAW 3182",
+    "LAW 3210",
+    "LAW 3211",
+    "LAW 3212",
+    "LAW 3232",
+    "LAW 3235",
+    "LAW 3236",
+    "LAW 3238",
+    "LAW 3239",
+    "LAW 3320",
+    "LAW 3321",
+    "LAW 3800",
+    "LAW 3801",
+    "LAW 4335",
+    "LAW 4369",
+    "LAW 4501",
+    "LAW 4525",
+    "LAW 4600",
+    "LAW 4640",
+    "LAW 4664",
+    "LAW 4983",
+    "MATH 1341",
+    "PHIL 1145",
+    "PHIL 1300",
+    "SOCL 1280",
+    "SOCL 2485",
+    "SOCL 4528"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "SOCL 4528"
+  ]
+}

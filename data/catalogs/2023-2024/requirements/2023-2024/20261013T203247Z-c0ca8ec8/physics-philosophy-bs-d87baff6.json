@@ -1,0 +1,1397 @@
+{
+  "document_id": "physics-philosophy-bs-d87baff6",
+  "kind": "program",
+  "title": "Physics and Philosophy, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/science/physics/physics-philosophy-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Physics Major Requirements",
+      "heading_path": [
+        "Physics Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introductory Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Physics 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 Physics 1 and Lab for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "Physics 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PHYS 1165 and PHYS 1166 Physics 2 and Lab for PHYS 1165",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1165",
+                "PHYS 1166"
+              ],
+              "code_text": "PHYS 1165 and PHYS 1166",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1165"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1166"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Intermediate Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHYS 2303 Modern Physics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 2303"
+              ],
+              "code_text": "PHYS 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 2303"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "PHYS 2371 and PHYS 2372 Electronics and Lab for PHYS 2371",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 2371",
+                "PHYS 2372"
+              ],
+              "code_text": "PHYS 2371 and PHYS 2372",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 2371"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 2372"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Advanced Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "PHYS 3600 Advanced Physics Laboratory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3600"
+              ],
+              "code_text": "PHYS 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3600"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "PHYS 3602 Electricity and Magnetism 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3602"
+              ],
+              "code_text": "PHYS 3602",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3602"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "PHYS 4115 Quantum Mechanics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4115"
+              ],
+              "code_text": "PHYS 4115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4115"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PHYS 4305 Thermodynamics and Statistical Mechanics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4305"
+              ],
+              "code_text": "PHYS 4305",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4305"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Physics Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "MATH 4606 Mathematical and Computational Methods for Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 4606"
+              ],
+              "code_text": "MATH 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 4606"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "PHYS 4621 Biological Physics 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4621"
+              ],
+              "code_text": "PHYS 4621",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4621"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "PHYS 4623 Medical Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4623"
+              ],
+              "code_text": "PHYS 4623",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4623"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "PHYS 4651 Medical Physics Seminar 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4651"
+              ],
+              "code_text": "PHYS 4651",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4651"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "PHYS 4652 Medical Physics Seminar 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4652"
+              ],
+              "code_text": "PHYS 4652",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4652"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "PHYS 5113 Particle Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5113"
+              ],
+              "code_text": "PHYS 5113",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5113"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "PHYS 5116 Network Science 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5116"
+              ],
+              "code_text": "PHYS 5116",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5116"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "PHYS 5260 Introduction to Nanoscience and Nanotechnology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5260"
+              ],
+              "code_text": "PHYS 5260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5260"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Philosophy Major Requirements",
+      "heading_path": [
+        "Philosophy Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Philosophy Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "PHIL 1115 Introduction to Logic",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1115"
+              ],
+              "code_text": "PHIL 1115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1115"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "PHIL 2325 Ancient Philosophy and Political Thought",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2325"
+              ],
+              "code_text": "PHIL 2325",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2325"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or POLS 2325 Ancient Philosophy and Political Thought",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2325"
+              ],
+              "code_text": "or POLS 2325",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2325"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHIL 2330 Modern Philosophy",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2330"
+              ],
+              "code_text": "PHIL 2330",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2330"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "PHIL 4500 Theory of Knowledge",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 4500"
+              ],
+              "code_text": "PHIL 4500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 4500"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or PHIL 3050 Information and Uncertainty",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3050"
+              ],
+              "code_text": "or PHIL 3050",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3050"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Advanced Philosophy Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete three PHIL courses with a designation of 3000 or above not used to satisfy another requirement, and at least one at 4000 or 5000 level.",
+              "credits_text": "12",
+              "credits": {
+                "min": 12.0,
+                "max": 12.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Critical Philosophy Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Take one of the following courses not used to fulfill another requirements:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "AFAM 1101 Introduction to African American and Africana Studies",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFAM 1101"
+              ],
+              "code_text": "AFAM 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "AFAM 1101"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "PHIL 1104 Goddesses, Witches, Saints, and Sinners: Women and Religion",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1104"
+              ],
+              "code_text": "PHIL 1104",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1104"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "PHIL 1271 Sex in Judaism, Christianity, and Islam",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1271"
+              ],
+              "code_text": "PHIL 1271",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1271"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "PHIL 2155 Human Rights",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2155"
+              ],
+              "code_text": "PHIL 2155",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2155"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "PHIL 2492 Indigenous Philosophy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2492"
+              ],
+              "code_text": "PHIL 2492",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2492"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PHIL 2619 Race and Religion in Film",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 2619"
+              ],
+              "code_text": "PHIL 2619",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 2619"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "PHIL 3500 Sexuality, Gender, and the Law",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3500"
+              ],
+              "code_text": "PHIL 3500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3500"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHIL 3822 Philosophy of Race and Racism",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3822"
+              ],
+              "code_text": "PHIL 3822",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3822"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Philosophy Electives",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "instruction",
+              "text": "Complete two additional PHIL courses not used to satisfy other requirements.",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {}
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Physics/Philosophy Integrative Requirements",
+      "heading_path": [
+        "Physics/Philosophy Integrative Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Integrative Course Requirements",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "PHIL 4510 Philosophy of Science",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 4510"
+              ],
+              "code_text": "PHIL 4510",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 4510"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "or PHIL 3360 Scientific Approaches to Philosophy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 3360"
+              ],
+              "code_text": "or PHIL 3360",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 3360"
+              },
+              "alternative_group": 1
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PHYS 3601 Classical Dynamics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3601"
+              ],
+              "code_text": "PHYS 3601",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3601"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Breadth Courses",
+      "heading_path": [
+        "Breadth Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Physics and Philosophy Major Credit Requirement",
+      "heading_path": [
+        "Physics and Philosophy Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 98 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 98.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "132 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "physics-philosophy-bs-d87baff6",
+  "major_name": "Physics and Philosophy",
+  "degree": "BS",
+  "campus": "",
+  "college": "College of Science",
+  "overview_text": "The combined major in physics and philosophy provides a strong foundation in classical and modern physics, including studies of the various physical phenomena including electromagnetism, dynamics, building blocks of matter, energy, and radiation. It also provides students with an understanding of the methods and traditions of philosophical thought, as well as with opportunities to critically and collaboratively reflect on the nature of the world and the human situation in it. Students will be able to describe the method by which physical “law” i s made manifest in the sciences, how this knowledge compares with other epistemological models studied in other contexts, and philosophical views on the status and source of physical “law.”",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nPhysics Major Requirements\nCourse List\nCode\nTitle\nHours\nIntroductory Physics\nPhysics 1\nComplete one of the following:\n5\nPHYS 1161\nand\nPHYS 1162\nPhysics 1\nand Lab for PHYS 1161\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPhysics 2\nComplete one of the following:\n5\nPHYS 1165\nand\nPHYS 1166\nPhysics 2\nand Lab for PHYS 1165\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nIntermediate Physics\nPHYS 2303\nModern Physics\n4\nPHYS 2371\nand\nPHYS 2372\nElectronics\nand Lab for PHYS 2371\n4\nAdvanced Physics\nPHYS 3600\nAdvanced Physics Laboratory\n4\nPHYS 3602\nElectricity and Magnetism 1\n4\nPHYS 4115\nQuantum Mechanics\n4\nPHYS 4305\nThermodynamics and Statistical Mechanics\n4\nPhysics Elective\nComplete one of the following:\n4\nMATH 4606\nMathematical and Computational Methods for Physics\nPHYS 4621\nBiological Physics 1\nPHYS 4623\nMedical Physics\nPHYS 4651\nMedical Physics Seminar 1\nPHYS 4652\nMedical Physics Seminar 2\nPHYS 5113\nParticle Physics\nPHYS 5116\nNetwork Science 1\nPHYS 5260\nIntroduction to Nanoscience and Nanotechnology\nPhilosophy Major Requirements\nCourse List\nCode\nTitle\nHours\nPhilosophy Required Courses\nPHIL 1115\nIntroduction to Logic\n4\nPHIL 2325\nAncient Philosophy and Political Thought\n4\nor\nPOLS 2325\nAncient Philosophy and Political Thought\nPHIL 2330\nModern Philosophy\n4\nPHIL 4500\nTheory of Knowledge\n4\nor\nPHIL 3050\nInformation and Uncertainty\nAdvanced Philosophy Electives\nComplete three PHIL courses with a designation of 3000 or above not used to satisfy another requirement, and at least one at 4000 or 5000 level.\n12\nCritical Philosophy Elective\nTake one of the following courses not used to fulfill another requirements:\n4\nAFAM 1101\nIntroduction to African American and Africana Studies\nPHIL 1104\nGoddesses, Witches, Saints, and Sinners: Women and Religion\nPHIL 1271\nSex in Judaism, Christianity, and Islam\nPHIL 2155\nHuman Rights\nPHIL 2492\nIndigenous Philosophy\nPHIL 2619\nRace and Religion in Film\nPHIL 3500\nSexuality, Gender, and the Law\nPHIL 3822\nPhilosophy of Race and Racism\nPhilosophy Electives\n8\nComplete two additional PHIL courses not used to satisfy other requirements.\n8\nPhysics/Philosophy Integrative Requirements\nCourse List\nCode\nTitle\nHours\nIntegrative Course Requirements\nPHIL 4510\nPhilosophy of Science\n4\nor\nPHIL 3360\nScientific Approaches to Philosophy\nPHYS 3601\nClassical Dynamics\n4\nBreadth Courses\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nPhysics and Philosophy Major Credit Requirement\nComplete 98 semester hours in the major.\nProgram Requirement\n132 total semester hours required",
+  "referenced_courses": [
+    "AFAM 1101",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "MATH 4606",
+    "PHIL 1104",
+    "PHIL 1115",
+    "PHIL 1271",
+    "PHIL 2155",
+    "PHIL 2325",
+    "PHIL 2330",
+    "PHIL 2492",
+    "PHIL 2619",
+    "PHIL 3050",
+    "PHIL 3360",
+    "PHIL 3500",
+    "PHIL 3822",
+    "PHIL 4500",
+    "PHIL 4510",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1165",
+    "PHYS 1166",
+    "PHYS 2303",
+    "PHYS 2371",
+    "PHYS 2372",
+    "PHYS 3600",
+    "PHYS 3601",
+    "PHYS 3602",
+    "PHYS 4115",
+    "PHYS 4305",
+    "PHYS 4621",
+    "PHYS 4623",
+    "PHYS 4651",
+    "PHYS 4652",
+    "PHYS 5113",
+    "PHYS 5116",
+    "PHYS 5260",
+    "POLS 2325"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

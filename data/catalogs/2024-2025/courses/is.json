@@ -1,0 +1,324 @@
+{
+  "department": "IS",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/course-descriptions/is/",
+  "courses": [
+    {
+      "number": "1300",
+      "title": "Knowledge in a Digital World",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the impact that information technologies (such as the internet, search engines, blogs, wikis, and smartphones); information processing techniques (such as big data analysis, machine learning, crowdsourcing, and cryptography); and information policies (such as privacy norms and speech restrictions) have on what we know and how much we know, as individuals and as a society. The digital world can enhance our ability to acquire knowledge by providing us with fast and cheap access to huge amounts of information. However, it can also undermine our cognitive abilities and provide us with inaccurate or misleading information. Studies normative frameworks from epistemology and ethics (such as epistemic value theory, the extended mind hypothesis, and moral rights) to evaluate these technologies and policies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Ethical Reasoning",
+        "NUpath Societies/Institutions"
+      ]
+    },
+    {
+      "number": "2050",
+      "title": "Information and Uncertainty",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the foundations of probabilistic inference, information theory, and their uses for drawing conclusions from noisy data. Applications include diagnosing diseases with inconclusive medical tests, locating autonomous vehicles when sensors are imperfect, and how best to make inferences with incomplete or partial information. Central topics include distinguishing deductive and probabilistic inference, philosophical interpretations of probability, fundamental justifications for the rules of probability, and key concepts of information theory. Introduces analytic and mathematical methods of analysis in these cases and contemporary computational (i.e., programming) techniques for implementing and applying theories of information and probabilistic inference.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Formal/Quant Reasoning"
+      ]
+    },
+    {
+      "number": "2991",
+      "title": "Research in Information Science",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers an opportunity to conduct introductory-level research or creative endeavors under faculty supervision. May be repeated three times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3050",
+      "title": "Information and Uncertainty",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the foundations of probabilistic inference, information theory, and their uses for drawing conclusions from noisy data. Applications include diagnosing diseases with inconclusive medical tests, locating autonomous vehicles when sensors are imperfect, and how best to make inferences with incomplete or partial information. Central topics include distinguishing deductive and probabilistic inference, philosophical interpretations of probability, fundamental justifications for the rules of probability, and key concepts of information theory. Introduces analytic and mathematical methods of analysis in these cases and contemporary computational (i.e., programming) techniques for implementing and applying theories of information and probabilistic inference.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data",
+        "NUpath Formal/Quant Reasoning"
+      ]
+    },
+    {
+      "number": "3500",
+      "title": "Information System Design and Development",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Discusses the planning, analysis, design, and implementation of computer-based information systems, focusing on the methodologies and procedures used in organizational problem solving and systems development. Topics include the systems development life cycle; project management; requirements analysis and specification; feasibility and cost-benefit analysis; logical and physical design; prototyping; and system validation, deployment, and postimplementation review. Additional topics may include platform and database selection and integration issues; CASE tools; end-user training; maintenance; and object-oriented analysis and design.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "IS 2000",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3500",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGL 1102",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1102",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1113",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1114",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "IS 2000 with a minimum grade of D- ; CS 3500 with a minimum grade of D- ; (ENGL 1102 with a minimum grade of C or ENGL 1111 with a minimum grade of C or ENGW 1102 with a minimum grade of C or ENGW 1111 with a minimum grade of C or ENGW 1113 with a minimum grade of C or ENGW 1114 with a minimum grade of C )"
+    },
+    {
+      "number": "4200",
+      "title": "Information Retrieval",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces information retrieval (IR) systems and different approaches to IR. Topics covered include evaluation of IR systems; retrieval, language, and indexing models; file organization; compression; relevance feedback; clustering; distributed retrieval and metasearch; probabilistic approaches to IR; Web retrieval; filtering, collaborative filtering, and recommendation systems; cross-language IR; multimedia IR; and machine learning for IR.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 3500",
+                "min_grade": "D-"
+              },
+              {
+                "course": "DS 3500",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 2810",
+                "min_grade": "D-"
+              },
+              {
+                "course": "ECON 2350",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MATH 2280",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MATH 3081",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MGSC 2301",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PSYC 2320",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(CS 3500 with a minimum grade of D- or DS 3500 with a minimum grade of D- ); (CS 2810 with a minimum grade of D- or ECON 2350 with a minimum grade of D- or MATH 2280 with a minimum grade of D- or MATH 3081 with a minimum grade of D- or MGSC 2301 with a minimum grade of D- or PSYC 2320 with a minimum grade of D- )"
+    },
+    {
+      "number": "4300",
+      "title": "Human Computer Interaction",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies the principles of human-computer interaction and the practice of user interface design. Discusses the major human information processing subsystems (perception, memory, attention, and problem solving), and how the properties of these systems influence the design of interactive systems. Reviews guidelines and specification languages for designing user interfaces, with an emphasis on tool kits of standard graphical user interface (GUI) objects. Introduces usability metrics and evaluation methods. Additional topics may include World Wide Web design principles and tools; wireless/mobile device interfaces; computer-supported cooperative work; information visualization; and virtual reality. Course work includes designing user interfaces, creating working prototypes using a GUI tool kit, and evaluating existing interfaces using the methods studied.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 3500",
+            "min_grade": "D-"
+          },
+          {
+            "course": "DS 3500",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 3500 with a minimum grade of D- or DS 3500 with a minimum grade of D-"
+    },
+    {
+      "number": "4800",
+      "title": "Empirical Research Methods",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Evaluates and conducts empirical research, focusing on students’ use of empirical methods to study the effectiveness and organizational/social impact of information systems and technologies. Empirical research involves a number of broad steps including identifying problems; developing specific hypotheses; collecting data relevant to the hypotheses; analyzing the data; and considering alternative explanations for the empirical findings. Some of the most commonly used research techniques, such as surveys, experiments, and ethnographic methods, are discussed. Additional topics include the ethics of data collection and experimentation in behavioral science. Although the course focuses primarily on the relationship between formulating research questions and implementing the appropriate methods to answer them, students can expect to apply the statistical techniques learned in the course prerequisites.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 2810",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ECON 2350",
+            "min_grade": "D-"
+          },
+          {
+            "course": "ENVR 2500",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 2280",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 3081",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MGSC 2301",
+            "min_grade": "D-"
+          },
+          {
+            "course": "PHTH 2210",
+            "min_grade": "D-"
+          },
+          {
+            "course": "PSYC 2320",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 2810 with a minimum grade of D- or ECON 2350 with a minimum grade of D- or ENVR 2500 with a minimum grade of D- or MATH 2280 with a minimum grade of D- or MATH 3081 with a minimum grade of D- or MGSC 2301 with a minimum grade of D- or PHTH 2210 with a minimum grade of D- or PSYC 2320 with a minimum grade of D-"
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": {
+        "min": 4.0,
+        "max": 8.0
+      },
+      "credits_text": "4,8",
+      "credit_options": {
+        "values": [
+          4.0,
+          8.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated up to three times.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "IS 4800",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 5350",
+                "min_grade": "C-"
+              },
+              {
+                "course": "CS 5350",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Integration Experience",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "IS 4800 with a minimum grade of D- or (CS 5350 with a minimum grade of C- or CS 5350 with a minimum grade of D- )"
+    }
+  ]
+}

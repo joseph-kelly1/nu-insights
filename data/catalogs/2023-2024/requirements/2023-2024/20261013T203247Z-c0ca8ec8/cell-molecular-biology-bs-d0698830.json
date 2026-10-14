@@ -1,0 +1,1804 @@
+{
+  "document_id": "cell-molecular-biology-bs-d0698830",
+  "kind": "program",
+  "title": "Cell and Molecular Biology, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/science/biology/cell-molecular-biology-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Cell and Molecular Biology Major Requirements",
+      "heading_path": [
+        "Cell and Molecular Biology Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introduction to College",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "header",
+              "text": "Introduction to Experiential Learning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOL 1000 Biology at Northeastern",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1000"
+              ],
+              "code_text": "BIOL 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or INSC 1000 Science at Northeastern",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "INSC 1000"
+              ],
+              "code_text": "or INSC 1000",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "INSC 1000"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "EESC 2000 Professional Development for Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "EESC 2000"
+              ],
+              "code_text": "EESC 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EESC 2000"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Required Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "note",
+              "text": "Foundations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "BIOL 1107 and BIOL 1108 Foundations of Biology and Lab for BIOL 1107",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1107",
+                "BIOL 1108"
+              ],
+              "code_text": "BIOL 1107 and BIOL 1108",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1107"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1108"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "note",
+              "text": "Genetics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "BIOL 2301 and BIOL 2302 Genetics and Molecular Biology and Lab for BIOL 2301",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2301",
+                "BIOL 2302"
+              ],
+              "code_text": "BIOL 2301 and BIOL 2302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2301"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2302"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "note",
+              "text": "Project Lab",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOL 2309 Biology Project Lab",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2309"
+              ],
+              "code_text": "BIOL 2309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 2309"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "note",
+              "text": "Inquiries",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "BIOL 2299 Inquiries in Biological Sciences",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2299"
+              ],
+              "code_text": "BIOL 2299",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 2299"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "note",
+              "text": "Biochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "BIOL 3611 and BIOL 3612 Biochemistry and Lab for BIOL 3611",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3611",
+                "BIOL 3612"
+              ],
+              "code_text": "BIOL 3611 and BIOL 3612",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3611"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3612"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "Molecular Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "BIOL 4707 Cell and Molecular Biology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4707"
+              ],
+              "code_text": "BIOL 4707",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4707"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "BIOL 5591 Advanced Genomics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5591"
+              ],
+              "code_text": "BIOL 5591",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5591"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "header",
+              "text": "Intermediate/Advanced Cell and Molecular Biology Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 20,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8-9",
+              "credits": {
+                "min": 8.0,
+                "max": 9.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "BIOL 2329 Bioethics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2329"
+              ],
+              "code_text": "BIOL 2329",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 2329"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "BIOL 3411 Current Topics in Cell and Molecular Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3411"
+              ],
+              "code_text": "BIOL 3411",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 3411"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "BIOL 3421 and BIOL 3422 Microbiology and Lab for BIOL 3421",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3421",
+                "BIOL 3422"
+              ],
+              "code_text": "BIOL 3421 and BIOL 3422",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3421"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 3422"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "BIOL 3601 Neural Systems and Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3601"
+              ],
+              "code_text": "BIOL 3601",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 3601"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "BIOL 3603 Mammalian Systems Physiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3603"
+              ],
+              "code_text": "BIOL 3603",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 3603"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "BIOL 3605 Developmental Neurobiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 3605"
+              ],
+              "code_text": "BIOL 3605",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 3605"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "BIOL 5541 Endocrinology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5541"
+              ],
+              "code_text": "BIOL 5541",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5541"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "BIOL 5543 Stem Cells and Regeneration",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5543"
+              ],
+              "code_text": "BIOL 5543",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5543"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "BIOL 5549 Inventions in Microbial Biotechnology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5549"
+              ],
+              "code_text": "BIOL 5549",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5549"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "BIOL 5573 Medical Microbiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5573"
+              ],
+              "code_text": "BIOL 5573",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5573"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "BIOL 5581 Biological Imaging",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5581"
+              ],
+              "code_text": "BIOL 5581",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5581"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "BIOL 5583 Immunology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5583"
+              ],
+              "code_text": "BIOL 5583",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5583"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "BIOL 5585 Evolution",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5585"
+              ],
+              "code_text": "BIOL 5585",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5585"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "BIOL 5587 Comparative Neurobiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5587"
+              ],
+              "code_text": "BIOL 5587",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5587"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "BIOL 5593 Cell and Molecular Biology of Aging",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5593"
+              ],
+              "code_text": "BIOL 5593",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5593"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "BIOL 5597 Immunotherapies of Cancer and Infectious Disease",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 5597"
+              ],
+              "code_text": "BIOL 5597",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 5597"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "EEMB 3001 Genetics and Evolution in Action",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 3001"
+              ],
+              "code_text": "EEMB 3001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EEMB 3001"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "note",
+              "text": "Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 39,
+              "kind": "note",
+              "text": "One of the two Intermediate/Advanced Electives can be a research course:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "BIOL 4970 Junior/Senior Honors Project 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4970"
+              ],
+              "code_text": "BIOL 4970",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4970"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "course",
+              "text": "BIOL 4971 Junior/Senior Honors Project 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4971"
+              ],
+              "code_text": "BIOL 4971",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4971"
+              }
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "BIOL 4991 Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4991"
+              ],
+              "code_text": "BIOL 4991",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4991"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "BIOL 4994 Internship",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4994"
+              ],
+              "code_text": "BIOL 4994",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4994"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Biology Capstone",
+      "heading_path": [
+        "Biology Capstone"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Please complete one of the following options to fulfill the capstone requirement:",
+              "credits_text": "1-4",
+              "credits": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "BIOL 4701 Biology Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4701"
+              ],
+              "code_text": "BIOL 4701",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4701"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "BIOL 4900 Biology Research Capstone (concurrent with BIOL 4991 or BIOL 4994 , which may be used toward Intermediate/Advanced Cell and Molecular Biology Electives)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4900"
+              ],
+              "code_text": "BIOL 4900",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4900"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "BIOL 4971 Junior/Senior Honors Project 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 4971"
+              ],
+              "code_text": "BIOL 4971",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 4971"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "header",
+              "text": "Statistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENVR 2500 and ENVR 2501 Biostatistics and Lab for ENVR 2500",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2500",
+                "ENVR 2501"
+              ],
+              "code_text": "ENVR 2500 and ENVR 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ENVR 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "General Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 and CHEM 1163 General Chemistry for Science Majors and Lab for CHEM 1161 and Recitation for CHEM 1161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162",
+                "CHEM 1163"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162 and CHEM 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "Organic Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "CHEM 2311 and CHEM 2312 Organic Chemistry 1 and Lab for CHEM 2311",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2311",
+                "CHEM 2312"
+              ],
+              "code_text": "CHEM 2311 and CHEM 2312",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2312"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 2313 and CHEM 2314 Organic Chemistry 2 and Lab for CHEM 2313",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2313",
+                "CHEM 2314"
+              ],
+              "code_text": "CHEM 2313 and CHEM 2314",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2313"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2314"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "header",
+              "text": "Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 11,
+              "kind": "note",
+              "text": "Physics 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 12,
+              "kind": "instruction",
+              "text": "Complete one of the following lecture/lab pairs. PHYS 1145 / PHYS 1146 is recommended:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "PHYS 1145 and PHYS 1146 Physics for Life Sciences 1 and Lab for PHYS 1145",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1145",
+                "PHYS 1146"
+              ],
+              "code_text": "PHYS 1145 and PHYS 1146",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1145"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1146"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 Physics 1 and Lab for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 16,
+              "kind": "note",
+              "text": "Physics 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 17,
+              "kind": "instruction",
+              "text": "Complete one of the following lecture/lab pairs. PHYS 1147 / PHYS 1148 is recommended:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHYS 1147 and PHYS 1148 Physics for Life Sciences 2 and Lab for PHYS 1147",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1147",
+                "PHYS 1148"
+              ],
+              "code_text": "PHYS 1147 and PHYS 1148",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1147"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1148"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "PHYS 1165 and PHYS 1166 Physics 2 and Lab for PHYS 1165",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1165",
+                "PHYS 1166"
+              ],
+              "code_text": "PHYS 1165 and PHYS 1166",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1165"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1166"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 21,
+              "kind": "header",
+              "text": "Intermediate or Advanced Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 22,
+              "kind": "instruction",
+              "text": "Complete one course from the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "course_count": 1
+              }
+            },
+            {
+              "index": 23,
+              "kind": "elective_filter",
+              "text": "BIOL 2301 to BIOL 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "BIOL",
+                "minimum_number": "2301",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "elective_filter",
+              "text": "CHEM 2311 to CHEM 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CHEM",
+                "minimum_number": "2311",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "elective_filter",
+              "text": "EEMB 2290 to EEMB 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "EEMB",
+                "minimum_number": "2290",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "elective_filter",
+              "text": "ENVR 2310 to ENVR 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ENVR",
+                "minimum_number": "2310",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "elective_filter",
+              "text": "MATH 2280 to MATH 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "MATH",
+                "minimum_number": "2280",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "elective_filter",
+              "text": "PHYS 2303 to PHYS 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "PHYS",
+                "minimum_number": "2303",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "elective_filter",
+              "text": "PSYC 2290 to PSYC 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "PSYC",
+                "minimum_number": "2290",
+                "maximum_number": "5999"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Cell and Molecular Biology Major Credit/GPA Requirement",
+      "heading_path": [
+        "Cell and Molecular Biology Major Credit/GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 79 semester hours in the major with a cumulative GPA of 2.000.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 79.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "Due to overlap in course content, double majoring in cell and molecular biology and biology, biochemistry, marine biology or behavioral neuroscience is not permitted.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "136 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "cell-molecular-biology-bs-d0698830",
+  "major_name": "Cell and Molecular Biology",
+  "degree": "BS",
+  "campus": "",
+  "college": "College of Science",
+  "overview_text": "The BS Cell and Molecular Biology curriculum lays the groundwork for strong scientific training with basic course work in mathematics, chemistry, and physics, relevant to biology. Students pursue a focused program of study emphasizing processes operating at the cellular and molecular levels of biological systems, including specialty courses in molecular cell biology and advanced genomics. Students choose from a range of advanced electives that delve deeply into molecular aspects of biology.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nCell and Molecular Biology Major Requirements\nCourse List\nCode\nTitle\nHours\nIntroduction to College\nIntroduction to Experiential Learning\nBIOL 1000\nBiology at Northeastern\n1\nor\nINSC 1000\nScience at Northeastern\nEESC 2000\nProfessional Development for Co-op\n1\nRequired Biology\nFoundations\nBIOL 1107\nand\nBIOL 1108\nFoundations of Biology\nand Lab for BIOL 1107\n5\nGenetics\nBIOL 2301\nand\nBIOL 2302\nGenetics and Molecular Biology\nand Lab for BIOL 2301\n5\nProject Lab\nBIOL 2309\nBiology Project Lab\n4\nInquiries\nBIOL 2299\nInquiries in Biological Sciences\n4\nBiochemistry\nBIOL 3611\nand\nBIOL 3612\nBiochemistry\nand Lab for BIOL 3611\n5\nMolecular Biology\nBIOL 4707\nCell and Molecular Biology\n4\nBIOL 5591\nAdvanced Genomics\n4\nIntermediate/Advanced Cell and Molecular Biology Electives\nComplete two of the following:\n8-9\nBIOL 2329\nBioethics\nBIOL 3411\nCurrent Topics in Cell and Molecular Biology\nBIOL 3421\nand\nBIOL 3422\nMicrobiology\nand Lab for BIOL 3421\nBIOL 3601\nNeural Systems and Behavior\nBIOL 3603\nMammalian Systems Physiology\nBIOL 3605\nDevelopmental Neurobiology\nBIOL 5541\nEndocrinology\nBIOL 5543\nStem Cells and Regeneration\nBIOL 5549\nInventions in Microbial Biotechnology\nBIOL 5573\nMedical Microbiology\nBIOL 5581\nBiological Imaging\nBIOL 5583\nImmunology\nBIOL 5585\nEvolution\nBIOL 5587\nComparative Neurobiology\nBIOL 5593\nCell and Molecular Biology of Aging\nBIOL 5597\nImmunotherapies of Cancer and Infectious Disease\nEEMB 3001\nGenetics and Evolution in Action\nResearch\nOne of the two Intermediate/Advanced Electives can be a research course:\nBIOL 4970\nJunior/Senior Honors Project 1\nBIOL 4971\nJunior/Senior Honors Project 2\nBIOL 4991\nResearch\nBIOL 4994\nInternship\nBiology Capstone\nCourse List\nCode\nTitle\nHours\nPlease complete one of the following options to fulfill the capstone requirement:\n1-4\nBIOL 4701\nBiology Capstone\nBIOL 4900\nBiology Research Capstone (concurrent with\nBIOL 4991\nor\nBIOL 4994\n, which may be used toward Intermediate/Advanced Cell and Molecular Biology Electives)\nBIOL 4971\nJunior/Senior Honors Project 2\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nStatistics\nENVR 2500\nand\nENVR 2501\nBiostatistics\nand Lab for ENVR 2500\n5\nChemistry\nGeneral Chemistry\nCHEM 1161\nand\nCHEM 1162\nand\nCHEM 1163\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nand Recitation for CHEM 1161\n5\nOrganic Chemistry\nCHEM 2311\nand\nCHEM 2312\nOrganic Chemistry 1\nand Lab for CHEM 2311\n5\nCHEM 2313\nand\nCHEM 2314\nOrganic Chemistry 2\nand Lab for CHEM 2313\n5\nPhysics\nPhysics 1\nComplete one of the following lecture/lab pairs.\nPHYS 1145\n/\nPHYS 1146\nis recommended:\n5\nPHYS 1145\nand\nPHYS 1146\nPhysics for Life Sciences 1\nand Lab for PHYS 1145\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPHYS 1161\nand\nPHYS 1162\nPhysics 1\nand Lab for PHYS 1161\nPhysics 2\nComplete one of the following lecture/lab pairs.\nPHYS 1147\n/\nPHYS 1148\nis recommended:\n5\nPHYS 1147\nand\nPHYS 1148\nPhysics for Life Sciences 2\nand Lab for PHYS 1147\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nPHYS 1165\nand\nPHYS 1166\nPhysics 2\nand Lab for PHYS 1165\nIntermediate or Advanced Science\nComplete one course from the following:\n4-5\nBIOL 2301\nto BIOL 5999\nCHEM 2311\nto CHEM 5999\nEEMB 2290\nto EEMB 5999\nENVR 2310\nto ENVR 5999\nMATH 2280\nto MATH 5999\nPHYS 2303\nto PHYS 5999\nPSYC 2290 to PSYC 5999\nCell and Molecular Biology Major Credit/GPA Requirement\nComplete 79 semester hours in the major with a cumulative GPA of 2.000.\nDue to overlap in course content, double majoring in cell and molecular biology and biology, biochemistry, marine biology or behavioral neuroscience is not permitted.\nProgram Requirement\n136 total semester hours required",
+  "referenced_courses": [
+    "BIOL 1000",
+    "BIOL 1107",
+    "BIOL 1108",
+    "BIOL 2299",
+    "BIOL 2301",
+    "BIOL 2302",
+    "BIOL 2309",
+    "BIOL 2329",
+    "BIOL 3411",
+    "BIOL 3421",
+    "BIOL 3422",
+    "BIOL 3601",
+    "BIOL 3603",
+    "BIOL 3605",
+    "BIOL 3611",
+    "BIOL 3612",
+    "BIOL 4701",
+    "BIOL 4707",
+    "BIOL 4900",
+    "BIOL 4970",
+    "BIOL 4971",
+    "BIOL 4991",
+    "BIOL 4994",
+    "BIOL 5541",
+    "BIOL 5543",
+    "BIOL 5549",
+    "BIOL 5573",
+    "BIOL 5581",
+    "BIOL 5583",
+    "BIOL 5585",
+    "BIOL 5587",
+    "BIOL 5591",
+    "BIOL 5593",
+    "BIOL 5597",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1163",
+    "CHEM 2311",
+    "CHEM 2312",
+    "CHEM 2313",
+    "CHEM 2314",
+    "EEMB 2290",
+    "EEMB 3001",
+    "EESC 2000",
+    "ENVR 2310",
+    "ENVR 2500",
+    "ENVR 2501",
+    "INSC 1000",
+    "MATH 1341",
+    "MATH 2280",
+    "PHYS 1145",
+    "PHYS 1146",
+    "PHYS 1147",
+    "PHYS 1148",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1165",
+    "PHYS 1166",
+    "PHYS 2303"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

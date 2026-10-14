@@ -1,0 +1,97 @@
+{
+  "department": "ORGB",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/course-descriptions/orgb/",
+  "courses": [
+    {
+      "number": "3201",
+      "title": "Organizational Behavior",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides an overview of the actions and behaviors of people in organizations. Uses case studies, videos, experiential exercises, lectures, and discussions to explore the effects of individual, interpersonal, group, organizational, and cross-cultural factors on human behavior. Topics include groups and teams, motivation, leadership, organizational change, organizational culture, structure, conflict resolution, and communication. Both the underlying theories and principles of these topics, as well as their practical applications and implications for organizations, are covered.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "COOP 3945",
+                "min_grade": "S",
+                "concurrent": true
+              },
+              {
+                "course": "COOP 3948",
+                "min_grade": "S",
+                "concurrent": true
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "ENGW 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGW 1102",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 1111",
+                "min_grade": "C"
+              },
+              {
+                "course": "ENGL 1102",
+                "min_grade": "C"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "(COOP 3945 (may be taken concurrently) with a minimum grade of S or COOP 3948 (may be taken concurrently) with a minimum grade of S ); (ENGW 1111 with a minimum grade of C or ENGW 1102 with a minimum grade of C or ENGL 1111 with a minimum grade of C or ENGL 1102 with a minimum grade of C )"
+    },
+    {
+      "number": "3209",
+      "title": "Organizational Behavior",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Does not count as credit for business majors. Counts as ORGB 3201 for business minors only.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of faculty members of the department on a chosen topic. Course content depends on instructor. May be repeated up to four times for a maximum of 8 semester hours.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    }
+  ]
+}

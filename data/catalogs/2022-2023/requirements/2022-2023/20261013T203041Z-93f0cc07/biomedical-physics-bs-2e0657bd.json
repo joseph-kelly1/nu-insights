@@ -1,0 +1,1372 @@
+{
+  "document_id": "biomedical-physics-bs-2e0657bd",
+  "kind": "program",
+  "title": "Biomedical Physics, BS",
+  "catalog_year": "2022-2023",
+  "source_url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/science/physics/biomedical-physics-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Biomedical Physics Major Requirements",
+      "heading_path": [
+        "Biomedical Physics Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Introductory Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "Physics 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 2,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 Physics 1 and Lab for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "Physics 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PHYS 1165 and PHYS 1166 Physics 2 and Lab for PHYS 1165",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1165",
+                "PHYS 1166"
+              ],
+              "code_text": "PHYS 1165 and PHYS 1166",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1165"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1166"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 and PHYS 1157 Physics for Engineering 2 and Lab for PHYS 1155 and Interactive Learning Seminar for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156",
+                "PHYS 1157"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156 and PHYS 1157",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1157"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Intermediate Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHYS 2303 Modern Physics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 2303"
+              ],
+              "code_text": "PHYS 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 2303"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "PHYS 2371 and PHYS 2372 Electronics and Lab for PHYS 2371",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 2371",
+                "PHYS 2372"
+              ],
+              "code_text": "PHYS 2371 and PHYS 2372",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 2371"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 2372"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Advanced Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "PHYS 3600 Advanced Physics Laboratory",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3600"
+              ],
+              "code_text": "PHYS 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3600"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "PHYS 3602 Electricity and Magnetism 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3602"
+              ],
+              "code_text": "PHYS 3602",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3602"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "PHYS 3603 Electricity and Magnetism 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 3603"
+              ],
+              "code_text": "PHYS 3603",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 3603"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PHYS 4305 Thermodynamics and Statistical Mechanics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4305"
+              ],
+              "code_text": "PHYS 4305",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4305"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Biomedical Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "PHYS 4621 Biological Physics 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4621"
+              ],
+              "code_text": "PHYS 4621",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4621"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "PHYS 4623 Medical Physics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4623"
+              ],
+              "code_text": "PHYS 4623",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4623"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "PHYS 4651 Medical Physics Seminar 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4651"
+              ],
+              "code_text": "PHYS 4651",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4651"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "PHYS 4652 Medical Physics Seminar 2",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4652"
+              ],
+              "code_text": "PHYS 4652",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4652"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "header",
+              "text": "Advanced Physics Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 23,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "MATH 4606 Mathematical and Computational Methods for Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 4606"
+              ],
+              "code_text": "MATH 4606",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 4606"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "elective_filter",
+              "text": "PHYS 2300 to PHYS 7999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "PHYS",
+                "minimum_number": "2300",
+                "maximum_number": "7999"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "header",
+              "text": "Experiential Learning",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 27,
+              "kind": "note",
+              "text": "Note: The experiential learning requirement is waived following a student presentation connected with a co-op and/or research experience. The requirement is often fulfilled by a talk at a Society of Physics Students meeting but can be fulfilled by an adequately documented presentation at a professional meeting or at an appropriate campus event. Contact your faculty advisor for additional information.",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "PHYS 4996 Experiential Education Directed Study",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4996"
+              ],
+              "code_text": "PHYS 4996",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4996"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "header",
+              "text": "Senior Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "PHYS 5318 Principles of Experimental Physics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 5318"
+              ],
+              "code_text": "PHYS 5318",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 5318"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Mathematics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "header",
+              "text": "Computational Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHYS 1211 Computational Problem Solving in Physics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1211"
+              ],
+              "code_text": "PHYS 1211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1211"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or PHYS 1130 Computing, Data, and Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1130"
+              ],
+              "code_text": "or PHYS 1130",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1130"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "or GE 1111 Engineering Problem Solving and Computation",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1111"
+              ],
+              "code_text": "or GE 1111",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1111"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Biology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "BIOL 1111 and BIOL 1112 General Biology 1 and Lab for BIOL 1111",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111",
+                "BIOL 1112"
+              ],
+              "code_text": "BIOL 1111 and BIOL 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1112"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOL 1113 and BIOL 1114 General Biology 2 and Lab for BIOL 1113",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1113",
+                "BIOL 1114"
+              ],
+              "code_text": "BIOL 1113 and BIOL 1114",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1113"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1114"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "header",
+              "text": "Chemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CHEM 1211 and CHEM 1212 General Chemistry 1 and Lab for CHEM 1211",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1211",
+                "CHEM 1212"
+              ],
+              "code_text": "CHEM 1211 and CHEM 1212",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1211"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1212"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 14,
+              "kind": "header",
+              "text": "Technical Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 15,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "MATH 2280 Statistics and Software",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2280"
+              ],
+              "code_text": "MATH 2280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2280"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "elective_filter",
+              "text": "MATH 2321 to MATH 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "MATH",
+                "minimum_number": "2321",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "elective_filter",
+              "text": "PHYS 2303 to PHYS 7999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "PHYS",
+                "minimum_number": "2303",
+                "maximum_number": "7999"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "elective_filter",
+              "text": "CHEM 2311 to CHEM 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CHEM",
+                "minimum_number": "2311",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "elective_filter",
+              "text": "BIOL 2301 to BIOL 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "BIOL",
+                "minimum_number": "2301",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "elective_filter",
+              "text": "ENVR 2300 to ENVR 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ENVR",
+                "minimum_number": "2300",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "elective_filter",
+              "text": "CS 2990 to CS 4900",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CS",
+                "minimum_number": "2990",
+                "maximum_number": "4900"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "elective_filter",
+              "text": "CHME 2001 to CHME 4699",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CHME",
+                "minimum_number": "2001",
+                "maximum_number": "4699"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "elective_filter",
+              "text": "CIVE 2001 to CIVE 4699",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "CIVE",
+                "minimum_number": "2001",
+                "maximum_number": "4699"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "elective_filter",
+              "text": "EECE 2001 to EECE 5999",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "EECE",
+                "minimum_number": "2001",
+                "maximum_number": "5999"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "elective_filter",
+              "text": "ME 2001 to ME 4699",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "ME",
+                "minimum_number": "2001",
+                "maximum_number": "4699"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "elective_filter",
+              "text": "IE 2001 to IE 4699",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "course_filter": {
+                "subject": "IE",
+                "minimum_number": "2001",
+                "maximum_number": "4699"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Biomedical Physics Major Credit Requirement",
+      "heading_path": [
+        "Biomedical Physics Major Credit Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete 97 semester hours in the major.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 97.0
+          },
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "135 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "biomedical-physics-bs-2e0657bd",
+  "major_name": "Biomedical Physics",
+  "degree": "BS",
+  "campus": "",
+  "college": "College of Science",
+  "overview_text": "The biomedical physics program seeks to understand the role of physical processes occurring on molecular, cellular, or macroscopic scales; in vital biological functions, ranging from the interaction of chemicals with DNA, to the extraction of oxygen from red blood cells, to the generation of complex electrical signals in the brain and nervous system; and physical principles of medical devices. The biomedical physics program also offers a premed (prehealth) specialized track.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nBiomedical Physics Major Requirements\nCourse List\nCode\nTitle\nHours\nIntroductory Physics\nPhysics 1\nComplete one of the following:\n5\nPHYS 1161\nand\nPHYS 1162\nPhysics 1\nand Lab for PHYS 1161\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPhysics 2\nComplete one of the following:\n5\nPHYS 1165\nand\nPHYS 1166\nPhysics 2\nand Lab for PHYS 1165\nPHYS 1155\nand\nPHYS 1156\nand\nPHYS 1157\nPhysics for Engineering 2\nand Lab for PHYS 1155\nand Interactive Learning Seminar for PHYS 1155\nIntermediate Physics\nPHYS 2303\nModern Physics\n4\nPHYS 2371\nand\nPHYS 2372\nElectronics\nand Lab for PHYS 2371\n4\nAdvanced Physics\nPHYS 3600\nAdvanced Physics Laboratory\n4\nPHYS 3602\nElectricity and Magnetism 1\n4\nPHYS 3603\nElectricity and Magnetism 2\n4\nPHYS 4305\nThermodynamics and Statistical Mechanics\n4\nBiomedical Physics\nPHYS 4621\nBiological Physics 1\n4\nPHYS 4623\nMedical Physics\n4\nPHYS 4651\nMedical Physics Seminar 1\n4\nPHYS 4652\nMedical Physics Seminar 2\n4\nAdvanced Physics Elective\nComplete one of the following:\n4\nMATH 4606\nMathematical and Computational Methods for Physics\nPHYS 2300 to PHYS 7999\nExperiential Learning\nNote: The experiential learning requirement is waived following a student presentation connected with a co-op and/or research experience. The requirement is often fulfilled by a talk at a Society of Physics Students meeting but can be fulfilled by an adequately documented presentation at a professional meeting or at an appropriate campus event. Contact your faculty advisor for additional information.\n4\nPHYS 4996\nExperiential Education Directed Study\n4\nSenior Capstone\nPHYS 5318\nPrinciples of Experimental Physics\n4\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nMathematics\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nComputational Methods\nPHYS 1211\nComputational Problem Solving in Physics\n4\nor\nPHYS 1130\nComputing, Data, and Science\nor\nGE 1111\nEngineering Problem Solving and Computation\nBiology\nBIOL 1111\nand\nBIOL 1112\nGeneral Biology 1\nand Lab for BIOL 1111\n5\nBIOL 1113\nand\nBIOL 1114\nGeneral Biology 2\nand Lab for BIOL 1113\n5\nChemistry\nCHEM 1211\nand\nCHEM 1212\nGeneral Chemistry 1\nand Lab for CHEM 1211\n5\nTechnical Electives\nComplete two of the following:\n8\nMATH 2280\nStatistics and Software\nMATH 2321\nto MATH 5999\nPHYS 2303\nto PHYS 7999\nCHEM 2311\nto CHEM 5999\nBIOL 2301\nto BIOL 5999\nENVR 2300 to ENVR 5999\nCS 2990\nto CS 4900\nCHME 2001 to CHME 4699\nCIVE 2001 to CIVE 4699\nEECE 2001 to EECE 5999\nME 2001 to\nME 4699\nIE 2001 to\nIE 4699\nBiomedical Physics Major Credit Requirement\nComplete 97 semester hours in the major.\nProgram Requirement\n135 total semester hours required",
+  "referenced_courses": [
+    "BIOL 1111",
+    "BIOL 1112",
+    "BIOL 1113",
+    "BIOL 1114",
+    "BIOL 2301",
+    "CHEM 1211",
+    "CHEM 1212",
+    "CHEM 2311",
+    "CS 2990",
+    "GE 1111",
+    "IE 4699",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2280",
+    "MATH 2321",
+    "MATH 2341",
+    "MATH 4606",
+    "ME 4699",
+    "PHYS 1130",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1157",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1165",
+    "PHYS 1166",
+    "PHYS 1211",
+    "PHYS 2303",
+    "PHYS 2371",
+    "PHYS 2372",
+    "PHYS 3600",
+    "PHYS 3602",
+    "PHYS 3603",
+    "PHYS 4305",
+    "PHYS 4621",
+    "PHYS 4623",
+    "PHYS 4651",
+    "PHYS 4652",
+    "PHYS 4996",
+    "PHYS 5318"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2022-2023/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "CS 2990"
+  ]
+}

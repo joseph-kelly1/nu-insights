@@ -1,0 +1,2431 @@
+{
+  "document_id": "civil-engineering-architectural-studies-bsce-ab0e3a2a",
+  "kind": "program",
+  "title": "Civil Engineering and Architectural Studies, BSCE",
+  "catalog_year": "2024-2025",
+  "source_url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/engineering/civil-environmental/civil-engineering-architectural-studies-bsce/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "list",
+          "text": "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality. Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Concentrations and course offerings may vary by campus and/or by program modality. Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.",
+            "Certain options within the program may be required at certain campuses or for certain program modalities. Please consult with your advisor or admissions coach for requirements at your campus or for your program modality."
+          ]
+        },
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "NUpath requirements: Interpreting Culture (IC), Understanding Societies and Institutions (SI), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering Requirements",
+      "heading_path": [
+        "Engineering Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CIVE 2221 and CIVE 2222 Statics and Solid Mechanics and Recitation for CIVE 2221",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2221",
+                "CIVE 2222"
+              ],
+              "code_text": "CIVE 2221 and CIVE 2222",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2221"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2222"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CIVE 2260 and CIVE 2261 Materials for the Built Environment and Lab for CIVE 2260",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2260",
+                "CIVE 2261"
+              ],
+              "code_text": "CIVE 2260 and CIVE 2261",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2260"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2261"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CIVE 2320 and CIVE 2321 Structural Analysis and Recitation for CIVE 2320",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2320",
+                "CIVE 2321"
+              ],
+              "code_text": "CIVE 2320 and CIVE 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2320"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2321"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "CIVE 2324 Concrete Structure Design",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2324"
+              ],
+              "code_text": "CIVE 2324",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2324"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "CIVE 2331 Fluid Mechanics and Hydraulics",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2331"
+              ],
+              "code_text": "CIVE 2331",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2331"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "CIVE 2334 Environmental Engineering: Principles, Technology, and Sustainability",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2334"
+              ],
+              "code_text": "CIVE 2334",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 2334"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "CIVE 2340 and CIVE 2341 Geotechnical Engineering and Lab for CIVE 2340",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 2340",
+                "CIVE 2341"
+              ],
+              "code_text": "CIVE 2340 and CIVE 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2340"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 2341"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 3300 Energy Systems: Science, Technology, and Sustainability",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 3300"
+              ],
+              "code_text": "GE 3300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 3300"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Civil Engineering Project Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CIVE 4534 and CIVE 4535 Water Treatment Systems Design and Lab for CIVE 4534",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4534",
+                "CIVE 4535"
+              ],
+              "code_text": "CIVE 4534 and CIVE 4535",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CIVE 4534"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CIVE 4535"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "CIVE 4542 Foundation Engineering and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4542"
+              ],
+              "code_text": "CIVE 4542",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4542"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "CIVE 4554 Highway Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4554"
+              ],
+              "code_text": "CIVE 4554",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4554"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CIVE 5536 Hydrologic and Hydraulic Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5536"
+              ],
+              "code_text": "CIVE 5536",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5536"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "header",
+              "text": "Senior Design Project",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "CIVE 4767 Senior Design Project—Structural",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4767"
+              ],
+              "code_text": "CIVE 4767",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4767"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "header",
+              "text": "Civil Engineering Technical Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "CIVE 3425 Steel Structure Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3425"
+              ],
+              "code_text": "CIVE 3425",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3425"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "CIVE 5522 Structural Systems Modeling",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 5522"
+              ],
+              "code_text": "CIVE 5522",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 5522"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 22,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the engineering requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "CIVE 3464 Probability and Engineering Economy for Civil Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3464"
+              ],
+              "code_text": "CIVE 3464",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3464"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "note",
+              "text": "2 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "2",
+              "credits": {
+                "min": 2.0,
+                "max": 2.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the engineering requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Architectural Studies Requirements",
+      "heading_path": [
+        "Architectural Studies Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "ARCH 1110 Fundamental Architectural Representation",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 1110"
+              ],
+              "code_text": "ARCH 1110",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 1110"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ARCH 1120 Fundamental Architectural Design",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 1120"
+              ],
+              "code_text": "ARCH 1120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 1120"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ARCH 1310 and ARCH 1311 Buildings and Cities, A Global History and Recitation for ARCH 1310",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 1310",
+                "ARCH 1311"
+              ],
+              "code_text": "ARCH 1310 and ARCH 1311",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARCH 1310"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARCH 1311"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ARCH 2130 Site, Space, Program",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 2130"
+              ],
+              "code_text": "ARCH 2130",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 2130"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "ARCH 2140 Urban Housing",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 2140"
+              ],
+              "code_text": "ARCH 2140",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 2140"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "ARCH 2340 and ARCH 2341 Modern Architecture and Recitation for ARCH 2340",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 2340",
+                "ARCH 2341"
+              ],
+              "code_text": "ARCH 2340 and ARCH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARCH 2340"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARCH 2341"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "ARCH 3210 and ARCH 3211 Environmental Systems and Recitation for ARCH 3210",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 3210",
+                "ARCH 3211"
+              ],
+              "code_text": "ARCH 3210 and ARCH 3211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "ARCH 3210"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "ARCH 3211"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Architectural Electives",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete two of the following:",
+              "credits_text": "8",
+              "credits": {
+                "min": 8.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 2
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "ARCH 3370 Advanced Topics in Architectural History",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 3370"
+              ],
+              "code_text": "ARCH 3370",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 3370"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "ARCH 3351 Architecture Topics Abroad: Theory",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 3351"
+              ],
+              "code_text": "ARCH 3351",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 3351"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "ARCH 3352 Architecture Topics Abroad: Drawing",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 3352"
+              ],
+              "code_text": "ARCH 3352",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 3352"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ARCH 3450 Advanced Architectural Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 3450"
+              ],
+              "code_text": "ARCH 3450",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 3450"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "ARCH 4850 Urban and Architectural History Abroad",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 4850"
+              ],
+              "code_text": "ARCH 4850",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 4850"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "ARCH 5115 Option Studio",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 5115"
+              ],
+              "code_text": "ARCH 5115",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 5115"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "ARCH 5220 Integrated Building Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 5220"
+              ],
+              "code_text": "ARCH 5220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 5220"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "ARCH 5310 Design Tactics and Operations",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ARCH 5310"
+              ],
+              "code_text": "ARCH 5310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ARCH 5310"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses: Mathematics/Science",
+      "heading_path": [
+        "Supporting Courses: Mathematics/Science"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all Mathematics/Science courses with a minimum of 30 semester hours.",
+          "links": [],
+          "constraints": {
+            "minimum_credits": 30.0
+          },
+          "requires_review": true
+        },
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Required Mathematics/Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CHEM 1151 and CHEM 1153 General Chemistry for Engineers and Recitation for CHEM 1151",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1151",
+                "CHEM 1153"
+              ],
+              "code_text": "CHEM 1151 and CHEM 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1342 Calculus 2 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1342"
+              ],
+              "code_text": "MATH 1342",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1342"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "MATH 2321 Calculus 3 for Science and Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2321"
+              ],
+              "code_text": "MATH 2321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2321"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "MATH 2341 Differential Equations and Linear Algebra for Engineering",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 2341"
+              ],
+              "code_text": "MATH 2341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 2341"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PHYS 1151 and PHYS 1152 and PHYS 1153 Physics for Engineering 1 and Lab for PHYS 1151 and Interactive Learning Seminar for PHYS 1151",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1151",
+                "PHYS 1152",
+                "PHYS 1153"
+              ],
+              "code_text": "PHYS 1151 and PHYS 1152 and PHYS 1153",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1151"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1152"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1153"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHYS 1161 and PHYS 1162 and PHYS 1163 Physics 1 and Lab for PHYS 1161 and Recitation for PHYS 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1161",
+                "PHYS 1162",
+                "PHYS 1163"
+              ],
+              "code_text": "PHYS 1161 and PHYS 1162 and PHYS 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "header",
+              "text": "Science Elective",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 10,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4-5",
+              "credits": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "BIOL 1111 and BIOL 1112 General Biology 1 and Lab for BIOL 1111",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111",
+                "BIOL 1112"
+              ],
+              "code_text": "BIOL 1111 and BIOL 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1112"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "BIOL 1141 Microbes and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1141"
+              ],
+              "code_text": "BIOL 1141",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 1141"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "BIOL 1143 Biology and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1143"
+              ],
+              "code_text": "BIOL 1143",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "BIOL 1143"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "CHEM 2311 and CHEM 2312 and CHEM 2319 Organic Chemistry 1 and Lab for CHEM 2311 and",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 2311",
+                "CHEM 2312",
+                "CHEM 2319"
+              ],
+              "code_text": "CHEM 2311 and CHEM 2312 and CHEM 2319",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2311"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2312"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 2319"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "CHEM 3410 Environmental Geochemistry",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 3410"
+              ],
+              "code_text": "CHEM 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CHEM 3410"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "EEMB 1101 and EEMB 1102 Foundations in Ecology and Evolutionary Biology and Lab for EEMB 1101",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 1101",
+                "EEMB 1102"
+              ],
+              "code_text": "EEMB 1101 and EEMB 1102",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1101"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 1102"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "EEMB 2302 and EEMB 2303 Ecology and Lab for EEMB 2302",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EEMB 2302",
+                "EEMB 2303"
+              ],
+              "code_text": "EEMB 2302 and EEMB 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2302"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EEMB 2303"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "ENVR 1200 Dynamic Earth",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 1200"
+              ],
+              "code_text": "ENVR 1200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 1200"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "ENVR 2200 Earth's Changing Cycles",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2200"
+              ],
+              "code_text": "ENVR 2200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2200"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "ENVR 2515 Sustainable Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 2515"
+              ],
+              "code_text": "ENVR 2515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 2515"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "ENVR 3125 Global Oceanic Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3125"
+              ],
+              "code_text": "ENVR 3125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3125"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "ENVR 3200 Water Resources",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3200"
+              ],
+              "code_text": "ENVR 3200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3200"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "ENVR 3600 Oceanography",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 3600"
+              ],
+              "code_text": "ENVR 3600",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 3600"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "ENVR 5201 Geologic Field Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5201"
+              ],
+              "code_text": "ENVR 5201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5201"
+              }
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "ENVR 5350 Sustainable Energy and Climate Solutions",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ENVR 5350"
+              ],
+              "code_text": "ENVR 5350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENVR 5350"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "PHYS 1111 Introduction to Astronomy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1111"
+              ],
+              "code_text": "PHYS 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1111"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "PHYS 1125 Introduction to Network Science: From the Human Cell to Facebook",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1125"
+              ],
+              "code_text": "PHYS 1125",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1125"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "PHYS 1132 Energy, Environment, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1132"
+              ],
+              "code_text": "PHYS 1132",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 1132"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "PHYS 1155 and PHYS 1156 Physics for Engineering 2 and Lab for PHYS 1155",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 1155",
+                "PHYS 1156"
+              ],
+              "code_text": "PHYS 1155 and PHYS 1156",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1155"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHYS 1156"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "PHYS 4623 Medical Physics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHYS 4623"
+              ],
+              "code_text": "PHYS 4623",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHYS 4623"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "header",
+              "text": "Supplemental Credit",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 32,
+              "kind": "note",
+              "text": "3 semester hours from the following course count toward the mathematics/science requirement:",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "CIVE 3464 Probability and Engineering Economy for Civil Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 3464"
+              ],
+              "code_text": "CIVE 3464",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 3464"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the mathematics/science requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Professional Development",
+      "heading_path": [
+        "Professional Development"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Professional Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "GE 1000 First-Year Seminar",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "GE 1000"
+              ],
+              "code_text": "GE 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENCP 2000 Introduction to Engineering Co-op Education",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 2000"
+              ],
+              "code_text": "ENCP 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 2000"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENCP 3000 Professional Issues in Engineering",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENCP 3000"
+              ],
+              "code_text": "ENCP 3000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENCP 3000"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Additional Required Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "GE 1501 Cornerstone of Engineering 1 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1501"
+              ],
+              "code_text": "GE 1501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1501"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "note",
+              "text": "1 semester hour from the following course counts toward the professional development requirement:",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "GE 1502 Cornerstone of Engineering 2 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 20.0,
+              "requires_review": true,
+              "courses": [
+                "GE 1502"
+              ],
+              "code_text": "GE 1502",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "GE 1502"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Writing Requirements",
+      "heading_path": [
+        "Writing Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "A grade of C or higher is required:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3302 Advanced Writing in the Technical Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3302"
+              ],
+              "code_text": "ENGW 3302",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3302"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Integrative Courses",
+      "heading_path": [
+        "Integrative Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "note",
+              "text": "This course is already required above and also fulfills the integrative requirement.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "CIVE 4767 Senior Design Project—Structural",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CIVE 4767"
+              ],
+              "code_text": "CIVE 4767",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CIVE 4767"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "1 Students can substitute Engineering Design ( GE 1110 ) and Engineering Problem Solving and Computation ( GE 1111 ) for Cornerstone of Engineering 1 ( GE 1501 ) and Cornerstone of Engineering 2 ( GE 1502 ) in approved situations.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Engineering GPA Requirement",
+      "heading_path": [
+        "Engineering GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in CIVE coursework.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Architecture GPA Requirement",
+      "heading_path": [
+        "Architecture GPA Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Minimum 2.000 GPA required in all Architecture courses",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirements",
+      "heading_path": [
+        "Program Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "141 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "text",
+          "text": "Note:",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        },
+        {
+          "kind": "list",
+          "text": "Students who wish to be considered for the two-year Master of Architecture Program at Northeastern should take Advanced Architectural Communication ( ARCH 3450 ) as an elective and should not take Option Studio ( ARCH 5115 ) or Integrated Building Systems ( ARCH 5220 ) as architectural electives. Students who wish to be considered for the two-year Master of Architecture Program at Northeastern must have satisfied the Structural Systems ( ARCH 5230 ) requirement. This requirement is achieved in this combined major by taking the following three courses, as follows: Statics and Solid Mechanics ( CIVE 2221 ) , including Recitation for CIVE 2221 ( CIVE 2222 ) Structural Analysis ( CIVE 2320 ) , including Recitation for CIVE 2320 ( CIVE 2321 ) And at least one design course from the following: Concrete Structure Design ( CIVE 2324 ) Steel Structure Design ( CIVE 3425 )",
+          "links": [],
+          "constraints": {},
+          "requires_review": true,
+          "items": [
+            "Students who wish to be considered for the two-year Master of Architecture Program at Northeastern should take Advanced Architectural Communication ( ARCH 3450 ) as an elective and should not take Option Studio ( ARCH 5115 ) or Integrated Building Systems ( ARCH 5220 ) as architectural electives.",
+            "Students who wish to be considered for the two-year Master of Architecture Program at Northeastern must have satisfied the Structural Systems ( ARCH 5230 ) requirement. This requirement is achieved in this combined major by taking the following three courses, as follows: Statics and Solid Mechanics ( CIVE 2221 ) , including Recitation for CIVE 2221 ( CIVE 2222 ) Structural Analysis ( CIVE 2320 ) , including Recitation for CIVE 2320 ( CIVE 2321 ) And at least one design course from the following: Concrete Structure Design ( CIVE 2324 ) Steel Structure Design ( CIVE 3425 )"
+          ]
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "civil-engineering-architectural-studies-bsce-ab0e3a2a",
+  "major_name": "Civil Engineering and Architectural Studies",
+  "degree": "BSCE",
+  "campus": "",
+  "college": "College of Engineering",
+  "overview_text": "Civil engineering and architecture are two important disciplines that deal with the process of creating the built environment to satisfy societal needs. Both professions have critical functions that are essential in the development of society in terms of planning cities and designing more resilient infrastructure and rely on one another to accomplish it. The combination of these two professions creates great synergy as architects focus more on the functional and human aspects of development, while civil engineers concentrate on the structural elements of the design, ensuring durable structures that perform under normal and extreme loads. Students successfully completing the program receive a rigorous engineering training education, enabling a high level of engineering knowledge as well as exposure to a broad range of architectural topics and design experiences. Students also have the opportunity to undertake a co-op experience consistent with the policies and opportunities offered within the College of Engineering. Our BS program in Civil Engineering and Architectural Studies is ABET accredited. Visit the Department of Civil and Environmental Engineering website for program education outcomes.",
+  "source_text": "Concentrations and course offerings may vary by campus and/or by program modality.  Please consult with your advisor or admissions coach for the course availability each term at your campus or within your program modality.\nCertain options within the program may be\nrequired\nat certain campuses or for certain program modalities.  Please consult with your advisor or admissions coach for requirements at your campus or for your program modality.\nComplete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nNUpath requirements: Interpreting Culture (IC), Understanding Societies and Institutions (SI), Engaging Differences and Diversity (DD), and Integrating Knowledge and Skills Through Experience (EX) are not explicitly satisfied by required engineering coursework. Successful completion of a cooperative education experience fulfills the EX requirement. Students are responsible for satisfying unfulfilled NUpath requirements with general elective coursework.\nEngineering Requirements\nCourse List\nCode\nTitle\nHours\nRequired Engineering\nCIVE 2221\nand\nCIVE 2222\nStatics and Solid Mechanics\nand Recitation for CIVE 2221\n4\nCIVE 2260\nand\nCIVE 2261\nMaterials for the Built Environment\nand Lab for CIVE 2260\n5\nCIVE 2320\nand\nCIVE 2321\nStructural Analysis\nand Recitation for CIVE 2320\n4\nCIVE 2324\nConcrete Structure Design\n4\nCIVE 2331\nFluid Mechanics and Hydraulics\n4\nCIVE 2334\nEnvironmental Engineering: Principles, Technology, and Sustainability\n4\nCIVE 2340\nand\nCIVE 2341\nGeotechnical Engineering\nand Lab for CIVE 2340\n5\nGE 3300\nEnergy Systems: Science, Technology, and Sustainability\n4\nCivil Engineering Project Elective\nComplete one of the following:\n4\nCIVE 4534\nand\nCIVE 4535\nWater Treatment Systems Design\nand Lab for CIVE 4534\nCIVE 4542\nFoundation Engineering and Design\nCIVE 4554\nHighway Design\nCIVE 5536\nHydrologic and Hydraulic Design\nSenior Design Project\nCIVE 4767\nSenior Design Project—Structural\n5\nCivil Engineering Technical Electives\nComplete one of the following:\n4\nCIVE 3425\nSteel Structure Design\nCIVE 5522\nStructural Systems Modeling\nSupplemental Credit\n1 semester hour from the following course counts toward the engineering requirement:\n1\nCIVE 3464\nProbability and Engineering Economy for Civil Engineering\n2 semester hours from the following course count toward the engineering requirement:\n2\nGE 1501\nCornerstone of Engineering 1\n1\n3 semester hours from the following course count toward the engineering requirement:\n3\nGE 1502\nCornerstone of Engineering 2\n1\nArchitectural Studies Requirements\nCourse List\nCode\nTitle\nHours\nARCH 1110\nFundamental Architectural Representation\n4\nARCH 1120\nFundamental Architectural Design\n6\nARCH 1310\nand\nARCH 1311\nBuildings and Cities, A Global History\nand Recitation for ARCH 1310\n4\nARCH 2130\nSite, Space, Program\n6\nARCH 2140\nUrban Housing\n6\nARCH 2340\nand\nARCH 2341\nModern Architecture\nand Recitation for ARCH 2340\n4\nARCH 3210\nand\nARCH 3211\nEnvironmental Systems\nand Recitation for ARCH 3210\n4\nArchitectural Electives\nComplete two of the following:\n8\nARCH 3370\nAdvanced Topics in Architectural History\nARCH 3351\nArchitecture Topics Abroad: Theory\nARCH 3352\nArchitecture Topics Abroad: Drawing\nARCH 3450\nAdvanced Architectural Communication\nARCH 4850\nUrban and Architectural History Abroad\nARCH 5115\nOption Studio\nARCH 5220\nIntegrated Building Systems\nARCH 5310\nDesign Tactics and Operations\nSupporting Courses: Mathematics/Science\nComplete all Mathematics/Science courses with a minimum of 30 semester hours.\nCourse List\nCode\nTitle\nHours\nRequired Mathematics/Science\nCHEM 1151\nand\nCHEM 1153\nGeneral Chemistry for Engineers\nand Recitation for CHEM 1151\n4\nMATH 1341\nCalculus 1 for Science and Engineering\n4\nMATH 1342\nCalculus 2 for Science and Engineering\n4\nMATH 2321\nCalculus 3 for Science and Engineering\n4\nMATH 2341\nDifferential Equations and Linear Algebra for Engineering\n4\nComplete one of the following:\n5\nPHYS 1151\nand\nPHYS 1152\nand\nPHYS 1153\nPhysics for Engineering 1\nand Lab for PHYS 1151\nand Interactive Learning Seminar for PHYS 1151\nPHYS 1161\nand\nPHYS 1162\nand\nPHYS 1163\nPhysics 1\nand Lab for PHYS 1161\nand Recitation for PHYS 1161\nScience Elective\nComplete one of the following:\n4-5\nBIOL 1111\nand\nBIOL 1112\nGeneral Biology 1\nand Lab for BIOL 1111\nBIOL 1141\nMicrobes and Society\nBIOL 1143\nBiology and Society\nCHEM 2311\nand\nCHEM 2312\nand CHEM 2319\nOrganic Chemistry 1\nand Lab for CHEM 2311\nand\nCHEM 3410\nEnvironmental Geochemistry\nEEMB 1101\nand\nEEMB 1102\nFoundations in Ecology and Evolutionary Biology\nand Lab for EEMB 1101\nEEMB 2302\nand\nEEMB 2303\nEcology\nand Lab for EEMB 2302\nENVR 1200\nDynamic Earth\nENVR 2200\nEarth's Changing Cycles\nENVR 2515\nSustainable Development\nENVR 3125\nGlobal Oceanic Change\nENVR 3200\nWater Resources\nENVR 3600\nOceanography\nENVR 5201\nGeologic Field Seminar\nENVR 5350\nSustainable Energy and Climate Solutions\nPHYS 1111\nIntroduction to Astronomy\nPHYS 1125\nIntroduction to Network Science: From the Human Cell to Facebook\nPHYS 1132\nEnergy, Environment, and Society\nPHYS 1155\nand\nPHYS 1156\nPhysics for Engineering 2\nand Lab for PHYS 1155\nPHYS 4623\nMedical Physics\nSupplemental Credit\n3 semester hours from the following course count toward the mathematics/science requirement:\n3\nCIVE 3464\nProbability and Engineering Economy for Civil Engineering\n1 semester hour from the following course counts toward the mathematics/science requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\nProfessional Development\nCourse List\nCode\nTitle\nHours\nProfessional Development\nGE 1000\nFirst-Year Seminar\n1\nENCP 2000\nIntroduction to Engineering Co-op Education\n1\nENCP 3000\nProfessional Issues in Engineering\n1\nAdditional Required Courses\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1501\nCornerstone of Engineering 1\n1\n1 semester hour from the following course counts toward the professional development requirement:\n1\nGE 1502\nCornerstone of Engineering 2\n1\nWriting Requirements\nCourse List\nCode\nTitle\nHours\nA grade of C or higher is required:\nENGW 1111\nFirst-Year Writing\n4\nENGW 3302\nAdvanced Writing in the Technical Professions\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nIntegrative Courses\nCourse List\nCode\nTitle\nHours\nThis course is already required above and also fulfills the integrative requirement.\nCIVE 4767\nSenior Design Project—Structural\n1\nStudents can substitute\nEngineering Design (\nGE 1110\n)\nand\nEngineering Problem Solving and Computation (\nGE 1111\n)\nfor\nCornerstone of Engineering 1 (\nGE 1501\n)\nand\nCornerstone of Engineering 2 (\nGE 1502\n)\nin approved situations.\nEngineering GPA Requirement\nMinimum 2.000 GPA required in CIVE coursework.\nArchitecture GPA Requirement\nMinimum 2.000 GPA required in all Architecture courses\nProgram Requirements\n141 total semester hours required\nNote:\nStudents who wish to be considered for the two-year Master of Architecture Program at Northeastern\nshould\ntake\nAdvanced Architectural Communication (\nARCH 3450\n)\nas an elective and\nshould not\ntake\nOption Studio (\nARCH 5115\n)\nor\nIntegrated Building Systems (\nARCH 5220\n)\nas architectural electives.\nStudents who wish to be considered for the two-year Master of Architecture Program at Northeastern must have satisfied the\nStructural Systems (\nARCH 5230\n)\nrequirement. This requirement is achieved in this combined major by taking the following three courses, as follows:\nStatics and Solid Mechanics (\nCIVE 2221\n)\n, including\nRecitation for CIVE 2221 (\nCIVE 2222\n)\nStructural Analysis (\nCIVE 2320\n)\n, including\nRecitation for CIVE 2320 (\nCIVE 2321\n)\nAnd at least one design course from the following:\nConcrete Structure Design (\nCIVE 2324\n)\nSteel Structure Design (\nCIVE 3425\n)",
+  "referenced_courses": [
+    "ARCH 1110",
+    "ARCH 1120",
+    "ARCH 1310",
+    "ARCH 1311",
+    "ARCH 2130",
+    "ARCH 2140",
+    "ARCH 2340",
+    "ARCH 2341",
+    "ARCH 3210",
+    "ARCH 3211",
+    "ARCH 3351",
+    "ARCH 3352",
+    "ARCH 3370",
+    "ARCH 3450",
+    "ARCH 4850",
+    "ARCH 5115",
+    "ARCH 5220",
+    "ARCH 5230",
+    "ARCH 5310",
+    "BIOL 1111",
+    "BIOL 1112",
+    "BIOL 1141",
+    "BIOL 1143",
+    "CHEM 1151",
+    "CHEM 1153",
+    "CHEM 2311",
+    "CHEM 2312",
+    "CHEM 2319",
+    "CHEM 3410",
+    "CIVE 2221",
+    "CIVE 2222",
+    "CIVE 2260",
+    "CIVE 2261",
+    "CIVE 2320",
+    "CIVE 2321",
+    "CIVE 2324",
+    "CIVE 2331",
+    "CIVE 2334",
+    "CIVE 2340",
+    "CIVE 2341",
+    "CIVE 3425",
+    "CIVE 3464",
+    "CIVE 4534",
+    "CIVE 4535",
+    "CIVE 4542",
+    "CIVE 4554",
+    "CIVE 4767",
+    "CIVE 5522",
+    "CIVE 5536",
+    "EEMB 1101",
+    "EEMB 1102",
+    "EEMB 2302",
+    "EEMB 2303",
+    "ENCP 2000",
+    "ENCP 3000",
+    "ENGW 1111",
+    "ENGW 3302",
+    "ENGW 3315",
+    "ENVR 1200",
+    "ENVR 2200",
+    "ENVR 2515",
+    "ENVR 3125",
+    "ENVR 3200",
+    "ENVR 3600",
+    "ENVR 5201",
+    "ENVR 5350",
+    "GE 1000",
+    "GE 1110",
+    "GE 1111",
+    "GE 1501",
+    "GE 1502",
+    "GE 3300",
+    "MATH 1341",
+    "MATH 1342",
+    "MATH 2321",
+    "MATH 2341",
+    "PHYS 1111",
+    "PHYS 1125",
+    "PHYS 1132",
+    "PHYS 1151",
+    "PHYS 1152",
+    "PHYS 1153",
+    "PHYS 1155",
+    "PHYS 1156",
+    "PHYS 1161",
+    "PHYS 1162",
+    "PHYS 1163",
+    "PHYS 4623"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2024-2025/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "CHEM 2319"
+  ]
+}

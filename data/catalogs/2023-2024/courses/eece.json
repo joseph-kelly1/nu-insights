@@ -1,0 +1,3874 @@
+{
+  "department": "EECE",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/course-descriptions/eece/",
+  "courses": [
+    {
+      "number": "2140",
+      "title": "Computing Fundamentals for Engineers",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Engages students in problem solving from an engineering perspective, offering essential computer hardware and software knowledge and experience. Computational problem solving involves expressing solutions to engineering problems in a way that a computer can efficiently solve. As our world continues to become more automated and interconnected, it becomes increasingly important to be able to leverage computer software and hardware, enabling us to evaluate and solve real-world engineering challenges. Offers students an opportunity to learn engineering solution design, leveraging a high-level programming language appropriate for interfacing hardware-based systems. Stresses best practices in design. Coursework includes programming assignments, quizzes, and a final project, offering students a number of ways to demonstrate their understanding of the concepts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2150",
+      "title": "Circuits and Signals: Biomedical Applications",
+      "credits": 5.0,
+      "credits_text": "5",
+      "credit_options": {
+        "values": [
+          5.0
+        ]
+      },
+      "description": "Offers an integrated lecture/lab course that covers circuit theory, signal processing, circuit building, and MATLAB programming. Introduces basic device and signal models and circuit laws used in the study of linear circuits. Analyzes resistive and complex impedance networks. Uses the ideal operational amplifier model, focusing on differential amplifiers and active filter circuits. Introduces basic concepts of linearity and time-invariance for both continuous and discrete-time systems and concepts associated with analog/digital conversion. Demonstrates discrete-time linear filter design on acquired signals in the MATLAB environment. Offers students an opportunity to explore circuits and signals in the lab and to use their knowledge of circuits, analog signals, digital signals, and biological signals to build a working analog/digital EKG system.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "GE 1111",
+                "min_grade": "D-"
+              },
+              {
+                "course": "GE 1502",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "MATH 2341",
+            "min_grade": "D-",
+            "concurrent": true
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHYS 1155",
+                "min_grade": "D-",
+                "concurrent": true
+              },
+              {
+                "course": "PHYS 1165",
+                "min_grade": "D-",
+                "concurrent": true
+              },
+              {
+                "course": "PHYS 1175",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "EECE 2140",
+            "min_grade": "D-",
+            "concurrent": true
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Analyzing/Using Data"
+      ],
+      "prerequisites_text": "(GE 1111 with a minimum grade of D- or GE 1502 with a minimum grade of D- ); MATH 2341 (may be taken concurrently) with a minimum grade of D- ; (PHYS 1155 (may be taken concurrently) with a minimum grade of D- or PHYS 1165 (may be taken concurrently) with a minimum grade of D- or PHYS 1175 with a minimum grade of D- ); EECE 2140 (may be taken concurrently) with a minimum grade of D-"
+    },
+    {
+      "number": "2160",
+      "title": "Embedded Design: Enabling Robotics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an integrated lecture/lab course that covers the basics of the Unix operating system, high-level programming concepts, introductory digital design, wireless networking, and Simulink design. Offers students a hands-on experience developing a remote-controlled robotic arm using an embedded systems platform.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "GE 1111",
+                "min_grade": "D-"
+              },
+              {
+                "course": "GE 1502",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "EECE 2140",
+            "min_grade": "D-",
+            "concurrent": true
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(GE 1111 with a minimum grade of D- or GE 1502 with a minimum grade of D- ); EECE 2140 (may be taken concurrently) with a minimum grade of D-"
+    },
+    {
+      "number": "2210",
+      "title": "Electrical Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the basic concepts related to circuits and circuit elements; current, voltage, and power; models for resistors, capacitors, and inductors; and circuit analysis using Kirchhoff’s laws. Discusses selected topics that illustrate a variety of applications of electrical engineering, such as AC circuits and electric power, the basics of semiconductor devices with applications to transistor amplifier models, transients in circuits with energy storage, mechanical controls and mechatronics, digital signals, logic circuits, and some basic concepts of computer operations, specifically, number coding, arithmetic operations, and memory circuits.",
+      "prerequisites": {
+        "course": "MATH 1342",
+        "min_grade": "D-"
+      },
+      "corequisites": [
+        "EECE 2211"
+      ],
+      "attributes": [],
+      "prerequisites_text": "MATH 1342 with a minimum grade of D-",
+      "corequisites_text": "EECE 2211"
+    },
+    {
+      "number": "2211",
+      "title": "Lab for EECE 2210",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Accompanies EECE 2210. Covers fundamental DC and AC electrical concepts as well as analog and digital electronics.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 2210"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 2210"
+    },
+    {
+      "number": "2300",
+      "title": "Computational Methods for Data Analytics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the programming tools, algorithms, and software tools used in data analytics. Offers hands-on experience working with statistical software/packages and scripting languages and shows students the power of computational tools. Covers concepts of correlation, regression analysis, classification, and decomposition. Includes example data-oriented applications taken from multiple science/engineering disciplines and applies linear algebra and probability to analyze actual data sets. Students not meeting course prerequisites may seek permission of instructor.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "GE 1111",
+            "min_grade": "D-"
+          },
+          {
+            "course": "GE 1502",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 2500",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "GE 1111 with a minimum grade of D- or GE 1502 with a minimum grade of D- or CS 2500 with a minimum grade of D-"
+    },
+    {
+      "number": "2322",
+      "title": "Fundamentals of Digital Design and Computer Organization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the design and evaluation of control and data structures for digital systems. Uses hardware description languages to describe and design both behavioral and register-transfer-level architectures and control units. Topics covered include number systems, data representation, a review of combinational and sequential digital logic, finite state machines, arithmetic-logic unit (ALU) design, basic computer architecture, the concepts of memory and memory addressing, digital interfacing, timing, and synchronization. Assignments include designing and simulating digital hardware models using Verilog as well as some assembly language to expose the interface between hardware and software.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2160",
+            "min_grade": "D-"
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CS 1800",
+                "min_grade": "D-"
+              },
+              {
+                "course": "CS 2510",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 2323"
+      ],
+      "attributes": [],
+      "prerequisites_text": "EECE 2160 with a minimum grade of D- or (CS 1800 with a minimum grade of D- ; CS 2510 with a minimum grade of D- )",
+      "corequisites_text": "EECE 2323"
+    },
+    {
+      "number": "2323",
+      "title": "Lab for EECE 2322",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Offers students an opportunity to design and implement a simple computer system on field-programmable logic using a hardware description language. Covers simulation and testing of designs.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 2322"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 2322"
+    },
+    {
+      "number": "2412",
+      "title": "Fundamentals of Electronics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Reviews basic circuit analysis techniques. Briefly introduces operation of the principal semiconductor devices: diodes, field-effect transistors, and bipolar junction transistors. Covers diode circuits in detail; the coverage of transistor circuits focuses mainly on large-signal analysis, DC biasing of amplifiers, and switching behavior. Uses PSpice software to simulate circuits and large-signal models and transient simulations to characterize the behavior of transistors in amplifiers and switching circuits. Digital electronics topics include CMOS logic gates, dynamic power dissipation, gate delay, and fan-out. Amplifier circuits are introduced with the evaluation of voltage transfer characteristics and the fundamentals of small-signal analysis.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2150",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2210",
+            "min_grade": "D-"
+          },
+          {
+            "course": "BIOE 3210",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 2413"
+      ],
+      "attributes": [],
+      "prerequisites_text": "EECE 2150 with a minimum grade of D- or EECE 2210 with a minimum grade of D- or BIOE 3210 with a minimum grade of D-",
+      "corequisites_text": "EECE 2413"
+    },
+    {
+      "number": "2413",
+      "title": "Lab for EECE 2412",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Covers experiments reinforcing basic electronics topics such as diodes, bipolar junction transistors (BJT) as a switch, BJT amplifiers, and MOSFET circuits for switching and amplification. Practical measurements include use of voltmeters, ammeters, ohm meters, and impedance meters, as well as oscilloscope measurements of frequency, gain, distortion, and upper- and lower-cutoff frequencies of amplifiers.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 2412"
+      ],
+      "attributes": [
+        "NUpath Writing Intensive"
+      ],
+      "corequisites_text": "EECE 2412"
+    },
+    {
+      "number": "2520",
+      "title": "Fundamentals of Linear Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Develops the basic theory of continuous and discrete systems, emphasizing linear time-invariant systems. Discusses the representation of signals and systems in both the time and frequency domain. Topics include linearity, time invariance, causality, stability, convolution, system interconnection, and sinusoidal response. Develops the Fourier and Laplace transforms for the discussion of frequency-domain applications. Analyzes sampling and quantization of continuous waveforms (A/D and D/A conversion), leading to the discussion of discrete-time FIR and IIR systems, recursive analysis, and realization. The Z-transform and the discrete-time Fourier transform are developed and applied to the analysis of discrete-time signals and systems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 2150",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2210",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "course": "MATH 2341",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "BIOE 3210",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "GE 2361",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "MATH 2341",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((EECE 2150 with a minimum grade of D- or EECE 2210 with a minimum grade of D- ); MATH 2341 with a minimum grade of D- ) or (BIOE 3210 with a minimum grade of D- ; (GE 2361 with a minimum grade of D- or MATH 2341 with a minimum grade of D- ))"
+    },
+    {
+      "number": "2530",
+      "title": "Fundamentals of Electromagnetics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces electromagnetics and high-frequency applications. Topics include transmission lines: transmission line model with distributed circuit elements, transmission line equations and solutions, one-dimensional traveling and standing waves, and applications; electromagnetic field theory: Lorentz force equations, Maxwell’s equations, Poynting theorem, and application to the transmission line’s TEM waves. Also studies uniform plane wave propagation along a coordinate axis and along an arbitrary direction; equivalent transmission lines for TEM, TE, and TM waves; reflection and refraction of uniform plane waves by conducting and dielectric surfaces. Discusses applications to wave guides, resonators, optical fibers, and radiation and elementary antennas. Introduces modern techniques (computational methods) and applications (optics, bioelectromagnetics, and electromagnetic effects in high-speed digital circuits).",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "EECE 2150",
+                "min_grade": "D-"
+              },
+              {
+                "course": "EECE 2210",
+                "min_grade": "D-"
+              },
+              {
+                "course": "BIOE 3210",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "MATH 2321",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHYS 1155",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1165",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1175",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 2531"
+      ],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2150 with a minimum grade of D- or EECE 2210 with a minimum grade of D- or BIOE 3210 with a minimum grade of D- ); MATH 2321 with a minimum grade of D- ; (PHYS 1155 with a minimum grade of D- or PHYS 1165 with a minimum grade of D- or PHYS 1175 with a minimum grade of D- )",
+      "corequisites_text": "EECE 2531"
+    },
+    {
+      "number": "2531",
+      "title": "Lab for EECE 2530",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Accompanies EECE 2530. Supports class material related to transmission lines, wave-guiding structures, plane wave reflection and refraction, and antenna radiation. Includes experiments with microwave transmission line measurements and the determination of the properties of dielectric materials, network analyzer analysis of microwave properties of circuit elements and transmission line electrical length, analysis of effective dielectric constant and loss from microstripline resonator transmission, optical measurement of refraction and reflection leading to determination of Brewster angle and optical constants for transparent and absorbing materials, and measurement of radiation patterns from dipole antennas.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "EECE 2150",
+                "min_grade": "D-"
+              },
+              {
+                "course": "EECE 2410",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "MATH 2321",
+            "min_grade": "D-"
+          },
+          {
+            "course": "PHYS 1155",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 2530"
+      ],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2150 with a minimum grade of D- or EECE 2410 with a minimum grade of D- ); MATH 2321 with a minimum grade of D- ; PHYS 1155 with a minimum grade of D-",
+      "corequisites_text": "EECE 2530"
+    },
+    {
+      "number": "2540",
+      "title": "Fundamentals of Networks",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents an overview of modern communication networks. The concept of a layered network architecture is used as a framework for understanding the principal functions and services required to achieve reliable end-to-end communications. Topics include service interfaces and peer-to-peer protocols, a comparison of the OSI (open system interconnection) reference model to the TCP/IP (Internet) and IEEE LAN (local area network) architectures, network-layer and transport-layer issues, and important emerging technologies such as Bluetooth and ZigBee.",
+      "prerequisites": {
+        "course": "EECE 2140",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2140 with a minimum grade of D-"
+    },
+    {
+      "number": "2560",
+      "title": "Fundamentals of Engineering Algorithms",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the design and implementation of algorithms to solve engineering problems using a high-level programming language. Reviews elementary data structures, such as arrays, stacks, queues, and lists, and introduces more advanced structures, such as trees and graphs and the use of recursion. Covers both the algorithms to manipulate these data structures as well as their use in problem solving. Introduces algorithm complexity analysis and its application to developing efficient algorithms. Emphasizes the importance of software engineering principles.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2160",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 1500",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2160 with a minimum grade of D- or CS 1500 with a minimum grade of D-"
+    },
+    {
+      "number": "2750",
+      "title": "Enabling Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity to develop a proposal for a design project that uses engineering technologies to improve the lives of individuals with cognitive or physical disabilities. Offers student project groups an opportunity to work with end users and caregivers at local nursing homes and special education schools to assess a specific need, research potential solutions, and develop a detailed proposal for a project. Project groups are matched with product design mentors who guide groups through the design process. Lectures cover relevant topics, including surveys of specific physical and cognitive disabilities and applicable engineering technologies. The same project may not be used to satisfy both this course and EECE 4790. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "2949",
+      "title": "Introductory Directed Research in Electrical and Computer Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers first- and second-year students an opportunity to pursue project and other independent inquiry opportunities under faculty supervision. The course is initiated with a student-developed proposal, including expected learning outcomes and research products, which is approved by a faculty member in the department. Requires permission of instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3324",
+      "title": "Computer Architecture and Organization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents a range of topics that include assembly language programming, number systems, data representations, ALU design, arithmetic, the instruction set architecture, and the hardware/software interface. Offers students an opportunity to program using assembly language and to simulate execution. Covers the architecture of modern processors, including datapath/control design, caching, memory management, pipelining, and superscalar. Discusses metrics and benchmarking techniques used for evaluating performance.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "EECE 2322",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "CS 1500",
+                "min_grade": "D-"
+              },
+              {
+                "course": "EECE 2160",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2322 with a minimum grade of D- ; (CS 1500 with a minimum grade of D- or EECE 2160 with a minimum grade of D- )"
+    },
+    {
+      "number": "3392",
+      "title": "Electronic Materials",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides a basic treatment of electronic materials from atomic, molecular, and application viewpoints. Topics include atomic structure and bonding in materials, structure of materials, and crystal defects. These topics lay a foundation for the introduction of thermal and electronic conduction, which is the underlying physics of electronic devices. Finally, the electronic properties of semiconductors, dielectric, magnetic, superconducting, and optical materials are examined. The latter half deals with an introduction to the state of the art in electronic materials, including semiconductor nanoelectronics, magnetic semiconductors and spintronics, molecular electronics, carbon nanotubes, conducting polymers, diamondlike carbon, and other topics representing recent technological breakthroughs in the area of electronic materials.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "3400",
+      "title": "Introduction to Communication Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the basic principles and building blocks of modern digital communication systems. These systems include the current and future generations of wireless services (e.g., 6G) and are predicted to become a multi-billion-dollar market in the next decade. Industrial giants at the forefront of related research and development include market-leading hardware and software companies, offering an increasing scope of employment opportunities. Includes the background of developments such as radio signal propagation, frequency spectrum regulation and resource division among multiple users, digital representation and compression of information, signal modulation and demodulation, information detection in the presence of noise and channel impairments, coding for improved reliability, and system performance analysis and simulation.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "EECE 2150",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 2341",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2150 with a minimum grade of D- ; MATH 2341 with a minimum grade of D-"
+    },
+    {
+      "number": "3410",
+      "title": "Electronic Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers advanced analog and mixed-signal circuit analysis topics. Introduces analog integrated circuits (ICs) concepts with bipolar and field effect transistor devices. Covered IC building blocks include current sources and active loads, differential stages, cascode configurations, gain stages, and output stages. The uses of the building blocks are demonstrated for the design of popular ICs, such as operational amplifiers and voltage comparators. The high-frequency circuit models of transistors are described and used to evaluate the frequency responses of amplifiers. Introduces analog-to-digital and digital-to-analog conversion concepts and the concepts of feedback and instability with applications to the design of amplifiers and oscillators. The course makes extensive use of the SPICE simulation tool for assignments and projects.",
+      "prerequisites": {
+        "course": "EECE 2412",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2412 with a minimum grade of D-"
+    },
+    {
+      "number": "3468",
+      "title": "Noise and Stochastic Processes",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Discusses probability, random variables, random processes, and their application to noise in electrical systems. Begins with the basic theory of discrete and continuous probabilities, then develops the concepts of random variables, random vectors, random sequences, and random processes. Continues with a discussion on the physical origins of noise and models of where it is encountered in electronic devices, signal processing, and communications. Defines the concepts of correlation, covariance, and power density spectra and uses them to analyze linear system operations in continuous time.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "MATH 2341",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "EECE 2520",
+                "min_grade": "D-"
+              },
+              {
+                "course": "EECE 3464",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MATH 2341 with a minimum grade of D- ; (EECE 2520 with a minimum grade of D- or EECE 3464 with a minimum grade of D- )"
+    },
+    {
+      "number": "4512",
+      "title": "Healthcare Technologies: Sensors, Systems, and Analysis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines healthcare technologies using both theory and hands-on approaches. Testing, imaging, and data collection are essential tools medical specialists use to treat patients and the primary contribution of engineers to healthcare.Covers the physics and physiology behind the newly defined concept of digital biomarkers; the electronics needed to collect these biomarkers; analysis techniques for processing and interpreting the data; and invasive (swallowable/implantable), on-body (wearable), and contactless systems for data collection. Examines safety issues, ethics, and regulatory hurdles from both an industry and research perspective. In the hands-on labs, offers students an opportunity to follow the steps of creating a startup or conducting new research and assembling a microcontroller-based sensor system for collecting digital biomarkers.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2210",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2412",
+            "min_grade": "D-"
+          },
+          {
+            "course": "BIOE 3210",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2210 with a minimum grade of D- or EECE 2412 with a minimum grade of D- or BIOE 3210 with a minimum grade of D-"
+    },
+    {
+      "number": "4520",
+      "title": "Software Engineering 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an overview of the discipline of software engineering. Identifies the problems that one should expect when developing large software systems; methods that the software developer can use to deal with each of the problems; tools that the software developer can use; and procedures that can be followed in developing software. Covers the software life cycle (requirements analysis and specification, software design, coding, testing, and maintenance); various models of the software process—structured and agile; the Unified Modeling Language (UML) as applied to the software life cycle, prototyping, and documentation; design patterns; software metrics and estimation; software development environments and tools; and verification and validation. Includes a software development project that covers all the stages of the life cycle.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 3000",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2560",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 3000 with a minimum grade of D- or EECE 2560 with a minimum grade of D-"
+    },
+    {
+      "number": "4534",
+      "title": "Microprocessor-Based Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on the hardware and software design for devices that interface with embedded processors. Topics include assembly language; addressing modes; embedded processor organization; bus design; electrical characteristics and buffering; address decoding; asynchronous and synchronous bus protocols; troubleshooting embedded systems; I/O port design and interfacing; parallel and serial ports; communication protocols and synchronization to external devices; hardware and software handshake for serial communication protocols; timers; and exception processing and interrupt handlers such as interrupt generation, interfacing, and auto vectoring.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3324",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3650",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 4535"
+      ],
+      "attributes": [],
+      "prerequisites_text": "EECE 3324 with a minimum grade of D- or CS 3650 with a minimum grade of D-",
+      "corequisites_text": "EECE 4535"
+    },
+    {
+      "number": "4535",
+      "title": "Lab for EECE 4534",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Accompanies EECE 4534. Consists of a comprehensive laboratory performed by a team of students. These laboratory exercises require students to design, construct, and debug hardware and software that runs on an embedded platform. Exercises are centered around a common embedded platform. The final exercise is a project that lets each group integrate hardware and software to realize a complete embedded design.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 4534"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 4534"
+    },
+    {
+      "number": "4574",
+      "title": "Wireless Communication Circuits",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the electronics of radio receivers and transmitters. Employs a commercial radio transceiver (MFJ-9340) as a learning tool. Presents basic topics (radio spectrum and its utilization, antennae, and information processing by modulation and demodulation). Studies building block realizations for modulators and demodulators for analog (AM, FM) and digital (ASK, PSK, FSK) radio. Covers common radio receiver architectures. Presents circuit-level designs of radio building blocks (resonators; L-C RF filters; crystals and IF filters; tuned transformers and impedance matching; amplifiers and power amplifiers; RF oscillators; mixers and up/down frequency conversion; signal detectors; and automatic gain control circuits). Includes receiver noise and sensitivity; transmitter range; spurious emissions and IM distortion; antennae and propagation in the atmosphere; wireless standards; multiple-access techniques; and software-defined radio. May include additional topics at instructor’s discretion.",
+      "prerequisites": {
+        "course": "EECE 2412",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2412 with a minimum grade of D-"
+    },
+    {
+      "number": "4630",
+      "title": "Robotics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces robotics analysis covering basic theory of kinematics, dynamics, and control of robots. Develops students’ design capabilities of microprocessor-based control systems with input from sensory devices and output actuators by having teams of students design and implement a small mobile robot system to complete a specific task, culminating in a competition at the end of the course. Covers actuators, sensors, system modeling, analysis, and motion control of robots.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "EECE 2160",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2412",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2160 with a minimum grade of D- ; EECE 2412 with a minimum grade of D-"
+    },
+    {
+      "number": "4632",
+      "title": "Hardware-Software Codesign for FPGA-Based Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies hardware and software design for embedded systems. Focuses on techniques to efficiently design and make use of field-programmable gate arrays (FPGAs) to accelerate applications. Specific topics include HW/SW codesign, buses and interfacing, C as a hardware description language, high-level synthesis, pipelining, hardware memory hierarchies, and computer arithmetic. Offers students an opportunity to program an embedded processor and interface to digital logic designs implemented on programmable hardware, as well as an opportunity to develop a series of designs in class, culminating in a project of the student's choosing. Potential project topics include (but are not limited to) computer vision, cryptography, machine learning, and wireless communications.",
+      "prerequisites": {
+        "course": "EECE 2322",
+        "min_grade": "D-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2322 with a minimum grade of D-"
+    },
+    {
+      "number": "4638",
+      "title": "Special Topics in Computer Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on advanced topics related to computer engineering technology to be selected by instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4646",
+      "title": "Optics for Engineers",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the basic optical concepts necessary for anunderstanding of current and future optical communication,remote sensing, and industrial and biomedical systems. Topicsinclude geometrical optics, polarized light, diffraction, andinterference. Studies lasers and other light sources, opticalfibers, detectors, CCD cameras, modulators, and othercomponents of optical systems. Presents applications tospecific systems such as fiber-optic communication, medicalimaging systems, fiber-optic sensors, and laser radar.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "BIOE 3210",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2150",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2210",
+            "min_grade": "D-"
+          },
+          {
+            "course": "PHYS 1155",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "BIOE 3210 with a minimum grade of D- or EECE 2150 with a minimum grade of D- or EECE 2210 with a minimum grade of D- or PHYS 1155 with a minimum grade of D-"
+    },
+    {
+      "number": "4649",
+      "title": "Biomedical Imaging",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores a wide variety of modalities for biomedical imaging in the pathology laboratory and in vivo. After an introductory discussion of tissue properties, waves used in imaging, and contrast mechanisms, the course discusses modalities such as microscopy, endoscopy, x-ray, computed tomography, ultrasound, and MRI. With each modality, instrument parameters, contrast mechanisms, resolution, and depth of penetration are considered. Offers students an opportunity to work in groups to complete a project in which they examine one modality in detail and either generate synthetic data using a computational model or process available image data.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "MATH 1242",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MATH 1342",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "PHYS 1145",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1151",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1171",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(MATH 1242 with a minimum grade of D- or MATH 1342 with a minimum grade of D- ); (PHYS 1145 with a minimum grade of D- or PHYS 1151 with a minimum grade of D- or PHYS 1171 with a minimum grade of D- )"
+    },
+    {
+      "number": "4694",
+      "title": "Numerical Methods and Computer Applications",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents numerical techniques used in solving scientific and engineering problems with the aid of digital computers. Topics include theory of interpolation; the theory of numerical integration and differentiation, numerical solutions of linear as well as nonlinear systems of equations, the theory of least squares; and numerical solution of ordinary and partial differential equations using a programming environment such as MATLAB.",
+      "prerequisites": {
+        "type": "AND",
+        "courses": [
+          {
+            "course": "MATH 2341",
+            "min_grade": "D-"
+          },
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "course": "GE 1111",
+                "min_grade": "D-"
+              },
+              {
+                "course": "GE 1502",
+                "min_grade": "D-"
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MATH 2341 with a minimum grade of D- ; (GE 1111 with a minimum grade of D- or GE 1502 with a minimum grade of D- )"
+    },
+    {
+      "number": "4790",
+      "title": "Electrical and Computer Engineering Capstone 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Requires students to select a project requiring design and implementation of an electrical, electronic, and/or software system, including evaluation of multiple constraints and use of appropriate engineering standards in the design; formation of a team to carry out the project; and submission and presentation of a detailed proposal for the work. Students must specify the materials needed for their project, provide a cost analysis, and make arrangements with their capstone adviser to purchase and/or secure donation of equipment. Requires students to perform a feasibility study by extensive simulation or prototype design of subsystems to facilitate the second phase of the capstone design, considering public health, safety and welfare, global, cultural, social, environmental, and economic factors.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2322",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2412",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2520",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2540",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2560",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3000",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "EECE 2322 with a minimum grade of D- or EECE 2412 with a minimum grade of D- or EECE 2520 with a minimum grade of D- or EECE 2530 with a minimum grade of D- or EECE 2540 with a minimum grade of D- or EECE 2560 with a minimum grade of D- or CS 3000 with a minimum grade of D-"
+    },
+    {
+      "number": "4791",
+      "title": "Electrical and Computer Engineering Capstone 1",
+      "credits": 1.0,
+      "credits_text": "1",
+      "credit_options": {
+        "values": [
+          1.0
+        ]
+      },
+      "description": "Aims to give undergraduate engineering students significant experience in dealing with a senior design project. Students form teams and select a project requiring design and implementation of an electrical, electronic, and/or software system, including evaluation of multiple constraints, the use of appropriate engineering standards during the design to carry out the project, as well as the submission and presentation of a detailed proposal for the work. The project plan includes the consideration of public health, safety, and welfare and global, cultural, social, environmental, and economic factors. Students must specify a preliminary list of materials needed for their project, provide a cost analysis, and prepare and deliver written and oral presentations on the design proposal. This is the first of a two-course sequence.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2322",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2412",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2520",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2540",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2560",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3000",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "EECE 2322 with a minimum grade of D- or EECE 2412 with a minimum grade of D- or EECE 2520 with a minimum grade of D- or EECE 2530 with a minimum grade of D- or EECE 2540 with a minimum grade of D- or EECE 2560 with a minimum grade of D- or CS 3000 with a minimum grade of D-"
+    },
+    {
+      "number": "4792",
+      "title": "Electrical and Computer Engineering Capstone 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Requires design and implementation of the project proposed in EECE 4790. Students are expected to apply engineering principles acquired throughout their academic and co-op experiences to the design of a system, component, or process. Each project includes the development and use of design methodology, formulation of design problem statements and specifications, construction of hardware, integration of sensors and actuators, programming microcontroller and software development, and design of subsystems, followed by testing and integration to validate the overall design. Projects include realistic constraints such as economic factors, safety, reliability, maintenance, aesthetics, ethics, and social impact. Students make oral presentations in a series of design reviews, document their final design solution in a written report, and demonstrate a functional prototype in a final presentation.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 4790",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 4791",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [
+        "NUpath Capstone Experience",
+        "NUpath Creative Express/Innov",
+        "NUpath Writing Intensive"
+      ],
+      "prerequisites_text": "EECE 4790 with a minimum grade of D- or EECE 4791 with a minimum grade of D-"
+    },
+    {
+      "number": "4991",
+      "title": "Research",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an opportunity to conduct research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": [
+        "NUpath Integration Experience"
+      ]
+    },
+    {
+      "number": "4992",
+      "title": "Directed Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers independent work under the direction of members of the department on a chosen topic. Course content depends on instructor. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "4993",
+      "title": "Independent Study",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers theoretical or experimental work under individual faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5115",
+      "title": "Dynamical Systems in Biological Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides an introduction to the theoretical analysis and modeling of dynamical systems in biology, ranging from molecular to population applications. Topics include difference and differential equation models, with basic theory including nondimensionalization, steady states, linearization, stability, eigenvalues, global behavior, singular perturbations, multistability, hysteresis, cooperativity, periodic solutions, excitable systems, bifurcations, and an introduction to spatial (PDE) models. Develops all concepts in the context of concrete biological applications, such as gene regulation, chemical reaction networks and stoichiometry, drug models and PK/PD, receptor/ligand interactions, synthetic constructs, action potential generation, enzymatic reactions, population interactions, epidemiology, epigenetic phenomena including differentiation, and transport, chemotaxis, and diffusion. BIOE 5115 and EECE 5115 are cross-listed.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "MATH 2341",
+            "min_grade": "D-"
+          },
+          {
+            "course": "GE 2361",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "MATH 2341 with a minimum grade of D- or GE 2361 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5155",
+      "title": "Wireless Sensor Networks and the Internet of Things",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers design and modeling of architectures, communication protocols, and algorithms for wireless sensor networks and the Internet of Things. Provides instruction in general aspects of wireless sensor networking, including protocol design, modeling, and simulation at all layers of the communication stack. Studies standardization efforts, including Bluetooth, IEEE 802.15.4/Zigbee, and SigFox/LoRa, among others. Culminates with illustrations of applications of sensor networks technology to many challenging problems of our times, including mobile crowdsensing, smart cities, and cyber-physical systems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2540",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3700",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2540 with a minimum grade of D- or CS 3700 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5161",
+      "title": "Thin Film Technologies",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the fundamentals of vacuum technology, thin film deposition technologies, characterization technologies, their applications in different industries, and the frontiers of research activities on thin film deposition technologies. Thin films are fundamental building blocks for integrated circuits chips, microelectromechanical systems (MEMS) devices, and nanoelectromechanical system devices (NEMS), etc., and play critical roles in determining the performance of IC circuits, MEMS, and NEMS devices. Topics include vacuum technologies; vacuum pumps; vacuum system design and analysis; different thin film deposition technologies, including sputtering, chemical vapor deposition, electrochemical deposition, atomic layer deposition, etc.; and different thin film characterization technologies, in particular the magnetic thin film characterization technologies, including VSM, PPMS, FMR, MOKE, etc. Students who do not meet course prerequisites may seek permission of instructor.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "MATH 1342",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1155",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(MATH 1342 with a minimum grade of D- ; PHYS 1155 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5170",
+      "title": "Introduction to Multiferroics Materials and Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offered by the NSF Nanosystems Engineering Research Center for Translational Applications of Nanoscale Multiferroic Systems (TANMS) and co-taught by professors from UCLA, UC Berkeley, Cornell, California State University Northridge, and Northeastern University. Course lectures will be available online for remote students. Covers introduction to multiferroics, atomic structure of multiferroics (chemistry), multiferroic material science, continuum-level analysis of multiferroic materials, and multiferroic devices.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "MATH 2321",
+                "min_grade": "D-"
+              },
+              {
+                "course": "PHYS 1155",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CHEM 1151",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "CHEM 1211",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(MATH 2321 with a minimum grade of D- ; PHYS 1155 with a minimum grade of D- ; (CHEM 1151 with a minimum grade of D- or CHEM 1211 with a minimum grade of D- )) or graduate program admission"
+    },
+    {
+      "number": "5360",
+      "title": "Combinatorial Optimization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces combinatorial optimization, an emerging field that combines techniques from applied mathematics, operations research, and computer science to solve optimization problems over discrete structures. Emphasizes problems that arise in the areas of electrical and computer engineering, including VLSI, computer-aided design, parallel computing, computer architecture, and high-performance compiling. Covers the foundations of algorithm analysis, including asymptotic notation and complexity theory, and a range of optimization techniques, including divide and conquer, local optimization, dynamic programming, branch and bound, simulated annealing, genetic algorithms, approximation algorithms, integer and linear programming, matroid theory, and greedy algorithms. Considers the efficient generation of optimal solutions, the development and evaluation of heuristics, and the computation of tight upper and lower bounds.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2560",
+            "min_grade": "C-"
+          },
+          {
+            "course": "CS 3000",
+            "min_grade": "C-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2560 with a minimum grade of C- or CS 3000 with a minimum grade of C- or graduate program admission"
+    },
+    {
+      "number": "5550",
+      "title": "Mobile Robotics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Investigates the science and engineering of mobile robots. Topics may include kinematics, dynamics, numerical methods, state estimation, control, perception, localization and mapping, and motion planning for mobile robots. Emphasizes practical robot applications ranging from disaster response to healthcare to space exploration.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "EECE 2520",
+                "min_grade": "D-"
+              },
+              {
+                "course": "EECE 2560",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "course": "CS 3000",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2520 with a minimum grade of D- ; EECE 2560 with a minimum grade of D- ) or CS 3000 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5552",
+      "title": "Assistive Robotics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Investigates the what (modeling), how (design), and why (analysis) of assistive robotics through the use of model-based design process. System models are essential to four key aspects of the assistive robot design process: derivation of executable specifications, hardware and software design based on simulations, implementation by code generation, and continuous testing and verification. Topics may include modeling continuous and discrete dynamics, heterogeneous models, hybrid systems, stochastic models, models of computation, analysis and design of embedded control systems with applications in assistive robotics, system simulation, and validation and verification techniques. Course projects emphasize model-based design for control of assistive robots in smart environments.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "EECE 2160",
+                "min_grade": "D-"
+              },
+              {
+                "course": "EECE 2520",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2160 with a minimum grade of D- ; EECE 2520 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5554",
+      "title": "Robotics Sensing and Navigation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the actual sensors and mathematical techniques for robotic sensing and navigation with a focus on sensors such as cameras, sonars, and laser scanners. These are used in association with techniques and algorithms for dead reckoning and visual inertial odometry in conjunction with GPS and inertial measurement units. Covers Kalman filters and particle filters as applied to the SLAM problem. A large component of the class involves programming in both the ROS and LCM environments with real field robotics sensor data sets. Labs incorporate real field sensors and platforms. Culminates with both an individual design project and a team-based final project of considerable complexity.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 3081",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 3468",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 2160",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2210",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((MATH 3081 with a minimum grade of D- or EECE 3468 with a minimum grade of D- ); (EECE 2160 with a minimum grade of D- or EECE 2210 with a minimum grade of D- )) or graduate program admission"
+    },
+    {
+      "number": "5576",
+      "title": "Wireless Communication Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines fundamental principles of wireless system design, focusing on modern techniques used in cellular systems and wireless local area networks. Covers various levels of system design, from modulation/detection to traffic analysis. Introduces basics of radio propagation and studies their effect on communication signals. Special topics include spatial frequency reuse; call blocking and cellular system capacity; power control and hand-off strategies; channel access and sharing; orthogonal frequency division multiplexing (OFDM—a modulation technique used in WLAN and the fourth-generation [4G] cellular systems) and spread spectrum modulation (third-generation WCDMA systems); diversity techniques and multi-input multi-output (MIMO) signal processing. Requires an undergraduate course in communications systems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3400",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3400 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5580",
+      "title": "Classical Control Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the analysis and design of classical control systems. Examines control system objectives, modeling and mathematical description, transfer function and state-variable representations, feedback control system characteristics, system responses, and stability of feedback systems. Also addresses compensator design based on root-locus and frequency response, and modern control system design using state-variable feedback.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3464",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2520",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3464 with a minimum grade of D- or EECE 2520 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5606",
+      "title": "Micro- and Nanofabrication",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides an overview of integrated circuit fabrication from the viewpoint of a process engineer. Offers students an opportunity to fabricate micro- and nanoscale devices in integrated lab sessions. Focuses on the physics, chemistry, and technology of integrated circuit fabrication in the lecture portion of the course, while students fabricate and test novel devices (an electrohydrodynamic micropump and three-dimensional carbon nanotube interconnects) in integrated lab sessions. Concentrates on silicon IC technology but also includes examples from other materials and device systems including microelectromechanical (MEMS) technologies that are used to build devices such as accelerometers, pressure sensors, and switches for telecommunications and other current examples provided from nanofabrication and nanotechnology. Lab hours are arranged.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2412",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2412 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5610",
+      "title": "Digital Control Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers sampling and analysis tools for linear discrete-time dynamic systems, including the design of digital control systems using transform techniques by discrete equivalent and direct design methods; root locus, Bode and Nyquist diagrams, and Nichols charts; controller implementation issues, such as digital filter realizations, nonlinear effects due to quantization, round off, dead band, and limit cycles; and selection of the sampling rate.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 5580",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 5580",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 5580 with a minimum grade of C- or EECE 5580 with a minimum grade of D-"
+    },
+    {
+      "number": "5612",
+      "title": "Statistical Inference: An Introduction for Engineers and Data Analysts",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces fundamentals of statistical inference and data analysis through concepts of detection, estimation, and related signal processing algorithms. Addresses topics of hypothesis testing, Bayesian principles, multiple hypotheses and composite hypothesis testing, test power and uniformly powerful tests, likelihood functions, sufficient statistics, optimal estimation, bounds on the estimator variance, minimum variance linear estimation, prediction and regression, interval estimation, and confidence. Extraction of useful information from noisy observations and informed decision making are at the core of multiple disciplines ranging from traditional communications and sensor array processing to biomedical data analysis, pattern recognition and machine learning, security and defense, and financial engineering. Lectures are supported by illustrative examples, hands-on exercises, and numerical implementations grounded in real-world examples.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "OR",
+            "courses": [
+              {
+                "type": "AND",
+                "courses": [
+                  {
+                    "course": "EECE 2520",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "type": "OR",
+                    "courses": [
+                      {
+                        "course": "EECE 3468",
+                        "min_grade": "D-"
+                      },
+                      {
+                        "course": "MATH 3081",
+                        "min_grade": "D-"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "course": "DS 5020",
+                "min_grade": "C-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2520 with a minimum grade of D- ; (EECE 3468 with a minimum grade of D- or MATH 3081 with a minimum grade of D- ) or DS 5020 with a minimum grade of C- ) or graduate program admission"
+    },
+    {
+      "number": "5626",
+      "title": "Image Processing and Pattern Recognition",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces processing and analysis of digital images with the goal of recognition of simple pictorial patterns. Topics include discrete signals and systems in 2D, digital images and their properties, image digitization, image enhancement, image restoration, image segmentation, feature extraction, object recognition, and pattern classification principles (Bayes rules, class boundaries) and pattern recognition methods.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 3464",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2520",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 3468",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "MATH 3081",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((EECE 3464 with a minimum grade of D- or EECE 2520 with a minimum grade of D- ); (EECE 3468 with a minimum grade of D- or MATH 3081 with a minimum grade of D- )) or graduate program admission"
+    },
+    {
+      "number": "5639",
+      "title": "Computer Vision",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces topics such as image formation, segmentation, feature extraction, matching, shape recovery, dynamic scene analysis, and object recognition. Computer vision brings together imaging devices, computers, and sophisticated algorithms to solve problems in industrial inspection, autonomous navigation, human-computer interfaces, medicine, image retrieval from databases, realistic computer graphics rendering, document analysis, and remote sensing. The goal of computer vision is to make useful decisions about real physical objects and scenes based on sensed images. Computer vision is an exciting but disorganized field that builds on very diverse disciplines such as image processing, statistics, pattern recognition, control theory, system identification, physics, geometry, computer graphics, and learning theory. Requires good programming experience in Matlab or C++.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5640",
+      "title": "High-Performance Computing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers accelerating scientific and other applications on computer clusters, many-core processors, and graphical processing units (GPUs). Modern computers take advantage of multiple threads and multiple cores to accelerate scientific and engineering applications. Topics covered include parallel computer architecture, parallel programming models, and theories of computation, as well as models for many-core processing. Highlights implementation of computer arithmetic and how it varies on different computer architectures. Includes an individual project where each student is expected to implement an application, port that application to several different styles of parallelism, and compare the results. Programming is done in variants of the C programming language.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3324",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3650",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3324 with a minimum grade of D- or CS 3650 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5641",
+      "title": "Introduction to Software Security",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity to learn how the security of systems can be violated and how such attacks can be detected and prevented. Computer security problems have a significant impact on practical aspects of our lives. Despite a considerable corpus of knowledge about tools and techniques to protect systems, information about actual vulnerabilities and how they are exploited is not generally available. Covers common programming, configuration, and design mistakes and examines possible protection and detection techniques.Uses examples to highlight general error classes. Includes a number of practical lab assignments that require students to apply their knowledge, as well as engage in a discussion of the current research in the field.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "EECE 2540",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 4534",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 3324",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "CS 3650",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "CS 3700",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2540",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "EECE 7205",
+                "min_grade": "C-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 7376",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "CS 5600",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((EECE 2540 with a minimum grade of D- ; (EECE 4534 with a minimum grade of D- or EECE 3324 with a minimum grade of D- )) or (CS 3650 with a minimum grade of D- ; (CS 3700 with a minimum grade of D- or EECE 2540 with a minimum grade of D- )) or (EECE 7205 with a minimum grade of C- ; (EECE 7376 with a minimum grade of C- or CS 5600 with a minimum grade of C- )))"
+    },
+    {
+      "number": "5642",
+      "title": "Data Visualization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces relevant topics and concepts in visualization, including computer graphics, visual data representation, physical and human vision models, numerical representation of knowledge and concept, animation techniques, pattern analysis, and computational methods. Topics include tools and techniques for practical visualization and elements of related fields, including computer graphics, human perception, computer vision, imaging science, multimedia, human-computer interaction, computational science, and information theory. Covers examples from a variety of scientific, medical, interactive multimedia, and artistic applications. Includes hands-on exercises and projects. Emphasizes modern engineering applications of computer vision, graphics, and pattern classification methodologies for data visualization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5643",
+      "title": "Simulation and Performance Evaluation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers topics on computer simulation and performance evaluation in computer systems. Introduces basic computational and mathematical techniques for modeling, simulating, and analyzing the performance by using simulation, including models, random number generation, statistics analysis, and discrete event-driven simulation. Also covers both classic and timely techniques in the area of performance evaluation, including workload characterization, capacity planning, and resource management in enterprise systems, computer networks, data centers, and cloud computing.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3326",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2560",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CS 3000",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3326 with a minimum grade of D- or EECE 2560 with a minimum grade of D- or CS 3000 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5644",
+      "title": "Introduction to Machine Learning and Pattern Recognition",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies machine learning (the study and design of algorithms that enable computers/machines to learn from experience/data). Covers a range of algorithms, focusing on the underlying models between each approach. Emphasizes the foundations to prepare students for research in machine learning. Topics include Bayes decision theory, maximum likelihood parameter estimation, model selection, mixture density estimation, support vector machines, neural networks, probabilistic graphics models, and ensemble methods (boosting and bagging). Offers students an opportunity to learn where and how to apply machine learning algorithms and why they work.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3468",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 3081",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 7204",
+            "min_grade": "C-"
+          },
+          {
+            "course": "DS 5020",
+            "min_grade": "C-"
+          },
+          {
+            "course": "MATH 1215",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MATH 2280",
+            "min_grade": "D-"
+          },
+          {
+            "course": "IE 3412",
+            "min_grade": "D-"
+          },
+          {
+            "course": "CIVE 3464",
+            "min_grade": "D-"
+          },
+          {
+            "course": "BIOE 2365",
+            "min_grade": "D-"
+          },
+          {
+            "course": "MGSC 2301",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3468 with a minimum grade of D- or MATH 3081 with a minimum grade of D- or EECE 7204 with a minimum grade of C- or DS 5020 with a minimum grade of C- or MATH 1215 with a minimum grade of D- or MATH 2280 with a minimum grade of D- or IE 3412 with a minimum grade of D- or CIVE 3464 with a minimum grade of D- or BIOE 2365 with a minimum grade of D- or MGSC 2301 with a minimum grade of D-"
+    },
+    {
+      "number": "5645",
+      "title": "Parallel Processing for Data Analytics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the fundamentals of parallel machine-learning algorithms, tailored specifically to learning tasks involving large data sets. Reviews methods for dealing with both large and high-dimensional data sets, emphasizing distributed implementations. Beyond covering the theory behind statistical data analysis, the course also offers a hands-on approach, using Spark as a development platform for parallel learning. Topics include, Apache Spark fundamentals, multithreaded/cluster execution, resilient distributed data structures, map-reduce operations, using key-value pairs, joins, convex optimization, gradient descent, linear regression, Gauss-Markov theorem, ridge and lasso regularization, feature selection, cross validation, variance vs. bias trade-off, classification, logistic regression, ROC curves and AUC, matrix and tensor factorization, graph-parallel algorithms and sparsity, Perceptron algorithm, and deep neural networks.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "MATH 3081",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 3468",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 2560",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "CS 3000",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "CS 4800",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "course": "EECE 5644",
+            "min_grade": "C-"
+          },
+          {
+            "course": "DS 5220",
+            "min_grade": "C-"
+          },
+          {
+            "course": "DS 5230",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((MATH 3081 with a minimum grade of D- or EECE 3468 with a minimum grade of D- ); (EECE 2560 with a minimum grade of D- or CS 3000 with a minimum grade of D- or CS 4800 with a minimum grade of D- )) or EECE 5644 with a minimum grade of C- or DS 5220 with a minimum grade of C- or DS 5230 with a minimum grade of C-"
+    },
+    {
+      "number": "5647",
+      "title": "Nanophotonics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces basic concepts and recent developments in nanophotonic materials and devices. Nanophotonics is one very important research area in nanotechnology. Discusses the fundamentals of electromagnetics (Maxwell’s equations, polarization, wave propagations, etc.); quantum mechanics; and typical nanofabrication and characterization techniques. Focuses on specific topics in nanophotonics, including silicon photonics; photonic crystals; plasmonics and optical metamaterials, with their diverse applications in optical circuits; imaging; optical trapping; biomedical sensing; and energy harvesting. Offers students an opportunity to obtain a fundamental understanding of the property and manipulation of light at the nanoscale.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3440",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3440 with a minimum grade of D- or EECE 2530 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5649",
+      "title": "Design of Analog Integrated Circuits with Complementary Metal-Oxide-Semiconductor Technology",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers theoretical analysis, practical design, and simulation of analog integrated circuits implemented in complementary metal-oxide-semiconductor (CMOS) fabrication process technologies. Introduces cadence tools for circuit simulations, physical layout, and layout verification. Begins with basic concepts such as CMOS device models, DC and small-signal analysis techniques for single- and multistage amplifiers, biasing configurations, and reference generation circuits. Explores differential signal processing, operational amplifiers, operational transconductance amplifiers, and common-mode feedback circuits. Analysis methods include the evaluation of linearity, noise, stability, and device mismatches from process variations. Addresses some advanced design techniques, such as linearity improvement methods, frequency compensation, and digitally assisted performance tuning.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3410",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3410 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5651",
+      "title": "Introduction to Photonic Devices",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces fundamentals of photonic devices and guided-wave optoelectronics. Photonic devices play a key role in long-haul telecommunications, datacom/high-performance computing, as well as quantum communication and computation. Introduces basics of passive and active components used in these applications with coverage of electromagnetic and fiber optics, dielectric waveguides, photonic integrated circuit (PIC) technology, sources (semiconductor lasers), and photon detectors and external modulators (electro- and acousto-optic).",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "EECE 2530",
+                "min_grade": "D-"
+              },
+              {
+                "course": "MATH 2341",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2530 with a minimum grade of D- ; MATH 2341 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5652",
+      "title": "Microwave Circuits and Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Addresses novel applications of analytical and engineering techniques for RF/microwave circuits, in addition to transmission lines, impedance matching, S-parameters, high-frequency circuit analysis, power dividers, resonators, filters, amplifier, and nonlinear components. Emphasizes fundamental concepts, essential mathematical formulas and theorems, and engineering applications. Provides ample examples to offer participants an opportunity to fully appreciate the power of the techniques described and gain extensive experience in the area of high-frequency circuits, from theory formulation to novel engineering designs.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 2150",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2210",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "BIOE 3210",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "course": "EECE 2530",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((EECE 2150 with a minimum grade of D- or EECE 2210 with a minimum grade of D- or BIOE 3210 with a minimum grade of D- ); (EECE 2530 with a minimum grade of D- )) or graduate program admission"
+    },
+    {
+      "number": "5654",
+      "title": "Design and Prototyping of Optical Systems for Engineering Applications",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Studies how to design optics experiments and instrument prototypes on the benchtop, as well as to fabricate and test them in a laboratory environment. Discusses application areas including biomedical imaging; astronomy; LiDAR; remote sensing; environmental monitoring; semiconductor fabrication; optical communication; optical computing; military imaging; tracking; and guidance, solar energy, and imaging systems for robotics, security, and transportation. Illustrates how to apply the most important and common equations of optics to design of systems that meet specifications and to evaluation of their performance.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BIOE 3210",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2150",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2210",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 4646",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2530",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((BIOE 3210 with a minimum grade of D- or EECE 2150 with a minimum grade of D- or EECE 2210 with a minimum grade of D- ); (EECE 4646 with a minimum grade of D- or EECE 2530 with a minimum grade of D- )) or graduate program admission"
+    },
+    {
+      "number": "5665",
+      "title": "Signal Processing for Global Navigation Satellite Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces global navigation satellite systems (GNSS), covering the fundamental aspects of operation. Emphasizes receiver design, although onboard satellite aspects are also discussed, such as the different signals and GNSS constellations (focusing on GPS and Galileo). Offers students an opportunity to gain basic knowledge of the underlying principles of GNSS, while learning how to apply tools of statistical signal processing from detection, estimation, and filtering theories to a real-world engineering application. Topics include notions in GNSS history, constellations and signals, propagation channel and main impairments, RF front-end architectures, signal acquisition, signal tracking, position calculation and integrity measures, sensor hybridization and data fusion, and identification of the most challenging scenarios of operation.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "BIOE 3210",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "EECE 2150",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "EECE 2210",
+                    "min_grade": "C-"
+                  }
+                ]
+              },
+              {
+                "course": "EECE 2520",
+                "min_grade": "C-"
+              },
+              {
+                "course": "MATH 2341",
+                "min_grade": "C-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 3468",
+                    "min_grade": "C-"
+                  },
+                  {
+                    "course": "MATH 3081",
+                    "min_grade": "C-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((BIOE 3210 with a minimum grade of C- or EECE 2150 with a minimum grade of C- or EECE 2210 with a minimum grade of C- ); EECE 2520 with a minimum grade of C- ; MATH 2341 with a minimum grade of C- ; (EECE 3468 with a minimum grade of C- or MATH 3081 with a minimum grade of C- )) or graduate program admission"
+    },
+    {
+      "number": "5666",
+      "title": "Digital Signal Processing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the theory and practice of modern signal processing techniques. Topics include the characteristics of discrete signals and systems, sampling, and A/D conversion; the Z-transform, the Fourier transform, and the discrete Fourier transform; fast Fourier transform algorithms; design techniques for IIR and FIR digital filters; and quantization effects in digital signal processing. Graduate students may register for this course only if they did not complete an undergraduate course in digital signal processing; such graduate registration requires approval of instructor and an internal departmental petition.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "ME 4555",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2520",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "course": "EECE 3468",
+                "min_grade": "D-"
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "((ME 4555 with a minimum grade of D- or EECE 2520 with a minimum grade of D- ); EECE 3468 with a minimum grade of D- ) or graduate program admission"
+    },
+    {
+      "number": "5670",
+      "title": "Sustainable Energy: Materials, Conversion, Storage, and Usage",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines, in this interdisciplinary course, modern energy usage, consequences, and options to support sustainable energy development from a variety of fundamental and applied perspectives. Emphasizes both (1) physical and chemical processes in materials for the conversion of energy and (2) how to design a system with renewable energy for applications such as electricity generation and transmission. Takes a systems analysis point of view. Topics include energy conservation; fossil fuels; and energy conversion methods for solar, geothermal, wind, hydro, bioenergy, electrochemical, and similar methods.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5680",
+      "title": "Electric Drives",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines all subsystems that comprise an electric drive including electric machines, power electronic converters, mechanical system requirements, feedback controller design, and interactions with utility systems. Based on an integrative approach that requires minimal prerequisites: a junior-level course in signals and systems and some knowledge of electromagnetic field theory (possibly from physics classes), and does not require separate courses in electric machines, controls, or power electronics.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 3440",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2530",
+                    "min_grade": "D-"
+                  }
+                ]
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 3464",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2520",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 5681"
+      ],
+      "attributes": [],
+      "prerequisites_text": "((EECE 3440 with a minimum grade of D- or EECE 2530 with a minimum grade of D- ); (EECE 3464 with a minimum grade of D- or EECE 2520 with a minimum grade of D- )) or graduate program admission",
+      "corequisites_text": "EECE 5681"
+    },
+    {
+      "number": "5681",
+      "title": "Lab for EECE 5680",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Accompanies EECE 5680. Covers topics from the course through various experiments.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 5680"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 5680"
+    },
+    {
+      "number": "5682",
+      "title": "Power Systems Analysis 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers fundamentals including phasors, single-phase and balanced three-phase circuits, complex power, and network equations; symmetrical components and sequence networks; power transformers, their equivalent circuits, per unit notation, and the sequence models; transmission line parameters including resistance, inductance, and capacitance for various configurations; steady-state operation of transmission lines including line loadability and reactive compensation techniques; power flow studies including Gauss-Speidel and Newton Raphson interactive schemes; symmetrical faults including formation of the bus impedance matrix; and unsymmetrical faults including line-to-ground, line-to-line, and double line-to-ground faults.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3440",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3440 with a minimum grade of D- or EECE 2530 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5684",
+      "title": "Power Electronics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provide tools and techniques needed to analyze and design power conversion circuits that contain switches. The first part of the course emphasizes understanding and modeling of such circuits, and provides a background for engineering evaluation of power converters. The second part covers dynamics and control of this class of systems, enabling students to design controllers for a variety of power converters and motion control systems. Addresses a set of analytical and practical problems, with emphasis on a rigorous theoretical treatment of relevant questions. Designed for students with primary interests in power conditioning, control applications, and electronic circuits, but it could prove useful for designers of high-performance computers, robots, and other electronic and electromechanical (mechatronic) systems in which the dynamical properties of power supplies become important.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "type": "AND",
+            "courses": [
+              {
+                "course": "EECE 2412",
+                "min_grade": "D-"
+              },
+              {
+                "type": "OR",
+                "courses": [
+                  {
+                    "course": "EECE 3464",
+                    "min_grade": "D-"
+                  },
+                  {
+                    "course": "EECE 2520",
+                    "min_grade": "D-"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [
+        "EECE 5685"
+      ],
+      "attributes": [],
+      "prerequisites_text": "(EECE 2412 with a minimum grade of D- ; (EECE 3464 with a minimum grade of D- or EECE 2520 with a minimum grade of D- )) or graduate program admission",
+      "corequisites_text": "EECE 5685"
+    },
+    {
+      "number": "5685",
+      "title": "Lab for EECE 5684",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Accompanies EECE 5684. Covers topics from the course through various experiments.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 5684"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 5684"
+    },
+    {
+      "number": "5686",
+      "title": "Electrical Machines",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Reviews phasor diagrams and three-phase circuits; the magnetic aspects including magnetic circuits and permanent magnets; transformers, their equivalent circuits, and performance; principles of electromechanical energy conversion; elementary concepts of rotating machines including rotating magnetic fields; and steady-state theory and performance of induction machines, synchronous machines, and direct current machines.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2530 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5688",
+      "title": "Analysis of Unbalanced Power Grids",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines common types of power system faults. Starts with a detailed description of three-phase modeling of basic power system elements such as transmission lines, transformers, and generators. Then presents fundamentals of three-phase circuit analysis in the steady state, both for balanced and unbalanced operating conditions. Uses symmetrical component transformation and positive, negative, and zero sequence networks to analyze unbalanced systems. Presents methods to calculate fault currents and postfault bus voltages. Reviews basic protective relaying and relay settings using typical distribution system examples.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2150",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2150 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5692",
+      "title": "Antennas for Wireless Communication and Sensing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the fundamental physical principles for the electromagnetic radiation from antennas. Presents the most important mathematical techniques for the analysis of the radiation. Applies these principles and techniques to practical antenna systems. Starting with the fundamental parameters of the antennas, introduces the vector potentials and the theorems that are needed for the derivation of the radiation integrals from Maxwell's equations and formulates various antenna radiation characteristics. Covers the applications of practical antennas, wireless communications and networks, space antennas, bio and wearable antennas, and optical antennas, to name a few.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2530 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5693",
+      "title": "Electromagnetic Devices for RF and Wireless Communications",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces some of the unique electromagnetic devices integrated in current and future technologies in the field of electromagnetics. These devices have impacted various disciplines including wireless systems, radar and space research, photonics, and bio and medical imaging. Covers transmission lines, RF/microwave circuits, high-frequency power dividers, and filters components. Discusses the translational area of antennas and wireless systems, radiation synthesis, and array antennas. Discusses some photonic components, as well as emerging applications such as antennas for 5G, massive MIMO (multiple-input and multiple-output) wireless antennas, and wearable sensors.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 2530",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 2530 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5697",
+      "title": "Acoustics and Sensing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces the fundamental concepts of acoustics and sensing with waves. Offers a unified theoretical approach to the physics of image formation through scattering and wave propagation in sensing. Topics include the linear and nonlinear acoustic wave equation; sources of sound; reflection, refraction, transmission, and absorption; bearing and range estimation by sensor array processing, beam forming, matched filtering, and focusing; diffraction, bandwidth, ambient noise, and reverberation limitations; scattering from objects, surfaces, and volumes by Green’s theorem; forward scatter, shadows, Babinet’s principle, extinction, and attenuation; ray tracing and waveguides in remote sensing; and applications to acoustic, radar, seismic, thermal, and optical sensing and exploration.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3464",
+            "min_grade": "D-"
+          },
+          {
+            "course": "EECE 2520",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3464 with a minimum grade of D- or EECE 2520 with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "5698",
+      "title": "Special Topics in Electrical and Computer Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers special topics in electrical and computer engineering. Topics are selected by the instructor and vary from semester to semester. May be repeated up to four times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "5699",
+      "title": "Computer Hardware and System Security",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces computer hardware and system security. Covers state-of-the-art hardware security and trust issues, including a hands-on lab session to implement various hardware security attacks. Topics include applied cryptography, side-channel attacks, differential power analysis, fault injection and analysis, cache side-channel attacks (Meltdown and Spectre), acoustic analysis, and hardware security primitives (physical unclonable function and random number generator).",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 3324",
+            "min_grade": "D-",
+            "concurrent": true
+          },
+          {
+            "course": "CS 3650",
+            "min_grade": "D-",
+            "concurrent": true
+          },
+          {
+            "course": "CS 5600",
+            "min_grade": "D-",
+            "concurrent": true
+          },
+          {
+            "admission_requirement": "graduate program admission"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 3324 (may be taken concurrently) with a minimum grade of D- or CS 3650 (may be taken concurrently) with a minimum grade of D- or CS 5600 (may be taken concurrently) with a minimum grade of D- or graduate program admission"
+    },
+    {
+      "number": "7105",
+      "title": "Optics for Engineers",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Provides an introductory graduate course in optics, presenting the engineering concepts necessary to understand and evaluate electro-optical systems. Begins with a brief but rigorous treatment of geometric optics, including matrix methods, aberrations, and pupils and windows, with practical examples of optical instruments and electro-optical systems. Topics include polarization, interference, diffraction, and optical properties of crystals, thin films, optical resonators, guided waves, modulators, and detectors. Presents concepts with examples from modern optical systems such as LIDAR, fiber-optical sensors, range finders, infrared systems, and optical communication systems. Requires a Bachelor of science in engineering or physics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7150",
+      "title": "Autonomous Field Robotics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the role of software and hardware in the design and use of real autonomous systems, including autonomous cars, autonomous underwater vehicles, and unmanned aerial systems. Focuses on using real large-scale robotics systems in real-world settings.",
+      "prerequisites": {
+        "course": "EECE 5554",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 5554 with a minimum grade of C-"
+    },
+    {
+      "number": "7200",
+      "title": "Linear Systems Analysis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers fundamental algebraic concepts and algebraic structures. Topics include linear operators and their representations; matrices, algebraic equations, equivalence, and similarity transformations; introduction to the state-variable theory of continuous and discrete linear systems; standard canonical representations, the concept of state, and the representation of interconnected systems, linear spaces, the state equations, and their solution; stability; and introduction to the general control problem in terms of controllability and observability.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7201",
+      "title": "Solid State Devices",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the fundamental elements of solid-state device physics and the application of these principles. Seeks to provide students with the opportunity to develop an understanding of pn junctions, bipolar junction transistors, and MOSFETs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7202",
+      "title": "Electromagnetic Theory 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the fundamental equations, their physical meaning, principal mathematical techniques, and important engineering applications. Topics include sources of the electromagnetic field, Lorentz force equation, integral form of Maxwell’s equations and point relations (differential equations and boundary conditions), electromagnetic energy and power, propagation of uniform and nonuniform plane waves in homogeneous media, reflection and refraction, scalar and vector potentials, solutions in the absence of boundaries for static and dynamic problems, solutions to boundary value problems, duality, uniqueness, images, physical theory of diffraction, and general theory of metal and dielectric wave-guides and resonators for Cartesian and cylindrical systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7203",
+      "title": "Complex Variable Theory and Differential Equations",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Comprises the theory of functions of a complex variable. Covers Cauchy’s integral and related theorems, Taylor and Laurent series, analytic continuation, and multivalued functions. Considers special functions of mathematical physics using generating functions, Taylor and Laurent expansions, and various integral representations. Reviews applications of complex variable theory drawn from optics and electromagnetic theory and from digital signal processing and digital communications. Focuses on the theory of ordinary and partial differential equations of mathematical physics. Develops series solutions of ordinary differential equations of second order using the tools of complex variable theory. Covers Sturm-Liouville theory and uses it to develop eigen function and Green function solutions of homogeneous and inhomogeneous partial differential equations. Requires knowledge of undergraduate advanced calculus.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7204",
+      "title": "Applied Probability and Stochastic Processes",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the fundamentals of probabilistic treatment and the concept of random processes, which are essential for many engineering disciplines and data analysis in general. Includes the basic laws of probability, random variables and their functions, probability density and cumulative distributions, statistical averages, bounds on probability, and the central limit theorem. Outlines basic principles of statistics, including estimation of probability, confidence intervals, and order statistics. Provides an overview of detection and estimation problems, including maximum likelihood and Bayesian principles, Cramer-Rao bound, linear estimators, and hypothesis testing. Studies random sequences, with notions of convergence, laws of large numbers, and examples of Markov chains. Defines random processes, along with the concepts of stationarity, ergodicity, autocorrelation and power spectral density, and filtering operations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7205",
+      "title": "Fundamentals of Computer Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces fundamental techniques in computer engineering used throughout the graduate curriculum. Covers basic programming and analysis methods and the formulation and solution of a wide range of computer engineering problems. Also discusses the applications of algorithm analysis and complexity theory to analyzing and solving problems. Emphasizes those fundamental computational problems and related algorithms whose solution can be obtained in polynomial time. For basic computational problems such as sorting, searching, elementary graph algorithms, shortest-paths problems, as well as flow problems in networks, many different algorithms and data structures are described and analyzed, implemented, and compared both from a theoretical and from an experimental point of view.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7211",
+      "title": "Nonlinear Control",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Discusses phase plane analysis for nonlinear systems. Topics include fundamentals of Lyapunov theory; absolute stability, passivity, averaging, singular perturbation, input-output stability, and other advanced stability topics; describing functions; nonlinear control methods based on linearization, feedback linearization, sliding control, Lyapunov, and passivity and center manifold theory and bifurcations.",
+      "prerequisites": {
+        "course": "EECE 7200",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7200 with a minimum grade of C-"
+    },
+    {
+      "number": "7213",
+      "title": "System Identification and Adaptive Control",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Discusses fundamental issues of adaptive identification and control, such as stability of adaptive systems, convergence, persistent excitation, and robustness. Identification is the process of mathematically modeling a system based on measurement data that may be limited or uncertain. Adaptive control, then, is the means by which a system that is poorly modeled is controlled adequately. Enhances the underlying basic ideas that are essential for adaptive control. Emphasizes recursive approaches, such as recursive least squares algorithm, where parameter estimates are updated in real time. Covers simple adaptive systems, adaptive observers, and adaptive control. Discusses in detail two major adaptive schemes, model reference adaptive control (MRAC) and self-tuning regulators (STR).",
+      "prerequisites": {
+        "course": "EECE 7200",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7200 with a minimum grade of C-"
+    },
+    {
+      "number": "7214",
+      "title": "Optimal and Robust Control",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Explores state-space, time-domain techniques for analyzing and designing optimal and robust linear control systems. Introduces basic concepts of dynamic optimization and applies them to problems of short-term and long-term optimal control, path planning and stabilization, state estimation, and filtering. Emphasizes linear quadratic optimization, H2 control, H-infinity control, and mu-synthesis. Reviews pertinent linear systems concepts and discusses connections with a geometric intuition relating quadratic optimization to projections.",
+      "prerequisites": {
+        "course": "EECE 7200",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7200 with a minimum grade of C-"
+    },
+    {
+      "number": "7215",
+      "title": "Introduction to Distributed Intelligence",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces distributed intelligence (complex distributed networks), their structure, and function, with examples from engineering, applied mathematics, and social sciences. Topics include spectral graph theory, notions of centrality, random graph models, contagion phenomena and epidemics, cascades and diffusion, game theory, and opinion dynamics.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 5580",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 7346",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 5580 with a minimum grade of C- or EECE 7346 with a minimum grade of C-"
+    },
+    {
+      "number": "7223",
+      "title": "Riemannian Optimization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a self-contained introduction to optimization on smooth manifolds. Covers both theoretical foundations and practical computational methods that students can apply to their own work. Introduces the theory of Riemannian geometry. Emphasizes those elements that are relevant for the construction of optimization algorithms (tensor fields, metrics, connections, geodesics, retractions, and transporters). Applies this geometric machinery to devise first- and second-order smooth optimization methods on generic Riemannian manifolds. Focuses on the development of practical computational techniques, with applications to robotics, computer vision, and machine learning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7224",
+      "title": "Power Systems State Estimation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers an up-to-date account of the strategies utilized in state estimation of electric power systems. Provides a broad overview of power system operation and the role of state estimation in overall energy management. Presents an abundance of examples, models, tables, and guidelines to clearly examine new aspects of state estimation, the testing of network observability, and methods to assure computational efficiency.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7226",
+      "title": "Modeling and Simulation of Power System Transients",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents computer modeling of linear and nonlinear power system components to be used in transient studies. Covers methods of digital simulation of power systems operating in the steady-state and transient conditions. Discusses use of transient simulation programs for design and analysis of power systems. Students are asked to carry out a term project and deliver a presentation about its outcome.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7228",
+      "title": "Advanced Power Electronics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Designed to familiarize students with advanced power electronic circuits. Covers single-phase and three-phase rectifiers and inverters, including their principles of the operation, design, analysis, and applications. Diode rectifiers, phase-controlled rectifiers, and switch mode rectifiers and inverters are among the topics. Introduces different modulation techniques. If time permits, covers three-phase ac-ac converters and soft switching techniques, as well.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 5684",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "EECE 5684 with a minimum grade of C- (Graduate)"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 5684 with a minimum grade of D- or EECE 5684 with a minimum grade of C- (Graduate)"
+    },
+    {
+      "number": "7240",
+      "title": "Analog Integrated Circuit Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Treats the analysis and design of analog ICs, their functional performance, and applications. Focuses on the various building blocks of analog circuits, their operation, and the underlying principles and techniques, with analysis supplemented  by CAD simulation. Topics include modeling and layout of CMOS, bipolar, BiCMOS devices, and passive components;  DC building blocks, including precision current and voltage references;  performance analysis of signal gain, impedances, and frequency response and speed of basic/compound amplifier structures;  architectures of operational amplifiers, including low-voltage, OTAs, and three-stage designs; feedback and performance merits, topologies, instability, and frequency compensation of feedback amplifiers; nonlinear and analog computation IC functions; noise in ICs,  physical origins and device modeling , noise circuit analysis, SNR and NF, and techniques for the enhancement of system noise performance.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 7248"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 7248"
+    },
+    {
+      "number": "7242",
+      "title": "Integrated Circuits for Mixed Signals and Data Communication",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers analysis and design of ICs for high-speed communications and mixed-signal processing. Focuses on performance of CMOS and BiCMOS implementations of building blocks for these systems. Covers passive R, L, C, and active devices for ICs; broadband amplifiers, TIAs, limiters, buffers/drivers, muxes, and demuxes; circuit noise modeling and analysis and methods for optimization of SNR and BER, with applications to optical communication; baseband and HF filters; design methods of L-C, OTA-C, MOSFET-C, and switched-C filters; data conversion and D-A and A-D characteristics, popular DAC architectures, serial and parallel ADCs, and high-resolution techniques; clock generators and oscillators, L-C resonator-based designs, VCOs, PLLs and frequency synthesis, and CDR circuits. Requires a verification review of a selected publication relevant to the course. Students who do not meet course prerequisites may seek permission of instructor.",
+      "prerequisites": {
+        "course": "EECE 7240",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7240 with a minimum grade of C-"
+    },
+    {
+      "number": "7244",
+      "title": "Introduction to Microelectromechanical Systems (MEMS)",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces microelectromechanical systems, including principles of sensing and actuation, microfabrication technology for MEMS, noise concepts, and packaging techniques. Covers a wide range of disciplines, from electronics to mechanics, material properties, microfabrication technology, electromagnetics, and optics. Studies several classes of devices including inertial measurement devices, pressure sensors, rf components, and optical MEMS. Devotes the last third of the semester largely to projects involving design of MEMS devices to specifications in a realistic fabrication process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7245",
+      "title": "Microwave Circuit Design for Wireless Communication",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers planar microwave circuits and integrated circuits (MMICs) for wireless communication systems. Employs microwave CAD tools in design projects as well as in-class case-study examples. Reviews communication system basics, modulation and demodulation, architectures of receivers and transmitters, and system performance. Covers planar transmission lines and coupled lines and their application to important devices and microwave circuit functions and multiport networks using S-parameters, flow graphs, and Smith charts. Studies microwave filters, narrowband and broadband amplifiers, their gain and stability, impedance matching, and noise performance, as well as mixers and frequency-conversion techniques. Finishes with design and performance of microwave oscillators. Covers wireless standards, multiple-access techniques, and recent advances if time permits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7247",
+      "title": "Radio Frequency Integrated Circuit Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces radio frequency (RF) integrated circuit analysis, design, and simulation methods with an emphasis on CMOS implementations. Covers basic RF design concepts including linearity, noise figure, sensitivity, impedance matching, and imperfections of integrated passive components (parasitics, quality factors). Discusses front-end circuit design considerations for low-noise amplifiers, mixers, oscillators, and power amplifiers.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 7240",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 5649",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 5649",
+            "min_grade": "D-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7240 with a minimum grade of C- or EECE 5649 with a minimum grade of C- or EECE 5649 with a minimum grade of D-"
+    },
+    {
+      "number": "7248",
+      "title": "Lab for EECE 7240",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Accompanies EECE 7240. Covers topics from the course through various experiments.",
+      "prerequisites": [],
+      "corequisites": [
+        "EECE 7240"
+      ],
+      "attributes": [],
+      "corequisites_text": "EECE 7240"
+    },
+    {
+      "number": "7250",
+      "title": "Power Management Integrated Circuits",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents power management circuits with a focus on modern system on a chip (SoC). Introduces linear regulators, switching converters, switched-capacitor converters, voltage references, energy harvesters, and battery chargers. Studies various control methods, design trade-offs, and performance metrics in the context of an SoC. Introduces emerging energy-harvesting techniques for IC design. After completing this course, the successful student should be able to design, characterize, choose, or specify power-management circuits or ICs for a system.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 5649",
+            "min_grade": "D-"
+          },
+          {
+            "admission_requirement": "EECE 5649 with a minimum grade of C- (Graduate)"
+          },
+          {
+            "course": "EECE 7240",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 5649 with a minimum grade of D- or EECE 5649 with a minimum grade of C- (Graduate) or EECE 7240 with a minimum grade of C-"
+    },
+    {
+      "number": "7270",
+      "title": "Electromagnetic Theory 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues EECE 7202. Examines important electrodynamic applications by the use of advanced mathematical techniques. Topics include general theory of wave-guides and resonators with application to the cylindrical geometry; dielectric rod wave-guide; optical fibers; radiation; linear antennas; loop antenna; linear arrays; ray optics; scattering and diffraction of waves for planar, cylindrical, and spherical geometries; and effects of random media.",
+      "prerequisites": {
+        "course": "EECE 7202",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7202 with a minimum grade of C-"
+    },
+    {
+      "number": "7271",
+      "title": "Computational Methods in Electromagnetics",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents solutions to problems in electromagnetics using a wide variety of numerical and computational methods. Discusses in detail the finite difference approximations of partial differential equations and the finite difference time-domain method of simulating electromagnetic wave propagation and scattering. Uses moment methods to solve the integral equations related to currents and charges on wire structures. Uses finite element and higher-order finite difference methods to solve problems in electrostatics and wave propagation. Discusses efficient matrix methods, relaxation methods, the conjugate gradient technique, and multidimensional Newton’s method in the context of electromagnetic field simulation.",
+      "prerequisites": {
+        "course": "EECE 7202",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7202 with a minimum grade of C-"
+    },
+    {
+      "number": "7275",
+      "title": "Antennas and Radiation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the fundamental theory and properties of antennas. Topics include equivalence, reciprocity, uniqueness, Huygen’s principle, antenna impedance, and diffraction; linear, loop, array, and aperture antennas including horns, reflectors, lenses, and microstrip; transmitting and receiving antennas and transmission formulas; and numerical antenna analysis methods.",
+      "prerequisites": {
+        "course": "EECE 7202",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7202 with a minimum grade of C-"
+    },
+    {
+      "number": "7284",
+      "title": "Optical Properties of Matter",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents the formal mathematical treatment of classical crystal optics including dispersion, polarization, birefringence, metal optics, and the optics of thin films. Emphasis is on the interaction of electromagnetic waves and the crystal lattice. Classical crystal optics are extended to nonlinear effects observed with very intense electric and magnetic fields. Presents applications of nonlinear optics, such as second- and third-harmonic generation, optical mixing, optical parametric oscillation, multiple photon interaction, and linear and nonlinear scattering. Various topics in linear and nonlinear optics are applied in such areas as birefringent filters, second-harmonic generators, optical parametric oscillators, and acousto-optical beam deflectors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7293",
+      "title": "Modern Imaging",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers basic and advanced topics in imaging engineering. Starts with the formulation of typical forward problems in electromagnetic and acoustic wave field propagation and scattering, emphasizing biomedical and nondestructive testing applications, and continues with a survey of imaging methodologies including the so-called qualitative imaging methods. Topics covered are: obstacle scattering, inhomogeneous medium scattering, uniqueness and stability in inverse scattering, imaging with finite data, point-source method and its applications, singular sources and shape reconstruction, linear sampling methods, signal-subspace-based methods, noniterative approaches for the inverse medium problem, intensity-only imaging, estimation theory in imaging and the question of superresolution, and selected topics in compressive sensing and quantum imaging.",
+      "prerequisites": {
+        "course": "EECE 7202",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7202 with a minimum grade of C-"
+    },
+    {
+      "number": "7296",
+      "title": "Electronic Materials",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers a basic treatment of electronic materials from atomic, molecular, and application viewpoints. Topics include atomic structure and bonding in materials, structure of materials, and crystal defects. These topics lay a foundation for thermal and electronic conduction, which is the underlying physics of electronic devices. Examines the electronic properties of semiconductors, dielectric, magnetic, superconducting, and optical materials. The latter half of the course deals with an introduction to state-of-the-art electronic materials, including semiconductor nanoelectronics, magnetic semiconductors and Spintronics, molecular electronics, carbon nanotubes, conducting polymers, graphene and graphane, and other topics representing recent technological breakthroughs in the area of electronic materials.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7297",
+      "title": "Advanced Magnetic Materials—Magnetic Devices",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers magnetism and magnetic materials, their applications in different industries, magnetic devices, and the frontiers of research activities on magnetism and magnetic materials. Topics include magnetics units, magnetic materials classification, origin of ferromagnetism and ferrimagnetism, magnetic anisotropies, magnetostriction, magnetic domain theory, ferromagnetic/ferrimagnetic resonance, soft magnetic materials, hard magnetic materials, applications of magnetic materials, information storage, and leading-edge research. Includes lectures on different magnetic sensors—including AMR, GMR, TMR, fluxgate, magnetoelectric sensors, etc.—and on microwave magnetic devices—including tunable filters, phase shifters, isolators, circulators, etc.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7310",
+      "title": "Modern Signal Processing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers theory and practice of modern signal processing techniques with emphasis on optimal filtering and multirate signal processing. Includes the principle of orthogonality, Wiener and Kalman filters, linear prediction, spectral factorization, the Yule-Walker equations, decimation and interpolation, Noble identities and polyphase representation, and maximally decimated filter banks.",
+      "prerequisites": {
+        "course": "EECE 7204",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7204 with a minimum grade of C-"
+    },
+    {
+      "number": "7311",
+      "title": "Two Dimensional Signal and Image Processing",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Examines the fundamentals of two-dimensional signal processing, with emphasis on image processing. Topics include signals, systems, and transforms in two dimensions; design and analysis of FIR and IIR filters; DFT and FFT algorithms; generation of digital image from the source; image digitizers and display devices; image transforms; techniques for point-wise, local, and global image enhancement; statistical image restoration techniques including recursive estimation; image coding techniques in spatial and transform domain including coding for facsimile transmission; and feature analysis. Requires a good understanding of linear systems, transform techniques, linear algebra, and random processes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7323",
+      "title": "Numerical Optimization Methods",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces fundamental theoretical and algorithmic concepts behind numerical optimization theory for objective functions with finite numbers of parameters. Optimization problems arise ubiquitously in all areas of engineering and science. Presents established numerical methods for iterative unconstrained and constrained optimization. Topics covered include line-search and trust-region strategies, gradient descent and Newton methods and their variations, linear and quadratic programming, penalty-augmented Lagrangian methods, sequential quadratic programming, and interior point methods. The course relies on the use of Matlab in projects. Requires a basic knowledge of calculus and linear algebra.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7332",
+      "title": "Making Networks Reliable—An Introduction to Coding Theory",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces modern approaches to ensuring reliable network communication and storage, covering theory and use cases. After an accessible, engineering-centric introduction to Galois fields, erasure coding, and decoding, with applications to coding-based protocols that reduce delays over links and networks (network coding), presents postquantum security and speedup of distributed computation. Considers error correction, starting with a brief overview of capacity, beginning with hard detection, as in storage systems. Introduces common algebraic codes (BCH, CRCs) and decoding using guessing random additive noise decoding (GRAND), which can decode any code. Generalizes to using detector-generated information (soft information) and illustrates how GRAND can be extended to soft information systems, with examples such as CA-Polar and turbo decoding. Discusses hardware implementation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7336",
+      "title": "Digital Communications",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers fundamentals of digital communications and coding and the basic structure of a communication system. Topics include modeling of information sources; entropy; rate distortion function; lossless and lossy source coding theorems; Huffman coding; Lempel-Ziv algorithm; scalar and vector quantization; digital modulation schemes and their spectral characterization including PAM, MPSK, QAM, OQPSK, MSK, pi/4-QPSK, CPFSK, CPM, and GMSK; and orthogonal, biortogonal, and simplex signaling. Explores optimal receiver design and probability of error derivation for various systems. Covers noncoherent detection and DPSK systems and their performance. Discusses synchronization systems, analysis of PLL in the presence of noise, methods of timing recovery, channel capacity, and Shannon’s noisy channel coding theorem. Studies cutoff rate and its communication system design. Other topics include coding systems, linear block codes, soft and hard decision decoding, performance of linear block codes, cyclic codes, convolutional codes, Viterbi decoding, error probability bounds, concatenated codes, MAP decoding, Trellis code modulation, communication over band-limited channels, ISI, Nyquist conditions, raised cosine signaling, partial response signaling, equalization techniques, linear adaptive equalization, decision feedback equalizers, maximum likelihood sequence detection, and communication over fading channels.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 7204",
+            "min_grade": "C-",
+            "concurrent": true
+          },
+          {
+            "course": "EECE 3468",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7204 (may be taken concurrently) with a minimum grade of C- or EECE 3468 with a minimum grade of C-"
+    },
+    {
+      "number": "7337",
+      "title": "Information Theory",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Discusses basic properties of entropy and mutual information, Shannon’s fundamental theorems on data compression and data transmission in the single-user case, binning, and covering lemmas. Topics include rate distortion theory, feedback in one-way channels, Slepian-Wolf coding of correlated information sources, source coding with side information at the receiver, multiple access channel and its capacity region, and the capacity region of the Gaussian multiple access channel. Also covers broadcast channels, superposition coding, and the capacity region of the degraded broadcast channel; performance and comparison of TDMA, FDMA, and CDMA systems from a theoretical point of view; capacity issues for time-varying channels and channels with memory; relation between information theory and statistics; Stein’s lemma; and large deviation theory.",
+      "prerequisites": {
+        "course": "EECE 7204",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7204 with a minimum grade of C-"
+    },
+    {
+      "number": "7345",
+      "title": "Big Data and Sparsity in Control, Machine Learning, and Optimization",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers the issue of handling large data sets and sparsity priors, presenting very recently developed techniques that exploit a deep connection to semi-algebraic geometry, rank minimization, and matrix completion. Focuses on applications, including control and filter design subject to information flow constraints, subspace clustering and classification on Riemannian manifolds, and activity recognition and classification and anomaly detection from video sequences. The goal of this course is to introduce the subject to people in the systems, machine-learning, and computer vision communities faced with “big data” and scaling problems and serve as a quick reference guide, summarizing the state of the art as of today and providing a comprehensive set of references.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 5644",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 7323",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 5644 with a minimum grade of C- or EECE 7323 with a minimum grade of C-"
+    },
+    {
+      "number": "7346",
+      "title": "Probabilistic System Modeling and Analysis",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers fundamentals of probabilistic system modeling, building toward techniques that allow analyzing complex stochastic systems in a tractable fashion. Modeling large and complex systems requires reasoning about probabilistic behavior at a large scale. Reviews classic topics like Markov chains, convergence to a steady state, renewal processes, renewal reward processes, the strong law of large numbers, and the elementary renewal theorem. Additional topics include the asymptotic behavior of probabilistic systems, including stochastic approximation/Robbins-Monro type algorithms, and ODE/fluid limits. Illustrates how these modeling techniques can be applied in modeling real systems and adaptive algorithms, including queueing systems, distributed systems, and online learning algorithms like stochastic gradient descent.",
+      "prerequisites": {
+        "course": "EECE 7204",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7204 with a minimum grade of C-"
+    },
+    {
+      "number": "7352",
+      "title": "Computer Architecture",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents many of the issues involved in the design and analysis of new and evolving computer architectures. Topics include all aspects of the system including the microprocessor, memory, I/O, and networking. Emphasizes the connection between architecture and the underlying software that drives it. Topics include pipelining, superscalar, out-of-order execution and completion, data flow, caching, prefetching, virtual memory, RAID, and ATM switching. Performance analysis is another fundamental theme of this course. A project is assigned that involves the creation of a trace-driven simulation model to study the performance of various hardware or software architectural features. Also provides a survey of the current state of the art in processor architectures and provides additional readings from recent research in the field. Requires a working knowledge of C programming language.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7353",
+      "title": "VLSI Design",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers all aspects of VLSI design and engineering including VLSI design methodology; MOS transistors and circuits; CAD tools to create, extract, simulate, and evaluate physical layouts; CMOS fabrication process; evaluation and optimization of circuit area, power consumption, and propagation delay; CAD tools to design CMOS systems with standard cells; system clocking design and evaluation; the characteristics and limitations of CAD tools, such as simulation, placement, and routing; VLSI testing, fault models, test vector generation, and design for testability; design projects going through a complete VLSI design cycle; and a research project targeting a specific area of VLSI engineering. Requires a knowledge of electronics and digital systems design.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7364",
+      "title": "Mobile and Wireless Networking",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Analyzes the working principles and practice of current and future mobile and wireless networks. Topics include overviews of different wireless and mobile systems and applications, 5G and beyond cellular networks, current and upcoming Wi-Fi standards, and emerging networking architectures. Covers theoretical foundations to computer simulation-based exercises. Designed with a research component involving a project that allows students to match classroom concepts to real-world problems. The overall objective is to enable the student to critically evaluate current and future wireless and mobile systems through an awareness of communication and networking theory, software protocols, and architectural know-how.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7368",
+      "title": "High-Level Design of Hardware-Software Systems",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents state-of-the-art methods, tools, and techniques for system-level design and modeling of complete multiprocessor systems from specification down to implementation across hardware-software boundaries. Recognizes that system complexities are growing exponentially, driven by ever-increasing application demands and technological advances that allow one to put complete multiprocessor systems on a chip (MPSoCs). System-level design that jointly covers hardware and software is one approach to address the associated complexities in the design process and the market pressures. Using system-level design languages (e.g., SpecC, SystemC), offers students an opportunity to specify, simulate, analyze, model, and design hardware-software systems based on examples of typical embedded applications. Requires working knowledge of C/C++, algorithms, and data structures.",
+      "prerequisites": {
+        "course": "EECE 7205",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7205 with a minimum grade of C-"
+    },
+    {
+      "number": "7370",
+      "title": "Advanced Computer Vision",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity to obtain practical knowledge in computer vision and to develop skills for being a successful researcher in this field. The goal of the field of computer vision is to make useful decisions about real physical objects and scenes based on sensed images. Achieving this goal requires obtaining and using descriptions (models) of the sensors and the world. Computer vision is an exciting field that builds on very diverse disciplines such as image processing, statistics, pattern recognition, control theory and system identification, physics, geometry, computer graphics, and machine learning. Course material includes state-of-the-art in the field, current research trends, and algorithms and their applications, with an emphasis on the mathematical methods used.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7374",
+      "title": "Fundamentals of Computer Networks",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Presents an overview of modern communication networks using the internet as a primary case study. Uses the concept of layered network architecture as a framework for understanding the principal functions and services required for achieving reliable end-to-end communications. Topics include networking application design and network programming (socket programming), service interfaces and peer-to-peer protocols, the reference model for TCP/IP (internet), transport layer and network layer issues, data link layer and LANs (local area networks) architectures, and important emerging technologies, including software-defined networking (SDN). Covers the basics of wireless and mobile networking (principles and practice) and standardization and policy issues concerning communications and networks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7376",
+      "title": "Operating Systems: Interface and Implementation",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers fundamentals of operating systems (OS) design, including theoretical, OS-generic design considerations as well as the practical, implementation-specific challenges in the development of a real OS. Requires proficiency in the C programming language, the GNU tool set for C programming, and debugging in Unix operating systems.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 3000",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 2560",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 7205",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 3000 with a minimum grade of C- or EECE 2560 with a minimum grade of C- or EECE 7205 with a minimum grade of C-"
+    },
+    {
+      "number": "7390",
+      "title": "Computer Hardware Security",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers computer hardware and embedded system security and trust, a major concern for national security. Topics include crypto engineering, side-channel attacks, hardware security primitives, counterfeit electronics detection and prevention, logic locking and obfuscation, hardware Trojan detection and isolation, passive and active metering for the prevention of piracy, FPGA security, and artificial intelligence security from a hardware perspective. Reviews the foundations of the new and evolving area of hardware security and trust, as well as the state-of-the-art on trusted and assured microelectronics and system-on-chip design. Discusses current frontier papers to motivate research interests and ideas in building secure and trustworthy computer hardware systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7393",
+      "title": "Analysis and Design of Data Networks",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Introduces fundamental concepts and approaches for the analysis and design of data networks. Covers delay models, multi-access communication, scheduling, routing, congestion control, and network coding. Presents analytical techniques such as basic queuing theory, queuing networks, optimization, stochastic control, and distributed algorithms. Requires knowledge of basic probability.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7397",
+      "title": "Advanced Machine Learning",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers topics in advanced machine learning. Presents materials in the current machine learning literature. Focuses on graphical models, latent variable models, Bayesian inference, and nonparametric Bayesian methods. Seeks to prepare students to do research in machine learning. Expects students to read conference and journal articles, present these articles, and write an individual research paper. CS 7140 and EECE 7397 are cross-listed.",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "CS 6140",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 7204",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 7313",
+            "min_grade": "C-"
+          },
+          {
+            "course": "EECE 5644",
+            "min_grade": "C-"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "CS 6140 with a minimum grade of C- or EECE 7204 with a minimum grade of C- or EECE 7313 with a minimum grade of C- or EECE 5644 with a minimum grade of C-"
+    },
+    {
+      "number": "7398",
+      "title": "Advanced Special Topics in Electrical and Computer Engineering",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Covers topics of interest to the faculty member conducting this class for advanced study. May be repeated up to four times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7399",
+      "title": "Preparing High-Stakes Written and Oral Materials",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Focuses on how to think through and develop critical materials that have high-stakes impact. These could include writing a compelling technical paper or a winning proposal for external funding, making a compelling oral presentation for a job interview or thesis defense, or presenting arguments to a CEO about strategic directions for a complex project. Includes hands-on exercises and class exercises around challenges defined by the instructor or by guest lecturers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7400",
+      "title": "Special Problems in Electrical and Computer Engineering",
+      "credits": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "credits_text": "1-4",
+      "credit_options": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "description": "Offers theoretical or experimental work under individual faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7440",
+      "title": "Electrical and Computer Engineering Leadership Challenge Project 1",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers students an opportunity to develop and present a plan for the demonstration of a marketable technology product or prototype with an electrical engineering focus. Constitutes the first half of a thesis-scale project in technology commercialization. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact, while enhancing the student’s technological and engineering depth and fostering the student’s leadership development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7442",
+      "title": "Electrical and Computer Engineering Leadership Challenge Project 2",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Continues EECE 7440, a thesis-scale project in technology commercialization. Offers students an opportunity to demonstrate their development of a marketable technology product or prototype with an electrical engineering focus and to produce a written documentary report on the project to the satisfaction of an advising committee. Requires work/training with a sponsoring organization or employer to improve a process or develop a project that is of significant value to the organization and demonstrates a quantifiable market impact, while enhancing the student’s technological and engineering depth and fostering the student’s leadership development.",
+      "prerequisites": {
+        "course": "EECE 7440",
+        "min_grade": "C-"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 7440 with a minimum grade of C-"
+    },
+    {
+      "number": "7674",
+      "title": "Master’s Project",
+      "credits": 4.0,
+      "credits_text": "4",
+      "credit_options": {
+        "values": [
+          4.0
+        ]
+      },
+      "description": "Offers analytical and/or experimental work leading to a written report and a final short presentation by the end of the semester.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7986",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to conduct full-time research under faculty supervision.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7990",
+      "title": "Thesis",
+      "credits": {
+        "min": 4.0,
+        "max": 8.0
+      },
+      "credits_text": "4-8",
+      "credit_options": {
+        "min": 4.0,
+        "max": 8.0
+      },
+      "description": "Offers analytical and/or experimental work conducted under the auspices of the department. May be repeated once.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "7996",
+      "title": "Thesis Continuation - Half-Time",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers analytical and/or experimental work conducted under the auspices of the department.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "8986",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9000",
+      "title": "PhD Candidacy Achieved",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Indicates successful completion of program requirements for PhD candidacy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9986",
+      "title": "Research",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers students an opportunity to conduct full-time research under faculty supervision. May be repeated without limit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "attributes": []
+    },
+    {
+      "number": "9990",
+      "title": "Dissertation Term 1",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers theoretical and/or experimental work conducted under the auspices of the department. Includes attendance at Distinguished Lecture Series (DLS).",
+      "prerequisites": {
+        "course": "EECE 9000",
+        "min_grade": "S"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 9000 with a minimum grade of S"
+    },
+    {
+      "number": "9991",
+      "title": "Dissertation Term 2",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers dissertation supervision by members of the department.",
+      "prerequisites": {
+        "course": "EECE 9990",
+        "min_grade": "S"
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 9990 with a minimum grade of S"
+    },
+    {
+      "number": "9996",
+      "title": "Dissertation Continuation",
+      "credits": 0.0,
+      "credits_text": "0",
+      "credit_options": {
+        "values": [
+          0.0
+        ]
+      },
+      "description": "Offers continued dissertation work conducted under the supervision of a departmental faculty member. Includes attendance at Distinguished Lecture Series (DLS).",
+      "prerequisites": {
+        "type": "OR",
+        "courses": [
+          {
+            "course": "EECE 9991",
+            "min_grade": "S"
+          },
+          {
+            "admission_requirement": "Dissertation Check with a score of REQ"
+          }
+        ]
+      },
+      "corequisites": [],
+      "attributes": [],
+      "prerequisites_text": "EECE 9991 with a minimum grade of S or Dissertation Check with a score of REQ"
+    }
+  ]
+}

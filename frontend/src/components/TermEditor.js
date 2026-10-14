@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import ExamCreditEditor from './ExamCreditEditor';
 import { academicYear, coopFor, nextTerm, parseCodes, shortLabel, termKey, termLabel, termStatus } from '../coursePlan';
 
 const RESULTS = {
@@ -17,10 +18,10 @@ const minCredits = (course) => {
   return Number(course.credits);
 };
 
-async function lookup(code) {
+async function lookup(code, catalogYear) {
   const [dept, number] = code.split(' ');
   try {
-    const res = await fetch(`/api/course/${dept.toLowerCase()}/${number}`);
+    const res = await fetch(`/api/course/${dept.toLowerCase()}/${number}${catalogYear ? `?catalog_year=${encodeURIComponent(catalogYear)}` : ''}`);
     if (res.ok) return { code, found: true, course: await res.json() };
     return { code, found: false, missing: res.status === 404 };
   } catch {
@@ -95,11 +96,16 @@ function AttemptRow({ attempt, plan, status, dispatch, onOpenCourse, problems })
 
 const SAMPLE_TERMS = { fall: 'Fall', spring: 'Spring', summer1: 'Summer 1', summer2: 'Summer 2' };
 
+const sameCodes = (a, b) => a.length === b.length && a.every((c) => b.includes(c));
+
 // What sample plans place in this year of study and session: one unit per entry, so a lecture and
-// its lab add together and each side of an "or" choice is its own option.
+// its lab add together and each side of an "or" choice is its own option. In a future term, a retired
+// bundle with a verified replacement is offered as that current bundle instead.
 export function commonCourses(context, plan, term) {
   const variants = context?.sample_variants || [];
   const year = academicYear(term) - academicYear(plan.start) + 1;
+  const future = termStatus(term, plan.current_term) !== 'past';
+  const verified = future ? (context?.replacements || []).filter((r) => r.review === 'verified') : [];
   const units = new Map();
   for (const variant of variants) {
     const seen = new Set();
@@ -107,11 +113,14 @@ export function commonCourses(context, plan, term) {
       if (semester.year !== year || semester.term !== SAMPLE_TERMS[term.session]) continue;
       for (const entry of semester.entries || []) {
         const groups = entry.kind === 'choice' ? entry.courses.map((c) => [c]) : entry.courses.length ? [entry.courses] : [];
-        for (const codes of groups) {
+        for (const listed of groups) {
+          const replacement = verified.find((r) => sameCodes(r.original, listed));
+          const codes = replacement ? replacement.replacement : listed;
           const key = codes.join(' + ');
           if (seen.has(key)) continue;
           seen.add(key);
           const unit = units.get(key) || { key, codes, count: 0, choice: entry.kind === 'choice' ? entry.text : '' };
+          if (replacement) unit.replaces = replacement.original.join(' + ');
           unit.count += 1;
           units.set(key, unit);
         }
@@ -135,11 +144,12 @@ function CommonCourses({ context, plan, term, onAdd }) {
         + 'that have since changed; check your own record.'}</p>
       {units.length ? <ul className="search-adds">
         {units.map((u) => {
-          const known = u.codes.every((c) => info[c]);
+          const known = u.codes.every((c) => info[c] && (!info[c].historical_only || termStatus(term, plan.current_term) === 'past'));
           const added = u.codes.every((c) => taken.has(c));
           return <li key={u.key}>
             <span><strong>{u.key}</strong>{` ${u.codes.map((c) => info[c]?.title).filter(Boolean).join(' / ')}`}
               <span className="hint block">{`${u.count} of ${total} plans${u.choice ? ` · option in “${u.choice}”` : ''}`
+                + `${u.replaces ? ` · current replacement for ${u.replaces}` : ''}`
                 + `${known ? '' : ' · not in the current catalog'}`}</span></span>
             <button type="button" className="btn btn-quiet btn-sm" disabled={!known || added} aria-label={`Add ${u.key}`}
               onClick={() => onAdd(u.codes.map((c) => ({ code: c, title: info[c].title, credits: info[c].credits })))}>
@@ -151,7 +161,7 @@ function CommonCourses({ context, plan, term, onAdd }) {
   );
 }
 
-function AddCourses({ termName, future, onAdd, identify }) {
+function AddCourses({ termName, future, onAdd, identify, catalogYear }) {
   const [text, setText] = useState('');
   const [preview, setPreview] = useState(null); // {rows, message}
   const [chosen, setChosen] = useState(new Set());
@@ -171,13 +181,13 @@ function AddCourses({ termName, future, onAdd, identify }) {
     const timer = setTimeout(async () => {
       let next = { status: 'error', results: [] };
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+        const res = await fetch(`/api/search?q=${encodeURIComponent(query)}${catalogYear ? `&catalog_year=${encodeURIComponent(catalogYear)}` : ''}`);
         if (res.ok) next = { status: 'ready', results: await res.json() };
       } catch { /* keep the error state */ }
       if (id === searchId.current) setSearch(next);
     }, 300);
     return () => clearTimeout(timer);
-  }, [q]);
+  }, [q, catalogYear]);
 
   // Codes resolve directly; anything else is a name the AI matches against your program's courses.
   const check = async (e) => {
@@ -190,7 +200,7 @@ function AddCourses({ termName, future, onAdd, identify }) {
     const codes = phrases.flatMap(parseCodes);
     const names = phrases.filter((p) => !parseCodes(p).length);
     setPreview({ rows: [], message: names.length ? 'Checking codes and asking the AI to match course names…' : 'Checking codes…' });
-    const [found, guessed] = await Promise.all([Promise.all(codes.map(lookup)), names.length ? identify(names) : null]);
+    const [found, guessed] = await Promise.all([Promise.all(codes.map((code) => lookup(code, catalogYear))), names.length ? identify(names) : null]);
     const rows = [...found];
     let message = '';
     if (guessed?.matches) {
@@ -304,7 +314,7 @@ function TermEditor({ plan, term, context, dispatch, onOpenCourse, onClose, prob
     const extra = [];
     if (term) { // awarded credit before enrollment is recorded exactly as awarded
       const seen = new Set([...present, ...picked.map((c) => c.code)]);
-      for (const r of await Promise.all(picked.map((c) => lookup(c.code)))) {
+      for (const r of await Promise.all(picked.map((c) => lookup(c.code, status === 'past' ? plan.catalog_year : null)))) {
         for (const c of (r.found && r.course.companions) || []) {
           if (seen.has(c.code)) continue;
           seen.add(c.code);
@@ -325,8 +335,7 @@ function TermEditor({ plan, term, context, dispatch, onOpenCourse, onClose, prob
         <h2 id="term-editor-heading">{name}</h2>
         <button type="button" className="btn btn-quiet btn-sm" onClick={onClose}>Done</button>
       </div>
-      {!term && <p className="hint">AP, IB, transfer, and other awarded credit. Enter the Northeastern course you were awarded,
-        exactly as it appears on your record; nothing is converted automatically.</p>}
+      {!term && <ExamCreditEditor plan={plan} dispatch={dispatch} />}
       {term && <fieldset className="radios">
         <legend className="field-label">{status === 'future' ? 'This term' : 'Enrollment'}</legend>
         {(status === 'future' ? [['open', 'Open for planning'], ['fixed', 'Fully fixed'], ['off', 'Off']]
@@ -372,7 +381,8 @@ function TermEditor({ plan, term, context, dispatch, onOpenCourse, onClose, prob
         </label>
         <p className="hint wide">Your preferences, not university limits. Suggestions never exceed your limit.</p>
       </div>}
-      <h3 className="editor-subhead">{attempts.length ? `Courses (${attempts.length})` : 'No courses yet'}</h3>
+      <h3 className="editor-subhead">{!term ? 'Enter awarded course codes' : attempts.length ? `Courses (${attempts.length})` : 'No courses yet'}</h3>
+      {!term && <p className="hint">Already know your awarded Northeastern equivalents? Enter them exactly as shown on your record.</p>}
       <p className="hint" role="status">{addedNote}</p>
       <ul className="attempt-list">
         {attempts.map((a) => <AttemptRow key={a.id} attempt={a} plan={plan} status={status} dispatch={dispatch}
@@ -380,7 +390,8 @@ function TermEditor({ plan, term, context, dispatch, onOpenCourse, onClose, prob
       </ul>
       {(!term || term.mode !== 'off') && <>
         {term && !coop && <CommonCourses context={context} plan={plan} term={term} onAdd={add} />}
-        <AddCourses termName={name} future={status === 'future'} identify={(names) => identify(names, name)} onAdd={add} />
+        <AddCourses termName={name} future={status === 'future'} catalogYear={status === 'past' ? plan.catalog_year : null}
+          identify={(names) => identify(names, name)} onAdd={add} />
       </>}
     </section>
   );

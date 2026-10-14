@@ -1,0 +1,2533 @@
+{
+  "document_id": "health-science-bs-85174dfc",
+  "kind": "program",
+  "title": "Health Science, BS",
+  "catalog_year": "2023-2024",
+  "source_url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/health-sciences/community-health-behavioral-sciences/health-science-bs/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Universitywide Requirements",
+      "heading_path": [
+        "Universitywide Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the Universitywide Requirements .",
+          "links": [
+            {
+              "text": "Universitywide Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [
+        "majorrequirementstext"
+      ],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "NUpath Requirements",
+      "heading_path": [
+        "NUpath Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "All undergraduate students are required to complete the NUpath Requirements .",
+          "links": [
+            {
+              "text": "NUpath Requirements",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Public Health Core",
+      "heading_path": [
+        "Public Health Core"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "PHTH 1260 The American Healthcare System",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 1260"
+              ],
+              "code_text": "PHTH 1260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 1260"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "or PHTH 1261 Comparative Healthcare Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 1261"
+              ],
+              "code_text": "or PHTH 1261",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 1261"
+              },
+              "alternative_group": 0
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "PHTH 2210 and PHTH 2211 Foundations of Biostatistics and Recitation for PHTH 2210",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2210",
+                "PHTH 2211"
+              ],
+              "code_text": "PHTH 2210 and PHTH 2211",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "PHTH 2210"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "PHTH 2211"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "PHTH 2300 Communication Skills for the Health Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2300"
+              ],
+              "code_text": "PHTH 2300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2300"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "or PHTH 2301 Communication Skills for the Health Professions—Global",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2301"
+              ],
+              "code_text": "or PHTH 2301",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2301"
+              },
+              "alternative_group": 3
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "PHTH 2350 Community and Public Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2350"
+              ],
+              "code_text": "PHTH 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2350"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "or PHTH 2351 Community and Public Health - Global",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2351"
+              ],
+              "code_text": "or PHTH 2351",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2351"
+              },
+              "alternative_group": 5
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "PHTH 2515 Healthcare Policy and Administration",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2515"
+              ],
+              "code_text": "PHTH 2515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2515"
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHTH 4120 Global Perspectives on Discrimination and Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4120"
+              ],
+              "code_text": "PHTH 4120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4120"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PHTH 4202 Principles of Epidemiology in Medicine and Public Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4202"
+              ],
+              "code_text": "PHTH 4202",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4202"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHTH 4540 Health Education and Program Planning",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4540"
+              ],
+              "code_text": "PHTH 4540",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4540"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Science Requirement",
+      "heading_path": [
+        "Science Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "BIOL 1111 and BIOL 1112 General Biology 1 and Lab for BIOL 1111",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1111",
+                "BIOL 1112"
+              ],
+              "code_text": "BIOL 1111 and BIOL 1112",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1111"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1112"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "BIOL 1113 and BIOL 1114 General Biology 2 and Lab for BIOL 1113",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 1113",
+                "BIOL 1114"
+              ],
+              "code_text": "BIOL 1113 and BIOL 1114",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1113"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 1114"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 and CHEM 1163 General Chemistry for Science Majors and Lab for CHEM 1161 and Recitation for CHEM 1161",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162",
+                "CHEM 1163"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162 and CHEM 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "MATH 1241 Calculus 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1241"
+              ],
+              "code_text": "MATH 1241",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1241"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PSYC 1101 Foundations of Psychology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1101"
+              ],
+              "code_text": "PSYC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1101"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Selectives",
+      "heading_path": [
+        "Selectives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete at least three courses from the groups listed below with at least two in one category. At least one of the courses must be at the 2000 level or higher. Students may complete additional courses to fulfill a minor, such as global health, nutrition, and exercise science.",
+              "credits_text": "9-13",
+              "credits": {
+                "min": 9.0,
+                "max": 13.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_courses": 3
+              }
+            },
+            {
+              "index": 1,
+              "kind": "header",
+              "text": "Society and Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ANTH 3441 Medical Anthropology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 3441"
+              ],
+              "code_text": "ANTH 3441",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 3441"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "CRIM 3040 Psychology of Crime",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CRIM 3040"
+              ],
+              "code_text": "CRIM 3040",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CRIM 3040"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HLTH 5280 The (in)Visibility of (dis)Ability in Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HLTH 5280"
+              ],
+              "code_text": "HLTH 5280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HLTH 5280"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "INSH 1300 Introduction to Health and Humanities",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 1300"
+              ],
+              "code_text": "INSH 1300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 1300"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "PHTH 1270 Introduction to Global Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 1270"
+              ],
+              "code_text": "PHTH 1270",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 1270"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "or AFRS 1270 Introduction to Global Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "AFRS 1270"
+              ],
+              "code_text": "or AFRS 1270",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "AFRS 1270"
+              },
+              "alternative_group": 6
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "PHTH 2414 Environmental Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2414"
+              ],
+              "code_text": "PHTH 2414",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2414"
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "PHTH 2616 Rural Health: An Interdisciplinary Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 2616"
+              ],
+              "code_text": "PHTH 2616",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 2616"
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "PHTH 5214 Environmental Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5214"
+              ],
+              "code_text": "PHTH 5214",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5214"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "PHTH 5222 Health Advocacy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5222"
+              ],
+              "code_text": "PHTH 5222",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5222"
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "PHTH 5230 Global Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5230"
+              ],
+              "code_text": "PHTH 5230",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5230"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "PHTH 5234 Economic Perspectives on Health Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5234"
+              ],
+              "code_text": "PHTH 5234",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5234"
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "SOCL 1245 Sociology of Poverty",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1245"
+              ],
+              "code_text": "SOCL 1245",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1245"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "SOCL 1246 Environment and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1246"
+              ],
+              "code_text": "SOCL 1246",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1246"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "SOCL 1260 Sociology of Gender",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1260"
+              ],
+              "code_text": "SOCL 1260",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1260"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "SOCL 1295 Drugs and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1295"
+              ],
+              "code_text": "SOCL 1295",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1295"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "course",
+              "text": "SOCL 2225 Sociology of Disability",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2225"
+              ],
+              "code_text": "SOCL 2225",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2225"
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "SOCL 2303 Gender and Reproductive Justice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2303"
+              ],
+              "code_text": "SOCL 2303",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2303"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "SOCL 2485 Environment, Technology, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2485"
+              ],
+              "code_text": "SOCL 2485",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2485"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "SOCL 3441 Sociology of Health and Illness",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 3441"
+              ],
+              "code_text": "SOCL 3441",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 3441"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "SOCL 4522 Environmental Justice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 4522"
+              ],
+              "code_text": "SOCL 4522",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 4522"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "WMNS 1225 Gender, Race, and Medicine",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "WMNS 1225"
+              ],
+              "code_text": "WMNS 1225",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "WMNS 1225"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "header",
+              "text": "Policy and Administration",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 25,
+              "kind": "course",
+              "text": "ECON 1230 Healthcare and Medical Economics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 1230"
+              ],
+              "code_text": "ECON 1230",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 1230"
+              }
+            },
+            {
+              "index": 26,
+              "kind": "course",
+              "text": "ECON 3404 International Food Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ECON 3404"
+              ],
+              "code_text": "ECON 3404",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ECON 3404"
+              }
+            },
+            {
+              "index": 27,
+              "kind": "course",
+              "text": "HUSV 2800 Sexual Orientation and Gender Expression",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HUSV 2800"
+              ],
+              "code_text": "HUSV 2800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HUSV 2800"
+              }
+            },
+            {
+              "index": 28,
+              "kind": "course",
+              "text": "HUSV 3900 Social Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HUSV 3900"
+              ],
+              "code_text": "HUSV 3900",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HUSV 3900"
+              }
+            },
+            {
+              "index": 29,
+              "kind": "course",
+              "text": "INNO 2206 Global Social Enterprise",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INNO 2206"
+              ],
+              "code_text": "INNO 2206",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INNO 2206"
+              }
+            },
+            {
+              "index": 30,
+              "kind": "course",
+              "text": "LPSC 2301 Introduction to Law, Policy, and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "LPSC 2301"
+              ],
+              "code_text": "LPSC 2301",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "LPSC 2301"
+              }
+            },
+            {
+              "index": 31,
+              "kind": "course",
+              "text": "MGMT 3340 Healthcare Management, Innovation, and Design",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MGMT 3340"
+              ],
+              "code_text": "MGMT 3340",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MGMT 3340"
+              }
+            },
+            {
+              "index": 32,
+              "kind": "course",
+              "text": "ORGB 3201 Organizational Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ORGB 3201"
+              ],
+              "code_text": "ORGB 3201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ORGB 3201"
+              }
+            },
+            {
+              "index": 33,
+              "kind": "course",
+              "text": "PHTH 4511 Healthcare Management",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4511"
+              ],
+              "code_text": "PHTH 4511",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4511"
+              }
+            },
+            {
+              "index": 34,
+              "kind": "course",
+              "text": "PHTH 4515 Critical Issues in Health and Public-Health Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 4515"
+              ],
+              "code_text": "PHTH 4515",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 4515"
+              }
+            },
+            {
+              "index": 35,
+              "kind": "course",
+              "text": "PHTH 5232 Evaluating Healthcare Quality",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5232"
+              ],
+              "code_text": "PHTH 5232",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5232"
+              }
+            },
+            {
+              "index": 36,
+              "kind": "course",
+              "text": "PHTH 5234 Economic Perspectives on Health Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5234"
+              ],
+              "code_text": "PHTH 5234",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5234"
+              }
+            },
+            {
+              "index": 37,
+              "kind": "course",
+              "text": "POLS 2395 Environmental Politics and Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2395"
+              ],
+              "code_text": "POLS 2395",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2395"
+              }
+            },
+            {
+              "index": 38,
+              "kind": "course",
+              "text": "POLS 3309 Lesbian, Gay, Bisexual, and Transgender Issues in Public Policy",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 3309"
+              ],
+              "code_text": "POLS 3309",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 3309"
+              }
+            },
+            {
+              "index": 39,
+              "kind": "course",
+              "text": "SOCL 2205 Law and Social Justice",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 2205"
+              ],
+              "code_text": "SOCL 2205",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 2205"
+              }
+            },
+            {
+              "index": 40,
+              "kind": "course",
+              "text": "SOCL 3241 Violence and Society",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 3241"
+              ],
+              "code_text": "SOCL 3241",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 3241"
+              }
+            },
+            {
+              "index": 41,
+              "kind": "header",
+              "text": "Nutrition and Wellness",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 42,
+              "kind": "course",
+              "text": "CAEP 1280 Introduction to Mindfulness",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CAEP 1280"
+              ],
+              "code_text": "CAEP 1280",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CAEP 1280"
+              }
+            },
+            {
+              "index": 43,
+              "kind": "course",
+              "text": "CAEP 1290 Personal Behavior Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CAEP 1290"
+              ],
+              "code_text": "CAEP 1290",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CAEP 1290"
+              }
+            },
+            {
+              "index": 44,
+              "kind": "course",
+              "text": "CAEP 2012 Health Psychology: An Introduction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CAEP 2012"
+              ],
+              "code_text": "CAEP 2012",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CAEP 2012"
+              }
+            },
+            {
+              "index": 45,
+              "kind": "course",
+              "text": "CAEP 2101 Behavioral Assessment and Treatment of Health Problems in the 21st Century",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CAEP 2101"
+              ],
+              "code_text": "CAEP 2101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "CAEP 2101"
+              }
+            },
+            {
+              "index": 46,
+              "kind": "course",
+              "text": "COMM 2555 Games for Change",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 2555"
+              ],
+              "code_text": "COMM 2555",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 2555"
+              }
+            },
+            {
+              "index": 47,
+              "kind": "course",
+              "text": "COMM 3201 Health Communication",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "COMM 3201"
+              ],
+              "code_text": "COMM 3201",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "COMM 3201"
+              }
+            },
+            {
+              "index": 48,
+              "kind": "course",
+              "text": "EXSC 1120 Introduction to Exercise, Fitness, and Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EXSC 1120"
+              ],
+              "code_text": "EXSC 1120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EXSC 1120"
+              }
+            },
+            {
+              "index": 49,
+              "kind": "course",
+              "text": "EXSC 4500 and EXSC 4501 Exercise Physiology 1 and Lab for EXSC 4500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EXSC 4500",
+                "EXSC 4501"
+              ],
+              "code_text": "EXSC 4500 and EXSC 4501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "EXSC 4500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "EXSC 4501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 50,
+              "kind": "course",
+              "text": "EXSC 5200 Cardiopulmonary Physiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EXSC 5200"
+              ],
+              "code_text": "EXSC 5200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EXSC 5200"
+              }
+            },
+            {
+              "index": 51,
+              "kind": "course",
+              "text": "EXSC 5220 Advanced Exercise Physiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "EXSC 5220"
+              ],
+              "code_text": "EXSC 5220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "EXSC 5220"
+              }
+            },
+            {
+              "index": 52,
+              "kind": "course",
+              "text": "HSCI 1105 Human Nutrition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 1105"
+              ],
+              "code_text": "HSCI 1105",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 1105"
+              }
+            },
+            {
+              "index": 53,
+              "kind": "course",
+              "text": "HSCI 1106 Contemporary Issues in Nutrition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 1106"
+              ],
+              "code_text": "HSCI 1106",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 1106"
+              }
+            },
+            {
+              "index": 54,
+              "kind": "course",
+              "text": "HSCI 2350 Advanced Nutrition in Health and Disease",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 2350"
+              ],
+              "code_text": "HSCI 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 2350"
+              }
+            },
+            {
+              "index": 55,
+              "kind": "course",
+              "text": "HSCI 2500 Public Health Nutrition in the Community",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 2500"
+              ],
+              "code_text": "HSCI 2500",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 2500"
+              }
+            },
+            {
+              "index": 56,
+              "kind": "course",
+              "text": "PSYC 1250 Drugs and Behavior",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1250"
+              ],
+              "code_text": "PSYC 1250",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1250"
+              }
+            },
+            {
+              "index": 57,
+              "kind": "header",
+              "text": "Digital Health",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 58,
+              "kind": "course",
+              "text": "CS 2500 and CS 2501 Fundamentals of Computer Science 1 and Lab for CS 2500",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CS 2500",
+                "CS 2501"
+              ],
+              "code_text": "CS 2500 and CS 2501",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CS 2500"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CS 2501"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 59,
+              "kind": "course",
+              "text": "DS 2000 and DS 2001 Programming with Data and Data Science Programming Practicum",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 2000",
+                "DS 2001"
+              ],
+              "code_text": "DS 2000 and DS 2001",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "DS 2000"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "DS 2001"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 60,
+              "kind": "course",
+              "text": "DS 4200 Information Presentation and Visualization",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "DS 4200"
+              ],
+              "code_text": "DS 4200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "DS 4200"
+              }
+            },
+            {
+              "index": 61,
+              "kind": "course",
+              "text": "HINF 5101 Introduction to Health Informatics and Health Information Systems",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5101"
+              ],
+              "code_text": "HINF 5101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5101"
+              }
+            },
+            {
+              "index": 62,
+              "kind": "course",
+              "text": "HINF 5200 Theoretical Foundations in Personal Health Informatics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5200"
+              ],
+              "code_text": "HINF 5200",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5200"
+              }
+            },
+            {
+              "index": 63,
+              "kind": "course",
+              "text": "HINF 5300 Personal Health Interface Design and Development",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HINF 5300"
+              ],
+              "code_text": "HINF 5300",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HINF 5300"
+              }
+            },
+            {
+              "index": 64,
+              "kind": "course",
+              "text": "IS 2000 Principles of Information Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 2000"
+              ],
+              "code_text": "IS 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 2000"
+              }
+            },
+            {
+              "index": 65,
+              "kind": "course",
+              "text": "IS 4800 Empirical Research Methods",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "IS 4800"
+              ],
+              "code_text": "IS 4800",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "IS 4800"
+              }
+            },
+            {
+              "index": 66,
+              "kind": "header",
+              "text": "Health Data Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 67,
+              "kind": "course",
+              "text": "ANTH 3410 Ethnographic Field Experience",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "ANTH 3410"
+              ],
+              "code_text": "ANTH 3410",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ANTH 3410"
+              }
+            },
+            {
+              "index": 68,
+              "kind": "course",
+              "text": "INSH 5304 Social Network Analysis",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "INSH 5304"
+              ],
+              "code_text": "INSH 5304",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "INSH 5304"
+              }
+            },
+            {
+              "index": 69,
+              "kind": "course",
+              "text": "PHTH 3250 Fundamentals of Qualitative Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 3250"
+              ],
+              "code_text": "PHTH 3250",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 3250"
+              }
+            },
+            {
+              "index": 70,
+              "kind": "course",
+              "text": "PHTH 5202 Introduction to Epidemiology",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "PHTH 5202"
+              ],
+              "code_text": "PHTH 5202",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHTH 5202"
+              }
+            },
+            {
+              "index": 71,
+              "kind": "course",
+              "text": "POLS 2399 Research Methods in Political Science",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "POLS 2399"
+              ],
+              "code_text": "POLS 2399",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "POLS 2399"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Capstone Requirement",
+      "heading_path": [
+        "Capstone Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete one of the following options:",
+              "credits_text": "4-8",
+              "credits": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 1,
+              "kind": "header",
+              "text": "Health Science Capstone",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "HSCI 4700 Health Science Capstone Introduction",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 4700"
+              ],
+              "code_text": "HSCI 4700",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 4700"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "instruction",
+              "text": "And complete one of these options:",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": true,
+              "constraints": {}
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "HSCI 4720 Health Science Capstone—Service",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 4720"
+              ],
+              "code_text": "HSCI 4720",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 4720"
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "HSCI 4730 Health Science Capstone—Research",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 4730"
+              ],
+              "code_text": "HSCI 4730",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 4730"
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "HSCI 4740 Health Science Capstone Seminar",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 4740"
+              ],
+              "code_text": "HSCI 4740",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 4740"
+              }
+            },
+            {
+              "index": 7,
+              "kind": "header",
+              "text": "Honors Project (must meet GPA requirement)",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 8,
+              "kind": "note",
+              "text": "HSCI 4970 will count as 4 semester hours toward general electives.",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "HSCI 4970 and HSCI 4971 Junior/Senior Honors Project 1 and Junior/Senior Honors Project 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 4970",
+                "HSCI 4971"
+              ],
+              "code_text": "HSCI 4970 and HSCI 4971",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "HSCI 4970"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "HSCI 4971"
+                  }
+                ]
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Other Major Requirements",
+      "heading_path": [
+        "Other Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "HSCI 1000 College: An Introduction",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 1000"
+              ],
+              "code_text": "HSCI 1000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 1000"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "HSCI 2000 Professional Development for Bouvé Co-op",
+              "credits_text": "1",
+              "credits": {
+                "min": 1.0,
+                "max": 1.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 2000"
+              ],
+              "code_text": "HSCI 2000",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 2000"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "ENGW 3306 Advanced Writing in the Health Professions",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3306"
+              ],
+              "code_text": "ENGW 3306",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3306"
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "PHIL 1165 Moral and Social Problems in Healthcare",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PHIL 1165"
+              ],
+              "code_text": "PHIL 1165",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PHIL 1165"
+              }
+            }
+          ],
+          "requires_review": false,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Electives",
+      "heading_path": [
+        "Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "instruction",
+              "text": "Complete a minimum of 41 semester hours of general electives. Total elective semester hours required to meet degree completion requirement will depend on student's choice of selectives above.",
+              "credits_text": "41",
+              "credits": {
+                "min": 41.0,
+                "max": 41.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "minimum_credits": 41.0
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Health Sciences Major Requirement",
+      "heading_path": [
+        "Health Sciences Major Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "A grade of C or higher is required for all BIOL, CHEM, HLTH, HSCI, MATH, and PHTH courses.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Academic Policies and Procedures",
+      "heading_path": [
+        "Academic Policies and Procedures"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Please visit Bouvé College of Health Sciences Undergraduate page for academic policies and procedures, including Academic Appeals .",
+          "links": [
+            {
+              "text": "Bouvé College of Health Sciences Undergraduate page",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/health-sciences/"
+            },
+            {
+              "text": "Academic Appeals",
+              "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/academic-policies-procedures/academic-appeals-policies-procedures/"
+            }
+          ],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirement",
+      "heading_path": [
+        "Program Requirement"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "132 total semester hours required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "majorrequirementstextcontainer"
+    }
+  ],
+  "major": "health-science-bs-85174dfc",
+  "major_name": "Health Science",
+  "degree": "BS",
+  "campus": "",
+  "college": "Bouvé College of Health Sciences",
+  "overview_text": "The health science major offers students a solid academic and experiential foundation that positions them well to pursue graduate and professional school training in the following programs: Medicine Dentistry Veterinary medicine Public health Physician assistant studies Nurse practitioner Pharmacy Physical therapy Social work Speech-language pathology In addition to the required courses for the Bachelor of Science in Health Science, students who are interested in clinical graduate school programs can utilize available elective slots to complete prerequisite courses. The Northeastern PreMed and PreHealth Advising Program provides individualized advising resources to Northeastern undergraduate students and alumni considering careers in the areas of allopathic medicine (MD), osteopathic medicine (DO), dentistry, optometry, physician assistant, podiatric medicine, or veterinary medicine. Please visit the BS Health Science webpage to learn more about premed and prehealth pathways. The health science major is also designed for students who are seeking a strong foundation for a career in health administration and in community-based health promotion and public health. Please visit Bouvé College Learning Outcomes for the specific student learning outcomes for this program.",
+  "source_text": "Complete all courses listed below unless otherwise indicated. Also complete any corequisite labs, recitations, clinicals, or tools courses where specified and complete any additional courses needed beyond specific college and major requirements to satisfy graduation credit requirements.\nUniversitywide Requirements\nAll undergraduate students are required to complete the\nUniversitywide Requirements\n.\nNUpath Requirements\nAll undergraduate students are required to complete the\nNUpath Requirements\n.\nPublic Health Core\nCourse List\nCode\nTitle\nHours\nPHTH 1260\nThe American Healthcare System\n4\nor\nPHTH 1261\nComparative Healthcare Systems\nPHTH 2210\nand\nPHTH 2211\nFoundations of Biostatistics\nand Recitation for PHTH 2210\n4\nPHTH 2300\nCommunication Skills for the Health Professions\n4\nor\nPHTH 2301\nCommunication Skills for the Health Professions—Global\nPHTH 2350\nCommunity and Public Health\n4\nor\nPHTH 2351\nCommunity and Public Health - Global\nPHTH 2515\nHealthcare Policy and Administration\n4\nPHTH 4120\nGlobal Perspectives on Discrimination and Health\n4\nPHTH 4202\nPrinciples of Epidemiology in Medicine and Public Health\n4\nPHTH 4540\nHealth Education and Program Planning\n4\nScience Requirement\nCourse List\nCode\nTitle\nHours\nBIOL 1111\nand\nBIOL 1112\nGeneral Biology 1\nand Lab for BIOL 1111\n5\nBIOL 1113\nand\nBIOL 1114\nGeneral Biology 2\nand Lab for BIOL 1113\n5\nCHEM 1161\nand\nCHEM 1162\nand\nCHEM 1163\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nand Recitation for CHEM 1161\n5\nMATH 1241\nCalculus 1\n4\nPSYC 1101\nFoundations of Psychology\n4\nSelectives\nCourse List\nCode\nTitle\nHours\nComplete at least three courses from the groups listed below with at least two in one category.  At least one of the courses must be at the 2000 level or higher.  Students may complete additional courses to fulfill a minor, such as global health, nutrition, and exercise science.\n9-13\nSociety and Health\nANTH 3441\nMedical Anthropology\nCRIM 3040\nPsychology of Crime\nHLTH 5280\nThe (in)Visibility of (dis)Ability in Society\nINSH 1300\nIntroduction to Health and Humanities\nPHTH 1270\nIntroduction to Global Health\nor\nAFRS 1270\nIntroduction to Global Health\nPHTH 2414\nEnvironmental Health\nPHTH 2616\nRural Health: An Interdisciplinary Seminar\nPHTH 5214\nEnvironmental Health\nPHTH 5222\nHealth Advocacy\nPHTH 5230\nGlobal Health\nPHTH 5234\nEconomic Perspectives on Health Policy\nSOCL 1245\nSociology of Poverty\nSOCL 1246\nEnvironment and Society\nSOCL 1260\nSociology of Gender\nSOCL 1295\nDrugs and Society\nSOCL 2225\nSociology of Disability\nSOCL 2303\nGender and Reproductive Justice\nSOCL 2485\nEnvironment, Technology, and Society\nSOCL 3441\nSociology of Health and Illness\nSOCL 4522\nEnvironmental Justice\nWMNS 1225\nGender, Race, and Medicine\nPolicy and Administration\nECON 1230\nHealthcare and Medical Economics\nECON 3404\nInternational Food Policy\nHUSV 2800\nSexual Orientation and Gender Expression\nHUSV 3900\nSocial Policy\nINNO 2206\nGlobal Social Enterprise\nLPSC 2301\nIntroduction to Law, Policy, and Society\nMGMT 3340\nHealthcare Management, Innovation, and Design\nORGB 3201\nOrganizational Behavior\nPHTH 4511\nHealthcare Management\nPHTH 4515\nCritical Issues in Health and Public-Health Policy\nPHTH 5232\nEvaluating Healthcare Quality\nPHTH 5234\nEconomic Perspectives on Health Policy\nPOLS 2395\nEnvironmental Politics and Policy\nPOLS 3309\nLesbian, Gay, Bisexual, and Transgender Issues in Public Policy\nSOCL 2205\nLaw and Social Justice\nSOCL 3241\nViolence and Society\nNutrition and Wellness\nCAEP 1280\nIntroduction to Mindfulness\nCAEP 1290\nPersonal Behavior Change\nCAEP 2012\nHealth Psychology: An Introduction\nCAEP 2101\nBehavioral Assessment and Treatment of Health Problems in the 21st Century\nCOMM 2555\nGames for Change\nCOMM 3201\nHealth Communication\nEXSC 1120\nIntroduction to Exercise, Fitness, and Health\nEXSC 4500\nand\nEXSC 4501\nExercise Physiology 1\nand Lab for EXSC 4500\nEXSC 5200\nCardiopulmonary Physiology\nEXSC 5220\nAdvanced Exercise Physiology\nHSCI 1105\nHuman Nutrition\nHSCI 1106\nContemporary Issues in Nutrition\nHSCI 2350\nAdvanced Nutrition in Health and Disease\nHSCI 2500\nPublic Health Nutrition in the Community\nPSYC 1250\nDrugs and Behavior\nDigital Health\nCS 2500\nand\nCS 2501\nFundamentals of Computer Science 1\nand Lab for CS 2500\nDS 2000\nand\nDS 2001\nProgramming with Data\nand Data Science Programming Practicum\nDS 4200\nInformation Presentation and Visualization\nHINF 5101\nIntroduction to Health Informatics and Health Information Systems\nHINF 5200\nTheoretical Foundations in Personal Health Informatics\nHINF 5300\nPersonal Health Interface Design and Development\nIS 2000\nPrinciples of Information Science\nIS 4800\nEmpirical Research Methods\nHealth Data Science\nANTH 3410\nEthnographic Field Experience\nINSH 5304\nSocial Network Analysis\nPHTH 3250\nFundamentals of Qualitative Research\nPHTH 5202\nIntroduction to Epidemiology\nPOLS 2399\nResearch Methods in Political Science\nCapstone Requirement\nCourse List\nCode\nTitle\nHours\nComplete one of the following options:\n4-8\nHealth Science Capstone\nHSCI 4700\nHealth Science Capstone Introduction\nAnd complete one of these options:\nHSCI 4720\nHealth Science Capstone—Service\nHSCI 4730\nHealth Science Capstone—Research\nHSCI 4740\nHealth Science Capstone Seminar\nHonors Project (must meet GPA requirement)\nHSCI 4970\nwill count as 4 semester hours toward general electives.\nHSCI 4970\nand\nHSCI 4971\nJunior/Senior Honors Project 1\nand Junior/Senior Honors Project 2\nOther Major Requirements\nCourse List\nCode\nTitle\nHours\nHSCI 1000\nCollege: An Introduction\n1\nHSCI 2000\nProfessional Development for Bouvé Co-op\n1\nENGW 1111\nFirst-Year Writing\n4\nENGW 3306\nAdvanced Writing in the Health Professions\n4\nPHIL 1165\nMoral and Social Problems in Healthcare\n4\nElectives\nCourse List\nCode\nTitle\nHours\nComplete a minimum of 41 semester hours of general electives.  Total elective semester hours required to meet degree completion requirement will depend on student's choice of selectives above.\n41\nHealth Sciences Major Requirement\nA grade of C or higher is required for all BIOL, CHEM, HLTH, HSCI, MATH, and PHTH courses.\nAcademic Policies and Procedures\nPlease visit\nBouvé College of Health Sciences Undergraduate page\nfor academic policies and procedures, including\nAcademic Appeals\n.\nProgram Requirement\n132 total semester hours required",
+  "referenced_courses": [
+    "AFRS 1270",
+    "ANTH 3410",
+    "ANTH 3441",
+    "BIOL 1111",
+    "BIOL 1112",
+    "BIOL 1113",
+    "BIOL 1114",
+    "CAEP 1280",
+    "CAEP 1290",
+    "CAEP 2012",
+    "CAEP 2101",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1163",
+    "COMM 2555",
+    "COMM 3201",
+    "CRIM 3040",
+    "CS 2500",
+    "CS 2501",
+    "DS 2000",
+    "DS 2001",
+    "DS 4200",
+    "ECON 1230",
+    "ECON 3404",
+    "ENGW 1111",
+    "ENGW 3306",
+    "EXSC 1120",
+    "EXSC 4500",
+    "EXSC 4501",
+    "EXSC 5200",
+    "EXSC 5220",
+    "HINF 5101",
+    "HINF 5200",
+    "HINF 5300",
+    "HLTH 5280",
+    "HSCI 1000",
+    "HSCI 1105",
+    "HSCI 1106",
+    "HSCI 2000",
+    "HSCI 2350",
+    "HSCI 2500",
+    "HSCI 4700",
+    "HSCI 4720",
+    "HSCI 4730",
+    "HSCI 4740",
+    "HSCI 4970",
+    "HSCI 4971",
+    "HUSV 2800",
+    "HUSV 3900",
+    "INNO 2206",
+    "INSH 1300",
+    "INSH 5304",
+    "IS 2000",
+    "IS 4800",
+    "LPSC 2301",
+    "MATH 1241",
+    "MGMT 3340",
+    "ORGB 3201",
+    "PHIL 1165",
+    "PHTH 1260",
+    "PHTH 1261",
+    "PHTH 1270",
+    "PHTH 2210",
+    "PHTH 2211",
+    "PHTH 2300",
+    "PHTH 2301",
+    "PHTH 2350",
+    "PHTH 2351",
+    "PHTH 2414",
+    "PHTH 2515",
+    "PHTH 2616",
+    "PHTH 3250",
+    "PHTH 4120",
+    "PHTH 4202",
+    "PHTH 4511",
+    "PHTH 4515",
+    "PHTH 4540",
+    "PHTH 5202",
+    "PHTH 5214",
+    "PHTH 5222",
+    "PHTH 5230",
+    "PHTH 5232",
+    "PHTH 5234",
+    "POLS 2395",
+    "POLS 2399",
+    "POLS 3309",
+    "PSYC 1101",
+    "PSYC 1250",
+    "SOCL 1245",
+    "SOCL 1246",
+    "SOCL 1260",
+    "SOCL 1295",
+    "SOCL 2205",
+    "SOCL 2225",
+    "SOCL 2303",
+    "SOCL 2485",
+    "SOCL 3241",
+    "SOCL 3441",
+    "SOCL 4522",
+    "WMNS 1225"
+  ],
+  "links": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/"
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/"
+    },
+    {
+      "text": "Bouvé College of Health Sciences Undergraduate page",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/health-sciences/"
+    },
+    {
+      "text": "Academic Appeals",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/academic-policies-procedures/academic-appeals-policies-procedures/"
+    }
+  ],
+  "linked_requirements": [
+    {
+      "text": "Universitywide Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/university-wide-requirements/",
+      "document_id": "university-wide-requirements-8435f4fd",
+      "kind": "shared",
+      "fragment": ""
+    },
+    {
+      "text": "NUpath Requirements",
+      "url": "https://catalog.northeastern.edu/archive/2023-2024/undergraduate/university-academics/nupath/",
+      "document_id": "general-education-requirements-106142af",
+      "kind": "shared",
+      "fragment": ""
+    }
+  ],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": []
+}

@@ -1,0 +1,1238 @@
+{
+  "document_id": "nursing-bsn-transfer-track-eccded5e",
+  "kind": "program",
+  "title": "Nursing, BSN—Transfer Track (Charlotte)",
+  "catalog_year": "2025-2026",
+  "source_url": "https://catalog.northeastern.edu/archive/2025-2026/undergraduate/health-sciences/nursing/nursing-bsn-transfer-track/",
+  "semantics_validated": false,
+  "sections": [
+    {
+      "title": "Preamble",
+      "heading_path": [],
+      "level": 0,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "Professional courses with a prefix NRSG require a minimum passing grade of C.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Nursing Major Requirements",
+      "heading_path": [
+        "Nursing Major Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "course",
+              "text": "NRSG 2215 Cultivating Nursing Professional Identity and Practice",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 2215"
+              ],
+              "code_text": "NRSG 2215",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NRSG 2215"
+              }
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "NRSG 2222 and NRSG 2221 Health Assessment and Fundamental Nursing Skills and Lab for NRSG 2220 and NRSG 2222",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 2222",
+                "NRSG 2221"
+              ],
+              "code_text": "NRSG 2222 and NRSG 2221",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 2222"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 2221"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "NRSG 2350 Integrated Pathophysiology and Pharmaceutical Interventions for Nursing Practice",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 2350"
+              ],
+              "code_text": "NRSG 2350",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NRSG 2350"
+              }
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "NRSG 3320 and NRSG 3321 Nursing Care of Adults 1 and Clinical for NRSG 3320",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 3320",
+                "NRSG 3321"
+              ],
+              "code_text": "NRSG 3320 and NRSG 3321",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3320"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3321"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 4,
+              "kind": "course",
+              "text": "NRSG 3333 and NRSG 3334 Comprehensive Assessment and Advanced Nursing Skills and Lab for NRSG 3333",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 3333",
+                "NRSG 3334"
+              ],
+              "code_text": "NRSG 3333 and NRSG 3334",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3333"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3334"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "NRSG 3344 and NRSG 3345 Nursing Care of the Childbearing Family and Clinical for NRSG 3344",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 3344",
+                "NRSG 3345"
+              ],
+              "code_text": "NRSG 3344 and NRSG 3345",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3344"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3345"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "NRSG 3400 and NRSG 3401 Nursing and the Promotion of Mental Health and Clinical for NRSG 3400",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 3400",
+                "NRSG 3401"
+              ],
+              "code_text": "NRSG 3400 and NRSG 3401",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3400"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3401"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "NRSG 3420 and NRSG 3421 Nursing Care of Adults 2 and Clinical for NRSG 3420",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 3420",
+                "NRSG 3421"
+              ],
+              "code_text": "NRSG 3420 and NRSG 3421",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3420"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 3421"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "course",
+              "text": "NRSG 4504 and NRSG 4505 Nursing Care of Children and Clinical for NRSG 4504",
+              "credits_text": "3",
+              "credits": {
+                "min": 3.0,
+                "max": 3.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 4504",
+                "NRSG 4505"
+              ],
+              "code_text": "NRSG 4504 and NRSG 4505",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 4504"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 4505"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "NRSG 4604 and NRSG 4605 Public Health Community Nursing and Clinical for NRSG 4604",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 4604",
+                "NRSG 4605"
+              ],
+              "code_text": "NRSG 4604 and NRSG 4605",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 4604"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 4605"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "NRSG 4610 Managing and Leading in Healthcare",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 4610"
+              ],
+              "code_text": "NRSG 4610",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NRSG 4610"
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "NRSG 4889 and NRSG 4996 Transition into Nursing Practice and Clinical for NRSG 4995 and NRSG 4889",
+              "credits_text": "6",
+              "credits": {
+                "min": 6.0,
+                "max": 6.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 4889",
+                "NRSG 4996"
+              ],
+              "code_text": "NRSG 4889 and NRSG 4996",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "NRSG 4889"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "NRSG 4996"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "NRSG 5220 Introduction to Research Methods and Application for Healthcare",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 5220"
+              ],
+              "code_text": "NRSG 5220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NRSG 5220"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "3-4",
+              "credits": {
+                "min": 3.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "MTH 2310 Statistics for the Behavioral and Social Sciences",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MTH 2310"
+              ],
+              "code_text": "MTH 2310",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MTH 2310"
+              }
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "NRSG 3120 Health Science Statistics",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "NRSG 3120"
+              ],
+              "code_text": "NRSG 3120",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "NRSG 3120"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [
+        "programrequirementstext"
+      ],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Supporting Courses",
+      "heading_path": [
+        "Supporting Courses"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Supporting Courses",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "course",
+              "text": "HLTH 2100 Interprofessional Ethics for Individual and Population Health",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HLTH 2100"
+              ],
+              "code_text": "HLTH 2100",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HLTH 2100"
+              }
+            },
+            {
+              "index": 2,
+              "kind": "course",
+              "text": "ENGW 3306 Advanced Writing in the Health Professions 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 0,
+              "requires_review": true,
+              "courses": [
+                "ENGW 3306"
+              ],
+              "code_text": "ENGW 3306",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3306"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 3,
+              "kind": "course",
+              "text": "or ENGW 3315 Interdisciplinary Advanced Writing in the Disciplines",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "ENGW 3315"
+              ],
+              "code_text": "or ENGW 3315",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 3315"
+              },
+              "alternative_group": 2
+            },
+            {
+              "index": 4,
+              "kind": "header",
+              "text": "Supporting Courses Met by Transfer Prerequisites",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 5,
+              "kind": "course",
+              "text": "BIOL 2217 and BIOL 2218 Integrated Anatomy and Physiology 1 and Lab for BIOL 2217",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2217",
+                "BIOL 2218"
+              ],
+              "code_text": "BIOL 2217 and BIOL 2218",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2217"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2218"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 6,
+              "kind": "course",
+              "text": "BIOL 2219 and BIOL 2220 Integrated Anatomy and Physiology 2 and Lab for BIOL 2219",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2219",
+                "BIOL 2220"
+              ],
+              "code_text": "BIOL 2219 and BIOL 2220",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2219"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2220"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 7,
+              "kind": "course",
+              "text": "BIOL 2221 and BIOL 2222 Foundations of Microbiology and Lab for BIOL 2221",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "BIOL 2221",
+                "BIOL 2222"
+              ],
+              "code_text": "BIOL 2221 and BIOL 2222",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2221"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "BIOL 2222"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 8,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "5",
+              "credits": {
+                "min": 5.0,
+                "max": 5.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 9,
+              "kind": "course",
+              "text": "CHEM 1101 and CHEM 1102 and CHEM 1103 General Chemistry for Health Sciences and Lab for CHEM 1101 and Recitation for CHEM 1101",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1101",
+                "CHEM 1102",
+                "CHEM 1103"
+              ],
+              "code_text": "CHEM 1101 and CHEM 1102 and CHEM 1103",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1101"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1102"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1103"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 10,
+              "kind": "course",
+              "text": "CHEM 1161 and CHEM 1162 and CHEM 1163 General Chemistry for Science Majors and Lab for CHEM 1161 and Recitation for CHEM 1161",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1161",
+                "CHEM 1162",
+                "CHEM 1163"
+              ],
+              "code_text": "CHEM 1161 and CHEM 1162 and CHEM 1163",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1161"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1162"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1163"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 11,
+              "kind": "course",
+              "text": "CHEM 1211 and CHEM 1212 and CHEM 1213 General Chemistry 1 and Lab for CHEM 1211 and Recitation for CHEM 1211",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "CHEM 1211",
+                "CHEM 1212",
+                "CHEM 1213"
+              ],
+              "code_text": "CHEM 1211 and CHEM 1212 and CHEM 1213",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "all_of",
+                "children": [
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1211"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1212"
+                  },
+                  {
+                    "kind": "course",
+                    "course": "CHEM 1213"
+                  }
+                ]
+              }
+            },
+            {
+              "index": 12,
+              "kind": "course",
+              "text": "ENGW 1111 First-Year Writing 1",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [
+                "1"
+              ],
+              "indent": 0,
+              "requires_review": true,
+              "courses": [
+                "ENGW 1111"
+              ],
+              "code_text": "ENGW 1111",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "ENGW 1111"
+              }
+            },
+            {
+              "index": 13,
+              "kind": "course",
+              "text": "HSCI 1105 Human Nutrition",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 1105"
+              ],
+              "code_text": "HSCI 1105",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 1105"
+              },
+              "alternative_group": 13
+            },
+            {
+              "index": 14,
+              "kind": "course",
+              "text": "or HSCI 1106 Contemporary Issues in Nutrition",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "HSCI 1106"
+              ],
+              "code_text": "or HSCI 1106",
+              "alternative_to_previous": true,
+              "expression": {
+                "kind": "course",
+                "course": "HSCI 1106"
+              },
+              "alternative_group": 13
+            },
+            {
+              "index": 15,
+              "kind": "course",
+              "text": "PSYC 1101 Foundations of Psychology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 1101"
+              ],
+              "code_text": "PSYC 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 1101"
+              }
+            },
+            {
+              "index": 16,
+              "kind": "course",
+              "text": "PSYC 3404 Developmental Psychology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "PSYC 3404"
+              ],
+              "code_text": "PSYC 3404",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "PSYC 3404"
+              }
+            },
+            {
+              "index": 17,
+              "kind": "course",
+              "text": "SOCL 1101 Introduction to Sociology",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false,
+              "courses": [
+                "SOCL 1101"
+              ],
+              "code_text": "SOCL 1101",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "SOCL 1101"
+              }
+            },
+            {
+              "index": 18,
+              "kind": "instruction",
+              "text": "Complete one of the following:",
+              "credits_text": "4",
+              "credits": {
+                "min": 4.0,
+                "max": 4.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true,
+              "constraints": {
+                "selection_count": 1
+              }
+            },
+            {
+              "index": 19,
+              "kind": "course",
+              "text": "MATH 1215 Mathematical Thinking",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1215"
+              ],
+              "code_text": "MATH 1215",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1215"
+              }
+            },
+            {
+              "index": 20,
+              "kind": "course",
+              "text": "MATH 1241 Calculus 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1241"
+              ],
+              "code_text": "MATH 1241",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1241"
+              }
+            },
+            {
+              "index": 21,
+              "kind": "course",
+              "text": "MATH 1242 Calculus 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1242"
+              ],
+              "code_text": "MATH 1242",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1242"
+              }
+            },
+            {
+              "index": 22,
+              "kind": "course",
+              "text": "MATH 1251 Calculus and Differential Equations for Biology 1",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1251"
+              ],
+              "code_text": "MATH 1251",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1251"
+              }
+            },
+            {
+              "index": 23,
+              "kind": "course",
+              "text": "MATH 1252 Calculus and Differential Equations for Biology 2",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1252"
+              ],
+              "code_text": "MATH 1252",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1252"
+              }
+            },
+            {
+              "index": 24,
+              "kind": "course",
+              "text": "MATH 1341 Calculus 1 for Science and Engineering",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 20.0,
+              "requires_review": false,
+              "courses": [
+                "MATH 1341"
+              ],
+              "code_text": "MATH 1341",
+              "alternative_to_previous": false,
+              "expression": {
+                "kind": "course",
+                "course": "MATH 1341"
+              }
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        },
+        {
+          "kind": "text",
+          "text": "1 The university requires a minimum grade of C for core writing courses.",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Electives",
+      "heading_path": [
+        "Electives"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "course_table",
+          "caption": "Course List",
+          "rows": [
+            {
+              "index": 0,
+              "kind": "header",
+              "text": "Courses Met by Transfer Prerequisites",
+              "credits_text": "",
+              "credits": null,
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": false
+            },
+            {
+              "index": 1,
+              "kind": "note",
+              "text": "At least 14 credits outside the School of Nursing or NRSG courses not used to fulfill requirements above.",
+              "credits_text": "14",
+              "credits": {
+                "min": 14.0,
+                "max": 14.0
+              },
+              "links": [],
+              "footnote_refs": [],
+              "indent": 0,
+              "requires_review": true
+            }
+          ],
+          "requires_review": true,
+          "scope_note": "Course rows may be options. Use instructions, headers, indentation, and alternatives together."
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    },
+    {
+      "title": "Program Requirements",
+      "heading_path": [
+        "Program Requirements"
+      ],
+      "level": 2,
+      "entries": [
+        {
+          "kind": "text",
+          "text": "130 total semester hours and 2.000 GPA required",
+          "links": [],
+          "constraints": {},
+          "requires_review": true
+        }
+      ],
+      "anchor_ids": [],
+      "container_id": "programrequirementstextcontainer"
+    }
+  ],
+  "major": "nursing-bsn-transfer-track-eccded5e",
+  "major_name": "Nursing",
+  "degree": "BSN",
+  "campus": "Charlotte",
+  "college": "Bouvé College of Health Sciences",
+  "overview_text": "Bouvé College of Health Sciences School of Nursing Academic Standards and Progression Policy (Undergraduate Students, Direct Entry, Accelerated Program for Second-Degree and Transfer Track Students) Course Failure Course Withdrawal Academic Appeals Nursing Program Requirements For First-Year (Freshman) Students (Including N.U.in) and Current Northeastern Students Changing Majors to BSN For those with a previous college degree or 62 college credits Graduation Requirements Clinical Attendance Policy Grounds for Clinical Warning, Removal from Clinical Site, and Clinical Course Failure Clinical Requirements Technical Standards for Admission, Academic Progression, and Graduation General Abilities Observational Ability Communication Ability Motor Ability Intellectual, Conceptual, and Quantitative Abilities Behavioral and Social Attributes Ability to Manage Stressful Situations Disability and Special Needs State Board Nursing Examination The transfer track Bachelor of Science in Nursing hybrid program is designed for students who do not already have a bachelor's degree. The program is open to transfer students only and requires students to complete specified prerequisite courses prior to matriculation. Students who have fulfilled the transfer prerequisite courses fulfill remaining requirements through online didactic coursework and hands-on learning involving both clinical placements and experience in the skills laboratory over a 16-month period. The program offers students an opportunity to work closely with nursing faculty to master the core skills necessary to excel in their nursing career. The program also seeks to prepare students to successfully take and pass the National Council Licensure Examination for Registered Nurses (NCLEX-RN) and earn an RN license. The curriculum includes undergraduate courses with online learning modules incorporating lectures and learning activities. The majority of these are completed online through an e-learning platform that allows students to listen to lectures, submit assignments, complete interactive learning modules, and engage in discussion with faculty and classmates. Labs are offered at Northeastern University network locations where the program is approved and clinical placements are offered at affiliate sites. Bouvé College of Health Sciences School of Nursing The goal of the School of Nursing is to promote clinical judgment development and prepare students to practice nursing competently and compassionately in rapidly changing practice environments. All efforts are designed to build nursing knowledge; enhance nursing practice and patient safety; foster professional identity; and ultimately improve the health outcomes of patients, families, and communities across the continuum of care. This approach is built on eight pillars: leadership; quality care; scientific reasoning; practice excellence; diversity, equity, and inclusion; innovation; interdisciplinary collaboration; and practice excellence. The clinical program takes place in the community where people live, as well as in hospitals, rehabilitation centers, and long-term-care facilities. The curriculum culminates in courses that allow students to apply their leadership and management skills while integrating the full scope of the professional nurse’s role through a clinical practicum. In addition to completing academic coursework, students participate in cooperative education as specified by their plan of study, which gives them the opportunity to integrate the theory and practice of nursing in selected settings. Numerous community and institutional healthcare agencies in the Greater Boston area and beyond offer students an opportunity to gain experience in providing patient care to a variety of patients and families and to understand that nurses have major roles in wellness and health promotion, acute care, and long-term care. Students in the program are highly encouraged to engage in research activities and explore global educational opportunities, both of which can be integral components of their studies. The baccalaureate degree, the accelerated bachelor’s degree (ABSN in Burlington and Fall River, Massachusetts), and the direct entry master’s degree programs in nursing at Northeastern University are accredited by the Commission on Collegiate Nursing Education, 655 K Street, NW, Suite 750, Washington, DC 20001, 202-887-6791, and are also approved by the Board of Registration in Nursing of the Commonwealth of Massachusetts. The ABSN program in Charlotte is accredited by the Commission on Collegiate Nursing Education, 655 K Street, NW, Suite 750, Washington, DC 20001, 202-887-6791, and approved by the North Carolina Board of Nursing. Accreditation and approval indicate that the program meets educational standards for faculty, curriculum design, teaching quality, and overall university support. Academic Standards and Progression Policy (Undergraduate Students, Direct Entry, Accelerated Program for Second-Degree and Transfer Track Students) Academic standards and progression policies are reviewed and updated annually. Students in the Bouvé College of Health Sciences, School of Nursing, Prelicensure Nursing Major of BSN, ABSN, Transfer Track, or DE (baccalaureate portion) will be dismissed from their major for any of the reasons noted in the catalog or a course failure, effective the following academic semester. Course Failure Students who do not meet the required minimum grade of a C (73.0%) in two professional courses will be dismissed from the program. Professional courses include labs, clinical, and didactic classes that are designated nursing (NRSG) courses. Only one professional course can be repeated, and each course can be repeated once. Students must retake the failed professional course as a requirement for progression in the program. Students can repeat the failed course the next time it is offered within their specific program. Students will not be permitted to progress to the nursing clinical courses without successfully repeating the failed course . Course Withdrawal Only two professional course withdrawals will be permitted (excluding leave of absence). Students can only withdraw from each professional course once. More than two professional course withdrawals will lead to dismissal from the program. Based on the requirement that the theory course and the clinical / lab course are taken concurrently , a withdrawal in either the theory course or clinical lab course results in the student withdrawing from both courses. Personal leaves of absence will be considered on an individual basis. Academic Appeals It is the policy of the university that all students shall be treated fairly in evaluations made of their academic performance, standing, and progress. The School of Nursing policy regarding academic appeals is consistent with Northeastern University. For more information about academic appeals policies and procedures see the Bouvé Appeals Policy at Academic Appeals . Program policies and standards may be found in the Pre-licensure Handbook . Students are expected to adhere to the policies and standards of their program major as stated in the Student Handbook to progress through their curriculum as planned. Students seeking any exceptions to the program policies and standards specified for their program major can petition the School of Nursing Academic Standing Committee for their requests. Nursing Program Requirements The nursing program offers multiple attendance options for students, as outlined below: For First-Year (Freshman) Students (Including N.U.in) and Current Northeastern Students Changing Majors to BSN Four-Year Plan with Two Six-Month Co-Ops: At least one co-op must involve working directly with registered nurses providing patient care. All co-op experiences outlined in the academic plan must be completed with a grade of \"S\" (Satisfactory). For those with a previous college degree or 62 college credits Accelerated Bachelor of Science in Nursing or Transfer Track: Requires either a prior bachelor’s degree with 66 transfer credits or a transfer track with 62 college credits (including prerequisites). Features a 16-month, full-time hybrid program of nursing courses combining online coursework, clinical placements, and hands-on skills lab experience. The Transfer Track includes an additional 4-credit Northeastern English course alongside nursing courses. Direct Entry Program: Acceptance into the DE program includes the accelerated, pre-licensure, in-person program as well as an MSN program that will follow (NP specialty tracks). Initial phase is 16 months (four semesters) of intensive undergraduate nursing courses and clinical training. Students are eligible to take the National Council Licensure Exam after completing 64 semester hours to earn an RN license. A Bachelor of Science in Nursing is awarded upon completing this phase, with financial aid provided at the undergraduate level during the pre-licensure phase. Graduation Requirements All students, regardless of their entry point, must complete 130 semester hours of academic credit to meet university and nursing curriculum requirements and graduate within their expected time frame. Clinical Attendance Policy Attendance in clinical is mandatory for all students. In the case of an illness, injury, or extenuating circumstance, which requires a student to miss clinical hours, students are required to make up missed hours. Clinical hours are to be completed on the clinical makeup day or as approved by the clinical coordinator. Failure to meet clinical course objectives due to missed clinical hours will result in course failure. To be eligible to make up hours, students are required to communicate an absence before clinical in a method required by the faculty. Students must be fully compliant with onboarding and clinical clearance requirements to start the clinical course (see Documentation of Immunity and Clinical Clearance ) and throughout the course. In addition, to the university’s immunization requirements, students will adhere to the policies and procedures of assigned clinical sites and are required to complete a background check. Students must be in compliance of all clinical clearance requirements at all times during the clinical portion of the program. Students in Boston and Burlington will need to register in Exxat, an Education Management Platform for Health Sciences that tracks clinical compliance. Students in Charlotte will need to register with both Complio and My Clinical Exchange. All students will be advised at clinical orientation what is needed for their assigned clinical placement. If a student is noncompliant with health insurance and clinical clearance requirements, the student will be removed from clinical immediately. Grounds for Clinical Warning, Removal from Clinical Site, and Clinical Course Failure The following reasons will result in clinical course failure: Failure to meet clinical course outcomes and/or competencies Failure to demonstrate safe clinical practice Failure to adhere to the School of Nursing Code of Professional Conduct Clinical Requirements Please see School of Nursing Clinical settings policies . Technical Standards for Admission, Academic Progression, and Graduation In addition to classroom learning, students’ clinical education experiences occur in settings, like hospitals, in which patient safety is the priority. For this reason, students who, upon enrollment in any of the nursing programs, seek accommodations from Disability Access Services at Northeastern must also request an assessment of accommodations that would be needed for clinical education. Certain functional abilities are essential for the delivery of safe, effective nursing care during clinical education activities. Therefore, the School of Nursing has determined that certain technical standards are requisite for admission, progression, and graduation from the nursing programs. An individual must be able to independently, with or without reasonable accommodation, meet the following technical standards: General abilities Observational ability Communication ability Motor ability Intellectual, conceptual, and quantitative abilities Behavioral and social attributes Ability to manage stressful situations Individuals unable to meet these technical standards, with or without reasonable accommodation, will not be able to complete the program. General Abilities The student is expected to possess functional use of the senses of vision, touch, hearing, and smell so that data received by the senses may be integrated, analyzed, and synthesized in a consistent and accurate manner. A student must be able to respond promptly to urgent situations that may occur during clinical training activities and must not hinder the ability of other members of the healthcare team to provide prompt treatment and care to patients. Observational Ability The student must have sufficient capacity to make accurate visual observations and interpret them in the context of laboratory studies, medication administration, and patient care activities. In addition, the student must be able to document these observations and maintain accurate records. Communication Ability The student must communicate both verbally and nonverbally in order to elicit information and to convey that information to others. Each student must have the ability to read and write accurately and comprehensively in English. The student must be able to thoroughly comprehend and fluently speak the English language so as to facilitate communication with patients, families, professionals in healthcare settings, instructors, and other students. The student must also be able to present information in a professional, logical manner and to provide counseling and instruction in order to effectively care for patients and their families. Motor Ability The student must be able to perform gross and fine motor movements with sufficient coordination needed to perform complete physical examinations utilizing the techniques of inspection, palpation, percussion, auscultation, and other diagnostic maneuvers. A student must develop the skills needed to perform or assist with procedures, treatments, administration of medication, and the management and operation of diagnostic and therapeutic medical equipment. The student must possess the physical and mental stamina to meet the demands associated with extended periods of sitting, standing, moving, and physical exertion required for satisfactory and safe performance in the clinical and classroom settings. Intellectual, Conceptual, and Quantitative Abilities The student must be able to develop and refine critical thinking skills that are essential to nursing practice. Critical thinking involves the abilities to measure, calculate, reason, analyze, and synthesize objective and subjective data and to make decisions, often in a time-urgent environment, that reflect consistent and thoughtful deliberation and sound clinical judgment. Behavioral and Social Attributes Compassion, integrity, motivation, effective interpersonal skills, and concern for others are personal attributes required of those in the nursing programs. The student must be able to work under supervision of a clinical instructor or preceptor; this is essential to ensure patient safety. The student must exercise good judgment and promptly complete all responsibilities in the classroom and clinical settings. The ability to establish culturally competent relationships with individuals, families, and groups and to respond effectively to patients who have different intellectual capacities is critical to nursing practice. Ability to Manage Stressful Situations The student must be able to adapt to and function effectively in stressful situations in both the classroom and clinical settings, including emergency situations. These stressors include personal, patient care/family, faculty/peer, and/or program-related issues. Disability and Special Needs Students with special needs are encouraged to contact Disability Access Services to register and request services. Students must notify the instructor at the beginning of the semester if they plan to use DAS services throughout the course. The staff in that office is available for assistance. State Board Nursing Examination In Massachusetts, North Carolina, and several other states, the registering board requires that graduates taking the National Council Licensing Examination meet standards of “good moral character.\" Students may review the GMC requirement specified at Massachusetts General Laws Chapter 112, sections 74, 74A, and 76; Licensure Policy No. 00-01 under “Rules & Regulations” on the Massachusetts Board of Registration in Nursing website. North Carolina requirements for licensure can be found on the North Carolina Board of Nursing website . Please visit Bouvé College of Health Sciences Program Learning Outcomes for the specific student learning outcomes for this program.",
+  "source_text": "Professional courses with a prefix NRSG require a minimum passing grade of C.\nNursing Major Requirements\nCourse List\nCode\nTitle\nHours\nNRSG 2215\nCultivating Nursing Professional Identity and Practice\n3\nNRSG 2222\nand\nNRSG 2221\nHealth Assessment and Fundamental Nursing Skills\nand Lab for NRSG 2220 and NRSG 2222\n5\nNRSG 2350\nIntegrated Pathophysiology and Pharmaceutical Interventions for Nursing Practice\n6\nNRSG 3320\nand\nNRSG 3321\nNursing Care of Adults 1\nand Clinical for NRSG 3320\n6\nNRSG 3333\nand\nNRSG 3334\nComprehensive Assessment and Advanced Nursing Skills\nand Lab for NRSG 3333\n4\nNRSG 3344\nand\nNRSG 3345\nNursing Care of the Childbearing Family\nand Clinical for NRSG 3344\n3\nNRSG 3400\nand\nNRSG 3401\nNursing and the Promotion of Mental Health\nand Clinical for NRSG 3400\n5\nNRSG 3420\nand\nNRSG 3421\nNursing Care of Adults 2\nand Clinical for NRSG 3420\n6\nNRSG 4504\nand\nNRSG 4505\nNursing Care of Children\nand Clinical for NRSG 4504\n3\nNRSG 4604\nand\nNRSG 4605\nPublic Health Community Nursing\nand Clinical for NRSG 4604\n5\nNRSG 4610\nManaging and Leading in Healthcare\n4\nNRSG 4889\nand\nNRSG 4996\nTransition into Nursing Practice\nand Clinical for NRSG 4995 and NRSG 4889\n6\nNRSG 5220\nIntroduction to Research Methods and Application for Healthcare\n4\nComplete one of the following:\n3-4\nMTH 2310\nStatistics for the Behavioral and Social Sciences\nNRSG 3120\nHealth Science Statistics\nSupporting Courses\nCourse List\nCode\nTitle\nHours\nSupporting Courses\nHLTH 2100\nInterprofessional Ethics for Individual and Population Health\n4\nENGW 3306\nAdvanced Writing in the Health Professions\n1\n4\nor\nENGW 3315\nInterdisciplinary Advanced Writing in the Disciplines\nSupporting Courses Met by Transfer Prerequisites\nBIOL 2217\nand\nBIOL 2218\nIntegrated Anatomy and Physiology 1\nand Lab for BIOL 2217\n5\nBIOL 2219\nand\nBIOL 2220\nIntegrated Anatomy and Physiology 2\nand Lab for BIOL 2219\n5\nBIOL 2221\nand\nBIOL 2222\nFoundations of Microbiology\nand Lab for BIOL 2221\n5\nComplete one of the following:\n5\nCHEM 1101\nand\nCHEM 1102\nand\nCHEM 1103\nGeneral Chemistry for Health Sciences\nand Lab for CHEM 1101\nand Recitation for CHEM 1101\nCHEM 1161\nand\nCHEM 1162\nand\nCHEM 1163\nGeneral Chemistry for Science Majors\nand Lab for CHEM 1161\nand Recitation for CHEM 1161\nCHEM 1211\nand\nCHEM 1212\nand\nCHEM 1213\nGeneral Chemistry 1\nand Lab for CHEM 1211\nand Recitation for CHEM 1211\nENGW 1111\nFirst-Year Writing\n1\n4\nHSCI 1105\nHuman Nutrition\n4\nor\nHSCI 1106\nContemporary Issues in Nutrition\nPSYC 1101\nFoundations of Psychology\n4\nPSYC 3404\nDevelopmental Psychology\n4\nSOCL 1101\nIntroduction to Sociology\n4\nComplete one of the following:\n4\nMATH 1215\nMathematical Thinking\nMATH 1241\nCalculus 1\nMATH 1242\nCalculus 2\nMATH 1251\nCalculus and Differential Equations for Biology 1\nMATH 1252\nCalculus and Differential Equations for Biology 2\nMATH 1341\nCalculus 1 for Science and Engineering\n1\nThe university requires a minimum grade of C for core writing courses.\nElectives\nCourse List\nCode\nTitle\nHours\nCourses Met by Transfer Prerequisites\nAt least 14 credits outside the School of Nursing or NRSG courses not used to fulfill requirements above.\n14\nProgram Requirements\n130 total semester hours and 2.000 GPA required",
+  "referenced_courses": [
+    "BIOL 2217",
+    "BIOL 2218",
+    "BIOL 2219",
+    "BIOL 2220",
+    "BIOL 2221",
+    "BIOL 2222",
+    "CHEM 1101",
+    "CHEM 1102",
+    "CHEM 1103",
+    "CHEM 1161",
+    "CHEM 1162",
+    "CHEM 1163",
+    "CHEM 1211",
+    "CHEM 1212",
+    "CHEM 1213",
+    "ENGW 1111",
+    "ENGW 3306",
+    "ENGW 3315",
+    "HLTH 2100",
+    "HSCI 1105",
+    "HSCI 1106",
+    "MATH 1215",
+    "MATH 1241",
+    "MATH 1242",
+    "MATH 1251",
+    "MATH 1252",
+    "MATH 1341",
+    "MTH 2310",
+    "NRSG 2215",
+    "NRSG 2221",
+    "NRSG 2222",
+    "NRSG 2350",
+    "NRSG 3120",
+    "NRSG 3320",
+    "NRSG 3321",
+    "NRSG 3333",
+    "NRSG 3334",
+    "NRSG 3344",
+    "NRSG 3345",
+    "NRSG 3400",
+    "NRSG 3401",
+    "NRSG 3420",
+    "NRSG 3421",
+    "NRSG 4504",
+    "NRSG 4505",
+    "NRSG 4604",
+    "NRSG 4605",
+    "NRSG 4610",
+    "NRSG 4889",
+    "NRSG 4996",
+    "NRSG 5220",
+    "PSYC 1101",
+    "PSYC 3404",
+    "SOCL 1101"
+  ],
+  "links": [],
+  "linked_requirements": [],
+  "unresolved_requirement_links": [],
+  "unmatched_course_references": [
+    "MTH 2310"
+  ]
+}

@@ -65,6 +65,24 @@ INCOMPATIBLE = {
 }
 
 
+# Native JSON-schema output, reviewed 2026-10-13. Only models documented to support it get a schema;
+# every other model (including unknown manual IDs) gets the same JSON request in the prompt only.
+# OpenAI Responses text.format: GPT-4o (not the 2024-05-13 snapshot) and later, o3 and later
+#   (https://developers.openai.com/api/docs/guides/structured-outputs).
+# Anthropic output_config.format: Opus/Sonnet/Haiku 4.5 and later, Fable, Mythos
+#   (https://platform.claude.com/docs/en/build-with-claude/structured-outputs).
+# Gemini generationConfig responseMimeType + responseSchema (OpenAPI subset): Gemini 1.5 and later
+#   (https://ai.google.dev/gemini-api/docs/structured-output).
+# OpenRouter response_format: when the public catalog lists "structured_outputs" for that exact model;
+#   openrouter/* routers pick models later, so their support can't be established
+#   (https://openrouter.ai/docs/guides/features/structured-outputs).
+SCHEMA_MODELS = {
+    "openai": re.compile(r"(?!gpt-4o-2024-05-13)(gpt-4o|gpt-4\.[1-9]|gpt-[5-9]|o[3-9])"),
+    "anthropic": re.compile(r"claude-(fable|mythos|(opus|sonnet|haiku)-(4-[5-9]|[5-9]))"),
+    "gemini": re.compile(r"gemini-(1\.5|[2-9])"),
+}
+
+
 class AIError(Exception):
     """AI failure with a safe HTTP status and JSON error envelope for the browser."""
 
@@ -311,19 +329,74 @@ def _gemini(key, model, system, prompt, thinking):
     return text, body.get("modelVersion"), body.get("responseId"), body.get("usageMetadata")
 
 
-def _openrouter_reasoning(model: str) -> dict:
-    """Cheapest reasoning setting from OpenRouter's catalog: off if optional, else the lowest
-    supported effort, else the model default. A catalog failure only costs the optimization."""
+def _openrouter_meta(model: str) -> dict:
+    """Public catalog entry for one model; {} when it can't be read (costs only the optimizations)."""
     try:
-        meta = next((m.get("reasoning") for m in _openrouter_catalog() if m.get("id") == model), None)
+        return next((m for m in _openrouter_catalog() if isinstance(m, dict) and m.get("id") == model), {})
+    except (AIError, AttributeError, KeyError, TypeError):
+        return {}
+
+
+def openrouter_schema_ok(models) -> bool:
+    """Whether every routed model is a concrete model the catalog lists with structured outputs."""
+    if any(m.startswith("openrouter/") for m in models):
+        return False
+    try:
+        catalog = {m.get("id"): m for m in _openrouter_catalog() if isinstance(m, dict)}
+    except (AIError, AttributeError, KeyError, TypeError):
+        return False
+    return all("structured_outputs" in ((catalog.get(m) or {}).get("supported_parameters") or []) for m in models)
+
+
+def _openrouter_reasoning(meta: dict) -> dict:
+    """Cheapest reasoning setting from OpenRouter's catalog: off if optional, else the lowest
+    supported effort, else the model default."""
+    try:
+        meta = meta.get("reasoning")
         if not isinstance(meta, dict):
             return {}
         if not meta.get("mandatory"):
             return {"reasoning": {"enabled": False}}
         efforts = [e for e in EFFORTS if e in (meta.get("supported_efforts") or [])]
         return {"reasoning": {"effort": efforts[0]}} if efforts else {}
-    except (AIError, AttributeError, KeyError, TypeError):
+    except (AttributeError, KeyError, TypeError):
         return {}
+
+
+def _gemini_schema(schema):
+    """JSON Schema -> Gemini's OpenAPI-style Schema (uppercase types, no additionalProperties)."""
+    if not isinstance(schema, dict):
+        return schema
+    out = {k: _gemini_schema(v) if k == "items" else v for k, v in schema.items()
+           if k not in ("additionalProperties", "properties")}
+    if "type" in out:
+        out["type"] = out["type"].upper()
+    if "enum" in out:
+        out["format"] = "enum"
+    if "properties" in schema:
+        out["properties"] = {k: _gemini_schema(v) for k, v in schema["properties"].items()}
+    return out
+
+
+def _format(provider: str, model: str, output: dict, meta: dict) -> dict:
+    """Request fields for native schema output, or {} for the prompt-only compatibility path."""
+    name, schema = output["name"], output["schema"]
+    if provider == "openrouter":
+        if model.startswith("openrouter/") or "structured_outputs" not in (meta.get("supported_parameters") or []):
+            return {}
+        return {"response_format": {"type": "json_schema", "json_schema": {"name": name, "strict": True, "schema": schema}}}
+    if not SCHEMA_MODELS[provider].match(model):
+        return {}
+    return {
+        "openai": {"text": {"format": {"type": "json_schema", "name": name, "schema": schema, "strict": True}}},
+        "anthropic": {"output_config": {"format": {"type": "json_schema", "schema": schema}}},
+        "gemini": {"responseMimeType": "application/json", "responseSchema": _gemini_schema(schema)},
+    }[provider]
+
+
+def _merge(thinking: dict, fmt: dict) -> dict:
+    """Combine a thinking rung with format fields; shared objects (Anthropic output_config) merge."""
+    return {**thinking, **{k: {**thinking[k], **v} if isinstance(thinking.get(k), dict) else v for k, v in fmt.items()}}
 
 
 def _openrouter(key, model, system, prompt, thinking):
@@ -346,15 +419,20 @@ def _openrouter(key, model, system, prompt, thinking):
     return text, body.get("model"), body.get("id"), body.get("usage")
 
 
-def generate(provider: str, api_key: str, model: str, system: str, prompt: str) -> dict:
+def generate(provider: str, api_key: str, model: str, system: str, prompt: str, output: dict | None = None) -> dict:
     """One completion with the user's key and model, at the cheapest thinking setting it accepts.
-    No fallback model or server key; the only repeats are after free 400 rejections of a thinking rung."""
+    No fallback model or server key; the only repeats are after free 400 rejections of a thinking rung.
+    `output` ({"name", "schema"}) requests native JSON-schema output where the model supports it;
+    without it, requests are plain text exactly as before."""
     started = time.monotonic()
-    rungs = [_openrouter_reasoning(model)] if provider == "openrouter" else THINKING_RUNGS[provider]
+    meta = _openrouter_meta(model) if provider == "openrouter" else {}
+    rungs = [_openrouter_reasoning(meta)] if provider == "openrouter" else THINKING_RUNGS[provider]
+    fmt = _format(provider, model, output, meta) if output else {}
     rung = _cheapest_rung.get((provider, model), 0)
     while True:
         try:
-            text, upstream_model, response_id, usage = _GENERATORS[provider](api_key, model, system, prompt, rungs[rung])
+            text, upstream_model, response_id, usage = _GENERATORS[provider](
+                api_key, model, system, prompt, _merge(rungs[rung], fmt))
             break
         except AIError as e:
             if e.body["code"] != "thinking_not_supported" or rung + 1 == len(rungs):
@@ -370,6 +448,7 @@ def generate(provider: str, api_key: str, model: str, system: str, prompt: str) 
         "id": response_id if isinstance(response_id, str) else None,
         "usage": {k: v for k, v in usage.items() if isinstance(v, (int, float))} if isinstance(usage, dict) else None,
         "elapsed_ms": round((time.monotonic() - started) * 1000),
+        "output_mode": "schema" if fmt else "prompt" if output else "text",
     }
 
 

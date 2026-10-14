@@ -7,6 +7,42 @@ const base = (start = { year: 2025, session: 'fall' }, target = defaultTarget(st
 });
 const run = (plan, ...actions) => actions.reduce(planReducer, plan);
 
+test('legacy archived course codes can be entered without guessing names', () => {
+  expect(parseCodes('biol 13lm, acct215m')).toEqual(['BIOL 13LM', 'ACCT 215M']);
+});
+
+test('edition-specific concentration changes preserve history and pinned choices', () => {
+  const original = { ...base(), attempts: [
+    { id: 'history', source: 'user', status: 'passed' },
+    { id: 'keep', source: 'generated', pinned: true },
+    { id: 'old-suggestion', source: 'generated', pinned: false },
+  ] };
+  const updated = run(original, { type: 'setConcentrations', ids: ['archived-ai'] });
+  expect(updated.concentration_ids).toEqual(['archived-ai']);
+  expect(updated.attempts.map((a) => a.id)).toEqual(['history', 'keep']);
+  expect(updated.catalog_year).toBe(original.catalog_year);
+  const older = run(original, { type: 'setCatalogYear', year: '2024-2025' });
+  expect(older.catalog_year).toBe('2024-2025');
+  expect(older.attempts.map((a) => a.id)).toEqual(['history', 'keep']);
+  expect(older.exams).toEqual(original.exams);
+});
+
+test('AP/IB inputs survive import, export, changed requirements, and applied proposals', () => {
+  const exams = [{ id: 'ap-math', exam_id: 'ap:calculus-bc', score: 5, level: null,
+    policy_year: '2026-2027', version: '1234567890abcdef', state: 'awarded', name: 'Calculus BC',
+    equivalents: [{ code: 'MATH 1341', credits: 4 }] }];
+  const saved = run(base(), { type: 'setExams', exams }, { type: 'applyProposal', attempts: [] });
+  const imported = readPlan(JSON.stringify(saved));
+  expect(imported.exams[0]).toMatchObject({ exam_id: 'ap:calculus-bc', score: 5, state: 'awarded' });
+  expect(imported.exams[0]).not.toHaveProperty('equivalents');
+  expect(toPayload(imported).exams[0]).not.toHaveProperty('equivalents');
+  expect(toPayload(imported).exams[0]).toMatchObject({ exam_id: 'ap:calculus-bc', score: 5, state: 'awarded' });
+  expect(draftFrom(imported, { catalogYear: '2027-2028', concentrationIds: [] }).exams).toEqual(imported.exams);
+  const old = base(); delete old.exams;
+  expect(readPlan(JSON.stringify(old)).exams).toEqual([]);
+  expect(() => readPlan(JSON.stringify({ ...old, exams: 'bad' }))).toThrow(/AP\/IB exams are invalid/);
+});
+
 test('a spring start keeps calendar years and runs four years by default', () => {
   const start = { year: 2026, session: 'spring' };
   const terms = buildTerms(start, defaultTarget(start));
@@ -71,7 +107,7 @@ test('imports and saved drafts are validated and stripped of anything unexpected
   expect(() => readPlan(tampered, 'other')).toThrow('different major');
   expect(() => readPlan(JSON.stringify({ ...plan, terms: [{ id: 'x', year: 1, session: 'winter' }] }), 'bscs')).toThrow('terms');
   expect(Object.keys(toPayload(plan)).sort()).toEqual(['attempts', 'catalog_year', 'concentration_ids', 'current_term',
-    'experiences', 'preferences', 'program_id', 'revision', 'sample_variant', 'schema_version', 'terms']);
+    'exams', 'experiences', 'preferences', 'program_id', 'revision', 'sample_variant', 'schema_version', 'terms']);
 });
 
 test('a new draft for other requirements keeps history and pins but drops suggestions', () => {
