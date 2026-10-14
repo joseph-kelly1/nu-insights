@@ -1,0 +1,14 @@
+title = "NU Insights secret scanning"
+
+[extend]
+useDefault = true
+
+# These exact values are deliberately fake credentials used to test key handling.
+# Both the value AND the test filename must match. Real keys in tests still fail.
+[[allowlists]]
+description = "Exact synthetic credentials in provider isolation tests"
+targetRules = ["generic-api-key"]
+condition = "AND"
+regexTarget = "secret"
+paths = ['''(^|/)(tests/)?test_(advisor|planner)\.py$''']
+regexes = ['''^sk-SECRET-marker-0123456789$''', '''^SECRET-key-123$''']
