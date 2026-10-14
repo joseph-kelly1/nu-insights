@@ -289,23 +289,17 @@ select.input { appearance: auto; }
 /* Two windows: the left one shows results or a single course; the right one holds breakdowns. */
 .ws-body { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); grid-template-rows: minmax(0, 1fr); }
 .pane { display: grid; grid-template-rows: auto minmax(0, 1fr); min-height: 0; border-right: 1px solid var(--line); }
-.program-context { max-height: 45vh; overflow-y: auto; }
+.program-context { overflow: visible; }
 
-.major-picker { padding: 16px clamp(20px, 3vw, 40px) 14px; border-bottom: 1px solid var(--line); }
-.concentration-picker { padding: 12px clamp(20px, 3vw, 40px) 16px; border-bottom: 1px solid var(--line); }
-.concentration-group { border: 0; margin: 14px 0 0; padding: 0; min-width: 0; }
+.major-picker { padding: 12px clamp(20px, 3vw, 40px) 10px; border-bottom: 1px solid var(--line); }
+.concentration-picker { padding: 10px clamp(20px, 3vw, 40px) 12px; border-bottom: 1px solid var(--line); }
+.concentration-group { position: relative; border: 0; margin: 0; padding: 0; min-width: 0; }
 .concentration-group legend { padding: 0; }
 .concentration-policy { margin: 0 0 10px; white-space: pre-line; }
-.concentration-slot { margin: 10px 0; }
+.concentration-slot { margin: 0; }
+.concentration-slot + .concentration-slot { margin-top: 10px; }
+.concentration-group + .concentration-group { margin-top: 12px; }
 .concentration-slot .input { width: 100%; }
-.concentration-requirements { margin: 12px 0; }
-.concentration-requirements summary { cursor: pointer; min-height: 44px; display: list-item; align-content: center; }
-.concentration-requirements[open] summary { margin-bottom: 12px; }
-.requirement-section { margin: 12px 0; }
-.requirement-section h3 { font-size: 17px; }
-.requirement-rows { list-style: none; padding: 0; }
-.requirement-rows li { margin: 6px 0; overflow-wrap: anywhere; }
-.requirement-header { margin-top: 16px !important; }
 .requirement-instruction { color: var(--text-soft); }
 .major-row { display: flex; gap: 8px; }
 .major-row .input { flex: 1; min-width: 0; }
@@ -327,6 +321,19 @@ select.input { appearance: auto; }
 .more { margin-top: 16px; }
 /* Positioned so .sr-only live regions stay inside their scroll container instead of stretching the page. */
 .rail, .course, .breakdowns { position: relative; overflow-y: auto; padding: 28px clamp(20px, 3vw, 40px) 40px; }
+/* Explicit scrollbar styling keeps the browsing affordance visible on macOS too. */
+.rail, .pane > .course { overflow-y: scroll; scrollbar-gutter: stable; }
+.rail::-webkit-scrollbar, .pane > .course::-webkit-scrollbar { width: 12px; }
+.rail::-webkit-scrollbar-track, .pane > .course::-webkit-scrollbar-track { background: var(--canvas); }
+.rail::-webkit-scrollbar-thumb, .pane > .course::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border: 3px solid var(--canvas);
+  border-radius: 8px;
+}
+.rail::-webkit-scrollbar-thumb:hover, .pane > .course::-webkit-scrollbar-thumb:hover { background: var(--text-soft); }
+@supports not selector(::-webkit-scrollbar) {
+  .rail, .pane > .course { scrollbar-color: var(--text-muted) var(--canvas); scrollbar-width: auto; }
+}
 
 .examples { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 16px; }
 .examples .hint { margin: 0 4px 0 0; }
@@ -413,8 +420,7 @@ select.input { appearance: auto; }
   .ws-header { position: sticky; top: 0; z-index: 10; padding: 6px 16px; background: var(--canvas); }
   .ws-body { display: block; }
   .pane { display: block; border-right: 0; }
-  .program-context { max-height: none; overflow: visible; }
-  .rail, .course, .breakdowns { overflow: visible; padding: 20px 16px 32px; }
+  .rail, .pane > .course, .breakdowns { overflow: visible; scrollbar-gutter: auto; padding: 20px 16px 32px; }
   .major-picker { padding: 14px 16px; }
   .concentration-picker { padding: 12px 16px; }
   .breakdowns { border-top: 1px solid var(--line); scroll-margin-top: 60px; }
@@ -426,7 +432,6 @@ select.input { appearance: auto; }
 /* ---------- Course Builder ---------- */
 
 .builder-entry { padding: 12px clamp(20px, 3vw, 40px) 16px; border-bottom: 1px solid var(--line); }
-.builder-entry .hint { margin-top: 4px; }
 
 .builder { min-height: 0; overflow-y: auto; padding: 24px clamp(20px, 3vw, 40px) 56px; }
 .builder > .back { margin: 0 0 8px; }

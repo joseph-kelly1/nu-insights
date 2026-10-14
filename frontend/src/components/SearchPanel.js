@@ -134,7 +134,8 @@ function SearchPanel({ hidden, initialQuery, selectedCode, major, concentrations
       )}
       {inConcentrations && <p className="hint scope-hint">
         {`Explicit course rows in your selected ${year ? `${year} ` : ''}concentration requirements, including alternatives and electives. `}
-        Includes “or” alternatives. Follow the choice instructions; you do not need every option. Elective ranges are shown in the catalog requirements above.
+        Follow the choice instructions; you do not need every option. Check the catalog for elective ranges and approved substitutions.
+        {' '}<a href={search.dataset?.source_url || concentrations[0]?.source_url} target="_blank" rel="noreferrer">Open catalog requirements</a>
       </p>}
 
       <label htmlFor="course-search" className="field-label">Search courses</label>

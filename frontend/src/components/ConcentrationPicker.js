@@ -1,25 +1,6 @@
 import React from 'react';
 import { catalogLabel } from './SearchPanel';
 
-export function RequirementSections({ sections }) {
-  return sections.map((section, index) => (
-    <div className="requirement-section" key={index}>
-      <h3>{section.title}</h3>
-      {section.entries.map((entry, i) => entry.kind === 'course_table' ? (
-        <ul className="requirement-rows" key={i}>
-          {entry.rows.map((row, j) => (
-            <li key={j} className={`requirement-${row.kind}`}
-              style={row.indent ? { paddingInlineStart: `${Math.min(row.indent, 120)}px` } : undefined}>
-              {row.kind === 'header' ? <strong>{row.text}</strong> : row.text}
-              {row.credits_text && <span className="hint">{` (${row.credits_text} credits)`}</span>}
-            </li>
-          ))}
-        </ul>
-      ) : <p key={i}>{entry.text}</p>)}
-    </div>
-  ));
-}
-
 function ConcentrationPicker({ catalog, selected, onChange, onRetry }) {
   const { status, data } = catalog;
   if (status !== 'ready') {
@@ -39,8 +20,8 @@ function ConcentrationPicker({ catalog, selected, onChange, onRetry }) {
 
   return (
     <div className="concentration-picker">
-      <p className="hint">{`Concentration requirements: ${catalogLabel(data.catalog_year)} catalog.`}</p>
       {data.groups.map((group) => {
+        const compact = group.title === 'Computer Science Concentrations';
         const chosen = selected.filter((option) => group.options.some((o) => o.id === option.id));
         const primary = chosen[0];
         const ids = chosen.map((o) => o.id);
@@ -55,8 +36,8 @@ function ConcentrationPicker({ catalog, selected, onChange, onRetry }) {
         };
         return (
           <fieldset className="concentration-group" key={group.id}>
-            <legend className="field-label">{group.title}</legend>
-            {group.policy.text && <p className="hint concentration-policy">{group.policy.text}</p>}
+            <legend className={`field-label${compact ? ' sr-only' : ''}`}>{group.title}</legend>
+            {!compact && group.policy.text && <p className="hint concentration-policy">{group.policy.text}</p>}
             {group.fixed ? <p>{primary?.name}</p> : slots.map((value, index) => (
               <div className="concentration-slot" key={index}>
                 <label className="field-label" htmlFor={`concentration-${group.id}-${index}`}>
@@ -71,15 +52,6 @@ function ConcentrationPicker({ catalog, selected, onChange, onRetry }) {
                   ))}
                 </select>
               </div>
-            ))}
-            {chosen.map((option) => (
-              <details className="concentration-requirements" key={option.id}>
-                <summary>{`View ${option.name} requirements`}</summary>
-                {option.notes.filter((note) => note !== option.name).map((note, index) => <p className="hint" key={index}>{note}</p>)}
-                <p className="hint">Course rows can be choices or electives. Read the instructions for each group.</p>
-                <RequirementSections sections={option.sections} />
-                <a href={option.source_url} target="_blank" rel="noreferrer">Open catalog requirements</a>
-              </details>
             ))}
           </fieldset>
         );

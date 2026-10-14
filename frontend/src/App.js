@@ -243,8 +243,6 @@ function App() {
     return <Landing onEnter={(query) => { setInitialQuery(query); setPane('results'); go('app'); }} />;
   }
 
-  const missingChoice = catalogReady && concentrationCatalog.data.groups.some((g) => !g.fixed && g.policy.required
-    && !concentrations.some((o) => !o.secondary_only && g.options.some((option) => option.id === o.id)));
   const header = (
     <header className="ws-header">
       <button type="button" className="wordmark-button" onClick={() => go('landing')} aria-label="NU Insights home">
@@ -312,17 +310,14 @@ function App() {
       <main className="ws-body">
         <div className="pane">
           <div className="program-context">
-          <MajorPicker programs={programs} major={major} onChange={changeMajor} onRetry={() => setPrograms({ status: 'idle', list: [] })} />
-          {major && <ConcentrationPicker
-            catalog={concentrationCatalog.majorId === major.id ? concentrationCatalog : { status: 'loading' }}
-            selected={concentrations} onChange={changeConcentrations}
-            onRetry={() => setConcentrationRefresh((n) => n + 1)} />}
-          {major && <div className="builder-entry">
-            <button type="button" className="btn btn-outline btn-sm" onClick={() => go('builder')}>Open Course Builder</button>
-            <p className="hint">{missingChoice
-              ? 'Plan your semesters. Choose a concentration above to fill your plan automatically.'
-              : 'Plan your semesters, co-ops, and remaining requirements.'}</p>
-          </div>}
+            <MajorPicker programs={programs} major={major} onChange={changeMajor} onRetry={() => setPrograms({ status: 'idle', list: [] })} />
+            {major && <ConcentrationPicker
+              catalog={concentrationCatalog.majorId === major.id ? concentrationCatalog : { status: 'loading' }}
+              selected={concentrations} onChange={changeConcentrations}
+              onRetry={() => setConcentrationRefresh((n) => n + 1)} />}
+            {major && <div className="builder-entry">
+              <button type="button" className="btn btn-outline btn-sm" onClick={() => go('builder')}>Open Course Builder</button>
+            </div>}
           </div>
           <SearchPanel
             hidden={pane === 'course'}

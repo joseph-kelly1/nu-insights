@@ -16,7 +16,7 @@ function MajorPicker({ programs, major, onChange, onRetry }) {
   const hint = status === 'idle' || status === 'loading' ? 'Loading majors…'
     : status === 'error' ? 'Majors couldn’t load. Browsing and breakdowns still work without one.'
     : !list.length ? 'Major data isn’t available in this dataset, so browsing covers all courses.'
-    : major ? 'Requirements, placements, and breakdowns use this major. Clear it to see every major.'
+    : major ? 'Using this major for browsing and planning.'
     : 'Optional. Type to find yours, including combined majors and campus.';
 
   return (

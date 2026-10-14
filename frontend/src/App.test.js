@@ -285,7 +285,7 @@ test('Start searching opens an empty, focused search, and the landing page expla
   render(<App />);
   expect(screen.queryByRole('textbox')).not.toBeInTheDocument(); // no search field on the landing page
   expect(screen.getByRole('heading', { name: 'What you can do here' })).toBeInTheDocument();
-  expect(screen.getByText('See where a course fits')).toBeInTheDocument();
+  expect(screen.getByText('Understand your requirements')).toBeInTheDocument();
   cleanup();
   startApp();
   expect(screen.getByLabelText('Search courses')).toHaveValue('');
@@ -490,12 +490,13 @@ test('concentration selection persists, browses current options, and clears when
   const select = await screen.findByLabelText('Concentration');
   fireEvent.change(select, { target: { value: AI.id } });
   expect(JSON.parse(localStorage.getItem('concentrations')).ids).toEqual([AI.id]);
-  fireEvent.click(screen.getByText('View Artificial Intelligence requirements'));
-  expect(screen.getByText('Complete two elective courses.')).toBeVisible();
+  expect(screen.queryByText('View Artificial Intelligence requirements')).not.toBeInTheDocument();
+  expect(screen.queryByText('Complete two elective courses.')).not.toBeInTheDocument();
   fireEvent.click(screen.getByRole('radio', { name: 'My concentrations' }));
   wait(300);
   expect(await screen.findByText('Principles of AI')).toBeInTheDocument();
   expect(screen.getByText(/selected 2026–2027 concentration requirements/)).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: 'Open catalog requirements' })).toHaveAttribute('href', AI.source_url);
 
   cleanup();
   await startWithPrograms();

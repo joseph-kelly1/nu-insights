@@ -138,7 +138,7 @@ function CourseDetail({ detail, pending, major, concentrations = [], onBack, onR
           <ul className="plan-list">{concentrations.map((option) => <li key={option.id}>
             <strong>{option.name}</strong>{` (${catalogLabel(option.catalog_year)})`}
             <p>{option.courses.includes(code)
-              ? 'Listed in an explicit course row. It may be required, an alternative, or an elective option; read the full requirements above.'
+              ? 'Listed in an explicit course row. It may be required, an alternative, or an elective option; read the full catalog requirements.'
               : 'No explicit course row lists this course. Elective ranges or approved substitutions may still apply.'}</p>
             <a href={option.source_url} target="_blank" rel="noreferrer">Open catalog requirements</a>
           </li>)}</ul>
