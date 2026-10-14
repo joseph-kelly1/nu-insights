@@ -10,7 +10,7 @@ import unittest
 from unittest.mock import patch
 
 from bs4 import BeautifulSoup
-import db_loader
+from backend import db_loader
 from json_scrapers import plan_scraper as scraper
 
 URL = 'https://catalog.northeastern.edu/undergraduate/business/business-administration-bsba/'

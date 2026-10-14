@@ -16,11 +16,11 @@ import sqlite3
 
 from ortools.sat.python import cp_model
 
-import planner_rules as pr
-import exam_credit
-import catalog_editions
-import course_replacements
-from planner_rules import GRADES, NUPATH, LIMITED, grade_meets, in_pool
+from . import planner_rules as pr
+from . import exam_credit
+from . import catalog_editions
+from . import course_replacements
+from .planner_rules import GRADES, NUPATH, LIMITED, grade_meets, in_pool
 
 SESSIONS = ('spring', 'summer1', 'summer2', 'fall')  # calendar order within one year
 SESSION_LABELS = {'fall': 'Fall', 'spring': 'Spring', 'summer1': 'Summer 1 / Session A', 'summer2': 'Summer 2 / Session B'}
@@ -145,7 +145,7 @@ def planning_context(conn, db_file, program, catalog_year, options, groups):
                      'plan': json.loads(r['plan_json'])}
                     for r in conn.execute('SELECT * FROM plan_variants WHERE program_id = ? ORDER BY rowid', (program['id'],))]
     except sqlite3.OperationalError:
-        raise PlanError(503, 'planner_data_missing', 'Planning data is not loaded. Rebuild the database with python3 db_loader.py.')
+        raise PlanError(503, 'planner_data_missing', 'Planning data is not loaded. Rebuild the database with python3 -m backend.db_loader.')
     names = [v['name'] for v in variants]
     for v in variants:
         if names.count(v['name']) > 1:

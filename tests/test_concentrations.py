@@ -9,17 +9,17 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-import advisor
-import db_loader
+from backend import advisor
+from backend import db_loader
 from json_scrapers import concentration_scraper as scraper, requirements_scraper
 from json_scrapers.requirement_courses import browse_sections, course_contexts
-from test_requirements_scraper import page, table, course, URL
+from tests.test_requirements_scraper import page, table, course, URL
 
 
 class ConcentrationCatalogTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        manifest, cls.records = scraper.read_requirements(Path(__file__).parent / 'data')
+        manifest, cls.records = scraper.read_requirements(Path(__file__).resolve().parents[1] / 'data')
         cls.catalog = scraper.build_catalog(cls.records, manifest['catalog_year'], manifest['generation'])
         cls.programs = {p['title']: p for p in cls.catalog['programs']}
 
@@ -126,7 +126,7 @@ class ConcentrationApiTest(unittest.TestCase):
         self.assertEqual(narrowed.json['total'], 1)
 
     def test_current_choices_keep_the_historical_program_identity(self):
-        plans = json.loads((Path(__file__).parent / 'data/plan_catalog.json').read_text())
+        plans = json.loads((Path(__file__).resolve().parents[1] / 'data/plan_catalog.json').read_text())
         saved_id = next(p['major'] for p in plans['programs'] if p['program_title'] == self.cs['label'])
         self.assertEqual(self.cs['id'], saved_id)
         self.assertEqual(len([p for p in advisor.list_programs() if p['label'] == self.cs['label']]), 1)

@@ -8,10 +8,14 @@ import re
 from json_scrapers.concentration_scraper import build_catalog, read_requirements
 from json_scrapers.requirement_courses import major_sections
 from json_scrapers.requirements_scraper import canonical_reference
+from .paths import DATA_DIR, DB_FILE
 
 
 def data_root(db_file):
-    return Path(db_file).resolve().parent / 'data'
+    database = Path(db_file).resolve()
+    # The app's runtime database uses the checked-in snapshots. Custom databases
+    # keep their own adjacent data directory, including isolated test fixtures.
+    return DATA_DIR if database == DB_FILE else database.parent / 'data'
 
 
 def editions(db_file):

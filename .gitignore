@@ -8,7 +8,9 @@ __pycache__/
 .venv/
 venv/
 
-# Generated database (rebuild with: python3 db_loader.py)
+# Generated database (rebuild with: python3 -m backend.db_loader)
+var/
+# Legacy database location
 courses.db
 
 # Node / React

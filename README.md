@@ -1,315 +1,306 @@
 <div align="center">
 
-# NU Insights: AI Course Advisor
+# NU Insights
 
-**Plain-English, student-focused breakdowns of every Northeastern University course.**
+**Explore Northeastern courses. Understand your requirements. Build a semester plan.**
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-3.1-000000?logo=flask&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/AI-OpenRouter-6566F1)
+![OR-Tools](https://img.shields.io/badge/Planning-OR--Tools_CP--SAT-4285F4)
 
-**Live demo: coming soon**
+[Quick start](#quick-start) · [Features](#features) · [Architecture](#architecture) · [Data coverage](#data-coverage) · [API](#api) · [Tests](#tests)
 
 </div>
 
 ---
 
-## The problem
+NU Insights brings course descriptions, prerequisites, degree requirements, and published sample plans into one workspace. Students can browse courses, request plain-English explanations, and build a timeline around completed courses, co-op, and graduation goals.
 
-Northeastern's course catalog tells you a course's title, credits, and a dry paragraph of description. It doesn't tell you what the class is really like, when most students take it, or why it matters for co-op. That knowledge usually comes from asking upperclassmen.
+Course Builder uses a constraint solver to suggest remaining courses and check the result. AI can explain courses and rank electives by interest; academic checks run independently of the model. Browsing and planning without AI work without an API key.
 
-## The solution
+## Quick start
 
-NU Insights pulls together everything the catalog knows about a course: its description, prerequisite tree, corequisites, NUpath attributes, and where it sits in the official sample plans of study. It hands all of that to an LLM, which explains the course the way an upperclassman would:
+Requires **Python 3.10+** and **Node.js 18+**. Checked-in data is included; no scraping is needed to run locally.
 
-- **What it covers**: a 2–3 sentence summary in plain English
-- **Who should take it**: the typical year and semester, taken from real sample plans rather than guessed
-- **Skills you'll leave with**
-- **Career and co-op relevance**
+```sh
+git clone https://github.com/joseph-kelly1/nu-insights.git
+cd nu-insights
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 -m backend.db_loader
+
+cd frontend
+npm ci
+npm start
+```
+
+Open [localhost:3000](http://localhost:3000). The development server proxies API requests to Flask on port 8000. Keep the virtual environment active: `npm start` runs the backend with `python3` from your `PATH`.
+
+For AI features, either enter your own key in **Model settings**, or create a `.env` file in the repository root before starting the app:
+
+```dotenv
+OPENROUTER_API_KEY=your-openrouter-key
+```
+
+An [OpenRouter key](https://openrouter.ai/keys) enables the app's free default models. Without it, course browsing, plan checking, deterministic generation, and custom provider keys remain available.
 
 ## Features
 
-- 🔎 **Search 5,900+ courses** across 160 departments by code (`cs`, `cs 3000`) or by title
-- 📋 **Course detail view** with credits, prerequisite AND/OR trees, corequisites, NUpath tags, and sample-plan placement
-- 🤖 **Course breakdowns on request**: open a course and choose **Get course breakdown**, or type a code like `CS 3000`
-- 🗓️ **Published sample plans of study**, when available, with catalog-year coverage tracked across undergraduate majors
-- 🔑 **Bring your own API key** for OpenAI, Anthropic, Google Gemini, or OpenRouter, with a live model list
-- 🧭 **Course Builder** (`#/builder`): enter completed and current courses, AP/IB/transfer credit, co-ops, skipped terms, and pinned courses, then fill the remaining terms with a checked proposal you can apply or discard
+- **Course search:** browse 6,034 courses across 162 subjects in the checked-in 2026–2027 snapshot. Search by code or title, then inspect credits, prerequisite AND/OR trees, corequisites, and NUpath attributes.
+- **Major and concentration browsing:** explore published requirement sections, with course bundles and alternatives kept together. Select campus-specific concentration options and see their source requirements.
+- **Course explanations:** request a summary, skills, career relevance, and historical sample-plan context grounded in the selected course and major.
+- **Semester planning:** record completed and current courses, pin future courses, set credit targets, and mark co-op or skipped terms. Generate a proposal, inspect its changes, then apply or discard it.
+- **Catalog-year selection:** use requirements from 2022–2023 through 2026–2027, with the concentration choices and historical course data for that edition.
+- **AP/IB credit:** select an exam, score, and IB level to preview published Northeastern equivalents. Estimates remain separate from awarded credit; shared equivalents count once.
+- **Flexible AI providers:** use free OpenRouter routing or your own OpenAI, Anthropic, Gemini, or OpenRouter key. Model discovery is live; custom model IDs are also supported.
+- **Local drafts:** plans save in the browser, separately by major, catalog year, and concentration selection. Export/import JSON or print a plan. API keys are excluded from saved plans.
 
-## How it works
+## Architecture
 
 ```mermaid
 flowchart LR
-    A[Northeastern catalog] -->|Python scrapers| B[JSON dataset]
-    B -->|loader| C[(SQLite)]
-    C --> D[Flask API]
-    D <-->|course + plan context| E[LLM: free OpenRouter models or the user's own key]
-    D <-->|REST| F[React frontend]
+    A[Public catalog and AP/IB charts] --> B[Python scrapers]
+    B --> C[Versioned JSON snapshots]
+    C --> D[(SQLite: current courses and requirements)]
+    C --> E[Archived catalogs and exam policies]
+    D --> F[Flask API]
+    E --> F
+    F --> G[CP-SAT planner and validator]
+    F <-->|Optional explanations and elective ranking| H[AI provider]
+    F <-->|REST| I[React frontend]
 ```
 
-1. **Scraping**: custom BeautifulSoup scrapers crawl the public catalog and parse each course, including turning free-text prerequisites into a nested AND/OR tree.
-2. **Storage**: a loader normalizes the JSON into SQLite tables for courses, corequisites, NUpath attributes, and sample-plan entries.
-3. **Prompting**: for each request, the API builds a prompt from the course's metadata and every sample plan it appears in, so the model works from facts instead of guessing.
-4. **Frontend**: a React app with a scrollable landing page and a course-first workspace: a search rail, a course detail view, and a breakdown reading area that renders the model's Markdown response.
+The data pipeline preserves original course codes, sources, catalog years, AND/OR choices, and lecture/lab bundles. A loader builds the current SQLite database; archived requirements and exam policies load from their versioned JSON snapshots.
 
-## Engineering highlights
+The planner treats completed/current courses, pinned entries, fixed terms, co-op, and skipped terms as protected commitments. OR-Tools CP-SAT places courses in open future terms, respects prerequisite order and credit caps, and allocates courses to modeled requirements. Each proposal is independently rechecked before the frontend offers it for review. Elective pools can remain labeled placeholders when no specific course is selected.
 
-- **Free by default.** Requests in the default mode cap the price at $0 and fall back across free models automatically. If a provider starts charging, the request fails safely instead of running up a bill.
-- **Cheap with your own key.** Requests made with a user's key ask for the cheapest thinking setting the model accepts, and the model list shows the 10 newest models first.
-- **Grounded output.** The system prompt tells the model to rely on the supplied plan data and to say so when there is none, rather than invent a semester.
-- **Robust error handling.** Upstream failures (rate limits, timeouts, truncated or malformed responses) map to clear HTTP statuses and a consistent `{"error", "code"}` JSON envelope that the UI shows to the user.
-- **Keys stay in memory.** A user's own API key lives only in the page's memory and in the single request that uses it. It is never saved, logged, or swapped for the server's key.
-- **Offline test suite.** Backend tests mock the HTTP transport, so they run without an API key, network access, or a database.
+AI ranking is optional. The server validates candidate codes, uses structured output on supported models, and normalizes safe formatting locally. If ranking is malformed, cut off, refused, rate-limited, or times out, generation continues without AI preferences and shows one short explanation. Key, billing, access, and model errors remain actionable. The app does not retry a completed malformed ranking or switch a custom request to another model or credential source. Provider thinking-setting negotiation may repeat requests after rejected parameter settings.
 
-## Using your own API key
+Interface conventions are documented in [docs/DESIGN.md](docs/DESIGN.md).
 
-The app uses free OpenRouter models by default, and those requests are capped at $0. To use a different model, open **Model settings** in the workspace header, choose **Use my API key**, pick a provider (OpenAI, Anthropic, Google Gemini, or OpenRouter), paste your key, and choose a model. The list loads by itself, with the 10 newest models first and every model after them. OpenRouter's list loads before you enter a key. You can also type any model ID.
-
-- Your key is kept only in the page's memory, so reloading clears it. The app remembers your provider and model choice but never the key. The key passes through this app's server to the provider you chose and is never stored or logged.
-- Requests made with your key are billed to your provider account, and that includes paid OpenRouter models. There's no fallback: if your key or model fails, the app shows the error instead of retrying with another model or with the server's key.
-- To keep costs down, the app picks the cheapest thinking setting each model allows. Thinking is turned off where the model permits it, set to its lowest level where it can't be turned off, and left at the model's default when there's no control. Any thinking is billed but never shown; you only see the final answer.
-- Loading the model list doesn't run a test generation. A listed model can still fail because of access or billing limits, and those are only checked when you request an analysis.
-
-## Tech stack
+### Stack
 
 | Layer | Tools |
 | --- | --- |
-| Frontend | React 19, plain CSS design tokens (`src/index.css`), Sofia Sans, react-markdown |
-| Backend | Python, Flask, SQLite |
-| AI | OpenRouter (free models) via the OpenAI SDK; user keys for OpenAI, Anthropic, Gemini, OpenRouter over HTTPX |
-| Data | requests, BeautifulSoup |
+| Frontend | React 19, plain CSS, Sofia Sans, react-markdown |
+| API | Python, Flask, SQLite |
+| Planning | OR-Tools CP-SAT and an independent allocation check |
+| AI | OpenAI SDK for default OpenRouter routing; HTTPX adapters for custom providers |
+| Extraction | requests, BeautifulSoup, pdfplumber |
+| Tests | Python unittest, React Testing Library, Jest |
 
-## Project structure
+### Project structure
 
+```text
+├── backend/                   # Python API and planning package
+│   ├── advisor.py             # Flask routes and default AI routing
+│   ├── ai_providers.py        # Custom keys, model discovery, provider adapters
+│   ├── planner.py             # Plan validation, scheduling, elective ranking
+│   ├── planner_rules.py       # Requirement compilation and reviewed profiles
+│   ├── catalog_editions.py    # Archived requirements and concentrations
+│   ├── course_replacements.py # Scoped replacement registry and resolver
+│   ├── exam_credit.py         # AP/IB policies and awarded-credit resolution
+│   ├── db_loader.py           # JSON → SQLite loader
+│   └── paths.py               # Shared repository and runtime paths
+├── tests/                     # Offline backend and data-pipeline tests
+├── frontend/                  # React workspace and component tests
+├── json_scrapers/             # Catalog, archive, and exam importers
+├── data/
+│   ├── courses/               # Current course descriptions
+│   ├── plans/                 # Versioned sample plans
+│   ├── requirements/          # Current requirement snapshots
+│   ├── catalogs/              # Archived catalogs and courses
+│   ├── exams/                 # Versioned AP/IB policies
+│   └── course_replacements.json
+├── docs/DESIGN.md              # Interface design guidance
+├── var/                       # Generated database (ignored by Git)
+├── requirements.txt           # Python dependencies
+└── README.md
 ```
-├── advisor.py          # Flask API, prompt building, and OpenRouter integration
-├── ai_providers.py     # Bring-your-own-key providers: validation, model lists, generation
-├── db_loader.py        # Builds the SQLite database from data/
-├── planner_rules.py    # Compiles catalog requirement rows into executable rules + reviewed profiles
-├── planner.py          # Course Builder: plan validation, CP-SAT generation, AI ranking parsing
-├── test_planner.py     # Offline planner tests, including the BSCS pilot
-├── test_advisor.py     # Offline backend tests
-├── data/               # Scraped catalog: departments, courses, sample plans
-├── docs/               # Design notes (bring-your-own-key plan)
-├── json_scrapers/      # Catalog scrapers
-└── frontend/           # React app
-```
+
+## Data coverage
+
+Coverage reflects the checked-in snapshots collected on **October 13, 2026**.
+
+| Dataset | Coverage |
+| --- | --- |
+| Current courses | 2026–2027: 6,034 courses across 162 subjects |
+| Current undergraduate requirements | 2026–2027: 395 bachelor program variants, 22 concentration pages, and 2 shared requirement documents |
+| Archived requirements | 2022–2023 through 2025–2026, including edition-specific concentrations and course descriptions |
+| Active sample plans | Historical 2025–2026 plans; the checked 2026–2027 edition had no published sample-plan grids |
+| AP/IB policies | 2026–2027 only; saved exams pin their policy version independently of the degree catalog |
+| Intro-course replacements | Three candidate lecture/lab mappings for Boston BSCS catalogs from 2022–2023 through 2024–2025 |
+
+Current concentrations include 739 program-specific options across 99 program variants. These are eligibility records, including repeated concentrations and elective alternatives, rather than 739 distinct concentrations.
+
+### Requirement review and limitations
+
+Boston **BSCS + Artificial Intelligence concentration, 2026–2027** is the reviewed pilot, together with current NUpath and universitywide rules. Other collected programs and archived editions are labeled as automatically extracted unless their exact source content has been reviewed. Ambiguous requirements remain visible as review items rather than guessed rules.
+
+The app reports **all modeled requirements covered**, not graduation clearance. GPA, some hours-in-major and writing/capstone restrictions, approvals, and complex prose policies still require review. Sample plans provide historical timing hints; actual semester offerings are unverified. CPS, minors, double-major combinations, and graduate degree planning are outside current coverage.
+
+Retired courses remain available for past records, with their archived metadata. Future schedules use current prerequisites and course data. Only registry entries marked `verified` automatically fulfill an older requirement; the checked-in Fundies/OOD mappings are currently **candidates**, pending confirmation of older-catalog applicability and lab fulfillment. Students with approval can record it through **Counts as another course?**. Original course identities and actual credits are preserved.
+
+## AI settings and privacy
+
+Open **Model settings → Use my API key**, choose a provider, enter a key, and select a model. Discovery shows the 10 newest eligible flagship models first, then the full supported list. OpenRouter's public model list loads without a key. Listing a model does not verify your account's access or billing.
+
+Keys stay in page memory and travel through this app's backend to the selected provider. They are not stored, logged, exported, or replaced with the server's key. Reloading clears the key; non-secret provider/model preferences can persist. Custom requests are billed to your provider account.
+
+The default route enforces $0 price limits. Custom requests ask for the cheapest thinking setting supported by the model. Ranking requests send interests and candidate course details; course explanations send the selected course and relevant major/concentration context.
 
 <details>
-<summary><b>Running locally</b></summary>
+<summary><b>Default AI configuration</b></summary>
 
-Requires Python 3.10+ and Node 18+. An [OpenRouter API key](https://openrouter.ai/keys) is optional. It powers the free default mode, and without it, users can still bring their own key.
+Set these in the root `.env` file:
 
-```sh
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-python3 db_loader.py                         # builds courses.db from data/
-echo "OPENROUTER_API_KEY=sk-or-..." > .env   # optional: free default mode
-cd frontend && npm install && npm start      # API on :8000, app on :3000
-```
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `OPENROUTER_API_KEY` | none | Enables the free default AI mode |
+| `OPENROUTER_MODEL` | `google/gemma-4-31b-it:free` | Primary model |
+| `OPENROUTER_FALLBACK_MODELS` | `openrouter/free` | Comma-separated default routing fallbacks; empty disables them |
+| `OPENROUTER_REASONING_ENABLED` | `false` | Whether default requests enable reasoning |
+| `OPENROUTER_MAX_TOKENS` | `2048` | Default output-token cap |
+| `OPENROUTER_TIMEOUT_SECONDS` | `35` | SDK network timeout, not a total request deadline |
 
-`npm start` runs the API with whichever `python3` is on your `PATH`, so keep the virtual environment active. Run only the API with `python3 advisor.py`.
-
-`courses.db` isn't tracked by git. The loader rebuilds it from the JSON data, including the selected plan catalog.
-
-Run `FLASK_DEBUG=1 npm start` to turn on Flask's reloader and debugger during development. Keep it off anywhere else, because the debugger can expose request data. Serve the app over HTTPS if you host it, since user keys travel through the API.
+Custom-provider requests use separate limits in `ai_providers.py`: 16,000 output tokens, a 120-second network timeout, and 15 seconds for model discovery. Provider rate limits depend on the selected account and model.
 
 </details>
 
-<details>
-<summary><b>Refreshing catalog data and sample plans</b></summary>
+## Data maintenance
 
-With the virtual environment active and dependencies installed:
+The checked-in snapshots are sufficient for local startup. `var/courses.db` is generated and ignored by Git; rebuild it after changes to current courses, requirements, or sample-plan data. Archived catalogs and exam policies load directly without a database rebuild. The API and loader use repository-relative absolute paths, so data lookup does not depend on the shell’s working directory.
+
+For an existing checkout with a root-level `courses.db`, move it into `var/` before starting the updated API, or rebuild with `python3 -m backend.db_loader`:
+
+```sh
+mkdir -p var
+mv courses.db var/courses.db
+```
+
+<details>
+<summary><b>Refresh courses and sample plans</b></summary>
+
+With the virtual environment active, run from the repository root:
 
 ```sh
 python json_scrapers/department_scraper.py
 python json_scrapers/course_scraper.py
-python json_scrapers/plan_scraper.py
-python db_loader.py
-```
-
-The plan scraper discovers bachelor programs from the catalog A-Z index. It retains the edition selected in the active manifest; a new dataset defaults to the live edition. Use `--catalog-year` to select another edition or `--current-catalog` to switch back to the live edition. It includes combined majors and campus variants under the undergraduate catalog; College of Professional Studies programs, minors, and graduate programs are outside this scraper's scope.
-
-Published plans are saved to `data/plans/<catalog-year>/<program-id>.json`. Each file preserves source URL, degree, campus, college, plan variants, original entry text, credits, course bundles, alternatives, electives, co-op periods, and notes. Only definite course entries enter the semester's `courses` list; alternatives and choice groups remain structured entries and notes, so the advisor does not treat every option as mandatory. Course bundles retain their combined credit value rather than assigning those credits to each course.
-
-`data/plan_catalog.json` selects the active edition and lists every checked program as `available` or `no_published_plan`. The loader reads only plan files declared in this manifest. Existing unversioned sample files remain on disk for reference, but are excluded once a catalog manifest is present. Without a manifest, the loader retains support for the original unversioned files.
-
-The October 13, 2026 run checked all 395 discovered undergraduate bachelor program variants in the **2026–2027** catalog. None published sample-plan grids, so this edition contains **zero schedules**. Missing plans are recorded explicitly; the scraper does not invent schedules from degree requirements or silently import older plans. Run it again if Northeastern publishes plans later.
-
-The active dataset uses **2025–2026 historical sample plans**, as explicitly selected. Course details label their catalog year, degree, and campus; AI prompts identify them as historical context rather than current requirements. The current course-description dataset remains 2026–2027. Programs without published plans and courses without a definite placement have distinct messages.
-
-With a major selected, course details and AI breakdowns use only that major's historical placements. **My major** browsing uses current published requirement rows, including both sides of “or” choices such as ENGW 3302 or ENGW 3315. Courses appear under their catalog section and subsection headings. Each alternative is a clickable course row; “or” choices share an outline with “or” separators, and “and” bundles stay together. Search keeps whole matching choices visible. Subject/level elective ranges are not expanded, and selectable concentration/curriculum blocks appear under **My concentrations**. Programs without collected current requirements retain a clearly labeled historical-plan fallback. Numbered transfer-track semesters remain ordinal labels without guessed calendar years.
-
-To populate or refresh the archived edition:
-
-```sh
 python json_scrapers/plan_scraper.py --catalog-year 2025-2026
-python db_loader.py
+python -m backend.db_loader
 ```
 
-Use `--output-dir /path/to/data` for a separate dataset and `--delay 0.25` to adjust the pause between requests. Requests use timeouts and retries. A failed fetch, unexpected redirect, wrong edition, or unsupported plan section produces a nonzero exit code and leaves the active manifest unchanged. `data/plan_scrape_report.json` records the latest attempt, including any failures.
+The plan scraper retains the active manifest's edition by default. Use `--current-catalog` to select the live catalog, or `--catalog-year` for an explicit edition. `--output-dir` selects a separate data root and `--delay` controls request pacing.
+
+`data/plan_catalog.json` selects active files and records programs with no published plan. Entries preserve alternatives, bundles, electives, co-op, credits, and source text. Fetch/edition/parsing failures leave the active manifest unchanged. The live 2026–2027 scrape collected zero schedules; switching to it will not silently reuse older plans.
+
+Refreshing current courses also records raw prerequisite text, minimum grades, and exact credit options missing from the older checked-in course-description extraction. Until present, variable-credit choices may be flagged as unverified.
 
 </details>
 
 <details>
-<summary><b>Scraping major requirements</b></summary>
-
-The requirements scraper collects the **current live undergraduate catalog** independently of sample plans. It covers bachelor programs (including combined majors and campus variants), published concentration pages, universitywide requirements, and all general-education tabs, including NUpath and BA language requirements. CPS, minors, and graduate programs are outside its scope.
+<summary><b>Refresh current requirements and concentrations</b></summary>
 
 ```sh
-python json_scrapers/requirements_scraper.py
+python json_scrapers/requirements_scraper.py --catalog-year 2026-2027
+python -m backend.db_loader
 ```
 
-Use `--catalog-year 2026-2027` to require that exact live edition, `--output-dir /path/to/data` for a separate dataset, and `--delay 0.5` to adjust the minimum interval between requests (default: 0.25 seconds). The scraper discovers pages through the public sitemap and checks `robots.txt` before fetching each page. It does not use the excluded A-Z index or crawl archived editions. Requests have timeouts, retries, and rate-limit backoff.
+The requirements scraper follows the public sitemap and collects undergraduate bachelor requirements, linked concentrations, universitywide rules, and general-education tabs. It checks robots.txt, paces requests, and preserves ordered sections, source wording, AND/OR structure, credit ranges, elective filters, exclusions, and footnotes. Unsupported tables and ambiguous instructions remain marked for review.
 
-Archived undergraduate requirements for **2022–2023 through 2025–2026** are stored separately in `data/catalogs/<year>/`, alongside that edition's concentrations and course descriptions. The builder combines those editions with the live **2026–2027** requirements, covering current first- through fifth-year students. Selecting a catalog year uses that year's rules, course credits, NUpath source, and concentration options; it never substitutes the current requirements for an older degree.
+Successful runs publish immutable `data/requirements/<year>/<generation>/` snapshots selected by `data/requirements_catalog.json`. Failures leave the active manifest unchanged; the scrape report records coverage and gaps. The concentration export is derived from requirements, and the database loader reads the active requirement snapshot.
 
-To import explicitly selected archive editions:
+To regenerate only the concentration export from existing data:
+
+```sh
+python json_scrapers/concentration_scraper.py
+python -m backend.db_loader
+```
+
+Extraction is not policy validation. Six references absent from the older local course dataset and an unresolved Family Business concentration link were recorded in the October 13 scrape report.
+
+</details>
+
+<details>
+<summary><b>Import archived catalogs and AP/IB policies</b></summary>
 
 ```sh
 python json_scrapers/archive_requirements_scraper.py --years 2022-2023 2023-2024 2024-2025 2025-2026
-```
-
-The archive importer follows only public links inside each selected edition, paces requests, caches source HTML in `/private/tmp/nu-catalog-imports`, and publishes a year only after its extraction completes. Pages with no published program requirements are recorded as coverage gaps. These snapshots do not replace live browsing data and require no database rebuild. Older completed courses can satisfy their original requirements; courses absent from the current teaching catalog require an approved current equivalent before future scheduling. Archived rules are labeled as extracted unless their exact content has been reviewed.
-
-Each successful refresh creates an immutable snapshot:
-
-```text
-data/requirements/<catalog-year>/<generation>/<document-id>.json
-data/requirements_catalog.json
-data/requirements_scrape_report.json
-```
-
-Read only files listed in `requirements_catalog.json`; older snapshot directories can remain on disk. Program IDs match the existing plan scraper for the same source URL. Each document stores its catalog year, title, source URL, program metadata where applicable, referenced course codes, linked requirement documents, section hierarchy, original requirement text, and overview text (which can contain additional program policies).
-
-Course tables preserve ordered rows, section headers, indentation, instruction counts, credit ranges, footnote references, subject/level elective filters, exclusions, and original wording. Unambiguous course expressions retain AND/OR structure; consecutive `or` rows share an alternative-group identifier. Lecture/lab credits stay attached to the bundle rather than being assigned to every course. Prose that mentions a course is not converted into a required course. Unsupported tables are preserved with their HTML and flagged for review.
-
-This dataset is **structured source extraction, not a validated degree-audit rule set**. A course row may be an elective option or belong to a concentration; it is not automatically mandatory. Interpret it with the surrounding headings, instructions, alternatives, and indentation. Conditional rules, approvals, minimum grades, overlap restrictions, and other complex wording remain in source text and review-marked entries. Every document explicitly sets `semantics_validated: false`.
-
-Links to collected requirement documents resolve to document IDs, including catalog links with surrounding whitespace or `index.html` aliases. Unresolved concentration links remain visible in each document and the manifest. When `--output-dir` contains `courses/*.json`, the scraper also reports course references missing from that local dataset; it retains the catalog's codes and does not guess replacements. Counts of selections (which may be bundles or experiences) are distinguished from explicit counts of courses.
-
-The October 13, 2026 dataset inspected all 746 current undergraduate sitemap pages and collected **395 bachelor program variants, 22 concentration pages, and 2 shared requirement documents** from the 2026–2027 edition, with zero fetch or parsing errors. Six referenced course codes were absent from the existing local course dataset. One Family Business concentration link did not resolve to a collected requirements document (the public URL redirects to the concentration index); these discrepancies are recorded for review.
-
-`requirements_scrape_report.json` records coverage and failures from the latest run. A fetch or parsing failure returns a nonzero exit code and leaves the active manifest and its snapshot unchanged. New files are written into a separate generation, then the requirements manifest is published. A derived concentration export is published afterward; the loader derives major and concentration course indexes from the selected requirements snapshot, so a stale export cannot change app behavior. Requirements remain source extraction rather than a validated degree audit. Major browsing uses explicit core requirement rows; selected concentration requirements are supplied to the API and AI prompt.
-
-Run the offline scraper tests with:
-
-```sh
-python -m unittest -v test_requirements_scraper
-```
-
-### Course Builder
-
-Open **Course Builder** from course browsing once a major is selected. Plans live only in this browser (one draft per major, requirements catalog year, and concentration choice), with JSON export/import and a print view. API keys are never saved or exported.
-
-- **Timeline:** four academic years by default (fall → spring → Summer 1/Session A → Summer 2/Session B); add or remove terms and years, mark terms off, fully fixed, or co-op (one experience spanning consecutive terms). Shortening a plan never discards entries without asking.
-- **Catalog and concentrations:** choose the requirements catalog on your degree audit, from 2022–2023 through 2026–2027. Timeline settings can switch catalog years and offer the concentration choices published for that edition. Changing either preserves history and pinned courses, clears unpinned suggestions, and rechecks the selected year's rules.
-- **Adding courses:** each term lists courses its year and semester commonly hold in your major's sample plans (lecture + lab add together; sample plans are 2025–26 history, so retired codes show but can't be added). Type codes or names ("fundies 1, discrete math"): codes resolve directly, names are matched by the AI against your program's sample-plan and requirement courses plus title matches, and you tick which guesses to add. Title search updates as you type.
-- **Retired courses:** an older catalog's rules stay as published, past records keep their archived credits and metadata, and future courses use current prerequisites, credits, and attributes. `data/course_replacements.json` lists documented replacements (current lecture + lab for a retired bundle), each with explicit program, campus, catalog-year, and effective-term scope plus pinned evidence. Only `verified` records count automatically: the current bundle joins the same choice slot as the exact original bundle, keeps its own code, credits, NUpath attributes, and pool eligibility, and the report says, for example, "CS 3100 + CS 3101 fulfill the CS 3500 + CS 3501 requirement" with its source. Future terms then offer that bundle in place of a retired sample-plan bundle. `candidate` records only name the documented successor next to the unmet requirement; count it with **Counts as another course?** and approval details. Registry changes change the dataset fingerprint; a missing registry applies no replacements.
-- **Check my plan** (no AI): prerequisites in chronological order (minimum grades and "may be taken concurrently" when the course data records them), corequisites in the same term, exact credit choices, term limits, repeats, AWD timing, and requirement progress. A course counts toward one major/concentration rule; NUpath allows a course to meet two of the first eight competencies, and transfer credit at most five of them.
-- **Fill remaining courses:** OR-Tools CP-SAT places courses only into open future terms. Completed, current, pinned, fixed, off, and co-op terms are constants. Elective pools become "choose a course" placeholders unless the AI ranked a specific option. The AI only ranks server-supplied course codes by your interests, and only when there are electives to rank and you entered interests. Ranking is optional: if the response is malformed, cut off, refused, rate-limited, or times out, the same request returns a deterministic proposal with a short note (one AI call, never retried). Key, billing, access, and model problems stay errors with **Fill without AI**. Any unknown code discards the whole ranking; safe formatting (a code fence, a bare array, code case and spacing, duplicates, more than 25 rows) is normalized locally. Models documented to support JSON-schema output get one (OpenAI GPT-4o+/o3+, Claude 4.5+, Gemini 1.5+, OpenRouter models whose catalog lists structured outputs); others, and the default route through `openrouter/free`, get the same JSON contract in the prompt. Every proposal is re-checked by the validator, shown as a diff, and applied only if your plan hasn't changed since.
-- **Honest coverage:** results say "all modeled requirements covered", never "cleared to graduate". Rules the planner can't evaluate (GPA, "hours in the major", approvals, most prose notes) are listed under **Needs review** with their source text. Sample plans are 2025–26 timing hints only, and term offerings are unverified.
-
-**Supported coverage (October 13, 2026):**
-
-| Scope | Status |
-| --- | --- |
-| Computer Science, BSCS (Boston) + Artificial Intelligence concentration, 2026–27 | Rules **reviewed** against the catalog (pilot). Open items: 72 hours in the major, GPA, WI/capstone "in the major". |
-| NUpath and Universitywide requirements, 2026–27 | Reviewed |
-| All other 2026–27 programs and concentrations | Rules **extracted automatically, not reviewed**; generation works but every result is labeled as needing review. Ambiguous rows become review items instead of guesses. |
-| Requirements catalogs 2022–23 through 2025–26 | Archived rules, concentrations, and course descriptions loaded. Rules remain labeled as extracted unless their exact content has been reviewed. Pages without published requirements are recorded as coverage gaps. |
-| Intro-sequence replacements (CS 2000/2100/3100 + labs for CS 2500/2510/3500 + labs), BSCS Boston 2022–23 through 2024–25 | **Candidates only.** Khoury publishes the fall 2025 title replacements, but no source says they fulfill older degree catalogs or maps the labs. |
-| CPS, minors, double majors, graduate programs | Not supported |
-
-Reviews are pinned to a fingerprint of each source document in `planner_rules.py`; a catalog change automatically drops that program back to "not reviewed". The current `data/courses` snapshot predates raw prerequisite text, minimum grades, and exact credit options; re-run `json_scrapers/course_scraper.py` and `db_loader.py` to record them (until then, variable-credit courses are flagged as unverified). Rebuild `courses.db` with `python3 db_loader.py` after pulling this change; the builder needs the new planning tables.
-
-### Concentrations
-
-Choose a major, then its concentration choices. The picker follows that program's campus-specific catalog list and retains the published selection policy, including required or optional choices, second-concentration restrictions, and electives/no-concentration alternatives. Some named degrees already include a fixed concentration. Requirements can be expanded in place and link back to the catalog.
-
-**My concentrations** browses explicit course rows in selected requirement blocks, including all “or” alternatives and elective options. Both views preserve catalog section headings and selection instructions. Outlined “or” groups contain individually clickable courses, with “and” bundles intact within each alternative. Neither view marks every listed course as mandatory or expands subject/level elective ranges. Course details distinguish an explicit course mention from possible range-based electives or approved substitutions. AI breakdowns receive the selected concentration blocks and policy text, with their catalog year, independently of historical sample-plan timing. This is not a validated degree audit.
-
-The current 2026–2027 snapshot resolves **739 program-specific concentration/curriculum options across 99 program variants**. These include repeated concentrations offered by multiple majors and electives alternatives, not 739 unique concentrations. The stale Family Business reference remains reported separately. Inline requirements use anchor IDs when available; older snapshots fall back only to a unique matching heading.
-
-The requirements scraper exports `data/concentration_catalog.json` automatically. To rebuild that export from already collected requirements without fetching the website:
-
-```bash
-python json_scrapers/concentration_scraper.py
-python db_loader.py
-```
-
-The export stores shared requirement blocks once and keeps eligibility per program. The loader reads only the active requirements manifest, loads concentration tables, and maps archived plan URLs to their current catalog paths so existing major selections and placements retain their identity. Selections persist locally, reset when the major changes, and are revalidated against the loaded catalog year. Changing concentrations during AI generation affects only later breakdowns.
-
-API: `GET /api/programs/<id>/concentrations`, `GET /api/programs/<id>/courses?concentrations=<id>,<id>&q=&offset=`, and optional `concentrations: [<id>, ...]` alongside `major` in `POST /api/analyze`. Cross-major, duplicate, malformed, and disallowed selections are rejected before AI requests.
-
-</details>
-
-<details>
-<summary><b>Configuration (<code>.env</code>, free default mode only)</b></summary>
-
-| Variable | Default | Notes |
-| --- | --- | --- |
-| `OPENROUTER_API_KEY` | none | Needed for the free default mode; search, course details, and user keys work without it |
-| `OPENROUTER_MODEL` | `google/gemma-4-31b-it:free` | Primary model, tried first on every request |
-| `OPENROUTER_FALLBACK_MODELS` | `openrouter/free` | Comma-separated; leave it empty to turn off fallback |
-| `OPENROUTER_REASONING_ENABLED` | `false` | `true` or `false`; if `true`, raise max tokens to about 4096 |
-| `OPENROUTER_MAX_TOKENS` | `2048` | |
-| `OPENROUTER_TIMEOUT_SECONDS` | `35` | SDK network timeout, not a total deadline |
-
-Requests made with a user's key don't use these settings. Their limits are fixed in `ai_providers.py`: 16,000 output tokens, which leaves room for thinking, a 120-second timeout, and 15 seconds for model lists.
-
-Free OpenRouter models are usually limited to 20 requests per minute and 50 per day, or 1,000 per day after you buy credits. The limit covers the whole account, and failed requests may count toward it. Without a server key, `/api/analyze` in the default mode returns 503 `ai_not_configured`.
-
-</details>
-
-<details>
-<summary><b>API</b></summary>
-
-| Endpoint | Purpose |
-| --- | --- |
-| `GET /api/search?q=` | Search by department, course code, or title |
-| `GET /api/course/<dept>/<number>` | Course details, prerequisites, and sample-plan placement for every major (the UI filters to the selected major) |
-| `GET /api/programs` | Every catalog program: `[{"id", "label", "major_name", "degree", "campus", "college", "status"}]`, A-Z by label. `id` matches `plan_entries.major`; `label` is unique (repeated titles add the college); `status` is `available` or `no_published_plan`. Empty if the database predates the `programs` table. |
-| `GET /api/programs/<id>/courses?q=&offset=` | Explicit current major requirement rows, including alternatives, 20 per page: `{"program", "requirement_dataset", "results", "total"}`. Each flat result includes `requirement_contexts` with choice expressions and selection instructions. Add `view=sections` for ordered `requirement_sections` containing clickable course summaries and preserved AND/OR trees. Section browsing has no pagination; search retains whole matching choices so alternatives are never split or hidden. Add `concentrations=<id>,<id>` for selected concentration requirements and `concentration_dataset` provenance instead. Older datasets without current requirements return historical `plan_dataset` context. Filters run before pagination and each course appears once. Unknown id: 404 `unknown_major`; bad offset: 400. |
-| `POST /api/analyze` | `{"dept": "cs", "number": "3000"}` uses the free default. Add `"ai": {"mode": "custom", "provider": "openai", "api_key": "...", "model": "..."}` to use your own key. The provider is `openai`, `anthropic`, `gemini`, or `openrouter`. Add `"major": "<program id>"` to tailor the breakdown to that major; the prompt then carries the canonical label and only that major's placements. An unknown or non-string major returns 400 `unknown_major`; omit the field for no major. |
-| `POST /api/ai/models` | `{"provider", "api_key"}` returns `{"top": [...10 newest], "models": [...all, A-Z]}`. OpenRouter needs only `{"provider": "openrouter"}`. |
-| `GET /api/health` | Status and whether the free default mode is configured |
-| `GET /api/exams/catalog` | Published AP/IB admission policies and exam subjects. Optional `policy_year` and `version` restore a saved snapshot. |
-| `POST /api/exams/resolve` | Resolve `{exams: [{id, exam_id, score, level, policy_year, version, state}]}` into sourced NU equivalents. `state` is `estimated` or `awarded`; IB `level` is `HL` or `SL`. Rejects invalid scores, duplicate exams, conflicting policy versions, and awards over 32 credits. |
-
-Errors use `{"error": "...", "code": "..."}`. POST responses are sent with `Cache-Control: no-store`.
-
-</details>
-
-<details>
-<summary><b>AP/IB exam credit</b></summary>
-
-AP/IB entry is available under **Credit before enrollment → Add AP / IB credit**. Select the admission policy year, exam, score, and IB level, then preview the published equivalents. Save an estimate or record credit already awarded by Northeastern. Estimates stay visible but do not satisfy prerequisites or degree requirements. Awarded bundles retain their component credits and published NUpath attributes; shared equivalents are counted once. Existing course-code entry remains available.
-
-The checked-in exam dataset covers **2026–2027**. Other admission years require a matching published snapshot; the app never assumes another year's policy applies. Each saved exam pins its policy version, independent of the requirements catalog year. These records survive local save, import/export, concentration changes, and applied planner proposals.
-
-Refresh AP/IB policy data with:
-
-```sh
 python json_scrapers/exam_scraper.py
 ```
 
-The scraper discovers the linked public charts, respects robots.txt, and extracts their tables with `pdfplumber`. It preserves raw rows, source pages, PDF hashes, and collection dates in `data/exams/<policy-year>/<version>.json`. It refuses ambiguous credit splits or changed score/cap policies before updating `data/exams/catalog.json`. Old snapshots remain available; no database rebuild is needed.
+The archive importer follows links within explicitly selected editions, caches public HTML, and publishes complete snapshots under `data/catalogs/<year>/`. Archived degree rules never replace current browsing data or silently become a newer degree catalog.
+
+The exam scraper discovers public AP/IB charts and extracts their PDF tables with pdfplumber. It preserves raw rows, source pages, PDF hashes, and policy versions in `data/exams/`. Ambiguous credit splits or changed score/cap policies stop publication. Older saved versions remain available.
+
+Awarded exam records are resolved again by the backend; estimates do not satisfy requirements or prerequisites. Equivalent course bundles retain their component credits and published NUpath attributes, overlap is counted once, and the combined award is capped at 32 credits. A different admission year requires its own published policy snapshot.
 
 </details>
+
+## API
+
+The React development server proxies `/api` to `http://localhost:8000`. POST responses use `Cache-Control: no-store`. Errors generally return `{"error": "...", "code": "..."}`; exam-policy validation errors currently return an `error` message without a code.
 
 <details>
-<summary><b>Tests</b></summary>
+<summary><b>Endpoints and request options</b></summary>
 
-```sh
-python3 -m unittest -v                                         # backend: offline, no key, network, or database
-cd frontend && CI=true npm test -- --watchAll=false && npm run build
+| Endpoint | Purpose |
+| --- | --- |
+| `GET /api/search?q=` | Search by code/title. Optional `catalog_year` selects archived course data. |
+| `GET /api/course/<dept>/<number>` | Course details and companion courses. Optional `catalog_year` selects a historical record. |
+| `GET /api/programs` | Program IDs, labels, campus/degree metadata, and sample-plan availability. |
+| `GET /api/programs/<id>/courses?q=&offset=` | Current requirement courses, 20 per page. `view=sections` returns unpaginated sections with preserved alternatives; `concentrations=<id>,<id>` selects concentration blocks. |
+| `GET /api/programs/<id>/concentrations` | Concentration options and selection policy. Optional `catalog_year` selects an archived edition. |
+| `GET /api/programs/<id>/planning-context?catalog_year=` | Planner capability, requirements, sources, sample plans, and replacement summaries. Optional comma-separated `concentrations` selects options. |
+| `POST /api/planner/validate` | Check `{"plan": {...}}` against its selected catalog. Optional `dataset` rejects stale data. |
+| `POST /api/planner/generate` | Send `{"plan": {...}, "mode": "ai"}` or `"mode": "deterministic"`. Returns a checked proposal/diff and ranking outcome. Optional `dataset` and `ai` configuration. |
+| `POST /api/planner/identify` | Send `program_id`, `phrases` (1–15 course names), optional `term`, and optional `ai` configuration. Returns candidate matches for review. |
+| `POST /api/analyze` | Send `dept`, `number`, optional `major`, optional `concentrations`, and optional `ai` configuration for a course explanation. |
+| `POST /api/ai/models` | Send `provider` and `api_key` for model discovery. OpenRouter needs only `provider`. |
+| `GET /api/exams/catalog` | Exam subjects and published policy snapshots. Optional `policy_year` and `version`. |
+| `POST /api/exams/resolve` | Send `{"exams": [...]}` to validate scores/levels and resolve equivalent course awards. |
+| `GET /api/health` | Server status, default model, and whether default AI is configured. |
+
+Custom AI configuration for supported POST routes:
+
+```json
+{
+  "ai": {
+    "mode": "custom",
+    "provider": "openai",
+    "api_key": "your-key",
+    "model": "your-model-id"
+  }
+}
 ```
 
+Providers are `openai`, `anthropic`, `gemini`, and `openrouter`. Omit `ai` to use the default route. Plan exports from the UI provide the plan structure; custom keys are never part of those exports.
+
 </details>
+
+## Tests
+
+With the virtual environment active, from the repository root:
+
+```sh
+python3 -m unittest -v
+```
+
+From `frontend/`:
+
+```sh
+CI=true npm test -- --watchAll=false
+npm run build
+```
+
+Backend tests mock provider requests and use temporary databases; they need no AI key, network, or prebuilt `var/courses.db`. Coverage includes prerequisite ordering, requirement allocation, historical catalogs, replacement scope, AP/IB overlap, ranking recovery, protected records, and frontend review/apply behavior.
+
+To run only the API during development, use `python3 -m backend.advisor`. `FLASK_DEBUG=1` enables Flask's development reloader/debugger; keep it off in production. A hosted deployment needs the built React frontend and a production Python server serving `backend.advisor:app`, with HTTPS for requests carrying user keys.
 
 ---
 
-<sub>Not affiliated with or endorsed by Northeastern University. Course data comes from the public [Northeastern course catalog](https://catalog.northeastern.edu/). AI output can be wrong, so confirm with your academic advisor before registering.</sub>
+<sub>Not affiliated with or endorsed by Northeastern University. Sources: the public <a href="https://catalog.northeastern.edu/">Northeastern academic catalog</a> and published AP/IB policies. This is a planning aid, not an official degree audit. Confirm requirements and registration decisions with Northeastern advising.</sub>

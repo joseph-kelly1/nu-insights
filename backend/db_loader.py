@@ -3,10 +3,10 @@ SQLite Database Loader for NEU Course Data
 
 Reads the scraped JSON files produced by the json_scrapers/ scripts
 (departments, per-department course files, and sample plans of study)
-and loads them into a normalized SQLite database (courses.db).
+and loads them into a normalized SQLite database (var/courses.db).
 
 Usage:
-  python db_loader.py
+  python -m backend.db_loader
 
 Expects this file structure:
   data/
@@ -42,10 +42,11 @@ import re
 from pathlib import Path
 import sqlite3
 
-# --- Configuration: adjust these paths to match your repo ---
-DEPARTMENTS_FILE = "data/departments.json"
-COURSES_DIR = "data/courses"
-DB_FILE = "courses.db"
+from .paths import DATA_DIR, DB_FILE as DEFAULT_DB_FILE
+
+DEPARTMENTS_FILE = str(DATA_DIR / 'departments.json')
+COURSES_DIR = str(DATA_DIR / 'courses')
+DB_FILE = str(DEFAULT_DB_FILE)
 
 
 def create_tables(cur: sqlite3.Cursor):
@@ -521,6 +522,7 @@ def verify(cur: sqlite3.Cursor):
 
 
 if __name__ == "__main__":
+    Path(DB_FILE).parent.mkdir(parents=True, exist_ok=True)
     # Remove old DB if it exists
     if os.path.exists(DB_FILE):
         os.remove(DB_FILE)

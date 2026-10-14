@@ -5,7 +5,9 @@ import json
 from pathlib import Path
 import re
 
-DATA_DIR = Path(__file__).resolve().parent / 'data' / 'exams'
+from .paths import DATA_DIR as CATALOG_DIR
+
+DATA_DIR = CATALOG_DIR / 'exams'
 
 
 class ExamCreditError(ValueError):

@@ -13,11 +13,11 @@ import tempfile
 import unittest
 from unittest import mock
 
-import advisor
-import db_loader
-import planner
-import planner_rules
-from ai_providers import AIError
+from backend import advisor
+from backend import db_loader
+from backend import planner
+from backend import planner_rules
+from backend.ai_providers import AIError
 from json_scrapers import course_scraper
 
 

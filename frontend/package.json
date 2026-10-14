@@ -16,7 +16,7 @@
   "scripts": {
     "start": "concurrently --kill-others \"npm run api\" \"npm run frontend\"",
     "frontend": "react-scripts start",
-    "api": "cd .. && python3 advisor.py",
+    "api": "cd .. && python3 -m backend.advisor",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

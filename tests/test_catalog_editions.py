@@ -7,14 +7,14 @@ import tempfile
 import unittest
 from unittest import mock
 
-import advisor
-import catalog_editions
-import db_loader
-import planner
+from backend import advisor
+from backend import catalog_editions
+from backend import db_loader
+from backend import planner
 from json_scrapers import course_scraper, requirements_scraper
-from test_planner import attempt, plan
+from tests.test_planner import attempt, plan
 
-ROOT = Path(__file__).resolve().parent / 'data'
+ROOT = Path(__file__).resolve().parents[1] / 'data'
 PROGRAM = {'id': 'bscs', 'major_name': 'Computer Science', 'degree': 'BSCS', 'campus': 'Boston',
            'label': 'Computer Science, BSCS (Boston)'}
 

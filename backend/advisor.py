@@ -3,7 +3,7 @@ Course Advisor — Flask API Backend
 
 Serves REST endpoints for the React frontend to search, browse, and get
 AI-powered analysis of Northeastern University courses. Course data is
-read from a local SQLite database (courses.db) populated by db_loader.py.
+read from a local SQLite database (var/courses.db) populated by db_loader.py.
 AI analysis uses free OpenRouter models with per-request fallback by default, or the
 user's own provider key and model for a single request (see ai_providers.py).
 
@@ -38,14 +38,15 @@ from flask import Flask, request, jsonify
 import openai
 from werkzeug.exceptions import RequestEntityTooLarge
 
-import ai_providers
-from ai_providers import AIError
-import planner
-import exam_credit
-import catalog_editions
-from planner import PlanError
+from . import ai_providers
+from .ai_providers import AIError
+from . import planner
+from . import exam_credit
+from . import catalog_editions
+from .planner import PlanError
+from .paths import DB_FILE as DEFAULT_DB_FILE, PROJECT_ROOT
 
-load_dotenv()
+load_dotenv(PROJECT_ROOT / '.env')
 
 
 # --- Configuration ---
@@ -77,7 +78,7 @@ if bad := [m for m in (PRIMARY_MODEL, *FALLBACK_MODELS) if not re.fullmatch(r"[\
 REASONING_ENABLED = _bool_env("OPENROUTER_REASONING_ENABLED", "false")
 MAX_TOKENS = _positive_env("OPENROUTER_MAX_TOKENS", "2048", int)
 TIMEOUT_SECONDS = _positive_env("OPENROUTER_TIMEOUT_SECONDS", "35", float)
-DB_FILE = "courses.db"
+DB_FILE = str(DEFAULT_DB_FILE)
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 16 * 1024  # request bodies are tiny; this caps key/config payloads
@@ -974,7 +975,7 @@ def api_planner_identify():
         catalog = planner._catalog(DB_FILE, planner.dataset_fingerprint(conn))
         candidates = planner.identify_candidates(conn, catalog, program['id'], phrases)
     except sqlite3.OperationalError:
-        return jsonify({'error': 'Planning data is not loaded. Rebuild the database with python3 db_loader.py.',
+        return jsonify({'error': 'Planning data is not loaded. Rebuild the database with python3 -m backend.db_loader.',
                         'code': 'planner_data_missing'}), 503
     finally:
         conn.close()

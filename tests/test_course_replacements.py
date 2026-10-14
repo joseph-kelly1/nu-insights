@@ -14,14 +14,14 @@ import tempfile
 import unittest
 from unittest import mock
 
-import advisor
-import catalog_editions
-import course_replacements as cr
-import db_loader
-import planner
-from test_planner import attempt, choose, context, course, messages, nupath, placed, plan, pool, timeline
+from backend import advisor
+from backend import catalog_editions
+from backend import course_replacements as cr
+from backend import db_loader
+from backend import planner
+from tests.test_planner import attempt, choose, context, course, messages, nupath, placed, plan, pool, timeline
 
-ROOT = Path(__file__).resolve().parent / 'data'
+ROOT = Path(__file__).resolve().parents[1] / 'data'
 URL = 'https://www.khoury.northeastern.edu/example/'
 PROGRAM = {'id': 'bscs', 'campus': 'Boston'}
 

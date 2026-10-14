@@ -13,7 +13,7 @@ from unittest import mock
 import httpx2 as httpx
 import openai
 
-import advisor
+from backend import advisor
 
 COURSE = {
     "id": 1, "department_code": "cs", "number": "3000", "title": "Algorithms and Data", "credits": 4.0,
@@ -56,6 +56,7 @@ class ApiTest(unittest.TestCase):
             ("PRIMARY_MODEL", "google/gemma-4-31b-it:free"),
             ("FALLBACK_MODELS", ["openrouter/free"]),
             ("lookup_course", lambda d, n: dict(COURSE) if (d.lower(), n) == ("cs", "3000") else None),
+            ("course_companions", lambda code: []),
             ("lookup_schedule_context", lambda d, n: PLANS),
             ("lookup_plan_dataset", lambda: {"catalog_year": None, "current_catalog_year": None, "plan_count": 2, "historical": False}),
         ]:
@@ -608,8 +609,8 @@ class ConfigTest(unittest.TestCase):
 
     def load(self, **overrides):
         env = {**os.environ, **self.BASE, **overrides}
-        return subprocess.run([sys.executable, "-c", "import advisor; print(advisor.FALLBACK_MODELS)"],
-                              cwd=os.path.dirname(os.path.abspath(__file__)), env=env, capture_output=True, text=True)
+        return subprocess.run([sys.executable, "-c", "from backend import advisor; print(advisor.FALLBACK_MODELS)"],
+                              cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__))), env=env, capture_output=True, text=True)
 
     def test_fallbacks_are_trimmed_deduplicated_and_exclude_primary(self):
         result = self.load(OPENROUTER_FALLBACK_MODELS=" a/b:free , a/b:free,google/gemma-4-31b-it:free,,")
@@ -648,7 +649,7 @@ class PlanProvenanceDatabaseTest(unittest.TestCase):
         import sqlite3
         import tempfile
         from pathlib import Path
-        import db_loader
+        from backend import db_loader
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'courses.db'
             with contextlib.closing(sqlite3.connect(path)) as conn:
@@ -744,7 +745,7 @@ class ProgramBrowseDatabaseTest(unittest.TestCase):
         import sqlite3
         import tempfile
         from pathlib import Path
-        import db_loader
+        from backend import db_loader
         directory = tempfile.TemporaryDirectory()
         self.addCleanup(directory.cleanup)
         path = Path(directory.name) / "courses.db"
@@ -811,7 +812,7 @@ class ProgramBrowseDatabaseTest(unittest.TestCase):
 
 class ProgramLabelTest(unittest.TestCase):
     def test_repeated_titles_get_their_college_and_lost_parens_return(self):
-        import db_loader
+        from backend import db_loader
         labels = db_loader.program_labels([
             {"major": "a", "major_name": "IS", "program_title": "Interdisciplinary Studies, BS (Oakland)", "college": "Science"},
             {"major": "b", "major_name": "IS", "program_title": "Interdisciplinary Studies, BS (Oakland)", "college": "Khoury"},

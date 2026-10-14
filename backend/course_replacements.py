@@ -12,8 +12,8 @@ import hashlib
 import json
 import re
 
-import catalog_editions
-from planner_rules import GRADES
+from . import catalog_editions
+from .planner_rules import GRADES
 
 CODE = re.compile(r'[A-Z]{2,5} \d{2}[0-9A-Z]{2}')
 YEAR = re.compile(r'\d{4}-\d{4}')

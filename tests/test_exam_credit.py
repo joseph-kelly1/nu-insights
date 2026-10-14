@@ -3,11 +3,11 @@
 import unittest
 from unittest import mock
 
-import advisor
-import exam_credit
-import planner
+from backend import advisor
+from backend import exam_credit
+from backend import planner
 from json_scrapers import exam_scraper
-from test_planner import attempt, choose, context, course, nupath, plan, pool
+from tests.test_planner import attempt, choose, context, course, nupath, plan, pool
 
 
 def exam(name, kind='ap', score=5, level=None, state='awarded', id_=None):
